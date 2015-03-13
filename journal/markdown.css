@@ -1,3 +1,19 @@
+table, th, td {
+  border: 1px solid black;
+}
+
 table {
-  border: 2;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #FFFFDD;
+}
+
+tr.alt td {
+  background-color: #EAF2D3;
 }
