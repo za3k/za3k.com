@@ -1,6 +1,10 @@
 Tricks fuckpet has learned
 ==========================
 
+![Fuckpet](/lea.png "Fuckpet")
+
+![Dani](/me.jpg "Dani")
+
 | Trick              | Learned | Description                                                                                     |
 |--------------------|---------|-------------------------------------------------------------------------------------------------|
 | Good boy           |         | Feel really happy and turned on                                                                 |
@@ -11,3 +15,11 @@ Tricks fuckpet has learned
 | Look               |         | Look Dani in the eyes. No looking away until Dani tells you "You can look away now" or lets go of collar.            |
 | Down               | No      | Sprawl on the ground                                                                            |
 | Up                 | No      | Get back up after **Down**                                                                      |
+
+Nice treats
+===========
+
+- Oreos
+- Scooby snack (?)
+- Relief (a break / finishing)
+- "Good boy"

@@ -18,3 +18,7 @@ th {
 tr.alt td {
   background-color: #EAF2D3;
 }
+
+img {
+  size: 200px;
+}
