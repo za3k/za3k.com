@@ -1,0 +1,14 @@
+Tricks fuckpet has learned
+==========================
+
+| Trick              | Learned | Description                                                                                     |
+|--------------------|---------|-------------------------------------------------------------------------------------------------|
+| Good boy           |         | Feel really happy and turned on                                                                 |
+| Get close          |         | Get close to squirting. Fuckpet is allowed to squirt.                                           |
+| Get close, quickly |         | Get close to squirting, and squirt. 5-30 seconds                                                |
+| Come out, Ciel     | No      | Turn yourself on                                                                                |
+| Sit                |         | No squirting, no finishing. Touching is allowed but fuckpet knows they can't control enough to. |
+| Look               |         | Look Dani in the eyes. No looking away until Dani tells you.                                    |
+| Look (yank collar) |         | Look Dani in the eyes. No looking away until Dani lets go.                                      |
+| Down               | No      | Sprawl on the ground                                                                            |
+| Up                 | No      | Get back up after **Down**                                                                      |
