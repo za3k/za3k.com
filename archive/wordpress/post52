@@ -1,0 +1,10 @@
+Reading code
+
+I've recently resolved to start reading other peoples' source code.  However, I've noticed that everything I have sitting around falls into four categories.
+<ol>
+    <li>Stuff I wrote (not much)</li>
+    <li>Stuff too large to read (i.e. Mozilla, Pidgin, OpenOffice  and most other things I use)</li>
+    <li>Something closed-source (i.e. mu torrent, K media player, Abyss webserver)</li>
+    <li>Something I hate (not much I haven't deleted.  I'm tidy like that.)</li>
+</ol>
+So, if anyone has some not-too-big code they recommend I'd love suggestions.  Stuff you wrote is cool.  Stuff you didn't write is cool.  Open source things you contributed a bit to is cool.  Stuff in C is cool.  Stuff in LISP is cool.  Stuff that's elegant is cool.  Stuff that's buggy and kludgy is cool.  Whatever.  As long as I can read it in a few days.

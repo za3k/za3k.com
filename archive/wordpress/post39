@@ -1,0 +1,28 @@
+Euler problem 25
+
+<pre lang="scheme">
+;What is the first term in the
+;Fibonacci sequence to contain 1000 digits?
+(define (square x) (* x x))
+
+(define (pow man exp)
+  (cond
+    ((= exp 0) 1)
+    ((< exp 0) (/ 1 (pow exp (- man))))
+    ((even? exp) (square (pow man (/ exp 2))))
+    ((odd? exp) (* man (square (pow man (/ (- exp 1) 2)))))
+    (else #f)))
+
+(define (prob25 digits)
+  (let ((big-const (pow 10 (- digits 1))))
+    (let fib ((first 1) (second 1) (count 1))
+      (if (>= first big-const)
+          count
+          (begin
+            ;(display first) (display " ") (display count) (newline)
+            (fib second (+ first second) (+ count 1))
+            )))
+    )
+  )
+
+(prob25 1000)</pre>

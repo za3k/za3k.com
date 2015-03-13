@@ -1,0 +1,9 @@
+The Blue Programming Language
+
+Recently I've been searching for a new programming language, becoming discontent with the prospects of Scheme.  That's not to say I don't like Scheme--just that no one I know is willing to use or read anything I write in it.  So, I'm currently looking at a few langauges, and along the way I stopped by a little scripting language Eric Lechak wrote called Blue.  It's got a core object oriented system I like alright, although I feel it has a few too many things left over from C.  It doesn't feel elegant to me (coming most recently from Scheme, what would?), but it executes quickly.
+
+However, this object system I was talking about is pretty neat, because you can arbitrarily give any object an attribute, like a color (string) or a diameter (floating point).  Methods are just function attributes.  I got into a discussion (read: polite row) about types with Mr. Lechak, and found out that if we add something he names prototyping, we have the object-oriented system of my dreams.  Prototyping allows (in C++ terms) every object to act as the "prototype" for a new class.
+
+Now, it makes some things awkward, but since I don't use too much object-oriented design (no multiple inheritance, for instance) it's good by me.  Mr. Lechak tells me it will slow down execution speed (particularly for his main concern, multiple processors), which I will have to take his word for, knowing nothing about compiler design.  Being a firm believer in ease-of-programming over speed of execution, I care not a whit, and continue to be enchanted by the simplicity of prototyping.
+
+Be sure to tune in next week, when I hate prototyping and demonstrate my new favorite language, &lt;foo&gt;.

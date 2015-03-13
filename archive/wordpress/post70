@@ -1,0 +1,61 @@
+Objects in Scheme
+
+Last night, I hacked up an object system in scheme.  I've been meaning to learn one, and but somehow I ended up writing one instead.  It is currently rather Pythonesque, but can be subtly modified to give a number of object system I find interesting.  It is most suitable for flexible duck typing, in my opinion.
+
+The starting object system is very basic - there is no inheritance.  You can dynamically assign attributes and methods.  If you assign a method, it binds the first argument of the method to the object--denoted "self" in Python, or "this" in C++ based languages.  You can freely reassign both, but there's currently no support for deleting.
+
+So, it's basically a dynamic version of 'struct'.  We could have a version that doesn't allow modifying methods (only adding them).  This would mean any object that "inherited" from an earlier version would be guaranteed to have not only the same methods as is true right now, but also the same versions of those methods.  This is a somewhat interesting type system--it's monotonic in a sense.  If we disallow even modifying methods, we 'freeze' the class and get a static interface.
+
+If we disallow adding new attributes or adding or modifying methods, we get something like a static struct.  If we disallow any changes, we freeze the struct into a single, nonmodifiable object.
+
+By adding a "derive" operation (perhaps used by calling the object itself, with no arguments), we can add prototyping.  An object looks for an attribute in its current namespace.  If it's not there, it looks in the parent object.  If we start allowing methods to be deleted, we can decide that a child object no longer implements the same interface.  This is not inheritence any more, but could allow more efficient implementation for the programmer (a la "private" inheritance in C++ or the "not defined" I've heard the Gang of Four reference in Smalltalk).
+
+The biggest thing I'd like to add personally is this derivation I mention, and deletion of at least attributes.
+<pre lang="scheme">Objects with optional mutation in Scheme
+;An object has one special method, "call-method", which is called when the object is invoked as a function.
+;All methods including call-method may or may not mutate the object.
+;Attributes are accessed like (dot obj attribute-name).
+;Methods are accessed like (dot obj method-name) -- this returns the (bound) method
+;Attributes and methods are modified or set with dota and dotm, which return a modified object without changing the original object.
+;Attributes and methods are dota! and dotm! do the same thing, except that they modify the original object and return it.
+
+(define (remassq obj list) (remq (assq obj list) list))
+
+(define (make-object)
+  (letrec ([make-object-raw-helper (lambda (self attributes methods)
+                                     (lambda function-and-args
+                                       (if (null? function-and-args)
+                                           (begin (error "Object cannot be called as a function") #f)
+                                           (let ([function (car function-and-args)]
+                                                 [args (cdr function-and-args)])
+                                             (cond [(and (eq? function 'dot) (= (length args) 1))
+                                                    (let ([attr (assq (car args) attributes)])
+                                                      (if (list? attr)
+                                                          (second attr)
+                                                          (let ([meth (assq (car args) methods)])
+                                                            (if (list? meth)
+                                                                (let ([unbound-method (second meth)])
+                                                                  (lambda (parameters) (unbound-method self parameters)))
+                                                                (begin (error "Invalid attribute.") #f)))))]
+                                                   [(and (eq? function 'dota) (= (length args) 2))
+                                                    (make-object-raw (cons args (remassq (car args) attributes)) (remassq (car args) methods))]
+                                                   [(and (eq? function 'dotm) (= (length args) 2))
+                                                    (make-object-raw (remassq (car args) attributes) (cons args (remassq (car args) methods)))]
+                                                   [(and (eq? function 'dota!) (= (length args) 2))
+                                                    (set! attributes (cons args (remassq (car args) attributes)))
+                                                    self]
+                                                   [(and (eq? function 'dotm!) (= (length args) 2))
+                                                    (set! methods (cons args (remassq (car args) methods)))
+                                                    self]
+                                                   [(eq? function 'initialize-self!) (set! self (first args)) self]
+                                                   [else (error "Object cannot be called as a function") #f])))))]
+           [make-object-raw (lambda (attributes methods) (let ((obj (make-object-raw-helper 'dummy attributes methods)))
+                                                           (obj 'initialize-self! obj)))])
+    (make-object-raw '() '())))
+
+(define (dot obj attribute-or-bound-method) (obj 'dot attribute-or-bound-method))
+(define (dota! obj attribute-name attribute-value) (obj 'dota! attribute-name attribute-value))
+(define (dotm! obj unbound-method-name unbound-method-value) (obj 'dotm! unbound-method-name unbound-method-value))
+(define (dota obj attribute-name attribute-value) (obj 'dota attribute-name attribute-value))
+(define (dotm obj unbound-method-name unbound-method-value) (obj 'dotm unbound-method-name unbound-method-value))</pre>
+There are two downsides of the system that I don't see a way around.  First, you can't use the object like a function.  To allow this, we'd have to disallow passing certain symbols as the first argument, which is extremely clunky (see code below to understand why).  Second, I'd much prefer the operator to be . rather than "dot", but that's a reserved word in Scheme.  It's not used for much, so that's rather annoying.  .a and .m would are allowable, but for consistency they're dota and dotm here.  If anyone knows a way to allow calling the object like a function, please let me know.

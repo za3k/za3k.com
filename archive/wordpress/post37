@@ -1,0 +1,5 @@
+Coding C
+
+I've been taking a break from my other projects to learn C.  Since I already know C++ fairly well, this is most fun when I write hideous C involving pointer arithmetic.  Right now I'm writing an interpreter (or more accurately I'm starting by writing a tokenizer, which isn't working yet and which I may not choose to go past.
+
+More importantly, I'm doing the whole thing over ssh on a BSD box, thus learning *nix at the same time.  Since I used about three commands, I'm not learning *much* but there you go.

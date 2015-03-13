@@ -1,0 +1,9 @@
+Funny scheme program and Java
+
+I encountered this bit of nonsense recently:
+
+<span class="fixed_width" style="font-family: Courier,Monospaced;">(let* ((yin ((lambda (foo) (newline) foo)
+(call/cc (lambda (bar) bar))))
+(yang ((lambda (foo) (write-char #\*) foo)
+(call/cc (lambda (bar) bar)))))
+(yin yang)) </span>

@@ -1,0 +1,29 @@
+Scripts files
+
+Today I'm posting some short excepts from my scripts directory.
+
+<strong>random</strong>
+<pre lang="python">#!/usr/bin/python
+import random
+import fileinput
+lines = (line.rstrip("\r\n") for line in fileinput.input())
+print(random.choice(list(lines)))</pre>
+The first is one of my favorites.  It prints a random line from a file.  I use it to decide which movie to watch, what to-do item to work on next, or as part of other scripts.
+
+<pre lang="bash">
+alias brc='$EDITOR ~/.bashrc;source ~/.bashrc'
+alias ba='$EDITOR ~/.bash_aliases;source ~/.bash_aliases'
+</pre>
+
+I think it makes sense to be able to define new bash 'syntax' in as few keystrokes as possible.
+
+<pre lang="bash">
+alias lssize="du -hs * .[^.]* | sort -hr"
+alias clocky="watch --interval=1 --no-title date +%c"
+alias g="$BROWSER www.google.com?q=$1"
+alias ps?="ps aux | grep"
+alias up?="ping 8.8.8.8"
+alias inbox="~/script/list ~/journal/inbox"
+alias last="history 2 | head -n1 | tr -s ' ' | cut -d ' ' -f4-"
+alias confirm="random script/confirm.txt"
+</pre>

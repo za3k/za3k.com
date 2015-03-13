@@ -1,0 +1,25 @@
+Marking text for localization
+
+So, in a project I recently wanted to mark strings which would be displayed on screen.  The standard solution is basically to put all the strings in their own file.  However, this stops me from locating the correct part of code to edit from UI element text (moving one step of search to two or more).  Also, our project is only in English -- marking text for localization is solely so we can make sure we'll be able to support additional languages later and let nonprogrammers have a list of all the text in the app.
+
+My solution?  Since the project is in C (well, Objective C):
+<pre lang="c">
+#define TEXT(x) x</pre>
+A simple C macro, marking text for display.
+
+The following bash script prints all the pieces of text marked like this in the file:
+<pre lang="bash">#!/bin/bash
+find . -name "*.[mh]" | while read file; 
+do 
+    echo $file; 
+    m4 text.m4 "$file" | while read line; 
+    do 
+        echo "   " "$line"; 
+    done; 
+done</pre>
+<pre lang="m4"># text.m4
+divert(-1)
+define(`TEXT',`divert(1)$1
+divert(-1)')</pre>
+
+This could be a useful trick for "filtering" files into tagged sections in general, in addition to localization.

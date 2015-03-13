@@ -1,0 +1,22 @@
+Euler Problem 1
+
+I've decided to do a series of posts with my solutions to the Euler problems.  They'll be tagged with "euler", and once I figure out how I'll stop them from showing up on the main page.
+<pre lang="scheme">This is the first Euler Problem
+(define sum
+  (lambda (x) (apply + x)))
+(define product
+  (lambda x (apply * x)))
+(define sum-1-to-n
+  (lambda (x) (* (/ 1 2) x (+ x 1))))
+(define (1+ x) (+ x 1))
+(define (-1+ x) (- x 1))
+
+(let
+    ((smalllist '(3 5 6 9 10 12 15))
+     (num15s (quotient 1000 15)))
+  "(* num15s 15) -> 990, so we add the last few by hand"
+  (+ (* 15
+        (length smalllist)
+        (sum-1-to-n (-1+ num15s)))
+     (* num15s (sum smalllist))
+     993 995 996 999))</pre>

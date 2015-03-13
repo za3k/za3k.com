@@ -1,0 +1,17 @@
+Python and a new project
+
+This past month I've been learning python.  I wanted to see what all the hype was about.  As it turns out, it's actually justified.  I don't feel like python is a fundamental improvement over imperative langauges like C++ , php, and Java that I already know, but it's more streamlined.  The language design is obviously excellent.  The code is easy to read.  For example, the if statement is
+<pre>if b==0:</pre>
+<pre>    print "Divide by zero</pre>
+<pre>else:</pre>
+<pre>    print a/b</pre>
+you get used to the forced formatting.  It's definitely worth it to have shorter, nicer-looking code.  Debugging: b=0 is not a legal conditional.  You don't have to declare variables, but you do have to assign somethint to them before passing them to a function, etc.  The compiler will usually catch something like:
+<pre>abc=12</pre>
+<pre>print fibbonacci(abbc)</pre>
+The exception to this rule is attributes of objects.  Objects can have attributes added dynamically, so it doesn't work.  My pet peeves so far:  Python has some behavior toward global variables I still can't figure out.  Lambda expressions are not lambda functions, but they're similar enough I expected them to be.  They raised by expectations and dashed them.  You can pass functions as objects, make them at runtime, etc.  You just have to name them.  So I don't like the keyword "lambda", although I admit I have no better alternative.  Similarly, there's a while..else and for...else that do not do what I would expect.  Default functions for arguments and default values for objects are only initialized once.  For instance,
+<pre>function cache(item, array = []):
+array.append(item)
+print array</pre>
+<pre>cache(1) --&gt; [1]
+cache(2) --&gt; [1, 2]</pre>
+This probably slightly optimizes the resulting program but it's counterintuitive.  My last gripe, and one that seems a language standard (for instance this annoyed me about Java), is the following: assignment is inconsistent.  Numbers and get copied by value, objects and collections get a reference copied.  I'd like to see designers go with a deep copy, shallow copy, or reference for EVERYTHING sometime, so I don't have to check types when I'm doing an assignment, particularly in a dynamically-typed language like Python.  However, deep and shallow copies are available as probably-can-do-it functions in a standard python module.  Overall, Python seems like an amazingly relaxing language to program in (from someone who gets stressed over debugging easily).  It also seems like it has decent libraries from what I've seen so far--I'll have to examine that more when it comes up (my current project being a roguelike, I only need to print colored ASCII characters).  But, it also doesn't seem fundamentally different from C++, etc.  So if you're into the whole imperative, optionally object-oriented paradigm I recommend it, but I probably won't be sticking with it for my own use.

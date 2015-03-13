@@ -1,0 +1,14 @@
+How to install Python, Qt, and PyQt on MacOS 10.6.4 (64-bit).
+
+<ol>
+    <li>Get macports</li>
+    <li>Install Python 3.1.3, using the online download at Python's website.</li>
+    <li>In Terminal, type:
+<pre>sudo port install py31-pyqt4</pre>
+</li>
+    <li>To test the  install, type
+<pre>python
+</pre>
+to start the interactive interpreter and run the following test program:</li>
+    <li>The QT Creator IDE design kit can be downloaded from <a href="http://qt.nokia.com/downloads/sdk-mac-os-cpp">http://qt.nokia.com/downloads/sdk-mac-os-cpp</a>.</li>
+</ol>

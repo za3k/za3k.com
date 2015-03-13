@@ -1,0 +1,27 @@
+How to write a compiler generator
+
+http://www.cubiclemuses.com/cm/blog/archives/000419.html/
+
+I read this article recently.  It talks about how to use a partial evaluator to write a compiler generator (a program that transforms an interpreter for a language, into a compiler for that language).
+
+Now, while I don't have a partial evaluator, I do have a compiler generator, PyPy.  It takes an interpreter written in RPython, a subset of Python, and makes a compiler out of it.  This is fine, except what if I prefer not to use RPython, but my language of choice?  Say I'm working in Scheme.  If I get:
+<ol>
+    <li>A Scheme -&gt; RPython compiler written in RPython</li>
+    <li>A Scheme interpreter written in Scheme</li>
+</ol>
+Then by running (1a) with the code to (2a), I get a Scheme interpreter written in RPython.  PyPy converts this to a Scheme compiler to any bytecode PyPy supports.
+
+Let's assume PyPy can compile to RPython, in particular (I do not know that this is true, but if it's not, it's useful enough to be worth writing).  Then if we write a Scheme interpreter in RPython, we can use PyPy to get (1) directly.  Start with any version of Scheme, Scheme<sub>1</sub>, then all I really need is to write a Scheme<sub>1</sub> to RPython compiler.   Then, write (2b), a Scheme<sub>2</sub> interpreter in Scheme1.  Running (1a) with (2b) gives us a Scheme2 -&gt; anything compiler.  In particular, it gives us (1b), a Scheme<sub>2</sub> -&gt; RPython compiler.  And we can use this to take a Scheme<sub>3</sub> interpreter written in Scheme<sub>2</sub> and get a Scheme<sub>3</sub> -&gt; RPython compiler, and so on.  Eventually, we opt to compile to bytecode rather than RPython, and get a Scheme<sub>3</sub> -&gt; Bytecode compiler in addition.  So basically, we start with
+<ol>
+    <li>A Scheme<sub>1</sub> interpreter, written in RPython</li>
+    <li>A Scheme<sub>2</sub> interpreter, written in Scheme<sub>1</sub></li>
+    <li>A Scheme<sub>3</sub> interpreter, written in Scheme2 (and so on)</li>
+</ol>
+And we can get a bytecode compiler for Scheme<sub>3</sub>, with only PyPy, an RPython -&gt; Bytecode and RPython -&gt; RPython compiler generator.
+
+This is to say the least, fairly neat.  Now, remember that we don't have to write interpreters the hard way.  So here's an interesting option--use eval.  Then, we can add just one tiny feature (say, writing a function or macro to be a new keyword), and we can take our two old programs, the two compilers PyPy generated at the last stage, and get a new pair of compilers (one RPython, one bytecode).
+
+Of course, we don't really care directly about the RPython compiler.  One possibility is to wrap this somehow.  We could easily write a
+"compiler generator N" wrapper function that takes as arguments the new Scheme<sub>N+1</sub> eval function, as written in Scheme<sub>N</sub>, and a Scheme<sub>N</sub>-&gt;RPython function, runs things through PyPy, and outputs a Scheme<sub>N+1</sub> RPython compiler and a Scheme<sub>N+1</sub> bytecode compiler.  Now, just hide the RPython compiler input and output in global variables somewhere in the compiler itself (okay, it's actually a bit harder than I make it sound), and you have new new built-in, compiler-generator.  It takes as arguments a replacement eval function, and outputs a compiler (with the compiler-generator function updated to use the new global variable, and thus accept eval written in the new language).  Using compiler-generator it's a few lines to redefine lambda or macro so that they output a new compiler with that function or macro as a keyword!  Happy hacking,
+
+-Za3k

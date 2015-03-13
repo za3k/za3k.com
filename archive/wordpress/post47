@@ -1,0 +1,29 @@
+Boy's first library
+
+I'm currently working on a discrete, finite probability library.  It's progressing fairly well.  The only downside to the library, as I'm beginning to realize, is that most probabilities, even discrete ones, are not in a finite number of categories.
+
+However, here's some examples of what the library <strong>can</strong> do.
+<ul>
+    <li>All calculations are exact.</li>
+    <li>You can model dice.  I wrote a dice function that rolls 2d6, 3d6, 1d4, 27d27, etc.  I also modeled a few systems I like (for instance Dungeons and Dragons' 4-die ability roll).</li>
+    <li>You can transform a function.  For instance, you can take a hero's ability score in D&amp;D, subtract 10, divide by 2, and round down to get the distribution of modifiers.</li>
+    <li>You can combine distributions using a function.  For instance, given 2d6 and 3d4, you can find the distribution of 2d6+3d6.  More interestingly, you can find the distribution of those two combined using any function whatsoever (for instance, multiply and take the square root, to get the geometric mean).  If the function returns a distribution itself, this can let you do some tricky things like have distributions of distributions (which the library of course has a 'compose' function for if you didn't want that).</li>
+    <li>You can make a uniform distribution out of an arbitrary set of things, which is often a helpful starting point.  You can give the library a list of things and their probabilities, but since that's how the library stores distributions, that's a little boring for me.</li>
+    <li>If the distribution is all numbers, you can get the mean, median, quartiles, a cumulative version of the distribution.</li>
+    <li>You can make a random generator out of a distribution (for instance, given the d6 distribution, make a function that returns a random number 1-6 whenever called).</li>
+    <li>You can plot numerical distributions (approximated by a polynomial, too.) and their cumulative versions along with boxplot stats.  This doesn't return anything, it just dumps a bunch of pretty graphs and statistics.</li>
+</ul>
+This is my to-do list for the library:
+<ul>
+    <li>Standard distributions like the binomial distribution</li>
+    <li>Standard deviation and variance</li>
+    <li>Fix - the 'window' of the graph is determined by the points in the distribution.  It should also take into account the approximating polynomial, which can go off screen at present.</li>
+    <li>Fix - the random number generators made my polynomials are almost certainly subject to rounding errors at present.  Change that.</li>
+    <li>Add permutations, and the standard distributions of permutations</li>
+    <li>The ultimate goal - a scheme macro, dist-random, which would do something like the following:</li>
+</ul>
+(<strong>dist</strong> (+ (<strong>dist-random</strong> 1 2 3) (<strong>dist-random</strong> 1 2 3)))
+
+Which would return the distribution 2d3.  This would allow you to take a normal program that uses random generation, replace the random generators with <strong>dist-random</strong>, and wrap the whole thing in <strong>dist</strong>, and get back the distribution of outputs that program *would* have given is dist-random were actually a random number generator.  For instance, you could take a poker program that draws a hand of five cards and tells you what you got, and use this library to wrap it such that you just got a distribution of the hands in poker.  Remember too, that these are all <em>exact</em> probabilities.
+
+If you have comments or suggestions, please contact me.  I'd especially like to hear anything you think I should add to the library.

@@ -1,0 +1,15 @@
+Java sort
+
+A quick routine to sort the keys in a Java dictionary by the corresponding value:
+
+<pre lang="java">
+public static <X, Y extends Comparable<Y>> List<X> getKeysSortedByValue(final Map<X, Y> input) {
+               List<X> results = new ArrayList<X>(input.keySet());
+               Collections.sort(results, new Comparator<X>() {
+                       public int compare(X k1, X k2) {
+                               return input.get(k1).compareTo(input.get(k2));
+                       }
+               });
+               return results;
+       }
+</pre>

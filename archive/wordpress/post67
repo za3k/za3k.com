@@ -1,0 +1,27 @@
+Portable, Virtual Me (Part 1)
+
+I recently purchased a flash drive.  Surprisingly, I still have it; probably won't last long.  I wanted to put all my data on it and be portable.  Unfortunately, this wouldn't let me keep my installed programs or settings, and so forth.  Ideally, I'd like to keep everything down to the applications I have running.  Virtual computing lets me do that.  Specifically, I'd like to
+<ul>
+    <li>Have one copy of my data, for space and synchronization.  This should be accessible quickly in one format by all operating systems; no networking, and I picked FAT32.</li>
+    <li>Have several operating systems I can copy like files, and which are machine-independent.  Running an OS in a virtual machine means that even when I switch computers, it seems the same hardware.  This is nice for Linux and vital for Windows, which doesn't like switching computers.</li>
+    <li>Be able to version my data and optionally my operating system.</li>
+    <li>Ideally, be able to run more than one OS at a time.  I'm lazy, and prefer to do things the easiest way possible.  Also, running stuff on two computers could again cause sync issues.</li>
+    <li>Be able to work offline.  This means I need to carry it, not have it on a server somewhere.  Of course, I can still use a remote server if I need computing power (I've been itching for a netbook); it's just an option.</li>
+</ul>
+For those of you who may not know, a virtual computer is a program that acts like a generic computer emulator.  It runs virtual hardware, on which you can install an operating system, insert CDs, etc.  Setups can be a little more flexible this way, of course.  To add a hard drive, you can just tell the program to use a specific file.  A friend recommended I try VirtualBox, which can do almost everything I need.  It's put out by Sun and will run on most major operating systems.  (Unfortunately, it's doesn't have full support for FreeBSD and some other linux Distros). There's a closed- and open-source version; the closed-source version adds a "remote desktop" type feature and USB support.  Since I want to run this on a USB drive, I need to use the closed-source edition until open-source catches up.  This is not big problem for me since I don't compile from source and don't have any hangups about whether something is open-source or not.
+
+This means I need installs for virtualbox on the USB drive (sadly, it does need to install on the OS, since to emulate hardware at a reasonable speed (near real-time) requires kernel-level methods.  Also, I'd like to be able to run something off *only* the USB drive, so I want to add a bootable OS that can run VirtualBox and a windowing system for display.  I don't need much else, and since space is at a premium, I installed a minimal version of Ubuntu (FreeBSD doesn't support some advanced features).
+
+I have a Ubuntu virtual machine as well now.  After I pick up probably Windows XP and some dialect of DOS (maybe FreeBSD or Win 98 too), that's about everything I need.  Right now, XP and Ubuntu would match my current setup, so that's my goal.  Unforunately, the virtual machine files, installs, etc. need to go on a FAT32 partition of the drive I can't get XP to see right now.  I wonder if it's formatted?
+
+Last, I need to move a data directory onto the drive.  It'll be shared between the operating systems to keep everything in sync, and so I can automatically version the machines seperately from my files.  Also, on one machine I'll need to setup some kind of backup mechanism.  I'm thinkin rsync or more likely rdiff-backup.
+
+So my checklist is:
+<ol>
+    <li>Select and install a virtual computing program.  Done: VirtualBox is installed on Vista (my laptop) and Ubuntu (the flash drive).</li>
+    <li>Create a bootable flash drive with a data area.  Bootable done.  Data might or might not have worked, though, so we'll see.</li>
+    <li>Copy data and virtualbox installs to drive.</li>
+    <li>Create virtual machines (Ubuntu, Windows XP, DOS 6 / FreeDOS, FreeBSD, Win98 in order of priority).  Make sure supports add-ons (cool drivers which interact with the "guest" operating system, allowing things like shared mouse, shared windowing system, shared clipboard, etc.).  I'm using these right now before I make the other virtual machines, but I'll have to add them to everything and get stuff working more smoothly.</li>
+    <li>Allow virtual machines to access data folder.  Since I didn't seperate the partitions, this means virtual machines could modify their own files and virtualbox.  However, since the other steps involve partitioning a flash drive and so forth, this seemsless scary in comparision.</li>
+    <li>Add backups.</li>
+</ol>

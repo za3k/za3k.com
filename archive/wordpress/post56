@@ -1,0 +1,14 @@
+Learning Java and a Scheme program
+
+In answer to my last post I encountered this interesting snippit:
+<pre lang="scheme">Can you figure out what it does?  Why it does it?
+(let* ((yin ((lambda (foo) (newline) foo)
+             (call/cc (lambda (bar) bar))))
+       (yang ((lambda (foo) (write-char #\*) foo)
+              (call/cc (lambda (bar) bar)))))
+ (yin yang))</pre>
+In other news, due to this that and the other, I have to learn Java.  So far, I've not learnt much.  I've found out two interesting things.  First, threads are remarkably easy to make.  Now, I've never done threading before, so I'm wondering how easy it is to do in other languages I've used.
+
+Second, Java code is far too long.  I've always been annoyed with "code generation" features for just this reason.  If you need to generate code, you're doing something wrong, IMO.  Code completion, (as in function parameters and variable names) is fine since that's for human legibility and saves typing.  But generating whole skeletons?  Puh-lease.
+
+Kinda turned me off C# before I took a good look at it (one of these days, I tell you).

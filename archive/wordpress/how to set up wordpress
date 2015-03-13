@@ -1,0 +1,35 @@
+# Apache
+Forward nginx to port 2048 for www.za3k.com, za3k.com, za3k
+Make sure apache serves blog.za3k.com on port 2048 with ~za3k/public_html/wordpress as the root
+
+# Install MySQL and set up the database
+sudo apt-get install mysql-server mysql-client
+mysql --user root -p # (Already installed so didn't need a login)
+    CREATE DATABASE za3k_blog;
+    CREATE USER 'za3k'@'localhost' IDENTIFIED BY 'blog_password';
+    GRANT ALL PRIVILEGES ON za3k_blog . * TO 'za3k'@'localhost';
+    FLUSH PRIVILEGES;
+    SELECT User from mysql.user;
+
+# Set up the wordpress
+wget http://wordpress.org/latest.zip
+unzip latest.zip
+rm latest.zip
+cd public_html
+ln -s ../wordpress
+cd ../wordpress
+cp wp-config-sample.php wp-config.php
+    Set database to 'za3k_blog', user to 'za3k', password to 'blog_password', keep hostname as 'localhost'
+http://www.za3k.com/wordpress/wp-admin/install.php
+
+go to www.za3k.com/wp-admin/install.php and set up the blog
+
+# Install plugins
+wget http://downloads.wordpress.org/plugin/highlight-source-pro.1.3.zip
+wget http://downloads.wordpress.org/plugin/wp-recaptcha.3.2.zip
+unzip highlight-source-pro.1.3.zip
+unzip wp-recaptcha.3.2.zip
+rm highlight-source-pro.1.3.zip wp-recaptcha.3.2.zip
+mv highlight-source-pro wp-recaptcha wordpress/wp-content/plugins
+Go to the admin panel and enable both plugins
+

@@ -1,0 +1,7 @@
+Continuing project, programming contest, perl
+
+The project I'm working on I briefly mentioned last post is a deliberately simple roguelike set in a branching dungeon.  It's 60-70% done at current, and I'll say no more until I at least get to final bugfixing.
+I went to the ACM programming contest, in which our school placed very average.  I had more fun that I expected from the day before and less than from the week before.  I had lots of delicious free food.  I'd do it again, overall, and be more interested in doing so if I knew my team well ahead of time.
+I started learning perl, which looks exactly as disgusting as everyone says it is.  It seems useful.  It has very odd array/hash behavior which relate to its origin in string processing.  An array of three arrays is just the contents of each of those three.  To make the kind of thing I want, you need to make explicit reference variables.  Interestingly, the fact that you can only pass one array (because they're flattened) to a function means that everything is passed by value to functions.  To my knowledge this is also true of the assignment operator.  Since perl as I mentioned supports references, this is to my liking... the array flattening less so.
+
+Regular expressions are as always kickass, and I understand perl's engine is the best to be found.  I really need to get a Linux system soon so I can do fun things like use the "grep" command or have very large text consoles.
