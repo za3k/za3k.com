@@ -1,7 +1,7 @@
 Tricks fuckpet has learned
 ==========================
 
-![Fuckpet](/lea.png "Fuckpet")
+![Fuckpet](/pet.jpg "Fuckpet")
 
 ![Dani](/me.jpg "Dani")
 

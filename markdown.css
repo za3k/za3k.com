@@ -20,5 +20,5 @@ tr.alt td {
 }
 
 img {
-  size: 200px;
+  max-width: 300px;
 }
