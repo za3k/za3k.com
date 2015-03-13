@@ -3,12 +3,14 @@ Issues I have reported
 
 Open bugs
 ---------
+
 | Link                                                 | Description                                              |
 |------------------------------------------------------|----------------------------------------------------------|
 |                                                      |                                                          |
 
 Open feature requests
 ---------------------
+
 | Link                                                 | Description                                              |
 |------------------------------------------------------|----------------------------------------------------------|
 | https://github.com/joemccann/dillinger/issues/308    | Add file locations to cloud editor. **Two $10 bounties** |
@@ -16,6 +18,7 @@ Open feature requests
 
 Bugs I reported which were fixed
 --------------------------------
+
 | Link                                                 | Description                                              |
 |------------------------------------------------------|----------------------------------------------------------|
 | https://github.com/mikolalysenko/union-find/issues/4 | Algorithm misimplemented                                 |
@@ -23,6 +26,7 @@ Bugs I reported which were fixed
 
 Features I requested which were added
 -------------------------------------
+
 | Link                                                 | Description                                              |
 |------------------------------------------------------|----------------------------------------------------------|
 | https://github.com/mispy/twitter_ebooks/issues/37    | Better tolerance for twitter's rate-limiting             |

@@ -1,2 +1,2 @@
-Action markdown /cgi-bin/markdown/handler.php
+Action markdown /cgi-bin/markdown/Markdown.cgi
 AddHandler markdown .md
