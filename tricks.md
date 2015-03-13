@@ -1,10 +1,6 @@
 Tricks fuckpet has learned
 ==========================
 
-![Fuckpet](/pet.jpg "Fuckpet")
-
-![Dani](/me.jpg "Dani")
-
 | Trick              | Learned | Description                                                                                     |
 |--------------------|---------|-------------------------------------------------------------------------------------------------|
 | Good boy           |         | Feel really happy and turned on                                                                 |
@@ -23,3 +19,11 @@ Nice treats
 - Scooby snack (?)
 - Relief (a break / finishing)
 - "Good boy"
+
+Fuckpet and Dani
+================
+
+![Fuckpet](/pet.jpg "Fuckpet")
+
+![Dani](/me.jpg "Dani")
+
