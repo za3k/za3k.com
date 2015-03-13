@@ -12,6 +12,7 @@ table {
 
 th {
   background-color: #FFFFDD;
+  min-height: 50px;
 }
 
 tr.alt td {
