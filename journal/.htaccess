@@ -1,2 +1,0 @@
-Action markdown /cgi-bin/markdown/Markdown.cgi
-AddHandler markdown .md
