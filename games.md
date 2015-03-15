@@ -38,11 +38,10 @@ Video Games
 - Online Games
     - [Kingdom of Loathing](http://www.kingdomofloathing.com/login.php?loginid=75bab57408db47bbb0476294732cac1b), online free
 - PS2 Games
-    - Fighting Games (lower standards)
-        - Virtua Fighter 4 ([wikipedia](http://en.wikipedia.org/wiki/Virtua_Fighter_4)) (PS2)
-        - D.O.A. ([wikipedia](http://en.wikipedia.org/wiki/Dead_or_Alive_(series))) (PS2)
-        - Bloody Roar ([wikipedia](http://en.wikipedia.org/wiki/Bloody_Roar)) (PS2)
-    - Baroque ([wikipedia](http://en.wikipedia.org/wiki/Baroque_%28video_game%29)(PS2)
+    - Virtua Fighter 4 ([wikipedia](http://en.wikipedia.org/wiki/Virtua_Fighter_4)) (PS2)
+    - D.O.A. ([wikipedia](http://en.wikipedia.org/wiki/Dead_or_Alive_(series))) (PS2)
+    - Bloody Roar ([wikipedia](http://en.wikipedia.org/wiki/Bloody_Roar)) (PS2)
+    - Baroque ([wikipedia](http://en.wikipedia.org/wiki/Baroque_%28video_game%29)) (PS2)
     - Ico ([wikipedia](http://en.wikipedia.org/wiki/Ico)) (PS2)
     - Shadow of the Colossus ([wikipedia](http://en.wikipedia.org/wiki/Shadow_of_the_Colossus)) (PS2)
 - NES Games
