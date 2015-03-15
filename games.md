@@ -27,12 +27,12 @@ Video Games
     - [Zero Sum Game](http://ifdb.tads.org/viewgame?id=nzydrfu1rl2qkuop) by Cody Sandifer
     - [Robot Gardening](http://ifdb.tads.org/viewgame?id=nkajyqultjxmiwe7) by Anna Anthropy
 - [Minecraft](https://minecraft.net/) by Mojang, paid
-    Modpacks
+    - Modpacks
         - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547)
         - [Crash Landing](http://crashlanding.wildwestscifi.net/) by Iskandar
         - [Agrarian Skies](http://ftbwiki.org/Agrarian_Skies) by Jadedcat
         - [Better Than Wolves](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992-better-than-wolves-now-with-blunt-force-trauma) by FlowerChild
-    Mods
+    - Mods
         - [Computercraft](http://www.computercraft.info/) by dan200
         - [Buildcraft](http://www.mod-buildcraft.com/) Pipes
         - [Ender Storage](http://chickenbones.net/Pages/links.html) by ChickenBones
