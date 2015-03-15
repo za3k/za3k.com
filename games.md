@@ -12,7 +12,7 @@ Computer Games
 - [Marshmallow Duel](http://mduel2k5.spadgos.com/mduel96/) by 'Nigel' and 'Llewelyn'
 - [Zombiepox](http://www.acid-play.com/download/zombiepox) by Free Lunch Design
 - [Seiklus](http://www.autofish.net/clysm/art/video_games/seiklus/) by clysm
-- [Armagetron](http://armagetronad.org/)
+- [Armagetron](http://armagetronad.org/) by various
 - [Well of Souls](http://www.synthetic-reality.com/wosHome.htm) by Synthetic Reality
 - [I Wanna Be The Guy](http://kayin.moe/iwbtg/) by Kayin
 - Eric the Unready by Legend Entertainment ([download link](http://www.abandonia.com/en/games/192/eric+the+unready.html)), paid, abandonware
@@ -22,7 +22,7 @@ Computer Games
     - [Robot Gardening](http://ifdb.tads.org/viewgame?id=nkajyqultjxmiwe7) by Anna Anthropy
 - [Minecraft](https://minecraft.net/) by Mojang, paid
     - Modpacks
-        - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547)
+        - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547) by various
         - [Crash Landing](http://crashlanding.wildwestscifi.net/) by Iskandar
         - [Agrarian Skies](http://ftbwiki.org/Agrarian_Skies) by Jadedcat
         - [Better Than Wolves](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992-better-than-wolves-now-with-blunt-force-trauma) by FlowerChild
@@ -35,11 +35,18 @@ Computer Games
         - [Mystcraft](http://binarymage.com/wiki/) by XCompWiz
         - [Dimensional Doors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287583-dimensional-doors-v2-2-4) by stevenrs11
         - [Chickenchunks](http://chickenbones.net/Pages/links.html) by ChickenBones
-        - [OpenPeripheral](http://openmods.info/) (Terminal Glasses)
+        - [OpenPeripheral](http://openmods.info/) (Terminal Glasses) by various
 
 Online Games
 ------------
-- [Kingdom of Loathing](http://www.kingdomofloathing.com/login.php?loginid=75bab57408db47bbb0476294732cac1b), online free
+- [Kingdom of Loathing](http://www.kingdomofloathing.com/login.php?loginid=75bab57408db47bbb0476294732cac1b), browser-based
+- [Chronotron](http://www.kongregate.com/games/scarybug/chronotron) by Scarybug, Flash
+- [Treadmillasaurus Rex](http://jmtb02.com/treadmillasaurus-rex/) by jmtb02, Flash
+- [Achievement Unlocked](http://jmtb02.com/achievementunlocked/) by jmtb02
+- [Obey](http://jmtb02.com/obey-the-game/) by jmtb02
+- [This is the only level](http://jmtb02.com/this-is-the-only-level/) by jmtb02
+- [Llama Adventure](http://jmtb02.com/llama-adventure/) by jmtb02
+- [You Have to Burn the Rope](http://www.kongregate.com/games/mazapan/you-have-to-burn-the-rope) by Mazapan
 
 PS2 Games
 ---------
