@@ -88,7 +88,7 @@ SNES Games
 
 NES Games
 ---------
-- Dragon Quest (NES) ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_(USA%29/55344) [rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_-_Part_II_(USA%29/55337) [rom](http://www.emuparadise.me/Nintendo_Game_Boy_Color_ROMs/Dragon_Warrior_III_%28USA%29/67350) [rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_IV_(USA%29/55336)). 1986. 1987. 1988. 1990.
+- Dragon Quest (NES) ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_\(USA%29/55344) [rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_-_Part_II_\(USA%29/55337) [rom](http://www.emuparadise.me/Nintendo_Game_Boy_Color_ROMs/Dragon_Warrior_III_%28USA%29/67350) [rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_IV_(USA%29/55336)). 1986. 1987. 1988. 1990.
 - River City Random ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/River_City_Ransom_%28USA%29/56689)) (NES). 1989.
 - Super Mario Bros ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Super_Mario_Bros._%28Japan,_USA%29/57098)) (NES). 1985.
 
