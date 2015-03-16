@@ -3,11 +3,11 @@ Video Games
 
 Computer Games
 --------------
-- Dangerous Dave ([download](http://www.dosgamesarchive.com/download/dangerous-dave/)]) by John Romero, DOS freeware. 1990.
+- Dangerous Dave ([download](http://www.dosgamesarchive.com/download/dangerous-dave/)) by John Romero, DOS freeware. 1990.
 - Rogue ([online play](https://archive.org/details/msdos_Rogue_1983)) by Michael Toy and Glenn Wichman. 1980.
 - [ADOM](http://www.ancardia.com/) by Thomas Biskup. 1994.
 - [Powder](http://www.zincland.com/powder/?pagename=about) by Jeff Lait. 2004.
-- Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)). 1986.
+- Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. 1986.
 - [Ooooorrrrcs!](http://www.alamak0ta.republika.pl/orcs.html) by Jakub Debski. 2008.
 - [Dungeon Master II: Legend of Skullkeep](http://dmweb.free.fr/?q=node/250) by FTL Games, abandonware. 1995.
 - [Crystal](http://www.acoders.com/software/crystal-45) by JohnsProgram. 2004.
@@ -22,7 +22,7 @@ Computer Games
 - Interactive Fiction (lower standards)
     - [Zero Sum Game](http://ifdb.tads.org/viewgame?id=nzydrfu1rl2qkuop) by Cody Sandifer. 1997.
     - [Robot Gardening](http://ifdb.tads.org/viewgame?id=nkajyqultjxmiwe7) by Anna Anthropy. 2008.
-- Steam ([Complete list](http://steamcommunity.com/profiles/76561198004400268/games/?tab=all))
+- Steam ([complete list](http://steamcommunity.com/profiles/76561198004400268/games/?tab=all))
     - Sequence
     - Elder Scrolls 3: Morrowind
     - Elder Scrolls 5: Skyrim
