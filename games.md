@@ -23,19 +23,20 @@ Computer Games
     - [Zero Sum Game](http://ifdb.tads.org/viewgame?id=nzydrfu1rl2qkuop) by Cody Sandifer. 1997.
     - [Robot Gardening](http://ifdb.tads.org/viewgame?id=nkajyqultjxmiwe7) by Anna Anthropy. 2008.
 - Steam ([complete list](http://steamcommunity.com/profiles/76561198004400268/games/?tab=all))
-    - Sequence
-    - Elder Scrolls 3: Morrowind
-    - Elder Scrolls 5: Skyrim
-    - Magicite
-    - Psychonauts
-    - Civilization 1
-    - The Stanley Parable
-    - Long Live the Queen
-    - Hack 'n' Slash
-    - Zen Bound 2
-    - Caster
-    - Portal
-    - Eversion
+    - Sequence by Iridium Studios. 2011. 
+    - Elder Scrolls 3: Morrowind by Bethesda. 2002. 
+    - Elder Scrolls 5: Skyrim by Bethesda. 2011. 
+    - Magicite by SmashGames. 2014. 
+    - Psychonauts by Double Fine Productions. 2005. 
+    - Civilization 1 by Sid Meier. 1991. 
+    - Civilization 4 by Sid Meier. 2005. 
+    - The Stanley Parable by Davey Wreden. 2011 
+    - Long Live the Queen by Hanako Games. 2012. 
+    - Hack 'n' Slash by Double Fine Productions. 2014. 
+    - Zen Bound 2. 2009.
+    - Caster by Elecorn. 2009. 
+    - Portal by Valve. 2007.
+    - Eversion by Zaratustra Productions. 2008.
 - [Minecraft](https://minecraft.net/) by Mojang, paid. 2009.
     - Modpacks
         - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547) by various
@@ -62,6 +63,7 @@ Online Games
 - [I Wish I Were the Moon](http://www.kongregate.com/games/danielben/i-wish-i-were-the-moon) by [danielben](http://www.ludomancy.com/blog/). 2008.
 - [Kingdom of Loathing](http://www.kingdomofloathing.com/login.php?loginid=75bab57408db47bbb0476294732cac1b), browser-based. 2003.
 - [Llama Adventure](http://jmtb02.com/llama-adventure/) by jmtb02. 2009.
+- [Light-Bot](http://armorgames.com/play/2205/light-bot) by CoolioNiato. 2008.
 - [Obey](http://jmtb02.com/obey-the-game/) by jmtb02. 2009.
 - [Steamshovel Harry](http://www.kongregate.com/games/misterpersonman/steamshovel-harry) by misterpersonman. 2014.
 - [This is the only level](http://jmtb02.com/this-is-the-only-level/) by jmtb02. 2009.
@@ -86,6 +88,7 @@ SNES Games
 
 NES Games
 ---------
+- Dragon Quest (NES) ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_(USA%29/55344) [rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_-_Part_II_(USA%29/55337) [rom](http://www.emuparadise.me/Nintendo_Game_Boy_Color_ROMs/Dragon_Warrior_III_%28USA%29/67350) [rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Dragon_Warrior_IV_(USA%29/55336)). 1986. 1987. 1988. 1990.
 - River City Random ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/River_City_Ransom_%28USA%29/56689)) (NES). 1989.
 - Super Mario Bros ([rom](http://www.emuparadise.me/Nintendo_Entertainment_System_ROMs/Super_Mario_Bros._%28Japan,_USA%29/57098)) (NES). 1985.
 
