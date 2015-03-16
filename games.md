@@ -6,7 +6,7 @@ Computer Games
 - [ADOM](http://www.ancardia.com/) by Thomas Biskup. 1994.
 - [Armagetron](http://armagetronad.org/) by various. 2001.
 - [Crystal](http://www.acoders.com/software/crystal-45) by JohnsProgram. 2004.
-- Dangerous Dave ([download](http://www.dosgamesarchive.com/download/dangerous-dave/)) by John Romero, DOS freeware. 1990.
+- Dangerous Dave ([download link](http://www.dosgamesarchive.com/download/dangerous-dave/)) by John Romero, DOS freeware. 1990.
 - [Dungeon Master II: Legend of Skullkeep](http://dmweb.free.fr/?q=node/250) by FTL Games, abandonware. 1995.
 - Eric the Unready by Legend Entertainment ([download link](http://www.abandonia.com/en/games/192/eric+the+unready.html)), paid, abandonware. 1993.
 - Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. 1986.
