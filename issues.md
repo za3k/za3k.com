@@ -14,6 +14,7 @@ Open bugs
 | https://github.com/clockfort/GitHub-Backup/issues/18 | crash                                                        |
 | https://bugs.launchpad.net/ubuntu/+source/xdm/+bug/767168 | very fast ubuntu boot has race condition                |
 | https://bugzilla.mozilla.org/show_bug.cgi?id=686747  | (didn't report)                                              |
+| https://github.com/jepler/cropgui/issues/12          | silentl corruption on wrong input image type                 |
 
 Open feature requests
 ---------------------
