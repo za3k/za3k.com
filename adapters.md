@@ -4,7 +4,7 @@ Digital <-> Physical Adapters
 - Digital -> Mail gateway
     - [mailaletter](http://www.mailaletter.com/). Supports typing online and uploading files. Corporate version ($10/month) includes email gateway. API advertise but I've never used it.
 - Digital -> Physical mail gateway
-    - 
+    - [virtualpostmail](http://www.virtualpostmail.com/)
 - Printed book -> PDF gateway
     - [1dollarscan](http://1dollarscan.com)
 - PDF -> Printed book
