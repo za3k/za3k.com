@@ -5,9 +5,11 @@ Computer Games
 --------------
 - [ADOM](http://www.ancardia.com/) by Thomas Biskup. 1994.
 - [Armagetron](http://armagetronad.org/) by various. 2001.
+- [Castle of the Winds](http://www.classicdosgames.com/game/Castle_of_the_Winds.html) by Rick Saada, abandonware. 1992.
 - [Crystal](http://www.acoders.com/software/crystal-45) by JohnsProgram. 2004.
 - Dangerous Dave ([download link](http://www.dosgamesarchive.com/download/dangerous-dave/)) by John Romero, DOS freeware. 1990.
 - [Dungeon Master II: Legend of Skullkeep](http://dmweb.free.fr/?q=node/250) by FTL Games, abandonware. 1995.
+- [DROD](http://forum.caravelgames.com/viewsitepage.php?id=90294) by Caravel Games. Paid. 1997.
 - Eric the Unready by Legend Entertainment ([download link](http://www.abandonia.com/en/games/192/eric+the+unready.html)), paid, abandonware. 1993.
 - Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. 1986.
 - [I Wanna Be The Guy](http://kayin.moe/iwbtg/) by Kayin. 2007.
@@ -69,6 +71,7 @@ Online Games
 - [Steamshovel Harry](http://www.kongregate.com/games/misterpersonman/steamshovel-harry) by misterpersonman. Flash. 2014.
 - [This is the only level](http://jmtb02.com/this-is-the-only-level/) by jmtb02. Flash. 2009.
 - [Treadmillasaurus Rex](http://jmtb02.com/treadmillasaurus-rex/) by jmtb02. Flash. 2010.
+- [Untrusted](https://alexnisnevich.github.io/untrusted/) by Alex Nisnevich and Greg Shuflin. 2014.
 - [You Have to Burn the Rope](http://www.kongregate.com/games/mazapan/you-have-to-burn-the-rope) by Mazapan. Flash. 2008.
 - [Wayward](http://www.unlok.ca/wayward/) by Unlok. HTML5. 2014.
 - [ZORBA](http://www.pippinbarr.com/games/zorba/Zorba.html) by pippin barr. Flash. 2011.
