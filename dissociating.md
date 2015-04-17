@@ -1,3 +1,4 @@
+- Lea is telling me something is wrong that we could change, not yelling at me.
 - Tell me your name, and details about yourself
 - Look at me while you talk
 - Check that I understand what you're saying to me.
