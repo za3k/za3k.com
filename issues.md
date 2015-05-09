@@ -26,6 +26,7 @@ Open feature requests
 | https://github.com/tholman/zenpen/issues/113         | UI discoverability issue                                     |
 | https://github.com/jordansissel/xdotool/issues/27    | windowmove should support percentages for consistency with windowsize |
 | https://github.com/clockfort/GitHub-Backup/issues/16 | documentation bug                                            |
+| https://github.com/derf/feh/issues/188               | Rename files in feh                                            |
 
 Bugs I reported which were fixed
 --------------------------------
