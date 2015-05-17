@@ -16,6 +16,7 @@ Open bugs
 | https://bugzilla.mozilla.org/show_bug.cgi?id=686747  | (didn't report)                                              |
 | https://github.com/jepler/cropgui/issues/12          | silent corruption on wrong input image type                 |
 | https://github.com/juliocesar/backbone-book/issues/28 | spacebar toggles code view switch and mild abuse of UX designer |
+| http://lists.gnu.org/archive/html/bug-tar/2015-05/msg00001.html | output of tar is nondeterministic |
 
 Open feature requests
 ---------------------
