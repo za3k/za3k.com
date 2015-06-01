@@ -79,6 +79,6 @@ v0.1.4
 - Update NotEnoughItems
 
 v0.1.3
--Remove graves
--Remove certus quartz oregen
--Packaging bugfix
+- Remove graves
+- Remove certus quartz oregen
+- Packaging bugfix
