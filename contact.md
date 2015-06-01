@@ -1,4 +1,4 @@
-Medium   |
+Medium   |   Handle
 ---------|-------------------------------------------
 GPG      |   [public key](https://za3k.com/gpg.pub)
 Email    |   [za3k@za3k.com](mailto:za3k@za3k.com)
