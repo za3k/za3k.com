@@ -1,0 +1,9 @@
+body {
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 30%;
+    max-width: 700px;
+}
