@@ -14,9 +14,9 @@ Open bugs
 | https://github.com/clockfort/GitHub-Backup/issues/18 | crash                                                        |
 | https://bugs.launchpad.net/ubuntu/+source/xdm/+bug/767168 | very fast ubuntu boot has race condition                |
 | https://bugzilla.mozilla.org/show_bug.cgi?id=686747  | (didn't report)                                              |
-| https://github.com/jepler/cropgui/issues/12          | silent corruption on wrong input image type                 |
+| https://github.com/jepler/cropgui/issues/12          | silent corruption on wrong input image type                  |
 | https://github.com/juliocesar/backbone-book/issues/28 | spacebar toggles code view switch and mild abuse of UX designer |
-| http://lists.gnu.org/archive/html/bug-tar/2015-05/msg00001.html | output of tar is nondeterministic |
+| http://lists.gnu.org/archive/html/bug-tar/2015-05/msg00001.html | output of tar is nondeterministic                 |
 
 Open feature requests
 ---------------------
@@ -28,6 +28,8 @@ Open feature requests
 | https://github.com/jordansissel/xdotool/issues/27    | windowmove should support percentages for consistency with windowsize |
 | https://github.com/clockfort/GitHub-Backup/issues/16 | documentation bug                                            |
 | https://github.com/derf/feh/issues/188               | Rename files in feh                                            |
+| https://github.com/ccampbell/mousetrap/issues/268    | Support single-combo sequence
+| https://github.com/CoFH/Feedback/issues/540          | Remove ore dependency
 
 Bugs I reported which were fixed
 --------------------------------
@@ -37,6 +39,13 @@ Bugs I reported which were fixed
 | https://github.com/mikolalysenko/union-find/issues/4 | Algorithm misimplemented                                 |
 | https://github.com/mispy/twitter_ebooks/issues/34    | Dependency version conflict required manual resolution   |
 | https://bugs.launchpad.net/lxml/+bug/778223, https://bugzilla.gnome.org/show_bug.cgi?id=649702,           | lxml snippet crashes python                              |
+
+Bugs I reported erroneously
+---------------------------
+
+| Link                                                 | Description                                              |
+|------------------------------------------------------|----------------------------------------------------------|
+| https://github.com/ccampbell/mousetrap/issues/267    | unbind + rebind fails                                        |
 
 Features I requested which were added
 -------------------------------------

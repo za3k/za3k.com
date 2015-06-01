@@ -1,6 +1,8 @@
 How to be an Adult
 ==================
 
+http://www.smbc-comics.com/index.php?id=1775
+
 People made being an adult seem scary and hard when I was a kid. Actually, a lot of people succeed at being an adult; this is because it's not hard and even dumb lazy people can do it. This is a list of what I think the minimum standards are I obey to be an "adult". I also explain what happens if you don't do them. My list assumes that you know how to use Google and are relatively smart (which is my target audience) and that you can make money reasonably easy (which might be totally wrong and unfair).
 
 - Keep a reasonable level of hygiene, if you want other people to treat you reasonably. This is mostly about social presentability by smell and appearance, so if you want to stay in your house, health concerns are different. If you're not presentable, people may pretend you don't exist or have you kicked out of places. If you're a little unhygenic (pick your nose, smell bad) people might subtly not like you or avoid you. M
