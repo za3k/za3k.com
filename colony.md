@@ -11,6 +11,7 @@ Manual Downloads
 
  Client | Server | Version 
 --------|--------|---------
+[colony-0.4.6.zip](http://za4k.com/~colony/colony-0.4.6.zip) | [colony\_server-0.4.6.zip](http://za4k.com/~colony/colony_server-0.4.6.zip) | 0.4.6
 [colony-0.4.5.zip](http://za4k.com/~colony/colony-0.4.5.zip) | [colony\_server-0.4.5.zip](http://za4k.com/~colony/colony_server-0.4.5.zip) | 0.4.5
 [colony-0.4.4.zip](http://za4k.com/~colony/colony-0.4.4.zip) | [colony\_server-0.4.4.zip](http://za4k.com/~colony/colony_server-0.4.4.zip) | 0.4.4
 [colony-0.4.3.zip](http://za4k.com/~colony/colony-0.4.3.zip) | [colony\_server-0.4.3.zip](http://za4k.com/~colony/colony_server-0.4.3.zip) | 0.4.3
@@ -24,6 +25,9 @@ Manual Downloads
 
 Changelog
 ---
+
+v0.4.6
+- Add Moonblock (Vanilla mechanics) HQM quests
 
 v0.4.5
 - Colony comes in a dome now
