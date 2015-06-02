@@ -1,6 +1,11 @@
 body {
 }
 
+.quote {
+    margin: auto;
+    text-align: center;
+}
+
 section {
     display: inline-block;
     vertical-align: top;
