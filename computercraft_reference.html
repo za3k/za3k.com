@@ -53,7 +53,7 @@
         <span class="title">Disk Api</span>
         <div>isPresent(<span class="parameters">side</span>) / hasData(<span class="parameters">side</span>) / hasAudio(<span class="parameters">side</span>)</div>
         <div>setLabel(<span class="parameters">side</span>, <span class="parameters">label</span>) / getLabel(<span class="parameters">side</span>) / getID(<span class="parameters">side</span>)</div>
-        <div>getAudioTitle(<span class="parameters">side</span>)</div>
+        <div class="boring">getAudioTitle(<span class="parameters">side</span>)</div>
         <div>playAudio(<span class="parameters">side</span>) / stopAudio(<span class="parameters">side</span>)</div>
         <div>eject(<span class="parameters">side</span>)</div>
     </section>
@@ -83,8 +83,8 @@
         <span class="title">Http Api</span>
         <div>get(<span class="parameters">url, [headers]</span>) <span class="note">sync</span></div>
         <div>post(<span class="parameters">url, postData, [headers]</span>) <span class="note">sync</span></div>
-        <div>request(<span class="parameters">url, [postData, [headers]</span>)
-            <span class="returns">http_success or http_failure event sent later via os</span>
+        <div>request(<span class="parameters">url, [postData, [headers]]</span>)
+            <span class="returns">nil, http_success or http_failure event sent later</span>
     </section>
     <section>
         <span class="title">Multishell Api</span>
@@ -93,13 +93,13 @@
     </section>
     <section>
         <span class="title">Os Api</span>
-        <div>version()</div>
+        <div class="boring">version()</div>
         <div>computerID() / computerLabel() / setComputerLabel(<span class="parameters">label</span>)</div>
-        <div>clock()</div>
+        <div>clock() <span class="note">Monotone since boot</span></div>
         <div>time() / day()</div>
         <div>sleep(seconds)</div>
         <div>setAlarm(<span class="parameters">time</span>) / cancelAlarm(<span class="parameters">alarm</span>)</div>
-        <div>setTimer(<span class="parameters">seconds</span>) / cancelTime(<span class="parameters">timer</span>)</div>
+        <div>setTimer(<span class="parameters">seconds</span>) / cancelTimer(<span class="parameters">timer</span>)</div>
         <div>pullEvent([<span class="parameters">target-event</span>])</div>
         <div>queueEvent(<span class="parameters">event</span>, <span class="parameters">params...</span>)</div>
     </section>
