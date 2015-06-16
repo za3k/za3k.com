@@ -11,4 +11,5 @@ section {
     vertical-align: top;
     min-width: 30%;
     max-width: 700px;
+    border: 1px;
 }
