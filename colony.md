@@ -11,6 +11,8 @@ Manual Downloads
 
  Client | Server | Version 
 --------|--------|---------
+[colony-0.4.8.zip](http://za4k.com/~colony/colony-0.4.8.zip) | [colony\_server-0.4.8.zip](http://za4k.com/~colony/colony_server-0.4.8.zip) | 0.4.8
+[colony-0.4.7.zip](http://za4k.com/~colony/colony-0.4.7.zip) | [colony\_server-0.4.7.zip](http://za4k.com/~colony/colony_server-0.4.7.zip) | 0.4.7
 [colony-0.4.6.zip](http://za4k.com/~colony/colony-0.4.6.zip) | [colony\_server-0.4.6.zip](http://za4k.com/~colony/colony_server-0.4.6.zip) | 0.4.6
 [colony-0.4.5.zip](http://za4k.com/~colony/colony-0.4.5.zip) | [colony\_server-0.4.5.zip](http://za4k.com/~colony/colony_server-0.4.5.zip) | 0.4.5
 [colony-0.4.4.zip](http://za4k.com/~colony/colony-0.4.4.zip) | [colony\_server-0.4.4.zip](http://za4k.com/~colony/colony_server-0.4.4.zip) | 0.4.4
@@ -25,6 +27,15 @@ Manual Downloads
 
 Changelog
 ---
+
+v0.4.8
+- Add Computer Craft tutorial
+- Add early automation tutorial
+- Enable autocrafting via BetterStorage Crafting Station.
+
+v0.4.7
+- Add Forge Multipart (microblocks)
+- Enable wood and stone hoe
 
 v0.4.6
 - Add Moonblock (Vanilla mechanics) HQM quests

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="cheatsheet.css">
+</head>
+<body>
+<div id="layout">
+    <section>
+        <span class="title">Shortcuts</span>
+        <div><span class="shortcut">Ctrl-S</span> Shutdown computer</div>
+        <div><span class="shortcut">Ctrl-R</span> Reboot computer</div>
+        <div><span class="shortcut">Ctrl-T</span> Terminate running program</div>
+        <div>startup -&gt; disk, then</div>
+    </section>
+    <section>
+        <span class="title">Turtle Api</span>
+        <div>forward / back / up / down()</div>
+        <div>turnLeft / turnRight()</div>
+        <div>select(<span class="parameters">slot</span>) / getSelectedSlot()</div>
+        <div>craft([<span class="parameters">quantity</span>])</div>
+        <div>getItemCount / getItemSpace()</div>
+        <div>getItemDetail() <span class="returns">{name, count, damage}</span></div>
+        <div>equipLeft / equipRight()</div>
+        <div>attack / attackUp  / attackDown()</div>
+        <div>dig / digUp / digDown() <span class="note">or till dirt</span></div>
+        <div>place / placeUp / placeDown([<span class="parameters">signText</span>])<span class="note">or use bucket</span></div>
+        <div>detect / detectUp / detectDown()</div>
+        <div>inspect / inspectUp / inspectDown() <span class="returns">success, {name, metadata}, error</span></div>
+        <div>compare / compareUp / compareDown()</div>
+        <div>compareTo()</div>
+        <div>drop / dropUp / dropDown()</div>
+        <div>suck / suckUp / suckDown([<span class="parameters">amount</span>])</div>
+        <div>refuel([<span class="parameters">quantity</span>])</div>
+        <div>getFuelLevel() / getFuelLimit()</div>
+        <div>transferTo(<span class="parameters">slot</span>, [<span class="parameters">quantity</span>]</span>)</div>
+    </section>
+    <section>
+        <span class="title">Http Api</span>
+        <div>get(<span class="parameters">url, [headers]</span>) <span class="note">sync</span></div>
+        <div>post(<span class="parameters">url, postData, [headers]</span>) <span class="note">sync</span></div>
+        <div>request(<span class="parameters">url, [postData, [headers]</span>)
+            <span class="returns">http_success or http_failure event sent later via os</span>
+    </section>
+    <section>
+        <span class="title">Os Api</span>
+        <div>clock()</div>
+        <div>time() / day()</div>
+        <div>sleep(seconds)</div>
+        <div>setAlarm(<span class="parameters">time</span>) / cancelAlarm(<span class="parameters">alarm</span>)</div>
+        <div>setTimer(<span class="parameters">seconds</span>) / cancelTime(<span class="parameters">timer</span>)</div>
+    </section>
+    <section>
+        <span class="title">Redstone</span>
+        <div>getSides()</div>
+        <div>getInput(<span class="parameters">side</span>)</div>
+        <div>setOutput(<span class="parameters">side</span>) / getOutput(<span class="parameters">side</span>)</div>
+        <div>getAnalogInput(<span class="parameters">side</span>) / setAnalogOutput(<span class="parameters">side</span>)</div>
+    </section>
+    <section>
+        <span class="title">Lua Reference</span>
+        <div><span class="keyword">if</span> <span class="code condition">condition</span> <span class="keyword">then</span> <span class="code block">block</span> <span class="keyword">else</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="keyword">while</span> <span class="code condition">condition</span> <span class="keyword">do</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="keyword">repeat</span> <span class="code block">block</span> <span class="keyword">until</span> <span class="code condition">condition</span> <span class="keyword">end</span></div>
+        <div><span class="keyword">for</span> <span class="code variable">i</span> = <span class="code value">begin</span>, <span class="code value">end</span>, [<span class="code value">step</span>] <span class="keyword">do</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="keyword">for</span> <span class="code variable">k</span>,<span class="code variable">v</span> <span class="keyword">in</span> <span class="code function">pairs</span></a>(<span class="code value table">table</span>) <span="keyword">do</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="keyword">for</span> <span class="code variable">i</span>,<span class="code variable">v</span> <span class="keyword">in</span> <span class="code function">ipairs</code>(<span class="code value table">array</span>) <span class="keyword">do</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="keyword">function</span> <span class="code variable">name</span>(<span class="parameters">args</span>) <span class="keyword">do</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="code variable">name</span> = <span class="keyword">function</span>(<span class="parameters">args</span>) <span class="keyword">do</span> <span class="code block">block</span> <span class="keyword">end</span></div>
+        <div><span class="code value table">table</span>.__index / <span class="code value table">table</span>.__newindex</div>
+        <div>Example values: nil, True, False, {}, 3, "yes", {"yes", 3},  {a="a", b=3}</div>
+    </section>
+</div>
+</body>
+</html>

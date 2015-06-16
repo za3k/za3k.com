@@ -1,0 +1,89 @@
+div#layout {
+    column-width: 400px;
+    -webkit-column-width: 400px;
+    -moz-column-width: 400px;
+}
+
+body {
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0 5px 0 5px;
+}
+
+section > .title {
+    font-variant: small-caps;
+}
+
+section > div {
+    margin-left: 20px;
+}
+
+.parameters {
+    font-style: italic;
+}
+
+.note {
+    font-style: italic;
+    font-size: 10pt;
+    margin-left: 10px;
+}
+.note:before { content: "("; }
+.note:after { content: ")"; }
+
+.shortcut {
+    background: lightgrey;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.returns {
+    display:  block;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.returns:before {
+    content: "Returns: "
+}
+
+.code {
+
+}
+
+.code.condition {
+    font-family: monospace;
+    font-style: italic;
+}
+.code.condition:before { content: "{"; }
+.code.condition:after { content: "}"; }
+
+.code.block {
+    font-family: monospace;
+    font-style: italic;
+}
+
+.code.block:before { content: "{"; }
+.code.block:after { content: "}"; }
+
+
+.code.value {
+    font-style: italic;
+}
+
+.code.variable {
+    font-weight: bold;
+}
+
+.keyword {
+    font-variant: small-caps;
+}
