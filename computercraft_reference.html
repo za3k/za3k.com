@@ -3,14 +3,13 @@
 <head>
     <link rel="stylesheet" href="cheatsheet.css">
 </head>
-<body>
-<div id="layout">
+<body class="cheatsheet">
     <section>
         <span class="title">Shortcuts</span>
         <div><span class="shortcut">Ctrl-S</span> Shutdown computer</div>
         <div><span class="shortcut">Ctrl-R</span> Reboot computer</div>
         <div><span class="shortcut">Ctrl-T</span> Terminate running program</div>
-        <div>startup -&gt; disk, then</div>
+        <div>Boot sequence: disk/startup, startup</div>
     </section>
     <section>
         <span class="title">Turtle Api</span>
@@ -34,6 +33,52 @@
         <div>getFuelLevel() / getFuelLimit()</div>
         <div>transferTo(<span class="parameters">slot</span>, [<span class="parameters">quantity</span>]</span>)</div>
     </section>
+    <section class="boring">
+        <span class="title">Coroutine Api</span>
+        <div>create(<span class="parameters">function</span>)</div>
+        <div>resume(<span class="parameters">resume</span>)</div>
+        <div>running()</div>
+        <div>status(<span class="parameters">coroutine</span>)<span class="returns">One of: running, suspended, normal, dead</span></div>
+        <div>wrap(<span class="parameters">coroutine</span>)</div>
+        <div>yield(<span class="parameters">...</span>)</div>
+    </section>
+    <section>
+        <span class="title">Defaults</span>
+        <div>Fuel limit (moves): 20,000 normal / 100,000 advanced</div>
+        <div>Modem distance, wired (blocks): 256
+        <div>Modem distance, wireless (blocks): 64+ (16+ in thunderstorm)</div>
+        <div>Resolution (chars): 51x19 chars computer / 7x5 monitor</div>
+    </section>
+    <section>
+        <span class="title">Disk Api</span>
+        <div>isPresent(<span class="parameters">side</span>) / hasData(<span class="parameters">side</span>) / hasAudio(<span class="parameters">side</span>)</div>
+        <div>setLabel(<span class="parameters">side</span>, <span class="parameters">label</span>) / getLabel(<span class="parameters">side</span>) / getID(<span class="parameters">side</span>)</div>
+        <div>getAudioTitle(<span class="parameters">side</span>)</div>
+        <div>playAudio(<span class="parameters">side</span>) / stopAudio(<span class="parameters">side</span>)</div>
+        <div>eject(<span class="parameters">side</span>)</div>
+    </section>
+    <section>
+        <span class="title">File handles</span>
+        <div>close()</div>
+        <div>readLine() / readAll()<span class="note">"r"</div>
+        <div>write / writeLine(<span class="parameters">data</span>)<span class="note">"w" or "a"</span></div>
+        <div>flush() <span class="note">"w" or "a"</span></div>
+        <div>read() / write(<span class="parameters">byte</span>)<span class="note">"rb" or "wb"</div>
+    </section>
+    <section>
+        <span class="title">Fs Api</span>
+        <div>open(<span class="parameters">path, mode</span>)</div>
+    </section>
+    <section>
+        <span class="title">Gps Api</span>
+        <div>locate(<span class="parameters">timeout</span>)</div>
+    </section>
+    <section>
+        <span class="title">Help Api</span>
+        <div>topics()</div>
+        <div>lookup(<span class="parameters">topic</span>)</div>
+        <div class="boring">path() / setPath(<span class="parameters">path</span>)</div>
+    </section>
     <section>
         <span class="title">Http Api</span>
         <div>get(<span class="parameters">url, [headers]</span>) <span class="note">sync</span></div>
@@ -42,12 +87,66 @@
             <span class="returns">http_success or http_failure event sent later via os</span>
     </section>
     <section>
+        <span class="title">Multishell Api</span>
+        <div>getCurrent()</div>
+        <div>setTitle(<span class="parameters">tabID, title</span>) / getTitle(<span class="parameters">tabID</span>)</div>
+    </section>
+    <section>
         <span class="title">Os Api</span>
+        <div>version()</div>
+        <div>computerID() / computerLabel() / setComputerLabel(<span class="parameters">label</span>)</div>
         <div>clock()</div>
         <div>time() / day()</div>
         <div>sleep(seconds)</div>
         <div>setAlarm(<span class="parameters">time</span>) / cancelAlarm(<span class="parameters">alarm</span>)</div>
         <div>setTimer(<span class="parameters">seconds</span>) / cancelTime(<span class="parameters">timer</span>)</div>
+        <div>pullEvent([<span class="parameters">target-event</span>])</div>
+        <div>queueEvent(<span class="parameters">event</span>, <span class="parameters">params...</span>)</div>
+    </section>
+    <section>
+        <span class="title">Native Os Events</span>
+        <div><span class="event-name">key</span>: keycode</div>
+        <div class="boring">char</span>: letter</div>
+        <div><span class="event-name">timer</span> / <span class="event-name">alarm</span>: id</div>
+        <div><span class="event-name">redstone</span> <span class="note">Any redstone input changed</span></div>
+        <div><span class="event-name">disk</span> / <span class="event-name">disk_detach</span>: side</div>
+        <div class="boring"><span class="event-name">rednet_message</span>: senderID, message, protocol</div>
+        <div><span class="event-name">modem_message</span>: side, frequency, replyFrequency, message, distanceTravelled</div>
+        <div><span class="event-name">peripheral</span> / <span class="event-name">peripheral_detach</span>: side</div>
+        <div><span class="event-name">mouse_click</span>: button, x, y</div>
+        <div class="boring"><span class="event-name">mouse_scroll</span>: direction, x, y</div>
+        <div><span class="event-name">mouse_drag</span>: button, x, y</div>
+        <div><span class="event-name">monitor_touch</span>: side, x, y <span class="note">Right click on an advanced monitor</span></div>
+        <div class="boring"><span class="event-name">"term_resize"</span></div>
+        <div class="boring"><span class="event-name">"terminate"</span><span class="note">os.pullEventRaw only</span></div>
+        <div><span class="event-name">turtle_inventory</span> <span class="notes">Inventory changes</span></div>
+    </section>
+    <section class="boring">
+        <span class="title">Parallel Api</span>
+    </section>
+    <section>
+        <span class="title">Peripheral Api</span>
+        <div>getType(<span class="parameters">side</span>)</div>
+        <div>getMethods(<span class="parameters">side</span>)</div>
+        <div>wrap(<span class="parameters">side</span>) <span class="returns">peripheral table</div></div>
+        <span class="note">A wired modem can connect peripherals indirectly</span>
+    </section>
+    <section>
+        <span class="title">Printer Peripheral</span>
+        <div>newPage() / endPage()</div>
+        <div>write(<span class="parameters">text</span>)</div>
+        <div>getPageSize() / getCursorPos() / setCursorPos(<span class="parameters">x, y</span>)</div>
+        <div>getPaperLevel() / getInkLevel()</div>
+        <div class="boring">setPageTitle(<span class="parameters">)</div>
+    </section>
+    <section>
+        <span class="title">Rednet Api</span>
+        <div>open / close / isOpen(<span class="parameters">side</span>) <span class="note">for networking</span></div>
+        <div>send(<span class="parameters">receiverId, message, [protocol]</span>)</div>
+        <div>broadcast(<span class="parameters">message, [protocol]</span>)</div>
+        <div>receive(<span class="parameters">[protocolFilter], [timeout]</span>)</div>
+        <div>host / unhost(<span class="parameters">protocol, hostname</span>)</div>
+        <div>lookup(<span class="parameters">protocol, [hostname]</span>)</div>
     </section>
     <section>
         <span class="title">Redstone</span>
@@ -55,6 +154,56 @@
         <div>getInput(<span class="parameters">side</span>)</div>
         <div>setOutput(<span class="parameters">side</span>) / getOutput(<span class="parameters">side</span>)</div>
         <div>getAnalogInput(<span class="parameters">side</span>) / setAnalogOutput(<span class="parameters">side</span>)</div>
+    </section>
+    <section>
+        <span class="title">Shell Api</span>
+        <div class="boring">exit()</div>
+        <div class="boring">dir() / setDir(<span class="parameters">path</span>)</div>
+        <div class="boring">path() / setPath(<span class="parameters">path</span>)</div>
+        <div class="boring">resolve(<span class="parameters">localPath</span>) / resolveProgram(<span class="parameters">name</span>)</div>
+        <div class="boring">aliases() / setAlias(<span class="parameters">alias</span>, <span class="parameters">program</span>) / clearAlias(<span class="parameters">alias</span>)</div>
+        <div class="boring">programs([<span class="parameters">showHidden</span>])</div>
+        <div class="boring">getRunningProgram()</div>
+        <div>run(<span class="parameters">command</span>, <span class="parameters">args...</span>)</div>
+        <div>openTab(<span class="parameters">command</span>, <span class="parameters">args...</span>)</div>
+        <div>switchTab(<span class="parameters">tabID</span>)</div>
+    </section>
+    <section>
+        <span class="title">Term Api</span>
+        <div>write(<span class="parameters">text)</div>
+        <div>clear() / clearLine()</div>
+        <div>getCursorPos() / setCursorPos(<span class="parameters">x</span>, <span class="parameters">y</span>)</div>
+        <div class="boring">setCursorBlink(<span class="parameters">shouldBlink</span>)</div>
+        <div>isColor()</div>
+        <div>getSize()</div>
+        <div>scroll(<span class="parameters">n</span></div>
+        <div>redirect(<span class="parameters">target</span>)</div>
+        <div>current() / native()</div>
+        <div>setTextColor(<span class="parameters">color</span>) / setBackgroundColor(<span class="parameters">color</span>)</div>
+        <div>setTextScale(<span class="parameters">scale</span>) <span class="notes">monitor only</span></div>
+        <div>window.setVisible(<span class="parameters">visible</span>)</div>
+        <div class="boring">window.restoreCursor()</div>
+        <div>window.getPosition() <span class="returns">(x,y) of top-left</span></div>
+        <div>window.reposition(<span class="parameters">x, y, [width, height]</span>)</div>
+    </section>
+    <section>
+        <span class="title">Textutils Api</span>
+        <div>formatTime(<span class="parameters">time</span>, [<span class="parameters">twentyFourHour</span>])</span></div>
+        <div>serialize(<span class="parameters">data</span>) / unserialize(<span class="parameters">serializedData</span>)</div>
+        <div>serializeJSON(<span class="parameters">data</span>)</div>
+        <div>urlEncode(<span class="parameters">urlUnsafeString)</div>
+    </section>
+    <section>
+        <span class="title">Vector Api</span>
+        <div>new(<span class="parameters">x</span>, <span class="parameters">y</span>, <span class="parameters">z</span>)
+        <div><span class="parameters">v1</span>:dot(<span class="parameters">v2</span>) / <span class="parameters">v1</span>:cross(<span class="parameters">v2</span>)</div>
+        <div><span="boring"><span class="parameters">v1</span>:normalize() / </span><span class="parameters">v1</span>:length()</div>
+        <div><span class="parameters">v1</span>:round()</div>
+        <div class="boring"><span class="parameters">v1</span>:tostring()</div>
+    </section>
+    <section>
+        <span class="title">Window Api</span>
+        <div>create(<span class="parameters">parentTerm, x, y, width, height, [visible]</span>)</div>
     </section>
     <section>
         <span class="title">Lua Reference</span>
@@ -69,6 +218,5 @@
         <div><span class="code value table">table</span>.__index / <span class="code value table">table</span>.__newindex</div>
         <div>Example values: nil, True, False, {}, 3, "yes", {"yes", 3},  {a="a", b=3}</div>
     </section>
-</div>
 </body>
 </html>

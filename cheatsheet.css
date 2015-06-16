@@ -1,10 +1,7 @@
-div#layout {
+.cheatsheet {
     column-width: 400px;
     -webkit-column-width: 400px;
     -moz-column-width: 400px;
-}
-
-body {
 }
 
 section {
@@ -37,6 +34,10 @@ section > div {
 .note:before { content: "("; }
 .note:after { content: ")"; }
 
+.cheatsheet .boring {
+    display: none;
+}
+
 .shortcut {
     background: lightgrey;
     display: inline-block;
@@ -44,6 +45,10 @@ section > div {
     border: 2px solid;
     margin-top: 2px;
     padding: 2px;
+}
+
+.event-name {
+    font-weight: bold;
 }
 
 .returns {
