@@ -2,6 +2,9 @@
     column-width: 400px;
     -webkit-column-width: 400px;
     -moz-column-width: 400px;
+    column-gap: 10px;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
 }
 
 section {
@@ -10,8 +13,8 @@ section {
     width: 390px;
     border: 1px solid;
     border-radius: 10px;
-    margin: 5px;
     padding: 0 5px 0 5px;
+    margin: 5px 0 5px 0;
 }
 
 section > .title {

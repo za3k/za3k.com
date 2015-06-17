@@ -2,6 +2,9 @@ body {
     column-width: 400px;
     -webkit-column-width: 400px;
     -moz-column-width: 400px;
+    column-gap: 20px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
 }
 
 .quote {
@@ -21,7 +24,8 @@ section {
     display: inline-block;
     border: 1px solid;
     border-radius: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 section > * {
