@@ -2,8 +2,318 @@
 <html>
 <head>
     <link rel="stylesheet" href="cheatsheet.css">
+    <script>
+        function ready() {
+            console.log("ready");
+            var toggleContainer = document.getElementsByClassName("toggleContainer")[0];
+            var toggle = document.createElement("a");
+            toggle.href="#";
+            toggle.innerHTML = "Show more";
+            toggleContainer.appendChild(toggle);
+            var toggleFull = (function() {
+                var fullNode;
+                return function() {
+                    if (fullNode) {
+                        fullNode.remove();
+                        fullNode = undefined;
+                        toggle.innerHTML = "Show more";
+                    } else {
+                        var style = document.createElement('style');
+                        style.innerHTML = ".cheatsheet .boring { display: block; };";
+                        fullNode = style;
+                        document.body.appendChild(style);
+                        toggle.innerHTML = "Show less";
+                    }
+                }
+            })();
+            toggle.onclick = toggleFull;
+        }
+        document.addEventListener("DOMContentLoaded", ready);
+    </script>
 </head>
 <body class="cheatsheet">
+    <h1 class="title">ComputerCraft 1.73</h1>
+    <div class="toggleContainer no-print"></div>
+    <section class="boring">
+        <span class="title">Recipes</span>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Glass Pane" src="minecraft_img/glasspane.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Computer" src="minecraft_img/computer.png">
+                </div>
+            </div>
+            <div class="output-label">Computer</div>
+            <div class="note"><img class="ingredient" alt="Gold Ingot" src="minecraft_img/gold.png"> in place of <img class="ingredient" alt="Stone" src="minecraft_img/stone.png"> to get <img class="ingredient" alt="Advanced Computer" src="minecraft_img/advancedcomputer.png"></div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Wired Modem" src="minecraft_img/wiredmodem.png">
+                </div>
+            </div>
+            <div class="output-label">Wired Modem</div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <div class="empty ingredient"></div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <div class="empty ingredient"></div>
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <div class="empty ingredient"></div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <div class="empty ingredient"></div>
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Networking Cable" src="minecraft_img/networkingcable.png">
+                    <span class="amount">6</span>
+                </div>
+            </div>
+            <div class="output-label">Networking Cable</div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Ender Pearl" src="minecraft_img/enderpearl.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Wireless Modem" src="minecraft_img/wirelessmodem.png">
+                </div>
+            </div>
+            <div class="output-label">Wireless Modem</div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Disk Drive" src="minecraft_img/diskdrive.png">
+                </div>
+            </div>
+            <div class="output-label">Disk Drive</div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Paper" src="minecraft_img/paper.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Floppy Disk" src="minecraft_img/disk.png">
+                </div>
+            </div>
+            <div class="output-label">Floppy Disk</div>
+            <div class="note">Can be dyed</div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                        <img class="ingredient" alt="Computer" src="minecraft_img/computer.png">
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                        <img class="ingredient" alt="Chest" src="minecraft_img/chest.png">
+                        <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Turtle" src="minecraft_img/turtle.png">
+                </div>
+            </div>
+            <div class="output-label">Turtle</div>
+            <div class="note"><img class="ingredient" alt="Gold Ingot" src="minecraft_img/gold.png"> and <img class="ingredient" alt="Advanced Computer" src="minecraft_img/advancedcomputer.png"> in place of <img class="ingredient" alt="Iron Ingot" src="minecraft_img/iron.png"> and <img class="ingredient" alt="Computer" src="minecraft_img/computer.png"> to get <img class="ingredient" alt="Advanced Turtle" src="minecraft_img/advancedturtle.png"></div>
+            <div class="subrecipe">
+                Combine <img class="ingredient" alt="Turtle" src="minecraft_img/turtle.png"> / <img class="ingredient" alt="Advanced Turtle" src="minecraft_img/advancedturtle.png"> and up to two of: 
+                        <div>
+                            <img class="ingredient" alt="Wireless Modem" src="minecraft_img/wirelessmodem.png">
+                            <img class="ingredient" alt="Workbench" src="minecraft_img/workbench.png">
+                            <img class="ingredient" alt="Diamond Pickaxe" src="minecraft_img/diamondpickaxe.png">
+                            <img class="ingredient" alt="Diamond Sword" src="minecraft_img/diamondsword.png">
+                            <img class="ingredient" alt="Diamond Hoe" src="minecraft_img/diamondhoe.png">
+                            <img class="ingredient" alt="Stone" src="minecraft_img/diamondshovel.png">
+                        </div>
+            </div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Glass Pane" src="minecraft_img/glasspane.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Monitor" src="minecraft_img/monitor.png">
+                </div>
+            </div>
+            <div class="output-label">Monitor</div>
+            <div class="note"><img class="ingredient" alt="Gold Ingot" src="minecraft_img/gold.png"> in place of <img class="ingredient" alt="Stone" src="minecraft_img/stone.png"> to get 4x<img class="ingredient" alt="Advanced Monitor" src="minecraft_img/advancedmonitor.png"></div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Redstone" src="minecraft_img/redstone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Ink Sac" src="minecraft_img/inksac.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Printer" src="minecraft_img/printer.png">
+                </div>
+            </div>
+            <div class="output-label">Printer</div>
+            <div class="note">Combine <img class="ingredient" alt="Printed Page" src="minecraft_img/printedpage.png"> / <img class="ingredient" alt="Printed Pages" src="minecraft_img/printedpages.png"> with <img class="ingredient" alt="String" src="minecraft_img/string.png"> to get <img class="ingredient" alt="Printed Pages" src="minecraft_img/printedpages.png"></div>
+            <div class="note">Combine <img class="ingredient" alt="Printed Page" src="minecraft_img/printedpage.png"> / <img class="ingredient" alt="Printed Pages" src="minecraft_img/printedpages.png"> with <img class="ingredient" alt="String" src="minecraft_img/string.png"> and <img class="ingredient" alt="Leather" src="minecraft_img/leather.png"> to get <img class="ingredient" alt="Printed Book" src="minecraft_img/printedbook.png"></div>
+        </div>
+        <div class="recipe-container">
+            <div class="recipe">
+                <div class="input">
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Golden Apple" src="minecraft_img/goldenapple.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                    <div>
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                        <img class="ingredient" alt="Glass Pane" src="minecraft_img/glasspane.png">
+                        <img class="ingredient" alt="Stone" src="minecraft_img/stone.png">
+                    </div>
+                </div>
+                <div class="output">
+                    <img class="ingredient" alt="Pocket Computer" src="minecraft_img/pocketcomputer.png">
+                </div>
+            </div>
+            <div class="output-label">Pocket Computer</div>
+            <div class="note"><img class="ingredient" alt="Gold Ingot" src="minecraft_img/gold.png"> in place of <img class="ingredient" alt="Stone" src="minecraft_img/stone.png"> to get <img class="ingredient" alt="Advanced Pocket Computer" src="minecraft_img/advancedpocketcomputer.png"></div>
+            <div class="note">Combine <img class="ingredient" alt="Pocket computer" src="minecraft_img/pocketcomputer.png"> / <img class="ingredient" alt="Advanced Pocket Computer" src="minecraft_img/advancedpocketcomputer.png"> and <img class="ingredient" alt="Wireless Modem" src="minecraft_img/wirelessmodem.png"></div>
+        </div>
+    </section>
+    <section>
+        <span class="title">Built-in Programs</span>
+        <div class="boring"><span class="program">id</span></div>
+        <div><span class="program">label</span><span class="note">breaking without a label loses all data and fuel</span></div>
+        <div class="boring"><span class="program">copy / cp / rename / move</span> <span class="parameters">source</span> <span class="parameters">destination</span></div>
+        <div class="boring"><span class="program">delete</span> <span class="parameters">file</span></div>
+        <div><span class="program">monitor</span> <span class="parameters">side</span> <span class="parameters">program arguments...</span></div>
+        <div><span class="program">bg / fg</span> <span class="parameters">program arguments...</span><span class="note">advanced / multishell</span></div>
+        <div><span class="program">repeat</span><span class="note">wireless repeater</span></div>
+        <div><span class="program">gps host</span> <span class="parameters">[x y z]</span></div>
+        <div><span class="program">gps locate</span></div>
+        <div><span class="program">refuel</span> <span class="parameters">[amount]</span></div>
+        <div><span class="program">craft</span></div>
+        <div><span class="program">go</span> <span class="parameters">[direction]</span></div>
+        <div><span class="program">equip / unequip</span> <span class="parameters">side</span></div>
+        <div><span class="program">dig</span> <span class="parameters">[distance]</span></div>
+        <div><span class="program">excavate</span> <span class="parameters">[square size]</span></div>
+    </section>
     <section>
         <span class="title">Shortcuts</span>
         <div><span class="shortcut">Ctrl-S</span> Shutdown computer</div>
@@ -58,7 +368,7 @@
         <div>eject(<span class="parameters">side</span>)</div>
     </section>
     <section>
-        <span class="title">Etherpad Bootstrap</span>
+        <span class="title">Etherpad.za3k.com Bootstrap</span>
         <div>pastebin get LLia5Cd7 etherpad</div>
         <div>etherpad get etherpad etherpad</div>
         <div>etherpad get pull pull</div>
@@ -113,7 +423,7 @@
     <section>
         <span class="title">Native Os Events</span>
         <div><span class="event-name">key</span>: keycode</div>
-        <div class="boring">char</span>: letter</div>
+        <div class="boring"><span class="event-name">char</span>: letter</div>
         <div><span class="event-name">timer</span> / <span class="event-name">alarm</span>: id</div>
         <div><span class="event-name">redstone</span> <span class="note">Any redstone input changed</span></div>
         <div><span class="event-name">disk</span> / <span class="event-name">disk_detach</span>: side</div>
@@ -124,8 +434,8 @@
         <div class="boring"><span class="event-name">mouse_scroll</span>: direction, x, y</div>
         <div><span class="event-name">mouse_drag</span>: button, x, y</div>
         <div><span class="event-name">monitor_touch</span>: side, x, y <span class="note">Right click on an advanced monitor</span></div>
-        <div class="boring"><span class="event-name">"term_resize"</span></div>
-        <div class="boring"><span class="event-name">"terminate"</span><span class="note">os.pullEventRaw only</span></div>
+        <div class="boring"><span class="event-name">term_resize</span></div>
+        <div class="boring"><span class="event-name">terminate</span><span class="note">os.pullEventRaw only</span></div>
         <div><span class="event-name">turtle_inventory</span> <span class="note">Inventory changes</span></div>
     </section>
     <section class="boring">

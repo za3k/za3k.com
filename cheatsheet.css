@@ -17,12 +17,74 @@ section {
     margin: 5px 0 5px 0;
 }
 
+.cheatsheet > .title {
+    font-variant: small-caps;
+    margin: 5px 5px 5px 5px;
+}   
+
 section > .title {
     font-variant: small-caps;
+    display: block;
 }
 
 section > div {
     margin-left: 20px;
+}
+
+.recipe-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+.recipe-container .recipe {
+    display: inline-block;
+}
+.recipe-container .output-label {
+    position: absolute;
+    width: 110px;
+    top: 60px;
+    left: 266px;
+}
+.recipe-container .subrecipe {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.ingredient {
+    vertical-align: middle;
+}
+.ingredient {
+    vertical-align: middle;
+}
+.recipe {
+    position: relative;
+    background-image: url("minecraft_img/recipe.png");
+    height: 132px;
+    width: 256px;
+    margin: 0px;
+}
+.recipe .input {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+.recipe .output {
+    position: absolute;
+    left: 202px;
+    top: 50px;
+}
+.recipe .ingredient {
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: inherit;
+}
+.recipe .output .amount {
+    position: absolute;
+    left: 19px;
+    top: 13px;
+    color: white;
+    font-size: 14pt;
+    text-shadow: 2px 2px black;
 }
 
 .parameters {
@@ -39,6 +101,10 @@ section > div {
 
 .cheatsheet .boring {
     display: none;
+}
+
+.program {
+    font-weight: bold;
 }
 
 .shortcut {
@@ -95,3 +161,20 @@ section > div {
 .keyword {
     font-variant: small-caps;
 }
+
+@media screen
+{
+    .boring {
+        color: green;
+    }
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    .boring {
+}
+
