@@ -1,4 +1,18 @@
+Things that Dani remembers:
+
+- Be nice and friendly
+- Small sentences
 - Lea is telling me something is wrong that we could change, not yelling at me.
+
+Grounding exercises and stuff Dani wrote (also trying to be grounded, seperately):
+- 0 to 10, how gone are you?
+- Smells, looks, tastes, sees.
+- "Can you tell me where you are and who I am?"
+- Try hard to be not gone
+- Where in body you're tense
+
+Things that help with dissociating:
+
 - Tell me your name, and details about yourself
 - Look at me while you talk
 - Check that I understand what you're saying to me.
