@@ -19,6 +19,17 @@ body > .quote {
     margin-bottom: 10px;
 }
 
+#header {
+    column-span: all;
+    display: block;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    background: #bbffbb;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 section {
     width: 380px;
     display: inline-block;
