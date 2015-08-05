@@ -9,3 +9,6 @@ RewriteRule . /index.php [L]
 
 Action markdown /cgi-bin/markdown/Markdown.cgi
 AddHandler markdown .md
+
+Action stylish /cgi-bin/stylish
+AddHandler stylish .db
