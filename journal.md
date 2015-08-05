@@ -6,4 +6,4 @@ Works in progress
 - How to Be An [Adult](adult.md)
 - Digital-Physical [Adapters](adapters.md)
 - Computer software [issues](issues.md) I've reported.
-- [Custom Stylesheets](css_hidden.md) I've written for websites
+- [Custom Stylesheets](stylish.view) I've written for websites
