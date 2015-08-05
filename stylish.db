@@ -1,1 +1,8 @@
-SELECT style, code, GROUP_CONCAT(section_meta.value) as 'website(s)' FROM (SELECT styles.name AS style,sections.code AS code,sections.id AS sections_id FROM styles INNER JOIN sections ON sections.style_id = styles.id) LEFT JOIN section_meta ON section_meta.section_id = sections_id GROUP BY style;
+-- stylish.db
+SELECT style, code, GROUP_CONCAT(section_meta.value) as 'website(s)' FROM 
+    (SELECT styles.name AS style,
+         sections.code AS code,sections.id AS sections_id
+     FROM styles INNER JOIN sections ON sections.style_id = styles.id) 
+LEFT JOIN section_meta
+    ON section_meta.section_id = sections_id
+GROUP BY style;
