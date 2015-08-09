@@ -43,8 +43,26 @@ section > * {
     -webkit-margin-before: 5px;
     -webkit-margin-after: 5px;
 }
+section > table {
+    margin-left: 20px;
+}
+section > span {
+    margin-left: 20px;
+}
 
 section > h1 {
     font-style: small-caps;
 }
 
+table {
+  border-collapse: separate;
+}
+
+td {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+tr td:first-child {
+  background-color: #EAF2D3;
+}
