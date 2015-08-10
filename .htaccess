@@ -12,3 +12,6 @@ AddHandler markdown .md
 
 Action view /cgi-bin/view.cgi
 AddHandler view .view
+
+Action status /cgi-bin/status.cgi
+AddHandler status .status
