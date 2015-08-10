@@ -1,0 +1,28 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #FFFFDD;
+  min-height: 50px;
+}
+
+tr.failure {
+  background-color: red;
+}
+
+tr.success {
+  background-color: lightgreen;
+}
+
+tr.timeout {
+  background-color: lightyellow;
+}
