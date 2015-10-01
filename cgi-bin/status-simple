@@ -1,0 +1,25 @@
+#!/bin/bash
+TEMP=$(mktemp)
+timeout 5 bash "$@" >"$TEMP"
+SUCCESS=$?
+
+if [ "$SUCCESS" -eq 0 ]; then
+  RESULT="success"
+elif [ "$SUCCESS" -eq 124 ]; then
+  RESULT="timeout"
+else
+  RESULT="failure"
+fi
+
+echo "<tr class=\"${RESULT}\">"
+
+echo "<td>$(basename "$1")</td>"
+echo "<td>${RESULT}</td>"
+
+echo -n "<td>"
+cat "$TEMP"
+rm "$TEMP"
+echo -n "</td>"
+
+echo "</tr>"
+exit $SUCCESS

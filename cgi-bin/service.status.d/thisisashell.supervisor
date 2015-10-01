@@ -1,0 +1,4 @@
+./supervisor-up? thisisashell || {
+	echo "KNOWN DOWN"
+        exit 0
+}

@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo supervisorctl status | grep "$1"
+STATUS=$(sudo supervisorctl status | grep "$1" | awk '{print $2}')
+echo "$STATUS" | grep -q "RUNNING"

@@ -1,0 +1,2 @@
+sudo cat /var/log/apache2/error.log | grep -v -e favicon -e robots.txt -e wp-login -e feed | sed -e 's/\[.*2015\]//g' | sort | uniq -c | sort -r -n | grep -v " 1 "
+
