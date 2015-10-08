@@ -5,4 +5,5 @@ then
     :
 else
     cat /home/mint/cron.log
+    exit 1
 fi
