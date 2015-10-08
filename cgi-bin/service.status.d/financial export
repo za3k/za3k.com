@@ -1,3 +1,8 @@
 FILE=/home/mint/mint-transactions.csv
 ONE_WEEK=$((7 * 24 * 60 * 60))
-./file-updated? "${FILE}" "${ONE_WEEK}"
+if ./file-updated? "${FILE}" "${ONE_WEEK}"
+then
+    :
+else
+    cat /home/mint/cron.log
+fi
