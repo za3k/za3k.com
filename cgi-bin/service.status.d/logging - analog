@@ -1,7 +1,8 @@
-./up? http://za3k.com/~logs/analog.html || exit 1
-&& {
-SIZE=$(curl -s http://za3k.com/~logs/analog.html | wc -c)
-if [ "${SIZE}" -lt 20000 ]; then
-    echo "http://za3k.com/~logs/analog.html is too short, probably failing"
+URL="http://za3k.com/~logs/analog.html"
+./up? "${URL}" || exit 1
+SIZE=$(curl -s "${URL}" | wc -c)
+TARGET_SIZE=20000
+if [ "${SIZE}" -lt "${TARGET_SIZE}" ]; then
+    echo "${URL} is too short (<${TARGET_SIZE} bytes), probably failing"
     exit 1
 fi
