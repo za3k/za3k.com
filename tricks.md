@@ -1,7 +1,5 @@
 What fuckpet will learn next
 ============================
-- Massage the Dani
-- Tell Dani when fuckpet is getting frustrated
 - Only think about Dani when you finish
 
 Tricks fuckpet has learned
@@ -17,15 +15,6 @@ Tricks fuckpet has learned
 | Look               |         | Look Dani in the eyes. No looking away until Dani tells you "You can look away now" or lets go of collar.            |
 | Down               | No      | Sprawl on the ground                                                                            |
 | Up                 | No      | Get back up after **Down**                                                                      |
-
-Fuckpet is allowed to
-=====================
-- touch and finish while Dani is at camp
-
-Fuckpet is not allowed to
-=========================
-- leave without asking first
-
 Fuckpet always
 ==============
 - thinks about Dani when they finish
