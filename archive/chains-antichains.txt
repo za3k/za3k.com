@@ -1,0 +1,112 @@
+checking deadtree:~gipc ->
+    2013-08-14
+        23:35 < apophenia> Hey can someone sketch me a proof of the post correspondence theorem
+        23:35 < apophenia> I don't get it
+        23:38 < apophenia> If so I will learn and then present Dilworth/Mirsky's theorem
+    2013-08-15
+        11:48 < apophenia> Thanks for explaining
+        11:48 < um> ok
+        11:48 < apophenia> I guess I'm obligated to learn about antichains now
+    2014-02-03
+        23:05 < apophenia> i haven't forgotten my promise to explain antichains and chains, i just haven't learned them yet!
+    2014-04-05
+        01:04 < apophenia> Hey I might not explain the theorems about chains and antichains or i might but i'm going to quite [sic, quit] fretting
+
+Commitment: Learn and present Dilworth/Mirsky's theorem
+
+Antichain in a poset: A set of elements no two of which are comparable
+Chain in a poset: A set of elements in which every two are comparable
+Height of a poset: The length of the largest chain in the poset.
+[In graph theory - connected or disconnected]
+
+Dilworth's Theorem
+Statement (for finite orders):
+    The maximum number of elements in any antichain equals the minimum number of chains in any partition of the set into chains. This common number is called the width of an order.
+    [ Connected to Konig's theorem in graphs and the perfection of comparability graphs, and the Gallai-Hasse-Roy-Vitaver theorem relating longest paths and colorings, and the Erdos-Szekeres theorem on monotonic subsequences ]
+
+Mirsky's Theorem
+Statement (for finite orders):
+    The maximum number of elements in any chain (the width) equals the minimum number of antichains in any partition of the set into antichains.
+
+Proof of Dilworth's Theorem for finite orders:
+    The minimal number |P| of a partition of disjoint chains covering the order O
+     =
+    The maximal size |A| of an antichain in O
+
+Consider a partition P of chains. No chain contains more than one element of A, so there are at least |A| chains. |P| >= |A|
+Induct on |O|.
+  1. Either there are two comparable elements of O, or there are not
+    F. No two elements of O are comparable
+       |P|=|O| (chains of one element) and |A|=|O| (O is an antichain), and we are done.
+    T. Two elements of 0 are comparable.
+       Call A' the largest antichain of O\C, A the largest antichain of O.
+       1. What is the size of |A'|
+        Less than |A|.
+          By induction, O\C can be paritioned into |A'| disjoint chains.
+          O can be paritioned into |A'| + 1 disjoint chains, by taking the partition of O\C together with the chain C.
+          |P| <= |A'| + 1 <= |A|
+        Same as |A'|.
+          Let C={0,1}, where 0 is a minimal element and 1 is a maximal element
+          |O\C|=|O|-2
+          Let O+ = { x in O, x >= a for any a in A' }
+          Let O- = { x in O, x <= a for any a in A' }
+          O+ \intersect O- = A
+            O+ \intersect O- includes all of A', because a<=a and a>=a for all a in A'
+            O+ \interect O- does not include any element of P other than A'
+          O+ \union O- = O
+            Otherwise
+              An element of O \ (O+ \union O-) would be incomparable to every element of A'
+              A' would not be maximal.
+          0 is not in O+, so |O+|<|O|
+          1 is not in O-, so |O-|<|O|
+          Call P+ the partition of O+ into chains (note each chain contains exactly one element of A')
+          Call P- the paritition of )- into chains similarly
+          Let P = { P_a = {P-}_a \union {P+}_a }
+            P covers O, because P contains all elements of P+ and P- and they cover O.
+            P consists of chains (inspection)
+            P is disjoint
+              Suppose there was some e in P_a1 \intersect P_a2
+                e is in {P-}_a1 \intersect {P-}_a2, which is impossible because P- is a partition
+                e is in {P+}_a1 \intersect {P+}_a2, similarly
+                e is in {P+}_a1 \intersect {P-}_a2, which means e is in O+ \intersect O-, which means e is in A. But no element of e can be in two chains, so this is impossible.
+                e is in {P-}_a1 \intersect {P+}_a2, similarly
+          P is a partition into chains of O of size |P| = |A'| = |A|
+
+
+Proof of Mirsky's Theorem for finite orders
+    The minimal number |P| of a partition of disjoint antichains covering the order O
+     =
+    The maximal size |C| of a chain C in O
+
+Induct on |O| (empty case is trivial)
+    |P| >= |C|, because no antichain can contain more than one element of a maximal chain C.
+
+    Define N(x) = |c| for the largest chain with x as a maximal element in C
+    Define N^{-1}(i) = { x such that N(x) = i }
+        
+    Let A = N^{-1}(|C|)
+    A is nonempty
+        Let C be a maximal chain
+        Let M_C = the maximal element of C
+        N(M_C) = |C| because C has M_C as a maximal element, and no chain is longer than C.
+        A=N^{-1}(|C|) contains M_C because N(M_C) = |C|
+    A is an antichain
+        A=N^{-1}(|C|) consists only of maximal elements of maximal-length chains
+        Suppose A is not an antichain
+            Then A contains two comparable elements M_C1 and M_C2, which are maximal elements of chains C1 and C2, not neccessarily disjoint
+            |C1| = |C2| = |C| by definition of N(x)
+            Without loss of generality, assume M_C1 < M_C2
+            Then C1 \union { M_C2 } forms a chain of length |C| + 1, because M_C2 is greater than every element of C1.
+            But |C| is the length of a maximal chain, so this is impossible
+    Every maximal-length chain intersect
+
+    Let O' = O\A
+    The maximal length of any chain in O' is |C| - 1
+        Take a maximal chain C' in O'
+        |C'| < |C|, because otherwise the maximal element of C' would be in A, which is impossible.
+        Take any maximal chain C in O
+        Then C\M_C is a chain of length |C| - 1 in O'
+
+    By induction, O' can be partitioned into |C| - 1 antichains. Combine this with A, and we have a partition into |C| antichains.
+    Therefore |P| <= |C| by construction
+    |P| = |C|
