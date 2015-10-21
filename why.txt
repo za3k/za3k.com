@@ -1,0 +1,4 @@
+first=$(head -n1 /home/zachary/deadtree.backups)
+sudo btrfs subvolume snapshot -i 1/100 $first deadtree.latest
+sudo rsync -aAXv --progress --inplace $first deadtree.latest
+
