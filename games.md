@@ -11,8 +11,9 @@ Computer Games
 - [Dungeon Master II: Legend of Skullkeep](http://dmweb.free.fr/?q=node/250) by FTL Games, abandonware. 1995.
 - [DROD](http://forum.caravelgames.com/viewsitepage.php?id=90294) by Caravel Games. Paid. 1997.
 - Eric the Unready by Legend Entertainment ([download link](http://www.abandonia.com/en/games/192/eric+the+unready.html)), paid, abandonware. 1993.
-- Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. 1986.
+- [Heros of the Lance](http://www.myabandonware.com/game/heroes-of-the-lance-1tz)
 - [I Wanna Be The Guy](http://kayin.moe/iwbtg/) by Kayin. 2007.
+- Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. 1986.
 - [Marshmallow Duel](http://mduel2k5.spadgos.com/mduel96/) by 'Nigel' and 'Llewelyn'. 1996.
 - [Ooooorrrrcs!](http://www.alamak0ta.republika.pl/orcs.html) by Jakub Debski. 2008.
 - [Powder](http://www.zincland.com/powder/?pagename=about) by Jeff Lait. 2004.
