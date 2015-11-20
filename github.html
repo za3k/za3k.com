@@ -6,7 +6,12 @@ Currently no one has archived github.com.
 I host the metadata for the repositories. Metadata for gists is currently unavailable from github, but I'm working with them to make it public.
 <ul>
 	<li>Full repository metadata is available in batches of 10,000 at <pre>http://za3k.com/github/repos-&lt;X>0000-&lt;X+1>0000.json
->http://za3k.com/github/repos-&lt;X>0000-&lt;X+1>0000.json.gz</pre></li>
+http://za3k.com/github/repos-&lt;X>0000-&lt;X+1>0000.json.gz</pre>
+    To download all files, run <pre>
+
+for x in {0..100}; do wget "http://za3k.com/github/repos-$((x*10000))-$(((x+1)*10000)).json.gz"; done
+    </pre>
+</li>
 	<li>You can grab greatly abbreviated metadata (recommended) as <a href="https://za3k.com/github/repos.json">JSON</a>.</li>
 	<li>Finally, you can get a txt file of just the repo names: <a href="https://za3k.com/github/repos.txt">txt</a>.</li>
 </ul>
