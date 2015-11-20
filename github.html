@@ -9,7 +9,9 @@ I host the metadata for the repositories. Metadata for gists is currently unavai
 http://za3k.com/github/repos-&lt;X>0000-&lt;X+1>0000.json.gz</pre>
     To download all files, run <pre>
 
-for x in {0..100}; do wget "http://za3k.com/github/repos-$((x*10000))-$(((x+1)*10000)).json.gz"; done
+for x in {0..100}; do \
+  wget "http://za3k.com/github/repos-$((x*10000))-$(((x+1)*10000)).json.gz"\
+done
     </pre>
 </li>
 	<li>You can grab greatly abbreviated metadata (recommended) as <a href="https://za3k.com/github/repos.json">JSON</a>.</li>
