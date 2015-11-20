@@ -28,8 +28,8 @@ done
 <p>The Events Timeline is emphemeral, and being successfully recorded by <a href="https://www.githubarchive.org">githubarchive.org</a>. A second person running the same program in case of downtime would be a plus.</p>
 
 <h3>Estimates on archiving repositories</h3>
-<p>I selected 1000 random respoitories from the above list, removing 427 forks. I then checked out all repositories. The total size was 4.3G, with or without compression. It was around 3 GB for a <a href="https://git-scm.com/docs/git-clone">shallow</a> checkout. If we assume forks take no space, this means an average github repository takes up 4.3M. Omitting the largest repositories may improve this estimate, but I didn't run further tests. I haven't checked, but the issue taken up by metadata like issues should be very small in comparison.</p>
-<p>If there are 35,000,000 repositories on github at an average size of 4.3M each, that multiplies out to around 150TB data total.</p>
+<p>I selected 1000 random repositories from the above list, removing 427 forks. I then checked out all repositories. The total size was 4.3G, with or without compression. It was around 3 GB for a <a href="https://git-scm.com/docs/git-clone">shallow</a> checkout. If we assume forks take no space, this means an average github repository takes up 4.3M. Omitting the largest repositories may improve this estimate, but I didn't run further tests.</p>
+<p>If there are 35,000,000 repositories on github at an average size of 4.3M each, that multiplies out to around 150TB data total for the git repositories.</p>
 
 <h3>Additional information</h3>
 <ul>
