@@ -6,13 +6,13 @@
 <h3>List of Respositories</h3>
 I host some metadata about github's repositories. This includes a lot of basic data about the repository, but NOT the issues, any wiki, downloads, or the git repository. As of Nov 2015, github has 28 million repositories.
 <ul>
-	<li><p>Full repository metadata is available in JSON format. The format is explained on the <a href="https://developer.github.com/v3/repos/#list-all-public-repositories">github API</a>. These files contain repeat data because of an error on my part, I am fixing the historical data but you may wish to hold off downloading it for now.</p>
-    <p>The files are available in batches of 10,000 at <pre>http://za3k.com/github/repos-&lt;X>0000-&lt;X+1>0000.json
-http://za3k.com/github/repos-&lt;X>0000-&lt;X+1>0000.json.gz</pre>
+	<li><p>Full repository metadata is available in JSON format. The format is explained on the <a href="https://developer.github.com/v3/repos/#list-all-public-repositories">github API</a>.</p>
+    <p>The files are available in batches of 10,000 at <pre>http://za3k.com/github/repos-&lt;X>0000-&lt;X>9999.json
+http://za3k.com/github/repos-&lt;X>0000-&lt;X>9999.json.gz</pre>
     To download all files, run <pre>
     for x in {0..4700}; do \
-      echo "https://za3k.com/github/repos-$((x*10000))-$(((x+1)*10000)).json.gz"; \
-    done | wget -nc -i -
+      echo "https://za3k.com/github/repos-${x}0000-${x}9999.json.gz"; \
+    done | wget -N -i -
     </pre>
     The combined size of these files is <b>15G compressed</b>, 168G uncompressed. Files are grouped by github's internal id; since some repositories are deleted or privated, each file contains less than 10,000 repositories.
 </li>
