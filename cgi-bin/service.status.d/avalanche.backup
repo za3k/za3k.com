@@ -1,0 +1,6 @@
+DEADTREE=$(ssh -i /var/www/.ssh/backup_check -p4192 backup_status@xenu.za3k.com ./status.sh | grep avalanche)
+echo $DEADTREE
+EXPECTED=$(date +"avalanche.%Y%m%d")
+[ "${DEADTREE}" = "${EXPECTED}" ] && exit 0
+EXPECTED=$(date --date="yesterday"  +"avalanche.%Y%m%d")
+[ "${DEADTREE}" = "${EXPECTED}" ] && exit 0
