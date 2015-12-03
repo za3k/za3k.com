@@ -1,2 +1,2 @@
-./up? "http://blog.za3k.com" || exit 1
-./up? "https://blog.za3k.com" || exit 1
+./up? "http://za3k.com/github/" || exit 1
+./up? "https://za3k.com/github/" || exit 1

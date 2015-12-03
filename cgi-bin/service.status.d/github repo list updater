@@ -1,0 +1,3 @@
+FILE=/var/www/github/repos.json
+ONE_WEEK=$((7 * 24 * 60 * 60))
+./file-updated? "${FILE}" "${ONE_WEEK}"
