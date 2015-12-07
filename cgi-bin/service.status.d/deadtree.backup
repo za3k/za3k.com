@@ -4,3 +4,5 @@ EXPECTED=$(date +"deadtree.%Y%m%d")
 [ "${DEADTREE}" = "${EXPECTED}" ] && exit 0
 EXPECTED=$(date --date="yesterday"  +"deadtree.%Y%m%d")
 [ "${DEADTREE}" = "${EXPECTED}" ] && exit 0
+EXPECTED=$(date --date="2 days ago"  +"deadtree.%Y%m%d")
+[ "${DEADTREE}" = "${EXPECTED}" ] && exit 0
