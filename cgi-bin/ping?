@@ -1,2 +1,2 @@
 host "$1"
-ping -c 1 -w 3 -q "$1" >/dev/null
+ping -c 1 -w 3 -q "$1" >/dev/null || ping6 -c 1 -w 3 -q "$1" >/dev/null
