@@ -1,2 +1,2 @@
-echo "$1 resolved to $(host "$1")"
+host "$1"
 ping -c 1 -w 3 -q "$1" >/dev/null
