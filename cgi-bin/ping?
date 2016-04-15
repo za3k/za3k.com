@@ -1,1 +1,1 @@
-ping -c 1 -w 3 -q "$@" >/dev/null
+ping -c 1 -w 3 -q "$1"
