@@ -1,1 +1,1 @@
-ping? deadtree.xen.prgmr.com
+./ping? deadtree.xen.prgmr.com

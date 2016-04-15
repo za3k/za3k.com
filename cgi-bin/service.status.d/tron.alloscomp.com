@@ -1,1 +1,1 @@
-ping? tron.alloscomp.com
+./ping? tron.alloscomp.com

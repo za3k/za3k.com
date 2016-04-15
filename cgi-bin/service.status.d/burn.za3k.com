@@ -1,1 +1,1 @@
-ping? burn.za3k.com
+./ping? burn.za3k.com

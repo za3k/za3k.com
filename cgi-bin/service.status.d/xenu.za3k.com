@@ -1,1 +1,1 @@
-ping? xenu.za3k.com
+./ping? xenu.za3k.com

@@ -1,1 +1,1 @@
-ping? avalanche.za3k.com
+./ping? avalanche.za3k.com
