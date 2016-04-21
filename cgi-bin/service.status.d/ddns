@@ -1,0 +1,3 @@
+IP="$(curl -q icanhazip.com 2>/dev/null)"
+host deadtree.moreorcs.com ns.za3k.com | grep "has"
+host deadtree.moreorcs.com ns.za3k.com | grep "has" | grep "${IP}" >/dev/null
