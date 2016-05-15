@@ -21,7 +21,7 @@ function change_parameters(new_args) {
         $("#inputs div:has(input[name=" + arg + "])").remove();
     });
     _.each(added_args, function(arg) {
-        $("#inputs").append("<div>" + arg + ": <input type=\"text\" name=\"" + arg + "\" value=\"\"></div>");
+        $("#inputs").append("<div><label>" + arg + "</label><input type=\"text\" name=\"" + arg + "\" value=\"\"></div>");
         $("#inputs input[name=" + arg + "]").on("input", function() {
             load_inputs();
             recalc();
@@ -84,15 +84,60 @@ $(function() {
     recalc();
 });
 </script>
+
+
+<style>
+
+body > * {
+    margin-left: 100px;
+}
+
+.error, .inputs, .result {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+label {
+    margin-right: 20px;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+#formula {
+    margin-left: 100px;
+    color: darkgreen;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+#formula:focus {
+    box-shadow: 1px 1px 2px lightgray;
+}
+#result {
+    font-style: bold;
+}
+#error:not(:empty) {
+    color: red;
+}
+#error:empty::after {
+    content: "None";
+}
+
+#result:empty::after {
+    content: "???";
+    text-align: left;
+}
+
+</style>
 </head>
 <body>
-    definitition: <div id="formula" contenteditable="true">
-    function(r, h) {<br/>
-        return Math.PI * Math.pow(r, 2) * h;<br/>
-    }<br/>
-    </div>
-    Error: <div id="error"></div>
-    Inputs: <div id="inputs"></div>
-    Result: <div id="result"></div>
+<div class="definition"><label>Function</label><pre id="formula" contenteditable="true">
+function(r, h) {
+    return Math.PI * Math.pow(r, 2) * h;
+}
+</pre></div>
+<div class="error"><label>Errors</label><span id="error">s</span></div>
+<div class="inputs" id="inputs"></div>
+<div class="result"><label>Result</label><span id="result">s</span></div>
 </body>
 </html>
