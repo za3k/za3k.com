@@ -1,0 +1,93 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script>
+
+function arg_names(f) {
+   return f.toString ().match (/function\s*\w*\s*\((.*?)\)/)[1].split (/\s*,\s*/);
+}
+
+var params = {};
+var args = [];
+var f = function (a, b, c) { return a + b + c; }
+function change_parameters(new_args) {
+    var old_args = args;
+    var added_args = _.difference(new_args, old_args);
+    var removed_args = _.difference(old_args, new_args);
+    var same_args = _.intersection(old_args, new_args);
+    _.each(removed_args, function(arg) {
+        delete params[arg];
+        $("#inputs input[name=" + arg + "]").remove();
+    });
+    _.each(added_args, function(arg) {
+        $("#inputs").append("<div>" + arg + ": <input type=\"text\" name=\"" + arg + "\" value=\"\"></div>");
+        $("#inputs input[name=" + arg + "]").on("input", function() {
+            load_inputs();
+            recalc();
+        });
+    });
+    args = new_args;
+}
+
+function load_inputs() {
+    _.each(args, function(arg) {
+        var arg_value = $("#inputs input[name=" + arg + "]").val();
+        arg_value = Number.parseFloat(arg_value);
+        if (!_.isNaN(arg_value)) {
+          params[arg] = arg_value;
+        }
+    });
+}
+
+function redefine(definition) {
+   try {
+     f = eval("(" + definition + ")");
+   } catch (e) {
+     $("#error").text(e);
+     return;
+   }
+   $("#error").text(null);
+   change_parameters(arg_names(f));
+}
+
+function recalc() {
+    var fargs = _.map(args, function(arg) {
+        return params[arg];
+    });
+    try {
+        var result = f.apply(params, fargs);
+    } catch (e) {
+        $("#result").text(e);
+        return;
+    }
+    $("#result").text(result);
+}
+
+$(function() {
+    $("#formula").on("input", function() {
+        redefine($("#formula").text().trim());
+        recalc();
+    });
+    $("#inputs input").on("input", function() {
+        load_inputs();
+        recalc();
+    });
+    
+    redefine($("#formula").text().trim());
+    load_inputs();
+    recalc();
+});
+</script>
+</head>
+<body>
+    definitition: <div id="formula" contenteditable="true">
+    function(r, h) {<br/>
+        return Math.PI * Math.pow(r, 2) * h;<br/>
+    }<br/>
+    </div>
+    Error: <div id="error"></div>
+    Inputs: <div id="inputs"></div>
+    Result: <div id="result"></div>
+</body>
+</html>
