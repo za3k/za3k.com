@@ -5,7 +5,7 @@
 <script>
 
 function arg_names(f) {
-   return f.toString ().match (/function\s*\w*\s*\((.*?)\)/)[1].split (/\s*,\s*/);
+   return _.compact(f.toString ().match (/function\s*\w*\s*\((.*?)\)/)[1].split (/\s*,\s*/));
 }
 
 var params = {};
@@ -33,9 +33,11 @@ function change_parameters(new_args) {
 function load_inputs() {
     _.each(args, function(arg) {
         var arg_value = $("#inputs input[name=" + arg + "]").val();
-        arg_value = Number.parseFloat(arg_value);
-        if (_.isNaN(arg_value)) {
+        var num_value = Number(arg_value);
+        if (arg_value === "" || _.isUndefined(arg_value)) {
           arg_value = undefined;
+        } else if (!_.isNaN(num_value) && parseFloat(arg_value)==num_value) {
+          arg_value = num_value;
         }
         params[arg] = arg_value;
     });
@@ -132,6 +134,8 @@ label {
 </head>
 <body>
 <div class="definition"><label>Function</label><pre id="formula" contenteditable="true">
+// Javascript
+// Edit me and change my arguments!
 function(r, h) {
     return Math.PI * Math.pow(r, 2) * h;
 }
