@@ -18,7 +18,7 @@ function change_parameters(new_args) {
     var same_args = _.intersection(old_args, new_args);
     _.each(removed_args, function(arg) {
         delete params[arg];
-        $("#inputs input[name=" + arg + "]").remove();
+        $("#inputs div:has(input[name=" + arg + "])").remove();
     });
     _.each(added_args, function(arg) {
         $("#inputs").append("<div>" + arg + ": <input type=\"text\" name=\"" + arg + "\" value=\"\"></div>");
@@ -34,9 +34,10 @@ function load_inputs() {
     _.each(args, function(arg) {
         var arg_value = $("#inputs input[name=" + arg + "]").val();
         arg_value = Number.parseFloat(arg_value);
-        if (!_.isNaN(arg_value)) {
-          params[arg] = arg_value;
+        if (_.isNaN(arg_value)) {
+          arg_value = undefined;
         }
+        params[arg] = arg_value;
     });
 }
 
@@ -55,6 +56,10 @@ function recalc() {
     var fargs = _.map(args, function(arg) {
         return params[arg];
     });
+    if (_.contains(fargs, undefined)) {
+        $("#result").text(null);
+        return;
+    }
     try {
         var result = f.apply(params, fargs);
     } catch (e) {
