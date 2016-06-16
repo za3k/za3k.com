@@ -19,6 +19,17 @@ body > .quote {
     margin-bottom: 10px;
 }
 
+#downtime {
+    column-span: all;
+    display: block;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    background: #ffbbbb;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 #header {
     column-span: all;
     display: block;
@@ -28,6 +39,7 @@ body > .quote {
     width: 90%;
     margin: auto;
     text-align: center;
+    display: none;
 }
 
 section {
