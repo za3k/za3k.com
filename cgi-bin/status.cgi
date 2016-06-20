@@ -17,7 +17,7 @@ echo "    <th>Service</td>"
 echo "    <th>Status</td>"
 echo "    <th>Details</td>"
 echo "  </thead>"
-find "${FOLDER}" -type f -print0 | sort -z | parallel -0 --keep-order -n1 -- ./status-simple
+find "${FOLDER}" -type f -print0 | sort -z | SHELL=/bin/sh parallel -0 -j 0 --keep-order -n1 -- ./status-simple
 echo "</table>"
 echo "<a href=\"https://github.com/za3k/za3k.com/tree/master/cgi-bin/service.status.d\">[Source]</a>"
 echo "</body>"
