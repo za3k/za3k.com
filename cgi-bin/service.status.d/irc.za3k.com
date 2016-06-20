@@ -3,4 +3,5 @@ then
   echo "Port 6667 open"
 else
   echo "Port 6667 not open"
+  exit 1
 fi
