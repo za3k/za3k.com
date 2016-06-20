@@ -3,7 +3,7 @@ echo "Content-type: text/html"
 echo
 
 STATUS="$(basename "$PATH_TRANSLATED")"
-FOLDER="/var/www/za3k/${STATUS}.d"
+FOLDER="/var/www/za3k/cgi-bin/${STATUS}.d"
 
 echo "<html>"
 echo "<head>"
