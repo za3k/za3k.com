@@ -1,4 +1,4 @@
-DEADTREE=$(ssh -i /var/www/.ssh/backup_check backup_status@burn.za3k.com /var/local/backup-status.sh | grep deadtree)
+DEADTREE=$(ssh -i /var/www/status/backup_check -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no backup_status@burn.za3k.com | grep deadtree)
 echo $DEADTREE
 EXPECTED=$(date +"deadtree.%Y%m%d")
 [ "${DEADTREE}" = "${EXPECTED}" ] && exit 0
