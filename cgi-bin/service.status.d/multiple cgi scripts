@@ -1,5 +1,5 @@
 TESTSITE="https://za3k.com/archive/test.md"
-timeout 3 curl "${TESTSITE}" >/dev/null 2>/dev/null
+timeout 3 curl -k "${TESTSITE}" >/dev/null 2>/dev/null
 SUCCESS=$?
 
 if [ "$SUCCESS" -eq 0 ]; then
