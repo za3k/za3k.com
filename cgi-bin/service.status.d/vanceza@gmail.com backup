@@ -1,6 +1,0 @@
-ACCOUNT="vanceza@gmail.com"
-DIR=/home/gmail/${ACCOUNT}
-#FILE="$(./last-updated-in-dir "$DIR")"
-FILE="${DIR}/.info/${ACCOUNT}_email_last_id.sync"
-ONE_WEEK=$((7 * 24 * 60 * 60))
-./file-updated? "${FILE}" "${ONE_WEEK}"
