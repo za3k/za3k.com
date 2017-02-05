@@ -15,7 +15,8 @@ then
 	exit 1
 fi
 
-echo "Source: $(basename ${QUERY_SC_FILE})"
+echo "Source file: $(basename ${QUERY_SC_FILE})"
+echo "Generation: sc -W % \"${QUERY_SC_FILE}\""
 echo
 sc -W % "${QUERY_SC_FILE}"
 
