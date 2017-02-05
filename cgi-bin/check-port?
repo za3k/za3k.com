@@ -1,0 +1,7 @@
+[ $# != 2 ] && echo "Wrong number of arguments to $(basename $0)" && exit 0
+HOST="$1"
+PORT="$2"
+
+STATUS="$(nmap "$HOST" -p "$PORT" -oN - | grep "$PORT" | grep -v "#")"
+echo "$STATUS"
+echo "$STATUS" | grep -q "open"
