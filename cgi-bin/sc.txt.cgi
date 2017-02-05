@@ -3,10 +3,19 @@ echo "Content-type: text/plain"
 echo
 
 QUERY_FILE="${PATH_TRANSLATED}"
-[[ "${QUERY_FILE}" == *.sc.txt ]] || { echo "Invalid .sc.txt file" >/dev/stderr && exit 1 }
+if [[ "${QUERY_FILE}" != *.sc.txt ]]
+then
+	echo "Invalid .sc.txt file" >/dev/stderr
+	exit 1
+fi
 QUERY_SC_FILE="$(echo "${QUERY_FILE}" | sed -e 's/.txt$//')"
-[ -f "${QUERY_SC_FILE}" ] || { echo "Invalid .sc file" >/dev/stderr && exit 1 }
+if [ \! -f "${QUERY_SC_FILE}" ]
+then
+	echo "Invalid .sc file" >/dev/stderr
+	exit 1
+fi
 
-echo "Source: https://za3k.com/${QUERY_SC_FILE}"
+echo "Source: $(basename ${QUERY_SC_FILE})"
 echo
 sc -W % "${QUERY_SC_FILE}"
+
