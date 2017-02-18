@@ -1,2 +1,2 @@
 set +x
-exec env -i $(xargs -a comcast.env) python2 comcast.py
+exec env -i $(xargs -a /etc/comcast.env) python2 comcast.py
