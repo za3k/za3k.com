@@ -1,0 +1,2 @@
+set +x
+exec env -i $(xargs -a comcast.env) python2 comcast.py
