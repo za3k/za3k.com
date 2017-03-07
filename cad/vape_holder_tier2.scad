@@ -164,8 +164,8 @@ module tier1(){
         cube(tier1_dimensions);
 }
 
-tier2_dimensions = [battery_length+battery_diameter+comfortable_spacing/2 + finger_hole_diameter/2, tweezer_dimensions[1]+comfortable_spacing*3+liquid_cup_diameter + battery_diameter, tier2_height+comfortable_spacing];
-tier2_position = [tier1_position[0] + tier1_dimensions[0], tier1_position[1] + tier1_dimensions[1]-tier2_dimensions[1], -comfortable_spacing];
+tier2_dimensions = [battery_length+battery_diameter+comfortable_spacing/2 + finger_hole_diameter/2, tweezer_dimensions[1]+comfortable_spacing*2.5+liquid_cup_diameter + battery_diameter, tier2_height+comfortable_spacing];
+tier2_position = [tier1_position[0] + tier1_dimensions[0], tier1_position[1] -comfortable_spacing/2+ tier1_dimensions[1]-tier2_dimensions[1], -comfortable_spacing];
 module tier2() {
     translate(tier2_position)
         cube(tier2_dimensions);
