@@ -12,9 +12,13 @@ Inside a computer, each of these three colours is given a value from 0 to 255, w
 These colours can be mixed in varying amounts to generate different single colours on a pixel, like paint. However some of the colours generated are not what you would expect from mixing paints. 
 
 *255 , 0 , 0* gives a very bright red. 
+
 *1 , 1 , 1* gives black. 
+
 *255 , 255 , 255* gives pure white. 
+
 *140 , 140 , 140* gives a medium grey. 
+
 NOTE - 0 , 0 , 0 is often reserved for a special case - *transparency*
 
 Preset palettes may come with some nice colours, but an understanding of how to create new colours, and find new shades of existing ones with RGB values is helpful. 
@@ -24,7 +28,6 @@ Many modern art packages have windows like that shown below on the left, allowin
 The sliders may initially seem cumbersome and confusing, but you quickly get used to them and as they reside in the same window, they actually end up faster to use. Use of them can give you a good understanding of colour via RGB values. 
 
 ![][jpgpal] ![][rgbslide]
-
 
 For art in general, I find it preferrable to use 'softer', pastel colours and avoid strong, neon colours (ones with a very high value in one or two RGB values, and a very low value in the others ) They have their place, but they are very garish and I would advise against using them often. 
 

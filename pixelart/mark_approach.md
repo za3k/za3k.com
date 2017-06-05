@@ -22,9 +22,9 @@ If this is the case, then brushing up on your basic art skills is a must.
 The first few iterations of your lineart or shaded image may often look terrible. Don't be disheartened - even the most seemingly hideous mistakes can be edited into something decent. 
 I quite often find myself working by the process of refinement. Once the latest version of your piece is complete, sit back and take a good look at it before fixing it. This 'tweaking' usually breaks down into a simple, 3 step cycle : 
 
-*1 - What is wrong with it?*
-*2 - How can I fix it?* (Often defined by 1) 
-*3 - Fixing it.*
+1. *What is wrong with it?*
+2. *How can I fix it?* (Often defined by 1) 
+3. *Fixing it.*
 
 Check out this painful progression. What was I thinking when I started it? Nethertheless, I think I saved it. 
 

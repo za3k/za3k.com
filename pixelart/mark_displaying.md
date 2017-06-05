@@ -7,15 +7,15 @@ Some file formats are suitable, others are not.
 
 #What not to use :
 
-*.BMP* - 16 million possible colours for each pixel. Extremely inefficient for pixel-art storage.
-*.JPG* - Lossy compression will smudge your nice crisp art in a variety of horrible ways.
+- *.BMP* - 16 million possible colours for each pixel. Extremely inefficient for pixel-art storage.
+- *.JPG* - Lossy compression will smudge your nice crisp art in a variety of horrible ways.
 
 ---
 
 #What you should use :
 
-*.GIF* - Saves images with up to 256 different colours. Small filesize allows fast loading. Loss of image quality only occurs when you excede 256 colours, though it is unlikely you will reach this point unless you are saving a composite of many sprites.
-*.PNG* - Similiar to gif, except that it will allow you to save images with more than 256 colours without image loss. Technically better, but not well supported by Internet Explorer (boo, hiss).
+- *.GIF* - Saves images with up to 256 different colours. Small filesize allows fast loading. Loss of image quality only occurs when you excede 256 colours, though it is unlikely you will reach this point unless you are saving a composite of many sprites.
+- *.PNG* - Similiar to gif, except that it will allow you to save images with more than 256 colours without image loss. Technically better, but not well supported by Internet Explorer (boo, hiss).
 
 ---
 

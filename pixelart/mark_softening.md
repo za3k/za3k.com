@@ -26,7 +26,7 @@ If you want to do this really seriously, you might also want to gradiate lighten
 Sometimes the shade you want to replace the lineart with is lighter than line 'and' its surrounding shades. I find this useful along the non-outline edges of a shape where edges meet.
 This simple box example says it better :
 
-![][boxed]
+![][boxedge]
 
 ---
 
@@ -36,10 +36,11 @@ In some cases the sprite will look better if certain outlines are removed entire
 Take this example of a shirt sleeve hanging on an arm - before and after.
 
 ![][sleeve]
+
 <img src="/pixelart/images/mark_sleeve.gif" width="365" height="234">
 
 [mumi]: /pixelart/images/mark_mumi.gif
 [ball]: /pixelart/images/mark_ball.gif
-[boxed]: /pixelart/images/mark_boxed.gif
+[boxedge]: /pixelart/images/mark_boxedge.gif
 [sleeve]: /pixelart/images/mark_sleeve.gif
 
