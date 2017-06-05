@@ -11,13 +11,10 @@ Computers use a combination of three different colours to create a single pixel 
 Inside a computer, each of these three colours is given a value from 0 to 255, where 0 means 'none' and 255 means 'a lot of' 
 These colours can be mixed in varying amounts to generate different single colours on a pixel, like paint. However some of the colours generated are not what you would expect from mixing paints. 
 
-*255 , 0 , 0* gives a very bright red. 
-
-*1 , 1 , 1* gives black. 
-
-*255 , 255 , 255* gives pure white. 
-
-*140 , 140 , 140* gives a medium grey. 
+- *255 , 0 , 0* gives a very bright red. 
+- *1 , 1 , 1* gives black. 
+- *255 , 255 , 255* gives pure white. 
+- *140 , 140 , 140* gives a medium grey. 
 
 NOTE - 0 , 0 , 0 is often reserved for a special case - *transparency*
 

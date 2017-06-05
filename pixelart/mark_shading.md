@@ -52,7 +52,7 @@ These principles apply even more simply to a flat-sided shape.
 A sphere is a rather boring and sterile object though. The same principles can be applying to a more interesting, less uniform object like this fat little creature :
 
 ![][fatfella]
-<img src="/pixelart/images/fatfella.gif" width="356" height="178">
+<img src="/pixelart/images/mark_fatfella.gif" width="356" height="178">
 
 Note how planes facing towards the light source are brightened, and those facing away dimmed. A good understanding of the three dimensional form of your piece is vital for shading, so that you can identify the amount of light these surfaces receive and shade appropriately.
 In this example I have used a darker base colour and worked more toward the lighter end of the spectrum. The darker shadows are still there, but the overall effect is the lightening of the flesh to a tone I felt was more appropriate.
