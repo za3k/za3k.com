@@ -22,7 +22,7 @@
 
 If you have any links you would like me to add here, please drop me a post on the [Natomic Forums][] (dead link)
 
-![Back](/pixelart/images/mark_back.gif) BACK
+<a href="mark.md"><img src="/pixelart/images/mark_back.gif">BACK</a>
 
 [Natomic Forums]: http://www.natomic.com/forums.asp "Dead Link"
 [The Pixel Bible]: http://www.classicgaming.com/blackeyesoftware/pix.html "Dead Link"

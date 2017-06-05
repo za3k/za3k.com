@@ -3,7 +3,7 @@ Pixel Art Tutorials
 - Tutorials
   - The Pixel Art Tutorial by [cure][logan tanner] [Original][cure's tutorial]
   - Pixel This by [Russell Tate][] [Original][pixel this] ([Cache](pixelthis.md))
-  - Mark's Pixel Art Tutorial [Cache][mark.md] ([Wayback][mark's tutorial])
+  - Mark's Pixel Art Tutorial [Cache](mark.md) ([Wayback][mark's tutorial])
 - Time-lapse art progress
   - Scene #38, "Boat House" by [Octavi Navarro][] [Original][scene 38] ([Cache](scene39.md))
 - a [big list](http://www.pixelprospector.com/the-big-list-of-pixel-art-tutorials/) of tutorials

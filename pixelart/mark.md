@@ -8,16 +8,16 @@ I make no claims to be an authority on pixel art. Everyone has their own preferr
 
 ##MAKING A START
 
-- [Approach to work][mark_approach.md]
-- [Tools you need, tools you don't][mark_tools.md]
+- [Approach to work](mark_approach.md)
+- [Tools you need, tools you don't](mark_tools.md)
 
 ##GENERAL SKILLS
 
-- [Lineart][mark_lineart.md]
-- [Colours and RGB Values][mark_colours.md]
-- [Shading][mark_shading.md]
-- [Softening outlines][mark_softening.md]
-- [Anti-Aliasing][mark_aa.md]
+- [Lineart](mark_lineart.md)
+- [Colours and RGB Values](mark_colours.md)
+- [Shading](mark_shading.md)
+- [Softening outlines](mark_softening.md)
+- [Anti-Aliasing](mark_aa.md)
 
 ##EXAMPLES
 
@@ -25,9 +25,8 @@ I make no claims to be an authority on pixel art. Everyone has their own preferr
 
 ##EXTRAS
 
-- [Displaying Pixel Art][mark_displaying.md] 
-- [Links][mark_links.md]
-
+- [Displaying Pixel Art](mark_displaying.md)
+- [Links](mark_links.md)
 
 Tell me what you think of this tutorial on the [Natomic Forums](http://web.archive.org/web/20131114195509/http://www.natomic.com/forums.asp) (dead link).
 
