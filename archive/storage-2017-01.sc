@@ -243,7 +243,7 @@ let D51 = 42.35
 let E51 = $D51/$C51*1000
 leftstring G51 = "https://www.tapeandmedia.com/detail.asp?product_id=MR-L6MQN-02"
 leftstring A52 = "LTO-7"
-let C52 = 2500
+let C52 = 6000
 let D52 = 115
 let E52 = $D52/$C52*1000
 leftstring G52 = "https://www.tapeandmedia.com/fuji-lto-7-tape-ultrium-tapes.asp"
@@ -257,4 +257,4 @@ let C55 = 0.001*(85*12*2.25)/(8.5*11)
 let D55 = 1.34/3
 let E55 = $D55/$C55*1000
 leftstring G55 = "http://www.bulkofficesupply.com/Products/Thermal-Receipt-Paper-2-14-x-85__PMC05233-BULK.aspx"
-goto D1 B0
+goto E52 A19
