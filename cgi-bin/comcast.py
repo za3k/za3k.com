@@ -44,16 +44,16 @@ logger.debug("Posting to login...")
 res = session.post('https://login.comcast.net/login', data=data)
 assert res.status_code == 200
 
-logger.debug("Preloader HTML...")
-res = session.get('https://customer.xfinity.com/Secure/Preloading/?backTo=%2fMyServices%2fInternet%2fUsageMeter%2f')
-assert res.status_code == 200
+#logger.debug("Preloader HTML...")
+#res = session.get('https://customer.xfinity.com/Secure/Preloading/?backTo=%2fMyServices%2fInternet%2fUsageMeter%2f')
+#assert res.status_code == 200
 
 logger.debug("Preloader AJAX...")
 res = session.get('https://customer.xfinity.com/Secure/Preloader.aspx')
 assert res.status_code == 200
 
-logger.debug("Waiting 5 seconds for preloading to complete...")
-time.sleep(5)
+#logger.debug("Waiting 5 seconds for preloading to complete...")
+#time.sleep(5)
 
 logger.debug("Fetching internet usage HTML...")
 res = session.get('https://customer.xfinity.com/MyServices/Internet/UsageMeter/')
