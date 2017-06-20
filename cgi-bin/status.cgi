@@ -9,7 +9,7 @@ if [[ "${QUERY_STRING}" =~ ^t=[0-9]+$ ]]
 then
     SECONDS="${QUERY_STRING#t=}"
 fi
-if [ "$SECONDS" -gt 30 ]; SECONDS=5; fi
+if [ "$SECONDS" -gt 30 ]; then SECONDS=5; fi
 export SECONDS
 
 echo "<html>"
