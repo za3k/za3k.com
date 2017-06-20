@@ -19,7 +19,7 @@ username = os.environ['COMCAST_USERNAME']
 password = os.environ['COMCAST_PASSWORD']
 
 logger.debug("Finding req_id for login...")
-res = session.get('https://login.comcast.net/login?r=comcast.net&s=oauth&continue=https%3A%2F%2Flogin.comcast.net%2Foauth%2Fauthorize%3Fclient_id%3Dmy-account-web%26redirect_uri%3Dhttps%253A%252F%252Fcustomer.xfinity.com%252Foauth%252Fcallback%26response_type%3Dcode%26state%3D%2523%252Fdevices%26response%3D1&client_id=my-account-web')
+res = session.post('https://login.comcast.net/login?r=comcast.net&s=oauth&continue=https%3A%2F%2Flogin.comcast.net%2Foauth%2Fauthorize%3Fclient_id%3Dmy-account-web%26redirect_uri%3Dhttps%253A%252F%252Fcustomer.xfinity.com%252Foauth%252Fcallback%26response_type%3Dcode%26state%3D%2523%252Fdevices%26response%3D1&client_id=my-account-web')
 assert res.status_code == 200
 m = re.search(r'<input type="hidden" name="reqId" value="(.*?)">', res.text)
 req_id = m.group(1)
@@ -41,8 +41,8 @@ data = {
 }
 
 logger.debug("Posting to login...")
-res = session.post('https://login.comcast.net/login', data=data)
-assert res.status_code == 200
+res = session.post('https://login.comcast.net/login', data=data, allow_redirects=False)
+assert res.status_code == 302
 
 #logger.debug("Preloader HTML...")
 #res = session.get('https://customer.xfinity.com/Secure/Preloading/?backTo=%2fMyServices%2fInternet%2fUsageMeter%2f')
