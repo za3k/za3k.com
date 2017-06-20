@@ -1,7 +1,7 @@
 #!/bin/bash
 TEMP=$(mktemp)
 SECONDS=5
-if [ $# -eq 1 ]; then SECONDS="$1"; shift; fi
+if [ $# -eq 2 ]; then SECONDS="$1"; shift; fi
 timeout "${SECONDS}" bash "$@" >"$TEMP" 2>/dev/null
 SUCCESS=$?
 
