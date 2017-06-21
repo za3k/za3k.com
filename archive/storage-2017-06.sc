@@ -6,7 +6,7 @@ format C 6 0 0
 format D 9 2 0
 format E 9 2 0
 format F 2 2 0
-format G 41 1 0
+format G 92 1 0
 leftstring A0 = "Media"
 rightstring C0 = "GB"
 rightstring D0 = "Cost"
@@ -274,4 +274,4 @@ let C63 = 0.001*(85*12*2.25)/(8.5*11)
 let D63 = 1.34/3
 let E63 = $D63/$C63*1000
 leftstring G63 = "http://www.bulkofficesupply.com/Products/Thermal-Receipt-Paper-2-14-x-85__PMC05233-BULK.aspx"
-goto A51 A38
+goto G0 B0
