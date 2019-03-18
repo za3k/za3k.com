@@ -3,51 +3,69 @@ Video Games
 
 Computer Games
 --------------
-- [ADOM](http://www.ancardia.com/) by Thomas Biskup. 1994.
-- [Armagetron](http://armagetronad.org/) by various. 2001.
-- [Castle of the Winds](http://www.classicdosgames.com/game/Castle_of_the_Winds.html) by Rick Saada, abandonware. 1992.
-- [Crystal](http://www.acoders.com/software/crystal-45) by JohnsProgram. 2004.
-- Dangerous Dave ([download link](http://www.dosgamesarchive.com/download/dangerous-dave/)) by John Romero, DOS freeware. 1990.
-- [Dungeon Master II: Legend of Skullkeep](http://dmweb.free.fr/?q=node/250) by FTL Games, abandonware. 1995.
+- [ADOM](http://www.ancardia.com/) by Thomas Biskup. Free. 1994.
+- [Armagetron](http://armagetronad.org/) by various. Free. 2001.
+- [Autonauts](https://denki.itch.io/autonauts) by Denki. Free. 2017.
+- [Castle of the Winds](http://www.classicdosgames.com/game/Castle_of_the_Winds.html) by Rick Saada. Abandonware. 1992.
+- [Celeste](http://www.celestegame.com/) by MattMakesGames. Paid. 2018.
+- [Crystal](http://www.acoders.com/software/crystal-45) by JohnsProgram. Free. 2004.
+- Dangerous Dave ([download link](http://www.dosgamesarchive.com/download/dangerous-dave/)) by John Romero. DOS freeware. 1990.
+- [Dungeon Master II: Legend of Skullkeep](http://dmweb.free.fr/?q=node/250) by FTL Games. Abandonware. 1995.
 - [DROD](http://forum.caravelgames.com/viewsitepage.php?id=90294) by Caravel Games. Paid. 1997.
-- Eric the Unready by Legend Entertainment ([download link](http://www.abandonia.com/en/games/192/eric+the+unready.html)), paid, abandonware. 1993.
-- [Heros of the Lance](http://www.myabandonware.com/game/heroes-of-the-lance-1tz)
-- [I Wanna Be The Guy](http://kayin.moe/iwbtg/) by Kayin. 2007.
-- Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. 1986.
-- [Marshmallow Duel](http://mduel2k5.spadgos.com/mduel96/) by 'Nigel' and 'Llewelyn'. 1996.
-- [Ooooorrrrcs!](http://www.alamak0ta.republika.pl/orcs.html) by Jakub Debski. 2008.
-- [Powder](http://www.zincland.com/powder/?pagename=about) by Jeff Lait. 2004.
-- Rogue ([online play](https://archive.org/details/msdos_Rogue_1983)) by Michael Toy and Glenn Wichman. 1980.
-- [Seiklus](http://www.autofish.net/clysm/art/video_games/seiklus/) by clysm. 2003.
-- [Well of Souls](http://www.synthetic-reality.com/wosHome.htm) by Synthetic Reality. 1999.
-- [Zombiepox](http://www.acid-play.com/download/zombiepox) by Free Lunch Design. 2004.
-- ZZT ([download link](http://www.dosgamesarchive.com/download/zzt/)), abandonware. 1991.
+- Eric the Unready by Legend Entertainment ([download link](http://www.abandonia.com/en/games/192/eric+the+unready.html)). Abandonware. 1993.
+- [Factorio](https://www.factorio.com/) by Wube Software. Paid. 2012.
+- [Heros of the Lance](http://www.myabandonware.com/game/heroes-of-the-lance-1tz). Abandonware. 1988.
+- [HyperRogue](http://roguetemple.com/z/hyper/) by Zeno Rogue Games. Free and paid. 2011.
+- [I Wanna Be The Guy](http://kayin.moe/iwbtg/) by Kayin. Free. 2007.
+- Larn ([roguebasin](http://www.roguebasin.com/index.php?title=Larn)) by Noah Morgan. Free. 1986.
+- [Long Live the Queen](https://www.hanakogames.com/llq.shtml) by Hanako Games. Paid. 2012. 
+- [Marshmallow Duel](http://mduel2k5.spadgos.com/mduel96/) by 'Nigel' and 'Llewelyn'. Free. 1996.
+- [Nidhogg](http://nidhogggame.com) by Messhof Games. Paid. 2013.
+- [Ooooorrrrcs!](http://www.alamak0ta.republika.pl/orcs.html) by Jakub Debski. Free. 2008.
+- [Papers, Please](http://papersplea.se/) by Lucas Pope. Paid. 2013.
+- [Powder](http://www.zincland.com/powder/?pagename=about) by Jeff Lait. Free. 2004.
+- Rogue ([online play](https://archive.org/details/msdos_Rogue_1983)) by Michael Toy and Glenn Wichman. Free. 1980.
+- [Seiklus](http://www.autofish.net/clysm/art/video_games/seiklus/) by clysm. Free. 2003.
+- [Spelunky](https://spelunkyworld.com/original.html) by Mossmouth, LLC. Free and paid. 2009.
+- [SpyParty](http://www.spyparty.com/) by Chris Hecker. Paid. Early access. 2018.
+- [Starwhal](http://www.starwhal.com/) by Breakfall. Paid. 2014.
+- [Undertale](https://undertale.com) by tobyfox. Paid. 2015.
+- [Well of Souls](http://www.synthetic-reality.com/wosHome.htm) by Synthetic Reality. Mostly free. 1999.
+- [Zombiepox](http://www.acid-play.com/download/zombiepox) by Free Lunch Design. Free. 2004.
+- ZZT ([download link](http://www.dosgamesarchive.com/download/zzt/)) by Epic Megagames. Abandonware. 1991.
 - Interactive Fiction (lower standards)
-    - [Zero Sum Game](http://ifdb.tads.org/viewgame?id=nzydrfu1rl2qkuop) by Cody Sandifer. 1997.
-    - [Robot Gardening](http://ifdb.tads.org/viewgame?id=nkajyqultjxmiwe7) by Anna Anthropy. 2008.
+    - [Zero Sum Game](http://ifdb.tads.org/viewgame?id=nzydrfu1rl2qkuop) by Cody Sandifer. Free. 1997.
+    - [Robot Gardening](http://ifdb.tads.org/viewgame?id=nkajyqultjxmiwe7) by Anna Anthropy. Free. 2008.
 - Steam ([complete list](http://steamcommunity.com/profiles/76561198004400268/games/?tab=all))
-    - Caster by Elecorn. 2009. 
-    - Civilization 1 by Sid Meier. 1991. 
-    - Civilization 4 by Sid Meier. 2005. 
-    - Elder Scrolls 3: Morrowind by Bethesda. 2002. 
-    - Elder Scrolls 5: Skyrim by Bethesda. 2011. 
-    - Eversion by Zaratustra Productions. 2008.
-    - Hack 'n' Slash by Double Fine Productions. 2014. 
-    - Long Live the Queen by Hanako Games. 2012. 
-    - Magicite by SmashGames. 2014. 
-    - Portal by Valve. 2007.
-    - Psychonauts by Double Fine Productions. 2005. 
-    - Sequence by Iridium Studios. 2011. 
-    - The Stanley Parable by Davey Wreden. 2011 
-    - Undertale by tobyfox. 2015.
-    - Zen Bound 2. 2009.
-- [Minecraft](https://minecraft.net/) by Mojang, paid. 2009.
-    - Modpacks
+    - [Before the Echo](https://store.steampowered.com/app/200910/Before_the_Echo/) (previously Sequence) by Iridium Studios. Paid. 2011. 
+    - [Caster](https://store.steampowered.com/app/29800/Caster/) by Elecorn. Paid, not finished. 2009.
+    - Civilization 1 by Sid Meier ([download link](https://www.myabandonware.com/game/sid-meier-s-civilization-1nj)). Abandonware. 1991.
+    - [Civilization 4](https://store.steampowered.com/app/3900/Sid_Meiers_Civilization_IV/) by Sid Meier. Paid. 2005. 
+    - [Cultist Simulator](https://store.steampowered.com/app/718670/Cultist_Simulator/) by Weather Factory. Paid. 2018.
+    - [Elder Scrolls 3: Morrowind](https://store.steampowered.com/app/22320/The_Elder_Scrolls_III_Morrowind_Game_of_the_Year_Edition/) by Bethesda. Paid. 2002. 
+    - [Elder Scrolls 5: Skyrim](https://store.steampowered.com/agecheck/app/72850/) by Bethesda. Paid. 2011. 
+    - [Eversion](https://store.steampowered.com/app/33680/eversion/) by Zaratustra Productions. Paid. 2008.
+    - [Hack 'n' Slash](https://store.steampowered.com/app/246070/Hack_n_Slash/) by Double Fine Productions. Paid. 2014. 
+    - [Kingdom](https://store.steampowered.com/app/368230/Kingdom_Classic/) by Noio and Licorice. Paid. 2015.
+    - [Magicite](https://store.steampowered.com/app/268750/Magicite/) by SmashGames. Paid. 2014. 
+    - [One Finger Death Punch](https://store.steampowered.com/app/264200/One_Finger_Death_Punch/) by Silver Dollar Games. Paid. 2014.
+    - [Overcooked](https://store.steampowered.com/app/448510/Overcooked/) by Ghost Town Games. Paid. 2016.
+    - [Overcooked 2](https://store.steampowered.com/app/728880/Overcooked_2/) by Ghost Town Games. Paid. 2018.
+    - [Portal](https://store.steampowered.com/app/400/Portal/) by Valve. Paid. 2007.
+    - [Psychonauts](https://store.steampowered.com/app/3830/Psychonauts/) by Double Fine Productions. Paid. 2005. 
+    - [Slay the Spire](https://store.steampowered.com/app/646570/Slay_the_Spire/) by Mega Crit Games. Paid. 2019.
+    - [The Stanley Parable](https://store.steampowered.com/app/221910/The_Stanley_Parable/) by Davey Wreden. Paid. 2011 
+    - [The Talos Principle](https://store.steampowered.com/app/257510/The_Talos_Principle/) by Croteam. Paid. 2014.
+    - [West of Loathing](https://store.steampowered.com/app/597220/West_of_Loathing/) by Asymmetric. Paid. 2017.
+    - [Wuppo](https://store.steampowered.com/app/400630/Wuppo/) by Knuist & Perzik. Paid. 2016.
+    - [Zen Bound 2](https://store.steampowered.com/app/61600/Zen_Bound_2/) by Secret Exit LLC. Paid. 2009.
+- [Minecraft](https://minecraft.net/) by Mojang. Paid. 2009.
+    - Modpacks (all free)
         - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547) by various.
         - [Crash Landing](http://crashlanding.wildwestscifi.net/) by Iskandar.
         - [Better Than Wolves](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992-better-than-wolves-now-with-blunt-force-trauma) by FlowerChild.
         - [Agrarian Skies](http://ftbwiki.org/Agrarian_Skies) by Jadedcat.
-    - Mods
+    - Mods (all free)
         - [Computercraft](http://www.computercraft.info/) by dan200.
         - [Buildcraft](http://www.mod-buildcraft.com/) Pipes by various.
         - [Ender Storage](http://chickenbones.net/Pages/links.html) by ChickenBones.
@@ -78,6 +96,10 @@ Online Games
 - [You Have to Burn the Rope](http://www.kongregate.com/games/mazapan/you-have-to-burn-the-rope) by Mazapan. Flash. 2008.
 - [Wayward](http://www.unlok.ca/wayward/) by Unlok. HTML5. 2014.
 - [ZORBA](http://www.pippinbarr.com/games/zorba/Zorba.html) by pippin barr. Flash. 2011.
+
+Nintendo Switch Games
+---------------------
+- Super Mario Odyssey ([wikipedia](https://en.wikipedia.org/wiki/Super_Mario_Odyssey)) (Nintendo Switch). 2017.
 
 PS2 Games
 ---------
