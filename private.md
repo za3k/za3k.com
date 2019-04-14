@@ -1,2 +1,0 @@
-- Avalanche [torrents](http://192.168.1.235:9091/transmission/web/#upload)
-- IcyEgo [email](https://email.icyego.com/mail/)
