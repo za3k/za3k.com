@@ -1,8 +1,0 @@
-EQUILIBRATE=$(ssh -i /var/www/status/backup_check -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no backup_status@burn.za3k.com | grep equilibrate)
-echo $EQUILIBRATE
-EXPECTED=$(date +"equilibrate.%Y%m%d")
-[ "${EQUILIBRATE}" = "${EXPECTED}" ] && exit 0
-EXPECTED=$(date --date="yesterday"  +"equilibrate.%Y%m%d")
-[ "${EQUILIBRATE}" = "${EXPECTED}" ] && exit 0
-EXPECTED=$(date --date="2 days ago"  +"equilibrate.%Y%m%d")
-[ "${EQUILIBRATE}" = "${EXPECTED}" ] && exit 0
