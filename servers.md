@@ -3,10 +3,10 @@ Computers
 
 Servers
 --------------
-- [avalanche](https://avalanche.za3k.com)
-- burn (offline)
+- avalanche (no longer exists)
+- burn (no longer exists)
 - [corrupt](https://corrupt.za3k.com)
 - [deadtree](https://deadtree.za3k.com)
-- equilibrate (offline)
-- forget (offline)
+- equilibrate (no longer exists)
+- forget (no longer exists)
 - [germinate](https://germinate.za3k.com)
