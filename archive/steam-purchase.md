@@ -5,8 +5,8 @@ To make your own list, visit:
 Total games: 364
 Total cost: $1445.56
 
-| Date       | Total  | Type     | Gift To/From  | Card            | Items 
-|------------|--------|----------|---------------|-----------------|------
+| Date       | Total  | Type     | Gift To/From  | Items 
+|------------|--------|----------|---------------|-------
 | 2020-01-21 |  $2.50 | Purchase |               | Snakeybus 
 | 2020-01-16 | -$4.99 | Refund   |               | Don't Starve - Reign of Giants 
 | 2020-01-16 | $17.48 | Purchase |               | Slay the Spire (12.49) , Don't Starve - Shipwrecked (4.99)
