@@ -1,12 +1,9 @@
-Gifts to me and codes from games purchased elsewhere redeemed on steam ARE included in this list.
-"Steam Community Market" transactions omitted (sales of small cards for ~$0.10)
-
-To update, visit:
+To make your own list, visit:
 - https://store.steampowered.com/account/history/
 - https://store.steampowered.com/account/licenses/
 
 Total games: 364
-Total cost: $1445.56 # Source: fgrep <~/human\ data/steam\ purchase\ history\ 2020-01-21 "$" | tail -n+3 | cut -f2 -d\| | tr -d '$ ' | paste -sd+ | bc
+Total cost: $1445.56
 
 Date       | Total  | Type     | Gift To/From  | Card            | Items 
 ------------------------------------------------------------------------
