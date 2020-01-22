@@ -29,7 +29,7 @@ Total cost: $1445.56
 | 2019-05-09 |  $4.94 | Purchase |               | SpeedRunners 
 | 2019-05-09 |  $4.94 | Gift To  | FreeTheNation | SpeedRunners 
 | 2019-05-09 | $19.99 | Purchase |               | Forager 
-| 2019-04-23 | $19.99 | Purchase |               | $0.92 Wallet , $19.07 MasterCard | Space Engineers 
+| 2019-04-23 | $19.99 | Purchase |               | Space Engineers 
 | 2019-02-10 |   Code | Code     |               | SpyParty (purchased on spyparty.com, also redeemed here)
 | 2019-01-27 | -$0.92 | Refund   |               | One More Line 
 | 2019-01-27 |  $7.09 | Purchase |               | Hacknet (2.99) , Submerged (1.99) , Expand 1.19) , One More Line (0.92)
@@ -96,15 +96,15 @@ Total cost: $1445.56
 | 2016-07-23 |   Free | Free     |               | Moirai Complimentary
 | 2016-07-02 |  $4.79 | Purchase |               | STARWHAL 
 | 2016-04-29 |   Gift | Gift From| Richard       | Gauntlet 4 Pack
-| 2016-03-04 | $20.00 | Purchase |               | MasterCard **98 | Factorio 
-| 2016-02-20 | $11.99 | Purchase |               | $0.12 Wallet , $11.87 MasterCard | Starward Rogue 
-| 2016-02-14 |  $4.99 | Purchase |               | MasterCard **98 | Pony Island 
-| 2016-01-15 |  $2.49 | Purchase |               | $0.52 Wallet , $1.97 MasterCard | Goat Simulator 
-| 2015-12-27 |  $0.87 | Purchase |               | Wallet | One Way Heroics 
-| 2015-12-26 | $34.86 | Purchase |               | MasterCard **98 | TIS-100 (3.49) , HuniePop (3.39) , The Talos Principle (9.99) , ARK: Survival Evolved (17.99)
-| 2015-12-25 |  $2.99 | Gift To  | nonspecific   | Wallet | The Stanley Parable 
-| 2015-11-28 |  $4.97 | Purchase |               | MasterCard **98 | Super House of Dead Ninjas (1.74) , Super House of Dead Ninjas: True Ninja Pack (0.74) , Risk of Rain (2.49)
-| 2015-11-28 |  $4.79 | Purchase |               | $3.73 Wallet , $1.06 MasterCard | Legend of Grimrock 2 
+| 2016-03-04 | $20.00 | Purchase |               | Factorio 
+| 2016-02-20 | $11.99 | Purchase |               | Starward Rogue 
+| 2016-02-14 |  $4.99 | Purchase |               | Pony Island 
+| 2016-01-15 |  $2.49 | Purchase |               | Goat Simulator 
+| 2015-12-27 |  $0.87 | Purchase |               | One Way Heroics 
+| 2015-12-26 | $34.86 | Purchase |               | TIS-100 (3.49) , HuniePop (3.39) , The Talos Principle (9.99) , ARK: Survival Evolved (17.99)
+| 2015-12-25 |  $2.99 | Gift To  | nonspecific   | The Stanley Parable 
+| 2015-11-28 |  $4.97 | Purchase |               | Super House of Dead Ninjas (1.74) , Super House of Dead Ninjas: True Ninja Pack (0.74) , Risk of Rain (2.49)
+| 2015-11-28 |  $4.79 | Purchase |               | Legend of Grimrock 2 
 | 2015-11-25 |  $5.99 | Purchase |               | The Beginner's Guide 
 | 2015-11-23 |  $9.99 | Purchase |               | Undertale 
 | 2015-11-23 | $14.99 | Purchase |               | 100% Orange Juice - 4 Pack 
