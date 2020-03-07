@@ -24,7 +24,7 @@ local SERVER = "kv-server"
 local KVKEY = "kv"
 local KVFILE = "kv"
 local RUNFILE = ".kv-run"
-local VERSION = 3
+local VERSION = 4
 BOOTSTRAP = '-- To bootstrap run\n  rednet.open("back")\n  _,b,_=rednet.receive("'..BSPROTOCOL..'")\n  f=fs.open("'..KVFILE..'","w")\n  f.write(b)\n  f.close()'
 
 -- Magic object that is persistent, backed by one file
@@ -140,6 +140,7 @@ local Host = function(dbFile, quineDisable, noImmediate)
             if response then
               response.action = action.."Response"
               response.toID = clientID
+              response.version = VERSION
               rednet.send(clientID, response, PROTOCOL)
             end
           end
@@ -163,12 +164,18 @@ local clientCall = function(c, action, message, expectResponse)
   rednet.send(c.serverID, message, PROTOCOL)
   if not expectResponse then return end
   local response = nil
+  local id = os.getComputerID()
   while not response do
     peerID, message2, protocol = rednet.receive(PROTOCOL, 10)
     if peerID == nil then
       error("server never responded")
-    elseif peerID == c.serverID and message2.action == (action.."Response") and message2.key == message.key then -- TODO: update to message.toID
+    elseif peerID == c.serverID and message2.action == (action.."Response") and id == message2.toID then
       response = message2
+      if response.version > VERSION then
+        print("kv update available")
+      end
+    else
+      print(message.toID, id)
     end
   end
   return response
@@ -226,7 +233,7 @@ kv run <keyname> [...]
   Immediately run the named program
 kv host [FILE]
   Host a database server.
-kv run list [FILTER]
+kv list [FILTER]
   List all database keys
 
 Edit .kv-prefix to set a global prefix")
@@ -239,7 +246,12 @@ template = {
     h:loop()
   end},
   {"list", 0, 1, function(filter)
-    local c = Client()
+    if filter == "all" then
+      c = Client("")
+      filter = nil
+    else
+      c = Client()
+    end
     local keys = c:list(filter)
     c:close()
     for _, k in ipairs(keys) do
