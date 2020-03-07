@@ -1,235 +1,280 @@
-local args = { ... }
-local PROTOCOL = "kv"
-local BSPROTOCOL = "kv-bs"
-local NAMESPACE = "" -- global prefix for protocol, ex: "system2."
-local KEYPREFIX = "" -- local prefix for put/get, ex: "za3k."
-if KEYPREFIX == "" and fs.exists(".kv-prefix") then
-  f = fs.open(".kv-prefix", "r")
-  KEYPREFIX = f.readAll()
+-- Note for programmers: you want to make Client(<prefix>).
+-- Then values stored there magically exist
+function fileRead(path, expect)
+  if not fs.exists(path)
+    assert(not expect, "file does not exist: "..path)
+    return
+  end
+  local f = fs.open(path, "r")
+  local content = f.readAll()
+  f.close()
+  return content
+end
+function fileWrite(path, content)
+  local f = fs.open(path, "w")
+  f.write(content)
   f.close()
 end
-local SERVER = NAMESPACE .. "kv-server"
-local KVKEY = NAMESPACE .. "kv"
-local REGFILE = ".register"
+
+local PROTOCOL = "kv"
+local BSPROTOCOL = "kv-bs"
+local KEYPREFIXFILE = ".kv-prefix"
+local KEYPREFIX = fileRead(KEYPREFIXFILE) or "" -- local prefix for put/get, ex: "za3k."
+local SERVER = "kv-server"
+local KVKEY = "kv"
+local KVFILE = "kv"
 local RUNFILE = ".kv-run"
-local shouldRegister = true
-local findModem = function()
+BOOTSTRAP = '-- To bootstrap run\n  rednet.open("back")\n  _,b,_=rednet.receive("'..BSPROTOCOL..'")\n  f=fs.open("'..KVFILE..'","w")\n  f.write(b)\n  f.close()'
+
+-- Magic object that is persistent, backed by one file
+FileDB = function(dbFile, immediateWrite)
+  local content = fileRead(path, expect)
+  if content then
+    db = textutils.unserialise(content)
+    print("loaded "..dbFile)
+  else
+    db = {}
+  end
+  local o = { ["dirty"]=false }
+  function o.save()
+    print("write "..dbFile)
+    fileWrite(dbFile, textutils.serialise(db))
+  end
+  function o.flush()
+    if o.dirty then
+      o.save()
+      o.dirty = false
+    end
+  end
+  setmetatable(o, {
+  __index=db,
+  __newindex=function(d,k,v)
+    db[k]=v
+    if immediateWrite then
+      o.save()
+    else
+      o.dirty = true
+    end
+  end})
+  return o
+end
+
+local findModem = function(expect)
   for _,side in ipairs(rs.getSides()) do
     if peripheral.isPresent(side) and peripheral.getType(side) == "modem" then
       return side
     end
   end
-  print("no modem available")
+  assert(not expect, "no modem available")
 end
 
-local printUsage = function()
-  print("kv update")
-  print("  Update the 'kv' program to the lastest version")
-  print("kv get <keyname> [<filename>]")
-  print("  Get a program over wifi")
-  print("kv put [<filename>] <keyname>")
-  print("  Store a program over wifi")
-  print("kv run <keyname> [...]")
-  print("  Immediately run the named program")
-  print("kv host [FILE]")
-  print("  Host a database server.")
-  print("kv host-dump FILE [PREFIX]")
-  print("  (as host) Prints all kv-pairs")
-  print("Edit .kv-prefix to set a global prefix")
+local hostHandleGet(host, message)
+  print((message.label or "<old>").." get "..message.key)
+  local value = host.db[message.key]
+  return {
+    ["key"]=message.key,
+    ["value"]=value
+  }
 end
-local host = function(dbFile, quineDisable, noImmediate)
-  db = loadDB(dbFile)
-  if db == nil then
-    db = {}
-  else
-    print("loaded "..dbFile)
+local hostHandlePut(host, message)
+  print((message.label or "<old>").." put "..message.key)
+  host.db[message.key] = message.value
+  return nil
+end
+local hostHandleList(host, message)
+  print((message.label or "<old>").." list "..(message.filter or "all"))
+  local keys = {}
+  local filter = message.filter
+  for k,v in pairs(host.db):
+    if not message.filter or string.find(k, prefix, true)==1 then
+      key[#keys+1] = k
+    end
   end
-  if not quineDisable then db[KVKEY] = readFile(KVKEY) end
-  local modemSide = findModem()
-  rednet.open(modemSide)
-  rednet.host(PROTOCOL, SERVER)
-  print("Hosting kv database")
-  print("To bootstrap run:")
-  print("  rednet.open(\"back\")")
-  print("  _,b,_=rednet.receive(\""..BSPROTOCOL.."\")")
-  print("  f=fs.open(\""..KVKEY.."\",\"w\")")
-  print("  f.write(b)")
-  print("  f.close()")
-  local dirty = false
-  while true do
-    clientID, message, protocol = rednet.receive(PROTOCOL, 60)
-    if clientID == nil then
-      -- Broadcast a bootstrap periodically
-      if not quineDisable then
-        --print("broadcast bs")
-        local bs = db[KVKEY]
-        rednet.broadcast(bs, BSPROTOCOL)
-      end
-      if dbFile and dirty then
-        print("write "..dbFile)
-        saveDB(dbFile, db)
-        dirty = false
-      end
-    elseif message.action == "get" then
-      print("get "..message.key)
-      local value = db[message.key]
-      response = {
-        ["action"]="getResponse",
-        ["key"]=message.key,
-        ["value"]=value
-      }
-      rednet.send(clientID, response, PROTOCOL)
-    elseif message.action == "put" then
-      print("put "..message.key)
-      db[message.key] = message.value
-      if noImmediate then
-        dirty = true
+  return {
+    ["keys"]=keys
+  }
+end
+local hostHandlePeriodic(host)
+  local bs = host.db[KVKEY]
+  if bs then
+    --print("broadcast bs")
+    rednet.broadcast(bs, BSPROTOCOL)
+  end
+  if host.db.flush then
+    host.db.flush()
+  end
+end
+local hostHandlers = {
+  ["get"]=hostHandleGet
+  ["put"]=hostHandlePut
+  ["list"]=hostHandleList
+}
+local Host = function(dbFile, quineDisable, noImmediate)
+  local h = {}
+  if dbFile then
+    h.db = FileDB(dbFile, not noImmediate)
+  else
+    h.db = {}
+  end
+  if not quineDisable then h.db[KVKEY] = fileRead(KVFILE) end
+
+  function h.start(h)
+    rednet.open(findModem(true))
+    rednet.host(PROTOCOL, SERVER)
+    print("Hosting kv database")
+  end
+  function h.loop(h)
+    print(BOOTSTRAP)
+    while true do
+      clientID, message, protocol = rednet.receive(PROTOCOL, 60)
+      if clientID == nil then
+        hostHandlePeriodic(h)
       else
-        print("write "..dbFile)
-        saveDB(dbFile, db)
-        dirty = false
+        for action, handler in pairs(hostHandlers) do
+          if message.action == action then
+            response = handler(message)
+            if response then
+              response.action = action.."Reponse"
+              response.toID = clientID
+              rednet.send(clientID, response, PROTOCOL)
+            end
+          end
+        end
       end
     end
-  end  
-  rednet.unhost(PROTOCOL, SERVER)
-  rednet.close(modemSide)
+  end
+  function h.stop(h)
+    rednet.unhost(PROTOCOL, SERVER)
+    rednet.close()
+  end
+
+  h:start()
+  return h
 end
-local get = function(k, prefix)
-  local modemSide = findModem()
-  prefix = prefix or KEYPREFIX
-  local key = NAMESPACE .. prefix .. k
-  rednet.open(modemSide)
-  local serverID = rednet.lookup(PROTOCOL, SERVER)
-  local message = {
-    ["action"] = "get",
-    ["key"] = key,
-  }
+
+local clientCall = function(action, message, expectResponse)
+  message.action = action
+  message.label = os.getComputerLabel()
   rednet.send(serverID, message, PROTOCOL)
-  local value = nil
-  while true do
+  if not expectResponse then return end
+  local response = nil
+  while not response do
     peerID, message, protocol = rednet.receive(PROTOCOL, 10)
     if peerID == nil then
-      break
-    elseif peerID == serverID and message.action == "getResponse" and message.key == key then
-      value = message.value
-      break
+      error("server never responded")
+    elseif peerID == serverID and message.action == (action.."Reponse") and message.key == key then -- TODO: update to message.toID
+      response = message
     end
   end
-  rednet.close()
-  return value
+  return response
 end
-local put = function(k, v, prefix)
-  prefix = prefix or KEYPREFIX
-  local key = NAMESPACE .. prefix .. k
-  local modemSide = findModem()
-  rednet.open(modemSide)
-  local serverID = rednet.lookup(PROTOCOL, SERVER)
-  message = {
-    ["action"] = "put",
+local clientGet = function(key, expect)
+  local response = clientCall("get", {
     ["key"] = key,
-    ["value"] = v
-  }
-  rednet.send(serverID, message, PROTOCOL)
-  rednet.close()
+  }, true)
+  assert(reponse.value or not expect, ("key '"..key.."' does not exist"))
+  return reponse.value
 end
-writeFile = function(path, content)
-  local f = fs.open(path, "w")
-  f.write(content)
-  f.close()
+local clientPut = function(k, v)
+  local response = clientCall("put", {
+    ["key"] = k,
+    ["value"] = v,
+  }, false)
 end
-readFile = function(path)
-  local f = fs.open(path, "r")
-  content = f.readAll()
-  f.close()
-  return content
-end
-loadDB = function(path)
-  if path == nil or not fs.exists(path) then
-    return nil
-  else
-    return textutils.unserialise(readFile(path))
-  end
-end
-saveDB = function(path, db)
-  writeFile(path, textutils.serialise(db))
-end
-local run = function(content, ...)
-  writeFile(RUNFILE, content)
-  shell.run(RUNFILE, ...)
-end
-local autoregister = function()
-  if shouldRegister and not fs.exists(REGFILE) then
-    writeFile(REGFILE, "registered: true")
-    local id = os.getComputerID()
-    local label = os.getComputerLabel()
-    put("registration."..id..".label", label)
-    put("registration."..id..".namespace", NAMESPACE)
-  end
+local clientList = function(filter)
+  local reponse = clientCall("list", {
+    ["filter"] = filter
+  }, true)
+  return reponse.keys
 end
 
-if #args < 1 then
-  printUsage(); return
-elseif args[1] == "host" then
-  if #args == 1 then dbpath = nil
-  elseif #args == 2 then dbpath = args[2]
-  else printUsage(); return
-  end
-  host(dbpath)
-elseif args[1] == "get" then
-  autoregister()
-  if #args == 2 then from, to = args[2], args[2]
-  elseif #args == 3 then from, to = args[2], args[3]
-  else printUsage(); return
-  end
-  content = get(from)
-  if content == nil then print("content not found"); return end
-  writeFile(to, content)
-elseif args[1] == "put" then
-  autoregister()
-  if #args == 2 then from, to = args[2], args[2]
-  elseif #args == 3 then from, to = args[2], args[3]
-  else printUsage(); return
-  end
-  if not fs.exists(from) then print("file does not exist"); return end
-  content = readFile(from)
-  put(to, content)    
-elseif args[1] == "run" then
-  autoregister()
-  if #args >= 2 then
-    local from = args[2]
-    table.remove(args, 1)
-    table.remove(args, 1)
-    local runArgs = args
-  else printUsage(); return
-  end
-  content = get(from)
-  if content == nil then print("content not found"); return end
-  run(content, unpack(runArgs))
-elseif args[1] == "update" then
-  autoregister()
-  if #args == 1 then
-    old = readFile(KVKEY)
-    content = get(KVKEY, "")
-    if old == content then
-      print("Already up to date")
+-- Make this to use the client in your own code
+Client = function(prefix)
+  local c = {}
+  c.prefix = prefix or KEYPREFIX
+  rednet.open(findModem(true))
+  c.serverID = rednet.lookup(PROTOCOL, SERVER)
+  function c.put(c, k, v) return clientPut(c.prefix .. key, value) end
+  function c.get(c, k, expect) return clientGet(c.prefix .. key, expect) end
+  function c.list(c, p) return clientList(c.prefix..(p or "")) end
+  function c.close rednet.close() end
+  setmetatable(c, {
+  __index = function(c, key) return clientGet(c.prefix..key) end
+  __setindex = function(c, key, value) return clientPut(c.prefix..key, value) end
+  })
+  return c
+end
+
+local run = function(content, ...)
+  fileWrite(RUNFILE, content)
+  shell.run(RUNFILE, ...)
+end
+
+USAGE = [[
+kv update
+  Update the 'kv' program to the lastest version
+kv get <keyname> [<filename>]
+  Get a program over wifi
+kv put [<filename>] <keyname>
+  Store a program over wifi
+kv run <keyname> [...]
+  Immediately run the named program
+kv host [FILE]
+  Host a database server.
+kv run list [FILTER]
+  List all database keys
+
+Edit .kv-prefix to set a global prefix")
+]]
+local args = { ... }
+template = {
+  -- subcommand, minArgs, maxArgs, handler
+  {"host", 0, 1, function(dbpath)
+    local h = Host(dbpath)
+  end},
+  {"list", 0, 1, function(filter)
+    local c = Client()
+    local keys = c:list(filter)
+    c:close()
+    for _, k in ipairs(keys) do
+      print(k)
+    end
+  end},
+  {"get", 1, 2, function(key, path)
+    local c = Client()
+    local content = c:get(key, true)
+    fileWrite(path or key, content)
+    c:close()
+  end},
+  {"put", 1, 2, function(path, key)
+    local c = Client()
+    local content = fileRead(path, true)
+    c:put(key or path, content)
+    c:close()
+  end},
+  {"run", 1, 999, function(key, ...)
+    local c = Client()
+    local content = c:get(key)
+    c:close()
+    run(content, ...)
+  end},
+  {"update", 0, 0, function()
+    local c = Client("") -- update never uses a prefix
+    local old = fileRead(KVFILE)
+    local new = c:get(KVKEY, true)
+    c:close()
+    if old == new then
+      print("already up to date")
     else
       print("updating")
-      writeFile(KVKEY, content)
-    end
-  else
-    printUsage(); return
+      fileWrite(KVFILE, new)
+    end      
+  end},
+}
+for _, t in ipairs(template) do
+  if args[1] == t[1] and #args-1 >= t[2] and #args-1 <= t[3] then
+    table.remove(args, 1)
+    t[4](unpack(args))
   end
-elseif args[1] == "host-dump" then
-  if #args == 2 then path, prefix = args[2], nil
-  elseif #args == 3 then path, prefix = args[2], args[3]
-  else printUsage(); return
-  end  
-  db = loadDB(path)
-  if not db then print("DB file not found"); return end
-  for k,v in pairs(db) do
-    if not prefix or (k and string.find(k, prefix, 1, true)==1) then
-      print(k, v)
-    end
-  end 
-else printUsage(); return
 end
+print(USAGE); return
