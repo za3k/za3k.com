@@ -1,7 +1,7 @@
 -- Note for programmers: you want to make Client(<prefix>).
 -- Then values stored there magically exist
 function fileRead(path, expect)
-  if not fs.exists(path)
+  if not fs.exists(path) then
     assert(not expect, "file does not exist: "..path)
     return
   end
@@ -24,6 +24,7 @@ local SERVER = "kv-server"
 local KVKEY = "kv"
 local KVFILE = "kv"
 local RUNFILE = ".kv-run"
+local VERSION = 3
 BOOTSTRAP = '-- To bootstrap run\n  rednet.open("back")\n  _,b,_=rednet.receive("'..BSPROTOCOL..'")\n  f=fs.open("'..KVFILE..'","w")\n  f.write(b)\n  f.close()'
 
 -- Magic object that is persistent, backed by one file
@@ -68,7 +69,7 @@ local findModem = function(expect)
   assert(not expect, "no modem available")
 end
 
-local hostHandleGet(host, message)
+local hostHandleGet = function(host, message)
   print((message.label or "<old>").." get "..message.key)
   local value = host.db[message.key]
   return {
@@ -76,16 +77,16 @@ local hostHandleGet(host, message)
     ["value"]=value
   }
 end
-local hostHandlePut(host, message)
+local hostHandlePut = function(host, message)
   print((message.label or "<old>").." put "..message.key)
   host.db[message.key] = message.value
   return nil
 end
-local hostHandleList(host, message)
+local hostHandleList = function(host, message)
   print((message.label or "<old>").." list "..(message.filter or "all"))
   local keys = {}
   local filter = message.filter
-  for k,v in pairs(host.db):
+  for k,v in pairs(host.db) do
     if not message.filter or string.find(k, prefix, true)==1 then
       key[#keys+1] = k
     end
@@ -94,7 +95,7 @@ local hostHandleList(host, message)
     ["keys"]=keys
   }
 end
-local hostHandlePeriodic(host)
+local hostHandlePeriodic = function(host)
   local bs = host.db[KVKEY]
   if bs then
     --print("broadcast bs")
@@ -105,9 +106,9 @@ local hostHandlePeriodic(host)
   end
 end
 local hostHandlers = {
-  ["get"]=hostHandleGet
-  ["put"]=hostHandlePut
-  ["list"]=hostHandleList
+  ["get"]=hostHandleGet,
+  ["put"]=hostHandlePut,
+  ["list"]=hostHandleList,
 }
 local Host = function(dbFile, quineDisable, noImmediate)
   local h = {}
@@ -132,9 +133,9 @@ local Host = function(dbFile, quineDisable, noImmediate)
       else
         for action, handler in pairs(hostHandlers) do
           if message.action == action then
-            response = handler(message)
+            response = handler(h, message)
             if response then
-              response.action = action.."Reponse"
+              response.action = action.."Response"
               response.toID = clientID
               rednet.send(clientID, response, PROTOCOL)
             end
@@ -152,37 +153,38 @@ local Host = function(dbFile, quineDisable, noImmediate)
   return h
 end
 
-local clientCall = function(action, message, expectResponse)
+local clientCall = function(c, action, message, expectResponse)
   message.action = action
   message.label = os.getComputerLabel()
-  rednet.send(serverID, message, PROTOCOL)
+  message.version = VERSION
+  rednet.send(c.serverID, message, PROTOCOL)
   if not expectResponse then return end
   local response = nil
   while not response do
-    peerID, message, protocol = rednet.receive(PROTOCOL, 10)
+    peerID, message2, protocol = rednet.receive(PROTOCOL, 10)
     if peerID == nil then
       error("server never responded")
-    elseif peerID == serverID and message.action == (action.."Reponse") and message.key == key then -- TODO: update to message.toID
-      response = message
+    elseif peerID == c.serverID and message2.action == (action.."Response") and message2.key == message.key then -- TODO: update to message.toID
+      response = message2
     end
   end
   return response
 end
-local clientGet = function(key, expect)
-  local response = clientCall("get", {
+local clientGet = function(c, key, expect)
+  local response = clientCall(c, "get", {
     ["key"] = key,
   }, true)
-  assert(reponse.value or not expect, ("key '"..key.."' does not exist"))
-  return reponse.value
+  assert(response.value or not expect, ("key '"..key.."' does not exist"))
+  return response.value
 end
-local clientPut = function(k, v)
-  local response = clientCall("put", {
+local clientPut = function(c, k, v)
+  local response = clientCall(c, "put", {
     ["key"] = k,
     ["value"] = v,
   }, false)
 end
-local clientList = function(filter)
-  local reponse = clientCall("list", {
+local clientList = function(c, filter)
+  local reponse = clientCall(c, "list", {
     ["filter"] = filter
   }, true)
   return reponse.keys
@@ -194,13 +196,13 @@ Client = function(prefix)
   c.prefix = prefix or KEYPREFIX
   rednet.open(findModem(true))
   c.serverID = rednet.lookup(PROTOCOL, SERVER)
-  function c.put(c, k, v) return clientPut(c.prefix .. key, value) end
-  function c.get(c, k, expect) return clientGet(c.prefix .. key, expect) end
-  function c.list(c, p) return clientList(c.prefix..(p or "")) end
-  function c.close rednet.close() end
+  function c.put(c, k, v) return clientPut(c, c.prefix .. k, v) end
+  function c.get(c, k, expect) return clientGet(c, c.prefix .. k, expect) end
+  function c.list(c, p) return clientList(c, c.prefix..(p or "")) end
+  function c.close() rednet.close() end
   setmetatable(c, {
-  __index = function(c, key) return clientGet(c.prefix..key) end
-  __setindex = function(c, key, value) return clientPut(c.prefix..key, value) end
+  ["__index"] = function(c, k) return clientGet(c, c.prefix..k) end,
+  ["__setindex"] = function(c, k, v) return clientPut(c, c.prefix..k, v) end,
   })
   return c
 end
@@ -231,6 +233,7 @@ template = {
   -- subcommand, minArgs, maxArgs, handler
   {"host", 0, 1, function(dbpath)
     local h = Host(dbpath)
+    h:loop()
   end},
   {"list", 0, 1, function(filter)
     local c = Client()
@@ -275,6 +278,7 @@ for _, t in ipairs(template) do
   if args[1] == t[1] and #args-1 >= t[2] and #args-1 <= t[3] then
     table.remove(args, 1)
     t[4](unpack(args))
+    return
   end
 end
 print(USAGE); return
