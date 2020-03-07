@@ -29,7 +29,7 @@ BOOTSTRAP = '-- To bootstrap run\n  rednet.open("back")\n  _,b,_=rednet.receive(
 
 -- Magic object that is persistent, backed by one file
 FileDB = function(dbFile, immediateWrite)
-  local content = fileRead(path, expect)
+  local content = fileRead(dbFile, expect)
   if content then
     db = textutils.unserialise(content)
     print("loaded "..dbFile)
@@ -47,6 +47,7 @@ FileDB = function(dbFile, immediateWrite)
       o.dirty = false
     end
   end
+  o._db = db
   setmetatable(o, {
   __index=db,
   __newindex=function(d,k,v)
@@ -86,9 +87,11 @@ local hostHandleList = function(host, message)
   print((message.label or "<old>").." list "..(message.filter or "all"))
   local keys = {}
   local filter = message.filter
-  for k,v in pairs(host.db) do
-    if not message.filter or string.find(k, prefix, true)==1 then
-      key[#keys+1] = k
+  local db = host.db
+  if db._db then db = db._db end -- Can't override pairs/ipairs until lua 5.2
+  for k,v in pairs(db) do
+    if not filter or string.find(k, filter)==1 then
+      keys[#keys+1] = k
     end
   end
   return {
