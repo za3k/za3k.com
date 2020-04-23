@@ -1,5 +1,6 @@
+# These bots are too stupid and too frequent. They download very large data files.
 User-agent: AhrefsBot
-Disallow: /
-
 User-agent: dotbot
 Disallow: /
+
+# If you are a human, feel free to ignore this robots.txt file.
