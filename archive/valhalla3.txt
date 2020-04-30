@@ -1,7 +1,7 @@
 === valhalla3 ===
 
 Author: zachary "za3k" vance
-Written 2020-04-29 (document version 1)
+Written 2020-04-29 (document version 2)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -193,6 +193,11 @@ We also won't push people to turn on port forwarding or to turn on IPv6.
 
 Feedback on how to fix these welcome. Feedback on issues NOT listed here even more welcome :).
 
+- Storing and reteiving compressed 10GB chunks is not a good way to actually distribute access to the Internet Archive. This is a backup only, which is not as useful, or exciting to volunteers.
+- Storing 3 full copies of data is not the most efficient use of volunteer space--we could be doing something like reed-solomon coding
+- Scalability: Big clients would need to run 10,000-1,000,000 torrents. You can't seed 1,000,000 torrents on one machine, it's not really possible. But you can't get 14PB on one machine either. I'm going to keep working on improving torrent clients--some of this is fixable, and I think we can get to the point of allowing this. Announces are really a scalability issue.
+
+Things I don't think are that big a deal
 - Reliability: All bootstrap peers can be down (can't fix)
 - Reliability: All bootstrap http-pseudopeers can be down (non-issue, system will still work)
 - Reliability: Admin keys are a centralized feature. They could be lost and clients would lose self-update. (open to suggestions)
@@ -202,7 +207,6 @@ Feedback on how to fix these welcome. Feedback on issues NOT listed here even mo
 - Scalability: IPv4 peers with public IPs may get overwhelmed. (open to suggestions, but if UPDATE_METADATA is fast, I think it may just be OK)
   I could use some data on how many people have static public IPv4 vs DHCP public IPv4 vs IPv4 NAT; and of those on DHCP how frequently IPs change.
 - Scalability: The average client will be running 100s or 1,000s of torrents. I've done quite a bit of research and testing and I think this should be doable, but it's a risk.
-- Scalability: Big clients would need to run 10,000-1,000,000 torrents. You can't seed 1,000,000 torrents on one machine, it's not really possible. But you can't get 14PB on one machine either. I'm going to keep working on improving torrent clients--some of this is fixable, and I think we can get to the point of allowing this. Announces are really a scalability issue.
 - Scalability: Collective torrent announce load. Is there a risk we could take down any tracker we add, or cause issue on the DHT? It seems like probably no, but in the worst case we'd have to switch off mainline DHT or use a private tracker, which makes the torrents hard to access to the public at large.
 - Race Condition: Because peers only get updates after about a day, if there are few high-priority files, many peers will all download that file.
 - I've had problems using DHT-only bittorrent behind NAT, I'll have to make sure everything is ok.
