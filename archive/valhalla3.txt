@@ -1,7 +1,7 @@
 === valhalla3 ===
 
 Author: zachary "za3k" vance
-Written 2020-04-29 (document version 2)
+Written 2020-04-29 (document version 1.3)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -166,28 +166,30 @@ GIVE_ME_PAR2 - request for PAR2 data for a file, if a client discovers corruptio
 
 Feel free to let me know if you disagree with these, I'll listen but probably won't respond.
 
-If you have a way to auto-detect that the user is on an ISP let me know. I want to detect and enable different client behavior for:
- - ISPs with a bandwidth cap
- - ISPs that do nasty tricks (throttling) to everyone sending bittorrent traffic
-A hardcoded database of ISPs/IPs is good enough.
-
 Options (set during setup program)
-- Does your ISP have a bandwidth cap? (We'll attempt to auto-detect but this is the main installer question)
+- Does your ISP have a bandwidth cap? (auto-detect if they don't know)
 - How much space do you want to use? (Default to 20%, maybe try for more with intelligent eviction in future updates)
 - What folder should I download stuff to? (reasonable default)
 
 Auto-detected
-- Are you on IPv4? IPv6? Can either of those addresses be contacted from outside your network? (autodetect using peers, IS_MY_IP_PUBLIC command. could use advice on implementing this without valhalla3 to be used for DDoS)
-- What is your uplink/downlink bandwidth? (we'll autodetect or use uTP to avoid congestion)
+- Are you on IPv4? IPv6? Can either of those addresses be contacted from outside your network?
+- What is your uplink/downlink bandwidth? (we'll either autodetect or use uTP to avoid congestion)
 
-Non-options (Windows and Linux Alpha)
+Config-file only options
+- Turn off self-updates on Windows
+- Turn off HTTP pseudopeers
+
+Non-options
 - Turn off torrents
 - Use HTTP proxies
-- Turn off self-updates on Windows (config file only, but not easy to do)
-- Turn ON self-updates on Linux, although we may flag that you should update somehow (we'll rely on package managers)
-- Turn off HTTP pseudopeers (config file only)
+- Turn ON self-updates on Linux (we'll rely on package managers)
 
-We also won't push people to turn on port forwarding or to turn on IPv6.
+We won't push people to turn on port forwarding or to turn on IPv6.
+
+If you have a way to auto-detect that the user is on an ISP let me know. I want to detect and enable different client behavior for:
+    - ISPs with a bandwidth cap
+    - ISPs that do nasty tricks (throttling) to everyone sending bittorrent traffic
+A hardcoded database of ISPs/IPs is good enough.
 
 == Known issues
 
