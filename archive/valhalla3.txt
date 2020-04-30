@@ -1,7 +1,7 @@
 === valhalla3 ===
 
 Author: zachary "za3k" vance
-Written 2020-04-29 (document version 1.6)
+Written 2020-04-29 (document version 1.0.7)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -296,7 +296,7 @@ Of these, I think the biggest problem is the target audience. I'm basically imit
 
 As I get feedback I'll post it here.
 ---
-fenn: your names suck. change immut-val and mut-val -> claim and stamp. also make the metadata-store section clearer
+fenn: your names suck. change immut-val and mut-val -> claim and stamp. also make the metadata-store section clearer. the start of GOSSIP is a bad explanation of bootstrap, start with why.
 me:
     metadata store = metdata-store
     immut-val -> metadata
@@ -304,7 +304,11 @@ me:
     mut-val -> stamp
     mut-store -> stamp-store
 
+fenn: you know about DHT put/get (BEP 44)? it's similar
+me:   yes i do, not coincidence. GOSSIP is scalable here and DHT is not.
+
 fenn: you should have an option for times of day to run.
-      screensaver mode that shows you progress when you're not touching the computer
-      add a global leaderboard
+      screensaver mode that shows you progress when you're not touching the computer. wait maybe that's bad.
+      add a global leaderboard, it works for SETI@home
       you should have a merkle-tree timestamp system that collaboratively timestamps the log of changes, so you can find the oldest claims for a file and trust those peers
+
