@@ -1,7 +1,7 @@
 === valhalla3 ===
 
-Author: zachary "za3k" vance
-Written 2020-04-29 (document version 1.0.7)
+Author: zachary "za3k" vance (za3k@za3k.com)
+Written 2020-04-29 (document version 1.0.8)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -33,11 +33,15 @@ The protocol is implemented as a general-purpose way to ensure a set of torrents
 
 === current state and feedback ===
 
-valhalla3's protocol is designed, but it isn't prototyped yet. I'm currently asking for feedback on the protocol before doing another prototype, since I've already had to throw out everything and redesign twice (and I'm replacing a poorly designed system to start with).
+valhalla3's protocol is designed, but it isn't prototyped yet. I'm currently asking for feedback on the protocol before doing another prototype, since I've already had to throw out two.
 
-I'm interested in feedback about why my goals are wrong: better ways to store Internet Archive, why I have the wrong set of components, what my system goals should be instead. Feedback on technical protocol details is less interesting: in order my priorities are reliability, scaling, security, and efficiency. Vague feelings ("this is too complicated") are fine. Areas where you didn't understand something in this writeup are fine too, and feel free to ask questions.
+email is preferred (za3k@za3k.com).
 
-I don't want technical security feedback yet. Some people want to show off their clever attack, but I need to find really fundamental design problems.
+I'm interested in feedback about big things: I'm solving the wrong problem, I have the wrong goals, there are better ways to store Internet Archive, I have the wrong set of components. Feedback on technical protocol details is less interesting: in order my priorities are reliability, scaling, security, and efficiency. Vague feelings ("this is too complicated") are fine. 
+
+Areas where you didn't understand something in this writeup are fine too, and feel free to ask questions.
+
+No security feedback yet please. I already know you're clever. I need to find really fundamental design problems, impress me with wisdom :).
 
 === organization of valhalla3 ===
 
