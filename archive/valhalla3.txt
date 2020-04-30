@@ -1,7 +1,7 @@
 === valhalla3 ===
 
 Author: zachary "za3k" vance
-Written 2020-04-29 (document version 1.3)
+Written 2020-04-29 (document version 1.4)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -41,20 +41,20 @@ I don't want technical security feedback yet. Some people want to show off their
 
 === organization of valhalla3 ===
 
-Forward references you might want: good but rejected previous designs at the end, centralized components of the system under "known issues" and "admin vals"
+## metadata-store and terminology
 
-## metadata store and terminology
-A p2p network is used to share metadata. Metadata is stored in the form of two key-value dictionaries.
-The mutable key-value store (mutable-store) contains signed, timestamped references to immutable values (mut-vals). JSON and hexadecimal is used here for readability, but the real format is packed binary.
-    "client-994b8cc93f94894fed9ec350c9c5309face107c3": {
-        "signature": "7fa11744b8add1b3141d9099ad333a10aa542a63",
-        "timestamp": "2020-01-01T1:00:00Z",
-        "value_hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
-        "value_length_bytes": 100,
-    }
+A p2p network is used to share metadata about which files are being downloaded and seeded, and what clients are online. This is called the metadata-store.
 
-The immutable key-value store (immutable-store) contains actual data, keyed by hash (immut-vals). All 'client' entries should be <10K (most much smaller), and 'admin' entries should be <10M (most much smaller). This will be _aggressively_ compressed from this representation in the final version.
-    "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc" {
+Conceptually, the metadata-store is a key-value store, with the special property that each key-value pair (called a 'val') has a timestamp of when it was last updated. 
+
+Each key is owned by one entity (usually a peer), which possesses a special secret cryptographic secret which is needed to update the value for that key in the metadata-store. Each peer knows only its own cryptographic secret, so it's able to write to a single val, and unable to write to any other vals in the metadata-store. The metadata-store key formatted as "client-<cryptograpic_public_key>", so that anyone looking at the metadata-store can verify that each value was signed by the correct secret.
+
+Each peer maintains its own metadata-store, which is gradually updated with news it learns by gossiping with other peers. val writes take less than one day to propogate through the network, but a peer will never have the "one true copy" of the metadata-store. Each peer's metadata-store will be have some keys be newer and some older in different ways.
+
+The way the metadata-store is implemented is as two data structures, the immutable-store and the mutable-store, which get updated together when a 'val' is written.
+
+The immutable-store contains actual metadata (immut-vals) of <10KB, which can be looked up by hash. Data is never changed in the immutable-store, but it is deleted when no longer needed. Here is an example 'client' immut-val giving information about one client, represented as though it was a JSON object for readability:
+    {
         "ipv4": "1.1.1.1",
         "ipv6": null,
         "ipv4_port": 25555,
@@ -67,35 +67,52 @@ The immutable key-value store (immutable-store) contains actual data, keyed by h
         "file_sizes_bytes": {2: 10000000000, ...}
         "tls_certificate": "<cert>",
     }
+    # note: pretend this has length 100 and hash "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc"
 
-The mutable-store contains one 'client' mut-val for each peer, plus 4 'admin' mut-vals mentioned later which are noncritical. There is no other data in mutable-store. [Implementation detail: the mutable-store should be easy to hash and to iterate over keys in sorted order.]
-The immutable-store contains exactly the values referenced in the mutable-store. All of them are present and nothing else. Note that two mut-vals are allowed to point at the same immut-vals.
+The mutable-store is a database of rows (mut-vals). Each one points from a key to the actual metadata (immut-val) in the immutable-store. The mutable-store never has two mut-vals with the same key. mut-vals are small, with exactly the same fields and length for each one. 
+Here is a sample mut-val:
+    KEY                         client-994b8cc93f94894fed9ec350c9c5309face107c3
+   [TYPE                        client                                         ]
+   [CRYPTOGRAPHIC_PUBLIC_KEY           994b8cc93f94894fed9ec350c9c5309face107c3]
+    VALUE_HASH                  adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+    VALUE_LENGTH                100
+    TIMESTAMP                   2020-01-01T1:00:00Z
+    SIGNATURE                   7fa11744b8add1b3141d9099ad333a10aa542a63
+"VALUE_HASH" is the reference to the immut-val in the immutable-store.
 
-I will call a mut-val together with its immut-val simply a 'val', and if I mention a 'val key' I mean the key of the mut-val. The mutable-store together with the immutable-store is the metadata-store.
+So a 'val' in the metadata-store is made up of an immut-val in the immutable-store, plus a mut-val in the mutable-store. The key of a 'val' and the key of its 'mut-val' are the same thing.
+
+To receive an update to a val, a peer makes sure the timestamp in the update is newer than its own version. Then, it checks that the cryptographic signature is correct. Assuming it is, the mut-val update is really from the key's owner, and it is more recent than the information the peer had. The peer updates the mut-val and adds the immut-val. Updates with no existing version just mean a key is newly-seen for the peer, so the timestamp is ignored and the val is always added.
+
+To write a val (update a key with a new value), the owner first puts the value into the immutable-store. Then it generates the mut-val without the signature, using the current time as the timestamp. Finally, it uses the cryptographic key associated with the key to sign the mut-val, generating a signature. It places the mut-val in the mutable-store, replacing any current value for that key. 
+
+If an immut-val ever has no mut-vals pointing at it, it is deleted.
+
+In addition to the normal 'client' mut-val keys which peers own, there are 4 special 'admin' vals (see 'admin vals' for details). 'admin' immut-vals may be larger, <10MB. There is no other data in the metadata-store.
 
 ## metadata store and clients
 
-Each peer generates a public-private cryptographic signing keypair on first startup. The same keypair is used for the peer forever. The peer is responsible for maintaining exactly one val, with a key of the form "client-<public_key>". Because mut-vals are signed, peers receiving updates know that the data is really from the signing peer. Timestamps prevent replay attacks--only higher timestamps are accepted when receiving updates.
+Each peer generates a public-private cryptographic signing keypair on first startup. The same keypair is used by the peer forever. The peer is responsible for maintaining exactly one val, with a key of the form "client-<public_key>". Because mut-vals are signed, peers receiving updates know that the data is really from the signing peer. Timestamps prevent replay attacks--only higher timestamps are accepted when receiving updates.
 
 Each peer maintains a full copy of the entire metadata-store. It is designed to be <1GB with the target number of users and files. There is no "authoritative" version, but the update protocol below means any updated val should reach a peer within 1 day. Peers "expire" and delete mut-vals based on timestamp after 7 days. Immut-vals are deleted whenever there's no mut-val that references them.
 
 Clients update the mutable store once a day even if nothing has changed (just change the timestamp), so the network knows they are still online.
 
-## metadata store updates
+## GOSSIP updates the metadata store
 
-On first boot, the peer initializes the mutable to hardcoded values. Only 'admin' mut-vals are initialized in this way -- more about these below, but one is a list of known peers. These "bootstrap" peers are expected to be in the network and online. This bootstrap is how basically all p2p systems work, but valhalla3 tries to provide a full known set of peers, rather than one or two fast and reliable ones. Under normal operation the peer calculates its list of peers from its metadata store--any 'client' mut-val with a timestamp in the last day, is assumed to be from an online peer.
+On first boot, the peer copies a hardcoded database to the metadata-store. Only the 4 'admin' mut-vals are in the hardcoded database -- more about these below, but one is a list of known peers. These "bootstrap" peers are expected to be in the network and online. This bootstrap is how most p2p systems work, but valhalla3 tries to provide a full known set of peers, rather than one or two fast and reliable ones. Under normal operation (not at first boot), a list of online peers can be calculated from the metadata-store--any 'client' mut-val with a timestamp in the last day, is assumed to be from an online peer.
 
-Roughly once an hour, each peer does a pairwise update with another peer, chosen randomly from known peers with a public IP. We will call this command EXCHANGE_METADATA. At the start of the exchange, each peer has its own set of mut-vals and immut-vals, all valid and with timestamps. After the exchange, both peers get updated mut-vals and immut-vals from one another, and have the same overall metadata store as one another. The exchange is designed to be moderately fast (<1s, bandwidth permitting).
+Roughly once an hour, each peer does a pairwise update with another peer, chosen randomly from online peers with a public IP. This command is called GOSSIP. At the start of the exchange, each peer has its own set of mut-vals and immut-vals, all valid and with timestamps. During the exchange, the peers receive mut-vals and immut-vals from one another, updating those with newer timestamps. After the exchange, both peers have the same, more up-to-date metadata-store as one another. The exchange is designed to be moderately fast (<1s, bandwidth permitting). 
 
-With 100K peers, the fastest way for all of them to exchange data takes 17 exchanges. Using random exchanges instead, a simulation shows it consistently takes around 20 exchanges, which is not much worse. At the rate of initiating 1 exchange/hour (that's actually participating in 2/hour), updates should easily be available to all peers in half a day. If a 'client' mut-val is 2 days old, that peer can be safely assumed offline.
+After the swarm as a whole does enough exchanges, everyone's updates reach everyone else, but the copies are never "synchnonized" and identical across the swarm. With 100K peers, the perfectly fastest way all of them can exchange data takes 17 (parallel) rounds of pairwise exchanges. Using random periodic exchanges instead, a simulation shows it consistently takes around 20 exchanges per peer, so it's fine to do things at random. At the rate of initiating 1 exchange/hour (that's actually participating in 2/hour), updates should easily be available to all peers in half a day. If a 'client' mut-val is 2 days old, since clients update their mut-val daily, that peer can be safely assumed offline.
 
-NAT is a potential issue for many p2p protocols, and valhalla3 chooses not to implement any kind of NAT piercing. Instead, IPv4-only peers behind NAT just always choose to exchange with peers with a public IPv4 address. Peers with public IPv4 addresses will get many times more exchanges as a result.
+NAT is a potential issue for many p2p protocols, and valhalla3 does not to implement any kind of NAT piercing. Instead, IPv4-only peers behind NAT just always choose to exchange with peers with a public IPv4 address. Peers with public IPv4 addresses will get many times more traffic as a result, but propagation times get even faster.
 
-EXCHANGE_METADATA
+GOSSIP
 Because this is the most frequent operation, it's likely to be optimized. Treat this as very much a proof-of-concept. Wire/protocol details may be changed before release to reduce overhead. Security feedback is not welcome at this stage and will be ignored--please focus on more fundamental problems.
 
-    1. (Over TLS) Peer A contacts Peer B, saying "I want to EXCHANGE_METADATA (version 1). The current time is 4:01pm.".
-    2. Peer B responds "Yes, I support EXCHANGE_METADATA (version 1). I agree the current time is near 4:01pm." [Because mut-vals expire based on time, the peers agree on a 'working' current time to make sure they will agree on the set of valid mut-vals. This is a real edge case thing--finicky to get right but uninteresting. So, I'll pretend the peers agree on the time exactly for the rest of this summary. A hand-wavy solution to illustrate there are no real problems follows for sticklers. We allow clients to differ by up to 6 hours. To make sure contested mut-vals/immut-vals are available, peers internally wait 1 extra day before deleting expired mut-vals/immut-vals from disk. The exchange is done with a modified copy of the metadata store including exactly those mut-vals within 7 days on the agreed-on time, whether expired or not. Changes are merged into the real metadata store after. There are no major problems that happen from accepting mut-vals signed in the future.]
+    1. (Over TLS) Peer A contacts Peer B, saying "I want to GOSSIP (version 1). The current time is 4:01pm.".
+    2. Peer B responds "Yes, I support GOSSIP (version 1). I agree the current time is near 4:01pm." [Because mut-vals expire based on time, the peers agree on a 'working' current time to make sure they will agree on the set of valid mut-vals. This is a real edge case thing--finicky to get right but uninteresting. So, I'll pretend the peers agree on the time exactly for the rest of this summary. A hand-wavy solution to illustrate there are no real problems follows for sticklers. We allow clients to differ by up to 6 hours. To make sure contested mut-vals/immut-vals are available, peers internally wait 1 extra day before deleting expired mut-vals/immut-vals from disk. The exchange is done with a modified copy of the metadata store including exactly those mut-vals within 7 days on the agreed-on time, whether expired or not. Changes are merged into the real metadata store after. There are no major problems that happen from accepting mut-vals signed in the future.]
     3. Peer A and Peer B exchange their mutable-stores by sending a full copy to one another. [In reality, this is done using some variant on the rsync protocol, which sends only changes, reducing bandwidth]
     4. Peer A and Peer B reconcile the two mutable-stores without sending messages. Both peers arrive at the same result, called the "canonical" mutable-store for the exchange.
        - They throw out any mut-vals with invalid signatures. A peer MAY blacklist the other exchanging peer as a bad actor.
@@ -115,7 +132,7 @@ Because this is the most frequent operation, it's likely to be optimized. Treat 
 
 There are a few 'admin' vals which provide some benefits. valhalla3 is designed to operate OK even if 'admin' vals are never updated. 
 
-'admin' vals are signed with unique keys, generated in advance by hand. 'admin' vals will be updated by the project maintainers (me?) infrequently and by hand. The current plan is to treat them normally except not to expire them. It's possible getting an 'admin' val update should trigger "infection" EXCHANGE_METADATA calls to propogate admin updates quickly.
+'admin' vals are signed with unique keys, generated in advance by hand. 'admin' vals will be updated by the project maintainers (admins) infrequently and by hand. The current plan is to treat them normally except not to expire them. 
 
 The 'admin' vals are:
     'admin-manifest-<public_key1>': The list of files to download. Includes HTTP source(s), any known hash, and any known torrent infohash. This is where you would put a list of bittorrent trackers for another project, although the plan for Internet Archive is not to use one. [Note that while the example client data includes the hash, infohash etc for all files, it can be left out if in the manifest]
@@ -125,13 +142,13 @@ The 'admin' vals are:
 
 # HTTP pseudo-peers
 
-The 'admin-httpclients-<public_key2>' val will contain a list of public websites which serve valhalla3 metadata. All peers will regularly download metadata from the website, checking signatures and timestamps as usual. This is similar to EXCHANGE_METADATA, but it's one-way, so I think of these mirrors as 'pseudo-peers'. Details of exactly when/how frequently clients fetch metadata TBD, as we need to let this scale to 100K clients.
+The 'admin-httpclients-<public_key2>' val will contain a list of public websites which serve valhalla3 metadata. All peers will regularly download metadata from the website, checking signatures and timestamps as usual. This is similar to GOSSIP, but it's one-way, so I think of these mirrors as 'pseudo-peers'. Details of exactly when/how frequently clients fetch metadata TBD, scaling to 100K clients is tricky.
 
 There are a couple reasons this is a good idea.
 - If we totally break the client somehow during alpha, we can still get them to autoupdate.
-- If there is a lot of churn, every bootstrap peer may be unavailable. This lets the client update the boostrap peer list.
-- It's very easy to keep a static website working
-- If we use CDNs, this is near-instant and can handle as much 
+- If there is enough churn or a build is old enough, all hardcoded bootstrap peers may be unavailable. This lets the client update the boostrap peer list.
+- It's very easy to keep a static website working.
+- If we use CDNs, this is near-instant and can tons of traffic.
 
 ## data
 
@@ -139,21 +156,23 @@ Wait, but weren't we downloading something?
 
 Yeah! So although the really complicated bit is maintaining this metadata, the peer's _important_ job is to download and seed files, not to gossip with its peers. 
 
-Using 'admin-files-<public_key1>', the peer knows the whole list of files the sytem wants to download. By scanning the metadata-store, it can calculte how many peers are currently downloading or seeding each file. Then it picks high-priority files, and claims them by updating its 'client' val. A high-priority file is one where there are less copies of it available (for example, if there are 5 copies of most things, but 0 copies of one file, the client should pick that one). The manifest may also include "priority" information to help clients choose a piece, ex. we want 10 copies of important files like the index, make sure to get this 1PB before the other 13PB.
+The peer knows the whole list of files the sytem wants to download ('admin-files-<public_key1'). From the metadata-store, it can calculate how many online peers are downloading or seeding each file. It selects high-priority files to download and then seed. Then it lets the swarm know no-one else should that file right now by updating its own 'client' val list of files. 
 
-If less than 3 total peers have a file, and the manifest does not include an infohash for the file, the peer downloads the file directly from the HTTP source. It then hashes the file and posts the hash, infohash, and size as part of its 'client' val. The expectation is that the project maintainer (admin) will 'stamp' a hash under some condition, for example once a 2-3 trusted peers agree exactly on the file contents, and then it is locked in place. In the case of Internet Archive, we will likely be able to provide hashes as part of the initial manifest.
+A high-priority file is one where there are less copies of it available (for example, if there are 5 copies of most things, but 0 copies of one file, the client should pick that one). The manifest may also include "priority" information to help clients choose a piece, ex. we want 10 copies of important files like the index, make sure to get this 1PB before the other 13PB.
 
-If the manifest includes the file infohash, and at least one online peer says it is seeding the file, the peer downloads the file via bittorrent. At some point it MAY give up and use HTTP download (sometimes peers may be down or unreachable on bittorrent)
+To download a file:
+- If the manifest includes the file infohash, and at least one online peer says it is seeding the file, the peer downloads the file via bittorrent. At some point it MAY give up and use HTTP download (sometimes peers may be down or unreachable on bittorrent)
+- If less than 3 total peers have a file AND the manifest does not include an infohash for the file, the peer downloads the file directly from the HTTP source. It then hashes the file and posts the hash, infohash, and size as part of its 'client' val. The expectation is that the project maintainer (admin) will "stamp" a hash under some condition, for example once a 2-3 trusted peers agree exactly on the file contents, and then all peers can trust that hash. In the case of Internet Archive, we will likely be able to provide hashes as part of the initial manifest.
+- If 3+ peers have the file, but the file is not in the manifest, the manifest tells the peer what to do: nothing (pick another file), http download, or use the most frequently reported infohash
 
-If 3+ peers have the file, but the file is not in the manifest, the manifest tells the peer what to do: either treat HTTP are the only trustworthy source and use HTTP download, or trust its peers and use the most common torrent infohash.
-
-Any time a peer downloads a file, it verifies the SHA hash and file size if present in the manifest. It rejects the file if either is incorrect.
+Any time a peer downloads a file, it verifies the SHA hash and file size match any present in the manifest. It rejects and deletes the downloaded file if either is incorrect.
 
 ## list of commands
 okay this section is a bit vague right now, I need a real prototype and more networking knowledge
 
 yes
-EXCHANGE_METADATA - explained in full above, makes 99% of everything work.
+GOSSIP - explained in full above, makes 99% of everything work.
+SEND_LOG - the alpha will probably have some form of logging or statistics-gathering, to debug
 
 probably yes
 IS_MY_IP_PUBLIC / YES_YOUR_IP_IS_PUBLIC - used during boot to detect whether a peer is behind a firewall, untraversable NAT etc. also returns apparent IP as seen by Peer B. need to learn more networking to figure out if this is needed. needs DDoS mitigation too.
@@ -166,9 +185,9 @@ GIVE_ME_PAR2 - request for PAR2 data for a file, if a client discovers corruptio
 
 Feel free to let me know if you disagree with these, I'll listen but probably won't respond.
 
-Options (set during setup program)
-- Does your ISP have a bandwidth cap? (auto-detect if they don't know)
-- How much space do you want to use? (Default to 20%, maybe try for more with intelligent eviction in future updates)
+Options (set during setup program, all have reasonable defaults)
+- Does your ISP have a bandwidth cap? (auto-detect too)
+- How much space do you want to use? (default to 20%)
 - What folder should I download stuff to? (reasonable default)
 
 Auto-detected
@@ -185,11 +204,6 @@ Non-options
 - Turn ON self-updates on Linux (we'll rely on package managers)
 
 We won't push people to turn on port forwarding or to turn on IPv6.
-
-If you have a way to auto-detect that the user is on an ISP let me know. I want to detect and enable different client behavior for:
-    - ISPs with a bandwidth cap
-    - ISPs that do nasty tricks (throttling) to everyone sending bittorrent traffic
-A hardcoded database of ISPs/IPs is good enough.
 
 == Known issues
 
@@ -211,6 +225,8 @@ Things I don't think are that big a deal
 - Scalability: The average client will be running 100s or 1,000s of torrents. I've done quite a bit of research and testing and I think this should be doable, but it's a risk.
 - Scalability: Collective torrent announce load. Is there a risk we could take down any tracker we add, or cause issue on the DHT? It seems like probably no, but in the worst case we'd have to switch off mainline DHT or use a private tracker, which makes the torrents hard to access to the public at large.
 - Race Condition: Because peers only get updates after about a day, if there are few high-priority files, many peers will all download that file.
+- Admin updates propogate slowly. It's possible getting an 'admin' val update should trigger "infection" GOSSIP calls to propogate admin updates quickly.
+- User-friendliness: If you have a way to auto-detect that the user is on an ISP that has particular behavior let me know. I want to detect and enable different client behavior for ISPs with a bandwidth cap, or that do nasty tricks like throttling to people on bittorrent. A hardcoded database of ISPs/IPs is good enough.
 - I've had problems using DHT-only bittorrent behind NAT, I'll have to make sure everything is ok.
 
 Not interested in security feedback yet. Here are the known issues.
