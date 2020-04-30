@@ -1,7 +1,7 @@
 === valhalla3 ===
 
 Author: zachary "za3k" vance
-Written 2020-04-29 (document version 1.5)
+Written 2020-04-29 (document version 1.6)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -43,17 +43,17 @@ I don't want technical security feedback yet. Some people want to show off their
 
 ## metadata-store and terminology
 
-A p2p network is used to share changing information about which files are being downloaded and seeded, and what clients are online. This is called the metadata-store.
+A p2p network is used to share changing information about which files are being downloaded and seeded, and what clients are online. This information is stored in the metadata-store. We call computers in the network peers or clients.
 
 Conceptually, the metadata-store is a key-value store, with the special property that each key-value pair (called a 'val') has a timestamp indicating when it was last written.
 
-Each key is owned by one entity (usually a peer), which possesses a special secret cryptographic secret which is needed to update the value for that key in the metadata-store. Each peer knows only its own cryptographic secret, so it's able to write to a single val, and unable to write to any other vals in the metadata-store. The metadata-store key is formatted as "client-<cryptograpic_public_key>", so anyone looking at the metadata-store can verify each value was signed by the correct secret. While we do know that each val was written by the same client throughout time, we can't trust all the information in it as gospel.
+Each key is owned by one entity (usually a peer), which possesses a special secret cryptographic secret which is needed to update the value for that key in the metadata-store. Each peer knows only its own cryptographic secret, so it's able to write to a single val, and unable to write to any other vals in the metadata-store. The metadata-store keys is formatted as "client-<cryptograpic_public_key>", so anyone looking at the metadata-store can verify each value was signed by the correct secret. Just like real signed documents, a signature only means the author is who you think--not that the information in the document is all correct.
 
 Each peer maintains its own metadata-store, which is gradually updated with news it learns by gossiping with other peers. val writes take less than one day to propogate through the network, but a peer will never have the "one true copy" of the metadata-store. Each peer's metadata-store will be have some keys be newer and some older in different ways.
 
 The way the metadata-store is implemented is as two data structures, the immutable-store and the stamp-store, which get updated together when a 'val' is written.
 
-The immutable-store contains actual metadata of <10KB, which can be looked up by hash. Metadata is never changed in the immutable-store, but it is deleted when no longer needed. Here is an example 'client' metadatum giving information about one client, represented as though it was a JSON object for readability:
+The immutable-store contains actual metadata of <10KB, which can be looked up by hash. Metadata is never changed in the immutable-store, but it is deleted when no longer needed. Here is an example 'client' metadatum giving information about one peer, represented as though it was a JSON object for readability:
     {
         "ipv4": "1.1.1.1",
         "ipv6": null,
@@ -85,23 +85,25 @@ To write a val (update a key with a new value), the owner first puts the value i
 
 If a metadataum ever has no stamps pointing at it, it is deleted.
 
-In addition to the common 'client' stamp keys which peers own, there are 4 special 'admin' vals (see 'admin vals' for details). 'admin' metadata may be larger, <10MB. There is no other data in the metadata-store.
+In addition to the common 'client' stamp keys which peers own, there are 4 special 'admin' vals (see 'admin vals' for details). 'admin' metadata is allowed to be slightly larger, <10MB. There is no other data in the metadata-store.
 
-## metadata-store and clients
+## peers and the metadata-store
 
-Each peer generates a public-private cryptographic signing keypair on first startup. The same keypair is used by the peer forever. The peer is responsible for maintaining exactly one val, with a key of the form "client-<public_key>". Because stamps are signed, peers receiving updates know that the data is really from the signing peer. Timestamps prevent replay attacks--only higher timestamps are accepted when receiving updates.
+Each peer generates a public-private cryptographic signing keypair on first startup. The same keypair is used by the peer forever. The peer owns and is responsible for maintaining exactly one val, with a key of the form "client-<public_key>". Because vals are signed, peers receiving updates know that the data is really from the signing peer. Timestamps prevent replay attacks--only higher timestamps are accepted when receiving updates.
 
-Each peer maintains a full copy of the entire metadata-store. It is designed to be <1GB with the target number of users and files. There is no "authoritative" version, but the update protocol below means any updated val should reach a peer within 1 day. Peers "expire" and delete stamps based on timestamp after 7 days. Imstamps are deleted whenever there's no stamp that references them.
+Each peer maintains its own metadata-store, which is gradually updated with news it learns by gossiping with other peers. val writes take less than one day to propogate through the network, but a peer will never have the "one true copy" of the metadata-store. Each peer's metadata-store will be have some keys be newer and some older in different ways.
 
-Clients update the mutable store once a day even if nothing has changed (just change the timestamp), so the network knows they are still online.
+Each peer maintains a full copy of the entire metadata-store, which is persisted to disk across executions. It is <1GB with the target number of users and files. There is no "authoritative" version, but the GOSSIP protocol below means any updated val should reach a peer within 1 day. Peers "expire" and delete vals based on timestamp after 7 days.
+
+Peers write their val once a day even if nothing has changed (just change the timestamp and signature), so the network can tell they are still online.
 
 ## GOSSIP updates the metadata-store
 
-On first boot, the peer copies a hardcoded database to the metadata-store. Only the 4 'admin' stamps are in the hardcoded database -- more about these below, but one is a list of known peers. These "bootstrap" peers are expected to be in the network and online. This bootstrap is how most p2p systems work, but valhalla3 tries to provide a full known set of peers, rather than one or two fast and reliable ones. Under normal operation (not at first boot), a list of online peers can be calculated from the metadata-store--any 'client' stamp with a timestamp in the last day, is assumed to be from an online peer.
+Under normal conditions (for the very first time the peer goes online, see 'bootstrap process'), a list of online peers can be calculated from the metadata-store. Any 'client' val with a timestamp in the last day, is assumed to be from an online peer.
 
-Roughly once an hour, each peer does a pairwise update with another peer, chosen randomly from online peers with a public IP. This command is called GOSSIP. At the start of the exchange, each peer has its own set of stamps and metadata, all valid and with timestamps. During the exchange, the peers receive stamps and metadata from one another, updating those with newer timestamps. After the exchange, both peers have the same, more up-to-date metadata-store as one another. The exchange is designed to be moderately fast (<1s, bandwidth permitting). 
+Roughly once an hour, each peer does a pairwise update with another peer, chosen randomly from online peers with a public IP. This command is called GOSSIP. At the start of the exchange, each peer has its own set of stamps and metadata, all valid. During the exchange, the peers receive stamps and metadata from one another, updating those with newer timestamps. After the exchange, both peers have the same, more up-to-date metadata-store as one another. The exchange is designed to be moderately fast (<1s, bandwidth permitting). 
 
-After the swarm as a whole does enough exchanges, everyone's updates reach everyone else, but the copies are never "synchnonized" and identical across the swarm. With 100K peers, the perfectly fastest way all of them can exchange data takes 17 (parallel) rounds of pairwise exchanges. Using random periodic exchanges instead, a simulation shows it consistently takes around 20 exchanges per peer, so it's fine to do things at random. At the rate of initiating 1 exchange/hour (that's actually participating in 2/hour), updates should easily be available to all peers in half a day. If a 'client' stamp is 2 days old, since clients update their stamp daily, that peer can be safely assumed offline.
+After the network as a whole does enough exchanges, everyone's writes reach everyone else, but the copies are never "synchnonized" and identical across the network. With 100K peers, the perfectly fastest way all of them can exchange data takes 17 (parallel) rounds of pairwise exchanges. Using random periodic GOSSIPs instead, a simulation shows it consistently takes around 20 GOSSIPs per peer, so it's fine to do things at random. At the rate of starting 1 GOSSIPs/hour (that's actually participating in 2/hour), writes should easily be available to all peers in half a day. If a 'client' val is 2 days old, since clients update their val daily, that peer can be safely assumed offline.
 
 NAT is a potential issue for many p2p protocols, and valhalla3 does not to implement any kind of NAT piercing. Instead, IPv4-only peers behind NAT just always choose to exchange with peers with a public IPv4 address. Peers with public IPv4 addresses will get many times more traffic as a result, but propagation times get even faster.
 
@@ -109,11 +111,12 @@ GOSSIP
 Because this is the most frequent operation, it's likely to be optimized. Treat this as very much a proof-of-concept. Wire/protocol details may be changed before release to reduce overhead. Security feedback is not welcome at this stage and will be ignored--please focus on more fundamental problems.
 
     1. (Over TLS) Peer A contacts Peer B, saying "I want to GOSSIP (version 1). The current time is 4:01pm.".
-    2. Peer B responds "Yes, I support GOSSIP (version 1). I agree the current time is near 4:01pm." [Because stamps expire based on time, the peers agree on a 'working' current time to make sure they will agree on the set of valid stamps. This is a real edge case thing--finicky to get right but uninteresting. So, I'll pretend the peers agree on the time exactly for the rest of this summary. A hand-wavy solution to illustrate there are no real problems follows for sticklers. We allow clients to differ by up to 6 hours. To make sure contested stamps/metadata are available, peers internally wait 1 extra day before deleting expired stamps/metadata from disk. The exchange is done with a modified copy of the metadata-store including exactly those stamps within 7 days on the agreed-on time, whether expired or not. Changes are merged into the real metadata-store after. There are no major problems that happen from accepting stamps signed in the future.]
+    2. Peer B responds "Yes, I support GOSSIP (version 1). I agree the current time is near 4:01pm." [Because stamps expire based on time, the peers agree on a 'working' current time to make sure they will agree on the set of valid stamps. This is a real edge case thing--finicky to get right but uninteresting. So, I'll pretend the peers agree on the time exactly for the rest of this summary. A hand-wavy solution to illustrate there are no real problems follows for sticklers. We allow clients to differ by up to 6 hours. To make sure contested stamps/metadata are available, peers internally wait 1 extra day before deleting expired stamps/metadata from disk. The exchange is done with a modified copy of the metadata-store including exactly those stamps within 7 days on the agreed-on time, whether expired or not. Changes are merged into the real metadata-store after. There are no major problems that happen from accepting stamps signed ahead of your system clock.]
     3. Peer A and Peer B exchange their stamp-stores by sending a full copy to one another. [In reality, this is done using some variant on the rsync protocol, which sends only changes, reducing bandwidth]
     4. Peer A and Peer B reconcile the two stamp-stores without sending messages. Both peers arrive at the same result, called the "canonical" stamp-store for the exchange.
+       - They throw out any stamps with invalid keys. A peer MAY blacklist the other exchanging peer as a bad actor.
        - They throw out any stamps with invalid signatures. A peer MAY blacklist the other exchanging peer as a bad actor.
-       - They throw out any stamps with expired timestamps, or timestamps in the future. [This should never occur and is an error condition]. They SHOULD NOT blacklist the signing peer if the timestamp is in the future (this could be used to DoS the system).
+       - They throw out any stamps with expired timestamps, or timestamps in the future of the "working" time. [This should never occur and is an error condition]. They SHOULD NOT blacklist the signing peer if the timestamp is in the future (this could be used to DoS the system).
        - If they have two values for a key, they select the newer one and throw out the older one.
        - If they have two values for a key with the same timestamp, the lower hash is taken. The peer MAY blacklist the signing peer as bad actor.
     6. Peer A sends to Peer B (and vice versa)
@@ -133,13 +136,13 @@ There are a few 'admin' vals which provide some benefits. valhalla3 is designed 
 
 The 'admin' vals are:
     'admin-manifest-<public_key1>': The manifest is the list of files to download. Includes HTTP source(s), any known hash, and any known torrent infohash. This is where you would put a list of bittorrent trackers for another project, although the plan for Internet Archive is not to use one. [Note that while the example client data includes the hash, infohash etc for all files, it can be left out if in the manifest]
-    'admin-clients-<public_key2>': A list of known peers, which can be used to bootstrap (see 'GOSSIP updates the metadata-store')
-    'admin-httpclients-<public_key3>': A list of web mirrors, which can be used to bootstrap or reduce load (see 'HTTP pseudopeers' below)
-    'admin-selfupdate-<public_key4>': Can be used to signal to peers to install a self-update of the client software. Will include the binary so p2p updates work. I haven't decided, but the binary blob _may_ be downloaded from http peers only if updated, making it a bit of an exception to the usual uniform process. The binary itself includes a signature with a hardcoded key, to add an additional security check.
+    'admin-clients-<public_key2>': A list of known peers, which is used to bootstrap (see 'bootstrap'). These should be in the valhalla3 network and always online.
+    'admin-httpclients-<public_key3>': A list of web mirrors, which can be used to bootstrap or reduce load (see 'HTTP pseudo-peers' below). These should be always online.
+    'admin-selfupdate-<public_key4>': Can be used to signal to peers to install a self-update of the client software. Will include the binary so p2p self-updates work. I haven't decided, but the binary blob _may_ be downloaded from http peers only if updated, making it a bit of an exception to the usual uniform process. The binary itself includes a signature with a hardcoded key, to add an additional security check.
 
 # HTTP pseudo-peers
 
-The 'admin-httpclients-<public_key2>' val will contain a list of public websites which serve valhalla3 metadata. All peers will regularly download metadata from the website, checking signatures and timestamps as usual. This is similar to GOSSIP, but it's one-way, so I think of these mirrors as 'pseudo-peers'. Details of exactly when/how frequently clients fetch metadata TBD, scaling to 100K clients is tricky.
+The 'admin-httpclients-<public_key2>' val will contain a list of public websites which serve valhalla3 metadata. All peers will regularly LISTEN from the website, checking signatures and timestamps as usual. This is similar to GOSSIP, but it's one-way, so I think of these mirrors as 'pseudo-peers'. Details of exactly when/how frequently clients fetch metadata TBD, scaling to 100K clients is tricky.
 
 There are a couple reasons this is a good idea.
 - If we totally break the client somehow during alpha, we can still get them to autoupdate.
@@ -147,13 +150,29 @@ There are a couple reasons this is a good idea.
 - It's very easy to keep a static website working.
 - If we use CDNs, this is near-instant and can tons of traffic.
 
+## bootstrap process
+
+Once the peer is on the network, it knows the list of other peers through GOSSIP. But how does it get some IP addresses to start talking to anyone?
+
+On first boot, the peer creates the metadata-store from a hardcoded database. Only the 4 'admin' stamps are in the hardcoded database. The peer now has a hardcoded list of peers and HTTP pseudopeers. This "known nodes" bootstrap is how most p2p systems work. valhalla3 tries to provide a full known set of peers, rather than one or two fast and reliable ones as some clients (bittorrent DHT) do.
+
+The bootstrap process is as follows:
+1. The peer creates the metadata-store from a hardcoded database.
+2. The peer LISTENs from all HTTP pseudopeers.
+3. If there is an client software self-update in 'admin-selfupdate-<public_key4>', the peer install the update and restarts the client instead of finishing the bootstrap process.
+4. If any HTTP pseudopeers were added in 'admin-httpclients-<public_key3>', the client LISTENs to them as well and goes to step 3.
+5. The peer GOSSIPs with several (10+) "bootstrap" peers from 'admin-clients-<public_key2>', to get new contacts.
+6. The peer keeps GOSSIPing with its contacts until it stops discovering large numbers of new contacts.
+
+If the client software starts up after being offline for a while, it will go through a similar bootstrap process to get its stale metadata-store up to date.
+
 ## data
 
 Wait, but weren't we downloading something?
 
 Yeah! So although the really complicated bit is maintaining this metadata-store, the peer's _important_ job is to download and seed files, not to gossip with its peers. 
 
-The peer knows the whole list of files the sytem wants to download ('admin-manifest-<public_key1'). From the metadata-store, it can calculate how many online peers are downloading or seeding each file. It selects high-priority files to download and then seed. Then it lets the swarm know no-one else should that file right now by updating its own 'client' val list of files. 
+The peer knows the whole list of files the sytem wants to download ('admin-manifest-<public_key1'). From the metadata-store, it can calculate how many online peers are downloading or seeding each file. It selects high-priority files to download and then seed. Then it lets the network know no-one else should that file right now by updating its own 'client' val list of files. 
 
 A high-priority file is one where there are less copies of it available (for example, if there are 5 copies of most things, but 0 copies of one file, the client should pick that one). The manifest may also include "priority" information to help clients choose a piece, ex. we want 10 copies of important files like the index, make sure to get this 1PB before the other 13PB.
 
@@ -168,7 +187,8 @@ Any time a peer downloads a file, it verifies the SHA hash and file size match a
 okay this section is a bit vague right now, I need a real prototype and more networking knowledge
 
 yes
-GOSSIP - explained in full above, makes 99% of everything work.
+GOSSIP - explained above. update metadata-store from a peers, while sending them updates.
+LISTEN - fetch data from an HTTP pseudopeer to update the metadata-store. this is one HTTP download, nothing fancy
 SEND_LOG - the alpha will probably have some form of logging or statistics-gathering, to debug
 
 probably yes
@@ -287,3 +307,4 @@ me:
 fenn: you should have an option for times of day to run.
       screensaver mode that shows you progress when you're not touching the computer
       add a global leaderboard
+      you should have a merkle-tree timestamp system that collaboratively timestamps the log of changes, so you can find the oldest claims for a file and trust those peers
