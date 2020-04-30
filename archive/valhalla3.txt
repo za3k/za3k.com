@@ -45,9 +45,9 @@ I don't want technical security feedback yet. Some people want to show off their
 
 A p2p network is used to share metadata about which files are being downloaded and seeded, and what clients are online. This is called the metadata-store.
 
-Conceptually, the metadata-store is a key-value store, with the special property that each key-value pair (called a 'val') has a timestamp of when it was last updated. 
+Conceptually, the metadata-store is a key-value store, with the special property that each key-value pair (called a 'val') has a timestamp indicating when it was last updated. 
 
-Each key is owned by one entity (usually a peer), which possesses a special secret cryptographic secret which is needed to update the value for that key in the metadata-store. Each peer knows only its own cryptographic secret, so it's able to write to a single val, and unable to write to any other vals in the metadata-store. The metadata-store key formatted as "client-<cryptograpic_public_key>", so that anyone looking at the metadata-store can verify that each value was signed by the correct secret.
+Each key is owned by one entity (usually a peer), which possesses a special secret cryptographic secret which is needed to update the value for that key in the metadata-store. Each peer knows only its own cryptographic secret, so it's able to write to a single val, and unable to write to any other vals in the metadata-store. The metadata-store key is formatted as "client-<cryptograpic_public_key>", so anyone looking at the metadata-store can verify each value was signed by the correct secret.
 
 Each peer maintains its own metadata-store, which is gradually updated with news it learns by gossiping with other peers. val writes take less than one day to propogate through the network, but a peer will never have the "one true copy" of the metadata-store. Each peer's metadata-store will be have some keys be newer and some older in different ways.
 
@@ -82,7 +82,7 @@ Here is a sample mut-val:
 
 So a 'val' in the metadata-store is made up of an immut-val in the immutable-store, plus a mut-val in the mutable-store. The key of a 'val' and the key of its 'mut-val' are the same thing.
 
-To receive an update to a val, a peer makes sure the timestamp in the update is newer than its own version. Then, it checks that the cryptographic signature is correct. Assuming it is, the mut-val update is really from the key's owner, and it is more recent than the information the peer had. The peer updates the mut-val and adds the immut-val. Updates with no existing version just mean a key is newly-seen for the peer, so the timestamp is ignored and the val is always added.
+To receive an update to a val, a peer makes sure the timestamp in the update is newer than its own version. Then, it checks the cryptographic signature is correct. Assuming it is, the mut-val update is really from the key's owner, and it is more recent than the information the peer had. The peer updates the mut-val and adds the immut-val. Updates with no existing version just mean a key is newly-seen for the peer, so the timestamp is ignored and the val is always added.
 
 To write a val (update a key with a new value), the owner first puts the value into the immutable-store. Then it generates the mut-val without the signature, using the current time as the timestamp. Finally, it uses the cryptographic key associated with the key to sign the mut-val, generating a signature. It places the mut-val in the mutable-store, replacing any current value for that key. 
 
