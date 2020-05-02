@@ -1,7 +1,7 @@
 === valhalla3 ===
 
 Author: zachary "za3k" vance (za3k@za3k.com)
-Written 2020-04-29 (document version 1.0.8)
+Written 2020-04-29 (document version 1.0.9)
 
 valhalla3 is a p2p protocol designed to manage downloading and making available a very large dataset among a set of volunteer computers.
 
@@ -316,3 +316,9 @@ fenn: you should have an option for times of day to run.
       add a global leaderboard, it works for SETI@home
       you should have a merkle-tree timestamp system that collaboratively timestamps the log of changes, so you can find the oldest claims for a file and trust those peers
 
+richard: there's a trusted root so you're not storing child porn, right?
+         would be good to have plausible deniability so copyright holders can't sue volunteers
+         how do you get content?
+me:      Yeah I think this is biggest flaw in the design... you should really be able to browse old versions of websites on it (it should be a mirror, not just a backup).
+
+me: This needs DoS protection from lots of garbage data. We should add a number-of-clients limit, and somehow prefer pingable/old clients like Kademelia does. Unforuntately, Kademelia is designed around being able to contact all your contacts regularly, which isn't true here, so I'll need to think about it.
