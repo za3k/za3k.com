@@ -1,8 +1,0 @@
-URL="https://za3k.com/~logs/analog.html"
-./up? "${URL}" || exit 1
-SIZE=$(curl -s "${URL}" | wc -c)
-TARGET_SIZE=20000
-if [ "${SIZE}" -lt "${TARGET_SIZE}" ]; then
-    echo "${URL} is too short (<${TARGET_SIZE} bytes), probably failing"
-    exit 1
-fi

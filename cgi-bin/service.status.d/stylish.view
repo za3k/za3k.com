@@ -1,7 +1,0 @@
-if curl https://za3k.com/stylish.view 2>/dev/null | grep -q "style"
-then
-    echo "Database appears to work"
-else
-    echo "Unknown problem"
-    exit 1 
-fi

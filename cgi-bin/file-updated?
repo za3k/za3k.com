@@ -1,8 +1,0 @@
-FILE="$1"
-SECONDS="${2-$((7 * 24 * 60 * 60))}"
-UPDATED="$(date -r "$FILE" "+%b %d, %Y")"
-TIMESTAMP="$(date -r "$FILE" +%s)"
-NOW="$(date +%s)"
-CUTOFF=$((NOW - SECONDS))
-echo "${FILE} was last updated ${UPDATED}"
-[ "$TIMESTAMP" -gt "$CUTOFF" ]

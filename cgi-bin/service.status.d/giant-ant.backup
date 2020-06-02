@@ -1,1 +1,0 @@
-ssh -i /var/www/status/backup_check -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no backup_status@germinate.za3k.com | grep giant-ant

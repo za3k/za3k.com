@@ -1,8 +1,0 @@
-AVALANCHE=$(ssh -i /var/www/status/backup_check -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no backup_status@germinate.za3k.com | grep avalanche)
-echo $AVALANCHE
-EXPECTED=$(date +"avalanche.%Y%m%d")
-[ "${AVALANCHE}" = "${EXPECTED}" ] && exit 0
-EXPECTED=$(date --date="yesterday"  +"avalanche.%Y%m%d")
-[ "${AVALANCHE}" = "${EXPECTED}" ] && exit 0
-EXPECTED=$(date --date="2 days ago"  +"avalanche.%Y%m%d")
-[ "${AVALANCHE}" = "${EXPECTED}" ] && exit 0

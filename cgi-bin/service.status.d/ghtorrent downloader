@@ -1,8 +1,0 @@
-DOWNLOAD=$(rsync -l burn.za3k.com::ghtorrent | awk '{print $3}' | sort | tail -n1)
-echo "Last file downloaded: $DOWNLOAD"
-EXPECTED=$(date +"%Y/%m/%d")
-[ "${DOWNLOAD}" = "${EXPECTED}" ] && exit 0
-EXPECTED=$(date --date="yesterday"  +"%Y/%m/%d")
-[ "${DOWNLOAD}" = "${EXPECTED}" ] && exit 0
-EXPECTED=$(date --date="2 days ago"  +"%Y/%m/%d")
-[ "${DOWNLOAD}" = "${EXPECTED}" ] && exit 0

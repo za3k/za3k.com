@@ -1,3 +1,0 @@
-TESTSITE="https://za3k.com/archive/test.md"
-echo "Markdown testing at ${TESTSITE}"
-curl "${TESTSITE}" 2>/dev/null | grep -q "<h1>"

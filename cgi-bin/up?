@@ -1,5 +1,0 @@
-#!/bin/bash
-ALL=$(curl -ILs "$1")
-HEADER=$(echo "$ALL" | head -1)
-echo "${HEADER}"
-echo "${ALL}" | grep -q "200 OK"

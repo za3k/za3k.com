@@ -1,5 +1,0 @@
-./up? "http://za3k.com/~twitter_archive/" || exit 1
-./up? "https://za3k.com/~twitter_archive/" || exit 1
-FILE=$(./last-updated-in-dir /home/twitter_archive)
-ONE_WEEK=$((7 * 24 * 60 * 60))
-./file-updated? "${FILE}" "${ONE_WEEK}" || exit 1

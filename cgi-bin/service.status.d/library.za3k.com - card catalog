@@ -1,1 +1,0 @@
-./up? "https://library.za3k.com/qr.png?text=Test" || exit 1

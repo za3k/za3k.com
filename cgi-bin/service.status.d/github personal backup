@@ -1,3 +1,0 @@
-FILE=$(./last-updated-in-dir /home/github/za3k)
-ONE_WEEK=$((7 * 24 * 60 * 60))
-./file-updated? "${FILE}" "${ONE_WEEK}"
