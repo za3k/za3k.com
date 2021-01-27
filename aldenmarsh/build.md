@@ -25,15 +25,15 @@
   - What's their backstory?
   - What people or organizations might they have ties with? Are the ties good (allies), bad (enemies), or neutral?
   - Citizenship status. Keep in mind that "exotic" races (ones not in the PHB) are probably foreign, and will probably attract attention. You can choose to be:
-    - An Aldish citizen born in Aldenmarsh
-    - Have gotten citizenship later (rare)
-    - Be here on a special visa that allows travel (rare, explain why)
-    - Be here on a normal visa, This requires you to sleep in the foreign quarter of Canyonport, effectively prohibiting leaving the city legally
-    - Be here illegally, but travelling freely anyway. 
+      - An Aldish citizen born in Aldenmarsh
+      - Have gotten citizenship later (rare)
+      - Be here on a special visa that allows travel (rare, explain why)
+      - Be here on a normal visa, This requires you to sleep in the foreign quarter of Canyonport, effectively prohibiting leaving the city legally
+      - Be here illegally, but travelling freely anyway. 
   - Your god, and whether you attend the Church of Baneth. Aldenmarsh is a theocracy with mandatory church attendance for citizens. Going to church doesn't mean you worship Baneth or even like him.
-    - If you are an Aldish citizen, you almost certainly go to the Church of Baneth. You might like Baneth, worship another god, or be agnostic.
-    - Many-to-most Aldish citizens worship Baneth
-    - The allowed gods are Baneth, the Greyhawk gods, and the non-human gods. They are found at the back of your player's handbook in an appendix.
-    - Agnostic (no god) is fine as a deliberate choice, but don't pick it as a default because you didn't look through options.
-    - Clerics, paladins etc can't be agnostic. If you're a cleric or paladin, talk to the DM for a little extra help with your background and how you'll be treated.
+      - If you are an Aldish citizen, you almost certainly go to the Church of Baneth. You might like Baneth, worship another god, or be agnostic.
+      - Many-to-most Aldish citizens worship Baneth
+      - The allowed gods are Baneth, the Greyhawk gods, and the non-human gods. They are found at the back of your player's handbook in an appendix.
+      - Agnostic (no god) is fine as a deliberate choice, but don't pick it as a default because you didn't look through options.
+      - Clerics, paladins etc can't be agnostic. If you're a cleric or paladin, talk to the DM for a little extra help with your background and how you'll be treated.
 1. After your first play session, I also recommend making a backup character in case your PC dies. This doesn't have to be in roll20, but I'm happy to give you a sheet if you want one.
