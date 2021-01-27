@@ -1,4 +1,4 @@
-In Aldenmarsh, divination spells are prohibited by law--they are reserved for use by the Church of Baneth only. 
+In [Aldenmarsh](aldenmarsh.md), divination spells are prohibited by law--they are reserved for use by the Church of [Baneth](baneth.md) only. 
 - They're absolutely allowed in building your character they're only prohibited by the government in-game, not by the DM.
 - Spells are available for [sale](spell_sales.md) by the Church of Baneth.
 - There is no special magic in place to detect the use of these spells. 

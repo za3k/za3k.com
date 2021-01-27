@@ -27,8 +27,8 @@
 
 **Bordering nations (clockwise)**: Magic Sea, Eldwood, Free City of Maris, Four Spires (+ Lanolis River), Lorille, The Wastes, Nathnan Barony
 
-## About
-Aldenmarsh, through Canyonport, controls trade across the entire Magic Sea through trade agreements. Between its economic power, and position near the Lanolis River, most trade goods travelling by water on the continent pass through Canyonport, and Aldenmarsh taxes them.
+## Economy
+Aldenmarsh, through Canyonport, controls trade across the entire Magic Sea through trade agreements. Between its economic power, and position near the Lanolis River, most trade goods travelling by water on the continent pass through Canyonport, and Aldenmarsh taxes them. Aldenmarsh uses [silver currency](coins.md).
 
 ## Culture
 Aldenmarsh is the cultural center of the Magic Sea. Heavy influences from the Church of Baneth. Education and virtue are instilled by free and mandatory education from Gardeners. Church service is mandatory. Outside religion is closely regulated and censured, but permitted if practitioners regularly swear oaths of faith to Baneth. Citizens care strongly about proper procedures and sophistication. Faith, virtue, reading, and gardening are considered high culture. Gardens, quality textiles, elaborate mechanical devices, or rare books might be shown as signs of wealth.
