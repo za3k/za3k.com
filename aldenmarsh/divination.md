@@ -1,6 +1,28 @@
 In [Aldenmarsh](aldenmarsh.md), divination spells are prohibited by law--they are reserved for use by the Church of [Baneth](baneth.md) only. 
 - They're absolutely allowed in building your character they're only prohibited by the government in-game, not by the DM.
-- Spells are available for [sale](spell_sales.md) by the Church of Baneth.
+- Spells marked with * below are available for [sale](spell_sales.md) by the Church of Baneth.
 - There is no special magic in place to detect the use of these spells. 
 - Normally, they would be detected in spellsbooks while going through customs at the border. It's common practice for spellcasters to cut out those pages before entering the country (and some less law-abiding ones may hide them or commit them to memory to write down after entry).
 - A particularly showy use of divination magic, or what looks like divination magic, may be reported to the Steel.
+
+| Level | Prohibited Spell |
+|-------|------------------|
+| C     | True Strike
+| 1     | Detect Evil and Good
+| 1     | [\*](spell_sales.md)Detect Magic
+| 1     | [\*](spell_sales.md)Detect Poison and Disease
+| 1     | [\*](spell_sales.md)Comprehend Languages
+| 1     | [\*](spell_sales.md)Identify
+| 2     | [\*](spell_sales.md)Augury
+| 2     | Detect Thoughts
+| 2     | Find Traps
+| 2     | Locate Animals or Plants
+| 2     | [\*](spell_sales.md)Locate Object
+| 2     | See Invisibility
+| 3     | Clairvoyance
+| 3     | [\*](spell_sales.md)Tongues
+| 4     | [\*](spell_sales.md)Divination
+| 5     | [\*](spell_sales.md)Contact Other Plane
+| 5     | [\*](spell_sales.md)Scrying
+| 6     | True Seeing
+| 6     | Find the Path
