@@ -21,13 +21,13 @@ They have no strong opinions as a faith on secrets, illusions, or straightforwar
 The Church of Baneth is mostly a political institution of Aldenmarsh. Everyone in Aldenmarsh is required to be a member of the church, and attend church service every Light day. However, actual strong attachment is Baneth and prayer is neither required or common in the population--maybe 20% of the population is actually faithful.
 
 ## Church (Governmental powers)
-Religious matters - The Church has total control over anything related to religious matters. It requires that foreign religion is always in tandem with, and below, worship of Baneth. It also prohibits [divination](divination.md) magic, heresy (which is something a religious scholar or preacher might commit), and blasphemy (worship of other gods as primary, or destruction of Church property). Deaths, and graves are religious business. Births and weddings are not.
-Council - The Church controls 4 of the 12 chairs on the counctil which runs Aldenmarsh. The Council can do anything, and also makes the laws of Aldenmarsh.
-Bureaucracy - The Church runs the civil service and bureaucracy. It regulates most permits, the purchase and sale of land, and controls the city coffers day-to-day. This is how the church makes the majority of its income, and exercises most political control.
-Steel Eye - The Church military, the Steel Eye, is the police arm of the law, especially in Canyonport. In the country, nobles may bring in criminals.
-Investigators - The investigators enforce the law. After a criminal is arrested, they determine the facts of the case, and whether the criminal is factually guilty of violating the law as written. The church does not sentence or determine the moral guilt of criminals.
-Education - The Gardeners control education, but the Church has a large input on the books taught.
-Tithe - Followers of Baneth tithe 1/7 of their income to the Church.
+- Religious matters - The Church has total control over anything related to religious matters. It requires that foreign religion is always in tandem with, and below, worship of Baneth. It also prohibits [divination](divination.md) magic, heresy (which is something a religious scholar or preacher might commit), and blasphemy (worship of other gods as primary, or destruction of Church property). Deaths, and graves are religious business. Births and weddings are not.
+- Council - The Church controls 4 of the 12 chairs on the counctil which runs Aldenmarsh. The Council can do anything, and also makes the laws of Aldenmarsh.
+- Bureaucracy - The Church runs the civil service and bureaucracy. It regulates most permits, the purchase and sale of land, and controls the city coffers day-to-day. This is how the church makes the majority of its income, and exercises most political control.
+- Steel Eye - The Church military, the Steel Eye, is the police arm of the law, especially in Canyonport. In the country, nobles may bring in criminals.
+- Investigators - The investigators enforce the law. After a criminal is arrested, they determine the facts of the case, and whether the criminal is factually guilty of violating the law as written. The church does not sentence or determine the moral guilt of criminals.
+- Education - The Gardeners control education, but the Church has a large input on the books taught.
+- Tithe - Followers of Baneth tithe 1/7 of their income to the Church.
 
 ## Superstitions
 - The truth always comes out on Light
