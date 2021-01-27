@@ -1,23 +1,23 @@
 # House Rules
-- See [Character Creation](build.md) rules for allowed classes and races.
+- See [Character Creation](build.md) rules for allowed classes, races, and gods.
 - Mostly we're using rules as written, nothing too crazy.
-- Gods: "Greyhawk" and "Nonhuman" gods listed in the back of the Player's Handbook. Plus [Baneth](baneth.md).
 - Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will not be for combat.
-- Leveling up is in-between sessions. You can roll your increased HP immediately for level 2 and 3 without waiting until the end of the session.
-- If the party is using one approach, they make one roll (assisting a player is still allowed of course). The entire party wouldn't roll separate perception checks to look for a secret door.
+- Leveling up is in-between sessions, to avoid a long interruption. You can roll your increased HP immediately for level 2 and 3 without waiting until the end of the session.
+- If the party is using one approach, they make one roll (assisting a player is still allowed of course). The entire party wouldn't roll separate perception checks to look for a secret door. If some players are in a library, but one is researching history and another is researching military tactics, they would make separate rolls.
 - Resting is harder during travel.
   - While adventuring in a city, the party will get a short rest for an hour break, and a long rest for sleeping overnight.
   - While travelling overland, the party will get nothing for an hour break, a short rest camping overnight, and a long rest for an extended break at an inn in a city. Normally one encounter a day would be the max while travelling, so this is to make things more interesting.
 - Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
+- Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
+- The wild magic sorcerer's surge table is boringly short for a core mechanic, so the DM will make up an effect or use a 10,000 effect web table.
 - We ARE using the optional feat rule. 
 - We ARE allowing multiclassing.
 - We ARE NOT using the optional flanking rule.
 - We ARE NOT using the optional cleave rule.
 - We ARE NOT using inspiration, healing surges, or hero points.
 - Magic Items
-  - We ARE allowing players to craft their own magic items, including scrolls. Ask the DM for any special requirements, though.
-  - In Canyonport, PCs can buy level 0 scrolls (250sp), level 1 scrolls (500sp), healing and climbing potions (500sp), +1 armor (3000sp), +1 weapons and +1 ammo (3000sp). Other uncommon items may also be available.
+  - Magic items are not automatically identified after a rest. Players will need to study any found items in-game. Some will be easy to figure out, and some will be more difficult or require an Identify spell.
+  - We ARE allowing players to craft their own magic items, including scrolls. Ask the DM to approve the item, and whether there are any special requirements beyond sp/gp costs.
+  - In Canyonport, PCs [can buy common and some uncommon magic items](magic_items.md).
   - Selling magic items or buying rarer magic items will be difficult--even though Canyonport is the biggest metropolis around and a trading port, magic items are just rare!
   - Some wands recharge, and other don't. Player-created wands do not recharge.
-  - Magic items are not automatically identified after a rest. Players will need to study any found items in-game. Some will be easy to figure out, and some will be more difficult or require an Identify spell.
-  - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
