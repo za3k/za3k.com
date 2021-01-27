@@ -1,8 +1,22 @@
 # House Rules
 - See [Character Creation](build.md) rules for allowed classes and races.
-- We ARE using the optional **feat** rule. 
-- We ARE NOT using the optional **flanking** rule
-- Leveling: XP-based, not milestones. The DM will track it for the group.
+- Mostly we're using rules as written, nothing too crazy.
 - Gods: "Greyhawk" and "Nonhuman" gods listed in the back of the Player's Handbook. Plus [Baneth](baneth.md).
-- You can use a "passive" roll for skill checks--just use 10 instead of rolling.
-- Generally, if the party is using one approach, they make one roll (with advantage for assistance)--the entire party wouldn't roll perception checks to look for a secret door.
+- Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will not be for combat.
+- Generally, if the party is using one approach, they make one roll (assisting a player is still allowed of course). The entire party wouldn't roll perception checks to look for a secret door.
+- Resting is harder during travel.
+  - While adventuring in a city, the party will get a short rest for an hour break, and a long rest for sleeping overnight.
+  - While travelling overland, the party will get nothing for an hour break, a short rest whie camping, and along rest for an extended break at an inn in a city. This is to make things more intersting--normally one encounter a day would be the max while travelling.
+- We ARE using the optional **feat** rule. 
+- We ARE NOT using the optional **flanking** rule.
+- We ARE NOT using the optional **cleave** rule.
+- We ARE NOT using inspiration, healing surges, or hero points.
+- We ARE allowing multiclassing.
+- Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
+- Magic Items
+  - Players CAN craft their own magic items. Ask the DM for any special requirements.
+  - In Canyonport, PCs can buy level 1 scrolls (500sp), healing and climbing potions (500sp), +1 armor (3000-5000sp), +1 weapons and ammo (3000-5000sp). Other uncommon items may also be available.
+  - Selling magic items or buying rarer magic items will be difficult--even though this is the biggest metropolis around, magic items are just rare.
+  - Some wands recharge, and other don't. Player-created wands do not recharge.
+  - Magic items are not automatically identified after a rest. Players will need to study them in-game--some will be easy to figure out, and some will be difficult or require an identify spell.
+  - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting a fly spell while levitating.
