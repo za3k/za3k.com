@@ -7,16 +7,16 @@
 - Resting is harder during travel.
   - While adventuring in a city, the party will get a short rest for an hour break, and a long rest for sleeping overnight.
   - While travelling overland, the party will get nothing for an hour break, a short rest whie camping, and along rest for an extended break at an inn in a city. This is to make things more intersting--normally one encounter a day would be the max while travelling.
-- We ARE using the optional **feat** rule. 
-- We ARE NOT using the optional **flanking** rule.
-- We ARE NOT using the optional **cleave** rule.
+- We ARE using the optional feat rule. 
+- We ARE NOT using the optional flanking rule.
+- We ARE NOT using the optional cleave rule.
 - We ARE NOT using inspiration, healing surges, or hero points.
 - We ARE allowing multiclassing.
 - Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
 - Magic Items
-  - Players CAN craft their own magic items. Ask the DM for any special requirements.
-  - In Canyonport, PCs can buy level 1 scrolls (500sp), healing and climbing potions (500sp), +1 armor (3000-5000sp), +1 weapons and ammo (3000-5000sp). Other uncommon items may also be available.
-  - Selling magic items or buying rarer magic items will be difficult--even though this is the biggest metropolis around, magic items are just rare.
+  - We ARE allowing players to craft their own magic items, including scrolls. Ask the DM for any special requirements, though.
+  - In Canyonport, PCs can buy level 0 scrolls (250sp), level 1 scrolls (500sp), healing and climbing potions (500sp), +1 armor (3000-5000sp), +1 weapons and ammo (3000-5000sp). Other uncommon items may also be available.
+  - Selling magic items or buying rarer magic items will be difficult--even Canyonport is the biggest metropolis around and a trading port, magic items are just rare.
   - Some wands recharge, and other don't. Player-created wands do not recharge.
-  - Magic items are not automatically identified after a rest. Players will need to study them in-game--some will be easy to figure out, and some will be difficult or require an identify spell.
-  - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting a fly spell while levitating.
+  - Magic items are not automatically identified after a rest. Players will need to study any found items in-game--some will be easy to figure out, and some will be more difficult or require an identify spell.
+  - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
