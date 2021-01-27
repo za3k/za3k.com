@@ -3,6 +3,7 @@
 - Mostly we're using rules as written, nothing too crazy.
 - Gods: "Greyhawk" and "Nonhuman" gods listed in the back of the Player's Handbook. Plus [Baneth](baneth.md).
 - Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will not be for combat.
+- Leveling up is in-between sessions. You can roll your hit die immediately for level 2 and 3, though.
 - Generally, if the party is using one approach, they make one roll (assisting a player is still allowed of course). The entire party wouldn't roll perception checks to look for a secret door.
 - Resting is harder during travel.
   - While adventuring in a city, the party will get a short rest for an hour break, and a long rest for sleeping overnight.
