@@ -1,10 +1,10 @@
-= About
-== When and where
+# About
+## When and where
 Sessions are every Wednesday at 6pm. Cancelled sessions will be rare but in the Discord if they happen.
 
 Play is by voice on Discord, and on roll20. 
 
-== Expectations
+## Expectations
 - Show up every week and be on time
 - If you can't show up, let us know ahead of time. We'll play with 3+ players. If you miss too many sessions I'll kick you out, sorry!
 - Generally nothing is needed from players between sessions once you have a character.

@@ -1,4 +1,4 @@
-= House Rules
+# House Rules
 - See [Character Creation](build.md) rules for allowed classes and races.
 - We ARE using the optional **feat** rule. 
 - We ARE NOT using the optional **flanking** rule

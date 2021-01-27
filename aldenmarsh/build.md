@@ -1,4 +1,4 @@
-= Character Creation
+# Character Creation
 1. **Once you start rolling dice (attributes, HP, or starting GP), no takebacks**. If you don't like your rolls, tough.
 1. Generally, if you want to make some changes to fit your character idea, ask! I'm pretty open to it, and while I might not always say yes, I'll at least offer an alternative. Anything aesthetic-only will almost certainly be approved (ex. changing spell descriptions without changing game effects, or changing what starting equipment looks like).
 1. Add yourself on roll20. Ask the DM for a character sheet (and character sheet for a familiar)
