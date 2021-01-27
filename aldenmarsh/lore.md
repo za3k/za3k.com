@@ -1,4 +1,4 @@
 ===Aldenmarsh
-- Baneth
-- Divination spells
-- Spells for sale
+- [Baneth](baneth.md)
+- Prohibited [Divination](divination.md) spells
+- [Spells for sale by the Church](spell_sales.md)

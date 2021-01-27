@@ -3,5 +3,5 @@ Welcome! If you're reading this you're playing in my online campaign. We play ev
 
 - Making a character
 - House rules
-- Maps
-- Lore
+- [Maps](aldenmarsh.md)
+- [Lore](lore.md)
