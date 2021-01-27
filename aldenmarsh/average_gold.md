@@ -1,4 +1,4 @@
-= Starting Gold
+# Starting Silver
 
 Level 1 starting equipment
 

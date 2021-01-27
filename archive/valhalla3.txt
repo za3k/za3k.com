@@ -9,6 +9,28 @@ The intended use case is to back up the 14000TB Internet Archive (I'll talk to t
 
 The protocol is implemented as a general-purpose way to ensure a set of torrents are populated, together with a mechanism to download from HTTP and turn the downloaded files into torrents. The goal is to have 3+ distributed full copies of the internet archive, online at all times.
 
+=== simple ===
+
+Here's my simplified plan:
+Goal: store an immutable copy of Internet Archive
+Nongoal: Replace Internet Archive
+Nongoal: (maybe) Browse old websites on it
+Nongoal: Update content (you can add content, though)
+
+2. The adoption model is that someone downloads a Windows program, clicks install, and it starts on boot. They feel good for a week, never interact with it, and it runs until they get a new computer. Each computer is a 'peer'. We use something like 20% of their free space. The only relevant differences between peers I know are: how much space they have, and whether they can get incoming connections (behind NAT/firewall).
+3. Each peer has a bittorrent client, designed to seed 100-10K torrents per peer. To download a file they don't have, peers either grab it on HTTP from Internet Archive (if new) or from other clients seeding it on torrents (if old). To share a file they do have, they seed the file on torrents (24/7).
+4. I add a p2p protocol, to manage a distributed key-value store. Each peer controls one key, and can shove whatever they want in there. The entire key-value store is replicated to every peer, and they "gossip" to spread around updates. There's some crypto to make all this secure.
+5. Clients use the key-value store to both to see what other peers are online + active, and to decide what needs downloaded autonomously.
+6. There's a trusted 'admin', who makes the list of files that should be mirrored. This gets put in the key-value store under some special 'admin' keys.
+7. There are also some websites, which the peers can grab key-values from. These are 99% to push out a self-update and unjam everything if we break stuff during alpha.
+8. I get a working technical implementation, shove the installer at Internet Archive and related people. Someone else magically handles "get 100K users for a long period".
+
+Happy to throw in some more detail if you want, but I expect there are plenty of problems with this approach, and I'd like to hear about those more than the specific problems with the p2p protocol.
+
+Danger 1, Internet Archive and its mirrors go down. If IA goes broke, probably this just stays up.  If IA is down because of lawyers, governments etc, my system is in danger of going down too in the near future. A good samaritan gets together some spreadsheets and gets more people online to seed the same stuff. In the meantime, a different good samaritan buys $300K of computer equipment (at today's prices) and torrents all the content to a single location in 1 month, before the system goes down. (This can be done arbitrarily fast with more money, google can do it in under a day) Anyone can torrent the content, no coordination with admins or IA is needed.
+Danger 2, Internet Archive has to start removing stuff. Basically see Danger 1, but less so.
+Danger 3, the admins for this disappear. The program can no longer self-update on Windows, and the file list will never update again. Also, after enough time new nodes may have a hard time joining. Nothing else bad happens.
+
 === design goals ===
 
 - Actually get a copy (!)
