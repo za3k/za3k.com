@@ -1,6 +1,6 @@
-![Map of Canyonport](canyonport.png)
-
 #City, Canyonport
+## Map
+![Map of Canyonport](canyonport.png)
 ## Facts
 Also known as: "The Green City", aka "New Ja'goth"
 **Population**: 350,000
