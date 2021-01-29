@@ -3,7 +3,7 @@
     - [Canyonport](canyonport.md)
 - [Eldwood](eldwood.md)
 - [Four Spires](four_spires.md)
-- [Grag'hesh](graghesh)
+- [Grag'hesh](graghesh.md)
 - [Lorille](lorille.md)
 - [Magic Sea](magic_sea.md)
 - [Maris](maris.md)
