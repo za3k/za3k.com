@@ -1,11 +1,4 @@
 # Landmark, Magic Sea
-## Facts
-**Population**: 0
-**Languages**: Aldish and Common
-**Government**: None (no territorial waters)
-**Bordering nations (clockwise)**: TBD
-
-## About
 The Magic Sea is a freshwater sea created about 800 years ago. It is one of the [Hundred Wonders](hundred_wonders.md). The water is so pure that there are no fish or other animal life in the sea. 
 
 # Geographic Area
