@@ -3,7 +3,7 @@
 ## Facts
 **Population**: 80,000
 
-**Capital City**: Largest city, Hartvale; Capitol, White Granite Spire
+**Capital City**: Hartvale (secular); White Granite Spire (spires)
 
 **Climate**: Tropical
 
@@ -11,7 +11,7 @@
 
 **Languages**: Common
 
-**Exports**: Glasswork, drinks, magic, drugs
+**Exports**: Glasswork, herbal and alcoholic drinks, magic, drugs
 
 **Imports**: Magic, weapons, armor, food
 
@@ -21,7 +21,7 @@
 
 **Laws**: Standard
 
-**Government**: A council of nobles directs the country. A council of powerful mages directs the spires and adventurers.
+**Government**: An parliment of nobles directs the country. A tribunal of powerful spellcasters controls the spires and directs adventurers.
 
 **Bordering nations (clockwise)**: [Maris](maris.md), [Eldwood](eldwood.md), [Lorille](lorille.md), [Aldenmarsh](aldenmarsh.md)
 

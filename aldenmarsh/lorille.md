@@ -23,12 +23,14 @@
 
 **Government**: Monarchy
 
-**Bordering nations (clockwise)**: [Aldenmarsh](aldenmarsh.md), [Four Spires](four_spires.md), [Eldwood](eldwood.md), [Splintered States](splintered_states.md) and Lake Lanolin, [Mond](mond.md) and Lanolin River, [Xuxuwell](xuxuwell.md), [Senly Faye](senly_faye.md), [The Wastes](wastes.md)
+**Bordering nations (clockwise)**: [Aldenmarsh](aldenmarsh.md), [Four Spires](four_spires.md), [Eldwood](eldwood.md), [Splintered States](splintered_states.md) and Lake Lanolis, [Mond](mond.md) and Lanolis River, [Xuxuwell](xuxuwell.md), [Senly Faye](senly_faye.md), [The Wastes](wastes.md)
 
 **Underground nations**: Hammerstrength, Silver Hall, Duskforge
 
 ## About
-North Lorille has moderate population density. South Lorille is low population density on the surface. There are several dwarvish halls on the surface and underground. These are legally their own nations, but the two are on friendly terms and trade actively.
+North Lorille has moderate population density. 
+
+South Lorille is low population density on the surface. There are several dwarvish halls on the surface and underground. These are legally their own nations, but the two are on friendly terms and trade actively.
 
 ## History
 Lorille and Aldenmarsh have been frequently at war over land in the 400 years since Aldenmarsh was founded. The last war ended in 398 when Aldenmarsh sued for peace, losing a large part of South Lorille.

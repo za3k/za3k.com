@@ -23,3 +23,6 @@
 **Government**: Monarchy. Rule by Baron Nathnan.
 
 **Bordering nations (clockwise)**: [Magic Sea](magic_sea.md), [Aldenmarsh](aldenmarsh.md), [The Wastes](wastes.md), [Grag'hesh](graghesh.md)
+
+## About
+Nathan is a small country with both trade ports and a larger inland forest area. It is about 1,200 years old, older than the surrounding counties. It is largely self-sufficient. Nathnan has a strong military.

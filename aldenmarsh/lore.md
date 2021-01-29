@@ -6,3 +6,6 @@
 - Prohibited [Divination](divination.md) spells
 - [Spells for sale](spell_sales.md) by the Church of Baneth
 - [Magic items for sale](magic_items.md) in Canyonport
+
+## World
+- [Hundred Wonders](hundred_wonders.md)
