@@ -14,7 +14,7 @@ The Dark Lord has finally come to your solar system, and they will conquer it wi
  - **Dark Lord**: Describe one strength and/or special power of the Dark Lord. No one knows their weaknesses, if any.
 
 ## Skill List
- - The DM will collect the list of skills from all players into one list. These are now all the skills available in the game. All challenges will be solvable by one or more skills in the skill list. Any other skills (climbing?) are unheard of in your world, and you can't solve challenges that way.
+ - The DM will collect the list of skills from all players into one list. Then they will add 3 more skills. These are now all the skills available in the game. All challenges will be solvable by one or more skills in the skill list. Any other skills (climbing?) are unheard of in your world, and you can't solve challenges that way.
 
 ## Character creation (part 2)
  - **Skills** You have 10 skill points. Divide them into any number of skills, however you want. You can pick from any skills in the skill list.
