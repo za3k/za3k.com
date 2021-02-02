@@ -11,8 +11,11 @@ The Dark Lord has finally come to your solar system, and they will conquer it wi
  - **Skills**: Pick three skills your character is good at.
  - **Dark Lord**: Describe one strength of the Dark Lord. No one knows their weaknesses, if any.
 
+## Skill List
+ - The DM will collect the list of skills from all players into one list. These are now all the skills available in the game. All challenges will be solvable by one or more skills in the skill list. Any other skills (climbing?) are unheard of in your world, and you can't solve challenges that way.
+
 ## Character creation (part 2)
- - You have 10 skill points. Divide them into skills however you want.
+ - You have 10 skill points. Divide them into skills however you want. You can pick from any skills in the skill list.
 
 ## Challenges
  - Whenever you encounter a challenge, it can be solved through roleplay, Ultimate Archwizard **Powers**, or through using your ordinary **skills**
