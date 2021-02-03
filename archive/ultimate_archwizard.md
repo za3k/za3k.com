@@ -30,8 +30,7 @@ The Dark Lord has finally come to your solar system, and they will conquer it wi
  - To use a **skill** to overcome a challenge, roll d6 and add your skill. Compare the result to the challenge difficulty.
     - If the result is **2 or more higher** than the difficulty, you have total success (**yes, and...**), and it goes exactly how you wanted. Describe what happens.
     - If the result is **0 or 1 higher** than the difficulty, you have mixed success (**yes, but...**). Describe what happens.
-    - If the result is **lower** than the difficulty, you fail (**no, but...**). Add 1 to your skill--you've improved through experience. If you have any fun ideas what went wrong, describe what happens. Otherwise the DM will give you an idea to describe.
-    - If you roll is **1**, you fail catastrophically (**no, and...**). Add 1 to your skill--you've improved through experience. If you have any fun ideas what went wrong, describe what happens. Otherwise the DM will give you an idea to describe.
+    - If the result is **lower** than the difficulty, you fail (**no, and...**). Add 1 to your skill--you've improved through experience. If you have any fun ideas what went wrong, describe what happens. Otherwise the DM will give you an idea to describe.
     - Whenever you describe what happens, you describe how NPCs react, and what happens in the world--not just what your character does.
 
 ## [Secret GM Guide](ultimate_archwizard_gm.md) (players don't click)
