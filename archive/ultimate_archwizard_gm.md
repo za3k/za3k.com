@@ -1,5 +1,5 @@
 # Ultimate Archwizards vs the Dark Lord
-## GM Guide
+# # GM Guide
 Don't read players!
 
 Okay, whew, that was close
@@ -10,7 +10,7 @@ Ultimate Archwizards is a lighthearted game for one 2-4 hour session. It's a lit
 
 ## Powers
 
-Powers should be really powerful! They can be one time use, or usable continuously. Each player gets 3 special **powers** (initially sealed) and **mastery** over their Archwizard school.
+Powers should be really powerful! They can be one time use, or usable continuously. Each player gets 2 special **powers** (initially sealed) and **mastery** over their Archwizard school.
 
 - Sample **mastery**: Laser Magic. You can freely use any kind of laser magic, at any time. You have unlimited mana. Your lasers come in all colors and always have perfect aim.
 - Sample wish power: Grant any wish, unlimited uses. Early wishes work 100% scot-free. Keep track of which wish number you're on. Roll d6 + **wish number**. 9 or below, the wish works great. If it's 10, the wish works halfway. If it's 11 or above, there are ironic consequences. Wishes can't **directly** defeat the Dark Lord. The player may grant wishes from NPCs, but can decide how to grant them themselves, and it doesn't increase the wish count.

@@ -4,38 +4,41 @@ You are an Ultimate Archwizard of your school--maybe you are the Laser Archwizar
 
 The Dark Lord has finally come to your solar system, and they will conquer it without fail as they have all others before yours, unless you stop them! Only you, the most powerful beings of your world, can possibly stop the Dark Lord.
 
-**Ultimate Archwizards vs the Dark Lord** is designed to be played by 3-6 players (including one GM), in one 2-4 hour session, with no player or GM preparation.
+**Ultimate Archwizards vs the Dark Lord** is a somewhat goofy RP/improv game for 3-6 players (including GM). It's designed to be played in one session of 2-4 hours. Everyone should bring a sheet of paper, a pencil, and a normal six-sided die. The GM should read these rules ahead of time. Other preparation is discouraged.
 
 ## Character and world creation (part 1)
- - Draw or describe your character.
- - **Mastery** and **powers**: Decide what you're the Ultimate Archwizard of ("lasers", "wishes", or "pro wrestling" in the examples above). The GM will describe how you are the **master** of your school, and describe your three special **powers**.
- - **Seal**: You are so powerful, that your powers must remain sealed--describe how. Are you wearing heavy  training weights? Do you have a special magical eyepatch holding back your cool glowing eye? Are you lazy? As long as your **seal** is in place, you can't use your **powers**. The GM will let you know when it's safe to unseal your powers.
- - **Skills**: Pick three skills your character is good at.
- - **Dark Lord**: Describe one strength and/or special power of the Dark Lord. No one knows their weaknesses, if any.
+1. Draw or describe your character.
+2. **Mastery** and **powers**: Decide what you're the Ultimate Archwizard of ("lasers", "wishes", or "pro wrestling" in the examples above). The GM will describe how you are the **master** of your school, and describe your two special **powers**.
+3. **Skills**: Pick one thing your character is world-class at (+2), one they're good at (+1), one they're bad at (-1) and one they're unbelievably terrible at (-2). You can only ever make rolls using the skills on your character sheet. If you start out with 0 points in a skill, you can't use it. You CAN use the two skills your character is bad at.
+4. **Seal**: You are so powerful, that your powers must remain sealed--describe how. Are you wearing heavy training weights? Do you have a special magical eyepatch holding back your cool glowing eye? Are you lazy? As long as your **seal** is in place, you can't use your **powers**. The GM will let you know when it's safe to unseal your powers.
+5. **Dark Lord**: Describe one special power or strength of the Dark Lord. No one knows the Dark Lord's weaknesses, if any.
 
 ## Skill List
- - The DM will collect the list of skills from all players into one list. Then they will add 3 more skills. These are now all the skills available in the game. All challenges will be solvable by one or more skills in the skill list. Any other skills (climbing?) are unheard of in your world, and you can't solve challenges that way.
+- The GM will write down the 4 skills from each player as they're said aloud. Then the GM names 4 more skills, to round things out. These are now all the skills available in the game. All challenges will be solvable skills from the skill list. Any other skills (climbing?) are unheard of in your world, and you can't solve challenges that way.
 
 ## Character creation (part 2)
- - **Skills** You have 10 skill points. Divide them into any number of skills, however you want. You can pick from any skills in the skill list.
-    - 0 points means you're unable to use that skill. With 0 points in pottery, you don't know how to make pots.
-    - 2 points represents the pinnacle of normal human achievement. 2 point in pottery means your pots would be sold for millions of dollars as masterpieces.
-    - You're an Ultimate Archwizard, so you can have an unlimited number of points assigned to a skill.
+6. **Skills** You have 4 additional skill points to spend.
+    - You can spend 1 skill point to improve a skill you don't have to +1, adding it to your character sheet. You can roll using this new skill.
+    - You can spend 1 skill point to increase any existing skill by +1. You're an Ultimate Archwizard, so you're not limited to world-class (+2). Make skills as high as you want.
+    - You may NOT improve the two skills your character is bad at.
+    - You're welcome to add 4 new skills, just improve your existing two skills, or anything in between.
 
 ## Challenges
- - Whenever you encounter a challenge, it can be solved through **roleplay**, Ultimate Archwizard **Powers**, or through using your ordinary **skills**
- - **Powers** 100% always succeed. They may not always have the effect you expect.
- - To use a **skill**, roll d6 and add your skill.
-    - If the result is at least as high as the difficulty, you succeed.
-    - If it's lower than the difficulty, you fail. Add 1 to your skill--you've improved through experience.
-    - If you succeed or fail, describe how! Feel free to describe the reaction of the NPCs and the world around you, not just your character.
+ - Whenever you encounter a challenge, it can be overcome through **roleplay** (including using your **mastery**), using your Archwizard **powers**, or through using your ordinary **skills**
+ - **Powers** and **mastery** 100% always succeed. They may not always do what you expect.
+ - To use a **skill** to overcome a challenge, roll d6 and add your skill. Compare the result to the challenge difficulty.
+    - If the result is **2 or more higher** than the difficulty, you succeed, and it goes exactly how you wanted. Describe what happens.
+    - If the result is **0 or 1 higher** than the difficulty, you have mixed success. Describe what happens.
+    - If the result is **lower** than the difficulty, you fail. Add 1 to your skill--you've improved through experience. If you have any fun ideas what went wrong, describe what happens. Otherwise the DM will give you an idea to describe.
+    - Whenever you describe what happens, you describe how NPCs react, and what happens in the world--not just what your character does.
 
 ## [Secret GM Guide](ultimate_archwizard_gm.md) (players don't click)
 
 ## Progression
-You are already the ultimate Archwizard. There is no up to go from here. But, you may be able
- to go sideways. If there's more than one session, you become the Archwizard of a second thing. Pick that
-thing!
+You are already Ultimate Archwizard. There is no room for improvement. But, you may be able to broaden your skills. If there's more than one session, you become the Archwizard of a second thing. Pick that thing, and you'll get extra powers.
 
 ## Victory
 You win when the Dark Lord is defeated--whether through battle, diplomacy, seduction, or elaborate time paradox.
+
+## Credits
+**Ultimate Archwizards vs the Dark Lord** was inspired by anime everywhere, as well as various one-page rule systems. In particular, the skill system is adapted from [You Awaken in a Strange Place](https://twitter.com/floabcomic/status/1296592480419360768) by Jacob Andrews.
