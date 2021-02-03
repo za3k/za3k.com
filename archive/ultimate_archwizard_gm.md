@@ -8,18 +8,24 @@ Okay, whew, that was close
 
 Ultimate Archwizards is a lighthearted game for one 2-4 hour session. It's a little more group-storytelling than some RPG games, with players describing NPCs when they succeed and fail. It's designed to be played with "YES" as the default GM answer. Do the players want to distract the lake full of alligators with an elaborate juggling routine? Say yes and ask for details on the act and how the alligators react.
 
+## Mastery
+Each player has **mastery** over their Archwizard school. This looks similar for all players.
+
+- Sample laser **mastery**: Laser Magic. You can freely use any kind of laser magic, at any time. You have unlimited mana. Your lasers come in all colors and always have perfect aim.
+- Sample genie **mastery**: Genie powers. You can float around as smoke or solid, go inside any lamp or ring, etc.
+- Sample pro wrestling **mastery**: Ultimate wrestler. In addition to your cool costume and soap opera backstory, you're also the best wrestler in the world. Any time you are in physical combat, you win.
+
 ## Powers
 
-Powers should be really powerful! They can be one time use, or usable continuously. Each player gets 2 special **powers** (initially sealed) and **mastery** over their Archwizard school.
+Powers should be really powerful! They can be one time use, or have unlimited uses. With a game this short, there's not really much difference. Each player gets 2 special **powers** (initially sealed). Powers never instantly defeat the Dark Lord.
 
-- Sample **mastery**: Laser Magic. You can freely use any kind of laser magic, at any time. You have unlimited mana. Your lasers come in all colors and always have perfect aim.
-- Sample wish power: Grant any wish, unlimited uses. Early wishes work 100% scot-free. Keep track of which wish number you're on. Roll d6 + **wish number**. 9 or below, the wish works great. If it's 10, the wish works halfway. If it's 11 or above, there are ironic consequences. Wishes can't **directly** defeat the Dark Lord. The player may grant wishes from NPCs, but can decide how to grant them themselves, and it doesn't increase the wish count.
-- Sample laser power: Hyper Beam, one use. You summon a massive laser, which destroys everything in its path (up to moon sized). One use only.
-- Sample pro wrestling power: 100x Combo, unlimited use. Whenever you defeat an enemy in physical combat, you can use their unconscious body as a weapon against another enemy, defeating them instantly.
+- Sample laser **power**: Hyper Beam, one use. You summon a massive laser, which destroys everything in its path (up to moon sized). One use only.
+- Sample genie **power**: Grant any wish, unlimited uses. Keep track of how many wishes you have already granted. You gain a special skill only you have, "Grant wish (+0)". Whenever you grant a wish, roll a skill check against a difficulty of the number wishes you have already granted. On full success, the wish works as expected. On full failure, the wish has ironic bad consequences. A wish can't directly defeat the Dark Lord.
+- Sample pro wrestling **power**: Finishing Move Combo, unlimited use. Whenever you defeat an enemy in physical combat, you can use their unconscious body as a weapon against another enemy, defeating the second enemy instantly.
 
 ## Seals
 
-The players start out with their powers sealed. They still have mastery, but they can't use their special powers. The first time they fail a challenge, their powers unseal in a cool cutscene or monologue they narrate, describing how they actually succeed. They can then use powers freely, and they're generally more powerful.
+The players start out with their powers sealed. They still have mastery, but they can't use their special powers. The first time a player fails a challenge, their powers unseal in a cool cutscene or monologue they narrate, describing how they actually succeed. They can then use powers freely, and they're generally more powerful. Encourage players to unseal their powers early.
 
 ## Difficulty
 
