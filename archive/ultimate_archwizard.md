@@ -9,7 +9,7 @@ The Dark Lord has finally come to your solar system, and they will conquer it wi
 ## Character and world creation (part 1)
 1. Draw or describe your character.
 2. **Mastery** and **powers**: Decide what you're the Ultimate Archwizard of ("lasers", "wishes", or "pro wrestling" in the examples above). The GM will describe how you are the **master** of your school, and describe your two special **powers**.
-3. **Skills**: Pick one thing your character is world-class at (+2), one they're good at (+1), one they're bad at (-1) and one they're unbelievably terrible at (-2). You can only ever make rolls using the skills on your character sheet. If you start out with 0 points in a skill, you can't use it. You CAN use the two skills your character is bad at.
+3. **Skills**: Pick one thing your character is world-class at (+2), one they're good at (+1), one they're bad at (-1) and one they're unbelievably terrible at (-2).
 4. **Seal**: You are so powerful, that your powers must remain sealed--describe how. Are you wearing heavy training weights? Do you have a special magical eyepatch holding back your cool glowing eye? Are you lazy? As long as your **seal** is in place, you can't use your **powers**. The GM will let you know when it's safe to unseal your powers.
 5. **Dark Lord**: Describe one special power or strength of the Dark Lord. No one knows the Dark Lord's weaknesses, if any.
 
@@ -17,9 +17,9 @@ The Dark Lord has finally come to your solar system, and they will conquer it wi
 - The GM will write down the 4 skills from each player as they're said aloud. Then the GM names 4 more skills, to round things out. These are now all the skills available in the game. All challenges will be solvable skills from the skill list. Any other skills (climbing?) are unheard of in your world, and you can't solve challenges that way.
 
 ## Character creation (part 2)
-6. **Skills** You have 4 additional skill points to spend.
-    - You can spend 1 skill point to improve a skill you don't have to +1, adding it to your character sheet. You can roll using this new skill.
-    - You can spend 1 skill point to increase any existing skill by +1. You're an Ultimate Archwizard, so you're not limited to world-class (+2). Make skills as high as you want.
+5. Write down all the skills in the skill list on your character sheet, with +0 in each.
+7. **Skills** You have 4 additional skill points to spend.
+    - You can spend 1 skill point to increase any skill by +1. You're an Ultimate Archwizard, so you're not limited to world-class (+2). Make skills as high as you want.
     - You may NOT improve the two skills your character is bad at.
     - You're welcome to add 4 new skills, just improve your existing two skills, or anything in between.
 
