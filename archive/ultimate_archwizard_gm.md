@@ -25,13 +25,13 @@ Powers should be really powerful! They can be one time use, or have unlimited us
 
 ## Seals
 
-The players start out with their powers sealed. They still have mastery, but they can't use their special powers. The first time a player fails a challenge, their powers unseal in a cool cutscene or monologue they narrate, describing how they actually succeed. They can then use powers freely, and they're generally more powerful. Encourage players to unseal their powers early.
+The players start out with their powers sealed. They still have mastery, but they can't use their special powers. The first time any player fails a challenge, their powers unseal in a cool cutscene or monologue they narrate, describing how they actually succeed. The other players can now release their seals at any time.
 
 ## Difficulty
 
-The system is designed to run in one session. Ramp the challenge difficulty up from 3 to 6 over a single session. The very final challenges before the Dark Lord can be difficulty 8. The challenge level should be the number to beat with skill roles (+1 or -1 based on whether it sounds like it would work), but also a general gauge of difficulty. Remember, the players are Ultimate Archwizards, so even the low-level minions at the start should be able to level cities.
+The system is designed to run in one session. Ramp the challenge difficulty up from 3 to 6 over a single session. The very final challenge during the fight with the Dark Lord can even be difficulty 8. The challenge level should be the number to beat with skill rolls (+1 or -1 based on whether it sounds like it would work), but also a general gauge of difficulty. Remember, the players are Ultimate Archwizards, so even the low-level minions at the start should be able to level cities.
 
-Remember, challenges should be designed around the characters and skill list.
+Challenges should be designed around the characters and skill list. The point of challenges is to let players look cool beating them.
 
 - 2: (Too easy!) The PCs have to find a good outfit at the mall, while a gang of hoodlums chases them.
 - 3: The PCs are trapped in a hypnotic dream, and can only escape by realizing they're dreaming.
@@ -46,8 +46,9 @@ Remember, challenges should be designed around the characters and skill list.
 
 ## The Dark Lord
 
-The Dark Lord is incredibly powerful--they have absorbed the power of many Archwizards in previous solar systems. They may optionally have one or two obvious weaknesses (HAHA I AM INVINCIBLE... as long as they don't notice my missing knee armor... and my irrestistable love of kittens...). If it ever looks like they might be defeated before the players reach the Dark Lord, just pile on even more powers.
+The Dark Lord is incredibly powerful--they have absorbed the power of many Archwizards in previous solar systems. They may optionally have one or two obvious weaknesses (HAHA I AM INVINCIBLE... as long as they don't notice my missing knee armor... and my irrestistable love of kittens...). If it ever looks like the Dark Lord might be defeated too early, just pile on even more powers. If the players blow up the entire orbiting Dark Fortress before meeting the Dark Lord, the Dark Lord should just *shrug it off*.
 
-The Dark Lord should only appear briefly, if at all, until the end of the session. If there's only one session, the Dark Lord is defeated at the end of the session, otherwise they narrowly escape. In the final battle with the Dark Lord, if the Dark Lord ever looks like they might defeat the PCs and the situation is hopeless (encouraged), the PCs assume their **TRUE ULTIMATE FORM** in elaborate cutscenes, gaining unlimited mega superpowers.
+The Dark Lord should not appear, or appear only to taunt the players, until the end of the session. The Dark Lord is defeated at the end of the session. The Dark Lord definitely should never win, that's lame.
 
-The Dark Lord definitely should never win, that's lame.
+In the final battle with the Dark Lord, if the Dark Lord ever looks like they might defeat the PCs and the situation is hopeless, the PCs assume their **TRUE ULTIMATE FORM** in elaborate cutscenes, gaining unlimited mega superpowers. On the other hand, if it looks like the PCs have it the situation totally handled, the PCs assume their **TRUE ULTIMATE FORM** in elaborate cutscenes anyway, and really just toss the Dark Lord around.
+
