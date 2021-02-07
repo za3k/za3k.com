@@ -15,8 +15,9 @@ The goals of the game are to accomplish your mission, be super awesome, and thro
 
 ## Learning
 
-The intended play style is fast, and the game is complex at full speed. At first start slow, and review a **Role** every time you get it. After a couple games, players should memorize the rules and Roles, and stop using any written aids. Then, start scoring if you aren't (guessing is fine). You can also use a timer if you want one. Finally, ramp up speed until you're forced to improv (say what you do *before* thinking it through).
+The intended play style is fast, and the game is complex at full speed. At first start slow, and review a **Role** every time you get it. Also, mention why you're passing point starts. After a couple games, players should memorize the rules and Roles, and stop using any written aids. Then, start scoring if you aren't (guessing is fine). You can also use a timer if you want one. Finally, ramp up speed until you're forced to improv (say what you do *before* thinking it through). 
 
+Advanced players are encouraged to invent and use ninja hand signals in place of yelling.
 
 ## Setup
 One player shouts "Team!". A second player shouts "Mission!". The slowest player is Place.
@@ -50,6 +51,7 @@ One ninja is always **Front**. The are the current team leader and decide what t
 
 ## Point Stars
 - Front never awards points--only the other two ninjas throw stars.
+- When passing point stars, you don't explain why aloud. If you're using physical star tokens, just pass one. If you're not, say "point".
 - If the team accomplishes a goal or defeats a boss, **Goal** throws Front a star. If the team accomplishes a goal, but another player throws in some twist as they would have finished the original goal, Goal should still throw Front a star.
 - If the team does something quickly, **Goal** throws Front a **star**.
 - If the team does something cool, **Enemy** throws Front a **star**.
@@ -58,8 +60,7 @@ One ninja is always **Front**. The are the current team leader and decide what t
 - If anyone breaks the game rules, **Cheat** can throw them a **star**, too, even if they're not Front. Don't bother discussing the rules during the game, just keep the pace up.
 - If a ninja **runs out of stars**, they whisper "Ninja Down" or use a hand signal. They are now Front. The old Front immediately swaps Roles with them, permanently. For example, if Front (Red) was Cheat, and Enemy (Blue) runs out of stars, then Blue becomes both Front and Cheat, and Red takes over as Enemy. The new Front is not allowed to switch out again until they get a star again.
 - If **Goal** decides the team has accomplished the main goal, they shout "**PASS!**". The ninjas have passed their final exam and won the game. The game is over.
-/mission
-gg
+
 ## Exam Score
 - At the end of the game, **your score is the number of stars you threw**. My recommended method is to make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores. If you don't have paper, or don't want to keep track, you can just guess instead.
 - (Optional) The ninjas **fail the final exam** if X minutes pass and they haven't won (I suggest 5 to 30 minutes as a good limit). They also lose one point for each minute that passed before they sucessfully passed their exam.
@@ -72,7 +73,7 @@ As mentioned, you should learn this and stop using it as soon as possible.
 | Front | Inanimate, peon |                      |
 | Goal  | Goals change    | Goal/Boss, Quick     |
 | Enemy | People, Event   | Cool, Obstacle       |
-| Cheat | Surprises       | Skill, Clever, Cheat |
+| Cheat | Surprise        | Skill, Clever, Cheat |
 
 ## More Players
 - Ninjas Ninjas Ninjas requires at least 3 players, but it probably works with more. You need one Role per playe. Come up with your own Roles. Each Role needs at least one Problem Star, and at least one Point Star. If you have good Role ideas and try them out, send it to me!

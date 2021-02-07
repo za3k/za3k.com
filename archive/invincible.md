@@ -10,8 +10,8 @@ Written: 2021-02-07 by Zachary Vance
 | 3       | 2      | 1        |
 | 4       | 2      | 2        |
 | 5       | 3      | 2        |
-| 6       | 4      | 2        |
-| 7       | 5      | 2        |
+| 6       | 3      | 3        |
+| 7       | 4      | 3        |
 | 8       | 5      | 3        |
 
 Before the game, each Villain prepares a lair full of obstacles, During the game, Villains describe their obstacles, and Heroes describe how they overcome the obstacles (or fail to).
@@ -45,13 +45,16 @@ Roll randomly to make your Hero. "I am a ..." (roll once per column)
 | Living Robot     | 2        | 1      | 2      |
 | Lone Gunslinger  | 2        | 2      | 1      |
 
-- Write your three stats and your current HP on an index card. You will also write any loot you find on the card, but you don't have any yet. Make up a name for your Hero.
+- Make up a name for your hero.
+- Write your name, your three stats (based on your class) and 10 HP on an index card. You will also write any loot you find on the card, but you don't have any yet.
 - You can immediately describe your Hero to all the other Heroes and Villains.
 - **Physical** represents how strong or nimble your character is. If you have a high Physical stat, you can easily overcome Physical challenges.
 - **Mental** represents how charming or smart your character is. If you have a high Mental stat, you can easily overcome Mental challenges.
 - **Spirit** represents how magical or energetic your character is. If you have a high Spirit stat, you can easily overcome Spirit challenges.
 - As you adventure, you will get sweet **Loot**. Loot improves your stats. You can swap Loot with another Hero at any point until you win. The harder the challenge, the more Loot you will get.
-- Heroes start with 10 HP, or Health Points. If you are reduced to 0 HP, you die and the game is over for everyone.
+- Heroes start with 10 HP, or Health Points. If you are reduced to 0 HP, you die and the game is over for everyone. 
+- If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
+- If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
 
 ## Making Villains
 Roll randomly to make your Villain. Keep your identity secret for now. "I am a(n)..." (roll once per column)
@@ -152,23 +155,23 @@ When Heroes beat an Obstacle, they may get **Loot**. Make each Loot using the ta
 - Each Villain reveals their lair's first Obstacle, which has a short description written on the front (ex. "Goblin Horde") as a reminder to Heroes--the back remains hidden throughout play. They give a description aloud of the Obstacle, which players enjoy and listen to carefully for clues. 
 - Select the first Hero however you like. For the remainder of play, each Hero in turn selects any lair and attempts to overcome the one visible Obstacle in that lair. After the Obstacle is defeated or the Heroes temporarily fail it, play passes to the next Hero. Obstacles may be attempted any number of times until they're beaten.
 - Obstacles (Success and Failure)
-    - Each Hero in turn selects one Obstacle to try and defeat, indicating it. The Hero states aloud what their Hero tries, and whether it uses the Physical, Mental, or Spirit stat. For example "Gertie
-    - The Physical Difficulty, Mental Difficulty, or Spirit Difficulty for that obstacle is revealed and written on the card.
+    - Each Hero in turn selects one Obstacle to try and defeat, indicating it. The Hero states aloud what their Hero tries, and whether it uses the Physical, Mental, or Spirit stat. For example "Gertie tries to calm the goblins with a merry tune. She uses Spirit."
+    - The corresponding Physical Difficulty, Mental Difficulty, or Spirit Difficulty for that obstacle is revealed and written on the card.
     - If the Hero's stat is at least as high as the equivalent Difficulty, they beat the Obstacle; otherwise, they fail.
-    - If a Hero would fail, another Hero can come in to help. If multiple Heroes want to help, the most recently failed Hero decides who helps.
+    - If a Hero would fail, another Hero can choose to help them. Only one Hero can help at a time. If multiple Heroes want to help, the most recently failed Hero decides who helps.
     - If the helping Hero also fails, this process repeats, until either the Obstacle is beaten or no new Hero volunteers to help.
 - Obstacles (Failure)
-    - Each Hero describes how they failed in order.
+    - Each Hero describes how they failed, in order from first to last.
     - The Heroes take damage. The Villain reveals the HP penalty for failure, and all Heroes lose that much HP.
-- Obstacle (Success)
-    - The last Hero, who beat the Obstacle, describes how they overcame it, and how any Hero(es) they're helping sucked at it before they came along.
-    - The Heroes get any Loot. The last Hero to help picks 1 Loot first, then the next-to-last, and so on.
+- Obstacles (Success)
+    - The last Hero (who beat the Obstacle) describes in more detail how they overcame the Obstacle. If they're helping any Heroes who failed, they humorously describe how those heroes sucked at what they were doing before they got help.
+    - The Hero gets any and all Loot. If there are multiple Heroes, the last Hero to help picks 1 Loot first, then the next-to-last picks 1 Loot, and so on in a circle until all Loot is taken.
     - After an Obstacle is beaten, that Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
 - Final Villain Showdown
-    - When turning face-up the final card, the Villain reads aloud their randomly generated villain description and weak point, and describes the villain in their inner sanctum.
-    - The final fight works exactly like any normal obstacle
-    - When the final Villain is defeated (or bests a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense.
-- Winning the Game
+    - When turning face-up the final card, the Villain reads aloud their randomly generated villain description and weak point, and describes how the villain greets the Heroes in their inner sanctum.
+    - The final fight works exactly like any normal Obstacle, but is very difficult.
+    - When the final Villain is defeated (or wins against a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense on defeat.
+- Winning or Losing the Game
     - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part.
     - Victory: If all Villains are beaten, everyone wins.
     - Defeat: If even one Hero dies (is reduced to 0 HP), all remaining Heroes and Villains lose.
