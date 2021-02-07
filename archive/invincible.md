@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="/archive/invincible.css"/>
-# No, this cannot be! I am invincible!
+# No, this cannot be! I AM INVINCIBLE!
 
-**No, this cannot be! I am invincible!** is a game for 2-8 players. Some of the players are Heroes, and some are Villains. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
+**No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Some of the players are Heroes, and some are Villains. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
 
 | Players | Heroes | Villains |
 |---------|--------|----------|
@@ -30,7 +30,7 @@ Roll randomly to make your Hero. "I am a ..." (roll once per column)
 |------|------------------|---------------------------------|-----------------------|-------------------------------------|
 | 1    | Mexican Wrestler | Texan wolves raised me to       | make friends          | by working at this temp agency      |
 | 2    | Mad Scientist    | I traveled back in time to      | avenge my parents     | on the last floor of the dungeon    |
-| 3    | Cute Witch       | After flunking college, I'll    | be, the ♪very♪ best   | by befriending every single monster |
+| 3    | Cute Witch       | After flunking college, I'll    | be, the -very- best   | by befriending every single monster |
 | 4    | Stage Magician   | I am the chosen one who will    | make the world better | by killing everything I see         |
 | 5    | Living Robot     | I sailed the seven seas to      | barely make a living  | by betraying the heroes             |
 | 6    | Lone Gunslinger  | In Japanese high school, I will | defeat my rival       | by foiling the villain's plan       |
