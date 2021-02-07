@@ -44,7 +44,7 @@ Roll randomly to make your Hero. "I am a ..." (roll once per column)
 | Lone Gunslinger  | 2        | 2      | 1      |
 
 - Write your three stats and your current HP on an index card. You will also write any loot you find on the card, but you don't have any yet.
-- You can immediately describe your random character to all the other players.
+- You can immediately describe your random character to all the other Heroes and Villains.
 - **Physical** represents how strong or nimble your character is. If you have a high Physical stat, you can easily overcome Physical challenges.
 - **Mental** represents how charming or smart your character is. If you have a high Mental stat, you can easily overcome Mental challenges.
 - **Spirit** represents how magical or energetic your character is. If you have a high Spirit stat, you can easily overcome Spirit challenges.
@@ -86,16 +86,16 @@ Roll randomly to make your Villain. Keep your identity secret for now. "I am a(n
 | 6    | Scratches the itch on my | pet         | or I'd have to assume my ultimate form            |
 
 ### Making Obstacles (for Villains)
-1. Design a series of 4-8 **Obstacles** for the Heroes to face as they go through your lair. Each one is written on an index card. Don't show the Obstacles to other players. 
+1. Design a series of 4-8 **Obstacles** for the Heroes to face as they go through your lair. Each one is written on an index card. Don't show the Obstacles to the Heroes.
     - Describe each Obstacle in a few words, writing it legibly on the front of an index card. For example, write "goblin horde". It could be a minion, a trap, a secret door, or anything else at all. 
-    - Make your Obstacles interesting, cool, or sexy. You are trying to get the players to come to your lair, not the lair one of the other Villains, so they can defeat you.
+    - Make your Obstacles interesting, cool, or sexy. You are trying to get the Heroes to come to your lair, not the lair one of the other Villains, so they can defeat you.
     - For each Obstacle, assign a **Level** to the obstacle between 0 and 6, which you write secretly on the back. 
     - You can make any number of Obstacles with any Level. For beginners, use 5 obstacles with these levels: 1, 2, 3, 4, 5. 
     - You, the Villain, are always the final Obstacle. Give yourself a card too. Your Level is 8.
 2. For each Obstacle, roll its stats using the table below. For each column, roll a d6 and add the Level you wrote down. If the "Goblin Horde" was Level 1, you would roll a d6 and add 1 for each column. If you get "impossible" three times, reroll the obstacle.
 3. Write down the results on the back of the index card, beneath the Level. **For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".**
-3. Get ready to describe the first obstacle in your dungeon aloud, as described below.
-4. Stack your index cards neatly, so only the front of the first Obstacle is visible to players.
+3. Get ready to describe the first obstacle in your dungeon aloud, as explained below.
+4. Stack your index cards neatly, so only the front of the first Obstacle is visible to Heroes.
 
 | d6 + Level | Physical Difficulty | Mental Difficulty | Spirit Difficulty | Loot                     | Failure
 |------------|---------------------|-------------------|-------------------|--------------------------|----------|
@@ -115,22 +115,26 @@ Roll randomly to make your Villain. Keep your identity secret for now. "I am a(n
 | 14         | impossible          | impossible        | impossible        | 4 Loot                   | death    |
 
 Describing Obstacles Aloud
-- Try to hint at the difficulty of the obstacle.
-- For example, if an obstacle has low Physical difficulty, it's easy to solve using strength or balance. If it has high Physical difficulty, it's hard to solve using strength. A high Physical difficulty might be an ogre, who's just as strong as any Hero, even if she's easy to outwit. Another Physically difficult obstacle might be an irritable clerk, who won't give you what you want even if you punch her.
-- Using the example of your Goblin horde, you might say aloud "A dozen weak goblins guard the entrance to the skyscraper. They look weak, but they only speak Goblin, ignoring all attempts to negotiate." The language barrier hints that this might be a difficult mental challenge, but easy otherwise.
+- Whenever an Obstacle is first revealed to the Heroes, you describe the Obstacle aloud to them.
+- Try to hint at the difficulty stats of the obstacle in your description.
+- An Obstacle with low Physical difficulty is easy to solve using **strength or balance**. (If it has high Physical difficulty, it's hard to solve using those attributes.)
+- An Obstacle with low Mental difficulty is easy to solve using **charm or smarts**.
+- An Obstacle with low Spirit difficulty is easy to solve with **magic or enthusiasm**.
+- Obstacles might be hard or easy to solve for a variety of reasons. A high Physical difficulty might be an ogre, who's just as strong as any Hero, even if she's easy to outwit. Another Physically difficult obstacle might be an irritable clerk, who won't give you what you want even if you punch her. 
+- Using the example of your Goblin horde, you might say aloud "A dozen weak-looking goblins guard the entrance to the skyscraper. They only speak Goblin, ignoring all attempts to negotiate." The language barrier hints that this might be a difficult mental challenge, but easy otherwise.
 - You may NOT hint about Loot.
 - You may NOT change your written descriptions after you roll. Part of the fun is trying to describe the obstacle aloud, in a way that matches BOTH the written description, and the stats you roll.
 
 ### Making Loot (for Villains)
-When Heroes beat an Obstacle, they may get **Loot**. For each Loot, roll using the table below. Add the difficulty to the roll. A player can't equip two items in the same slot. Players are free to trade items with one another. If you roll all +0 for stats, reroll.
+When Heroes beat an Obstacle, they may get **Loot**. Make each Loot using the table below. For each column, roll a d6 and add the Level of the Obstacle. If you roll all +0 for all three stats, reroll. Heroes see the stats of Loot after they get it. You can make a new index card for each Loot, or (recommended) the Hero can write the Loot on their character card directly.
 
-Optionally, whenever a Villain gives a Hero an item, they may describe the item specifically, based it on the Slot and any abilities it has. For example, maybe the +1 Mental Cloak could become "a hawaiian-patterned shirt. it's so distractingly bright, that minions won't pay full attention in conversation."
+**Optionally**, whenever a Hero discovers a Loot, you may describe the item more specifically aloud. Base the description on the Slot and any abilities it has. For example, the +1 Mental Cloak could be described aloud as "a hawaiian-patterned shirt. it's so distractingly bright, that minions won't pay full attention in conversation." 
 
 | d6 + Level | Adjective     | Slot      | Physical | Mental | Spirit | Tier
 |------------|---------------|-----------|----------|--------|--------|------|
 | 2          | Cursed        | Boots     | +0       | +0     | +0     | D    |
 | 3          | Extra-sharp   | Book      | +0       | +0     | +0     | D    |
-| 4          | Radioactive   |`Hat       | +0       | +0     | +0     | D    |
+| 4          | Radioactive   | Hat       | +0       | +0     | +0     | D    |
 | 5          | Gem-encrusted | Cloak     | +0       | +0     | +0     | C    |
 | 6          | Glowing       | Sword     | +1       | +1     | +1     | C    |
 | 7          | Sentient      | Pet       | +1       | +1     | +1     | B    |
@@ -163,4 +167,4 @@ Optionally, whenever a Villain gives a Hero an item, they may describe the item 
 - Winning the Game
     - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part.
     - Victory: If all Villains are beaten, everyone wins.
-    - Defeat: If even one Hero dies (is reduced to 0 HP), all remaining players lose.
+    - Defeat: If even one Hero dies (is reduced to 0 HP), all remaining Heroes and Villains lose.
