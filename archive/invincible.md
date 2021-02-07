@@ -21,7 +21,7 @@ If your group is competitive, try to be the first Hero to kill a Villain, and th
 
 You will need 30 index cards or similar materials. Notebook paper will also work. You also need one d6 (normal six-sided die) for each player.
 
-> # 24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.) - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
+> 24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.) - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
 
 ## Making Heroes
 Roll randomly to make your Hero. "I am a ..." (roll once per column)
