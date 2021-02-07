@@ -17,9 +17,7 @@ During the game, Villains prepare a lair in advance and describe obstacles. The 
 The Villain's goal is to send wave after wave of increasingly stronger enemies at the Heroes, letting them slowly grow in strength until they can defeat the Villain. If your group is competitive, try to be the first Hero to kill a Villain, and the first Villain to be killed. Whether you like to cooperate, compete, or just have fun making up silly stories--avoid killing a Hero, or everyone loses.
 
 ## Heroes
-Roll randomly to make your Hero.
-
-"I am a ..." (roll once per column)
+Roll randomly to make your Hero. "I am a ..." (roll once per column)
 
 | d6   | Class            | Origin                          | Motive                | Hero Goal
 |------|------------------|---------------------------------|-----------------------|-------------------------------------|
@@ -30,20 +28,20 @@ Roll randomly to make your Hero.
 | 5    | Living Robot     | I sailed the seven seas to      | barely make a living  | by betraying the heroes             |
 | 6    | Lone Gunslinger  | In Japanese high school, I will | defeat my rival       | by foiling the villain's plan       |
 
-| Class            | P, Physical | M, Mental | S, Spirit
-|------------------|-------------|-----------|-----------|
-| Mexican Wrestler | 3           | 1         | 1         |
-| Mad Scientist    | 1           | 3         | 1         |
-| Cute Witch       | 1           | 1         | 3         |
-| Stage Magician   | 1           | 2         | 2         |
-| Living Robot     | 2           | 1         | 2         |
-| Lone Gunslinger  | 2           | 2         | 1         |
+| Class            | Physical | Mental | Spirit
+|------------------|----------|--------|--------|
+| Mexican Wrestler | 3        | 1      | 1      |
+| Mad Scientist    | 1        | 3      | 1      |
+| Cute Witch       | 1        | 1      | 3      |
+| Stage Magician   | 1        | 2      | 2      |
+| Living Robot     | 2        | 1      | 2      |
+| Lone Gunslinger  | 2        | 2      | 1      |
 
 - You can immediately describe your random character to all the other players.
 - **Physical** represents how strong or nimble your character is. If you have a high Physical stat, you can easily overcome Physical challenges.
 - **Mental** represents how charming or smart your character is. If you have a high Mental stat, you can easily overcome Mental challenges.
 - **Spirit** represents how magical or energetic your character is. If you have a high Spirit stat, you can easily overcome Spirit challenges.
-- As you adventure, you will get sweet **Loot**. Loot improves your stats. You can swap loot with another Hero at any point until you win. The harder the challenge, the more loot you will get.
+- As you adventure, you will get sweet **Loot**. Loot improves your stats. You can swap Loot with another Hero at any point until you win. The harder the challenge, the more Loot you will get.
 - Heroes start with 10 HP, or Health Points. If you are reduced to 0 HP, you die and the game is over for everyone.
 
 ## Villain
@@ -87,31 +85,31 @@ Roll randomly to determine your Villain. Keep your identity secret for now.
 1. Design a series of 4-8 obstacles for the Heroes to face. Don't share the obstacles with the other players. For each obstacle, describe it in a few words, writing it legibly on the front of an index card. For example, write "goblin horde". It could be a minion, a trap, a secret door, or anything else at all. Make your obstacles interesting, cool, or sexy. You are trying to get the players to come to your dungeon instead of one of the other Villains. You want to be the first Villain defeated, which only happens if players pick your obstacles.
 2. For each obstacle, assign a **Level** to the obstacle between 0 and 6, which you write secretly on the back. You can make any number of Obstacles with any Level, but a suggestion might be: 1, 2, 3, 4, 5. Your Level as the Villain is 8--you are always the final obstacle, so give yourself a card too.
 3. For each obstacle, roll once per column, using the table below. For each column, roll a d6 and add the Level you wrote down. If the "Goblin Horde" was Level 1, you would roll a d6 and add 1 for each column. If you get "impossible" three times, reroll the obstacle.
-4. Write down the results on the back of the index card, beneath the Level. For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".
+4. Write down the results on the back of the index card, beneath the Level. **For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".**
 
 | d6 + Level | Physical Difficulty | Mental Difficulty | Spirit Difficulty | Loot                     | Failure
 |------------|---------------------|-------------------|-------------------|--------------------------|----------|
 | 1          | 1                   | 1                 | 1                 | a broken stick (nothing) | -1 HP    |
 | 2          | 1                   | 1                 | 1                 | 100 gold coins (nothing) | -1 HP    |
 | 3          | 2                   | 2                 | 2                 | a huge diamond (nothing) | -1 HP    |
-| 4          | 2                   | 2                 | 2                 | 1 loot                   | -2 HP    |
-| 5          | 3                   | 3                 | 3                 | 1 loot                   | -2 HP    |
+| 4          | 2                   | 2                 | 2                 | 1 Loot                   | -2 HP    |
+| 5          | 3                   | 3                 | 3                 | 1 Loot                   | -2 HP    |
 | 6          | 3                   | 3                 | 3                 | healing potion (full HP) | -3 HP    |
-| 7          | 4                   | 4                 | 4                 | 2 loot                   | -3 HP    |
-| 8          | 4                   | 4                 | 4                 | 2 loot                   | -4 HP    |
-| 9          | 5                   | 5                 | 5                 | 3 loot                   | -5 HP    |
-| 10         | 6                   | 6                 | 6                 | 4 loot                   | -6 HP    |
-| 11         | 8                   | 8                 | 8                 | 4 loot                   | -8 HP    |
-| 12         | impossible          | impossible        | impossible        | 4 loot                   | death    |
+| 7          | 4                   | 4                 | 4                 | 2 Loot                   | -3 HP    |
+| 8          | 4                   | 4                 | 4                 | 2 Loot                   | -4 HP    |
+| 9          | 5                   | 5                 | 5                 | 3 Loot                   | -5 HP    |
+| 10         | 6                   | 6                 | 6                 | 4 Loot                   | -6 HP    |
+| 11         | 8                   | 8                 | 8                 | 4 Loot                   | -8 HP    |
+| 12         | impossible          | impossible        | impossible        | 4 Loot                   | death    |
 
 - Get ready to describe the first obstacle in your dungeon aloud, trying to hint at the difficulty of the obstacle.
 - If an obstacle has low Physical difficulty, it's easy to solve using strength or balance. If it has high Physical difficulty, it's hard. A high Physical difficulty might be an ogre, who's equally strong, but easy to outwit. Or, a Physically difficult obstacle might be an irritable clerk, who won't give you what you want even if you punch her.
 - Using the example of your Goblin horde, you might say aloud "A dozen weak goblins guard the entrance to the skyscraper. They look weak, but they only speak Goblin, ignoring all attempts to negotiate." The language barrier hints that this might be a difficult mental challenge, but easy otherwise.
-- You may NOT hint about loot.
+- You may NOT hint about Loot.
 - You may NOT change your written descriptions after you roll. Part of the fun is trying to describe the obstacle aloud, in a way that matches BOTH the written description, and the stats you roll.
 
 ### Loot
-When Heroes beat an Obstacle, they may get Loot. For each loot item, roll using the table below. Add the difficulty to the roll. A player can't equip two items in the same slot. Players are free to trade items with one another. If you roll all +0 for stats, reroll.
+When Heroes beat an Obstacle, they may get Loot. For each Loot, roll using the table below. Add the difficulty to the roll. A player can't equip two items in the same slot. Players are free to trade items with one another. If you roll all +0 for stats, reroll.
 
 Optionally, whenever a Villain gives a Hero an item, they may describe the item specifically, based it on the Slot and any abilities it has. For example, maybe the +1 Mental Cloak could become "a hawaiian-patterned shirt. it's so distractingly bright, that minions won't pay full attention in conversation."
 
@@ -138,12 +136,13 @@ Optionally, whenever a Villain gives a Hero an item, they may describe the item 
     - If the Hero's stat is at least as high as the equivalent Difficulty, they beat the Obstacle; otherwise, they fail.
     - If a Hero would fail, another Hero can come in to help. If multiple Heroes want to help, the most recently failed Hero decides who helps.
     - If the helping Hero also fails, this process repeats, until either the Obstacle is beaten or no new Hero volunteers to help.
-- Obstacles (Outcome)
-    - If the Obstacle is beaten, the last Hero who beat it, describes how they best the obstacle, and how any Hero(es) they're helping sucked at it before they came along.
-    - If the Obstacle is failed, each Hero describes how they failed in order.
-    - If the Obstacle is beaten, the Heroes get any loot. The last Hero to help picks loot first, then the next-to-last, and so on.
-    - If the Obstacle is failed, the Heroes take damage. The Villain reveals the HP penalty for failure, and all Heroes lose that much HP.
-    - After an Obstacle is beaten and the loot distributed, that Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
+- Obstacles (Failure)
+    - Each Hero describes how they failed in order.
+    - The Heroes take damage. The Villain reveals the HP penalty for failure, and all Heroes lose that much HP.
+- Obstacle (Success)
+    - The last Hero, who beat the Obstacle, describes how they overcame it, and how any Hero(es) they're helping sucked at it before they came along.
+    - The Heroes get any Loot. The last Hero to help picks 1 Loot first, then the next-to-last, and so on.
+    - After an Obstacle is beaten, that Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
 - Final Villain Showdown
     - When turning face-up the final card, the Villain reads aloud their randomly generated villain description and weak point, and describes the villain in their inner sanctum.
     - The final fight works exactly like any normal obstacle
