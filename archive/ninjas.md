@@ -30,25 +30,25 @@ One ninja is always **Front**. The are the current team leader and decide what t
 - Front should describe both what the team does, and what's happening in the world. 
 - Ninjas are cool, skillful, deadly, quiet, efficient, they cheat constantly, and they have perfect teamwork. The point of the game is for the ninjas to show off being as awesome as possible.
 - Front should change often. Whenever Front thinks another ninja should take charge, they just yell "Red, Front!" and now the Red ninja is in Front. They toss Red a **star**. It's coolest if Front puts another ninja in charge when that ninja would be able to handle the situation or next step of the plan better.
-- Front can and should introduce new obstacles, although the other two players will as well. They're encouraged to introduce single peons and physical obstacles especially, because only Front introduces these.
+- Front can and should introduce new obstacles, although the other two players will as well. Front is encouraged to introduce single peons and physical obstacles especially, because only Front introduces these.
 - If the Front tells you to grab a bucket of water, you run to the well without hesitation--a ninja team trusts each other completely. When members of the team other than the Front do something, they answer "Yes, Front!" or describe it very quickly without detail: "Green runs to the well and tosses Red a bucket". Keeping responses short keeps the attention on Front.
 - Front describes what the team does, but they don't explain why. Other players should make an effort to understand Front's plan so they can continue it. Ignoring the previous Front's plan would be lame, and ninjas aren't lame.
 - If there's a long lull, another ninja can jump in and describe what's happening in the world, but not what the team does.
 
 ##Problem Stars
 - **Goal** throws Front a **star** to introduce a new goal, or shift an existing goal. A child might scream in a nearby room--the team needs to save (or gag) them. Or their assassination target might turn out to be an undercover agent, and the real villain is someone else. They yell "Goal" and quickly explain what happened and what the new goal is.
-- **Enemy** introduces new enemies or events (someone spots you on the roof). Enemies are always people, never physical obstacles. Front or Cheat introduces physical obstacles. They yell "Enemy" and introduce the problem. An enemy could be a boss, a horde of peons, or a lone watchman ready to sound the alarm.
-- **Cheat** throws Front a **star** to introduce a twist or surprise. Surprises are consistent with the Place set up at the start, but it might not match the story so far. The car you stole to get away was rigged with remote explosives, or the boss you killed in Act One shows up again looking fine, with your infiltration plan in hand.
+- **Enemy** introduces new enemies or events (someone spots you on the roof). Enemies are always people, never physical obstacles. Front or Cheat introduces physical obstacles. An enemy could be a boss, a horde of peons, or a lone watchman ready to sound the alarm. They yell "Enemy" and introduce the new enemy or explain the event. Boss introductions can be a bit more detailed, but still keep the game fast.
+- **Cheat** throws Front a **star** to introduce a twist or surprise. Surprises are consistent with the Place set up at the start, but it might not match the story so far. The car you stole to get away was rigged with remote explosives, or the boss you killed in Act One shows up again looking fine, with your infiltration plan in hand. They yell "Cheat" and quickly explain what happened.
 
 ##Point Stars
 - Front never awards points--only the other two ninjas throw points stars.
-- If the team accomplishes a goal, **Goal** throws Front a star. If the team accomplishes a goal, but Goal or Cheat throws in a twist as they finish the original goal, Goal should still throw Front a star.
+- If the team accomplishes a goal or defeats a boss, **Goal** throws Front a star. If the team accomplishes a goal, but another player throws in some twist as they would have finished the original goal, Goal should still throw Front a star.
 - If the team does something quickly, **Goal** throws Front a star.
 - If the team does something cool, **Enemy** throws Front a star.
 - If Front introduces an obstacle, **Enemy** throws Front a star.
 - If the team does something skillfully or in a clever way (including cheating), **Cheat** throws Front a star.
 - If anyone breaks the game rules, **Cheat** can throw them a star, too, even if they're not Front.
-- If a ninja runs out of stars, they shout "Ninja Down". They are now Front. The old Front immediately swaps Roles with them, permanently. For example, if Front (Red) was Cheat, and Enemy (Blue) runs out of stars, then Blue becomes both Front and Cheat, and Red takes over as Enemy. Both other ninjas throw the new Front a star so they're no longer out of stars.
+- If a ninja runs out of stars, they whisper "Ninja Down" or use a hand signal. They are now Front. The old Front immediately swaps Roles with them, permanently. For example, if Front (Red) was Cheat, and Enemy (Blue) runs out of stars, then Blue becomes both Front and Cheat, and Red takes over as Enemy. The new Front is not allowed to switch out again until they get a star.
 - If **Goal** decides the team accomplishes the main goal, they shout "**PASS!**". The ninjas have passed the final and won the game. The game is over.
 
 ##Exam Grade
