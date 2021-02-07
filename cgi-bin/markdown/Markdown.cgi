@@ -18,7 +18,7 @@ content = markdown.render(File.read(ENV['PATH_TRANSLATED']))
 puts %Q{
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/markdown.css">
+<link rel="stylesheet" type="text/css" href="markdown.css">
 </head>
 <body>
 #{content}

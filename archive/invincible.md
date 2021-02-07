@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" media="all" href="/archive/invincible.css"/>
+
 # No, this cannot be! I am invincible!
 
 **No, this cannot be! I am invincible!** is a game for 2-8 players. Some of the players are Villains, and some are Heroes. It can be played as a storytelling game. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
