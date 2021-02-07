@@ -1,16 +1,16 @@
 #Ninjas Ninjas Ninjas!
 
-*Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 more or players (instructions are written for 3). New events and challenges happen rapidly, and which player is doing what shifts quickly.
+*Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 more or players (instructions are written for 3). It's designed to last 5-30 minutes--how long exactly is up to the players, and it can be played with a timer. New events and challenges happen rapidly, and which player is doing what shifts quickly.
 
 Each of player controls a young journeyman ninja taking his/her/their final ninja exam. The three ninjas work together as a team to accomplish their goal. At all times one ninja is in **Front**. Front is the "player" who is actively deciding what to do, while the other ninjas throw problems and points at them.
 
-Storytelling focuses on being very cool and fast-paced. Extra description always illustrates just how COOL the ninja team and their moves are, not the scenery or the problems they encounter.
+Storytelling focuses on being very cool and quick story progression. Extra description always illustrates just how COOL the ninja team and their moves are. It DOESN'T talk about the scenery, plot, or whether the enemies are also cool.
 
 The rules are fairly fast-paced and roles are complex. Players should memorize the rules and roles perfectly and not use any kind of written aid.
 
 The goals of the game are to accomplish your mission, be super awesome, and throw as many stars as possible as quickly as possible.
 
-**Supplies needed**: None, in the worst case. Ideally, each player tracks how many stars they have thrown--you tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star. If you wish, you can play with a 30-minute timer. If your group has trouble keeping track mentally, you can also use nine nickels to track throwing stars.
+**Supplies needed**: None, in the worst case. Ideally, each player tracks how many stars they have thrown--you tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star. If you wish, you can play with a timer. If your group has trouble keeping track mentally, you can also use nine nickels to track throwing stars.
 
 ##Setup
 One player shouts "Team!". A second player shouts "Mission!". The slowest player is Place.
@@ -53,9 +53,9 @@ One ninja is always **Front**. The are the current team leader and decide what t
 - If a ninja **runs out of stars**, they whisper "Ninja Down" or use a hand signal. They are now Front. The old Front immediately swaps Roles with them, permanently. For example, if Front (Red) was Cheat, and Enemy (Blue) runs out of stars, then Blue becomes both Front and Cheat, and Red takes over as Enemy. The new Front is not allowed to switch out again until they get a star again.
 - If **Goal** decides the team has accomplished the main goal, they shout "**PASS!**". The ninjas have passed their final exam and won the game. The game is over.
 
-##Exam Grade
-- At the end of the game, **your score is the number of stars you threw**. My recommended method is to make a tally mark whenever you throw a star. This is your individual grade. The team grade is the sum of the individual scores. If you don't have paper, or don't want to keep track, you can just guess instead.
-- (Optional) The ninjas **fail the final** if 30 minutes pass and they haven't won (or however long you want to play for). They also lose one point for each minute that passed before they sucessfully passed their exam.
+##Exam Score
+- At the end of the game, **your score is the number of stars you threw**. My recommended method is to make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores. If you don't have paper, or don't want to keep track, you can just guess instead.
+- (Optional) The ninjas **fail the final exam** if X minutes pass and they haven't won (I suggest 5 to 30 minutes as a good limit). They also lose one point for each minute that passed before they sucessfully passed their exam.
 
 ##More Players
 - Ninjas Ninjas Ninjas requires at least 3 players, but it probably works with more. You need one Role per playe. Come up with your own Roles. Each Role needs at least one Problem Star, and at least one Point Star. If you have good Role ideas and try them out, send it to me!
