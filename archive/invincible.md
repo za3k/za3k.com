@@ -2,7 +2,7 @@
 
 # No, this cannot be! I am invincible!
 
-**No, this cannot be! I am invincible!** is a game for 2-8 players. Some of the players are Villains, and some are Heroes. It can be played as a storytelling game. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
+**No, this cannot be! I am invincible!** is a game for 2-8 players. Some of the players are Heroes, and some are Villains. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
 
 | Players | Heroes | Villains |
 |---------|--------|----------|
@@ -14,11 +14,15 @@
 | 7       | 5      | 2        |
 | 8       | 5      | 3        |
 
-During the game, Villains prepare a lair in advance and describe obstacles. The Heroes describe how they overcome the obstacles (or fail to).
+Before the game, each Villain prepares a lair full of obstacles, During the game, Villains describe their obstacles, and Heroes describe how they overcome the obstacles (or fail to).
 
-The Villain's goal is to send wave after wave of increasingly stronger enemies at the Heroes, letting them slowly grow in strength until they can defeat the Villain. If your group is competitive, try to be the first Hero to kill a Villain, and the first Villain to be killed. Whether you like to cooperate, compete, or just have fun making up silly stories--avoid killing a Hero, or everyone loses.
+The Villain's goal is to send wave after wave of increasingly stronger enemies at the Heroes, letting them slowly grow in strength until they can defeat the Villain.
 
-## Heroes
+If your group is competitive, try to be the first Hero to kill a Villain, and the first Villain to be killed. Whether you like to cooperate, compete, or just have fun making up silly stories--avoid killing a Hero, or everyone loses.
+
+You will need 30 index cards or similar materials. Notebook paper will also work. You also need one d6 (normal six-sided die) for each player.
+
+## Making Heroes
 Roll randomly to make your Hero. "I am a ..." (roll once per column)
 
 | d6   | Class            | Origin                          | Motive                | Hero Goal
@@ -39,6 +43,7 @@ Roll randomly to make your Hero. "I am a ..." (roll once per column)
 | Living Robot     | 2        | 1      | 2      |
 | Lone Gunslinger  | 2        | 2      | 1      |
 
+- Write your three stats and your current HP on an index card. You will also write any loot you find on the card, but you don't have any yet.
 - You can immediately describe your random character to all the other players.
 - **Physical** represents how strong or nimble your character is. If you have a high Physical stat, you can easily overcome Physical challenges.
 - **Mental** represents how charming or smart your character is. If you have a high Mental stat, you can easily overcome Mental challenges.
@@ -46,10 +51,8 @@ Roll randomly to make your Hero. "I am a ..." (roll once per column)
 - As you adventure, you will get sweet **Loot**. Loot improves your stats. You can swap Loot with another Hero at any point until you win. The harder the challenge, the more Loot you will get.
 - Heroes start with 10 HP, or Health Points. If you are reduced to 0 HP, you die and the game is over for everyone.
 
-## Villain
-Roll randomly to determine your Villain. Keep your identity secret for now.
-
-"I am a..." (roll once per column)
+## Making Villains
+Roll randomly to make your Villain. Keep your identity secret for now. "I am a(n)..." (roll once per column)
 
 | Roll | Description           | Thing      | Name            | Title            | Habit               | Special Move        
 |------|-----------------------|------------|-----------------|------------------|---------------------|---------------------------|
@@ -63,13 +66,13 @@ Roll randomly to determine your Villain. Keep your identity secret for now.
 "I live in..." (roll once per column)
 
 | d6   | Final level          | Adjective     | Lair
-|------|----------------------|---------------|-------------|
-| 1    | the bottom floor of  | a dark        | cave        |
-| 2    | the top floor of     | an abandoned  | warehouse   |
-| 3    | the guest bedroom of | a tall        | skyscraper  |
-| 4    | the main lobby of    | a rented      | hotel       |
-| 5    | the back room of     | a well-marked | mall        |
-| 6    | the deepest part of  | a spooky      | forest      |
+|------|----------------------|---------------|------------|
+| 1    | the bottom floor of  | a dark        | cave       |
+| 2    | the top floor of     | an abandoned  | castle     |
+| 3    | the guest bedroom of | a tall        | skyscraper |
+| 4    | the main lobby of    | a rented      | warehouse  |
+| 5    | the back room of     | a well-marked | mall       |
+| 6    | the deepest part of  | a spooky      | forest     |
 
 "I sure hope no one..." (roll once per column)
 
@@ -82,12 +85,17 @@ Roll randomly to determine your Villain. Keep your identity secret for now.
 | 5    | Sees my shameful naked   | trap        | or I'd be released from my curse                  |
 | 6    | Scratches the itch on my | pet         | or I'd have to assume my ultimate form            |
 
-### Obstacles
-
-1. Design a series of 4-8 obstacles for the Heroes to face. Don't share the obstacles with the other players. For each obstacle, describe it in a few words, writing it legibly on the front of an index card. For example, write "goblin horde". It could be a minion, a trap, a secret door, or anything else at all. Make your obstacles interesting, cool, or sexy. You are trying to get the players to come to your dungeon instead of one of the other Villains. You want to be the first Villain defeated, which only happens if players pick your obstacles.
-2. For each obstacle, assign a **Level** to the obstacle between 0 and 6, which you write secretly on the back. You can make any number of Obstacles with any Level, but a suggestion might be: 1, 2, 3, 4, 5. Your Level as the Villain is 8--you are always the final obstacle, so give yourself a card too.
-3. For each obstacle, roll once per column, using the table below. For each column, roll a d6 and add the Level you wrote down. If the "Goblin Horde" was Level 1, you would roll a d6 and add 1 for each column. If you get "impossible" three times, reroll the obstacle.
-4. Write down the results on the back of the index card, beneath the Level. **For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".**
+### Making Obstacles (for Villains)
+1. Design a series of 4-8 **Obstacles** for the Heroes to face as they go through your lair. Each one is written on an index card. Don't show the Obstacles to other players. 
+- Describe each Obstacle in a few words, writing it legibly on the front of an index card. For example, write "goblin horde". It could be a minion, a trap, a secret door, or anything else at all. 
+- Make your Obstacles interesting, cool, or sexy. You are trying to get the players to come to your lair, not the lair one of the other Villains, so they can defeat you.
+- For each Obstacle, assign a **Level** to the obstacle between 0 and 6, which you write secretly on the back. 
+- You can make any number of Obstacles with any Level. For beginners, use 5 obstacles with these levels: 1, 2, 3, 4, 5. 
+- You, the Villain, are always the final Obstacle. Give yourself a card too. Your Level is 8.
+2. For each Obstacle, roll its stats using the table below. For each column, roll a d6 and add the Level you wrote down. If the "Goblin Horde" was Level 1, you would roll a d6 and add 1 for each column. If you get "impossible" three times, reroll the obstacle.
+3. Write down the results on the back of the index card, beneath the Level. **For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".**
+3. Get ready to describe the first obstacle in your dungeon aloud, as described below.
+4. Stack your index cards neatly, so only the front of the first Obstacle is visible to players.
 
 | d6 + Level | Physical Difficulty | Mental Difficulty | Spirit Difficulty | Loot                     | Failure
 |------------|---------------------|-------------------|-------------------|--------------------------|----------|
@@ -103,15 +111,18 @@ Roll randomly to determine your Villain. Keep your identity secret for now.
 | 10         | 6                   | 6                 | 6                 | 4 Loot                   | -6 HP    |
 | 11         | 8                   | 8                 | 8                 | 4 Loot                   | -8 HP    |
 | 12         | impossible          | impossible        | impossible        | 4 Loot                   | death    |
+| 13         | impossible          | impossible        | impossible        | 4 Loot                   | death    |
+| 14         | impossible          | impossible        | impossible        | 4 Loot                   | death    |
 
-- Get ready to describe the first obstacle in your dungeon aloud, trying to hint at the difficulty of the obstacle.
-- If an obstacle has low Physical difficulty, it's easy to solve using strength or balance. If it has high Physical difficulty, it's hard. A high Physical difficulty might be an ogre, who's equally strong, but easy to outwit. Or, a Physically difficult obstacle might be an irritable clerk, who won't give you what you want even if you punch her.
+Describing Obstacles Aloud
+- Try to hint at the difficulty of the obstacle.
+- For example, if an obstacle has low Physical difficulty, it's easy to solve using strength or balance. If it has high Physical difficulty, it's hard to solve using strength. A high Physical difficulty might be an ogre, who's just as strong as any Hero, even if she's easy to outwit. Another Physically difficult obstacle might be an irritable clerk, who won't give you what you want even if you punch her.
 - Using the example of your Goblin horde, you might say aloud "A dozen weak goblins guard the entrance to the skyscraper. They look weak, but they only speak Goblin, ignoring all attempts to negotiate." The language barrier hints that this might be a difficult mental challenge, but easy otherwise.
 - You may NOT hint about Loot.
 - You may NOT change your written descriptions after you roll. Part of the fun is trying to describe the obstacle aloud, in a way that matches BOTH the written description, and the stats you roll.
 
-### Loot
-When Heroes beat an Obstacle, they may get Loot. For each Loot, roll using the table below. Add the difficulty to the roll. A player can't equip two items in the same slot. Players are free to trade items with one another. If you roll all +0 for stats, reroll.
+### Making Loot (for Villains)
+When Heroes beat an Obstacle, they may get **Loot**. For each Loot, roll using the table below. Add the difficulty to the roll. A player can't equip two items in the same slot. Players are free to trade items with one another. If you roll all +0 for stats, reroll.
 
 Optionally, whenever a Villain gives a Hero an item, they may describe the item specifically, based it on the Slot and any abilities it has. For example, maybe the +1 Mental Cloak could become "a hawaiian-patterned shirt. it's so distractingly bright, that minions won't pay full attention in conversation."
 
@@ -129,7 +140,7 @@ Optionally, whenever a Villain gives a Hero an item, they may describe the item 
 | 11         | Secret        | Technique | +2       | +2     | +2     | S    |
 | 12         | Holographic   | Gun       | +2       | +2     | +2     | SS   |
 
-## Play
+## How to Play
 - Each Hero describes their character
 - Each Villain describes their lair or dungeon. They show the front of the card with the short description of their first obstacle ("Goblin horde"). They give a description of the goblin horde or other obstacle.
 - Obstacles (Success and Failure)
