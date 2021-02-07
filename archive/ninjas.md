@@ -5,17 +5,18 @@ Written: 2021-02-07 by Zachary Vance
 
 Audience: Unlike my [last two games](/archived.html), *Ninjas Ninjas Ninjas!* is not for complete beginners to storytelling games. There is very little guidance from the rules about what story to tell or how.
 
-Each of player controls a young journeyman ninja taking his/her/their final ninja exam. The three ninjas work together as a team to accomplish their goal. At all times one ninja is in **Front**. Front is the "player" who is actively deciding what to do, while the other ninjas throw problems and points at them.
+Each player controls a young journeyman ninja taking his/her/their final ninja exam. The three ninjas work together as a team to accomplish their goal. At all times one ninja is in **Front**. Front is the "player" who is actively deciding what to do, while the other ninjas throw problems and points at them.
 
 Storytelling focuses on the ninjas being cool, and quick progress. Detailed description always illustrates just how COOL the ninja team and their moves are. It DOESN'T talk about the scenery, plot details, motives and emotions, or whether the enemies are also cool.
 
-The goals of the game are to accomplish your mission, be super awesome, and throw as many stars as possible as quickly as possible.
+The goals of the game are to accomplish your mission, be super awesome, and throw as many **stars** as possible as quickly as possible.
 
 **Supplies needed**: None, in the worst case. Ideally, each player tracks how many stars they have thrown--you tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star. If you wish, you can play with a timer. If your group has trouble keeping track mentally, you can also use nine nickels to track throwing stars.
 
 ## Learning
 
-The intended play style is fast, and roles are complex. At first start slow, and review a Role every time you get it. After a couple games, players should memorize the rules and Roles, and stop using any written aids. Then, start scoring if you aren't (guessing is fine). You can also use a timer if you want one. Finally, ramp up speed until you're forced to improv (say what you do *before* thinking it through).
+The intended play style is fast, and the game is complex at full speed. At first start slow, and review a **Role** every time you get it. After a couple games, players should memorize the rules and Roles, and stop using any written aids. Then, start scoring if you aren't (guessing is fine). You can also use a timer if you want one. Finally, ramp up speed until you're forced to improv (say what you do *before* thinking it through).
+
 
 ## Setup
 One player shouts "Team!". A second player shouts "Mission!". The slowest player is Place.
@@ -62,6 +63,16 @@ gg
 ## Exam Score
 - At the end of the game, **your score is the number of stars you threw**. My recommended method is to make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores. If you don't have paper, or don't want to keep track, you can just guess instead.
 - (Optional) The ninjas **fail the final exam** if X minutes pass and they haven't won (I suggest 5 to 30 minutes as a good limit). They also lose one point for each minute that passed before they sucessfully passed their exam.
+
+## Cheat sheet
+As mentioned, you should learn this and stop using it as soon as possible.
+
+| Role  | Problem         | Points
+|-------|-----------------|----------------------|
+| Front | Inanimate, peon |                      |
+| Goal  | Goals change    | Goal/Boss, Quick     |
+| Enemy | People, Event   | Cool, Obstacle       |
+| Cheat | Surprises       | Skill, Clever, Cheat |
 
 ## More Players
 - Ninjas Ninjas Ninjas requires at least 3 players, but it probably works with more. You need one Role per playe. Come up with your own Roles. Each Role needs at least one Problem Star, and at least one Point Star. If you have good Role ideas and try them out, send it to me!
