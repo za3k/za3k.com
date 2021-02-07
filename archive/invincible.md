@@ -1,5 +1,4 @@
 <link rel="stylesheet" type="text/css" media="all" href="/archive/invincible.css"/>
-
 # No, this cannot be! I am invincible!
 
 **No, this cannot be! I am invincible!** is a game for 2-8 players. Some of the players are Heroes, and some are Villains. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
@@ -22,6 +21,8 @@ If your group is competitive, try to be the first Hero to kill a Villain, and th
 
 You will need 30 index cards or similar materials. Notebook paper will also work. You also need one d6 (normal six-sided die) for each player.
 
+> # 24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.) - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
+
 ## Making Heroes
 Roll randomly to make your Hero. "I am a ..." (roll once per column)
 
@@ -43,8 +44,8 @@ Roll randomly to make your Hero. "I am a ..." (roll once per column)
 | Living Robot     | 2        | 1      | 2      |
 | Lone Gunslinger  | 2        | 2      | 1      |
 
-- Write your three stats and your current HP on an index card. You will also write any loot you find on the card, but you don't have any yet.
-- You can immediately describe your random character to all the other Heroes and Villains.
+- Write your three stats and your current HP on an index card. You will also write any loot you find on the card, but you don't have any yet. Make up a name for your Hero.
+- You can immediately describe your Hero to all the other Heroes and Villains.
 - **Physical** represents how strong or nimble your character is. If you have a high Physical stat, you can easily overcome Physical challenges.
 - **Mental** represents how charming or smart your character is. If you have a high Mental stat, you can easily overcome Mental challenges.
 - **Spirit** represents how magical or energetic your character is. If you have a high Spirit stat, you can easily overcome Spirit challenges.
@@ -94,7 +95,7 @@ Roll randomly to make your Villain. Keep your identity secret for now. "I am a(n
     - You, the Villain, are always the final Obstacle. Give yourself a card too. Your Level is 8.
 2. For each Obstacle, roll its stats using the table below. For each column, roll a d6 and add the Level you wrote down. If the "Goblin Horde" was Level 1, you would roll a d6 and add 1 for each column. If you get "impossible" three times, reroll the obstacle.
 3. Write down the results on the back of the index card, beneath the Level. **For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".**
-3. Get ready to describe the first obstacle in your dungeon aloud, as explained below.
+3. Get ready to describe the first obstacle in your lair aloud, as explained below.
 4. Stack your index cards neatly, so only the front of the first Obstacle is visible to Heroes.
 
 | d6 + Level | Physical Difficulty | Mental Difficulty | Spirit Difficulty | Loot                     | Failure
@@ -146,9 +147,11 @@ When Heroes beat an Obstacle, they may get **Loot**. Make each Loot using the ta
 
 ## How to Play
 - Each Hero describes their character
-- Each Villain describes their lair or dungeon. They show the front of the card with the short description of their first obstacle ("Goblin horde"). They give a description of the goblin horde or other obstacle.
+- Each Villain describes their lair, but doesn't reveal their Villain persona yet. Players may ask the number of remaining Obstacles in a lair at any point.
+- Each Villain reveals their lair's first Obstacle, which has a short description written on the front (ex. "Goblin Horde") as a reminder to Heroes--the back remains hidden throughout play. They give a description aloud of the Obstacle, which players enjoy and listen to carefully for clues. 
+- Select the first Hero however you like. For the remainder of play, each Hero in turn selects any lair and attempts to overcome the one visible Obstacle in that lair. After the Obstacle is defeated or the Heroes temporarily fail it, play passes to the next Hero. Obstacles may be attempted any number of times until they're beaten.
 - Obstacles (Success and Failure)
-    - Each Hero in turn selects one Obstacle to try and defeat. They state what their Hero tries, and whether it uses the Physical, Mental, or Spirit stat.
+    - Each Hero in turn selects one Obstacle to try and defeat, indicating it. The Hero states aloud what their Hero tries, and whether it uses the Physical, Mental, or Spirit stat. For example "Gertie
     - The Physical Difficulty, Mental Difficulty, or Spirit Difficulty for that obstacle is revealed and written on the card.
     - If the Hero's stat is at least as high as the equivalent Difficulty, they beat the Obstacle; otherwise, they fail.
     - If a Hero would fail, another Hero can come in to help. If multiple Heroes want to help, the most recently failed Hero decides who helps.
@@ -163,7 +166,7 @@ When Heroes beat an Obstacle, they may get **Loot**. Make each Loot using the ta
 - Final Villain Showdown
     - When turning face-up the final card, the Villain reads aloud their randomly generated villain description and weak point, and describes the villain in their inner sanctum.
     - The final fight works exactly like any normal obstacle
-    - When the final Villain is defeated (or bests a Hero), the Villain can help describe the action if they want.
+    - When the final Villain is defeated (or bests a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense.
 - Winning the Game
     - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part.
     - Victory: If all Villains are beaten, everyone wins.
