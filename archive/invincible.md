@@ -87,11 +87,11 @@ Roll randomly to make your Villain. Keep your identity secret for now. "I am a(n
 
 ### Making Obstacles (for Villains)
 1. Design a series of 4-8 **Obstacles** for the Heroes to face as they go through your lair. Each one is written on an index card. Don't show the Obstacles to other players. 
-- Describe each Obstacle in a few words, writing it legibly on the front of an index card. For example, write "goblin horde". It could be a minion, a trap, a secret door, or anything else at all. 
-- Make your Obstacles interesting, cool, or sexy. You are trying to get the players to come to your lair, not the lair one of the other Villains, so they can defeat you.
-- For each Obstacle, assign a **Level** to the obstacle between 0 and 6, which you write secretly on the back. 
-- You can make any number of Obstacles with any Level. For beginners, use 5 obstacles with these levels: 1, 2, 3, 4, 5. 
-- You, the Villain, are always the final Obstacle. Give yourself a card too. Your Level is 8.
+    - Describe each Obstacle in a few words, writing it legibly on the front of an index card. For example, write "goblin horde". It could be a minion, a trap, a secret door, or anything else at all. 
+    - Make your Obstacles interesting, cool, or sexy. You are trying to get the players to come to your lair, not the lair one of the other Villains, so they can defeat you.
+    - For each Obstacle, assign a **Level** to the obstacle between 0 and 6, which you write secretly on the back. 
+    - You can make any number of Obstacles with any Level. For beginners, use 5 obstacles with these levels: 1, 2, 3, 4, 5. 
+    - You, the Villain, are always the final Obstacle. Give yourself a card too. Your Level is 8.
 2. For each Obstacle, roll its stats using the table below. For each column, roll a d6 and add the Level you wrote down. If the "Goblin Horde" was Level 1, you would roll a d6 and add 1 for each column. If you get "impossible" three times, reroll the obstacle.
 3. Write down the results on the back of the index card, beneath the Level. **For example, one card might say "Goblin Horde" on the front. On the back, you might have written: "Level 1, Physical 2, Mental 3, Spirit 1, Loot 1, HP -1".**
 3. Get ready to describe the first obstacle in your dungeon aloud, as described below.
