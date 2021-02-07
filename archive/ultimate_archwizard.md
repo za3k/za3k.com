@@ -1,4 +1,6 @@
 # Ultimate Archwizards vs the Dark Lord
+Written: 2021-02-03 by Zachary Vance
+
 ## Premise
 You are an Ultimate Archwizard of your school--maybe you are the Laser Archwizard, maybe you're the Ultimate Genie who can grant any wish, or maybe you're the World Pro Wrestling champion who's so good you can compact opponents into a black hole while monologuing.
 
