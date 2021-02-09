@@ -15,16 +15,16 @@ The goals of the game are to be super awesome, and throw as many **stars** as po
 
 ## Suggested Progression
 I've designed the rules to introduce complexity gradually. Feel free to progress faster or not at all, but here are my suggestions.
-- *(Baby Ninjas)* In game 1, play with none of the optional rules, and without keeping track of **stars**.
-- *(Simple Ninjas)* In game 2, add the Exam Score and start keeping track of stars. The goal of *Ninjas Ninjas Ninjas* is to throw as many stars as possible.
-- *(Specialist Ninjas)* In game 3, add Roles. Play 3 games total with Roles, so every player gets to try every Role.
-- *(Real Ninjas)* In game 6, you are now playing the real game. Start ramping up the speed until you're doing things without thinking first.
-- *(Fast Ninjas)* In game 6, add a timer. The timer is explained under Setup and Exam.
-- *(Silent Ninjas)* In game 8, make up your own cool ninja hand signals to replace all the yelling you've been doing.
-- *(Crazy Ninjas)* In game 10, add the Role Swapping rule, which makes things extra crazy. You need to have memorized the Roles already.
+- In game 1, play with none of the optional rules, and without keeping track of **stars**.
+- In game 2, add the Exam Score and start keeping track of stars. The goal of *Ninjas Ninjas Ninjas* is to throw as many stars as possible.
+- In game 3, add Roles. Play 3 games total with Roles, so every player gets to try every Role.
+- In game 6, you are now playing the real game. Start ramping up the speed until you're doing things without thinking first.
+- In game 6, add a timer. The timer is explained under Setup and Exam.
+- In game 8, make up your own cool ninja hand signals to replace all the yelling you've been doing.
+- In game 10, add the Role Swapping rule, which makes things extra crazy. You need to have memorized the Roles already.
 
 ## Setup
-### Quick start
+### Option 1: Quickstart
 One player shouts "Red!". One shouts "Blue!". One shouts "Green!". They immediately start playing.
 
 - The Place is feudal Japan. There are no fireballs, cell phones, guns, or foreigners. Ninjas are super-humanly stealthy, quick, and skilled. Generally the tone is realistic.
@@ -33,7 +33,7 @@ One player shouts "Red!". One shouts "Blue!". One shouts "Green!". They immediat
 - **Blue** is tall and extra fast. He is a bow master who dispatches enemies before they see him. He makes decisions quickly and takes initiative under pressure. He wears a short, practical robe and is a good liar.
 - **Green** is a tactical genius, and physically strong. She talks slowly and favors a long katana. She wears padded armor and keeps her hair long.
 - (Game 6-10) If you want a timer, set it for 30 minutes.
-### Detailed
+### Option 2: Detailed setup
 One player shouts "Front!" A second player shouts "Team!". The slowest player is Mission.
 - First, **Front** chooses the **Place**. Do ninjas have naruto powers or they realistic? Are there cell phones? Is your team good or bad? Where does the exam take place?
 - Second, decide the **Team**. Come up with three ninja characters, each different. Everyone else picks a ninja--whoever grabs it first gets it. The **Team** player gets the remaining ninja. Whoever grabbed the very first ninja is in **Front**. I recommend naming ninjas Red, Blue, and Green, and having each player be the same color game to game.
