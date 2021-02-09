@@ -25,27 +25,37 @@ You will need 6 index cards per villain, and 1 index card per hero (or similar m
 > *24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.)* - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
 
 ## Making Heroes
-Roll randomly to make your Hero. "I am a ..." (roll once per column)
+Make up a hero, or roll randomly to make your Hero. "I am a ..." (roll once per column)
 
-| d6   | Class            | Approach  | Origin                          | Motive                | Hero Goal
-|------|------------------|-----------|---------------------------------|-----------------------|-------------------------------------|
-| 1    | Mexican Wrestler | Physical  | Texan wolves raised me to       | make friends          | by working at this temp agency      |
-| 2    | Mad Scientist    | Smarts    | I traveled back in time to      | avenge my parents     | on the last floor of the dungeon    |
-| 3    | Cute Witch       | Spirit    | After flunking college, I'll    | be, the -very- best   | by befriending every single monster |
-| 4    | Stage Magician   | Charm     | I am the chosen one who will    | make the world better | by killing everything I see         |
-| 5    | Living Robot     | Energy    | I sailed the seven seas to      | barely make a living  | by betraying the heroes             |
-| 6    | Lone Gunslinger  | Coolness  | In Japanese high school, I will | defeat my rival       | by foiling the villain's plan       |
+| d6   | Class            | Origin                          | Motive                | Hero Goal
+|------|------------------|---------------------------------|-----------------------|-------------------------------------|
+| 1    | Mexican Wrestler | Texan wolves raised me to       | make friends          | by working at this temp agency      |
+| 2    | Mad Scientist    | I traveled back in time to      | avenge my parents     | on the last floor of the dungeon    |
+| 3    | Cute Witch       | After flunking college, I'll    | be, the -very- best   | by befriending every single monster |
+| 4    | Stage Magician   | I am the chosen one who will    | make the world better | by killing everything I see         |
+| 5    | Living Robot     | I sailed the seven seas to      | barely make a living  | by betraying the heroes             |
+| 6    | Lone Gunslinger  | In Japanese high school, I will | defeat my rival       | by foiling the villain's plan       |
 
-- Make up a name for your hero.
-- Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to the approach you rolled. This is the only approach you can use right now.
-- You can immediately describe your Hero to all the other Heroes and Villains.
-- As you adventure, you will may get sweet **Loot**. Loot gives you additional approaches. When you get Loot, add a checkmark.
-- Heroes start with 2 HP, or Health Points. If you are reduced to 0 HP, you die and the game is over for everyone. 
+Choose or randomly roll your character's starting **Approach**.
+
+| d6 | Approach |
+|----|----------|
+| 1  | Physical |
+| 2  | Smarts   |
+| 3  | Spirit   |
+| 4  | Charm    |
+| 5  | Energy   |
+| 6  | Coolness |
+
+- Make up a name for your hero, and describe your Hero to all the other Heroes and Villains.
+- Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
+- As you adventure, you will may get sweet loot. Loot gives you additional **Approaches**. When you get Loot, add a checkmark next to the approach it gives you.
+- Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. 
 - If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
 - If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
 
 ## Making Villains
-Roll randomly to make your Villain. "I am a(n)..." (roll once per column)
+Make up a villain, or roll randomly to make your Villain. "I am a(n)..." (roll once per column)
 
 | Roll | Description           | Thing      | Name            | Title            | Habit               | Special Move        
 |------|-----------------------|------------|-----------------|------------------|---------------------|---------------------------|
@@ -56,7 +66,7 @@ Roll randomly to make your Villain. "I am a(n)..." (roll once per column)
 | 5    | Married couple of     | hoodlum    | named Fluffy    | the Destroyer    | who eats everything | and knows kung-fu.        |
 | 6    | Old, weak, and deaf   | CEO        | named Susan     | (no title)       | who laughs maniacly | hypnotizing everyone.     |
 
-"I live in..." (roll once per column)
+Make up a lair, or roll randomly to make your Lair. "I live in..." (roll once per column)
 
 | d6   | Final level          | Adjective     | Lair
 |------|----------------------|---------------|------------|
@@ -67,7 +77,7 @@ Roll randomly to make your Villain. "I am a(n)..." (roll once per column)
 | 5    | the back room of     | a well-marked | mall       |
 | 6    | the deepest part of  | a spooky      | forest     |
 
-"I sure hope no one..." (roll once per column)
+Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..." (roll once per column)
 
 | d6   | Weakness                 | Weak spot   | Villain Goal                                      |
 |------|--------------------------|-------------|---------------------------------------------------|
@@ -102,6 +112,8 @@ Roll randomly to make your Villain. "I am a(n)..." (roll once per column)
     - Try to hint at any weaknesses in your description. Heroes shouldn't be going in blind.
     - Describe the obstacle in a way that matches BOTH the written description, and the weaknesses you roll. For example, a Ogre weak to Physical might have a big target on their back. It's hard to match both but that's what makes it fun.
 
+## Approaches
+
 | d6 | Approach |
 |----|----------|
 | 1  | Physical |
@@ -113,7 +125,7 @@ Roll randomly to make your Villain. "I am a(n)..." (roll once per column)
 
 ## How to Play
 - Each Hero describes their character
-- Each Villain describes their persona, weak point and goal, and their lair.
+- Each Villain describes their persona and their lair.
 - Each Villain reveals their lair's first Obstacle. They give a description aloud of the Obstacle, which players enjoy and listen to carefully for clues. 
 - Select which Hero goes first however you like.
 - For the remainder of play, each Hero in turn selects a visible Obstacle. After they beat it or fail, play passes to the next Hero. This continues until the game is won or lost.
@@ -131,7 +143,7 @@ Roll randomly to make your Villain. "I am a(n)..." (roll once per column)
     - The Hero describes where and how they got the Loot, and what it is. If there was a helping Hero, the helper is the one who gets the Loot. The Hero now has an additional approach, which they mark down on their character sheet.
     - After an Obstacle is beaten, that Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
 - Final Villain Showdown
-    - When turning face-up the final card, the Villain describes their inner sanctum, and how the villain greets the Hero. They describe the villain in more detail, hinting at any weaknesses.
+    - When turning face-up the final card, the Villain describes their inner sanctum, and how the villain greets the Hero. They describe the villain in more detail, hinting at any weaknesses, and their secret goal.
     - The final fight works exactly like any normal Obstacle.
     - When the final Villain is defeated (or wins against a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense on defeat.
 - Winning or Losing the Game
