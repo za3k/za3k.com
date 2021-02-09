@@ -1,7 +1,7 @@
 # Loot Boxes
 Written 2021-02-08 by Zachary Vance
 
-A short storytelling game for 2-6 players. Play as long as you want, 10-60 minutes.
+A short storytelling game for 2-4 players, better with fewer. Play as long as you want, 10-60 minutes.
 
 - Each player describes their character in one or two sentences. They also have a starting inventory of any three items they want.
 - One player starts out as GM. The GM describes a challenging situation. For example the player's driver's license has expired but they need to get to the airport to pick up Rhianna.

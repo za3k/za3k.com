@@ -4,7 +4,7 @@ Sometimes I made games. I make board games, card games, storytelling games, and 
 
 | Game                                                                     | Date       | Type                 | Complexity | Players      | Tested?  | Recommended?  | Description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [Loot Boxes](/archive/lootboxes.md)                                      | 2021-02-08 | Storytelling         | Low        | 2-6          | No       | Yes           | Players have an inventory of random items. They must use the items to solve a series of challenges.
+| [Loot Boxes](/archive/lootboxes.md)                                      | 2021-02-08 | Storytelling         | Low        | 2-4          | No       | Yes           | Players have an inventory of random items. They must use the items to solve a series of challenges.
 | ["No, this cannot be! I AM INVINCIBLE!](/archive/invincible.md) v2       | 2021-02-08 | Storytelling         | Medium     | 2-8          | No       | Maybe         | Villains send wave after harder wave of enemies at the Heros, until they kill the Villains.
 | [Ultimate Archwizards vs the Dark Lord](/archive/ultimate_archwizard.md) | 2021-02-03 | Storytelling         | Low        | 3-5, plus GM | No       | Yes           | One-page storytelling game about the final episode in a fight anime.
 | ["No, this cannot be! I AM INVINCIBLE!](/archive/invincible1.md) v1      | 2021-02-07 | Storytelling         | Medium     | 2-8          | Yes      | No            | Villains send wave after harder wave of enemies at the Heros, until they kill the Villains.
