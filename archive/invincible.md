@@ -49,10 +49,14 @@ Choose or randomly roll your character's starting **Approach**.
 
 - Make up a name for your hero, and describe your Hero to all the other Heroes and Villains.
 - Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
-- As you adventure, you will may get sweet loot. Loot gives you additional **Approaches**. When you get Loot, add a checkmark next to the approach it gives you.
 - Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. 
 - If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
 - If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
+- As you adventure, you will may get sweet loot. Loot gives you additional **Approaches**. 
+- Loot
+    - Each Loot gives the Hero one additional approach. You roll randomly to see what approach the loot give you.
+    - If you're unlucky, you may get an approach you already have. You can give away loot when you get it, but you can't reroll.
+    - Once a Hero gets loot, you put a checkmark next to your new approach. You can now use that approach to beat Obstacles.
 
 ## Making Villains
 Make up a villain, or roll randomly to make your Villain. "I am a(n)..." (roll once per column)
@@ -128,10 +132,10 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
     - If two Heroes fail, the first Hero to attempt describes how they failed, and the second Hero describes how they tried to help and how that also failed.
 - Obstacles (Success)
     - No Hero takes damage.
-    - Whichever Hero actually beat the Obstacle gets the loot. That Hero now has an additional approach, which they mark down on their character sheet. They can pick any approach, or roll randomly.
+    - Whichever Hero actually beat the Obstacle gets the loot. (See Heroes to learn about loot)
     - If one Hero beat the Obstacle, they describe how they succeeded.
     - If one Hero failed and a second Hero beat the Obstacle: the succeeding Hero humorously describes how the first Hero was failing, and how the second Hero did things right after they jumped in.
-    - The Hero describes where and how they got the Loot, and what it is. 
+    - The Hero describes where and how they got the Loot, what it is, and how the Hero improves.
     - After an Obstacle is beaten, it is removed from play. That Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
 - Final Villain Showdown
     - When turning face-up the final card, the Villain describes their inner sanctum, and how the villain greets the Hero. They describe the villain in more detail, hinting at any weaknesses, and their secret goal.
