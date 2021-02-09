@@ -41,11 +41,9 @@ Choose or randomly roll your character's starting **Approach**.
 - Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. 
 - Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
 - As you adventure, you will may get sweet loot. Loot gives you additional **Approaches**. 
-- Loot
     - Each Loot gives the Hero one additional approach. You roll randomly to see what approach the loot give you.
     - If you're unlucky, you may get an approach you already have. You can give away loot when you get it, but you can't reroll.
     - Once a Hero gets loot, you put a checkmark next to your new approach. You can now use that approach to beat Obstacles.
-- Whenever you try to overcome an Obstacle, you pick one of your available **approaches**. Each Obstacle will either be vulnerable to that approach, or strong against it. If the Obstacle is vulnerable to your approach, you succeed. Otherwise, you fail. A Villain's description of the Obstacle will give you clues about its vulnerabilites.
 - If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
 - If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
 
@@ -114,7 +112,9 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
 - Select which Hero goes first however you like.
 - For the remainder of play, each Hero in turn selects a visible **Obstacle**. After they beat it or fail, play passes to the next Hero. This continues until the game is won or lost.
 - Obstacles (Success and Failure)
-    - Each Hero in turn selects one Obstacle, indicating it. The Hero states which of six approaches they use: **Physical**, **Smarts**, **Spirit**, **Charm**, **Energy**, or **Coolness** they use. For example "Gertie uses Spirit on the flock of seagulls." Heroes can only use the approaches marked on their character sheet.
+    - Each Hero in turn selects one Obstacle, indicating it. The Hero states which of six approaches they use: **Physical**, **Smarts**, **Spirit**, **Charm**, **Energy**, or **Coolness** they use. For example "Gertie uses Spirit on the flock of seagulls." 
+    - Heroes can only use the approaches marked on their character sheet.
+    - Villain descriptions give Heroes clues about which approaches will work.
     - The Villain gives a thumbs up if the Obstacle is weak against that approach, or a thumbs down if it is not. The Villain never describes the action after they set the scene.
     - If the Hero failed, another hero can choose to jump in and help. They should use a different approach. If the second hero fails, the attempt is over. If multiple heroes want to help, the failing Hero selects who helps.
 - Obstacles (Failure)
