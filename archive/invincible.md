@@ -69,7 +69,7 @@ Make up a lair, or roll randomly to make your lair. "I live in the..." (roll onc
 | 5    | break room of      | a well-marked | office      |
 | 6    | portal in          | a spooky      | forest      |
 
-Decide why you want the heroes to kill you, or roll randomly for them. "I sure hope no one defeats me, or I'd ..." (roll once per column). Keep your goal secret until you're defeated.
+Decide why you want the heroes to defeat you, or roll randomly for your goal. Keep your goal secret until you're defeated. "I sure hope no one defeats me, or I'd ..." (roll once per column).
 
 | d6   | Villain Goal                                                   |
 |------|----------------------------------------------------------------|
