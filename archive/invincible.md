@@ -30,16 +30,16 @@ Choose or randomly roll your character's starting **approach**.
 
 | d6 | Approach |
 |----|----------|
-| 1  | Physical |
+| 1  | Strength |
 | 2  | Smarts   |
-| 3  | Spirit   |
+| 3  | Magic    |
 | 4  | Charm    |
 | 5  | Energy   |
-| 6  | Coolness |
+| 6  | Stealth  |
 
 - Make up a name for your hero, and describe your Hero to all the other Heroes and Villains.
 - Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. 
-- Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
+- Write down the six approaches: **Strength, Smarts, Magic, Charm, Energy, Stealth**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
 - As you adventure, you will may get sweet loot. Loot gives you additional **approaches**. 
     - Each Loot gives the Hero one additional approach. You roll randomly to see what approach the loot give you.
     - If you're unlucky, you may get an approach you already have. You can give away loot when you get it, but you can't reroll.
@@ -85,12 +85,12 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
 1. Design 6 **Obstacles** for the Heroes to face as they go through your lair.
     - Each one is written on an index card.
     - The front looks like this: "Flock of Seagulls, 4 weaknesses.". It should be legible.
-    - The back looks like this: "Weaknesses: Physical, Smarts, Charm, Coolness". The back is never shown to the Heroes so you can be sloppy.
+    - The back looks like this: "Weaknesses: Strength, Smarts, Charm, Stealth". The back is never shown to the Heroes so you can be sloppy.
 2. Pick each of the 6 obstacles.
     - Describe each Obstacle in 2-4 words, writing it legibly on the front of an index card. For example, write "Flock of Seagulls".
     - It could be a minion, a trap, a secret door, or anything else at all. Make your Obstacles interesting and goofy.
     - You, the Villain, are always the 6th and final Obstacle. Give yourself a card too.
-3. For each Obstacle, use the table below to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
+3. For each Obstacle, use the table in "Making Heroes" to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
     - The 1st obstacle is weak to all 6 approaches. (You don't need to roll.)
     - The 2nd obstacle is weak to 4 approaches. (Rolling and describing what the obstacle is NOT weak to is faster)
     - The 3rd obstacle is weak to 3 approaches
@@ -103,7 +103,7 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
     - Before describing it, read the front of the card aloud.
     - Make the Obstacle sound easy, cool, sexy, or rewarding. You want Heroes to come to your lair and kill you first.
     - Try to hint at any weaknesses in your description. Heroes shouldn't be going in blind.
-    - Describe the obstacle in a way that matches BOTH the written description, and the weaknesses you roll. For example, a Ogre weak to Physical might have a big target on their back. It's hard to match both but that's what makes it fun.
+    - Describe the obstacle in a way that matches BOTH the written description, and the weaknesses you roll. For example, a Ogre weak to Strength might have a big target on their back. It's hard to match both but that's what makes it fun.
 
 ## How to Play
 - Each Hero describes their character
@@ -112,7 +112,7 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
 - Select which Hero goes first however you like.
 - For the remainder of play, each Hero in turn selects a visible **Obstacle**. After they beat it or fail, play passes to the next Hero. This continues until the game is won or lost.
 - Obstacles (Success and Failure)
-    - Each Hero in turn selects one Obstacle, indicating it. The Hero states which of six approaches they use: **Physical**, **Smarts**, **Spirit**, **Charm**, **Energy**, or **Coolness**. For example "Gertie uses Spirit on the flock of seagulls." 
+    - Each Hero in turn selects one Obstacle, indicating it. The Hero states which of six approaches they use: **Strength**, **Smarts**, **Magic**, **Charm**, **Energy**, or **Stealth**. For example "Gertie uses Magic on the flock of seagulls." 
     - Heroes can only use the approaches marked on their character sheet.
     - Villain descriptions give Heroes clues about which approaches will work.
     - The Villain gives a thumbs up if the Obstacle is weak against that approach, or a thumbs down if it is not. The Villain never describes the action after they set the scene.
