@@ -1,4 +1,4 @@
-# [za3k](/) > Games
+[za3k](/) > games
 
 Sometimes I made games. I make board games, card games, storytelling games, and computer games. The rules are collected here.
 
