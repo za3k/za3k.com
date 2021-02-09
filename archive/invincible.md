@@ -71,14 +71,14 @@ Make up a lair, or roll randomly to make your lair. "I live in the..." (roll onc
 
 Decide why you want the heroes to kill you, or roll randomly for them. "I sure hope no one defeats me, or I'd ..." (roll once per column). Keep your goal secret until you're defeated.
 
-| d6   | Villain Goal                                      |
-|------|---------------------------------------------------|
-| 1    | or I'd get to retire early                        |
-| 2    | or I'd finally feel the sweet release of oblivion |
-| 3    | or I'd have to turn to step 147 of my master plan |
-| 4    | or I'd have to marry them                         |
-| 5    | or I'd be released from my curse                  |
-| 6    | or I'd have to assume my ultimate form            |
+| d6   | Villain Goal                                                   |
+|------|----------------------------------------------------------------|
+| 1    | get to retire early                                            |
+| 2    | finally feel the sweet release of oblivion                     |
+| 3    | activate a hidden trap, and turn to step 147 of my master plan |
+| 4    | immediately marry them                                         |
+| 5    | be released from my curse                                      |
+| 6    | have to assume my ultimate form                                |
 
 ### Making Obstacles (for Villains)
 1. Design 6 **Obstacles** for the Heroes to face as they go through your lair.
@@ -132,6 +132,6 @@ Decide why you want the heroes to kill you, or roll randomly for them. "I sure h
     - The final fight works exactly like any normal Obstacle.
     - When the final Villain is defeated (or wins against a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense on defeat. Reveal your goal.
 - Winning or Losing the Game
-    - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part.
+    - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part. If two Heroes beat a Villain, only the Hero that actually beats the Villain wins and stops playing.
     - Victory: If all Villains are beaten, everyone wins.
     - Defeat: If even one Hero dies (is reduced to 0 HP), all remaining Heroes and Villains lose.
