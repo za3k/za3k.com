@@ -59,27 +59,27 @@ Make up a Villain, or roll randomly to make your Villain. "I am a(n)..." (roll o
 | 5    | Married couple of     | hoodlum    | named Fluffy    | the Destroyer    | who eats everything | and knows kung-fu.        |
 | 6    | Old, weak, and deaf   | CEO        | named Susan     | (no title)       | who laughs maniacly | hypnotizing everyone.     |
 
-Make up a lair, or roll randomly to make your Lair. "I live in..." (roll once per column)
+Make up a lair, or roll randomly to make your lair. "I live in the..." (roll once per column)
 
-| d6   | Final level          | Adjective     | Lair
-|------|----------------------|---------------|------------|
-| 1    | the bottom floor of  | a dark        | cave       |
-| 2    | the top floor of     | an abandoned  | castle     |
-| 3    | the guest bedroom of | a tall        | skyscraper |
-| 4    | the main lobby of    | a rented      | warehouse  |
-| 5    | the back room of     | a well-marked | mall       |
-| 6    | the deepest part of  | a spooky      | forest     |
+| d6   | Final level        | Adjective     | Lair
+|------|--------------------|---------------|-------------|
+| 1    | bottom floor of    | a failing     | cave        |
+| 2    | rooftop of         | an abandoned  | castle      |
+| 3    | guest bedroom of   | an imaginary  | gas station |
+| 4    | hot tub of         | a rented      | theme park  |
+| 5    | break room of      | a well-marked | office      |
+| 6    | portal in          | a spooky      | forest      |
 
-Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..." (roll once per column)
+Decide why you want the heroes to kill you, or roll randomly for them. "I sure hope no one defeats me, or I'd ..." (roll once per column)
 
-| d6   | Weakness                 | Weak spot   | Villain Goal                                      |
-|------|--------------------------|-------------|---------------------------------------------------|
-| 1    | Hits my large, glowing   | eyeball     | or I'd get to retire early                        |
-| 2    | Touches my ticklish      | foot        | or I'd finally feel the sweet release of oblivion |
-| 3    | Activates my hidden      | belly       | or I'd have to turn to step 147 of my master plan |
-| 4    | Steals my valuable       | horns       | or I'd have to marry them                         |
-| 5    | Sees my shameful naked   | trap        | or I'd be released from my curse                  |
-| 6    | Scratches the itch on my | pet         | or I'd have to assume my ultimate form            |
+| d6   | Villain Goal                                      |
+|------|---------------------------------------------------|
+| 1    | or I'd get to retire early                        |
+| 2    | or I'd finally feel the sweet release of oblivion |
+| 3    | or I'd have to turn to step 147 of my master plan |
+| 4    | or I'd have to marry them                         |
+| 5    | or I'd be released from my curse                  |
+| 6    | or I'd have to assume my ultimate form            |
 
 ### Making Obstacles (for Villains)
 1. Design 6 **Obstacles** for the Heroes to face as they go through your lair.
