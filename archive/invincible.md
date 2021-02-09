@@ -2,7 +2,7 @@
 # No, this cannot be! I AM INVINCIBLE! (v2)
 Written: 2021-02-08 by Zachary Vance. Version [1](/archive/invincible1.md) 2.
 
-**No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Half the players are Heroes (round up), and half are Villains. It's designed to be shorter (60 minutes) and friendly for players new to storytelling games.
+**No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Half the players are Heroes (round up), and half are Villains. It's designed to be friendly for players new to storytelling games. 
 
 Before the game, each Villain prepares a lair full of 6 obstacles. The game is about 15 minutes of prep for the Villains, and 45 minutes of play. During the game, Villains set the scene, and Heroes describe the action and outcome.
 
