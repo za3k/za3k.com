@@ -96,7 +96,8 @@ Feel free to make up your own Roles, these are just my suggestions.
 Each player keeps the same Role through the entire game. Make sure to try a new role each game, so you learn all the Roles. Try to memorize the Roles and not refer to the cheat sheet.
 
 ## Role Swapping (game 10+)
-When you run out of stars and swap with Front, you also permanently swap **Roles** with that player for the rest of the game. You may swap many times during a game.
+- When a ninja is down (runs out of stars), Front must immediately tag them in.
+- If Front tags in a downed ninja, Front immediately and permanently swaps **Roles** with that player for the rest of the game. You might swap Roles multiple times during a game.
 
 ## Problem Stars (game 1-2 only)
 The other two players throw problems stars to Front. They throw a **problem star** to introduce a boss, to spot or trigger a trap, to have a special event or twist happen, or to have the goals shift on the team. When one of the other players introduces a problem, they shout "Problem" and explain the problem, throwing a star to Front.
