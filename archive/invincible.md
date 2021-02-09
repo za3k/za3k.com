@@ -45,7 +45,6 @@ Choose or randomly roll your character's starting **approach**.
     - If you're unlucky, you may get an approach you already have. You can give away loot when you get it, but you can't reroll.
     - Once a Hero gets loot, you put a checkmark next to your new approach. You can now use that approach to beat Obstacles.
 - If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
-- If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
 
 ## Making Villains
 Make up a Villain, or roll randomly to make your Villain. "I am a(n)..." (roll once per column)
@@ -70,7 +69,7 @@ Make up a lair, or roll randomly to make your lair. "I live in the..." (roll onc
 | 5    | break room of      | a well-marked | office      |
 | 6    | portal in          | a spooky      | forest      |
 
-Decide why you want the heroes to kill you, or roll randomly for them. "I sure hope no one defeats me, or I'd ..." (roll once per column)
+Decide why you want the heroes to kill you, or roll randomly for them. "I sure hope no one defeats me, or I'd ..." (roll once per column). Keep your goal secret until you're defeated.
 
 | d6   | Villain Goal                                      |
 |------|---------------------------------------------------|
@@ -131,7 +130,7 @@ Decide why you want the heroes to kill you, or roll randomly for them. "I sure h
 - Final Villain Showdown
     - Turning face-up the final Obstacle, the Villain themselves, is more detailed. The Villain describes their inner sanctum, and how the Villain greets the Hero. They describe the Villain's appearance and activities in detail, hinting at any special weaknesses or secret goal.
     - The final fight works exactly like any normal Obstacle.
-    - When the final Villain is defeated (or wins against a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense on defeat.
+    - When the final Villain is defeated (or wins against a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense on defeat. Reveal your goal.
 - Winning or Losing the Game
     - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part.
     - Victory: If all Villains are beaten, everyone wins.
