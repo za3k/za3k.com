@@ -64,12 +64,11 @@ Stars
 - Sometimes you will throw a star. You always shout and throw a star **to Front**. You never throw a star *as* Front. You never shout without throwing a star.
 - When you throw a star, you lose 1 star, and Front gains 1 star.
 - Your goal is to throw stars as quickly as possible. *Having* stars doesn't matter, only *throwing* them.
-- If you run out of stars, you whisper "Ninja Down. Taking **Front**". You are now **Front**. The other two players each shout "Helping Up Ninja" and immediately throw you a star. You should have two stars now.
+- If you run out of stars, you whisper "Ninja Down" to let the other players know.
 - When are stars thrown?
-    - A star is thrown to switch Front.
-    - Problem stars introduce a problem
-    - Point stars reward ninja-like behavior
-    - A star is thrown from each player to revive a downed ninja.
+    - A star is thrown to switch Front, explained in "Front".
+    - Problem stars introduce a problem, explained in "Problem Stars".
+    - Point stars reward ninja-like behavior, explained in "Point Stars".
 
 Exam Score
 - At the end of the game, **your score is the number of stars you threw**. My recommended method is to guess. If you want to keep exact track, make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores.
