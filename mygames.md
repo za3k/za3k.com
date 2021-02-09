@@ -2,8 +2,8 @@
 
 Sometimes I made games. I make board games, card games, storytelling games, and computer games. The rules are collected here.
 
-| Game                                                                     | Date       | Type                 | Complexity | Players      | Tested?  | Recommended?  | Description
-|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|
+| Game                                                                     | Date       | Type                 | Complexity | Players      | Tested?  | Recommended?  | Description |
+|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
 | [Ultimate Archwizards vs the Dark Lord](/archive/ultimate_archwizard.md) | 2021-02-03 | Storytelling         | Low        | 3-5, plus GM | No       | Yes           | One-page storytelling game about the final episode in a fight anime.
 | ["No, this cannot be! I AM INVINCIBLE!](/archive/invincible.md) v2       | 2021-02-08 | Storytelling         | Medium     | 2-8          | No       | Maybe         | Villains send wave after harder wave of enemies at the Heros, until they kill the Villains.
 | [Stupid Conspiracies](/archive/conspiracies.md)                          | 2021-01-17 | Party, competitive   | Low        | 10+          | No       | Maybe         | Conspiracy nutjobs try to join as many conspiracies as possible, and get as many people as possibly to believe their conspiracy.
