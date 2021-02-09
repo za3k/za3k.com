@@ -91,37 +91,26 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
 ### Making Obstacles (for Villains)
 1. Design 6 **Obstacles** for the Heroes to face as they go through your lair.
     - Each one is written on an index card.
-    - The front looks like this: "Flock of Seagulls, 4 weaknesses. Loot: Physical". It should be legible.
+    - The front looks like this: "Flock of Seagulls, 4 weaknesses.". It should be legible.
     - The back looks like this: "Weaknesses: Physical, Smarts, Charm, Coolness". The back is never shown to the Heroes so you can be sloppy.
 2. Pick each of the 6 obstacles.
     - Describe each Obstacle in 2-4 words, writing it legibly on the front of an index card. For example, write "Flock of Seagulls".
     - It could be a minion, a trap, a secret door, or anything else at all. Make your Obstacles interesting and goofy.
     - You, the Villain, are always the 6th and final Obstacle. Give yourself a card too.
-3. Make a piece of loot the players get for overcoming the obstacle. Write the word "Loot" on the front of the card. Randomly roll an approach using the table below, and write it next to the word "Loot".
-4. For each Obstacle, roll d6 using the table below to determine which approaches out of the 6 available approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. You may write the NUMBER of weaknesses on the front as a reminder to players.
+3. For each Obstacle, use the table below to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
     - The 1st obstacle is weak to all 6 approaches. (You don't need to roll.)
-    - The 2nd obstacle is weak to 4 approaches. (Rolling and describing what the obstacle is NOT weak to may be faster)
+    - The 2nd obstacle is weak to 4 approaches. (Rolling and describing what the obstacle is NOT weak to is faster)
     - The 3rd obstacle is weak to 3 approaches
     - The 4th obstacle is weak to 2 approaches.
     - The 5th obstacle is weak to 2 approaches.
     - The villain is weak to only 1 approach.
-5. Stack your index cards neatly, so only the front of the first Obstacle is visible to Heroes.
-6. Get ready to describe the first obstacle in your lair aloud.
+4. Stack your index cards neatly, so only the front of the first Obstacle is visible to Heroes.
+5. Get ready to describe the first obstacle in your lair aloud.
     - Whenever an Obstacle is first revealed to the Heroes, you describe the Obstacle aloud to them. 
+    - Before describing it, read the front of the card aloud.
     - Make the Obstacle sound easy, cool, sexy, or rewarding. You want Heroes to come to your lair and kill you, instead of one of the other villains.
     - Try to hint at any weaknesses in your description. Heroes shouldn't be going in blind.
     - Describe the obstacle in a way that matches BOTH the written description, and the weaknesses you roll. For example, a Ogre weak to Physical might have a big target on their back. It's hard to match both but that's what makes it fun.
-
-## Approaches
-
-| d6 | Approach |
-|----|----------|
-| 1  | Physical |
-| 2  | Smarts   |
-| 3  | Spirit   |
-| 4  | Charm    |
-| 5  | Energy   |
-| 6  | Coolness |
 
 ## How to Play
 - Each Hero describes their character
@@ -139,7 +128,7 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
     - If two Heroes fail, the first Hero to attempt describes how they failed, and the second Hero describes how they tried to help and how that also failed.
 - Obstacles (Success)
     - No Hero takes damage.
-    - Whichever Hero actually beat the Obstacle gets the loot. That Hero now has an additional approach, which they mark down on their character sheet.
+    - Whichever Hero actually beat the Obstacle gets the loot. That Hero now has an additional approach, which they mark down on their character sheet. They can pick any approach, or roll randomly.
     - If one Hero beat the Obstacle, they describe how they succeeded.
     - If one Hero failed and a second Hero beat the Obstacle: the succeeding Hero humorously describes how the first Hero was failing, and how the second Hero did things right after they jumped in.
     - The Hero describes where and how they got the Loot, and what it is. 
