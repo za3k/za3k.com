@@ -2,17 +2,7 @@
 # No, this cannot be! I AM INVINCIBLE! (v2)
 Written: 2021-02-08 by Zachary Vance. Version [1](/archive/invincible1.md) 2.
 
-**No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Some of the players are Heroes, and some are Villains. It's designed to be shorter (60 minutes) and friendly for players new to storytelling games.
-
-| Players | Heroes | Villains |
-|---------|--------|----------|
-| 2       | 1      | 1        |
-| 3       | 2      | 1        |
-| 4       | 2      | 2        |
-| 5       | 3      | 2        |
-| 6       | 3      | 3        |
-| 7       | 4      | 3        |
-| 8       | 5      | 3        |
+**No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Half the players are Heroes (round up), and half are Villains. It's designed to be shorter (60 minutes) and friendly for players new to storytelling games.
 
 Before the game, each Villain prepares a lair full of 6 obstacles. The game is about 15 minutes of prep for the Villains, and 45 minutes of play. During the game, Villains set the scene, and Heroes describe the action and outcome.
 
@@ -20,7 +10,7 @@ The Villain's goal is to send wave after wave of increasingly stronger enemies a
 
 If your group is competitive, try to be the first Hero to kill a Villain, and the first Villain to be killed. Whether you like to cooperate, compete, or just have fun making up silly stories--avoid killing a Hero, or everyone loses.
 
-You will need 6 index cards per villain, and 1 index card per hero (or similar materials, notebook paper will also work). You also need one d6 per player during character creation.
+**Materials**: You will need 6 index cards per villain, and 1 index card per hero (or similar materials, notebook paper will also work). You also need one d6 (normal six-sided die) per player.
 
 > *24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.)* - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
 
