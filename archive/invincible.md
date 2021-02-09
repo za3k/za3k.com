@@ -134,14 +134,16 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
     - The Villain gives a thumbs up if the Obstacle is weak against that approach, or a thumbs down if it is not. The Villain never describes the action after they set the scene.
     - If the Hero failed, another hero can choose to jump in and help. They should use a different approach. If the second hero fails, the attempt is over. If multiple heroes want to help, the failing Hero selects who helps.
 - Obstacles (Failure)
-    - If one Hero failed, they describe what they attempted and how it failed. If two Heroes fail, the first Hero to attempt describes how they failed, and the second Hero describes how they tried to help and how that also failed.
     - All Heroes who failed the Obstacle take 1 HP of damage.
+    - If one Hero failed, they describe what they attempted and how it failed.
+    - If two Heroes fail, the first Hero to attempt describes how they failed, and the second Hero describes how they tried to help and how that also failed.
 - Obstacles (Success)
-    - If one Hero attempted the Obstacle, they describe how they succeeded, and the loot they get.
-    - If one Hero failed and a second Hero succeeds, the succeeding Hero humorously describes how the first Hero was failing, and how the second Hero did things right after they jumped in. The second Hero describes the loot they get.
-    - No Heroes take damage.
-    - The Hero describes where and how they got the Loot, and what it is. If there was a helping Hero, the helper is the one who gets the Loot. The Hero now has an additional approach, which they mark down on their character sheet.
-    - After an Obstacle is beaten, that Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
+    - No Hero takes damage.
+    - Whichever Hero actually beat the Obstacle gets the loot. That Hero now has an additional approach, which they mark down on their character sheet.
+    - If one Hero beat the Obstacle, they describe how they succeeded.
+    - If one Hero failed and a second Hero beat the Obstacle: the succeeding Hero humorously describes how the first Hero was failing, and how the second Hero did things right after they jumped in.
+    - The Hero describes where and how they got the Loot, and what it is. 
+    - After an Obstacle is beaten, it is removed from play. That Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
 - Final Villain Showdown
     - When turning face-up the final card, the Villain describes their inner sanctum, and how the villain greets the Hero. They describe the villain in more detail, hinting at any weaknesses, and their secret goal.
     - The final fight works exactly like any normal Obstacle.
