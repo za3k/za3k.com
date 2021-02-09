@@ -1,4 +1,4 @@
-# Ninjas Ninjas Ninjas!
+# [za3k](/) > [games](/mygames.md) > Ninjas Ninjas Ninjas!
 Written: 2021-02-08 by Zachary Vance. Version [1](/archived/ninjas1.md) 2
 
 *Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 players exactly. It's designed to last 15-30 minutes. 

@@ -1,5 +1,4 @@
-# Ultimate Archwizards vs the Dark Lord
-# # GM Guide
+# [za3k](/) > [games](/mygames.md) > [Ultimate Archwizards vs the Dark Lord](/archive/ultimate_archwizard.md) GM Guide
 Don't read players!
 
 Okay, whew, that was close

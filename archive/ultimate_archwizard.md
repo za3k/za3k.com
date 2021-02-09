@@ -1,4 +1,4 @@
-# Ultimate Archwizards vs the Dark Lord
+# [za3k](/) > [games](/mygames.md) > Ultimate Archwizards vs the Dark Lord
 Written: 2021-02-03 by Zachary Vance
 
 ## Premise

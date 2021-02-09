@@ -1,4 +1,4 @@
-# Loot Boxes
+## [za3k](/) > [games](/mygames.md) > Loot Boxes
 Written 2021-02-08 by Zachary Vance
 
 A short storytelling game for 2-4 players, better with fewer. Play as long as you want, 10-60 minutes.

@@ -1,5 +1,4 @@
-Colony on the Moon
-===
+## [za3k](/) > [games](/mygames.md) > Colony on the Moon
 
 Currently in alpha. Test server is: xenu.thinkingtropes.com
 
