@@ -8,6 +8,8 @@ The Dark Lord has finally come to your solar system, and they will conquer it wi
 
 **Ultimate Archwizards vs the Dark Lord** is a somewhat goofy RP/improv game for 3-6 players (including GM). It's designed to be played in one session of 2-4 hours. Everyone should bring a sheet of paper, a pencil, and a normal six-sided die. The GM should read these rules ahead of time. Other preparation is discouraged.
 
+**Playtesting:** None
+
 ## Character and world creation (part 1)
 1. Draw or describe your character.
 2. **Mastery** and **powers**: Decide what you're the Ultimate Archwizard of ("lasers", "genies", or "pro wrestling" in the examples above). The GM will describe how you are the **master** of your school, and describe your two special **powers**.

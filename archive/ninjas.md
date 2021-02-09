@@ -5,37 +5,39 @@ Written: 2021-02-08 by Zachary Vance. Version [1](/archived/ninjas1.md) 2
 
 Audience: *Ninjas Ninjas Ninjas!* is not for complete beginners to storytelling games. There is very little guidance from the rules about what story to tell or how.
 
+**Playtesting:** None
+
 Each player controls a young journeyman ninja taking his/her/their final ninja exam. The three ninjas work together as a team to accomplish their goal. At all times one ninja is in **Front**. Front is the "player" who is actively deciding what to do, while the other ninjas throw problems at them and reward them with points. Who is in **Front** switches often.
 
 New events and challenges happen rapidly, and which player is doing what shifts quickly. Storytelling focuses on the ninjas being cool, and quick progress. Detailed description always illustrates just how COOL the ninja team and their moves are. It DOESN'T talk about the scenery, plot details, motives and emotions, or whether the enemies are also cool.
 
 The goals of the game are to be super awesome while accomplishing the mission, and throw as many **stars** as possible as quickly as possible.
 
-**Supplies needed**: None are mandatory, but coins, paper, or a timer may help.
-- I recommend using your fingers to track stars, but you can also pass around nickels to track throwing stars.
+**Supplies needed**: None are mandatory. Coins, paper, or a timer may help.
+- I recommend using your fingers to track stars, but you can also pass around nickels to represent the stars.
 - If you want to grade your exam exactly (guessing is fine), each player tracks how many stars they have thrown. To keep track, tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star.
-- If you wish, you can play with a timer.
+- If you wish, you can play with a time limit using a timer.
 
 ## Suggested Progression
-I've designed the rules to introduce complexity gradually. Feel free to progress faster or not at all, but here are my suggestions.
-- In game 1, play with none of the optional rules, and without keeping track of **stars**.
-- In game 2, add keep track of Stars and add the Exam Score. The goal of *Ninjas Ninjas Ninjas* is to throw as many stars as possible.
-- In game 3, add Roles. Play 3 games total with Roles, so every player gets to try every Role.
-- In game 6, you are now playing the real game. Start ramping up the speed until you're doing things without thinking first.
-- In game 6, add a timer. The timer is explained under Setup and Exam.
-- In game 8, make up your own cool ninja hand signals to replace all the yelling you've been doing.
-- In game 10, add the Role Swapping rule, which makes things extra crazy. You need to have memorized the Roles already.
+I've designed the rules to introduce complexity gradually, based on which game number you're on. Feel free to progress faster or not at all. The rules are clearly marked based on game number throughout. If you want to quickly see where things changed for your current game:
+- In game 1, you play with none of the optional rules, and without keeping track of **stars**.
+- In game 2, you keep track of Stars and add the Exam Score. The goal of *Ninjas Ninjas Ninjas* is to throw as many stars as possible.
+- In game 3, you add Roles.
+- In game 6, you playing the real game. Start ramping up the speed until you're doing things without thinking first.
+- In game 6, you add a timer. The timer is explained under "Setup" and "Stars and Exam Score".
+- In game 8, you make up your own cool ninja hand signals to replace all the yelling you've been doing.
+- In game 10, you add Role Swapping, which makes things extra crazy. You need to have memorized the Roles already.
 
 ## Setup (option 1, quickstart)
 One player shouts "Red!". One shouts "Blue!". One shouts "Green!". They immediately start playing.
 
-- The Place is feudal Japan. There are no secret techniques or ki. Guns and foreigners don't appear in the story. Ninjas are super-humanly stealthy, quick, and skilled. The tone is semi-realistic. The team are not good people. They are paid, loyal assassins.
+- The Place is feudal Japan. There are no secret techniques, ki, or anime attacks. Guns and foreigners don't appear in the story. Ninjas are super-humanly stealthy, quick, and skilled. The tone is semi-realistic. The team are not good people. They are paid, loyal assassins.
 - The Team consists of
     - **Red** starts as **Front**. Red is extra stealthy. No one knows what they look like under their hood. They favor knives and darts, don't talk, and are never squeamish.
     - **Blue** is tall and extra fast. He is a bow master who dispatches enemies before they see him. He makes decisions quickly and takes initiative under pressure. He wears a short, practical robe and is a good liar.
     - **Green** is a tactical genius, and physically strong. She talks slowly and favors a long katana. She wears padded armor and keeps her hair long.
 - The Mission is to assassinate the head of a manor without causing property damage, or inconveniencing any house servants. Guards and other family members may be killed.
-- (Game 6-10) If you want a timer, set it for 30 minutes.
+- (Game 6+) Set a timer for 30 minutes.
 
 ## Front
 One ninja is always **Front**. Front is the current team leader and decides what the team does. Attention is always on Front. Front describes aloud both what the team does, and what's happening in the world.
@@ -70,8 +72,8 @@ Stars
     - A star is thrown from each player to revive a downed ninja.
 
 Exam Score
-- At the end of the game, **your score is the number of stars you threw**. My recommended method is to guess. If you want to keep track, make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores.
-- (Game 6+, optional) The ninjas **fail the final exam if the timer runs out** and they haven't won (I suggest 5 to 30 minutes as a good limit). They also lose one point from their team score for each minute that passed before they sucessfully passed their exam.
+- At the end of the game, **your score is the number of stars you threw**. My recommended method is to guess. If you want to keep exact track, make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores.
+- (Game 6+, optional) The ninjas **fail the final exam if the timer runs out** and they haven't won.
 
 ## Roles (game 1-2)
 There are no roles. All players introduce any problems and award any points (explained below).
@@ -79,9 +81,11 @@ There are no roles. All players introduce any problems and award any points (exp
 ## Roles (game 3+)
 **Front** is the team leader. During setup, they assign each player a unique starting **Role**. The Roles are **Goal**, **Enemy**, and **Cheat**. With Roles, players can no longer introduce arbitrary problems, or reward arbitrary ninja behavior. Instead, they throw stars based only on their Role.
 
-At first learn the Roles slowly and thoroughly, re-reading your **Role** every time you get one. A cheat sheet is provided below for use during play. Explain to Front why you're throwing them a point star. After a couple games, memorize the Roles (this will be important in game 10). When you've memorized the Roles, stop explaining why you throw point stars, just yell "Point!".
+At first learn the Roles slowly and thoroughly, re-reading your **Role** every time you get one. A cheat sheet is provided below for use during play. Explain to Front why you're throwing them a point star. After a couple games, memorize the Roles. When you've memorized the Roles, stop explaining why you throw point stars, just yell "Point!".
 
 Once team has accomplished the main mission, **Goal** shouts "PASS!!". The ninjas have passed their final exam and won the game. The game is over.
+
+Feel free to make up your own Roles, these are just my suggestions.
 
 | Role  | Problem         | Points
 |-------|-----------------|--------------------------|
@@ -100,7 +104,7 @@ The other two players throw problems stars to Front. They throw a **problem star
 
 Front only introduces smaller problems, and doesn't throw problem stars to do it.
 
-## Problem Stars (game 3-10)
+## Problem Stars (game 3+)
 The other two players throw problems stars to Front. They throw a **problem star** to introduce a problem related to their Role only. No one shouts "Problem" any more.
 
 Front only introduces smaller problems, and doesn't throw problem stars to do it. They never introduce problems related to their Role as long as they are Front.
@@ -149,8 +153,8 @@ One player shouts "**Place**". A second player shouts "**Team**". The slowest pl
 - **Place**: Do ninjas have Naruto powers or they realistic? Are there cell phones? Is your team good or bad? Where does the exam take place?
 - **Team**: Come up with three ninja characters, each different. The **Team** player picks a character last. I recommend keeping the same names **Red**, **Blue** and **Green** for the players across games, regardless of characters they select.
 - **Mission**: What exactly do the three ninjas have to accomplish for their final exam? How complex the mission is determines how long the game will be.
-- (Game 3-10) Remember, **Front** assigns Roles before you start.
-- (Game 6-10) If you want to set a timer, **Mission** chooses the game length. 5-30 minutes is a good range.
+- (Game 3+) Remember, **Front** assigns Roles before you start.
+- (Game 6+) If you want to set a timer, **Mission** chooses the game length. 5-30 minutes is a good range.
 
 ## More Players
 - Ninjas Ninjas Ninjas requires at least 3 players, but it probably works with up to 5. You need one Role per player. Come up with your own Roles. Each Role needs at least one way to throw **problem stars**, and at least one way to throw **point stars**. If you have good Role ideas and try them out, send it to me!
