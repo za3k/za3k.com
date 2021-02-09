@@ -85,12 +85,12 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
 1. Design 6 **Obstacles** for the Heroes to face as they go through your lair.
     - Each one is written on an index card.
     - The front looks like this: "Flock of Seagulls, 4 weaknesses.". It should be legible.
-    - The back looks like this: "Weaknesses: Strength, Smarts, Charm, Stealth". The back is never shown to the Heroes so you can be sloppy.
+    - The back looks like this: "Weaknesses: Strength, Smarts, Charm, Stealth". The back is never shown to the Heroes.
 2. Pick each of the 6 obstacles.
     - Describe each Obstacle in 2-4 words, writing it legibly on the front of an index card. For example, write "Flock of Seagulls".
     - It could be a minion, a trap, a secret door, or anything else at all. Make your Obstacles interesting and goofy.
     - You, the Villain, are always the 6th and final Obstacle. Give yourself a card too.
-3. For each Obstacle, use the table in "Making Heroes" to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
+3. For each Obstacle, roll randomly using the table in "Making Heroes" to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
     - The 1st obstacle is weak to all 6 approaches. (You don't need to roll.)
     - The 2nd obstacle is weak to 4 approaches. (Rolling and describing what the obstacle is NOT weak to is faster)
     - The 3rd obstacle is weak to 3 approaches
