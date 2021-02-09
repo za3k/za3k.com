@@ -92,8 +92,8 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
     - You, the Villain, are always the 6th and final Obstacle. Give yourself a card too.
 3. For each Obstacle, roll randomly using the table in "Making Heroes" to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
     - The 1st obstacle is weak to all 6 approaches. (You don't need to roll.)
-    - The 2nd obstacle is weak to 4 approaches. (Rolling and describing what the obstacle is NOT weak to is faster)
-    - The 3rd obstacle is weak to 3 approaches
+    - The 2nd obstacle is weak to 3 approaches.
+    - The 3rd obstacle is weak to 3 approaches.
     - The 4th obstacle is weak to 2 approaches.
     - The 5th obstacle is weak to 2 approaches.
     - The Villain is weak to only 1 approach.
