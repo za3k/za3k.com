@@ -38,25 +38,26 @@ One player shouts "Red!". One shouts "Blue!". One shouts "Green!". They immediat
 - (Game 6-10) If you want a timer, set it for 30 minutes.
 
 ## Front
-One ninja is always **Front**. The are the current team leader and decide what the team does. Attention is on Front. Front's team accomplishes tasks quickly, in cool ways, and then quickly goes to the next step of the plan.
+One ninja is always **Front**. Front is the current team leader and decides what the team does. Attention is always on Front. Front describes aloud both what the team does, and what's happening in the world.
 
-- Front should describe both what the team does, and what's happening in the world. 
-- Ninjas are cool, skillful, deadly, quiet, efficient, they cheat constantly, and they have perfect teamwork. The point of the game is for the ninjas to show off being as awesome as possible.
-- **Front should change often.** Whenever Front thinks another ninja should take charge, they just yell "Red, Front!" and now the Red ninja is in Front. The old Front throws a **star** to the new front. It's coolest if Front puts another ninja in charge when that ninja would be able to handle the situation or next step of the plan better.
+- **Front should change often.** Whenever Front thinks another ninja should take charge, they just yell "Red, Front!" and now the Red ninja is **Front**. It's coolest if Front puts another ninja in charge because they can best handle the situation or next step of the plan.
+- Front's team accomplishes tasks quickly, then quickly goes to the next step of the plan.
+- Ninjas have perfect teamwork. They're cool, skillful, deadly, quiet, efficient, and cheat constantly. **The point of the game is for the ninja team to show off being as awesome as possible.**
 - Front can and should introduce minor new obstacles, such as walls, moats, and individual peons.
-- If Front tells you to grab a bucket of water, your ninja runs to the well without hesitation--a ninja team trusts each other completely. When members of the team other than the Front do something, they answer "Yes, Front!" or describe it very quickly without detail: "Green runs to the well and tosses Red a bucket". Keeping responses short keeps the attention on Front.
-- Front describes what the team does, but they don't explain why. Other players should make an effort to understand Front's plan so they can continue it. Ignoring the previous Front's plan would be lame, and ninjas aren't lame.
-- If there's a long lull, another ninja can jump in and describe what's happening in the world, but not what the team does.
+- If Front tells a ninja to grab a bucket of water, your ninja runs to the well without hesitation--a ninja team trusts each other completely. When members of the team other than the Front do something, they answer "Yes, Front!" or describe it very quickly without detail: "Green runs to the well and tosses Red a bucket". Keeping responses short keeps the attention on Front.
+- Ninja teams don't need to talk. Front describes *what* the team does, but doesn't explain *why*. The other players actively think about Front's plan so they can continue it. Ignoring the previous Front's plan would be lame, and ninjas aren't lame.
+- If there's a long lull, another ninja can jump in and describe what's happening in the world, but not what the team does. If you're not sure what to do, just do *something* to keep the pace up--it doesn't matter if it's perfect.
 - (Games 1-2 only) If team has accomplished the main mission, Front shouts "PASS!!". The ninjas have passed their final exam and won the game. The game is over.
+- (Games 2+) The old Front throws a star to the new Front. 
 
 ## Stars and Exam Score (game 1 only)
-Sometimes you will throw a star. You always throw a star **to Front**. You never throw a star as Front.
+- Sometimes you will throw a star. You always throw a star **to Front**. You never throw a star as Front.
 - Each ninjas has several ninja stars. Don't keep track of how many stars you have or throw. Just get in the habit of throwing them.
 - Your exam is pass/fail only. When you accomplish your mission, you pass the exam.
 
 ## Stars and Exam Score (game 2+)
 Stars
-- Each ninja starts with 3 **ninja stars**. Track how many ninja stars you have by counting on your fingers. If that doesn't work for your group, pass around coins instead, starting with three each.
+- Each ninja starts with 3 ninja **stars**. Track how many ninja stars you have by counting on your fingers. If that doesn't work for your group, pass around coins instead, starting with three each.
 - Sometimes you will throw a star. You always throw a star **to Front**. You never throw a star as Front.
 - When you throw a star, you lose a star, and **Front** adds a star.
 - Your goal is to throw stars as quickly as possible.
