@@ -48,15 +48,16 @@ Choose or randomly roll your character's starting **Approach**.
 | 6  | Coolness |
 
 - Make up a name for your hero, and describe your Hero to all the other Heroes and Villains.
-- Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
 - Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. 
-- If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
-- If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
+- Write down the six approaches: **Physical, Smarts, Spirit, Charm, Energy, Coolness**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
 - As you adventure, you will may get sweet loot. Loot gives you additional **Approaches**. 
 - Loot
     - Each Loot gives the Hero one additional approach. You roll randomly to see what approach the loot give you.
     - If you're unlucky, you may get an approach you already have. You can give away loot when you get it, but you can't reroll.
     - Once a Hero gets loot, you put a checkmark next to your new approach. You can now use that approach to beat Obstacles.
+- Whenever you try to overcome an Obstacle, you pick one of your available **approaches**. Each Obstacle will either be vulnerable to that approach, or strong against it. If the Obstacle is vulnerable to your approach, you succeed. Otherwise, you fail. A Villain's description of the Obstacle will give you clues about its vulnerabilites.
+- If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
+- If the Heroes collectively beat all the Villains, the land is safe. All Heroes and Villains win, even if you didn't beat a Villain.
 
 ## Making Villains
 Make up a villain, or roll randomly to make your Villain. "I am a(n)..." (roll once per column)
@@ -119,11 +120,11 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
 ## How to Play
 - Each Hero describes their character
 - Each Villain describes their persona and their lair.
-- Each Villain reveals their lair's first Obstacle. They give a description aloud of the Obstacle, which players enjoy and listen to carefully for clues. 
+- Each Villain reveals their lair's first Obstacle. The Villain sets the scene by giving a description aloud of the Obstacle, which players enjoy and listen to carefully for clues. 
 - Select which Hero goes first however you like.
-- For the remainder of play, each Hero in turn selects a visible Obstacle. After they beat it or fail, play passes to the next Hero. This continues until the game is won or lost.
+- For the remainder of play, each Hero in turn selects a visible **Obstacle**. After they beat it or fail, play passes to the next Hero. This continues until the game is won or lost.
 - Obstacles (Success and Failure)
-    - Each Hero in turn selects one Obstacle, indicating it. The Hero states which of six approaches they use: **Magic**, **Spirit**, **Physical**, **Smarts** they use. For example "Gertie uses Spirit on the flock of seagulls." Heroes can only use the approaches marked on their character sheet.
+    - Each Hero in turn selects one Obstacle, indicating it. The Hero states which of six approaches they use: **Physical**, **Smarts**, **Spirit**, **Charm**, **Energy**, or **Coolness** they use. For example "Gertie uses Spirit on the flock of seagulls." Heroes can only use the approaches marked on their character sheet.
     - The Villain gives a thumbs up if the Obstacle is weak against that approach, or a thumbs down if it is not. The Villain never describes the action after they set the scene.
     - If the Hero failed, another hero can choose to jump in and help. They should use a different approach. If the second hero fails, the attempt is over. If multiple heroes want to help, the failing Hero selects who helps.
 - Obstacles (Failure)
@@ -132,13 +133,13 @@ Make up a weak spot and a goal, or roll randomly for them. "I sure hope no one..
     - If two Heroes fail, the first Hero to attempt describes how they failed, and the second Hero describes how they tried to help and how that also failed.
 - Obstacles (Success)
     - No Hero takes damage.
-    - Whichever Hero actually beat the Obstacle gets the loot. (See Heroes to learn about loot)
+    - Whichever Hero actually beat the Obstacle gets the loot. (See "Making Heroes" to learn about loot)
     - If one Hero beat the Obstacle, they describe how they succeeded.
     - If one Hero failed and a second Hero beat the Obstacle: the succeeding Hero humorously describes how the first Hero was failing, and how the second Hero did things right after they jumped in.
     - The Hero describes where and how they got the Loot, what it is, and how the Hero improves.
     - After an Obstacle is beaten, it is removed from play. That Villain turns face-up the next Obstacle in their lair, and describes it aloud to the Heroes just like the first.
 - Final Villain Showdown
-    - When turning face-up the final card, the Villain describes their inner sanctum, and how the villain greets the Hero. They describe the villain in more detail, hinting at any weaknesses, and their secret goal.
+    - Turning face-up the final Obstacle, the Villain themselves, is more detailed. The Villain describes their inner sanctum, and how the villain greets the Hero. They describe the villain's appearance and activities in detail, hinting at any special weaknesses or secret goal.
     - The final fight works exactly like any normal Obstacle.
     - When the final Villain is defeated (or wins against a Hero), the Villain can help describe the action if they want. Villains are encouraged to cry out "No, this cannot be! I AM INVINCIBLE!" or similar nonsense on defeat.
 - Winning or Losing the Game
