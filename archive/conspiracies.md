@@ -1,4 +1,4 @@
-# Stupid Conspiracy
+# Stupid Conspiracies
 Designed 2021-01-17 by Zachary Vance
 
 A 30-minute party game for about 10 players. Competitive but goofy, not really about winning. Can be played online.
