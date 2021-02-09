@@ -49,6 +49,7 @@ One ninja is always **Front**. Front is the current team leader and decides what
 - If there's a long lull, another ninja can jump in and describe what's happening in the world, but not what the team does. If you're not sure what to do, just do *something* to keep the pace up--it doesn't matter if it's perfect.
 - (Games 1-2 only) If team has accomplished the main mission, Front shouts "PASS!!". The ninjas have passed their final exam and won the game. The game is over.
 - (Games 2+) The old Front throws a star to the new Front. 
+- (Games 2+) If Front has 5 or more stars, they MUST tag in a new Front immediately.
 
 ## Stars and Exam Score (game 1 only)
 - Sometimes you will throw a star. You always throw a star **to Front**. You never throw a star as Front.
