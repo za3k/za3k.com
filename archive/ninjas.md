@@ -58,24 +58,29 @@ One ninja is always **Front**. Front is the current team leader and decides what
 ## Stars and Exam Score (game 2+)
 Stars
 - Each ninja starts with 3 ninja **stars**. Track how many ninja stars you have by counting on your fingers. If that doesn't work for your group, pass around coins instead, starting with three each.
-- Sometimes you will throw a star. You always throw a star **to Front**. You never throw a star as Front.
-- When you throw a star, you lose a star, and **Front** adds a star.
-- Your goal is to throw stars as quickly as possible.
+- Sometimes you will throw a star. You always shout and throw a star **to Front**. You never throw a star *as* Front. You never shout without throwing a star.
+- When you throw a star, you lose 1 star, and Front gains 1 star.
+- Your goal is to throw stars as quickly as possible. *Having* stars doesn't matter, only *throwing* them.
 - If you run out of stars, you whisper "Ninja Down. Taking **Front**". You are now **Front**. The other two players each shout "Helping Up Ninja" and immediately throw you a star. You should have two stars now.
+- When are stars thrown?
+    - A star is thrown to switch Front.
+    - Problem stars introduce a problem
+    - Point stars reward ninja-like behavior
+    - A star is thrown from each player to revive a downed ninja.
 
 Exam Score
 - At the end of the game, **your score is the number of stars you threw**. My recommended method is to guess. If you want to keep track, make a tally mark whenever you throw a star. This is your individual score. The team score is the sum of the individual scores.
-- (Game 6+, optional) The ninjas **fail the final exam** if the timer runs out and they haven't won (I suggest 5 to 30 minutes as a good limit). They also lose one point from their team score for each minute that passed before they sucessfully passed their exam.
+- (Game 6+, optional) The ninjas **fail the final exam if the timer runs out** and they haven't won (I suggest 5 to 30 minutes as a good limit). They also lose one point from their team score for each minute that passed before they sucessfully passed their exam.
 
 ## Roles (game 1-2)
 There are no roles. All players introduce any problems and award any points (explained below).
 
 ## Roles (game 3+)
-**Front** is the team leader. During setup, they assign each player a unique starting **Role**--**Goal**, **Enemy**, or **Cheat**. Players can no longer arbitrarily throw problem and point stars. Instead, they throw stars based only on their Role.
+**Front** is the team leader. During setup, they assign each player a unique starting **Role**. The Roles are **Goal**, **Enemy**, and **Cheat**. With Roles, players can no longer introduce arbitrary problems, or reward arbitrary ninja behavior. Instead, they throw stars based only on their Role.
 
-At first start slow, and review a **Role** every time you get it. Use the cheat sheet below. Explain to Front why you're throwing them a point star. After a couple games, players should memorize the Roles, and just yell "Point!".
+At first learn the Roles slowly and thoroughly, re-reading your **Role** every time you get one. A cheat sheet is provided below for use during play. Explain to Front why you're throwing them a point star. After a couple games, memorize the Roles (this will be important in game 10). When you've memorized the Roles, stop explaining why you throw point stars, just yell "Point!".
 
-If team has accomplished the main mission, **Goal** shouts "PASS!!". The ninjas have passed their final exam and won the game. The game is over.
+Once team has accomplished the main mission, **Goal** shouts "PASS!!". The ninjas have passed their final exam and won the game. The game is over.
 
 | Role  | Problem         | Points
 |-------|-----------------|--------------------------|
@@ -84,18 +89,20 @@ If team has accomplished the main mission, **Goal** shouts "PASS!!". The ninjas 
 | Cheat | Surprise        | Skill/Clever, Cheat/Trap |
 
 ## Role Swapping (game 1-9)
-Each player keeps the same Role through the entire game. Make sure to try a new role each game, so you learn all the Roles.
+Each player keeps the same Role through the entire game. Make sure to try a new role each game, so you learn all the Roles. Try to memorize the Roles and not refer to the cheat sheet.
 
 ## Role Swapping (game 10+)
 When you run out of stars and swap with Front, you also permanently swap **Roles** with that player for the rest of the game. You may swap many times during a game.
 
 ## Problem Stars (game 1-2 only)
-The other two players throw problems at **Front**. They throw a **problem star** to introduces a boss, spot or trigger a trap, have a special event or twist happen, or have the goals shift on the team. When one of the other players introduces a problem, they shout "Problem" and explain the problem, throwing a **star** to **Front**.
+The other two players throw problems stars to Front. They throw a **problem star** to introduce a boss, to spot or trigger a trap, to have a special event or twist happen, or to have the goals shift on the team. When one of the other players introduces a problem, they shout "Problem" and explain the problem, throwing a star to Front.
 
-**Front** only introduces smaller problems, and doesn't throw **problem star**s to do it.
+Front only introduces smaller problems, and doesn't throw problem stars to do it.
 
 ## Problem Stars (game 3-10)
-Front doesn't introduce problems using their Role, but continues to introduce small problems as Front. The other two ninjas throw **problem stars**. With Roles, no one shouts "Problem" any more.
+The other two players throw problems stars to Front. They throw a **problem star** to introduce a problem related to their Role only. No one shouts "Problem" any more.
+
+Front only introduces smaller problems, and doesn't throw problem stars to do it. They never introduce problems related to their Role as long as they are Front.
 
 Here's what each role does by throwing a **problem star**:
 - **Goal**: introduce a new goal, or shift an existing goal. 
@@ -115,12 +122,12 @@ Here's what each role does by throwing a **problem star**:
     - Example: The boss you killed in Act One shows up again looking fine, with your infiltration plan in hand. 
 
 ## Point Stars (game 1-2 only)
-The other two players throw **point stars** at **Front**. They throw a point when the team does something cool and ninja-y, like being extra stealthy, cheating, or completing a goal perfectly. When one of the other players rewards the team, they shout "Point" without explanation, and throw a **star** to **Front**.
+The other two players throw **point stars** at Front. They throw a point when the team does something cool and ninja-y, like being extra stealthy, cheating, or completing a goal perfectly. When one of the other players rewards the team, they shout "Point" without explanation, and throw a star to Front.
 
 **Front** never throws **point stars**.
 
 ## Point Stars (game 3+)
-The other two players throw **point stars** at **Front**. They throw a point when the team does something cool and ninja-y, like being extra stealthy, cheating, or completing a goal perfectly. When one of the other players rewards the team, they shout "Point" without explanation, and throw a **star** to **Front**.
+The other two players throw **point stars** at Front. They throw a point when the team does something cool and ninja-y, like being extra stealthy, cheating, or completing a goal perfectly. When one of the other players rewards the team, they shout "Point" without explanation, and throw a star to Front.
 
 **Front** never throws **point stars**.
 
