@@ -17,7 +17,7 @@ The goals of the game are to be super awesome while accomplishing the mission, a
 - If you want to grade your exam exactly (guessing is fine), each player tracks how many stars they have thrown. To keep track, tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star.
 - If you wish, you can play with a time limit using a timer.
 
-written 2021-02-08 by zachary "za3k" vance. Version [1](/archived/ninjas1.md) 2
+written 2021-02-08 by zachary "za3k" vance. Version [1](/archive/ninjas1.md) 2
 
 ## Suggested Progression
 I've designed the rules to introduce complexity gradually, based on which game number you're on. Feel free to progress faster or not at all. The rules are clearly marked based on game number throughout. If you want to quickly see where things changed for your current game:

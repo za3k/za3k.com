@@ -1,6 +1,6 @@
-[za3k](/) > [Games](/mygames.md) > stupid conspiracies
+[za3k](/) > [games](/mygames.md) > stupid conspiracies
 
-**playtesting: none**. made after testing [stupid russia](/archive/stupid_russia.md) and finding major problems
+**playtesting: none**. 
 
 A 30-minute party game for about 10 players. Competitive but goofy, not really about winning. Can be played online.
 
@@ -18,3 +18,6 @@ written 2021-01-17 by zachary "za3k" vance
         - 5+ people? 0 points, that's just the news.
     - You get points for making people believe your conspiracy.
         - +1 point for everyone who's in your conspiracy (include yourself)
+
+## History
+made after testing [stupid russia](/archive/stupid_russia.md) and finding major problems
