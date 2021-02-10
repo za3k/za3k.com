@@ -1,14 +1,14 @@
-# [za3k](/) > [games](/mygames.md) > Ultimate Archwizards vs the Dark Lord
-Written: 2021-02-03 by Zachary Vance
+[za3k](/) > [games](/mygames.md) > ultimate archwizards vs the dark lord
+written 2021-02-03 by zachary "za3k" vance
 
 ## Premise
 You are an Ultimate Archwizard of your school--maybe you are the Laser Archwizard, maybe you're the Ultimate Genie who can grant any wish, or maybe you're the World Pro Wrestling champion who's so good you can compact opponents into a black hole while monologuing.
 
 The Dark Lord has finally come to your solar system, and they will conquer it without fail as they have all others before yours, unless you stop them! Only you, the most powerful beings of your world, can possibly stop the Dark Lord.
 
-**Ultimate Archwizards vs the Dark Lord** is a somewhat goofy RP/improv game for 3-6 players (including GM). It's designed to be played in one session of 2-4 hours. Everyone should bring a sheet of paper, a pencil, and a normal six-sided die. The GM should read these rules ahead of time. Other preparation is discouraged.
+*Ultimate Archwizards vs the Dark Lord* is a somewhat goofy RP/improv game for 3-6 players (including GM). It's designed to be played in one session of 2-4 hours. Everyone should bring a sheet of paper, a pencil, and a normal six-sided die. The GM should read these rules ahead of time. Other preparation is discouraged.
 
-**Playtesting:** None
+**Playtesting: None**
 
 ## Character and world creation (part 1)
 1. Draw or describe your character.

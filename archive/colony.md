@@ -1,4 +1,4 @@
-## [za3k](/) > [games](/mygames.md) > Colony on the Moon
+[za3k](/) > [games](/mygames.md) > colony on the moon
 
 Currently in alpha. Test server is: xenu.thinkingtropes.com
 

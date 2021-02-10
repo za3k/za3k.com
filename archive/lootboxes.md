@@ -1,5 +1,5 @@
-## [za3k](/) > [games](/mygames.md) > Loot Boxes
-Written 2021-02-08 by Zachary Vance
+[za3k](/) > [games](/mygames.md) > loot boxes
+written 2021-02-08 by zachary "za3k" vance
 
 A short storytelling game for 2-4 players, better with fewer. Play as long as you want, 10-60 minutes.
 

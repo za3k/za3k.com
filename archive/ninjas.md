@@ -1,11 +1,10 @@
-# [za3k](/) > [games](/mygames.md) > Ninjas Ninjas Ninjas!
-Written: 2021-02-08 by Zachary Vance. Version [1](/archived/ninjas1.md) 2
+[za3k](/) > [games](/mygames.md) > ninjas ninjas ninjas!
+written 2021-02-08 by zachary "za3k" vance. Version [1](/archived/ninjas1.md) 2
+**Playtesting: None**
 
 *Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 players exactly. It's designed to last 15-30 minutes. 
 
 Audience: *Ninjas Ninjas Ninjas!* is not for complete beginners to storytelling games. There is very little guidance from the rules about what story to tell or how.
-
-**Playtesting:** None
 
 Each player controls a young journeyman ninja taking his/her/their final ninja exam. The three ninjas work together as a team to accomplish their goal. At all times one ninja is in **Front**. Front is the "player" who is actively deciding what to do, while the other ninjas throw problems at them and reward them with points. Who is in **Front** switches often.
 

@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" media="all" href="/archive/invincible.css"/>
-# [za3k](/) > [games](/mygames.md) > "No, this cannot be! I AM INVINCIBLE!"
-Written: 2021-02-07 by Zachary Vance
+[za3k](/) > [games](/mygames.md) > "no, this cannot be! I AM INVINCIBLE!"
+written 2021-02-07 by zachary "za3k" vance
 
 **No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Some of the players are Heroes, and some are Villains. It's designed to be short (30 minutes) and friendly for players new to storytelling games.
 
