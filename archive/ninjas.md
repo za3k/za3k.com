@@ -1,6 +1,6 @@
 [za3k](/) > [games](/mygames.md) > ninjas ninjas ninjas!
 
-**Playtesting: None**
+**playtesting: none**
 
 *Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 players exactly. It's designed to last 15-30 minutes. 
 
@@ -17,6 +17,8 @@ The goals of the game are to be super awesome while accomplishing the mission, a
 - If you want to grade your exam exactly (guessing is fine), each player tracks how many stars they have thrown. To keep track, tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star.
 - If you wish, you can play with a time limit using a timer.
 
+written 2021-02-08 by zachary "za3k" vance. Version [1](/archived/ninjas1.md) 2
+
 ## Suggested Progression
 I've designed the rules to introduce complexity gradually, based on which game number you're on. Feel free to progress faster or not at all. The rules are clearly marked based on game number throughout. If you want to quickly see where things changed for your current game:
 - In game 1, you play with none of the optional rules, and without keeping track of **stars**.
@@ -26,6 +28,8 @@ I've designed the rules to introduce complexity gradually, based on which game n
 - In game 6, you add a timer. The timer is explained under "Setup" and "Stars and Exam Score".
 - In game 8, you make up your own cool ninja hand signals to replace all the yelling you've been doing.
 - In game 10, you add Role Swapping, which makes things extra crazy. You need to have memorized the Roles already.
+
+# Rules
 
 ## Setup (option 1, quickstart)
 One player shouts "Red!". One shouts "Blue!". One shouts "Green!". They immediately start playing.
@@ -156,5 +160,3 @@ One player shouts "**Place**". A second player shouts "**Team**". The slowest pl
 
 ## More Players
 - Ninjas Ninjas Ninjas requires at least 3 players, but it probably works with up to 5. You need one Role per player. Come up with your own Roles. Each Role needs at least one way to throw **problem stars**, and at least one way to throw **point stars**. If you have good Role ideas and try them out, send it to me!
----
-written 2021-02-08 by zachary "za3k" vance. Version [1](/archived/ninjas1.md) 2

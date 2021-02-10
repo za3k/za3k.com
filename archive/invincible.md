@@ -1,7 +1,5 @@
 <link rel="stylesheet" type="text/css" media="all" href="/archive/invincible.css"/>
 [za3k](/) > [games](/mygames.md) > "no, this cannot be! I AM INVINCIBLE!" (v2)
----
-written 2021-02-08 by zachary "za3k" vance. version [1](/archive/invincible1.md) 2.
 
 **No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Half the players are Heroes (round up), and half are Villains. It's designed to be friendly for players new to storytelling games. 
 
@@ -14,6 +12,8 @@ If your group is competitive, try to be the first Hero to kill a Villain, and th
 **Materials**: You will need 6 index cards per Villain, and 1 index card per Hero (or similar materials, notebook paper will also work). You also need one d6 (normal six-sided die) per player.
 
 > *24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.)* - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
+
+written 2021-02-08 by zachary "za3k" vance. version [1](/archive/invincible1.md) 2.
 
 ## Making Heroes
 Make up a hero, or roll randomly to make your Hero. "I am a ..." (roll once per column)

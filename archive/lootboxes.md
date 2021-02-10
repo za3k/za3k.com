@@ -1,9 +1,10 @@
 [za3k](/) > [games](/mygames.md) > loot boxes
 
-written 2021-02-08 by zachary "za3k" vance
+**playtesting: none**
+
 A short storytelling game for 2-4 players, better with fewer. Play as long as you want, 10-60 minutes.
 
-**Playtesting**: None
+written 2021-02-08 by zachary "za3k" vance
 
 ### Rules
 - Each player describes their character in one or two sentences. They also have a starting inventory of any three items they want. The player will always have exactly three items.

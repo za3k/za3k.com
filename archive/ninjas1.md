@@ -1,5 +1,5 @@
 [za3k](/) > [games](/mygames.md) > ninjas ninjas ninjas!
-written 2021-02-07 by zachary "za3k" vance
+
 **playtesting: none**
 
 *Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 more or players (instructions are written for 3). It's designed to last 5-30 minutes--how long exactly is up to the players. New events and challenges happen rapidly, and which player is doing what shifts quickly. 
@@ -13,6 +13,8 @@ Storytelling focuses on the ninjas being cool, and quick progress. Detailed desc
 The goals of the game are to accomplish your mission, be super awesome, and throw as many **stars** as possible as quickly as possible.
 
 **Supplies needed**: None, in the worst case. Ideally, each player tracks how many stars they have thrown--you tally in front of you on paper, or take a penny from a stack in the middle whenever you throw a star. If you wish, you can play with a timer. If your group has trouble keeping track mentally, you can also use nine nickels to track throwing stars.
+
+written 2021-02-07 by zachary "za3k" vance
 
 ## Learning
 

@@ -1,9 +1,10 @@
 [za3k](/) > [Games](/mygames.md) > stupid conspiracies
-written 2021-01-17 by zachary "za3k" vance
+
+**playtesting: none**. made after testing [stupid russia](/archive/stupid_russia.md) and finding major problems
 
 A 30-minute party game for about 10 players. Competitive but goofy, not really about winning. Can be played online.
 
-**Playtesting**: Not playtested yet. Made after testing [stupid russia](/archive/stupid_russia.md) and finding major problems with it.
+written 2021-01-17 by zachary "za3k" vance
 
 ## Rules
 
