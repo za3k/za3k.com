@@ -1,10 +1,11 @@
 [za3k](/) > [games](/mygames.md) > loot boxes
-written 2021-02-08 by zachary "za3k" vance
 
+written 2021-02-08 by zachary "za3k" vance
 A short storytelling game for 2-4 players, better with fewer. Play as long as you want, 10-60 minutes.
 
 **Playtesting**: None
 
+### Rules
 - Each player describes their character in one or two sentences. They also have a starting inventory of any three items they want. The player will always have exactly three items.
 - One player starts out as GM. The GM describes a challenging situation. For example the player's driver's license has expired but they need to get to the airport to pick up Rhianna.
 - The next player describes how they solve the challenge using an item in their inventory. For example, they use their Grouch Marx disguise to blend in with the orcish army.
@@ -17,5 +18,5 @@ A short storytelling game for 2-4 players, better with fewer. Play as long as yo
 - **Variant**: When you succeed at a challenge, get two items, not one. Players start with only one item.
 - **Variant**: Start with 5 items. Whenever you finish a challenge, throw an extra item you dislike out (each challenge you gain 1 item and lose 2). When you're out of items, the game is over.
 
-## Acknowledgements
+### Acknowledgements
 - Thanks to Fenn for comments on [No, this cannot be](/archive/invincible.md) and Cards Against Humanity
