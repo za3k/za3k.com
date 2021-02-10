@@ -1,5 +1,5 @@
 [za3k](/) > [games](/mygames.md) > ninjas ninjas ninjas!
-written 2021-02-08 by zachary "za3k" vance. Version [1](/archived/ninjas1.md) 2
+
 **Playtesting: None**
 
 *Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 players exactly. It's designed to last 15-30 minutes. 
@@ -156,3 +156,5 @@ One player shouts "**Place**". A second player shouts "**Team**". The slowest pl
 
 ## More Players
 - Ninjas Ninjas Ninjas requires at least 3 players, but it probably works with up to 5. You need one Role per player. Come up with your own Roles. Each Role needs at least one way to throw **problem stars**, and at least one way to throw **point stars**. If you have good Role ideas and try them out, send it to me!
+--
+written 2021-02-08 by zachary "za3k" vance. Version [1](/archived/ninjas1.md) 2
