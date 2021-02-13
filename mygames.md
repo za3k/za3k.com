@@ -4,7 +4,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [loot boxes](/archive/lootboxes.md)                                      | 2021-02-08 | storytelling         | low        | 2-4          | no       | maybe         | Players have an inventory of random items. They must use the items to solve a series of challenges.
+| [loot boxes](/archive/lootboxes.md)                                      | 2021-02-08 | storytelling         | low        | 2-4          | yes      | maybe         | "Car trip" game. Players have an inventory of random items. They must use the items to solve a series of challenges.
 | [no, this cannot be! I AM INVINCIBLE!](/archive/invincible.md) v2        | 2021-02-08 | storytelling         | mid        | 2-8          | no       | maybe         | Villains send wave after harder wave of enemies at the Heros, until they kill the Villains.
 | [ninjas ninjas ninjas!](/archive/ninjas.md) v2                           | 2021-02-07 | storytelling         | mid-high   | 3            | no       | no            | Fast, diceless storytelilng game about how cool ninjas are.
 | [ultimate archwizards vs the dark Lord](/archive/ultimate_archwizard.md) | 2021-02-03 | storytelling         | low        | 3-5, plus GM | no       | yes           | One-page storytelling game about the final episode in a fight anime.
