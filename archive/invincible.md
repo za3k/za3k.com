@@ -136,3 +136,6 @@ Decide why you want the heroes to defeat you, or roll randomly for your goal. Ke
     - Victory: If a Hero beats a Villain, both the Hero and Villain win and watch the rest of the game without taking part. If two Heroes beat a Villain, only the Hero that actually beats the Villain wins and stops playing.
     - Victory: If all Villains are beaten, everyone wins.
     - Defeat: If even one Hero dies (is reduced to 0 HP), all remaining Heroes and Villains lose.
+
+## Acknowledgements
+- Thanks to 3 Pandemonium players for the first playtest.
