@@ -4,7 +4,7 @@
 
 A party game of making and breaking alliances for 8-20 players. One player is the Inspector (this could be done by a computer), and the other players are Stupid KGB Directors. The Directors all have a list of spies loyal to them. They try to report as many names as possible, but if too many Directors report a name, the agent is killed and all Directors who reported that agent lose some points. Everyone is encouraged to adopt a stupid persona and a bad Russian accent.
 
-written 2017 by zachary "za3k" vance and an anonymous friend. revised and playtested 2021-01-15.
+written 2017-10-29 by zachary "za3k" vance and an anonymous friend. revised and playtested 2021-01-15.
 
 ## Rules
 Each player gets instructions that looks like the following:
