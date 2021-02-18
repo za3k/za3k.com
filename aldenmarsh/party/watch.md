@@ -12,3 +12,12 @@ The Watch is currently deciding how to align itself between the Council and Chur
 
 Castle Hop is a Watch headquarters and training ground outside Hopmire. It used to be one of the royal castles, so it's unmaintained now, and Hopmire thinks it's abandoned. There is an orphanage in Hopmire secretly run by the Watch.
 
+## People
+
+- Jacob Riend. Rogue trainer and recruiter. Usually at Hopmire or Castle Hop.
+- Skara. Paladin trainer. At Castle Hop.
+- Grub "The Silent". Orc who runs the Canyonport safehouse. One of the higher-ups in Canyonport.
+
+## Codewords
+
+- "Jacob's Boat" is Castle Hop.
