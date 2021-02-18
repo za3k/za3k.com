@@ -10,7 +10,7 @@ The Watch is currently deciding how to align itself between the Council and Chur
 
 ## Watch Oath
 
-*I swear to do always what is right and just. All are equally deserving of peace, kindness, and good in the eyes of the Gods. I will show mercy to those I can, and exterminate evil where I must. I will protect and help my brothers and sisters in the Watch.*
+*I swear to do always what is right and just, even if it means my life. All are equally deserving of peace, kindness, and good in the eyes of the Gods. I will show mercy to those I can, and exterminate evil where I must. I will protect and help my brothers and sisters in the Watch.*
 
 Also, the Aldenmarsh Watch members are warned about the deadly seriousneess of keeping the existence of the Watch in Aldenmarsh completely secret.
 
