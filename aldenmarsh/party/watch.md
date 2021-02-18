@@ -8,6 +8,12 @@ The Watch has no single, overarching goal other than to make the world better fo
 
 The Watch is currently deciding how to align itself between the Council and Church, and a possible revolutionary group.
 
+## Watch Oath
+
+*I swear to do always what is right and just. All are equally deserving of peace, kindness, and good in the eyes of the Gods. I will show mercy to those I can, and exterminate evil where I must. I will protect and help my brothers and sisters in the Watch.*
+
+Also, the Aldenmarsh Watch members are warned about the deadly seriousneess of keeping the existence of the Watch in Aldenmarsh completely secret.
+
 ## Castle Hop
 
 Castle Hop is a Watch headquarters and training ground outside Hopmire. It used to be one of the royal castles, so it's unmaintained now, and Hopmire thinks it's abandoned. There is an orphanage in Hopmire secretly run by the Watch.
