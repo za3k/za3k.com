@@ -32,14 +32,14 @@ The current noble fashion is to wear long, sleeveless robes down to just above t
 
 **Virtues:** Nobility are well-versed in the seven cultured [virtues](/aldenmarsh/days_of_week.md). Nobility may chose to pick auspicious days for parties. Aldenmarsh commoners ignore the days of the week except for Light and Family (the week-end). A noble family get-together would be on Family, while one for society as a whole would be on Loyalty to flatter invitees.
 
-    - Truth. It's virtuous to always discern the truth, and generally to tell it as well. Some nobles make a game out of telling the literal truth, even while lying. Truth is also about being educated and educating others. Nobility try not correct others flat out, but they may set up schools or set up learning opportunities for other nobility on purpose to illustrate some fault of habit. Truth is also about justice--if you're innocent, you want to have your trial on Justice.
-    - Charity. It's virtous to give those those less fortunate. Nobles may hand out free food, tutor others, or fund public-goods projects like road construction or ophanages.
-    - Patience. It's virtuous to be patient. Aldish nobility say most problems can be solved by doing nothing, instead of intervening (or doing less). This is often used to scold someone pushing you for something, or anyone over-eager.
-    - Silence. Although some nobles go the extra step and actually don't speak on Silence, the common use of the virtue is more metaphorical--a particular kind of modesty. Basically, don't be gauche. Downplaying your own virtue more than accurate is not a virtue, just a personality quirk.
-    - Loyalty. It's good to be loyal, but loyalty is also about friendship. Loyalty is a day to spend with friends and allies.
-    - Light. The holy day of Baneth. Light is mostly about Baneth, but it's also about letting others grow and providing the opportunity for anyone to advance to their own level.
-    - Family. It's virtuous to spend time with, love, and care for your family. It's also important to take care of the local elderly population--even commoners may make a round with extra servings of dinner or loaves of bread for neighbors.
-    - (Minor virtues) Historically there were another 7 virtues, but they're not in the calendar so they tend to be forgotten. The minor virtues are: Growth (Openness); Moderation; Forethought; Courage; Respect (for your betters and the elderly); Kindness; Completeness
+- Truth. It's virtuous to always discern the truth, and generally to tell it as well. Some nobles make a game out of telling the literal truth, even while lying. Truth is also about being educated and educating others. Nobility try not correct others flat out, but they may set up schools or set up learning opportunities for other nobility on purpose to illustrate some fault of habit. Truth is also about justice--if you're innocent, you want to have your trial on Justice.
+- Charity. It's virtous to give those those less fortunate. Nobles may hand out free food, tutor others, or fund public-goods projects like road construction or ophanages.
+- Patience. It's virtuous to be patient. Aldish nobility say most problems can be solved by doing nothing, instead of intervening (or doing less). This is often used to scold someone pushing you for something, or anyone over-eager.
+- Silence. Although some nobles go the extra step and actually don't speak on Silence, the common use of the virtue is more metaphorical--a particular kind of modesty. Basically, don't be gauche. Downplaying your own virtue more than accurate is not a virtue, just a personality quirk.
+- Loyalty. It's good to be loyal, but loyalty is also about friendship. Loyalty is a day to spend with friends and allies.
+- Light. The holy day of Baneth. Light is mostly about Baneth, but it's also about letting others grow and providing the opportunity for anyone to advance to their own level.
+- Family. It's virtuous to spend time with, love, and care for your family. It's also important to take care of the local elderly population--even commoners may make a round with extra servings of dinner or loaves of bread for neighbors.
+- (Minor virtues) Historically there were another 7 virtues, but they're not in the calendar so they tend to be forgotten. The minor virtues are: Growth (Openness); Moderation; Forethought; Courage; Respect (for your betters and the elderly); Kindness; Completeness
 
 ## Relationships
 
