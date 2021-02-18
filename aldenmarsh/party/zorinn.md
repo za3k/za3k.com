@@ -1,3 +1,5 @@
 # Zorrinn
 
-Zorrinn does not have any private lore.
+Private lore:
+
+- [Xuxuwell](../xuxuwell.md) (actually public)
