@@ -6,3 +6,4 @@ Welcome! If you're reading this you're playing in my online campaign. We play ev
 - [House rules](house_rules.md)
 - [Maps](maps.md)
 - [Lore](lore.md)
+- [Players](party/players.md)

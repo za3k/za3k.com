@@ -1,8 +1,8 @@
 # House Rules
 - See [Character Creation](build.md) rules for allowed classes, races, and gods.
 - Mostly we're using rules as written, nothing too crazy.
-- Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will not be for combat.
-- Leveling up is in-between sessions, to avoid a long interruption. You can roll your increased HP immediately for level 2 and 3 without waiting until the end of the session.
+- Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will be awarded for non-combat.
+- Leveling up is in-between sessions, to avoid a long interruption. You can roll your increased HP immediately for level 2 without waiting until the end of the session.
 - If the party is using one approach, they make one roll (assisting a player is still allowed of course). The entire party wouldn't roll separate perception checks to look for a secret door. If some players are in a library, but one is researching history and another is researching military tactics, they would make separate rolls.
 - Resting is harder during travel.
   - While adventuring in a city, the party will get a short rest for an hour break, and a long rest for sleeping overnight.
@@ -17,7 +17,7 @@
 - We ARE NOT using inspiration, healing surges, or hero points.
 - Magic Items
   - Magic items are not automatically identified after a rest. Players will need to study any found items in-game. Some will be easy to figure out, and some will be more difficult or require an Identify spell.
-  - We ARE allowing players to craft their own magic items, including scrolls. Ask the DM to approve the item, and whether there are any special requirements beyond sp/gp costs.
+  - We ARE allowing players to craft their own magic items, including scrolls. Ask the DM to approve the item, and whether there are any special requirements beyond silver costs.
   - In Canyonport, PCs [can buy common and some uncommon magic items](magic_items.md).
   - Selling magic items or buying rarer magic items will be difficult--even though Canyonport is the biggest metropolis around and a trading port, magic items are just rare!
   - Some wands recharge, and other don't. Player-created wands do not recharge.
