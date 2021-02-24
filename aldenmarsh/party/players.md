@@ -3,7 +3,7 @@ Players get access to special background info.
 
 | Character          | Race       | Class     | Citizenship | Private info            |
 |--------------------|------------|-----------|-------------|-------------------------|
-| Gasela Rosefist    | Half-elf   | Warlock   | Aldish      | [Dodge only](gasela.md) |
+| Elira Rosefist     | Half-elf   | Warlock   | Aldish      | [Dodge only](elira.md)  |
 | Corvus can Laetham | Half-elf   | Barbarian | Aldish      | [Greg only](corvus.md)  |
 | Becket Riend       | Tabaxi     | Rogue     | Aldish      | [Jessen only](becket.md)|
 | Calaum Cadell      | Half-elf   | Paladin   | Aldish      | [Liam only](cal.md)     |
