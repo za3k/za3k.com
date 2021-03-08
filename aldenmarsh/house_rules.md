@@ -10,9 +10,9 @@
 - Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
 - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
 - The wild magic sorcerer's surge table is boringly short for a core mechanic, so the DM will make up an effect or use a 10,000 effect web table.
+- We ARE using the optional flanking rule.
 - We ARE using the optional feat rule. 
 - We ARE allowing multiclassing.
-- We ARE NOT using the optional flanking rule.
 - We ARE NOT using the optional cleave rule.
 - We ARE NOT using inspiration, healing surges, or hero points.
 - Magic Items
