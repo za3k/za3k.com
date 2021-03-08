@@ -21,6 +21,6 @@
 - Plays every Wednesday from 6pm-10pm.
 - Session zero was 2020-12-09. Session recaps are posted on the discord.
 
-# Group 2 (Mond)
+# Group 2 (Xuxuwell)
 - Plays every Tuesday from 6pm-10pm.
 - Session zero will be 2021-03-16. Session recaps will be posted on the discord.
