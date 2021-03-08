@@ -24,13 +24,13 @@
   - What is their personality like?
   - What's their backstory?
   - What people or organizations might they have ties with? Are the ties good (allies), bad (enemies), or neutral?
-  - Citizenship status. Keep in mind that "exotic" races (ones not in the PHB) are probably foreign, and will probably attract attention. You can choose to be:
+  - (Aldenmarsh group) Citizenship status. Keep in mind that "exotic" races (ones not in the PHB) are probably foreign, and will probably attract attention. You can choose to be:
       - An Aldish citizen born in Aldenmarsh
       - Have gotten citizenship later (rare)
       - Be here on a special visa that allows travel (rare, explain why)
       - Be here on a normal visa. This requires you to sleep in the foreign quarter of Canyonport, effectively prohibiting leaving the city legally
       - Be here illegally, but travelling freely anyway. 
-  - Your god, and whether you attend the Church of [Baneth](baneth.md). [Aldenmarsh](aldenmarsh.md) is a theocracy with mandatory church attendance for citizens. Going to church doesn't mean you worship Baneth or even like him.
+  - (Aldenmarsh group) Your god, and whether you attend the Church of [Baneth](baneth.md). [Aldenmarsh](aldenmarsh.md) is a theocracy with mandatory church attendance for citizens. Going to church doesn't mean you worship Baneth or even like him.
       - If you are an Aldish citizen, you almost certainly go to the Church of Baneth. You might like Baneth, worship another god, or be agnostic.
       - Many-to-most Aldish citizens worship Baneth
       - The allowed gods are Baneth, the Greyhawk gods, and the non-human gods. They are found at the back of your player's handbook in an appendix.
