@@ -38,4 +38,8 @@
       - The allowed gods are Baneth, the Greyhawk gods, and the non-human gods. They are found at the back of your player's handbook in an appendix.
       - Agnostic (no god) is fine as a deliberate choice, but don't pick it as a default because you didn't look through options.
       - Clerics, paladins etc can't be agnostic. If you're a cleric or paladin, talk to the DM for a little extra help with your background and how you'll be treated.
+  - (Xuxuwell group) Your alignment: chaotic/neutral/lawful? good/neutral/evil?
+  - (Xuxuwell group) Your god
+      - The allowed gods are the Greyhawk gods, and the non-human gods. They are found at the back of your player's handbook in an appendix.
+      - Agnostic (no god) is fine as a deliberate choice, but don't pick it as a default because you didn't look through options. Clerics, paladins etc can't be agnostic.
 1. After your first play session, I also recommend making a backup character in case your PC dies. This doesn't have to be in roll20, but I'm happy to give you a sheet if you want one.
