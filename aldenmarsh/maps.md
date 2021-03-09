@@ -2,18 +2,33 @@
 - [Aldenmarsh](aldenmarsh.md)
     - [Canyonport](canyonport.md)
 
-# Gazetteer
+# Gazetteer (Humlend)
 - [Aldenmarsh](aldenmarsh.md)
     - [Canyonport](canyonport.md)
+- Agaria
+- Bal Moshi
+    - Tabaxi (protectorate)
+- Bat Vadyne
+- Camphor Islands
+- Copper Kingdom
+- Dwarven Reach
 - [Eldwood](eldwood.md)
 - [Four Spires](four_spires.md)
 - [Grag'hesh](graghesh.md)
+- Han Tabaxi (Bel Traki)
 - [Lorille](lorille.md)
 - [Magic Sea](magic_sea.md)
 - [Maris](maris.md)
 - [Mond](mond.md)
 - [Nathnan](nathnan.md)
+- North Daylia
+- North Humlend
+- South Daylia
+- Southern Federation
+    - Jaroni Islands
 - [Senly Faye](senly_faye.md)
+- Sharoque
 - [Splintered States](splintered_states.md)
 - [The Wastes](wastes.md)
 - [Xuxuwell](xuxuwell.md)
+    - Mortia
