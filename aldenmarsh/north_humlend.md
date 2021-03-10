@@ -1,27 +1,28 @@
 # Country, North Humland
 ## Facts
-**Population**: TBD
+**Population**: 70,000
 
-**Capital City**: TBD
+**Capital City**: Amity
 
-**Climate**: TBD
+**Climate**: Mild to Cold. Frequent rain.
 
-**Geography**: TBD
+**Geography**: Sandy rock, meadows
 
-**Languages**: TBD
+**Languages**: Common
 
-**Exports**: TBD
+**Exports**: Salt, Wine, Tobacco
 
-**Imports**: TBD
+**Imports**: Metalwork, Culture, Luxuries
 
-**Economy**: TBD
+**Economy**: Self-sufficient
 
-**Species**: TBD
+**Species**: Human, some halfling
 
-**Laws**: TBD
+**Laws**: Typical
 
-**Government**: TBD
+**Government**: Five principalities
 
 **Bordering nations (clockwise)**: [Bal Moshi](bal_moshi.md), Ocean, [Eldwood](eldwood.md), [Dwarven Reach](dwarven_reach.md)
 
 ## About
+The ancenstral home of humankind, North Humland is now home to halflings as well. It's mostly self-sufficient farmland.

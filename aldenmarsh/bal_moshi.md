@@ -1,29 +1,31 @@
 # Country, Bal Moshi
 ## Facts
-**Population**: TBD
+**Population**: 400,000
 
-**Capital City**: TBD
+**Capital City**: Va Jankri
 
-**Climate**: TBD
+**Climate**: Mild
 
-**Geography**: TBD
+**Geography**: Flat and hills.
 
-**Languages**: TBD
+**Languages**: Traki, Common
 
-**Exports**: TBD
+**Exports**: Wine, Food, Clothing, Hardwoods, Luxuries, Culture, Tobacco
 
-**Imports**: TBD
+**Imports**: Food, Lumber, Metal and metal products
 
-**Economy**: TBD
+**Economy**: Agriculture, Manufacturing, Trade
 
-**Species**: TBD
+**Species**: Dark Elves, Dark Dwarves, Halflings, Humans, Tabaxi
 
-**Laws**: TBD
+**Laws**: Typical. Clans and guilds are formal.
 
-**Government**: TBD
+**Government**: Monarch (prince) and clans
 
 **Bordering nations (clockwise)**: Ocean, Bal Traki, Ocean, [North Humlend](north_humlend.md), [Dwarven Reach](dwarven_reach.md), [Agaria](agaria.md), [Magic Sea](magic_sea.md), [North Daylia](north_daylia.md), [South Daylia](south_daylia.md)
 
 ## About
+Bal Moshi seceded from the much larger Traki empire under the direction of its prince 150 years ago. Traki (and so Bal Moshi, which shares its culture and society) is a cultural powerhouse--outside the magic sea region they're the kings of society and education. All first-rate poets, playwrights, historians, scholars et al are from Traki or Traki-educated (by definition--or else they won't be considered first-class).
 
 ### Tabaxi (Protectorate)
+Tabaxi is a chain of islands off the coast of Bal Moshi. It's the home of the Tabaxi race. The north part of the islands is called Han Tababi and is owned by Bel Traki.

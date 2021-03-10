@@ -1,29 +1,31 @@
 # Country, Southern (Humland) Federation
 ## Facts
-**Population**: TBD
+**Population**: 170,000
 
-**Capital City**: TBD
+**Capital City**: Kingston (in Yania)
 
-**Climate**: TBD
+**Climate**: Moderate
 
-**Geography**: TBD
+**Geography**: Mixed. Forests, Meadows, Valleys, and cliffs.
 
-**Languages**: TBD
+**Languages**: Aldish, Common, Traki
 
-**Exports**: TBD
+**Exports**: Craft goods, Mercenaries, Food, Timber
 
-**Imports**: TBD
+**Imports**: Luxuries, Culture, Food, Drink, Drugs
 
-**Economy**: TBD
+**Economy**: Mixed, but mostly self-sufficient
 
-**Species**: TBD
+**Species**: Mixed
 
-**Laws**: TBD
+**Laws**: Liberal
 
-**Government**: TBD
+**Government**: Federation (4 monarchies)
 
 **Bordering nations (clockwise)**: Ocean, [Bal Moshi](bal_moshi.md), [South Daylia](south_daylia.md), [Magic Sea](magic_sea.md), [Grag'hesh](graghesh.md), [Sharoque](sharoque.md)
 
 ## About
+The Southern Humland Federation is made up of four monarchies: Yania, Leesque, Pendlend, and Rothia. The Federation wants South Daylia and Sharoque to join as well. The Southern Federation has a fair amount of migration and traffic across internal borders.
 
 ### Jaroni Islands
+The Jaroni Islands, off the coast, have also joined the federation. They have a population of 5,000 and are too small to get an equal say.

@@ -1,27 +1,28 @@
 # Country, Bat Vadyne
 ## Facts
-**Population**: TBD
+**Population**: 10,000
 
-**Capital City**: TBD
+**Capital City**: Va Popli
 
-**Climate**: TBD
+**Climate**: Arid, Hot
 
-**Geography**: TBD
+**Geography**: Sandy Desert
 
-**Languages**: TBD
+**Languages**: Common, Traki
 
-**Exports**: TBD
+**Exports**: Pottery, Art (carving and painting), Culture
 
-**Imports**: TBD
+**Imports**: Food, Water, Magic
 
-**Economy**: TBD
+**Economy**: Subsistence
 
-**Species**: TBD
+**Species**: Mixed
 
-**Laws**: TBD
+**Laws**: Typical. Hospitality is mandatory.
 
-**Government**: TBD
+**Government**: Democracy
 
 **Bordering nations (clockwise)**: [The Wastes](wastes.md), Ocean
 
 ## About
+Bat Vadyne is the largest (arguably, only) settlement in the Wastes. It survives on a combination of sea trade and very limited agriculture. Living standards are subsistence-only. The population is mostly happy. Several heroes, major political figures, and philosophers are from Bat Vadyne. It houses a few monestaries.

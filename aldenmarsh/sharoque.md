@@ -1,27 +1,30 @@
 # Country, Sharoque
 ## Facts
-**Population**: TBD
+**Population**: 80,000
 
-**Capital City**: TBD
+**Capital City**: Chandler
 
-**Climate**: TBD
+**Climate**: Warm, wet
 
-**Geography**: TBD
+**Geography**: Forests with some mountains
 
-**Languages**: TBD
+**Languages**: Common, Aldish
 
-**Exports**: TBD
+**Exports**: Art, Clothing, Services
 
-**Imports**: TBD
+**Imports**: Food
 
-**Economy**: TBD
+**Economy**: Struggling (usually tourism)
 
-**Species**: TBD
+**Species**: Humans, orcs, elves, dwarves
 
-**Laws**: TBD
+**Laws**: Typical
 
-**Government**: TBD
+**Government**: Monarchy and Theocracy
 
 **Bordering nations (clockwise)**: Ocean, [Southern Federation](southern_federation.md), [Grag'hesh](graghesh.md), [The Wastes](wastes.md)
 
 ## About
+A small kingdom in the south, Sharoque is known for its vibrant local clothing and martial monastaries. Treehouse villages are common, although cities are typically on the ground.
+
+Sharoque and Grag'hesh are currently at war. When not at war, Sharoque is a popular tourist destination.

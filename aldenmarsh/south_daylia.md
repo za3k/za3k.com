@@ -1,27 +1,30 @@
 # Country, South Daylia
 ## Facts
-**Population**: 
+**Population**: 35,000
 
-**Capital City**: 
+**Capital City**: Coaltown 
 
-**Climate**: 
+**Climate**: Moderate
 
-**Geography**: 
+**Geography**: Plains and forests
 
-**Languages**:
+**Languages**: Aldish, Common
 
-**Exports**: 
+**Exports**: Coal
 
-**Imports**: 
+**Imports**: Timber, Metal and metalwork, Mercenaries, Weapons
 
-**Economy**: 
+**Economy**: Coal mining
 
-**Species**: 
+**Species**: Humans, Gnomes, Orcs
 
-**Laws**: 
+**Laws**: Typical
 
-**Government**: 
+**Government**: Monarchy
 
 **Bordering nations (clockwise)**: [Southern Federation](southern_federation.md), [Bal Moshi](bal_moshi.md), [North Daylia](north_daylia.md), [Magic Sea](magic_sea.md)
 
 ## About
+South Daylia and North Daylia are at war. They have been on-and-off at war for two hundred years, since they split.
+
+The Southern Federation wants South Daylia to join.

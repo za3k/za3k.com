@@ -1,27 +1,28 @@
 # Country, North Daylia
 ## Facts
-**Population**: TBD
+**Population**: 30,000
 
-**Capital City**: TBD
+**Capital City**: Henrikston
 
-**Climate**: TBD
+**Climate**: Mild
 
-**Geography**: TBD
+**Geography**: Forests
 
-**Languages**:TBD
+**Languages**: Aldish, Common
 
-**Exports**: TBD
+**Exports**: Leatherwork, Meat, Lumber
 
-**Imports**: TBD
+**Imports**: Weapons, Food, Armor, Culture, Luxuries
 
-**Economy**: TBD
+**Economy**: Struggling
 
-**Species**: TBD
+**Species**: Humans, mixed
 
-**Laws**: TBD
+**Laws**: Typical
 
-**Government**: TBD
+**Government**: Monarchy
 
 **Bordering nations (clockwise)**: [Bal Moshi](bal_moshi.md), [Magic Sea](magic_sea.md), [South Daylia](south_daylia.md)
 
 ## About
+North Daylia and South Daylia are at war. They have been on-and-off at war for two hundred years, since they split.
