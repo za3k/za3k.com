@@ -23,7 +23,7 @@
 
 **Government**: Multiple
 
-**Bordering nations (clockwise)**: [Eldwood](eldwood.md), TBD, [Mond](mond.md), Lake Lanolis, [Lorille](lorille.md)
+**Bordering nations (clockwise)**: [Eldwood](eldwood.md), Ocean, [Mond](mond.md), Lake Lanolis, [Lorille](lorille.md)
 
 ## About
 

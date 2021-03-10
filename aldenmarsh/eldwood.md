@@ -23,7 +23,7 @@
 
 **Government**: Unknown
 
-**Bordering nations (clockwise)**: [Magic Sea](magic_sea.md), [Dwarven Reach](dwarven_reach.md), Ocean, [New Humlend](new_humlend.md), [Splintered States](splintered_states.md), [Lorille](lorille.md), [Four Spires](four_spires.md), [Maris](maris.md), [Aldenmarsh](aldenmarsh.md)
+**Bordering nations (clockwise)**: [Magic Sea](magic_sea.md), [Dwarven Reach](dwarven_reach.md), [North Humlend](north_humlend.md), Ocean, [Splintered States](splintered_states.md), [Lorille](lorille.md), [Four Spires](four_spires.md), [Maris](maris.md), [Aldenmarsh](aldenmarsh.md)
 
 ## About
 The Eldwood is a dense forest, defining the country.

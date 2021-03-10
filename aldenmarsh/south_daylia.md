@@ -22,6 +22,6 @@
 
 **Government**: 
 
-**Bordering nations (clockwise)**: [Southern Federation](southern_federation.md), [North Daylia](north_daylia.md), [Magic Sea](magic_sea.md)
+**Bordering nations (clockwise)**: [Southern Federation](southern_federation.md), [Bal Moshi](bal_moshi.md), [North Daylia](north_daylia.md), [Magic Sea](magic_sea.md)
 
 ## About

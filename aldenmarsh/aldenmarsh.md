@@ -27,7 +27,7 @@
 
 **Government (nominal)**: Council composed of representatives from the Church of Baneth, guilds, and the noblility
 
-**Bordering nations (clockwise)**: [Magic Sea](magic_sea.md), [Eldwood](eldwood.md), [Free City of Maris](maris.md), [Four Spires](four_spires.md) (+ Lanolis River), [Lorille](lorille.md), [The Wastes](wastes.md), [Nathnan Barony](nathnan.md)
+**Bordering nations (clockwise)**: [Magic Sea](magic_sea.md), [Eldwood](eldwood.md), [Maris](maris.md), [Four Spires](four_spires.md) (+ Lanolis River), [Lorille](lorille.md), [The Wastes](wastes.md), [Nathnan Barony](nathnan.md)
 
 ## About
 The southernmost part of Aldenmarsh, called South Aldenmarsh, is part of the [Wastes](wastes.md). It's plataeu with only a handful of forts on it. It's also claimed by Nathnan and Lorille, but there hasn't been any armed conflict over it. The land has no value, no people living there, and all the people currently living there are from Aldenmarsh (or the wastes).
