@@ -5,7 +5,18 @@ Okay, whew, that was close
 
 ## Style
 
-Ultimate Archwizards is a lighthearted game for one 2-4 hour session. It's a little more group-storytelling than some RPG games, with players describing NPCs when they succeed and fail. It's designed to be played with "YES" as the default GM answer. Do the players want to distract the lake full of alligators with an elaborate juggling routine? Say yes and ask for details on the act and how the alligators react.
+Ultimate Archwizards is a lighthearted game for one 2-4 hour session. It's a little more group-storytelling than some RPG games, with players describing NPCs when they succeed and fail.
+
+## Tips
+
+- The default answer to everything is "YES". Never say no.
+- If players want to use a skill, say yes. Do the players want to distract the lake full of alligators with an elaborate juggling routine? Say yes and ask for details on the act and how the alligators react.
+- If the players want to use a mastery, say yes. They can effortlessly defeat obstacles and minions.
+- If the players want to use a power, say yes. They can effortlessly defeat obstacles and minions. They should either majorly damage or defeat the Overlord if they use a power. That said, encourage them to use up their Powers before the final battle if possible instead of saving them up.
+- When using skills, the players may be unsure how to describe success or failure. Some prompts to help them could be "Great, you succeed. Tell us how!" or "You succeed, but...?" or "It doesn't work, what happened instead?". 
+- For complete failure, you CAN suggest a failure mode at first to get the players used to the idea, but get them used to taking control. An example prompt could be "Out of nowhere, Grandma walks in the way. Describe how that happened?". The idea is to get the players used to the idea that failures should be more interesting than the obvious "You missed."
+- When the players succeed or fail, try to keep pushing them to say more words until they've added interesting detail or a new twist. They are in charge of thinking of twists, not you.
+- Get them used to the improv flow, gradually streamlining prompts "You succeed, tell us how?" to "Success, you shoot him. And?" to "You shoot him, and?"
 
 ## Mastery
 Each player has **mastery** over their Archwizard school. This looks similar for all players.
