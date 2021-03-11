@@ -118,7 +118,8 @@ Decide why you want the heroes to defeat you, or roll randomly for your goal. Ke
 ## How to Play
 - Each Hero describes their character
 - Each Villain describes their persona and their lair.
-- Each Villain reveals their lair's first Obstacle. The Villain sets the scene by giving a description aloud of the Obstacle, which players enjoy and listen to carefully for clues. The villain stops talking until the next obstacle--villains never describe the action.
+- Each Villain reveals their lair's first Obstacle. The Villain sets the scene by giving a description aloud of the Obstacle, which players enjoy and listen to carefully for clues.
+- After initially describing the obstacle, the villain is silent. They never help describe the action.
 - Select which Hero goes first however you like.
 - For the remainder of play, each Hero in turn selects a visible **Obstacle**. After they beat it or fail, play passes to the next Hero. This continues until the game is won or lost.
 - Obstacles (Success and Failure)
