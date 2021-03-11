@@ -1,9 +1,9 @@
 <link rel="stylesheet" type="text/css" media="all" href="/archive/invincible.css"/>
-[za3k](/) > [games](/mygames.md) > no, this cannot be! I AM INVINCIBLE! (v2)
+[za3k](/) > [games](/mygames.md) > no, this cannot be! I AM INVINCIBLE! (v2.1)
 
 **No, this cannot be! I AM INVINCIBLE!** is a game for 2-8 players. Half the players are Heroes (round up), and half are Villains. It's designed to be friendly for players new to storytelling games. 
 
-Before the game, each Villain prepares a lair full of 6 obstacles. The game is about 15 minutes of prep for the Villains, and 45 minutes of play. During the game, Villains set the scene, and Heroes describe the action and outcome.
+Before the game, each Villain prepares a lair full of 6 obstacles. The game is about 15 minutes of prep for the Villains, and 15-45 minutes of play. During the game, Villains set the scene, and Heroes describe the action and outcome.
 
 The Villain's goal is to send wave after wave of increasingly stronger enemies at the Heroes, letting them slowly grow in strength until they can defeat the Villain.
 
@@ -13,7 +13,7 @@ If your group is competitive, try to be the first Hero to kill a Villain, and th
 
 > *24. I will maintain a realistic assessment of my strengths and weaknesses. Even though this takes some of the fun out of the job, at least I will never utter the line "No, this cannot be! I AM INVINCIBLE!!!" (After that, death is usually instantaneous.)* - Peter Ansprach, 100 Things I'd Do If I Ever Became An Evil Overlord
 
-written 2021-02-08 by zachary "za3k" vance. version [1](/archive/invincible1.md) 2.
+written 2021-02-08 by zachary "za3k" vance. last updated 2021-03-10. version [1](/archive/invincible1.md) 2.
 
 ## Making Heroes
 Make up a hero, or roll randomly to make your Hero. "I am a ..." (roll once per column)
@@ -39,12 +39,12 @@ Choose or randomly roll your character's starting **approach**.
 | 6  | Stealth  |
 
 - Make up a name for your hero, and describe your Hero to all the other Heroes and Villains.
-- Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. 
+- Heroes start with 2 HP, or Health Points. If the Heroes fail against an Obstacle, they lose 1 HP. If you are reduced to 0 HP, you die and the game is over for everyone. If there is only one Hero, you start with 4 HP instead.
 - Write down the six approaches: **Strength, Smarts, Magic, Charm, Energy, Stealth**. Put a checkmark next to your starting **approach**. This is the only approach you can use right now.
 - As you adventure, you will may get sweet loot. Loot gives you additional **approaches**. 
-    - Each Loot gives the Hero one additional approach. You roll randomly to see what approach the loot give you.
-    - If you're unlucky, you may get an approach you already have. You can give away loot when you get it, but you can't reroll.
+    - Each Loot gives the Hero one additional approach. You pick what approach the loot give you.
     - Once a Hero gets loot, you put a checkmark next to your new approach. You can now use that approach to beat Obstacles.
+    - If you find the game is too easy, try randomly rolling what approach loot gives you instead of choosing.
 - If you beat a Villain on the last level of their lair, you and the Villain both win and stop playing. You can relax and watch the rest of the game.
 
 ## Making Villains
@@ -90,19 +90,29 @@ Decide why you want the heroes to defeat you, or roll randomly for your goal. Ke
     - Describe each Obstacle in 2-4 words, writing it legibly on the front of an index card. For example, write "Flock of Seagulls".
     - It could be a minion, a trap, a secret door, or anything else at all. Make your Obstacles interesting and goofy.
     - You, the Villain, are always the 6th and final Obstacle. Give yourself a card too.
-3. For each Obstacle, roll randomly using the table in "Making Heroes" to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
+3. For each Obstacle, roll **randomly** using the table below to determine which approaches that Obstacle is weak to. Write the weaknesses on the back of the card. Do not show weaknesses to the Heroes. Write the NUMBER of weaknesses on the front as a reminder to players.
     - The 1st obstacle is weak to all 6 approaches. (You don't need to roll.)
     - The 2nd obstacle is weak to 3 approaches.
     - The 3rd obstacle is weak to 3 approaches.
     - The 4th obstacle is weak to 2 approaches.
-    - The 5th obstacle is weak to 2 approaches.
+    - The 5th obstacle is weak to 2 approach.
     - The Villain is weak to only 1 approach.
+
+| d6 | Approach |
+|----|----------|
+| 1  | Strength |
+| 2  | Smarts   |
+| 3  | Magic    |
+| 4  | Charm    |
+| 5  | Energy   |
+| 6  | Stealth  |
+
 4. Stack your index cards neatly, so only the front of the first Obstacle is visible to Heroes.
 5. Get ready to describe the first obstacle in your lair aloud.
     - Whenever an Obstacle is first revealed to the Heroes, you describe the Obstacle aloud to them. 
     - Before describing it, read the front of the card aloud.
     - Make the Obstacle sound easy, cool, sexy, or rewarding. You want Heroes to come to your lair and kill you first.
-    - Try to hint at any weaknesses in your description. Heroes shouldn't be going in blind.
+    - Try to **hint strongly at any weaknesses** in your description. Heroes shouldn't be going in blind. Don't bother hinting at strengths. If there are too many weaknesses, just hint at one or two.
     - Describe the obstacle in a way that matches BOTH the written description, and the weaknesses you roll. For example, a Ogre weak to Strength might have a big target on their back. It's hard to match both but that's what makes it fun.
 
 ## How to Play
@@ -139,3 +149,4 @@ Decide why you want the heroes to defeat you, or roll randomly for your goal. Ke
 
 ## Acknowledgements
 - Thanks to 3 Pandemonium players for the first playtest.
+- Thanks to Dodge for the second playtest.
