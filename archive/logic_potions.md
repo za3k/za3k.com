@@ -55,6 +55,7 @@ Example Rules
 - Rule 2: IF a potion contains *exactly* two ingredients, THEN it is fizzy.
 - Rule 3: If a potion contains a heart or a spade, THEN it is red.
 
+What are rules?
 - A Rule is always an IF-THEN clause with two parts: IF and THEN.
 - The IF clause refers only to the ingredients used to brew the current potion
 - The THEN clause refers only to the result of the current potion brew
