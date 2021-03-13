@@ -155,14 +155,7 @@ Example Univeral Theory Rules:
 
 ## variants
 ### faster
-For a faster game. Whoever makes someone LOSE first wins, and the game is over.
-
-### simpler
-For a simpler set of rules. Challenging Rules is not allowed at all. Note, this game can end in a deadlock with good players.
-
-### passing the buck
-- If an author is challenged, partway through that challenge the author may "pass the buck", interrupting the process to themselves challenge a lower-numbered Rule. Whether they succeed or fail, the original challenge is abandoned. The original challenger may continue to challenge Rules as usual, including Rules by the original author.
-- If the active player is brewing a potion and someone calls ILLEGAL, they are allowed to "pass the buck" with a Contradiction Challenge with those exact ingredients, mid-brew. If they succeed, they keep their ingredients and start their brew phase over.
+Whoever makes someone LOSE first wins, and the game is over.
 
 ### mathematical
 STILL LEGAL is removed from the game, and Redundancy Challenges are added to the game in its place. This means new Rules no longer relate to the brew in any way.
@@ -195,13 +188,20 @@ This is closer to real empericism (which I like), but it makes the game slower a
 ### more potions
 Rather than having potion types, you have potion adjectives. So you can now brew "a fizzy red potion". I haven't tested this. You could allow IF clauses to refer to adjectives.
 
+### passing the buck
+- If an author is challenged, partway through that challenge the author may "pass the buck", interrupting the process to themselves challenge a lower-numbered Rule. Whether they succeed or fail, the original challenge is abandoned. The original challenger may continue to challenge Rules as usual, including Rules by the original author.
+- If the active player is brewing a potion and someone calls ILLEGAL, they are allowed to "pass the buck" with a Contradiction Challenge with those exact ingredients, mid-brew. If they succeed, they keep their ingredients and start their brew phase over.
+
+### potion effects
+When you drink each potion type, something happens. Decide what for each type.
+
+### simpler
+Challenging Rules is not allowed at all. Note, this game can end in a deadlock with good players.
+
 ### victory potions
 For a more complicated game. Add a special potion type, a victory potion. If you finish brewing a victory potion (no one STEALS), you drink it. The game is over and you WIN.
 
 If you brew a victory potion, someone else is allowed to shout out STEAL. They name another brew result instead, and take over your brew phase. If they finish brewing, you LOSE. If they LOSE before they finish brewing, you start your brew phase over.
-
-### potion effects
-When you drink each potion type, something happens. Decide what.
 
 ## history
 - The original version of this game used what are now the "emperical potions" and "mathematical" variants.
@@ -210,7 +210,7 @@ When you drink each potion type, something happens. Decide what.
 - I again dropped the mathematical appeal of "redundancy" challenges in favor of the broader appeal of STILL LEGAL.
 
 ## credits
-This idea is loosely based on a game my mathematician friends came up with, but which I never played, called "Imaginary Go Fish". That game is written by mathematicians and intended for the same, and is based on formal theorem proving or metamathematics. I replaced theorems by Zendo-style specific examples or counterexamples, in keeping with an original emperical theme I dropped but hope to re-use in a later game. The examples does make it constructivist (I think?), which is actually a little weird in a deduction logic game--you can't use process of elimination on the potion types. The main changes from Imaginary Go Fish are the addition of the hand of ingredients, which I think makes the game more appealing and replayable; the gradual elimination of players in place of sudden death, which works better with some careless players; and the simplifications I made to remove 'redundancy' endgame for broad appeal. Also, credit to Zendo and a previous game by myself about regexes for the example/counterexample mechanisms.
+This idea is thematically based on a game my mathematician friends came up with, but which I never played, called "Imaginary Go Fish". That game is written by mathematicians and intended for the same, and is based on formal theorem proving or metamathematics. I replaced theorems by Zendo-style specific examples or counterexamples, in keeping with an original emperical theme I dropped. The main changes from Imaginary Go Fish are the addition of the hand of ingredients, which I think makes the game more appealing and replayable; the gradual elimination of players in place of sudden death, which works better with some careless players; and the simplifications I made to remove 'redundancy' endgame for broad appeal. Also, credit to Zendo and a previous game by myself about regexes for the example/counterexample mechanisms.
 
 For anyone curious, the rules of Mathematical Go Fish were something like:
 - You start with four imaginary cards. 
