@@ -46,8 +46,7 @@ for each goal, if a player violates the goal, you can call them out using the ga
     - A brew is a set of ingredients (repeats are allowed) and a result (one of the potions from the potion list). For example "Two hearts and a spade make a fizzy potion". Ingredient order doesn't matter. There's only one potion type -- you make a "fizzy potion" or a "red potion" but never a "fizzy red potion".
     - Normal (real) brews are played from a player's hand of ingredients, after which the ingredients get used up.
     - During a challenge, "thought experiment" brews are performed, which don't need real ingredients from anyone's hand. Just pull some cards from the deck as a visual aid, and put them back after.
-    - Brews aren't written down. 
-    - This means new brew results and Rules are allowed to contradict old brew results. Sorry! See *Emperical Potions* in "Variants" below for a more scientific setup.
+    - Brews aren't written down. (This means new brew results and Rules are allowed to contradict old brew results. Sorry! See *Emperical Potions* in "Variants" below if you don't like that.)
 
 ## rules
 Example Rules
@@ -56,11 +55,11 @@ Example Rules
 - Rule 2: IF a potion contains *exactly* two ingredients, THEN it is fizzy.
 - Rule 3: If a potion contains a heart or a spade, THEN it is red.
 
-1. A Rule is always an IF-THEN clause with two parts: IF and THEN.
-2. The IF clause refers only to the ingredients used to brew the current potion
-3. The THEN clause refers only to the result of the current potion brew
-4. Logical statements like "And", "Or", "Not", "At least one", "Exactly one", etc are fine. "Or" always means "if one or more of the following are true", never "if EXACTLY one of these are true".
-5. I recommend you limit rules to be very simple. Rules should be clear, unambiguous English. They should be 20 words or less. Everyone should immediately agree on whether a brew obeys a rule with no debate, and not much thinking. The rules should be easy to think about individually--as a group they will still get hard quickly.
+- A Rule is always an IF-THEN clause with two parts: IF and THEN.
+- The IF clause refers only to the ingredients used to brew the current potion
+- The THEN clause refers only to the result of the current potion brew
+- Logical statements like "And", "Or", "Not", "At least one", "Exactly one", etc are fine. "Or" always means "if one or more of the following are true", never "if EXACTLY one of these are true".
+- I recommend you limit rules to be very simple. Rules should be clear, unambiguous English. They should be 20 words or less. Everyone should immediately agree on whether a brew obeys a rule with no debate, and not much thinking. The rules should be easy to think about individually--as a group they will still get hard quickly.
 
 ## turns
 Each player takes turn being the active player. On their turn, the active player does the following in order. A player can always choose to LOSE and end their turn early.
@@ -98,16 +97,16 @@ Example Rules
 - Rule 2: IF a potion contains *exactly* two ingedients, THEN it is fizzy.
 - Rule 3: If a potion contains a heart or a spade, THEN it is red.
 
-1. In Logic Potions, a brew and a Rule can be compatible or incompatible. You will never need to determine if two Rules are compatible with each other, only a brew and a Rule.
-2. If the IF part is false, the brew result and the Rule are compatible.
+In Logic Potions, a brew and a Rule can be compatible or incompatible. You will never need to determine if two Rules are compatible with each other, only a brew and a Rule.
+1. If the IF part is false, the brew result and the Rule are compatible.
     - One spade makes a tasty potion: **compatible** with Rule 1. If a brew does NOT contain a heart, it is always compatible with Rule 1.
     - One heart makes a fizzy potion: **compatible** with Rule 2. If a brew contains 1 or 3 ingreidents, it is always compatible with Rule 2.
     - One heart and one spade make a fizzy potion: **compatible** with Rule 3. If a brew contains a heart or a spade, it is always compatible with Rule 3.
-3. If the THEN part is true, the brew result and the Rule are compatible.
+2. If the THEN part is true, the brew result and the Rule are compatible.
     - One heart makes a fizzy potion: **compatible** with Rule 1. If a brew result is not a tasty potion, it is always compatible with Rule 1.
     - One heart makes a fizzy potion: **compatible** with Rule 2. If a brew result is a fizzy potion, it is always compatible with Rule 2.
     - One heart and one diamond makes a red potion: **compatible** with Rule 3. If a brew result is red, it is always compatible with Rule 3.
-4. Otherwise, the brew result is always **incompatible** with the Rule. Also, the IF part is true and THEN part is false. 
+3. Otherwise, the brew result is always **incompatible** with the Rule. Also, the IF part is true and THEN part is false. 
     - One heart makes a tasty potion: **incompatible** with Rule 1
     - One heart and one spade make an red potion: **incompatible** with Rule 2.
     - One heart and one diamond make a fizzy potion: **incompatible** with Rule 3.
@@ -116,11 +115,12 @@ Example Rules
 On their turn, a player can challenge a Rule as being invalid in some way.
 
 1. The person issuing the challenge is called the **challenger**. 
-2. There are two kinds of challenge: Contradiction or Universal Theory (or Redundancy, if playing with the optional rules). The challenger names the challenge type, and Rule number being challenged. ex. "Rule 10 is invalid, I issue a Contradiction Challenge."
-3. During a challenge, slide a piece of blank paper to cover all higher-numbered rules. Ex. if Rule 10 is challenged, rules 1-10 remain visible, while rules 11 and above are covered and not visible. Later rules aren't used during a challenge.
-4. The **author**'s initials are recorded by each Rule. The author of the challenged Rule must defend against the challenge. You can't challenge your own Rule.
-5. If they author fails the challenge, they LOSE. If they pass the challenge, the challenger LOSES instead.
-6. The author or challenger may give up halfway through the challenge and voluntarily LOSE, to save time.
+2. There are two kinds of challenge: Contradiction or Universal Theory. Some extra types are provided in "Variants" if you get bored.
+3. The challenger names the challenge type, and Rule number being challenged. ex. "Rule 10 is invalid, I issue a Contradiction Challenge."
+4. During a challenge, slide a piece of blank paper to cover all higher-numbered rules. Ex. if Rule 10 is challenged, rules 1-10 remain visible, while rules 11 and above are covered and not visible. Later rules aren't used during a challenge.
+5. The **author**'s initials are recorded by each Rule. The author of the challenged Rule must defend against the challenge. You can't challenge your own Rule.
+6. If they author fails the challenge, they LOSE. If they pass the challenge, the challenger LOSES instead.
+7. The author or challenger may give up halfway through the challenge and voluntarily LOSE, to save time.
 
 The challenges are all 100% legitimate. That is, if the challenger is correct, they can 100% always win (if they play correctly). If the challenger is incorrect, the author can 100% always win (if they play correctly). If you don't see why, play a few games or think about it more.
 
@@ -152,7 +152,21 @@ Example Univeral Theory Rules:
 - Rule 1: IF a potion contains two or more ingredients, THEN it is fizzy
 - Rule 2: IF a potion contains two or less ingredients, THEN it is fizzy
 
-### redundancy challenge (optional)
+## variants
+### faster
+For a faster game. Whoever makes someone LOSE first wins, and the game is over.
+
+### simpler
+For a simpler set of rules. Challenging Rules is not allowed at all. Note, this game can end in a deadlock with good players.
+
+### passing the buck
+- If an author is challenged, partway through that challenge the author may "pass the buck", interrupting the process to themselves challenge a lower-numbered Rule. Whether they succeed or fail, the original challenge is abandoned. The original challenger may continue to challenge Rules as usual, including Rules by the original author.
+- If the active player is brewing a potion and someone calls ILLEGAL, they are allowed to "pass the buck" with a Contradiction Challenge with those exact ingredients, mid-brew. If they succeed, they keep their ingredients and start their brew phase over.
+
+### mathematical
+STILL LEGAL is removed from the game, and Redundancy Challenges are added to the game in its place. This means new Rules no longer relate to the brew in any way.
+
+**redundancy challenge**
 A challenger claims that a Rule is a logical consequence of earlier Rules (aka is redundant with them, aka can be "deduced" or proven from them). The challenger may quickly explain why, to see if the author agrees and gives up.
 1. Thought Experiment: The author names a set of 1-3 ingredients (nobody needs to have these ingredients). The author also names two potion results C and I. These form brew C (ingredients + result C) and brew I (ingredients + result I). Make sure both players are clear on which is C and which is I.
     - One result, **C** the author thinks is compatible with Rules 1-9, **and also compatible with Rule 10**.
@@ -167,16 +181,6 @@ A challenger claims that a Rule is a logical consequence of earlier Rules (aka i
     - If the brew and Rule are compatible, the author passes the challenge and the challenger LOSES.
     - If the brew and Rule are incompatible, the author fails the challenge and LOSES.
 
-## variants
-### faster
-For a faster game. Whoever makes someone LOSE first wins, and the game is over.
-### simpler
-For a simpler set of rules. Challenging Rules is not allowed at all. Note, this game can end in a deadlock with good players.
-### passing the buck
-- If an author is challenged, partway through that challenge the author may "pass the buck", interrupting the process to themselves challenge a lower-numbered Rule. Whether they succeed or fail, the original challenge is abandoned. The original challenger may continue to challenge Rules as usual, including Rules by the original author.
-- If the active player is brewing a potion and someone calls ILLEGAL, they are allowed to "pass the buck" with a Contradiction Challenge with those exact ingredients, mid-brew. If they succeed, they keep their ingredients and start their brew phase over.
-### mathematical
-STILL LEGAL is removed from the game, and Redundancy Challenges are added to the game in its place. This means new Rules no longer relate to the brew in any way.
 ### emperical potions
 This is closer to real empericism (which I like), but it makes the game slower and more think-y (which I don't). This variation also requires the 'mathematical' variant, because Rules must always keep current and past brews legal.
 
@@ -186,12 +190,15 @@ This is closer to real empericism (which I like), but it makes the game slower a
 - You can challenge a Hypothesis or an Experiment. If you challenge an Experiment, you must issue an Emperical Challenge or a Data Consistency Challenge.
 - You can issue an Emperical Challenge on either a Hypothesis or an Experiment. Point to an Experiment and a Hypothesis. One of the two must be the challenged Rule. If they are consistent, you LOSE. If they are inconsistent, the author LOSES.
 - You can issue a Data Consistency Challenge on an Experiment. Point to another visible (lower-numbered) Experiment. If they have identical ingredients but different results, the author LOSES. If the ingredients are not identical, or the results are the same, you LOSE.
+
 ### more potions
 Rather than having potion types, you have potion adjectives. So you can now brew "a fizzy red potion". I haven't tested this. You could allow IF clauses to refer to adjectives.
+
 ### victory potions
 For a more complicated game. Add a special potion type, a victory potion. If you finish brewing a victory potion (no one STEALS), you drink it. The game is over and you WIN.
 
 If you brew a victory potion, someone else is allowed to shout out STEAL. They name another brew result instead, and take over your brew phase. If they finish brewing, you LOSE. If they LOSE before they finish brewing, you start your brew phase over.
+
 ### potion effects
 When you drink each potion type, something happens. Decide what.
 
