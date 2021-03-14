@@ -23,7 +23,7 @@ second, you make Rules about how potion brewing works.
 - any rule you make needs to actually *effectively change* the rules. this is done by always making your last brew illegal (or a player will say **"STILL LEGAL"**)
 - you can't form a "theory of everything" where every possible brew can be predicted. (or a player will issue a **Universal Theory Challenge**)
 
-for each goal, if a player violates the goal, you can call them out using the game rule in parentheses.
+for each goal, if a player violates the goal, you can call them out using the game rule in parentheses. whenever you call someone out, it's a deathmatch--*one* of you will LOSE.
 
 ## play area and concepts
 1. Ingredients
@@ -87,8 +87,8 @@ Each player takes turn being the active player. On their turn, the active player
 6. The active player draws replacement ingredients for the market, bringing it back up to 4 ingredients. 
 
 ## losing
-- If you LOSE, you're immediately out of the game. If it's your turn, your turn is over.
-- **All Rules you've ever written are immediately crossed off**
+- If you LOSE, you're immediately out of the game, and can go grab a snack. If it's your turn, your turn is over.
+- When you LOSE, **all Rules you've ever written are immediately crossed off**
 - The last player left wins.
 
 ## IF-THEN logic primer
