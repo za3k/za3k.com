@@ -1,10 +1,10 @@
 [za3k](/) > [games](/mygames.md) > deadly education rpg
 
-written 2021-02-12 by zachary "za3k" vance
-
 This a simple RPG system based on the magic system from "A Deadly Education" by Naomi Novik. You don't need to have read the book--in fact I picked it because it was a little vague and independent of the book.
 
 The only thing you need to know is that you're at a school to study magic. You have just arrived and have no idea what you expect. You want to learn magic and make it out alive with a 4-year degree. The school itself is magical and deadly. The school helps you learn new spells related to your innate talents.
+
+written 2021-02-12 by zachary "za3k" vance
 
 ## Character creation
 - Describe your character's physical appearance and personality in a paragraph or so.
@@ -12,7 +12,7 @@ The only thing you need to know is that you're at a school to study magic. You h
 - Write your report card. Select six subjects. This is your daily class schedule. You are getting an A, A-, B, C, C, and F in them right now.
 - Determine your maliciousness. Pick a starting value between 0 (no malice) and +100 (lots of malice). This should roughly correspond to how nice or vicious your character is to fellow students. It's common to hide malice use.
 - You start the game with 50 mana.
-- Every session you get 3 heroic actions. They reset to 3 at the start of the next session. Heroic actions can be used to improve spells, excel at a subject under pressure, study hard, or in the GM's discretion give a boost to anything else.
+- Every real-life play session you get 3 heroic actions. They reset to 3 at the start of the next session. Heroic actions can be used to improve spells, excel at a subject under pressure, study hard, or in the GM's discretion give a boost to anything else.
 
 ## Subjects
 The subjects are: gym; health; wood shop; machining; chemistry; biology; physics; literature; poetry; music; romance languages; middle-eastern languages; asian languages; classical languages; alchemy (make one-time use magic potions); artificing (make magic items); magical theory (spell-crafting); metamagic (spell-modifying spells); group magic.
