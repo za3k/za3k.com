@@ -2,6 +2,9 @@
 1. **Once you start rolling dice (attributes, HP, or starting GP), no takebacks**. If you don't like your rolls, tough.
 1. Generally, if you want to make some changes to fit your character idea, ask! I'm pretty open to it, and while I might not always say yes, I'll at least offer an alternative. Anything aesthetic-only will almost certainly be approved (ex. changing spell descriptions without changing game effects, or changing what starting equipment looks like).
 1. Add yourself on roll20. Ask the DM for a character sheet (and character sheet for a familiar if needed)
+1. **Level**
+    - (Xuxuwell) We're starting at level 1
+    - (Aldenmarsh) Match the level the party is at. Check the discord for what that is.
 1. **Attributes**. You may choose any of the following methods:
  1. Roll 4d6 six times, each time discarding the lowest die. Re-order however you want.
  1. Take the standard array: 15, 14, 13, 12, 10, 8
