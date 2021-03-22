@@ -8,7 +8,7 @@
 
 **Geography**: Grasslands, Hills
 
-**Languages**: Common, Draconic
+**Languages**: Common, Draconic, Infernal (rare)
 
 **Exports**: Magic
 

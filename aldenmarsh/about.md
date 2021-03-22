@@ -21,4 +21,4 @@
 - Session recaps are posted on the discord.
 - Sessions
     - Aldenmarsh: Session zero was 2020-12-09. 
-    - Xuxuwell: Session zero will be 2021-03-16.
+    - Xuxuwell: Session zero will be 2021-03-23.
