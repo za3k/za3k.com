@@ -19,15 +19,15 @@ written by zachary "za3k" vance on 2021-03-29
 - that's it!
 
 ## wizard adventure (2+ players)
-*friends meet a wizard (8 drawings)*
+*friends meet a wizard (7 drawings)*
 
 1. The heroes are all good friends. Draw your character. You could be a knight, a glam rock star, an alien, a scientist, or anything else. Write the hero's name under the drawing.
 2. You've all had many good times in the past. Draw all the friends at one of those fun times. It could be a barbeque, an adventure park visit, a night under the stars, or anyhting else. Write the event.
 3. Oh no, a wizard is going around the kingdom casting spells. Write down an easy-to-draw animal, but don't draw anything. Pass the animal to your left. Oh no, you've been turned into an animal by the wizard! Draw yourself as the animal you just got.
-5. This wizard is causing havoc everywhere. Draw some havoc they caused. Write what the havoc was.
-6. Oh but you also got a cool magic power! Draw yourself using your new magic power to fixing the problem to the left. Write the magic power.
-7. Actually, this power is pretty useful. Draw yourself fixing up the kingdom with your new power.
-8. It turns out the wizard was just shy. They turn you back into humans. Draw your friends doing something nice to welcome the wizard to the kingdom. Write what you did.
+4. This wizard is causing havoc everywhere. Draw some havoc they caused. Write what the havoc was.
+5. Oh but you also got a cool magic power! Draw yourself using your new magic power to fixing the problem to the left. Write the magic power.
+6. Actually, this power is pretty useful. Draw yourself fixing up the kingdom with your new power.
+7. It turns out the wizard was just shy. They turn you back into humans. Draw your friends doing something nice to welcome the wizard to the kingdom. Write what you did.
 
 ## goblins adventure (1 players)
 *a hero defeat goblins (11 drawings)*
@@ -65,13 +65,13 @@ written by zachary "za3k" vance on 2021-03-29
 1. You are all sneaky thieves and spies stealing from each other. Draw your thief.
 2. There is a big treasure you're after. It could be a ruby, a cool laser gun, a sparkly crown, or anything else. Draw the treasure. Write what it is.
 3. Draw the trap or security system guarding your treasure, like an alligator-infested moat. Write what the security is. Stack the security drawing on top of the treasure it's guarding.
-4. Draw a piece of equipment you brought with you to overcome the security. Write what the equipment is.
+4. Draw the perfect piece of equipment you brought with you to overcome the security. Write what the equipment is.
 5. Draw how you steal the equipment the player to your left drew. Actually take it.
-6. Draw yourself setting off the security or triggering the trap, trying to sneak through with the wrong equipment.
+6. You have the wrong equipment now. Draw yourself sneaking through the security with the wrong equipment, and setting off the security or triggering the trap.
 7. While you're in jail, your friends sneak you in tools. Shuffle the equipment and deal one to each player. Draw how your friends snuck that equipment into your jail cell.
 8. Draw yourself breaking out of jail using your new equipment.
-9. Quick! Everyone put their hand on a security system to claim it. Draw how you break into it using your new equipment. Take the treasure under the security.
-10. Draw your thief stealing the treasure you actually wanted from the player who has it. If you already have what you want, draw yourself gloating instead.
+9. Quick! Everyone put their hand on a security system to claim it. Everyone has a different target. Draw how you break into it using your new equipment. Actually take the treasure under the security.
+10. Draw your thief stealing the treasure you actually wanted from the player who has it. If you already have what you want, draw yourself gloating instead. Actually take whatever you steal.
 11. Draw your thief on a dream vacation.
 
 ## making your own adventures
