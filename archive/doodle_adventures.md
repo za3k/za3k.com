@@ -1,6 +1,6 @@
 [za3k](/) > [games](/mygames.md) > doodle adventures
 
-a relaxing drawing-book adventure for one or more players.
+a relaxing drawing-book adventure for one or more players. players listen as a pre-made story is revealed, and doodle what happens.
 
 supplies needed: a set of 3x5 index cards or similar small paper.
 
