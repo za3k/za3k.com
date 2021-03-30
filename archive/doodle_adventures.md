@@ -59,19 +59,19 @@ written by zachary "za3k" vance on 2021-03-29
 10. You won! Draw your hero winning the battle.
 11. Your hero brings back the goblin chief to the throne room, and the king's loved one rushes to hug him. Draw the hero enjoying a giant pile of treasure they got as a reward from the king. Or, draw them on a date with the prince/princess or playing with the pet.
 
-## thief adventure (2+ players)
+## thieves adventure (2+ players)
 *thieves steal from each other (11 drawings)*
 
 1. You are all sneaky thieves and spies stealing from each other. Draw your thief.
 2. There is a big treasure you're after. It could be a ruby, a cool laser gun, a sparkly crown, or anything else. Draw the treasure. Write what it is.
 3. Draw the trap or security system guarding your treasure, like an alligator-infested moat. Write what the security is. Stack the security drawing on top of the treasure it's guarding.
-4. Draw the perfect piece of equipment you brought with you to overcome the security. Write what the equipment is.
-5. Draw how you steal the equipment the player to your left drew. Actually take it.
-6. You have the wrong equipment now. Draw yourself sneaking through the security with the wrong equipment, and setting off the security or triggering the trap.
-7. While you're in jail, your friends sneak you in tools. Shuffle the equipment and deal one to each player. Draw how your friends snuck that equipment into your jail cell.
+4. You planned a perfect heist, and brought one special piece of equipment with you to overcome the security. Write what the equipment is. Draw it.
+5. You just can't help yourself. You steal the equipment the player to your left drew. Draw how you steal it. Actually take the equipment, too.
+6. Oops, you have the wrong equipment now. Draw yourself sneaking through the security with the wrong equipment, and setting off the security or triggering the trap.
+7. Darn, you're in jail now. Your friends on the outside sneak you in tools. Shuffle the equipment and deal one to each player. Draw how your friends snuck that equipment into your jail cell.
 8. Draw yourself breaking out of jail using your new equipment.
-9. Quick! Everyone put their hand on a security system to claim it. Everyone has a different target. Draw how you break into it using your new equipment. Actually take the treasure under the security.
-10. Draw your thief stealing the treasure you actually wanted from the player who has it. If you already have what you want, draw yourself gloating instead. Actually take whatever you steal.
+9. Quick! Everyone put their hand on a security system to claim that target. Everyone has a different target. Draw how you break into it using your new equipment. Actually take the treasure under the security.
+10. Well this treasure is cool, but it's not what you really wanted. Draw your thief stealing the treasure you actually wanted from the player who has it. If you already have what you want, draw yourself gloating instead. Actually take any treasure you steal.
 11. Draw your thief on a dream vacation.
 
 ## making your own adventures
