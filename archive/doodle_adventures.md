@@ -18,7 +18,7 @@ written by zachary "za3k" vance on 2021-03-29
 - you usually write what the drawing is of. just use 1-3 words.
 - that's it!
 
-# wizard adventure (2+ players)
+## wizard adventure (2+ players)
 *friends meet a wizard (8 drawings)*
 
 1. The heroes are all good friends. Draw your character. You could be a knight, a glam rock star, an alien, a scientist, or anything else. Write the hero's name under the drawing.
@@ -29,7 +29,7 @@ written by zachary "za3k" vance on 2021-03-29
 7. Actually, this power is pretty useful. Draw yourself fixing up the kingdom with your new power.
 8. It turns out the wizard was just shy. They turn you back into humans. Draw your friends doing something nice to welcome the wizard to the kingdom. Write what you did.
 
-# goblins adventure (1 players)
+## goblins adventure (1 players)
 *heroes defeat goblins (11 drawings)*
 
 1. Draw your hero. They can be a knight, a court minstel, a wizard, or anything else. Write the hero's name under the drawing.
@@ -44,7 +44,7 @@ written by zachary "za3k" vance on 2021-03-29
 10. Your hero brings back the goblin chief to the throne room, and the king's loved one rushes to hug him. Draw their reunion.
 11. Draw the hero enjoying a giant pile of treasure they got as a reward from the king. Or, draw them on a date with the prince/princess or playing with the pet.
 
-# goblins adventure (2+ players)
+## goblins adventure (2+ players)
 *heroes defeat goblins (11 drawings)*
 
 1. Draw your hero. They can be a knight, a court minstel, a wizard, or anything else. Write the hero's name under the drawing.
@@ -59,7 +59,7 @@ written by zachary "za3k" vance on 2021-03-29
 10. You won! Draw your hero winning the battle.
 11. Your hero brings back the goblin chief to the throne room, and the king's loved one rushes to hug him. Draw the hero enjoying a giant pile of treasure they got as a reward from the king. Or, draw them on a date with the prince/princess or playing with the pet.
 
-# thief adventure (2+ players)
+## thief adventure (2+ players)
 *thieves steal from each other (11 drawings)*
 
 1. You are all sneaky thieves and spies stealing from each other. Draw your thief.
