@@ -30,7 +30,7 @@ written by zachary "za3k" vance on 2021-03-29
 8. It turns out the wizard was just shy. They turn you back into humans. Draw your friends doing something nice to welcome the wizard to the kingdom. Write what you did.
 
 ## goblins adventure (1 players)
-*heroes defeat goblins (11 drawings)*
+*a hero defeat goblins (11 drawings)*
 
 1. Draw your hero. They can be a knight, a court minstel, a wizard, or anything else. Write the hero's name under the drawing.
 2. Goblins have invaded the kingdom. On your paper, write "<adjective> goblin" (for example, "smelly goblin"). That's the goblin chief. Draw the goblin chief.
