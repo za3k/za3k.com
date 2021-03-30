@@ -33,7 +33,7 @@ written by zachary "za3k" vance on 2021-03-29
 *a hero defeat goblins (11 drawings)*
 
 1. Draw your hero. They can be a knight, a court minstel, a wizard, or anything else. Write the hero's name under the drawing.
-2. Goblins have invaded the kingdom. On your paper, write "<adjective> goblin" (for example, "smelly goblin"). That's the goblin chief. Draw the goblin chief.
+2. Goblins have invaded the kingdom. On your paper, write "*ADJECTIVE* goblin" (for example, "smelly goblin"). That's the goblin chief. Draw the goblin chief.
 3. The king's loved one has been kidnapped! Draw a prince, princess, or king's favorite pet being kidnapped by the goblin chief. Write the prince, princess, or favorite pet's name.
 4. Draw the hero discovering a wanted poster for the goblin chief in an unexpected way.
 5. Draw how the hero defeats a bunch of normal goblins. Write the hero's name.
@@ -48,7 +48,7 @@ written by zachary "za3k" vance on 2021-03-29
 *heroes defeat goblins (11 drawings)*
 
 1. Draw your hero. They can be a knight, a court minstel, a wizard, or anything else. Write the hero's name under the drawing.
-2. Goblins have invaded the kingdom. On your paper, write "<adjective> goblin" (for example, "smelly goblin"). Pass your paper to the right. Draw the goblin the player to your left hands you. These are the goblin chiefs.
+2. Goblins have invaded the kingdom. On your paper, write "*ADJECTIVE* goblin" (for example, "smelly goblin"). Pass your paper to the right. Draw the goblin the player to your left hands you. These are the goblin chiefs.
 3. Pass your goblin chief to the right. The king's various daughters and sons have been kidnapped by the goblins chiefs! Draw a prince, princess, or favorite pet being kidnapped by your goblin chief. Write the prince, princess, or favorite pet's name.
 4. Pass your goblin chief to the right. Draw your hero discovering a wanted poster for the goblin chief in an unexpected way.
 5. Draw how your hero defeats a bunch of normal goblins. Write your hero's name.
