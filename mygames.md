@@ -4,6 +4,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
+| [doodle adventures](/archive/doodle_adventures.md)                       | 2021-03-29 | drawing              | low        | 1-6          | no       | yes           | listen as a premade story is revealed, and doodle what happens.
 | [emperical zendo](/archive/emperical_zendo.md)                           | 2021-03-19 | board                | mid        | 2-8          | no       | no            | a variant on traditional zendo, where you score points for predicting the rule but never guess the rule outright.
 | [logic potions](/archive/logic_potions.md)                               | 2021-03-13 | board                | high       | 2-4          | no       | no            | a potion-brewing game. not about logical deduction, but about logical deduction clues themselves
 | [deadly education rpg](/archive/deadly.md)                               | 2021-02-12 | roleplaying          | mid        | 2-6, plus GM | no       | no            | a traditional pen-and-paper roleplaying game based on the affinity-based magic system from Naomi Novik's "A Deadly Education"

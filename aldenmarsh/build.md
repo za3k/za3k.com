@@ -13,7 +13,7 @@
  - The Player's Handbook. You may use "variant human" if you want.
  - Volo's Guide to Monsters
  - Xanathar's Guide to Everything
- - Tasha's Cauldon of Everything
+ - Tasha's Cauldon of Everything. You can use custom lineage but I write "munchkin" in sharpie on your forehead.
 1. If you want to tweak your **background** or make a custom background, the answer is yes for anything in the standard "custom background" options, ask me if you want to do anything else
 1. **Languages**. Exotic languages like Celestial are allowed.
  - (Aldenmarsh group) All PCs get Aldish (the language of Aldenmarsh) for free, in addition to Common. 
