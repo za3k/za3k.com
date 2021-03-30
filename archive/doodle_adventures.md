@@ -76,8 +76,8 @@ written by zachary "za3k" vance on 2021-03-29
 
 ## making your own adventures
 
-- you can make your own adventures however you want, but play one or two of the ones below to get a feel for how they go first. 
-- i don't have a great way to make and play adventures one-player yet. 
+- you can make your own adventures however you want, but play one of the existing adventures to get a feel for how they go first. 
+- i don't have a great way to make and play adventures one-player yet. sorry! 
 - if you write your own adventure, feel free to send it to me and I can add it here.
 - if you want to make and play and adventure as a group, here's one way.
 
