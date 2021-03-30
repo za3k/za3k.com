@@ -63,7 +63,7 @@ written by zachary "za3k" vance on 2021-03-29
 *thieves steal from each other (11 drawings)*
 
 1. You are all sneaky thieves and spies stealing from each other. Draw your thief.
-2. There is a big treasure you're after. It could be a ruby, a cool laser gun, a sparkly crown, or anything else. Draw the treasure. Write what it is.
+2. There is a big treasure you want more than anything. It could be a ruby, a cool laser gun, a sparkly crown, or anything else. Draw the treasure. Write what it is.
 3. Draw the trap or security system guarding your treasure, like an alligator-infested moat. Write what the security is. Stack the security drawing on top of the treasure it's guarding.
 4. You planned a perfect heist, and brought one special piece of equipment with you to overcome the security. Write what the equipment is. Draw it.
 5. You just can't help yourself. You steal the equipment the player to your left drew. Draw how you steal it. Actually take the equipment, too.
