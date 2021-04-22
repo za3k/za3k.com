@@ -1,3 +1,5 @@
+See https://za3k.com/archive/doctor_report2.md
+
 ## Zachary Vance - Patient Information
 Stats
 - Aged 32, born 1988
