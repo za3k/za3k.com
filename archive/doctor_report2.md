@@ -3,18 +3,19 @@ See https://za3k.com/archive/doctor_report2.md
 ## Zachary Vance - Patient Information
 Stats
 - Aged 32, born 1988
-- Height 71 inches
+- Height 71? inches
 - Weight 166 pounds (73.6kg)
 
-Known health issues:
+Known ongoing health issues:
 - Repeated ankle sprains and injuries in both ankles
 - Developing cataract in right eye (from eye trauma)
-- Hemorrhoids (usually internal, external rare). internal is doctor's guesswork, not verified.
+- Hemorrhoids (usually internal, external very rare). internal is doctor's guesswork, not verified.
 - High cholesterol
 
-Past, corrected issues:
+Past (corrected) issues:
 - Pronating ankles
-- (self-diagnosed) general inflammation
+- Eye trauma
+- (self-diagnosed) general inflammation, was due to ankles
 
 ###Common Questions
 - **Current medications**: Atorvastatin 40mg daily
@@ -23,6 +24,10 @@ Past, corrected issues:
 - **Medical Allergies**: No known medical allergies, although nitrous oxide has no effect
 - **Standard Allergies**: Mold, Dust mites, Sesame
 - **Vaccines**: First COVID-19 (Pfizer, 2021-04-16), typhoid (2014), japanese encephalitis (x2, 2014), rabies (x3, 2014), tdap (2014), DTaP(x5, 88-94), Hib (90), IPV OVP (x4, 88-90), MMR (x290-00), TD (03), no varicella (had disease), Hep B (x3, 98-99), Hep A (x2, 98-99), PPD (94)
+- **Past surgeries**:
+    - Two ankle surgeries to correct pronation. Titanium screws inserted.
+    - Tonsils removed
+    - Eye surgery to relieve pressure
 
 ###Family history
 - Sister - Ovarian issue (cyst?)
