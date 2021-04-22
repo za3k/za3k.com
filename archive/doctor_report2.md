@@ -1,18 +1,18 @@
-See https://za3k.com/archive/doctor_report2.md
+See https://za3k.com/archive/doctor_report2.md for a digital copy of this document
 
 ## Zachary Vance - Patient Information
-Stats
+### Stats
 - Aged 32, born 1988
 - Height 71? inches
 - Weight 166 pounds (73.6kg)
 
-Known ongoing health issues:
+### Ongoing health issues:
 - Repeated ankle sprains and injuries in both ankles
 - Developing cataract in right eye (from eye trauma)
 - Hemorrhoids (usually internal, external very rare). internal is doctor's guesswork, not verified.
 - High cholesterol
 
-Past (corrected) issues:
+### Past corrected issues:
 - Pronating ankles
 - Eye trauma
 - (self-diagnosed) general inflammation, was due to ankles
@@ -88,6 +88,7 @@ All tests, labs etc should be attached.
 - **2021-04-16**: Highland Hospital, first COVID-19 vaccine (Pfizer)
 
 ## Zachary Vance - Symptom Timeline
+
 ### Non-recent, heart-related
 - **2019-06-04**: Retired (became more sedentary)
 - **2020-01-23**: **"Skipped" or hollow-feeling beat** (first heart palpitation). At colorado airport (high-altitude), on some caffein.
@@ -95,10 +96,11 @@ All tests, labs etc should be attached.
 - **2020-10-09**: First **heart racing**
 - **2020-12-09**: Began new exercise program. Previously had started laying down 20-22 hours a day during quarantine. Instead started sitting all day, using standing desk at least an hour a day, eating more veggies, etc. Still going as of 2021-04.
 - **2020-12-12**: Confirmed heart is racing for no reason (90-130bpm, for half hour to hour), feeling of it being 'exhausted' outside those periods. Some B-2 and riboflavin supplementation seemed to relieve "exhausted" feeling. Heart racing and tiredness symptoms disappeared a few weeks after this. I stayed on occasional B-2 but not riboflavin.
+
 ### Recent (complete)
 The first time a symptom appears, it is **bolded**.
 
-I've had two distinct kinds of lightheadedness--ask me about it. The first kind was the usual kind--like when you stand up too quickly. It usually got better or went away if I sat or laid down. The second I don't know how to describe, but it seemed to be hard to focus, and it was correlated with feeling like blood was pooling in my head.
+I've had two distinct kinds of lightheadedness--ask me about it. The first kind was the usual kind--like when you stand up too quickly. It usually got better or went away if I sat or laid down. The second I don't know how to describe, but it seemed to be hard to focus, and it was correlated with pressure in my head or feeling like blood was pooling in my head.
 
 - **2021-03-24**: Had a short **episode** where I felt like I increasingly wasn't getting oxygen (but could physically breathe fine). Checked using a pulse oximiter--blood oxygen was 96%, but pulse was 120 and rose to 180 by the time I grabbed my roommate to keep an eye on me. Went back down within a couple minutes. Legs/arms were clenching on their own. Had a glass of water and an ibuprofen. Heart rate was relatively normal (85-90) an hour later so didn't go to the ER. Episode was about 2 hours after a stressful falling-out with a stranger. Trouble sleeping.
 - **2021-03-25**: Try to relax. Feeling ok.
@@ -179,7 +181,7 @@ Measurements are with a "ZacVrate" pulse oximeter
 ### Blood Pressure Measurements
 
 | Date       | Arm   | Blood Pressure  | Notes
-|------------|-------|-----------------|
+|------------|-------|-----------------|----------|
 | 2021-04-04 | right | 125/91, bpm 87  | First time using pressure cuff
 | 2021-04-04 | right | 121/88, bpm 92  | 
 | 2021-04-07 | right | 115/83, bpm 93  |
