@@ -4,6 +4,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
+| [faux pas](/archive/faux_pas.md)                                         | 2021-04-28 | cooperative          | mid        | 3-8          | no       | maybe         | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of nobility rank.
 | [doodle adventures](/archive/doodle_adventures.md)                       | 2021-03-29 | drawing              | low        | 1-6          | no       | yes           | listen as a premade story is revealed, and doodle what happens.
 | [emperical zendo](/archive/emperical_zendo.md)                           | 2021-03-19 | board                | mid        | 2-8          | no       | no            | a variant on traditional zendo, where you score points for predicting the rule but never guess the rule outright.
 | [logic potions](/archive/logic_potions.md)                               | 2021-03-13 | board                | high       | 2-4          | no       | no            | a potion-brewing game. not about logical deduction, but about logical deduction clues themselves

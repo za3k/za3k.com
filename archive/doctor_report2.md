@@ -44,7 +44,7 @@ See https://za3k.com/archive/doctor_report2.md for a digital copy of this docume
 All tests, labs etc should be attached.
 
 - **Childhood**: Standard vaccines. Grew up in military bases abroad so somewhat more vaccines than usual, unsure which.
-- **2002-2004**: Ankle surgeries on both ankles to correct pronation. Screws inserted in both
+- **2002-2004**: Ankle surgeries on both ankles to correct pronation. Titanium screws inserted in both. Dr Rodney Roof for followup and records (original surgeon is dead)
 - **?**: Tonsils removed
 - **?**: Dental surgeries to remove baby teeth
 - **?**: Dental surgery to remove wisdom teeth
@@ -121,16 +121,16 @@ I've had two distinct kinds of lightheadedness--ask me about it. The first kind 
 - **2021-04-07**: Slightly lightheaded. Out of breath from things like drinking water. Left leg 'pulsing a little'. **Feel heavy** / trembly. Feeling of something caught in throat. Slight **feeling of having inhaled water**, like down nose.
     - Swapped air filter in my room.
 - **2021-04-08**: Feeling of something stuck in throat. Slightly out of it. Lightheaded. Dizzy. Poss vertigo+panic at night.
-- **2021-04-09**: Cold sore gone. Internal hemmorhoid starting? Something stuck in throat. **Heart rate extremely low at night (50s, dipped below once)**. Monitoring heart rate. Felt/saw like heart stopped (unclear if true), then sudden fast heart rate (50 to 160). bpm ~59 after this.
+- **2021-04-09**: Cold sore gone. Internal hemmorhoid starting? Something stuck in throat. **Heart rate extremely low at night (50s, dipped below once, blood ox. 86%)**. Monitoring heart rate. Felt/saw like heart stopped (unclear if true), then sudden fast heart rate (50 to 160). bpm ~59 after this.
 - **2021-04-10**: Stressed. Short of breath. More weird-beat palpitations than usual.
 - **2021-04-11**: Lightheaded when standing. Head feels weird and intense when standing, like **blood pooling in my head**. Feeling of **hearing shutting off** in one ear.
 - **2021-04-12**: Head weird and floaty. Blood in left leg twitching. When nearing sleep, a **whomp of blood vessels tightning or releasing or something for 2-3 sec**? Trouble sleeping.
-- **2021-04-13**: **Feeling of all the blood suddenly rushing from my head** while sitting there. Up until then, had felt some pressure/extra blood in head. Dizzy for a minute or two after, like room was swaying a bit. Heart went a little fast (95-120). Blood rushing to head slowly while falling asleep. Trouble sleeping.
+- **2021-04-13**: **Feeling of all the blood suddenly rushing from my head** while sitting there. Up until then, had felt some pressure/extra blood in head. Dizzy for a minute or two after, like room was swaying a bit. Heart went a little fast (95-120). Blood rushing to head slowly while falling asleep. Trouble sleeping. **Ears pop** when going to sleep.
 - **2021-04-14**: Lightheaded. Blood suddenly rushed to/from head. **Face slightly numb**, sweat. Minor acid reflux. Heart went a little faster for a bit. Trouble standing even a few minutes. Trouble sleeping.
-- **2021-04-15**: Feeling of blood pooling in face/head. Very lightheaded standing. Trouble standing even a few minutes. Did not sleep.
+- **2021-04-15**: Feeling of blood pooling in face/head. Very lightheaded standing. Trouble standing even a few minutes. Ears pop on sit/stand. Did not sleep.
 - **2021-04-16**: Hospital visit. Feeling much better, can walk around and stand. Became lightheaded around 3pm in hospital. Lightheaded and a little dizzy. Head feels heavy. Slept. Rapid shallow breathing, felt fine. Extra sleeping. Floaty/dreamy. Tilting my head past vertical feels weird. Acid reflux. Trembly arms. Palpitations, feel dizzy.
     Got lightheaded in the hospital with a mask on--some evidence this is not environmental.
-- **2021-04-17**: Worrying about stroke because of headaches/blood pooling in head. Called 911 in the morning, thought I had a transient stroke--woke up or was almost asleep when I suddenly head a headache and couldn't move or call out. Was probably a false alarm--EMTs decided I did not need to go to the ER. Feeling heady, especially head, like gravity is turned up.
+- **2021-04-17**: Worrying about stroke because of headaches/blood pooling in head. Felt blood suddenly rush down a vein in my neck. Called 911 in the morning, thought I had a transient stroke--woke up or was almost asleep when I suddenly head a headache and couldn't move or call out. Was probably a false alarm--EMTs decided I did not need to go to the ER. Feeling heady, especially head, like gravity is turned up.
 - **2021-04-18**: Pretty good. Heart races in morning (5-15 sec), felt a surge of adrenaline when waking up for 1st one. Lightheaded and dizzy. Head heavy.
 - **2021-04-19**: Feeling good. Head heavy, dizzy.
 - **2021-04-20**: Feeling good. Heart a little fast, somewhat stupid.
