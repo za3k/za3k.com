@@ -8,10 +8,15 @@ OK-Mixnet sends
 - **slowly**: How slow depends on some settings and the network size. With only 100 people in the network, it will take 2 minutes to deliver. With 100K people, it will take more like 2 days.
 - **to people you already know**: Messages are always sent from you to one friend you know already. You and each of your friends need to pre-exchange a file full of random bits in person--this is the basis of the securely talking to that friend.
 - **with OK security**
-    - No one can read or modify a message betwen you and your friends, if the computers and environments on either end are secure. This is guaranteed by math. It does rely on a good source of random numbers, such as a hardware random number generator.
-    - I've tried to design it so that it's pretty hard to tell who's sending a message to who, or even whether there are messages being sent at all. I offer no mathematical guarantees on this one.
-    - It's pretty easy to just shut down the whole mixnet (denial of service), and it might be possible to also shut down messages between two friends.
-    - Obviously, it's not magic. If your computer is hacked, your friend's computer is hacked, or someone puts a listening device in your keyboard, your messages may become public. If you send your one-time pad over the internet instead of exchanging it in person like you should, your messages may become public. If you generate your one-time pad using /dev/urandom, your messages may become public. If you get a message about something and immediately copy-paste it into an email, the fact that you learned it from someone on Mixnet may become public.
+    - You need a very good source of random numbers, such as a hardware random number generator.
+    - No one can read or modify a message betwen you and your friends, if the computers and environments on either end are secure. This is guaranteed by math.
+    - I've tried to design it so that it's pretty hard to tell who's sending a message to who, when the messages are sent, if there are messages being sent at all, or which people know each other. I offer no mathematical guarantees on these parts.
+    - It's pretty easy to just shut down the whole mixnet (denial of service), and it's also possible to also shut down messages between two friends if you know who they are.
+    - Obviously, it's not magic. If your computer is hacked, your friend's computer is hacked, or someone puts a listening device in your keyboard, your messages may become public. If you send your one-time pad over the internet instead of exchanging it in person like you should, your messages may become public. If you generate your one-time pad using /dev/urandom, your messages may become public. If you get a message about something and immediately copy-paste it into an email, the fact that you learned it from someone on Mixnet may become public. If someone shuts down communication betwen you and your friend, and you call them up, they will know you were trying to communicate on OK-Mixnet.
+- **in a way mortals can understand**
+    - OK-Mixnet is designed to be secure in a way that my 14-year old self can understand that it's secure, and why. There is (almost) no algebra, trust in experts, or unproven hardness assumptions. All you need is a very good random number generator.
+    - This doesn't mean a random person off the street can understand it--you'll probably still have to be a bit smart to follow mathematical proofs, or to understand possible attacks. But I think all of that is still accessible to smart teenagers.
+    - The main exception is the one-time MAC explained below, which uses modulo arithmetic and 8th-grade algebra. Understanding the math proofs of why it works however is a bit harder, and involves a proof with primes.
 
 Here are the drawbacks:
 - It's slow. Really slow.
@@ -23,7 +28,7 @@ Background:
 - Perfect Security (or, why should we exchange keys in person)
 - todo -- SIGINT (or, why do we need to hide when messages are sent and between whom?)
 - probably not todo -- Finite Field Arithmetic
-- probably not todo -- why p=2^9689-1
+- probably not todo -- why p=2^9689-1, and proof that it's a prime
 
 I'll explain how it works iteratively. 
 - The Perfect Message protocol securely sends a 1K message from person A to person B, but doesn't hide the messages at all.
@@ -92,31 +97,32 @@ Security:
 At the default rates, a 40GB file of random data will work for 10 years (6K is used per message pair).
 
 # The OK-Mixnet Protocol
-The OK-Mixnet protocol is almost the same as the OK-Link protocol. Let's say there are 100 people who want to communicate. This is the network size. Some of them are horrible spammers, some are your friends. What we essentially do is to open 99 OK-Link channels, one to each other person in the mixnet, and transmit on all of them. BUt to make traffic less bursty, we stagger the transmissions, and transmit to each person in turn instead.
+The OK-Mixnet protocol is almost the same as the OK-Link protocol. Let's say there are 100 people who want to communicate. This is the network size. Some of them are horrible spammers, some are your friends. What we essentially do is to open 99 OK-Link channels, one to each other person in OK-Mixnet, and transmit on all of them. BUt to make traffic less bursty, we stagger the transmissions, and transmit to each person in turn instead.
 
-1. Exchange large files of random bits with each of your friends, as in OK-Link, and form a one-time pad. This can be done after the mixnet is running, you just won't be able to decode messages until then.
-2. Get a list of the ID and IP address of everyone in the mixnet. This is done by a central authority for the proof-of-concept--I maintain a file by hand. Your ID is a unique number between 0 and 99 (between 0 and N-1)
+1. Exchange large files of random bits with each of your friends, as in OK-Link, and form a one-time pad. This can be done after the network is already running, you just won't be able to decode messages until then.
+2. Get a list of the ID and IP address of everyone in the mixnet. This is done by a central authority for the proof-of-concept--I'll maintain a file by hand and email it to a mailing list. Your ID is a unique number between 0 and 99 (between 0 and N-1)
 3. You equip your machine with a good hardware random number generator.
 Every second, you transmit a Perfect Message to id `[(unix timestamp in seconds) + (your ID)] modulo (network size)` and receive a message.
     - To transmit a message to a friend, you use exactly the protocol in OK-Link
     - To receive a message from a friend, you use exactly the protocol in OK-Link. Remember, you should be prepared to receive messages a little off--clocks don't always agree.
     - You can't transmit a message to a stranger, but to make it look like you are, you send a unix timestamp followed by random bits of the same length as a message instead.
     - Discard all messages from strangers without reading them.
-    - If you get an invalid message from a friend, or doesn't get a message on schedule, the program raises a red flag to the user that an attacker might be present.
 
-If there are 100 people in the mixnet, you contact your friend with a message every 100 seconds, or every 2 minutes. The total traffic sent over the network is 6K/second (15GB/month). The more people join OK-Mixnet, the slower it gets, but the bandwidth usage per person stays the same.
+If there are 100 people in OK-Mixnet, you contact your friend with a message every 99 seconds, or every 2 minutes. The total traffic sent over the network is 6K/second (15GB/month). The more people join OK-Mixnet, the slower it gets to send messages, but the bandwidth usage per person stays the same.
 
 Security
-- Messages are sent on a scheduled basis, so it should be hard to tell
-- Message processing needs to be fast enough to prevent timing attacks. I suggest doing it ahead of time.
-- It's VERY important that the random number generators used for chaff and pads are good enough. If your random generator is bad enough, an adversary can tell who your friends are, or even which messages are chaff. Even if your generator and your friends' generator is good, if 80% of the mixnet's generators are bad, you're now hiding in a group 1/5 to 1/25 the size. 
-
+- Messages are sent on a scheduled basis, so it should be near-impossible to tell when you are talking to whom.
+- The security works against ANY number of malicious nodes. There is no majority-good requirement. If the Russian government adds 1000 nodes to the network, it will make it slower, but it shouldn't affect the security.
+- As in OK-Link, message processing needs to be fast enough to prevent timing attacks. I suggest doing it ahead of time.
+- It's VERY important that the random number generators used for chaff and pads are good enough. If your random generator is bad enough, an adversary can tell who your friends are, or even which messages are chaff. Even if your generator and your friends' generator is good, if 80% of the mixnet's generators are bad, you're now hiding in a group 20% the size. 
+- If the computerized client gets an invalid message from a friend, or doesn't get a message on schedule, it should raises a red flag to the user that an attacker might be present. Too many networked security programs silently ignore errors instead of raising them to user attention.
 
 # Known improvements
 - For pads, I could recycle pad use from chaff--there's no reason to actually consume all the pre-generated random data. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals, and it would introduce more complexity than you think to do it well.
 - It would probably be reasonable to add broadcast messages, which could be used as the basis for things like bulletin boards or larger group chats.
 - A note on random-number sources. I've mentioned, you need a really good source. The good news is that it's easy to make a pretty good random number generator, because of the properties of xor and hashes--you don't need all your sources to be perfect, you just to estimate the amount of randomness conservatively enough. New Intel CPUs support a [RDRAND](https://en.wikipedia.org/wiki/RDRAND) instruction that generates random numbers (at [500MB/s](https://stackoverflow.com/questions/10484164/what-is-the-latency-and-throughput-of-the-rdrand-instruction-on-ivy-bridge)), but it's hard to check if the output is good, and harder to check if it's backdoored. Just take a few sources like this where the output is decent (CPU, an external USB device, a software PRNG) and xor them together, and you get a good source of random bits.
 - That all said, I could probably do more to mitigate bad random number generators. Right now distinguishing chaff messages is too easy. I'm open to suggestions.
+- As a note, it's possible to substitute public crypto and PRNG-based pads, to avoid in-person exchanges, and end up with a similar system. But I feel this defeats the whole point of OK-Mixnet, so I won't support it in my own code.
 
 ## Background: Perfect, or Information-Theoretic Security
 I'll explain what perfect security is, as a motivator for why you would want to do this, even though you need to exchange keys in person. Feel free to skip ahead to "One-Time Pads" if this isn't your thing.
