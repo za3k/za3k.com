@@ -5,8 +5,8 @@ OK-Mixnet is my proposed sketch for a method to send small messages, slowly. It'
 
 OK-Mixnet sends
 - **small messages**: To keep it simple for the proof-of-concept, messages are simple plain text letters. They're broken up into binary chunks of 1K or less. Bigger letters get split up and sent in parts.
-- **slowly**: Your message will get there in about an hour.
-- **to people you already know**: Messages are always sent either from you to everyone (broadcast), or from you to one friend you know already. You and each of your friends need to pre-exchange a file full of random bits in person--this is the basis of the securely talking to that friend.
+- **slowly**: How slow depends on some settings and the network size. With only 100 people in the network, it will take 2 minutes to deliver. With 100K people, it will take more like 2 days.
+- **to people you already know**: Messages are always sent from you to one friend you know already. You and each of your friends need to pre-exchange a file full of random bits in person--this is the basis of the securely talking to that friend.
 - **with OK security**
     - No one can read or modify a message betwen you and your friends, if the computers and environments on either end are secure. This is guaranteed by math. It does rely on a good source of random numbers, such as a hardware random number generator.
     - I've tried to design it so that it's pretty hard to tell who's sending a message to who, or even whether there are messages being sent at all. I offer no mathematical guarantees on this one.
@@ -22,7 +22,8 @@ Here are the drawbacks:
 Background:
 - Perfect Security (or, why should we exchange keys in person)
 - todo -- SIGINT (or, why do we need to hide when messages are sent and between whom?)
-- todo -- Finite Field Arithmetic (or, wait do an affine WHAT?)
+- probably not todo -- Finite Field Arithmetic
+- probably not todo -- why p=2^9689-1
 
 I'll explain how it works iteratively. 
 - The Perfect Message protocol securely sends a 1K message from person A to person B, but doesn't hide the messages at all.
@@ -48,11 +49,11 @@ The Perfect Message Protocol sends a message between person A and person B, who 
 
 To send the message
 1. Our inputs are 
- - A 9688-bit (1211-byte) message.
- - 29066 random bits, which we shared ahead of time. We split this into:
-    - A 9688-bit number, OTPK (one-time pad key)
-    - Two 9689-bit random numbers, OTMK-a and OTMK-b (one-time mac keys). Neither is allowed to be 9689 consecutive 1 bits--if it is, throw it out and make a new one, and also throw out your random number generator and make a new one.
- - We always set p to the (2^9689)-1, which is a large prime number constant.
+    - A 9688-bit (1211-byte) message.
+    - 29066 random bits, which we shared ahead of time. We split this into:
+        - A 9688-bit number, OTPK (one-time pad key)
+        - Two 9689-bit random numbers, OTMK-a and OTMK-b (one-time mac keys). Neither is allowed to be 9689 consecutive 1 bits--if it is, throw it out and make a new one, and also throw out your random number generator and make a new one.
+    - We always set p to the (2^9689)-1, which is a large prime number constant.
 2. Calculate the 8000-bit `ciphertext = (message) xor (OTPK)`
 3. Calculate 9689-bit `message authentication code = [(OTM-a) * (ciphertext) + (OTM-b)] modulo p`. Notice that this is addition and multiplation of 9689-bit numbers, so this isn't automatically handled by your CPU. But it's not hard either.
 4. Send ciphertext and MAC to the recipient.
@@ -60,7 +61,7 @@ To send the message
 To receive the message:
 1. Our input is
  - A 9688-bit (1211-byte) ciphertext.
- - All the same pre-shared random bits: the OTPK, OTMK-a, and OTMK-b
+ - All the same pre-shared random bits: the OTPK, OTMK-a, and OTMK-b.
  - The same p = (2^9689)-1, a constant large prime number
 2. Calculate 9689-bit `expected message authentication code = [(OTM-a) * (ciphertext) + (OTM-b)] modulo p`. 
 3. If expected and received authentication codes don't match, the message has been tampered with (or there was some other bug and you have bad data). Report a failure and exit immediately.
@@ -70,9 +71,12 @@ To receive the message:
 # The OK-Link Protocol
 The OK-Link protocol sends short messages between person A and person B, who have exchanged some secret files filled with random bits ahead of time. The messages are private and can't be tampered with, and adversaries can't tell when messages are being sent.
 
+There is a transmission size and period. The defaults are a 1K message (size) per 1 minute (period).
+
 1. First, two friends generate large files of random bits. 40GB of data is suggested. They exchange the bits with each other, for example by DVD-ROM or trusted USB sticks.
 2. Internally, the OK-Link xors the two 40GB files together to form a single 40GB one-time pad. The original files can be deleted. Interally, the file is separated into a bunch of 
 3. When you want to send a message, it gets added to a message queue.
+4. There is one modification from the Perfect Message protocol--a unix timestamp is put at the start of the message, before the encrypted bits. This is in case the sender and receiver clock are a little off, so they can agree on which one-time pad should be used.
 4. Once a minute, both A and B send each other a Perfect Message. There are two kinds of perfect messages sent.
     - First, the sender can send the byte "M" meaning message, followed by 1000 bytes of message, followed by 210 zero bytes of padding.
     - Second, the sender can send the byte "C" meaning chaff, followed by 1210 zero bytes. Chaff messages are ignored.
@@ -81,16 +85,38 @@ Security:
 - A message of exactly 1K is sent exactly once, every minute, whether or not there are messages in the queue.
 - It should be hard to tell if or when a message is being sent based on traffic patterns
 - For security reasons, messages should be prepared in advance of the minute mark, to avoid more fine-grained timing attacks.
+- Wildly wrong timestamps should be rejected by the reciever. 5 minutes off is fine.
 - The properties of one-time pads and one-time MACs means it should not be possible to tell any contents from any others, including chaff messages. There's no strong reason to use zero padding versus random padding.
 - If you xor a random stream against anything chosen without seeing the stream first, you get a random stream. If two friends xor things together, you should get good one-time pads as long as ONE of them has a good HRNG, even if the other is actively sabotaged (incidentally, this is how I made my HRNG system--I xor three untrusted generators together for extra oompf).
 
-After sending a message of up to 1K, it can take up to 1 minute to arrive. At this rate, a 40GB file of random data will work for 10 years (6K is used per message pair).
+At the default rates, a 40GB file of random data will work for 10 years (6K is used per message pair).
 
 # The OK-Mixnet Protocol
-TODO
+The OK-Mixnet protocol is almost the same as the OK-Link protocol. Let's say there are 100 people who want to communicate. This is the network size. Some of them are horrible spammers, some are your friends. What we essentially do is to open 99 OK-Link channels, one to each other person in the mixnet, and transmit on all of them. BUt to make traffic less bursty, we stagger the transmissions, and transmit to each person in turn instead.
+
+1. Exchange large files of random bits with each of your friends, as in OK-Link, and form a one-time pad. This can be done after the mixnet is running, you just won't be able to decode messages until then.
+2. Get a list of the ID and IP address of everyone in the mixnet. This is done by a central authority for the proof-of-concept--I maintain a file by hand. Your ID is a unique number between 0 and 99 (between 0 and N-1)
+3. You equip your machine with a good hardware random number generator.
+Every second, you transmit a Perfect Message to id `[(unix timestamp in seconds) + (your ID)] modulo (network size)` and receive a message.
+    - To transmit a message to a friend, you use exactly the protocol in OK-Link
+    - To receive a message from a friend, you use exactly the protocol in OK-Link. Remember, you should be prepared to receive messages a little off--clocks don't always agree.
+    - You can't transmit a message to a stranger, but to make it look like you are, you send a unix timestamp followed by random bits of the same length as a message instead.
+    - Discard all messages from strangers without reading them.
+    - If you get an invalid message from a friend, or doesn't get a message on schedule, the program raises a red flag to the user that an attacker might be present.
+
+If there are 100 people in the mixnet, you contact your friend with a message every 100 seconds, or every 2 minutes. The total traffic sent over the network is 6K/second (15GB/month). The more people join OK-Mixnet, the slower it gets, but the bandwidth usage per person stays the same.
+
+Security
+- Messages are sent on a scheduled basis, so it should be hard to tell
+- Message processing needs to be fast enough to prevent timing attacks. I suggest doing it ahead of time.
+- It's VERY important that the random number generators used for chaff and pads are good enough. If your random generator is bad enough, an adversary can tell who your friends are, or even which messages are chaff. Even if your generator and your friends' generator is good, if 80% of the mixnet's generators are bad, you're now hiding in a group 1/5 to 1/25 the size. 
+
 
 # Known improvements
-- I could recycle data from chaff--there's no reason to actually consume all the pre-generated random data. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals, so it would probably mean a second Perfect Message size to deal with.
+- For pads, I could recycle pad use from chaff--there's no reason to actually consume all the pre-generated random data. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals, and it would introduce more complexity than you think to do it well.
+- It would probably be reasonable to add broadcast messages, which could be used as the basis for things like bulletin boards or larger group chats.
+- A note on random-number sources. I've mentioned, you need a really good source. The good news is that it's easy to make a pretty good random number generator, because of the properties of xor and hashes--you don't need all your sources to be perfect, you just to estimate the amount of randomness conservatively enough. New Intel CPUs support a [RDRAND](https://en.wikipedia.org/wiki/RDRAND) instruction that generates random numbers (at [500MB/s](https://stackoverflow.com/questions/10484164/what-is-the-latency-and-throughput-of-the-rdrand-instruction-on-ivy-bridge)), but it's hard to check if the output is good, and harder to check if it's backdoored. Just take a few sources like this where the output is decent (CPU, an external USB device, a software PRNG) and xor them together, and you get a good source of random bits.
+- That all said, I could probably do more to mitigate bad random number generators. Right now distinguishing chaff messages is too easy. I'm open to suggestions.
 
 ## Background: Perfect, or Information-Theoretic Security
 I'll explain what perfect security is, as a motivator for why you would want to do this, even though you need to exchange keys in person. Feel free to skip ahead to "One-Time Pads" if this isn't your thing.
