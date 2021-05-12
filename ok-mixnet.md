@@ -25,7 +25,7 @@ Here are the drawbacks:
 - No one else is using it. Also, it's designed to hide who's communicating, but there's probably only going to be 10 people on it, so that means people will know you got a message from one of those 10 people.
 
 Background:
-- Perfect Security (or, why should we exchange keys in person)
+- [Perfect Security](#perfect_security) (or, why should we exchange keys in person)
 - todo -- SIGINT (or, why do we need to hide when messages are sent and between whom?)
 - probably not todo -- Finite Field Arithmetic
 - probably not todo -- why p=2^9689-1, and proof that it's a prime
@@ -124,7 +124,8 @@ Security
 - That all said, I could probably do more to mitigate bad random number generators. Right now distinguishing chaff messages is too easy. I'm open to suggestions.
 - As a note, it's possible to substitute public crypto and PRNG-based pads, to avoid in-person exchanges, and end up with a similar system. But I feel this defeats the whole point of OK-Mixnet, so I won't support it in my own code.
 
-## Background: Perfect, or Information-Theoretic Security
+# Background
+## <a name="perfect_security"> Background: Perfect, or Information-Theoretic Security
 I'll explain what perfect security is, as a motivator for why you would want to do this, even though you need to exchange keys in person. Feel free to skip ahead to "One-Time Pads" if this isn't your thing.
 
 There are three levels of security you can get in the theoretical digital world.
