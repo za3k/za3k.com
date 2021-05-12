@@ -1,0 +1,126 @@
+I'm a human being, and sometimes I'd like to send someone a message. I don't want anyone other than me and whoever the message is for to read it--not strangers, not companies, and not governments. It's possible, and with computers, it should be easy and instant.
+
+# OK-Mixnet
+OK-Mixnet is my proposed sketch for a method to send small messages, slowly. It's designed for things like email, IRC-style slow chatrooms, or bulletin boards. In my experience, this is the same stuff I'd use GPG for.
+
+OK-Mixnet sends
+- **small messages**: To keep it simple for the proof-of-concept, messages are simple plain text letters. They're broken up into binary chunks of 1K or less. Bigger letters get split up and sent in parts.
+- **slowly**: Your message will get there in about an hour.
+- **to people you already know**: Messages are always sent either from you to everyone (broadcast), or from you to one friend you know already. You and each of your friends need to pre-exchange a file full of random bits in person--this is the basis of the securely talking to that friend.
+- **with OK security**
+    - No one can read or modify a message betwen you and your friends, if the computers and environments on either end are secure. This is guaranteed by math. It does rely on a good source of random numbers, such as a hardware random number generator.
+    - I've tried to design it so that it's pretty hard to tell who's sending a message to who, or even whether there are messages being sent at all. I offer no mathematical guarantees on this one.
+    - It's pretty easy to just shut down the whole mixnet (denial of service), and it might be possible to also shut down messages between two friends.
+    - Obviously, it's not magic. If your computer is hacked, your friend's computer is hacked, or someone puts a listening device in your keyboard, your messages may become public. If you send your one-time pad over the internet instead of exchanging it in person like you should, your messages may become public. If you generate your one-time pad using /dev/urandom, your messages may become public. If you get a message about something and immediately copy-paste it into an email, the fact that you learned it from someone on Mixnet may become public.
+
+Here are the drawbacks:
+- It's slow. Really slow.
+- You have to exchange keys, with every person you want to talk to. In person.
+- You have to find a source of random numbers you trust. This might mean making something or buying a hardware device. But if you trust Linux's /dev/urandom, you can use that too.
+- No one else is using it. Also, it's designed to hide who's communicating, but there's probably only going to be 10 people on it, so that means people will know you got a message from one of those 10 people.
+
+Background:
+- Perfect Security (or, why should we exchange keys in person)
+- todo -- SIGINT (or, why do we need to hide when messages are sent and between whom?)
+- todo -- Finite Field Arithmetic (or, wait do an affine WHAT?)
+
+I'll explain how it works iteratively. 
+- The Perfect Message protocol securely sends a 1K message from person A to person B, but doesn't hide the messages at all.
+- The OK-Link protocol securely sends a 1K message from person A to person B, and tries to hide when the message is being sent.
+- The OK-Mixnet protocol securely sends 1K messages, and tries to hide when messages are being send and between whom.
+- todo -- The proof-of-concept client and interface is left as an exercise to the programmer (me!).
+
+## One-Time Pads (Perfect Encryption)
+- You're reading a document about mixnets so you know what a [one-time pad](https://en.wikipedia.org/wiki/One-time_pad) is already.
+- People used to use mod-26 addition with letters. Now we use xor with binary bits. Any mod-N addition works.
+- It has perfect security against passive attackers. You should prove to yourself that it's actually perfect if you haven't. Don't take things on faith.
+- It's also not secure against active attackers. An attacker can easily swap letters if they know or guess parts of the original message.
+- You should never re-use a one-time pad, or all the security guarantees are gone.
+
+## One-Time MACs (Perfect Authentication)
+- See [http://web.mit.edu/6.857/OldStuff/Fall97/lectures/lecture3.pdf](Ron Rivest's) lecture notes. I'm not sure if he's the original author or not.
+- Again, you can't re-use one-time keys or the security breaks. Again, it's perfect security. Again, the key is annoyingly long. This is probably the best you can do?
+- This combines with One-Time Pads to make a one-time pad secure against active attackers.
+- There is a magic number p, we have to do all arithmetic mod p. For One-Time Pads, p didn't matter. For One-Time MACs, we need p to be a prime. This is basically so that division will work. For for information, research finite fields.
+
+# The Perfect Message Protocol
+The Perfect Message Protocol sends a message between person A and person B, who have exchanged some secret numbers ahead of time. The message stays private and can't be tampered with, but anyone can see the message being sent.
+
+To send the message
+1. Our inputs are 
+ - A 9688-bit (1211-byte) message.
+ - 29066 random bits, which we shared ahead of time. We split this into:
+    - A 9688-bit number, OTPK (one-time pad key)
+    - Two 9689-bit random numbers, OTMK-a and OTMK-b (one-time mac keys). Neither is allowed to be 9689 consecutive 1 bits--if it is, throw it out and make a new one, and also throw out your random number generator and make a new one.
+ - We always set p to the (2^9689)-1, which is a large prime number constant.
+2. Calculate the 8000-bit `ciphertext = (message) xor (OTPK)`
+3. Calculate 9689-bit `message authentication code = [(OTM-a) * (ciphertext) + (OTM-b)] modulo p`. Notice that this is addition and multiplation of 9689-bit numbers, so this isn't automatically handled by your CPU. But it's not hard either.
+4. Send ciphertext and MAC to the recipient.
+
+To receive the message:
+1. Our input is
+ - A 9688-bit (1211-byte) ciphertext.
+ - All the same pre-shared random bits: the OTPK, OTMK-a, and OTMK-b
+ - The same p = (2^9689)-1, a constant large prime number
+2. Calculate 9689-bit `expected message authentication code = [(OTM-a) * (ciphertext) + (OTM-b)] modulo p`. 
+3. If expected and received authentication codes don't match, the message has been tampered with (or there was some other bug and you have bad data). Report a failure and exit immediately.
+3. Otherwise, calculate `plaintext = (ciphertext) xor (OTPK)`
+4. Return the plaintext, which has been received tamper-free.
+
+# The OK-Link Protocol
+The OK-Link protocol sends short messages between person A and person B, who have exchanged some secret files filled with random bits ahead of time. The messages are private and can't be tampered with, and adversaries can't tell when messages are being sent.
+
+1. First, two friends generate large files of random bits. 40GB of data is suggested. They exchange the bits with each other, for example by DVD-ROM or trusted USB sticks.
+2. Internally, the OK-Link xors the two 40GB files together to form a single 40GB one-time pad. The original files can be deleted. Interally, the file is separated into a bunch of 
+3. When you want to send a message, it gets added to a message queue.
+4. Once a minute, both A and B send each other a Perfect Message. There are two kinds of perfect messages sent.
+    - First, the sender can send the byte "M" meaning message, followed by 1000 bytes of message, followed by 210 zero bytes of padding.
+    - Second, the sender can send the byte "C" meaning chaff, followed by 1210 zero bytes. Chaff messages are ignored.
+
+Security:
+- A message of exactly 1K is sent exactly once, every minute, whether or not there are messages in the queue.
+- It should be hard to tell if or when a message is being sent based on traffic patterns
+- For security reasons, messages should be prepared in advance of the minute mark, to avoid more fine-grained timing attacks.
+- The properties of one-time pads and one-time MACs means it should not be possible to tell any contents from any others, including chaff messages. There's no strong reason to use zero padding versus random padding.
+- If you xor a random stream against anything chosen without seeing the stream first, you get a random stream. If two friends xor things together, you should get good one-time pads as long as ONE of them has a good HRNG, even if the other is actively sabotaged (incidentally, this is how I made my HRNG system--I xor three untrusted generators together for extra oompf).
+
+After sending a message of up to 1K, it can take up to 1 minute to arrive. At this rate, a 40GB file of random data will work for 10 years (6K is used per message pair).
+
+# The OK-Mixnet Protocol
+TODO
+
+# Known improvements
+- I could recycle data from chaff--there's no reason to actually consume all the pre-generated random data. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals, so it would probably mean a second Perfect Message size to deal with.
+
+## Background: Perfect, or Information-Theoretic Security
+I'll explain what perfect security is, as a motivator for why you would want to do this, even though you need to exchange keys in person. Feel free to skip ahead to "One-Time Pads" if this isn't your thing.
+
+There are three levels of security you can get in the theoretical digital world.
+- Perfect (information-theoretic): If you send a bunch of bits, people can stare at the bits all they want, and they will never have any idea what the bits are. Not even one of them. Not even a little. Not even with a supercomputer.
+- Computationally difficult: It costs an attacker more effort to break a code than it takes you to send a message in the code. Usually there's a pretty big multiplier, so that it's relatively easy to make something that all of human civilization couldn't break in the next 20 years, by scaling up the size a little.
+- Practically difficult: It's hard, and people have tried to break it, but we don't actually have any mathematical proof it will be hard. We just have a lot of evidence that no one has broken it, because several smart people tried for decades, and no one has come forward and said "I did it! I broke it!".
+- Quantum entanglement?: I don't understand quantum computing well enough to talk about it much, but there might be actually good quantum security? Ask me again in five years, It doesn't seem practically useful until everyone does, but it's worth thinking about beforehand.
+
+Today, we don't know anything in the "compuationally difficult" class--humankind still hasn't figured out, fundamentally, whether any computationally difficult crypto problems exist (the existence of [one-way-functions](https://en.wikipedia.org/wiki/One-way_function) ). We _suspect_ that some of the problems we know are practically difficult, might also be computationally difficult--we just can't prove it.
+
+On the other hand, we do know a couple perfect security methods, which I'll cover. Given the choice to use provably perfect security any smart person can verify themselves, I would rather use perfect security. So why don't people?
+
+Why people don't use perfect security
+- Convenience. In general, public-key (asymmetric) cryptosystems are easier to build infrastructure on than private-key (symmetric) cryptosystems. I'm not sure, but I think asymmetric perfect crypto is impossible.
+- Perfect security [requires](http://pages.cs.wisc.edu/~rist/642-fall-2012/shannon-secrecy.pdf) large keys (as large as the messages) which can't be re-used. The re-use thing is a little bad, but computer storage is cheap, and this doesn't seem like a big deal to me.
+- Some of the approaches given here are not well-known, such as signing
+- It requires a good source of random numbers
+
+Problems that CAN be solved using perfect crypto:
+- Private key (pre-shared key) encryption, against passive eavesdropping. Covered under One-Time Pads.
+- Signing, or proving that a message is from who it says, to the intended recipient only. This is also provided by One-Time Pads. Let me know if there are other options, I'm curious.
+- Authentication, or proving that a message has not been tampered with during transmission. This is [Rivest's](http://web.mit.edu/6.857/OldStuff/Fall97/lectures/lecture3.pdf) affine transform, covered under "Perfect Authentication".
+- Secret sharing, which is an obscure crypto thing. This is Shamir's secret sharing scheme, which is based on polynomial interpolation over finite fields.
+
+Problems that CANNOT be solved using perfect crypto:
+- Key exchange, or agreeing on a key between two people who have never met before, so that an eavesdropper doesn't learn the secret key
+- Commitment, or proving that you will reveal a specific message without yet revealing what it is
+
+Problems where I'm not sure
+- Public-key encryption, against passive eavesdropping
+- Signing, or proving that a message is from who it says, to the general public
