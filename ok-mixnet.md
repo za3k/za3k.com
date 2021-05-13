@@ -47,7 +47,7 @@ I'll explain how it works iteratively.
 - See [http://web.mit.edu/6.857/OldStuff/Fall97/lectures/lecture3.pdf](Ron Rivest's) lecture notes. I'm not sure if he's the original author or not.
 - Again, you can't re-use one-time keys or the security breaks. Again, it's perfect security. Again, the key is annoyingly long. This is probably the best you can do?
 - This combines with One-Time Pads to make a one-time pad secure against active attackers.
-- There is a magic number p, we have to do all arithmetic mod p. For One-Time Pads, p didn't matter. For One-Time MACs, we need p to be a prime. This is basically so that division will work. For for information, research finite fields.
+- There is a magic number p, we have to do all arithmetic mod p. For One-Time Pads, p didn't matter. For One-Time MACs, we need p to be a prime. This is basically so that multiplication and division work the way you're used to. For more information, research finite fields.
 
 # The Perfect Message Protocol
 The Perfect Message Protocol sends a message between person A and person B, who have exchanged some secret numbers ahead of time. The message stays private and can't be tampered with, but anyone can see the message being sent.
@@ -55,11 +55,11 @@ The Perfect Message Protocol sends a message between person A and person B, who 
 To send the message
 1. Our inputs are 
     - A 9688-bit (1211-byte) message.
-    - 29066 random bits, which we shared ahead of time. We split this into:
+    - A 29066-bits random pad, which we shared ahead of time. We split this into:
         - A 9688-bit number, OTPK (one-time pad key)
         - Two 9689-bit random numbers, OTMK-a and OTMK-b (one-time mac keys). Neither is allowed to be 9689 consecutive 1 bits--if it is, throw it out and make a new one, and also throw out your random number generator and make a new one.
-    - We always set p to the (2^9689)-1, which is a large prime number constant.
-2. Calculate the 8000-bit `ciphertext = (message) xor (OTPK)`
+    - We always set p to the constant value (2^9689)-1, which is a large prime number.
+2. Calculate the 9688-bit `ciphertext = (message) xor (OTPK)`
 3. Calculate 9689-bit `message authentication code = [(OTM-a) * (ciphertext) + (OTM-b)] modulo p`. Notice that this is addition and multiplation of 9689-bit numbers, so this isn't automatically handled by your CPU. But it's not hard either.
 4. Send ciphertext and MAC to the recipient.
 
@@ -70,21 +70,30 @@ To receive the message:
  - The same p = (2^9689)-1, a constant large prime number
 2. Calculate 9689-bit `expected message authentication code = [(OTM-a) * (ciphertext) + (OTM-b)] modulo p`. 
 3. If expected and received authentication codes don't match, the message has been tampered with (or there was some other bug and you have bad data). Report a failure and exit immediately.
-3. Otherwise, calculate `plaintext = (ciphertext) xor (OTPK)`
-4. Return the plaintext, which has been received tamper-free.
+4. Otherwise, calculate the 9688-bit (1211-byte) `plaintext = (ciphertext) xor (OTPK)`
+5. Return the plaintext (message), which has been received tamper-free.
 
 # The OK-Link Protocol
 The OK-Link protocol sends short messages between person A and person B, who have exchanged some secret files filled with random bits ahead of time. The messages are private and can't be tampered with, and adversaries can't tell when messages are being sent.
 
 There is a transmission size and period. The defaults are a 1K message (size) per 1 minute (period).
 
-1. First, two friends generate large files of random bits. 40GB of data is suggested. They exchange the bits with each other, for example by DVD-ROM or trusted USB sticks.
-2. Internally, the OK-Link xors the two 40GB files together to form a single 40GB one-time pad. The original files can be deleted. Interally, the file is separated into a bunch of 
-3. When you want to send a message, it gets added to a message queue.
-4. There is one modification from the Perfect Message protocol--a unix timestamp is put at the start of the message, before the encrypted bits. This is in case the sender and receiver clock are a little off, so they can agree on which one-time pad should be used.
-4. Once a minute, both A and B send each other a Perfect Message. There are two kinds of perfect messages sent.
-    - First, the sender can send the byte "M" meaning message, followed by 1000 bytes of message, followed by 210 zero bytes of padding.
-    - Second, the sender can send the byte "C" meaning chaff, followed by 1210 zero bytes. Chaff messages are ignored.
+1. First, two friends generate large files of random bits. 40GB of data is suggested. They exchange the bits with each other, for example by DVD-ROM or trusted USB sticks. Internally, the OK-Link xors the two 40GB files together to form a single 40GB one-time pad. The original files can be deleted. 
+2. The friends also agree on a start time a little in the past--say midnight of the current date. They write down the date in a text file, which is stored along with the two pads.
+3. The file is then divided into a bunch of individual one-time pads, which are numbered--each one will be used for a different message. For the first minute after the start time, pad 1 is used, for the second minute pad 2 is used, and so on.
+4. Whenever you want to send a message, it gets added to a message queue.
+5. There is one modification from the Perfect Message protocol--a unix timestamp is put at the start of the message, before the encrypted bits. This is in case the sender and receiver clock are a little off, so they can agree on which one-time pad should be used.
+6. Once a minute, both A and B send each other a Perfect Message. There are two main kinds of perfect messages sent, C and not-C. All messages are zero-padded at the end to reach 1211 bytes.
+    - **C / Chaff**: 'C' messages are ignored and deleted on receipt.
+        - Format: The byte "C" meaning chaff; 1210 zero bytes of padding.
+    - **M / Message**: Arbitrary binary data up to 1000 bytes, to be shown to the user. For testing I recommend ASCII text.
+        - Format: The byte "M"; 4-byte message id; 2-byte length; up to 1000 bytes of message
+    - **P / Partial Message**: For long messages. All the parts are automatically concatenated together, and then shown to the user at the end.
+        - Format: The byte "P"; 4-byte messsage id; 4-byte number of parts; 4-byte part number; up to 1000 bytes of message
+    - **R / Received**: Read receipts/confirmation. Sent to the client to say a message was successfully received. Can be sent when convenient.
+        - Format: The byte "R"; 2-byte message count; 4-byte message id for each message
+    - **X / Experimental**: Please use this if you want to make a custom client and make your own messages.
+        - Format: The byte "X"; 10-byte ascii name for your message type (pick anything unique, pad with zeros); your custom format of 1200 bytes
 
 Security:
 - A message of exactly 1K is sent exactly once, every minute, whether or not there are messages in the queue.
@@ -117,9 +126,9 @@ Security
 - It's VERY important that the random number generators used for chaff and pads are good enough. If your random generator is bad enough, an adversary can tell who your friends are, or even which messages are chaff. Even if your generator and your friends' generator is good, if 80% of the mixnet's generators are bad, you're now hiding in a group 20% the size. 
 - If the computerized client gets an invalid message from a friend, or doesn't get a message on schedule, it should raises a red flag to the user that an attacker might be present. Too many networked security programs silently ignore errors instead of raising them to user attention.
 
-# Known improvements
-- For pads, I could recycle pad use from chaff--there's no reason to actually consume all the pre-generated random data. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals, and it would introduce more complexity than you think to do it well.
+# Notes and Known Improvements
 - It would probably be reasonable to add broadcast messages, which could be used as the basis for things like bulletin boards or larger group chats.
+- For pads, it seems like you'd like to only consume the pad while sending messages, and only consume a few bytes per chaff message. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals to avoid waste. It would introduce more complexity than you think to do it well.
 - A note on random-number sources. I've mentioned, you need a really good source. The good news is that it's easy to make a pretty good random number generator, because of the properties of xor and hashes--you don't need all your sources to be perfect, you just to estimate the amount of randomness conservatively enough. New Intel CPUs support a [RDRAND](https://en.wikipedia.org/wiki/RDRAND) instruction that generates random numbers (at [500MB/s](https://stackoverflow.com/questions/10484164/what-is-the-latency-and-throughput-of-the-rdrand-instruction-on-ivy-bridge)), but it's hard to check if the output is good, and harder to check if it's backdoored. Just take a few sources like this where the output is decent (CPU, an external USB device, a software PRNG) and xor them together, and you get a good source of random bits.
 - That all said, I could probably do more to mitigate bad random number generators. Right now distinguishing chaff messages is too easy. I'm open to suggestions.
 - As a note, it's possible to substitute public crypto and PRNG-based pads, to avoid in-person exchanges, and end up with a similar system. But I feel this defeats the whole point of OK-Mixnet, so I won't support it in my own code.
