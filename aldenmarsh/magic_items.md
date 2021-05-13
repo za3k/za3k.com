@@ -6,7 +6,7 @@
 - Level 2 scroll (1000sp)
 - Healing potion (500sp) 
 - Climbing potion (500sp)
-- +1 armor (3000sp extra)
+- Moontouched longsword (1000sp)
 - +1 melee or ranged weapon (3000sp extra)
 - +1 ammo (2000sp extra)
-- Other uncommon magic items may also be available.
+- Other common and uncommon magic items may also be available.
