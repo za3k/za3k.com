@@ -44,7 +44,7 @@ I'll explain how it works iteratively.
 - You should never re-use a one-time pad, or all the security guarantees are gone.
 
 ## One-Time MACs (Perfect Authentication)
-- See [http://web.mit.edu/6.857/OldStuff/Fall97/lectures/lecture3.pdf](Ron Rivest's) lecture notes. I'm not sure if he's the original author or not.
+- See [Ron Rivest's](http://web.mit.edu/6.857/OldStuff/Fall97/lectures/lecture3.pdf) lecture notes. I'm not sure if he's the original author or not.
 - Again, you can't re-use one-time keys or the security breaks. Again, it's perfect security. Again, the key is annoyingly long. This is probably the best you can do?
 - This combines with One-Time Pads to make a one-time pad secure against active attackers.
 - There is a magic number p, we have to do all arithmetic mod p. For One-Time Pads, p didn't matter. For One-Time MACs, we need p to be a prime. This is basically so that multiplication and division work the way you're used to. For more information, research finite fields.
@@ -112,9 +112,9 @@ The OK-Mixnet protocol is almost the same as the OK-Link protocol. Let's say the
 2. Get a list of the ID and IP address of everyone in the mixnet. This is done by a central authority for the proof-of-concept--I'll maintain a file by hand and email it to a mailing list. Your ID is a unique number between 0 and 99 (between 0 and N-1)
 3. You equip your machine with a good hardware random number generator.
 Every second, you transmit a Perfect Message to id `[(unix timestamp in seconds) + (your ID)] modulo (network size)` and receive a message.
-    - To transmit a message to a friend, you use exactly the protocol in OK-Link
-    - To receive a message from a friend, you use exactly the protocol in OK-Link. Remember, you should be prepared to receive messages a little off--clocks don't always agree.
-    - You can't transmit a message to a stranger, but to make it look like you are, you send a unix timestamp followed by random bits of the same length as a message instead.
+    - To transmit a message to a friend, you use the protocol in OK-Link. A sending and receiving node id is added for convenience.
+    - To receive a message from a friend, you use exactly the protocol in OK-Link. A sending and receiving node id is added for conveninece. Remember, you should be prepared to receive messages a little off--clocks don't always agree.
+    - You can't transmit a message to a stranger, but to make it look like you are, you send a unix timestamp followed by node ids, followed by random bits of the same length as a message instead.
     - Discard all messages from strangers without reading them.
 
 If there are 100 people in OK-Mixnet, you contact your friend with a message every 99 seconds, or every 2 minutes. The total traffic sent over the network is 6K/second (15GB/month). The more people join OK-Mixnet, the slower it gets to send messages, but the bandwidth usage per person stays the same.
@@ -127,7 +127,7 @@ Security
 - If the computerized client gets an invalid message from a friend, or doesn't get a message on schedule, it should raises a red flag to the user that an attacker might be present. Too many networked security programs silently ignore errors instead of raising them to user attention.
 
 # Notes and Known Improvements
-- In the proof-of-concept, the entire network needs to be shut down and restarted when someone joins or leaves OK-mixnet.
+- In the proof-of-concept, the entire network needs to be shut down and restarted when someone joins or leaves OK-mixnet. This is because the sender and receiever need to agree on N to select the correct pad size.
 - It would probably be reasonable to add broadcast messages, which could be used as the basis for things like bulletin boards or larger group chats.
 - For pads, it seems like you'd like to only consume the pad while sending messages, and only consume a few bytes per chaff message. But I prefer the current simple system. There are some problems with active attacks and most obvious proposals to avoid waste. It would introduce more complexity than you think to do it well.
 - A note on random-number sources. I've mentioned, you need a really good source. The good news is that it's easy to make a pretty good random number generator, because of the properties of xor and hashes--you don't need all your sources to be perfect, you just to estimate the amount of randomness conservatively enough. New Intel CPUs support a [RDRAND](https://en.wikipedia.org/wiki/RDRAND) instruction that generates random numbers (at [500MB/s](https://stackoverflow.com/questions/10484164/what-is-the-latency-and-throughput-of-the-rdrand-instruction-on-ivy-bridge)), but it's hard to check if the output is good, and harder to check if it's backdoored. Just take a few sources like this where the output is decent (CPU, an external USB device, a software PRNG) and xor them together, and you get a good source of random bits.
@@ -157,7 +157,7 @@ Why people don't use perfect security
 Problems that CAN be solved using perfect crypto:
 - Private key (pre-shared key) encryption, against passive eavesdropping. Covered under One-Time Pads.
 - Signing, or proving that a message is from who it says, to the intended recipient only. This is also provided by One-Time Pads. Let me know if there are other options, I'm curious.
-- Authentication, or proving that a message has not been tampered with during transmission. This is [Rivest's](http://web.mit.edu/6.857/OldStuff/Fall97/lectures/lecture3.pdf) affine transform, covered under "Perfect Authentication".
+- Authentication, or proving that a message has not been tampered with during transmission. This is an affine transform, covered under "Perfect Authentication".
 - Secret sharing, which is an obscure crypto thing. This is Shamir's secret sharing scheme, which is based on polynomial interpolation over finite fields.
 
 Problems that CANNOT be solved using perfect crypto:
