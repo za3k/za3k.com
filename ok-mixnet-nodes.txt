@@ -1,3 +1,0 @@
-version 0
-0   157.131.95.172      za3k.laptop
-1   71.19.156.60        za3k.deadtree

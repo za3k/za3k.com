@@ -1,4 +1,8 @@
+[za3k](/) > protocols > ok-mixnet
+
 I'm a human being, and sometimes I'd like to send someone a message. I don't want anyone other than me and whoever the message is for to read it--not strangers, not companies, and not governments. It's possible, and with computers, it should be easy and instant.
+
+A proof of concept is [on github](https://github.com/za3k/ok-mixnet). If you want to join, meail me--happy to add you.
 
 # OK-Mixnet
 OK-Mixnet is my proposed sketch for a method to send small messages, slowly. It's designed for things like email, IRC-style slow chatrooms, or bulletin boards. In my experience, this is the same stuff I'd use GPG for.
