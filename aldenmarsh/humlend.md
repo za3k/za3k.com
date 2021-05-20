@@ -1,3 +1,3 @@
 #Continent, Humlend
 ## Map
-![Map of Humlend](aldenmarsh.png)
+![Map of Humlend](humlend.png)
