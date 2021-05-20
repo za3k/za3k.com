@@ -1,6 +1,7 @@
 # Maps
-- [Aldenmarsh](aldenmarsh.md)
-    - [Canyonport](canyonport.md)
+- [Humlend](humlend.md)
+    - [Aldenmarsh](aldenmarsh.md)
+        - [Canyonport](canyonport.md)
 
 # Gazetteer (Humlend)
 - [Aldenmarsh](aldenmarsh.md)
