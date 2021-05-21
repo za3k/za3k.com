@@ -1,5 +1,5 @@
 # Maps
-- [Humlend](humlend.md)
+- [Humlend clickable map](humlend.html)
     - [Aldenmarsh](aldenmarsh.md)
         - [Canyonport](canyonport.md)
 
