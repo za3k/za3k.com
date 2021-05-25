@@ -6,8 +6,8 @@
 # Gazetteer (Humlend)
 Check out just places the [party has visited](party/visited.md)
 
-- **[Aldenmarsh](aldenmarsh.md)**
-    -[Canyonport](canyonport.md)
+- [Aldenmarsh](aldenmarsh.md)
+    - [Canyonport](canyonport.md)
     - North Aldenmarsh
         - Flaxton
         - Fort Patience
