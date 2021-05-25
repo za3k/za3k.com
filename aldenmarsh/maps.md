@@ -39,11 +39,11 @@ Bolded places are ones the party has visited.
         - South Point
         - West Fort
     - Central Aldenmarsh
+        - Castle Hop: Secret Watch base in Aldenmarsh, near Hopmire
         - Fairview
         - Fort Loyalty
         - Hope
         - Hopmire: Orphanage Cal is from
-            - Castle Hop: Secret Watch base in Aldenmarsh
         - Kingston
         - Lindon
         - Market Camp
