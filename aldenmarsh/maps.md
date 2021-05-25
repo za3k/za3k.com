@@ -4,10 +4,10 @@
         - [Canyonport](canyonport.md)
 
 # Gazetteer (Humlend)
-Bolded places are ones the party has visited.
+Check out just places the [party has visited](party/visited.md)
 
 - **[Aldenmarsh](aldenmarsh.md)**
-    - **[Canyonport](canyonport.md)**: Beckett, Corvus, and Elira are from here.
+    -[Canyonport](canyonport.md)
     - North Aldenmarsh
         - Flaxton
         - Fort Patience
@@ -19,31 +19,29 @@ Bolded places are ones the party has visited.
         - Walton
     - West Coast and southwest
         - Aldenberg
-        - **Bracklehull**: Talked to merchant's association
+        - Bracklehull
         - Cleugate
         - Cliffport
         - Firemont
         - Fort Brilliance
         - Fort Eryfast
-        - **Lighttower Rock**: A well-known landmark
+        - Lighttower Rock
         - New Canyonport
         - Newport
-        - Tes-mire: Small town east of Firemont. Destroyed by orcs.
-        - Southmarsh: To the south, an orc camp
-        - **Sunrise Point**: A landmark
-        - White Rock: Passed through
+        - Southmarsh
+        - Sunrise Point
+        - White Rock
     - South Aldenmarsh (rocky plateau)
         - Copperforge
-        - **Fort Hydra**: Sold horses
+        - Fort Hydra
         - South Fort
         - South Point
         - West Fort
     - Central Aldenmarsh
-        - Castle Hop: Secret Watch base in Aldenmarsh, near Hopmire. Cal and Beckett were trained here.
         - Fairview
         - Fort Loyalty
         - Hope
-        - Hopmire: Cal is from here
+        - Hopmire
         - Kingston
         - Lindon
         - Market Camp
@@ -58,15 +56,14 @@ Bolded places are ones the party has visited.
         - Wide Flats
     - East Aldenmarsh (jungle)
         - Fort Northpass
-        - **New Snaketon**: Passed through
+        - New Snaketon
         - Refuge
-        - **Snaketon**: The Farm was flooded.
+        - Snaketon
 - [Agaria](agaria.md)
 - [Bal Moshi](bal_moshi.md)
     - Tabaxi (islands, protectorate)
-- **[Bat Vadyne](bat_vadyne.md)**
-    - **Va Popli** (capital and only city): Saved the city from thirst.
-    - Howling Wind monastery: Makian is from here
+- [Bat Vadyne](bat_vadyne.md)
+    - Va Popli (capital and only city)
 - Camphor Islands
 - [Copper Kingdom](copper_kingdom.md)
 - [Dwarven Reach](dwarven_reach.md)
@@ -79,7 +76,7 @@ Bolded places are ones the party has visited.
 - [Magic Sea](magic_sea.md)
 - [Maris](maris.md)
 - [Mond](mond.md)
-- [Nathnan](nathnan.md): Miranda is from here.
+- [Nathnan](nathnan.md)
 - [North Daylia](north_daylia.md)
 - [North Humlend](north_humlend.md)
 - [South Daylia](south_daylia.md)
@@ -88,9 +85,7 @@ Bolded places are ones the party has visited.
 - [Senly Faye](senly_faye.md)
 - [Sharoque](sharoque.md)
 - [Splintered States](splintered_states.md)
-- **[The Wastes](wastes.md)**
-    - City full of moving shadows: The party learned about coldbliss and lost their shadows
-    - Hidden mushroom people village in a cave at the bottom of a canyon
-    - Mirage of Dreams Inn: Passed through
-- [Xuxuwell](xuxuwell.md): Zorinn is from here
+- [The Wastes](wastes.md)
+    - Mirage of Dreams Inn
+- [Xuxuwell](xuxuwell.md)
     - Mortia (island)

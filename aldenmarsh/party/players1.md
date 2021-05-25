@@ -10,6 +10,10 @@ Players get access to special background info.
 | Makian Tramell     | Elf        | Monk      | None        | [Mack only](makian.md)  |
 | Zorinn             | Dragonborn | Wizard    | Visa        | [Space only](zorinn.md) |
 
+Everyone has access to:
+
+- [Places the party has visited](visited.md)
+
 <!--
   | Corvus can Laetham | Half-elf   | Barbarian | Aldish      | [Greg only](corvus.md)  |
 -->
