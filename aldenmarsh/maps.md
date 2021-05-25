@@ -4,12 +4,69 @@
         - [Canyonport](canyonport.md)
 
 # Gazetteer (Humlend)
-- [Aldenmarsh](aldenmarsh.md)
-    - [Canyonport](canyonport.md)
+Bolded places are ones the party has visited.
+
+- **[Aldenmarsh](aldenmarsh.md)**
+    - **[Canyonport](canyonport.md)**
+    - North Aldenmarsh
+        - Flaxton
+        - Fort Patience
+        - Fort Riverdale
+        - Innsberg
+        - Moonberg
+        - North Fort
+        - Potsdale
+        - Walton
+    - West Coast and southwest
+        - Aldenberg
+        - **Bracklehull**: Talked to merchant's association
+        - Cleugate
+        - Cliffport
+        - Firemont
+        - Fort Brilliance
+        - Fort Eryfast
+        - **Lighttower Rock**: A well-known landmark
+        - New Canyonport
+        - Newport
+        - Tes-mire: Small town east of Firemont. Destroyed by orcs.
+        - Southmarsh: To the south, an orc camp
+        - **Sunrise Point**: A landmark
+        - White Rock: Passed through
+    - South Aldenmarsh (rocky plateau)
+        - Copperforge
+        - **Fort Hydra**: Sold horses
+        - South Fort
+        - South Point
+        - West Fort
+    - Central Aldenmarsh
+        - Fairview
+        - Fort Loyalty
+        - Hope
+        - Hopmire: Orphanage Cal is from
+            - Castle Hop: Secret Watch base in Aldenmarsh
+        - Kingston
+        - Lindon
+        - Market Camp
+        - Mirth Swamps
+        - Nettleton
+        - New Kingston
+        - Potsdam
+        - Scrubs
+        - Smallbrook
+        - Tall Reeds
+        - Treeton
+        - Wide Flats
+    - East Aldenmarsh (jungle)
+        - Fort Northpass
+        - **New Snaketon**: Passed through
+        - Refuge
+        - **Snaketon**: The Farm was flooded.
 - [Agaria](agaria.md)
 - [Bal Moshi](bal_moshi.md)
-    - Tabaxi (protectorate)
-- [Bat Vadyne](bat_vadyne.md)
+    - Tabaxi (islands, protectorate)
+- **[Bat Vadyne](bat_vadyne.md)**
+    - **Va Popli** (capital and only city): Saved the city from thirst.
+    - Howling Wind monastery
 - Camphor Islands
 - [Copper Kingdom](copper_kingdom.md)
 - [Dwarven Reach](dwarven_reach.md)
@@ -17,7 +74,7 @@
 - [Eldwood](eldwood.md)
 - [Four Spires](four_spires.md)
 - [Grag'hesh](graghesh.md)
-- Han Tabaxi (Bal Traki)
+- Han Tabaxi (islands, Bal Traki)
 - [Lorille](lorille.md)
 - [Magic Sea](magic_sea.md)
 - [Maris](maris.md)
@@ -31,7 +88,9 @@
 - [Senly Faye](senly_faye.md)
 - [Sharoque](sharoque.md)
 - [Splintered States](splintered_states.md)
-- [The Wastes](wastes.md)
+- **[The Wastes](wastes.md)**
+    - City full of moving shadows: The party learned about coldbliss and lost their shadows
+    - Hidden mushroom people village in a cave at the bottom of a canyon
+    - Mirage of Dreams Inn: Passed through
 - [Xuxuwell](xuxuwell.md)
-    - Mortia
-
+    - Mortia (island)
