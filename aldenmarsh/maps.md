@@ -33,7 +33,7 @@ Check out just places the [party has visited](party/visited.md)
         - White Rock, city
     - South Aldenmarsh (rocky plateau)
         - Copperforge, city
-        - Fort Hydra, city+fort
+        - Fort Hydra, fort
         - South Fort, fort
         - South Point, city
         - West Fort, fort

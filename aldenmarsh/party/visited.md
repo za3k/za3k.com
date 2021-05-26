@@ -11,7 +11,7 @@ Bolded places are ones the party has visited.
         - **Sunrise Point**, landmark
         - **White Rock**, landmark
     - South Aldenmarsh (rocky plateau)
-        - **Fort Hydra**, city+fort: Sold horses
+        - **Fort Hydra**, fort: Sold horses
     - Central Aldenmarsh
         - **Castle Hop**, building: Secret Watch base in Aldenmarsh, near Hopmire. Cal and Beckett were trained here.
         - **Hopmire**, city: Cal is from here
@@ -23,7 +23,7 @@ Bolded places are ones the party has visited.
     - Howling Wind monastery, building: Makian is from here
 - [Nathnan](nathnan.md): Mirinda is from here.
 - **[The Wastes](wastes.md)**
-    - City full of moving shadows: The party learned about coldbliss and lost their shadows
-    - Hidden mushroom people village in a cave at the bottom of a canyon
-    - Mirage of Dreams Inn: Passed through
+    - City of shadows, ruin: The party learned about coldbliss and lost their shadows
+    - Hidden mushroom village, city: In a cave at the bottom of a deep canyon
+    - Mirage of Dreams Inn, building: Passed through
 - [Xuxuwell](xuxuwell.md): Zorinn is from here
