@@ -23,7 +23,7 @@ Bolded places are ones the party has visited.
     - Howling Wind monastery, building: Makian was trained here.
 - [Nathnan](nathnan.md): Mirinda is from here.
 - **[The Wastes](wastes.md)**
-    - City of shadows, ruin: The party learned about coldbliss and lost their shadows
-    - Hidden mushroom village, city: In a cave at the bottom of a deep canyon
-    - Mirage of Dreams Inn, building: Passed through
+    - **City of shadows**, ruin: The party learned about coldbliss and lost their shadows
+    - **Hidden mushroom village**, city: In a cave at the bottom of a deep canyon
+    - **Mirage of Dreams Inn**, building: Passed through
 - [Xuxuwell](xuxuwell.md): Zorinn is from here
