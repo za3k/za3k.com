@@ -2,7 +2,7 @@
 Bolded places are ones the party has visited.
 
 - **[Aldenmarsh](aldenmarsh.md)**
-    - **[Canyonport](canyonport.md)**, city (capital): Beckett, Corvus, and Elira are from here.
+    - **[Canyonport](canyonport.md)**, city (capital): Becket, Corvus, and Elira are from here.
     - West Coast and southwest
         - **Bracklehull**, city: Talked to merchant's association
         - **Lighttower Rock**, landmark
@@ -13,14 +13,14 @@ Bolded places are ones the party has visited.
     - South Aldenmarsh (rocky plateau)
         - **Fort Hydra**, fort: Sold horses
     - Central Aldenmarsh
-        - **Castle Hop**, building: Secret Watch base in Aldenmarsh, near Hopmire. Cal and Beckett were trained here.
+        - **Castle Hop**, building: Secret Watch base in Aldenmarsh, near Hopmire. Cal and Becket were trained here.
         - **Hopmire**, city: Cal is from here
     - East Aldenmarsh (jungle)
         - **New Snaketon**, city: Passed through
         - **Snaketon**, landmark: The Farm is here. It was flooded.
 - **[Bat Vadyne](bat_vadyne.md)**
-    - **Va Popli**, city (capital and only city): Saved the city from thirst.
-    - Howling Wind monastery, building: Makian is from here
+    - **Va Popli**, city (capital and only city): Saved the city from thirst. Makian is from here.
+    - Howling Wind monastery, building: Makian was trained here.
 - [Nathnan](nathnan.md): Mirinda is from here.
 - **[The Wastes](wastes.md)**
     - City of shadows, ruin: The party learned about coldbliss and lost their shadows
