@@ -9,61 +9,61 @@ Check out just places the [party has visited](party/visited.md)
 - [Aldenmarsh](aldenmarsh.md)
     - [Canyonport](canyonport.md)
     - North Aldenmarsh
-        - Flaxton
-        - Fort Patience
-        - Fort Riverdale
-        - Innsberg
-        - Moonberg
-        - North Fort
-        - Potsdale
-        - Walton
+        - Flaxton, city
+        - Fort Patience, fort
+        - Fort Riverdale, fort
+        - Innsberg, city
+        - Moonberg, city
+        - North Fort, fort
+        - Potsdale, city
+        - Walton, city
     - West Coast and southwest
-        - Aldenberg
-        - Bracklehull
-        - Cleugate
-        - Cliffport
-        - Firemont
-        - Fort Brilliance
-        - Fort Eryfast
-        - Lighttower Rock
-        - New Canyonport
-        - Newport
-        - Southmarsh
-        - Sunrise Point
-        - White Rock
+        - Aldenberg, city
+        - Bracklehull, city
+        - Cleugate, city
+        - Cliffport, city
+        - Firemont, city
+        - Fort Brilliance, fort
+        - Fort Eryfast, city+fort
+        - Lighttower Rock, landmark
+        - New Canyonport, city
+        - Newport, city
+        - Southmarsh, city
+        - Sunrise Point, landmark
+        - White Rock, city
     - South Aldenmarsh (rocky plateau)
-        - Copperforge
-        - Fort Hydra
-        - South Fort
-        - South Point
-        - West Fort
+        - Copperforge, city
+        - Fort Hydra, city+fort
+        - South Fort, fort
+        - South Point, city
+        - West Fort, fort
     - Central Aldenmarsh
-        - Fairview
-        - Fort Loyalty
-        - Hope
-        - Hopmire
-        - Kingston
-        - Lindon
-        - Market Camp
-        - Mirth Swamps
-        - Nettleton
-        - New Kingston
-        - Potsdam
-        - Scrubs
-        - Smallbrook
-        - Tall Reeds
-        - Treeton
-        - Wide Flats
+        - Fairview, city
+        - Fort Loyalty, fort
+        - Hope, city
+        - Hopmire, city
+        - Kingston, city
+        - Lindon, city
+        - Market Camp, city
+        - Mirth Swamps, city
+        - Nettleton, city
+        - New Kingston, city
+        - Potsdam, city
+        - Scrubs, city
+        - Smallbrook, city
+        - Tall Reeds, city
+        - Treeton, city
+        - Wide Flats, city
     - East Aldenmarsh (jungle)
-        - Fort Northpass
-        - New Snaketon
-        - Refuge
-        - Snaketon
+        - Fort Northpass, fort
+        - New Snaketon, city
+        - Refuge, city
+        - Snaketon, landmark
 - [Agaria](agaria.md)
 - [Bal Moshi](bal_moshi.md)
-    - Tabaxi (islands, protectorate)
+    - Tabaxi, islands (protectorate)
 - [Bat Vadyne](bat_vadyne.md)
-    - Va Popli (capital and only city)
+    - Va Popli, city (capital)
 - Camphor Islands
 - [Copper Kingdom](copper_kingdom.md)
 - [Dwarven Reach](dwarven_reach.md)
@@ -71,7 +71,7 @@ Check out just places the [party has visited](party/visited.md)
 - [Eldwood](eldwood.md)
 - [Four Spires](four_spires.md)
 - [Grag'hesh](graghesh.md)
-- Han Tabaxi (islands, Bal Traki)
+- Han Tabaxi, islands (owned by Bal Traki)
 - [Lorille](lorille.md)
 - [Magic Sea](magic_sea.md)
 - [Maris](maris.md)
@@ -86,6 +86,16 @@ Check out just places the [party has visited](party/visited.md)
 - [Sharoque](sharoque.md)
 - [Splintered States](splintered_states.md)
 - [The Wastes](wastes.md)
-    - Mirage of Dreams Inn
+    - Mirage of Dreams Inn, building
 - [Xuxuwell](xuxuwell.md)
-    - Mortia (island)
+    - Aventrax, tribe
+    - Haven, city
+    - Janth, tribe
+    - Makasis, city
+    - Makasis Hellgate, artifact
+    - Mortia, island
+    - Ordus, tribe
+    - Seven Walls, city
+    - Vaxaran, tribe
+    - Weirmont, city
+    - Wendmar, city
