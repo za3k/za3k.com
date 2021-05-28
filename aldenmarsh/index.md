@@ -1,4 +1,4 @@
-# Aldenmarsh/Xuxuwell Campaigns
+# Aldenmarsh Campaign
 Welcome! If you're reading this you're playing in my online campaign. Session recaps are on the discord.
 
 - [Out of game](about.md)
