@@ -12,7 +12,7 @@
  - Volo's Guide to Monsters
  - Xanathar's Guide to Everything
  - Tasha's Cauldon of Everything. You can use custom lineage but I write "munchkin" in sharpie on your forehead.
- - NO: Unearthed Arcana, Aarakocra
+ - NO: Unearthed Arcana, Aarakocra, Artificer
  - Anything else, ask!
 1. If you want to tweak your **background** or make a custom background, the answer is yes for anything in the standard "custom background" options, ask me if you want to do anything else
 1. **Languages**. Exotic languages like Celestial are allowed.
