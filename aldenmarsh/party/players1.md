@@ -14,6 +14,7 @@ Players get access to special background info.
 Everyone has access to:
 
 - [Places the party has visited](visited.md)
+- [Recaps](recap.md)
 
 <!--
   | Corvus can Laetham | Half-elf   | Barbarian | Aldish      | [Greg only](corvus.md)  |
