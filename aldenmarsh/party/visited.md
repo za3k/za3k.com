@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > visited places
+
 # Gazetteer (Visited places)
 Bolded places are ones the party has visited.
 

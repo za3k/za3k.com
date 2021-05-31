@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > cal's letters
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > cal's letters
 
 Letters betweeen Cal and skarra/jacob
 

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > the black oracle
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > the black oracle
 
 ## About the Black Oracle
 
