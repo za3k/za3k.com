@@ -2,6 +2,7 @@
 
 Letters betweeen Cal and Sca
 
+<!--
 Jacob to Cal, Year 422 Day 73
 
 ```
@@ -14,6 +15,16 @@ I've briefly met your parents decades ago, though I didn't know them well. They 
 I will pass your message on to Scarra. I'm sure he will be proud.
 
 -Jacob
+```
+-->
+
+Cal to Jacob, Year 422 Day ?
+
+```
+Dear Jacoub 
+I am trying to find out info as to where i was born as well as any info on my parents that could help me learn of my past, I know that you are affiliated with the ophanage that took me in so I am wondering if you could send me info on anything useful such as my last name , where I was born, my parents home or just any info on the death of my parents. I thank you in advance and hope to be seeing you and scarra soon. Beckett is doing well tho he is still alitlle too honest and trusting. we have aquired some new members that have joined our ranks and we have even bought a house to start a buisness. I hope you and Scarra are doing well and could you tell Scarra that i have continued to uphold his honour and am soon going to be taking the oath. 
+
+Sincerly Cal
 ```
 
 Skarra to Cal, Year 422 Day 55
@@ -29,4 +40,15 @@ Stand strong with Baneth. Only fight when it upholds the peace--do not be too ea
 
 -Skarra
 
+```
+
+Cal to Skarra, Year 422 Day ?
+```
+Dear scarra 
+
+It is I Cal, your honorable student. I have made it to canyonport tho it seems I will not be here long. Me and Beckett have been doing as you asked, trying to make a difference and we've found some potential allies that may prove useful. I haven't had to use the great sword you gifted me yet but I feel that's about to change, tho I promise to honor it as you told me to. I don't feel comfortable relying all that we must do but I can say that I've been hearing rumors of a rebellion uprising all over aldenmarsh. I feel that this may be cause for concern and should keep a watchful eye but nonetheless am going to keep finding work if I can. let me know if you will still be back home for the next little bit because if so I may venture that way and stop by, would be good to see you again. 
+
+p.s. would love to know more about fighting and still feel like you have a thing or two over me. when I stop by next you better be ready to spare. 
+
+Sincerely Cal
 ```
