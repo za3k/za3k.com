@@ -40,7 +40,7 @@
   - (Aldenmarsh group) Your god, and whether you attend the Church of [Baneth](baneth.md). [Aldenmarsh](aldenmarsh.md) is a theocracy with mandatory church attendance for citizens. Going to church doesn't mean you worship Baneth or even like him.
       - If you are an Aldish citizen, you almost certainly go to the Church of Baneth. You might like Baneth, worship another god, or be agnostic.
       - Many-to-most Aldish citizens worship Baneth
-      - The allowed gods are Baneth, the Greyhawk gods, and the non-human gods. They are found at the back of your player's handbook in an appendix.
+      - The allowed gods are [listed here](gods.md).
       - Agnostic (no god) is fine as a deliberate choice, but don't pick it as a default because you didn't look through options.
       - Clerics, paladins etc can't be agnostic. If you're a cleric or paladin, talk to the DM for a little extra help with your background and how you'll be treated.
 1. After your first play session, I also recommend making a backup character in case your PC dies. This doesn't have to be in roll20, but I'm happy to give you a sheet if you want one.

@@ -15,6 +15,7 @@ Everyone has access to:
 
 - [Places the party has visited](visited.md)
 - [Recaps](recap.md)
+- Magic Items wiki for stuff the party has access to. In roll20.
 
 <!--
   | Corvus can Laetham | Half-elf   | Barbarian | Aldish      | [Greg only](corvus.md)  |

@@ -127,7 +127,7 @@ Next session, we will start with a new party, in Canyonport. There will be no se
 ______
 Session 3: Cancelled
 ______
-Session 2: Cnacelled
+Session 2: Cancelled
 ______
 Session 1: 2020-12-16
 
