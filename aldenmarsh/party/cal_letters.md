@@ -1,6 +1,6 @@
 [za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > cal's letters
 
-Letters betweeen Cal and Sca
+Letters betweeen Cal and skarra/jacob
 
 <!--
 Jacob to Cal, Year 422 Day 73

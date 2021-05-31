@@ -9,4 +9,4 @@ Group lore:
 Private lore:
 
 - [The Watch](watch.md)
-- [Letters from Skarra](skarra.md)
+- [Letters](cal_letters.md)
