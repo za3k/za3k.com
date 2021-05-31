@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > house rules
+
 # House Rules
 - See [Character Creation](build.md) rules for allowed classes, races, and gods.
 - Mostly we're using rules as written, nothing too crazy.

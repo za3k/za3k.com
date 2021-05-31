@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > divination in aldenmarsh
+
 In [Aldenmarsh](aldenmarsh.md), divination spells are prohibited by law--they are reserved for use by the Church of [Baneth](baneth.md) only. 
 - They're absolutely allowed in building your character they're only prohibited by the government in-game, not by the DM.
 - Spells marked with * below are available for [sale](spell_sales.md) by the Church of Baneth.

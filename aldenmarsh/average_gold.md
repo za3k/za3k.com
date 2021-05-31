@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > average gold
+
 # Starting Silver
 
 Level 1 starting equipment

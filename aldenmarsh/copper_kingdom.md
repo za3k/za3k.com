@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > copper kingdom
+
 # Country, Copper Kingdom
 ## Facts
 **Population**: 40,000

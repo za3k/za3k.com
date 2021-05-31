@@ -1,8 +1,12 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > corvus
+
 # Corvus
 
 Group lore:
 
 - [Places the party has visited](visited.md)
+- [Laurel Fallenditch's Reforms](laurel_fallenditch.md)
+- [The Black Oracle](black_oracle.md)
 
 Private lore:
 

@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > splintered states
+
 # Political Area, Splintered States
 
 ## Facts

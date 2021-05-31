@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > nobility
+
 # Nobility
 
 ## Ranks of nobility.

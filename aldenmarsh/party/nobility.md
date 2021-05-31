@@ -1,3 +1,4 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > aldish nobility (lore)
 # Aldish nobility
 
 Aldish nobility are old and have been entrenched for hundreds of years. They are a rich elite who don't work. They have their own complex and exclusionary society, with a focus on "being cultured", education, and virtue (with of course the usual display of wealth). 

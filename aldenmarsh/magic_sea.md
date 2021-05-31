@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > magic sea
+
 # Landmark, Magic Sea
 The Magic Sea is a freshwater sea created about 800 years ago. It is one of the [Hundred Wonders](hundred_wonders.md). The water is so pure that there are no fish or other animal life in the sea. 
 

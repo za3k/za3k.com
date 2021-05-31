@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > four spires
+
 # Country, Four Spires
 
 ## Facts

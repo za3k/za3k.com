@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > the watch
+
 # The Watch
 
 The Watch is an international force of good in the continent. They are made up of paladins, clerics, and other do-gooders of all faiths. They help people and make the world better wherever they can. They don't respect government authority, and in Aldenmarsh they operate illegally and secretly. There is no international headquarters or authority--groups of Watch members in each country decide what to do independently.

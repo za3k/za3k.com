@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > bal moshi
+
 # Country, Bal Moshi
 ## Facts
 **Population**: 400,000

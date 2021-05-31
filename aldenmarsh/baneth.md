@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > baneth
+
 # Baneth
 God: **Baneth** "The True See-r"
 

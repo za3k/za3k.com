@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > council of aldenmarsh
+
 Council of Aldenmarsh
 ===
 

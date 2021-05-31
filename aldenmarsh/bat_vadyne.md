@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > bat vadyne
+
 # Country, Bat Vadyne
 ## Facts
 **Population**: 10,000

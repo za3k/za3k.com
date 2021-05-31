@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > the wastes
+
 # Region, The Wastes
 ## Facts
 **Population**: 5,000

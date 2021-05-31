@@ -1,3 +1,5 @@
+[za3k](/) > [aldenmarsh](/aldenmarsh) > lore
+
 # Lore
 ## [Aldenmarsh](aldenmarsh.md) Info
 - [Canyonport](canyonport.md)

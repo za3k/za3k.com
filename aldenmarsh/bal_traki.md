@@ -1,4 +1,6 @@
-# Country, Bal Moshi
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > bal traki
+
+# Country, Bal Traki
 ## About
 The Traki empire borders Humland.
 
