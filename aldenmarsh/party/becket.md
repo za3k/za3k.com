@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](/aldenmarsh/players1.md) > becket riend
+[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > becket riend
 
 Group lore:
 
