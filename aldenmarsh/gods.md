@@ -1,6 +1,7 @@
 [za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > gods
 
 | God            | Pantheon | Alignment | God of? | Suggested Domains | Symbol
+|----------------|----------|----|------|---------|-------------------|
 | Baneth         | Custom   | N  | God of true seeing | Knowledge, Any | Stylized eye made from three concentric circles
 | Beory          | Greyhawk | N  | Goddess of nature | Nature | Green disk
 | Boccob         | Greyhawk | N  | God of magic | Knowledge | Eye within a pentagram
