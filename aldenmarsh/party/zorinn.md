@@ -11,3 +11,4 @@ Private lore:
 
 - [Xuxuwell](../xuxuwell.md) (actually public)
 - [The Watch](watch.md)
+- [Letters](zorinn_letters.md)
