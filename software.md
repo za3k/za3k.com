@@ -7,13 +7,12 @@
 | works | [etherpad](https://github.com/za3k/short-programs#etherpad) | 2020-08-08 | download, upload, or modify individual texts from an etherpad instance.
 | works | [export-chrome-booksmarks](https://github.com/za3k/export-chrome-bookmarks) | 2015-06-04 | export chrome bookmarks, one per line.
 | works | [keystroked](https://github.com/za3k/keystroked) | 2021-03-23 | activity logger. log clock minutes where the keyboard is used or not used. i use this to track when i'm at the computer and when i went to sleep.
-| works | [ok-mixnet](https://github.com/za3k/ok-mixnet) | 2021-05-20 | a one-time-pad based, high-latency mixnet. proof of concept.
+| beta  | [ok-mixnet](https://github.com/za3k/ok-mixnet) | 2021-05-20 | a one-time-pad based, high-latency mixnet. proof of concept.
 | works | [passgen](https://github.com/za3k/short-programs#passgen) | 2016-01-16 | generates random passwords and passphrases
 | works | [prng](https://github.com/za3k/short-programs#prng) | 2019-01-04 | generate pseudo-random data. has a large number of features built-in to do things like test usb drives and cloud storage. good for testing chinese sd cards and usb sticks to make sure they're the claimed size.
 | works | [rip-chrome-history](https://github.com/za3k/rip-chrome-history) | 2017-06-06 | export chrome history, one per line.
 | works | [short-programs](https://github.com/za3k/short-programs) | 2021-05-04 | a variety of short programs. many are useful--some of them are listed separately here.
 | works | [transcribe](https://github.com/za3k/transcribe) | 2020-11-17 | a quick-and-dirty interface for transcribing scanned documents.
-| alpha | [volcano](https://github.com/za3k/volcano) | 2013-02-05 | a simple roguelike written in python. not too fun.
 | works | [vlad the remailer](https://github.com/za3k/vlad) | 2013-09-05 | a bot which emails users once a day asking them what they did. based around a similar system in use at google.
 | works | [watch-to-file](https://github.com/za3k/short-programs#watch-to-file) | 2019-03-27 | analagous to the linux command 'watch', but outputs to a file. periodically runs a program and saves the output to a file.
 | works | [xor](https://github.com/za3k/short-programs#xor) | 2020-04-20 | xors two files together. would you believe there's not a standard program for this? see also [add-base-26](https://github.com/za3k/short-programs#add-base26).
@@ -33,6 +32,7 @@
 | works | [rtmux](https://github.com/za3k/short-programs#rtmux) | 2016-03-20 | ssh into another computer and run tmux. probably my most frequently run program.
 | works | [sum](https://github.com/za3k/short-programs) | 2021-06-05 | add a list of numbers. there's no standard program to do it.
 | alpha | [vim-leaves](https://github.com/za3k/vim-leaves) | 2017-04-30 | a vim plugin for working with fixed-size, monospace sheets of paper.
+| alpha | [volcano](https://github.com/za3k/volcano) | 2013-02-05 | a simple roguelike written in python. not too fun.
 | alpha | [youtube-dl-master](https://github.com/za3k/short-programs) | 2020-08-08 | youtube-dl has a "--download-archive" which prevents downloading the same file multiple times. but you'll quickly find out you need this wrapper to make it useful.
 
 ##even less useful software
