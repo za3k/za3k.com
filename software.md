@@ -1,5 +1,7 @@
 [za3k](/) > software
 
+software i've written. most has extensive documentation if you click through the link.
+
 ##software
 | status | project | written | description | 
 |--------|---------|---------|-------------|
@@ -7,10 +9,10 @@
 | works | [etherpad](https://github.com/za3k/short-programs#etherpad) | 2020-08-08 | download, upload, or modify individual texts from an etherpad instance.
 | works | [export-chrome-booksmarks](https://github.com/za3k/export-chrome-bookmarks) | 2015-06-04 | export chrome bookmarks, one per line.
 | works | [keystroked](https://github.com/za3k/keystroked) | 2021-03-23 | activity logger. log clock minutes where the keyboard is used or not used. i use this to track when i'm at the computer and when i went to sleep.
-| beta  | [ok-mixnet](https://github.com/za3k/ok-mixnet) | 2021-05-20 | a one-time-pad based, high-latency mixnet. proof of concept.
+| beta  | [ok-mixnet](https://github.com/za3k/ok-mixnet) | 2021-05-20 | a one-time-pad based, high-latency mixnet. proof of concept. explanation [here](ok-mixnet.md)
 | works | [passgen](https://github.com/za3k/short-programs#passgen) | 2016-01-16 | generates random passwords and passphrases
 | works | [prng](https://github.com/za3k/short-programs#prng) | 2019-01-04 | generate pseudo-random data. has a large number of features built-in to do things like test usb drives and cloud storage. good for testing chinese sd cards and usb sticks to make sure they're the claimed size.
-| works | [qr-backup](https://github.com/za3k/qr-backup/) | 2021-06-01 | generate paper backups of a file. the file can be restored by holding the paper up to a webcam.
+| works | [qr-backup](https://github.com/za3k/qr-backup/) | 2021-06-01 | make paper backups of a file. the file can be restored by holding the paper up to a webcam.
 | works | [rip-chrome-history](https://github.com/za3k/rip-chrome-history) | 2017-06-06 | export chrome history, one per line.
 | works | [transcribe](https://github.com/za3k/transcribe) | 2020-11-17 | a quick-and-dirty interface for transcribing scanned documents.
 | works | [vlad the remailer](https://github.com/za3k/vlad) | 2013-09-05 | a bot which emails users once a day asking them what they did. based around a similar system in use at google.
