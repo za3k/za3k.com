@@ -1,6 +1,5 @@
 [za3k](/) > software
-
-this is my most useful and polished software. a more complete list is on [github](https://github.com/za3k).
+this is software i've written.
 
 ##software
 | status | project | written | description | 
@@ -36,6 +35,9 @@ this is my most useful and polished software. a more complete list is on [github
 | works | [sum](https://github.com/za3k/short-programs) | 2021-06-05 | add a list of numbers. there's no standard program to do it.
 | alpha | [vim-leaves](https://github.com/za3k/vim-leaves) | 2017-04-30 | a vim plugin for working with fixed-size, monospace sheets of paper.
 | alpha | [youtube-dl-master](https://github.com/za3k/short-programs) | 2020-08-08 | youtube-dl has a "--download-archive" which prevents downloading the same file multiple times. but you'll quickly find out you need this wrapper to make it useful.
+
+##even less useful software
+a complete list is on [github](https://github.com/za3k).
 
 ##services (source code)
 | status | service | written | description | 
