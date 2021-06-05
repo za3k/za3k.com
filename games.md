@@ -1,5 +1,4 @@
-[za3k](/) > Video Game Recommendations
-===========
+[za3k](/) > video game recommendations
 
 Computer Games
 --------------
