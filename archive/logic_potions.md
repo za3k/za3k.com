@@ -220,3 +220,4 @@ For anyone curious, the rules of Mathematical Go Fish were something like:
 - You lose if you tell someone to go fish, and they can prove you have the card.
 - You lose if you give someone a card and someone proves you don't have it.
 - You win if you show someone lost.
+- You win if you can prove a contradiction.
