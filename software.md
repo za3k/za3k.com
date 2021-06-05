@@ -1,5 +1,4 @@
 [za3k](/) > software
-this is software i've written.
 
 ##software
 | status | project | written | description | 
