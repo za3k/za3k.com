@@ -12,7 +12,6 @@
 | works | [prng](https://github.com/za3k/short-programs#prng) | 2019-01-04 | generate pseudo-random data. has a large number of features built-in to do things like test usb drives and cloud storage. good for testing chinese sd cards and usb sticks to make sure they're the claimed size.
 | works | [qr-backup](https://github.com/za3k/qr-backup/) | 2021-06-01 | generate paper backups of a file. the file can be restored by holding the paper up to a webcam.
 | works | [rip-chrome-history](https://github.com/za3k/rip-chrome-history) | 2017-06-06 | export chrome history, one per line.
-| works | [short-programs](https://github.com/za3k/short-programs) | 2021-05-04 | a variety of short programs. many are useful--some of them are listed separately here.
 | works | [transcribe](https://github.com/za3k/transcribe) | 2020-11-17 | a quick-and-dirty interface for transcribing scanned documents.
 | works | [vlad the remailer](https://github.com/za3k/vlad) | 2013-09-05 | a bot which emails users once a day asking them what they did. based around a similar system in use at google.
 | works | [watch-to-file](https://github.com/za3k/short-programs#watch-to-file) | 2019-03-27 | analagous to the linux command 'watch', but outputs to a file. periodically runs a program and saves the output to a file.
