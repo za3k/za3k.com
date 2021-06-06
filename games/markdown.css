@@ -1,0 +1,24 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #FFFFDD;
+  min-height: 50px;
+}
+
+tr.alt td {
+  background-color: #EAF2D3;
+}
+
+img {
+  max-width: 300px;
+}
