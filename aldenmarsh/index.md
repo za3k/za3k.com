@@ -8,4 +8,4 @@ Welcome! If you're reading this you're playing in my online campaign. Session re
 - [House rules](house_rules)
 - [Maps](maps)
 - [Lore](lore)
-- [Players - Aldenmarsh](party/players1)
+- [Players - Aldenmarsh](party/)

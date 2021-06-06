@@ -19,5 +19,4 @@ Everyone has access to:
 
 <!--
   | Corvus can Laetham | Half-elf   | Barbarian | Aldish      | [Greg only](corvus)  |
-  | Makian Tramell     | Elf        | Monk      | None        | [Mack only](makian)  |
 -->
