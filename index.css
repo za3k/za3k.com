@@ -19,6 +19,13 @@ body > .quote {
     margin-bottom: 10px;
 }
 
+body > .nav {
+    column-span: all;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    margin-bottom: 10px;
+}
+
 #downtime {
     column-span: all;
     display: block;
