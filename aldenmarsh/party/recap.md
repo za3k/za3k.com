@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > recaps
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > recaps
 
 See the discord for the latest recaps. I'll copy them over here every once in a while.
 

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > magic items for sale
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [lore](lore) > magic items for sale
 
 # Magic Item Pricelist
 ## Canyonport

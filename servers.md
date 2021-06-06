@@ -1,5 +1,4 @@
-Computers
-===========
+[za3k](/) > computers
 
 Servers
 --------------
@@ -10,3 +9,7 @@ Servers
 - equilibrate (no longer exists)
 - forget (no longer exists)
 - [germinate](https://germinate.za3k.com)
+
+Personal Computers
+--------------
+- tarragon/rosemary

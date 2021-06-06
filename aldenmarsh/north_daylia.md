@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > north daylia
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > north daylia
 
 # Country, North Daylia
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Monarchy
 
-**Bordering nations (clockwise)**: [Bal Moshi](bal_moshi.md), [Magic Sea](magic_sea.md), [South Daylia](south_daylia.md)
+**Bordering nations (clockwise)**: [Bal Moshi](bal_moshi), [Magic Sea](magic_sea), [South Daylia](south_daylia)
 
 ## About
 North Daylia and South Daylia are at war. They have been on-and-off at war for two hundred years, since they split.

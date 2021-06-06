@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > doodle adventures
+[za3k](/) > [games](/games/) > doodle adventures
 
 a relaxing drawing-book adventure for one or more players. players listen as a pre-made story is revealed, and doodle what happens.
 

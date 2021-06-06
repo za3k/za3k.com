@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > splintered states
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > splintered states
 
 # Political Area, Splintered States
 
@@ -25,7 +25,7 @@
 
 **Government**: Multiple
 
-**Bordering nations (clockwise)**: [Eldwood](eldwood.md), Ocean, [Mond](mond.md), Lake Lanolis, [Lorille](lorille.md)
+**Bordering nations (clockwise)**: [Eldwood](eldwood), Ocean, [Mond](mond), Lake Lanolis, [Lorille](lorille)
 
 ## About
 

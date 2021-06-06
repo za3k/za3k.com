@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > eldwood
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > eldwood
 
 # Country, Eldwood
 
@@ -25,7 +25,7 @@
 
 **Government**: Unknown
 
-**Bordering nations (clockwise)**: [Magic Sea](magic_sea.md), [Dwarven Reach](dwarven_reach.md), [North Humlend](north_humlend.md), Ocean, [Splintered States](splintered_states.md), [Lorille](lorille.md), [Four Spires](four_spires.md), [Maris](maris.md), [Aldenmarsh](aldenmarsh.md)
+**Bordering nations (clockwise)**: [Magic Sea](magic_sea), [Dwarven Reach](dwarven_reach), [North Humlend](north_humlend), Ocean, [Splintered States](splintered_states), [Lorille](lorille), [Four Spires](four_spires), [Maris](maris), [Aldenmarsh](aldenmarsh)
 
 ## About
 The Eldwood is a dense forest, defining the country.

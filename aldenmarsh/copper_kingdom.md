@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > copper kingdom
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > copper kingdom
 
 # Country, Copper Kingdom
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Monarchy (emperor) with clan heads
 
-**Bordering nations (clockwise)**: [Xuxuwell](xuxuwell.md), [Mond](mond.md), Ocean
+**Bordering nations (clockwise)**: [Xuxuwell](xuxuwell), [Mond](mond), Ocean
 
 ## About
 The Copper Kingdom is one enormous clan of copper dragonborn. A thousand years ago the emperors were copper dragons in human form. Modern emperors still claim to be, but they're really just copper dragonborn.

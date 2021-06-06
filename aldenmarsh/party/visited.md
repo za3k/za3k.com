@@ -1,10 +1,10 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > visited places
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > visited places
 
 # Gazetteer (Visited places)
 Bolded places are ones the party has visited.
 
-- **[Aldenmarsh](aldenmarsh.md)**
-    - **[Canyonport](canyonport.md)**, city (capital): Becket, Corvus, and Elira are from here.
+- **[Aldenmarsh](aldenmarsh)**
+    - **[Canyonport](canyonport)**, city (capital): Becket, Corvus, and Elira are from here.
     - West Coast and southwest
         - **Bracklehull**, city: Talked to merchant's association
         - **Lighttower Rock**, landmark
@@ -20,12 +20,12 @@ Bolded places are ones the party has visited.
     - East Aldenmarsh (jungle)
         - **New Snaketon**, city: Passed through
         - **Snaketon**, landmark: The Farm is here. It was flooded.
-- **[Bat Vadyne](bat_vadyne.md)**
+- **[Bat Vadyne](bat_vadyne)**
     - **Va Popli**, city (capital and only city): Saved the city from thirst. Makian is from here.
     - Howling Wind monastery, building: Makian was trained here.
-- [Nathnan](nathnan.md): Mirinda is from here.
-- **[The Wastes](wastes.md)**
+- [Nathnan](nathnan): Mirinda is from here.
+- **[The Wastes](wastes)**
     - **City of shadows**, ruin: The party learned about coldbliss and lost their shadows
     - **Hidden mushroom village**, city: In a cave at the bottom of a deep canyon
     - **Mirage of Dreams Inn**, building: Passed through
-- [Xuxuwell](xuxuwell.md): Zorinn is from here
+- [Xuxuwell](xuxuwell): Zorinn is from here

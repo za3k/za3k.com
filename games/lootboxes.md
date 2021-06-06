@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > loot boxes v1.1
+[za3k](/) > [games](/games/) > loot boxes v1.1
 
 A short storytelling game for 2-4 players, best with 2. Play as long as you want, 10-30 minutes. It's a good time to kill time on a long drive.
 
@@ -20,5 +20,5 @@ written 2021-02-08 by zachary "za3k" vance
 - **Variant**: Start with 5 items. Whenever you finish a challenge, throw an extra item you dislike out (each challenge you gain 1 item and lose 2). When you're out of items, the game is over.
 
 ### Acknowledgements
-- Thanks to Fenn for comments on [No, this cannot be](/archive/invincible.md) and Cards Against Humanity
+- Thanks to Fenn for comments on [No, this cannot be](/games/invincible) and Cards Against Humanity
 - Thanks to Richard for the first playtest.

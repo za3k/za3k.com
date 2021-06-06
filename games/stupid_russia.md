@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > stupid russia
+[za3k](/) > [games](/games/) > stupid russia
 
 **playtesting notes: I don't recommend this game.**
 
@@ -61,4 +61,4 @@ At the end of the night, I will post the rankings of which Directors have proved
 ```
 
 ## Playesting
-The rules are too hard to understand, and there is not enough feedback for players. The Inspector is very busy and doesn't get to play. We played in Discord with about 5 "rooms" with various caps on the number of players in that voice channel. The "rooms" worked well, I suggest this system for any party game that should have a bit of eavesdropping and private conversation. We played for an hour with 10 people--this was about right, maybe even long. We should have used less codenames. Two people dropped out partway, which didn't cause major issues. [Python program](/archive/stupid_russia.py)
+The rules are too hard to understand, and there is not enough feedback for players. The Inspector is very busy and doesn't get to play. We played in Discord with about 5 "rooms" with various caps on the number of players in that voice channel. The "rooms" worked well, I suggest this system for any party game that should have a bit of eavesdropping and private conversation. We played for an hour with 10 people--this was about right, maybe even long. We should have used less codenames. Two people dropped out partway, which didn't cause major issues. [Python program](/games/stupid_russia.py)

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > maris
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > maris
 
 # Country, Maris
 # City, Free City of Maris
@@ -26,7 +26,7 @@
 
 **Government**: Democracy
 
-**Bordering nations (clockwise)**: [Eldwood](eldwood.md), [Four Spires](four_spires.md), [Aldenmarsh](aldenmarsh.md)
+**Bordering nations (clockwise)**: [Eldwood](eldwood), [Four Spires](four_spires), [Aldenmarsh](aldenmarsh)
 
 ## About
 Maris is a large city, recognized together with a small amount of land around the city as a state by its neighbors. It is a major trade center. It's a popular tourist destination, and boasts a number of skilled workers. Nearly half the "population" are temporary workers and tourists.

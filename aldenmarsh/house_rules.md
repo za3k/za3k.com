@@ -1,7 +1,7 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > house rules
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > house rules
 
 # House Rules
-- See [Character Creation](build.md) rules for allowed classes, races, and gods.
+- See [Character Creation](build) rules for allowed classes, races, and gods.
 - Mostly we're using rules as written, nothing too crazy.
 - Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will be awarded for non-combat.
 - Leveling up is in-between sessions, to avoid a long interruption. You can roll your increased HP immediately for level 2 without waiting until the end of the session.
@@ -20,6 +20,6 @@
 - Magic Items
   - Magic items are not automatically identified after a rest. Players will need to study any found items in-game. Some will be easy to figure out, and some will be more difficult or require an Identify spell.
   - We ARE allowing players to craft their own magic items, including scrolls. Ask the DM to approve the item, and whether there are any special requirements beyond silver costs.
-  - In Canyonport, PCs [can buy common and some uncommon magic items](magic_items.md).
+  - In Canyonport, PCs [can buy common and some uncommon magic items](magic_items).
   - Selling magic items or buying rarer magic items will be difficult--even though Canyonport is the biggest metropolis around and a trading port, magic items are just rare!
   - Some wands recharge, and other don't. Player-created wands do not recharge.

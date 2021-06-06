@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > [zorinn](zorrinn) > zorrinn's letters
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > [zorinn](zorrinn) > zorrinn's letters
 
 sent from zorrinn to eldon/kipper, on Year 422, day ?
 

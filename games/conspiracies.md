@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > stupid conspiracies
+[za3k](/) > [games](/games/) > stupid conspiracies
 
 **playtesting: none**. 
 
@@ -20,4 +20,4 @@ written 2021-01-17 by zachary "za3k" vance
         - +1 point for everyone who's in your conspiracy (include yourself)
 
 ## History
-made after testing [stupid russia](/archive/stupid_russia.md) and finding major problems
+made after testing [stupid russia](/games/stupid_russia) and finding major problems

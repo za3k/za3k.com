@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > average gold
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > average gold
 
 # Starting Silver
 

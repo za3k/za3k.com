@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > spell sales
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [lore](lore) > spell sales
 Some spells are available for purchase by the Church of Baneth. They are available in major cities or churches. About one in three priests of Baneth can cast spells.
 
 | Spell                      | Cost in SP | Effects|

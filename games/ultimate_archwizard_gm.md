@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > [ultimate archwizards vs the dark lord](/archive/ultimate_archwizard.md) GM guide
+[za3k](/) > [games](/games/) > [ultimate archwizards vs the dark lord](/games/ultimate_archwizard) GM guide
 Don't read players!
 
 Okay, whew, that was close

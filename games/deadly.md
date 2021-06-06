@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > deadly education rpg
+[za3k](/) > [games](/games/) > deadly education rpg
 
 This a simple RPG system based on the magic system from "A Deadly Education" by Naomi Novik. You don't need to have read the book--in fact I picked it because it was a little vague and independent of the book.
 

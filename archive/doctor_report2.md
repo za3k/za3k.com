@@ -1,4 +1,4 @@
-See https://za3k.com/archive/doctor_report2.md for a digital copy of this document
+See https://za3k.com/archive/doctor_report2 for a digital copy of this document
 
 ## Zachary Vance - Patient Information
 ### Stats

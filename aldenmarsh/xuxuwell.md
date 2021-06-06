@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > xuxuwell
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > xuxuwell
 
 # Country, Xuxuwell
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Federation (per-city and per-tribe)
 
-**Bordering nations (clockwise)**: [Lorille](lorille.md), [Mond](mond.md), [Copper Kingdom](copper_kingdom.md), Ocean, [Senly Faye](senly_faye.md)
+**Bordering nations (clockwise)**: [Lorille](lorille), [Mond](mond), [Copper Kingdom](copper_kingdom), Ocean, [Senly Faye](senly_faye)
 
 ## About
 Xuxuwell has two main areas. The north is more civilized, with some big cities. The cities are a few hundred years old, and are built in a Gothic style. They have known connection to the Hells, some scary history, scary places, and ruthless people living there. There's strong magic traditions in the cities, divine and arcane.

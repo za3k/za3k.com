@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > mond
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > mond
 
 # Country, Mond
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Republic
 
-**Bordering nations (clockwise)**: [Lorille](lorille.md), [Splintered States](splintered_states.md), Ocean, [Copper Kingdom](copper_kingdom.md), [Xuxuwell](xuxuwell.md)
+**Bordering nations (clockwise)**: [Lorille](lorille), [Splintered States](splintered_states), Ocean, [Copper Kingdom](copper_kingdom), [Xuxuwell](xuxuwell)
 
 # About
 Mond is a fairly large, industrialized country. It manufactures high-quality items, often at larger scales. Although it is at about the same technology level as Aldenmarsh, the technology is widespread, rather than being used only for a few large public projects or specialized goods. It is relatively mechanized--watermills and windmills may power log-cutting operations or transport minecarts.

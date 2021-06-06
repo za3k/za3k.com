@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > southern federation
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > southern federation
 
 # Country, Southern (Humland) Federation
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Federation (4 monarchies)
 
-**Bordering nations (clockwise)**: Ocean, [Bal Moshi](bal_moshi.md), [South Daylia](south_daylia.md), [Magic Sea](magic_sea.md), [Grag'hesh](graghesh.md), [Sharoque](sharoque.md)
+**Bordering nations (clockwise)**: Ocean, [Bal Moshi](bal_moshi), [South Daylia](south_daylia), [Magic Sea](magic_sea), [Grag'hesh](graghesh), [Sharoque](sharoque)
 
 ## About
 The Southern Humland Federation is made up of four monarchies: Yania, Leesque, Pendlend, and Rothia. The Federation wants South Daylia and Sharoque to join as well. The Southern Federation has a fair amount of migration and traffic across internal borders.

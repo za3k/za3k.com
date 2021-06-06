@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > emperical zendo
+[za3k](/) > [games](/games/) > emperical zendo
 
 a zendo variant for 3-8 players. these rules assume you know how to play [zendo](https://en.wikipedia.org/wiki/Zendo_(game)), which i recommend as one of the best games available. this is basically the same as normal zendo, but you never guess the secret rule.
 

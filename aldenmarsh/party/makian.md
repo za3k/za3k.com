@@ -1,8 +1,8 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > makian
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > makian
 
 Group lore:
 
-- [Places the party has visited](visited.md)
+- [Places the party has visited](visited)
 
 Private lore:
 

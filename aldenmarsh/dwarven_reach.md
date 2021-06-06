@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > dwarven reach
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > dwarven reach
 
 # Country, Dwarven Reach
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Monarchy
 
-**Bordering nations (clockwise)**: [Bal Moshi](bal_moshi.md), [North Humlend](north_humlend.md), [Eldwood](eldwood.md), [Magic Sea](magic_sea.md), [Agaria](agaria.md)
+**Bordering nations (clockwise)**: [Bal Moshi](bal_moshi), [North Humlend](north_humlend), [Eldwood](eldwood), [Magic Sea](magic_sea), [Agaria](agaria)
 
 ## About
 The Dwarven Reach is a monarchy of hill dwarves and some dark dwarves. There are some human settlements, especially on the coast of the Magic Sea.

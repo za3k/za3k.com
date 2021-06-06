@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > days of the week
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [lore](lore) > days of the week
 
 Aldenmarsh years are 350 days long. The calendar drifts about two weeks a year (it doesn't match how long seasons are)
 

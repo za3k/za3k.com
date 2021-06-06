@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > logic potions
+[za3k](/) > [games](/games/) > logic potions
 
 a logic game for 2-4 players about brewing potions. players are gradually eliminated by LOSING. the last player standing wins. how long it takes per turn depends entirely on your group. a game is not many turns. if you like zendo, mao, or nomic, you may like this game.
 

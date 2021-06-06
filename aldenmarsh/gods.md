@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > gods
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [lore](lore) > gods
 
 | God            | Pantheon | Alignment | God of? | Suggested Domains | Symbol
 |----------------|----------|----|------|---------|-------------------|

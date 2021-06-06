@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > sharoque
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > sharoque
 
 # Country, Sharoque
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Monarchy and Theocracy
 
-**Bordering nations (clockwise)**: Ocean, [Southern Federation](southern_federation.md), [Grag'hesh](graghesh.md), [The Wastes](wastes.md)
+**Bordering nations (clockwise)**: Ocean, [Southern Federation](southern_federation), [Grag'hesh](graghesh), [The Wastes](wastes)
 
 ## About
 A small kingdom in the south, Sharoque is known for its vibrant local clothing and martial monastaries. Treehouse villages are common, although cities are typically on the ground.

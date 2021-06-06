@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > senly faye
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > senly faye
 
 # Country, Senly Faye
 
@@ -25,7 +25,7 @@
 
 **Government**: Tribal
 
-**Bordering nations (clockwise)**: [The Wastes](wastes.md), [Lorille](lorille.md), [Xuxuwell](xuxuwell.md), Ocean
+**Bordering nations (clockwise)**: [The Wastes](wastes), [Lorille](lorille), [Xuxuwell](xuxuwell), Ocean
 
 ## About
 The Senly Faye is home to the a tribe of halfings, who ride standing on the back of horses and buffalo; tieflings in the colder east, who care for enormous herds of yaks; and smaller groups of goat-herding humans. All three are nomadic.

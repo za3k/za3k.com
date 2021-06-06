@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > ultimate archwizards vs the dark lord
+[za3k](/) > [games](/games/) > ultimate archwizards vs the dark lord
 
 **playtesting: none**
 
@@ -37,7 +37,7 @@ written 2021-02-03 by zachary "za3k" vance
     - If the result is **lower** than the difficulty, you fail (**no, and...**). Add 1 to your skill--you've improved through experience. If you have any fun ideas what went wrong, describe what happens. Otherwise the DM will give you an idea to describe.
     - Whenever you describe what happens, you describe how NPCs react, and what happens in the world--not just what your character does.
 
-## [Secret GM Guide](ultimate_archwizard_gm.md) (players don't click)
+## [Secret GM Guide](ultimate_archwizard_gm) (players don't click)
 
 ## Progression
 You are already Ultimate Archwizard. There is no room for improvement. But, you may be able to broaden your skills. If there's more than one session, you become the Archwizard of a second thing. Pick that thing, and you'll get extra powers.

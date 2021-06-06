@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > bal moshi
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > bal moshi
 
 # Country, Bal Moshi
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Monarch (prince) and clans
 
-**Bordering nations (clockwise)**: Ocean, Bal Traki, Ocean, [North Humlend](north_humlend.md), [Dwarven Reach](dwarven_reach.md), [Agaria](agaria.md), [Magic Sea](magic_sea.md), [North Daylia](north_daylia.md), [South Daylia](south_daylia.md)
+**Bordering nations (clockwise)**: Ocean, Bal Traki, Ocean, [North Humlend](north_humlend), [Dwarven Reach](dwarven_reach), [Agaria](agaria), [Magic Sea](magic_sea), [North Daylia](north_daylia), [South Daylia](south_daylia)
 
 ## About
 Bal Moshi seceded from the much larger Traki empire under the direction of its prince 150 years ago. Traki (and so Bal Moshi, which shares its culture and society) is a cultural powerhouse--outside the magic sea region they're the kings of society and education. All first-rate poets, playwrights, historians, scholars et al are from Traki or Traki-educated (by definition--or else they won't be considered first-class).

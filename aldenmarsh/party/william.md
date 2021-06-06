@@ -1,10 +1,10 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > william johnson
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > william johnson
 
 Group lore:
 
-- [Places the party has visited](visited.md)
-- [Recaps](recap.md)
-- [The Black Oracle](black_oracle.md)
+- [Places the party has visited](visited)
+- [Recaps](recap)
+- [The Black Oracle](black_oracle)
 
 Private lore:
 

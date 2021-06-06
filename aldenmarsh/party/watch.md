@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > the watch
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > the watch
 
 # The Watch
 

@@ -1,13 +1,13 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > elira rosefist
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > elira rosefist
 
 Group lore:
 
-- [Places the party has visited](visited.md)
-- [Recaps](recap.md)
-- [Laurel Fallenditch's Reforms](laurel_fallenditch.md)
-- [The Black Oracle](black_oracle.md)
+- [Places the party has visited](visited)
+- [Recaps](recap)
+- [Laurel Fallenditch's Reforms](laurel_fallenditch)
+- [The Black Oracle](black_oracle)
 
 Private lore:
 
-- [Aldish Nobility](nobility.md) background info
-- [The Watch](watch.md)
+- [Aldish Nobility](nobility) background info
+- [The Watch](watch)

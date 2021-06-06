@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [lore](lore.md) > nobility
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [lore](lore) > nobility
 
 # Nobility
 

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > bal traki
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > bal traki
 
 # Country, Bal Traki
 ## About

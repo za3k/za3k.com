@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > north humlen
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > north humlen
 # Country, North Humland
 ## Facts
 **Population**: 70,000
@@ -23,7 +23,7 @@
 
 **Government**: Five principalities
 
-**Bordering nations (clockwise)**: [Bal Moshi](bal_moshi.md), Ocean, [Eldwood](eldwood.md), [Dwarven Reach](dwarven_reach.md)
+**Bordering nations (clockwise)**: [Bal Moshi](bal_moshi), Ocean, [Eldwood](eldwood), [Dwarven Reach](dwarven_reach)
 
 ## About
 The ancenstral home of humankind, North Humland is now home to halflings as well. It's mostly self-sufficient farmland.

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [party](players1.md) > aldish nobility (lore)
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > aldish nobility (lore)
 # Aldish nobility
 
 Aldish nobility are old and have been entrenched for hundreds of years. They are a rich elite who don't work. They have their own complex and exclusionary society, with a focus on "being cultured", education, and virtue (with of course the usual display of wealth). 
@@ -31,7 +31,7 @@ The current noble fashion is to wear long, sleeveless robes down to just above t
 
 **Foreign culture:** Aldenmarsh nobility see themselves as the cultural pinnacle of the world--foreign customs are only of academic interest, are are treated as gossip or trivia. Any foreign cultural influence such as foods, clothing, or customs--is loudly decried (this viewpoint is shared by commoners). Aldish nobility may participate in foreign customs while travelingto be polite, but usually with well-hidden distaste. Foreign books are fine but literary works are not met with interest.
 
-**Virtues:** Nobility are well-versed in the seven cultured [virtues](/aldenmarsh/days_of_week.md). Nobility may chose to pick auspicious days for parties. Aldenmarsh commoners ignore the days of the week except for Light and Family (the week-end). A noble family get-together would be on Family, while one for society as a whole would be on Loyalty to flatter invitees.
+**Virtues:** Nobility are well-versed in the seven cultured [virtues](../days_of_week). Nobility may chose to pick auspicious days for parties. Aldenmarsh commoners ignore the days of the week except for Light and Family (the week-end). A noble family get-together would be on Family, while one for society as a whole would be on Loyalty to flatter invitees.
 
 - Truth. It's virtuous to always discern the truth, and generally to tell it as well. Some nobles make a game out of telling the literal truth, even while lying. Truth is also about being educated and educating others. Nobility try not correct others flat out, but they may set up schools or set up learning opportunities for other nobility on purpose to illustrate some fault of habit. Truth is also about justice--if you're innocent, you want to have your trial on Justice.
 - Charity. It's virtous to give those those less fortunate. Nobles may hand out free food, tutor others, or fund public-goods projects like road construction or ophanages.

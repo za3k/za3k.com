@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > lorille
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > lorille
 
 # Country, Lorille
 
@@ -25,7 +25,7 @@
 
 **Government**: Monarchy
 
-**Bordering nations (clockwise)**: [Aldenmarsh](aldenmarsh.md), [Four Spires](four_spires.md), [Eldwood](eldwood.md), [Splintered States](splintered_states.md) and Lake Lanolis, [Mond](mond.md) and Lanolis River, [Xuxuwell](xuxuwell.md), [Senly Faye](senly_faye.md), [The Wastes](wastes.md)
+**Bordering nations (clockwise)**: [Aldenmarsh](aldenmarsh), [Four Spires](four_spires), [Eldwood](eldwood), [Splintered States](splintered_states) and Lake Lanolis, [Mond](mond) and Lanolis River, [Xuxuwell](xuxuwell), [Senly Faye](senly_faye), [The Wastes](wastes)
 
 **Underground nations**: Hammerstrength, Silver Hall, Duskforge
 

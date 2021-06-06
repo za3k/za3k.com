@@ -1,15 +1,15 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > maps
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > maps
 
 # Maps
-- [Humlend clickable map](humlend.html)
-    - [Aldenmarsh](aldenmarsh.md)
-        - [Canyonport](canyonport.md)
+- [Humlend clickable map](humlend)
+    - [Aldenmarsh](aldenmarsh)
+        - [Canyonport](canyonport)
 
 # Gazetteer (Humlend)
-Check out just places the [party has visited](party/visited.md)
+Check out just places the [party has visited](party/visited)
 
-- [Aldenmarsh](aldenmarsh.md)
-    - [Canyonport](canyonport.md)
+- [Aldenmarsh](aldenmarsh)
+    - [Canyonport](canyonport)
     - North Aldenmarsh
         - Flaxton, city
         - Fort Patience, fort
@@ -61,35 +61,35 @@ Check out just places the [party has visited](party/visited.md)
         - New Snaketon, city
         - Refuge, city
         - Snaketon, landmark
-- [Agaria](agaria.md)
-- [Bal Moshi](bal_moshi.md)
+- [Agaria](agaria)
+- [Bal Moshi](bal_moshi)
     - Tabaxi, islands (protectorate)
-- [Bat Vadyne](bat_vadyne.md)
+- [Bat Vadyne](bat_vadyne)
     - Va Popli, city (capital)
 - Camphor Islands
-- [Copper Kingdom](copper_kingdom.md)
-- [Dwarven Reach](dwarven_reach.md)
+- [Copper Kingdom](copper_kingdom)
+- [Dwarven Reach](dwarven_reach)
 - Egg Island
-- [Eldwood](eldwood.md)
-- [Four Spires](four_spires.md)
-- [Grag'hesh](graghesh.md)
+- [Eldwood](eldwood)
+- [Four Spires](four_spires)
+- [Grag'hesh](graghesh)
 - Han Tabaxi, islands (owned by Bal Traki)
-- [Lorille](lorille.md)
-- [Magic Sea](magic_sea.md)
-- [Maris](maris.md)
-- [Mond](mond.md)
-- [Nathnan](nathnan.md)
-- [North Daylia](north_daylia.md)
-- [North Humlend](north_humlend.md)
-- [South Daylia](south_daylia.md)
-- [Southern Federation](southern_federation.md)
+- [Lorille](lorille)
+- [Magic Sea](magic_sea)
+- [Maris](maris)
+- [Mond](mond)
+- [Nathnan](nathnan)
+- [North Daylia](north_daylia)
+- [North Humlend](north_humlend)
+- [South Daylia](south_daylia)
+- [Southern Federation](southern_federation)
     - Jaroni Islands
-- [Senly Faye](senly_faye.md)
-- [Sharoque](sharoque.md)
-- [Splintered States](splintered_states.md)
-- [The Wastes](wastes.md)
+- [Senly Faye](senly_faye)
+- [Sharoque](sharoque)
+- [Splintered States](splintered_states)
+- [The Wastes](wastes)
     - Mirage of Dreams Inn, building
-- [Xuxuwell](xuxuwell.md)
+- [Xuxuwell](xuxuwell)
     - Aventrax, tribe
     - Haven, city
     - Janth, tribe

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > [maps](maps.md) > bat vadyne
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [maps](maps) > bat vadyne
 
 # Country, Bat Vadyne
 ## Facts
@@ -24,7 +24,7 @@
 
 **Government**: Democracy
 
-**Bordering nations (clockwise)**: [The Wastes](wastes.md), Ocean
+**Bordering nations (clockwise)**: [The Wastes](wastes), Ocean
 
 ## About
 Bat Vadyne is the largest (arguably, only) settlement in the Wastes. It survives on a combination of sea trade and very limited agriculture. Living standards are subsistence-only. The population is mostly happy. Several heroes, major political figures, and philosophers are from Bat Vadyne. It houses a few monestaries.

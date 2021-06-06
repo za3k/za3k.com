@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh) > about
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > about
 
 # About
 ## When and where

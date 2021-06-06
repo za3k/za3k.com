@@ -1,4 +1,4 @@
-[za3k](/) > [games](/mygames.md) > faux pas
+[za3k](/) > [games](/games/) > faux pas
 
 faux pas is a cooperative "hidden role" type game for 3-8 players with a twist: rolls are completely visible. in fact, everyone knows your role... EXCEPT for you.
 
