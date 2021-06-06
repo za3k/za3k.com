@@ -1,5 +1,4 @@
-Colophon
-========
+[za3k](/) > [archive](/archive) > colphon (about)
 
 - za3k.com is written in a combination of [HTML](https://en.wikipedia.org/wiki/HTML) and [markdown](https://daringfireball.net/projects/markdown/syntax), using vim.
 - za3k.com is managed with the version control system, [git](https://git-scm.com/book/en/v2), and uses a git [server hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks#Server-Side-Hooks) to check out commits to the correct place to be served. The [source](https://github.com/za3k/za3k.com) is mirrored on github (another git server hook).

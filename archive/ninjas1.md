@@ -4,7 +4,7 @@
 
 *Ninjas Ninjas Ninjas!* is a fast-paced storytelling game about how damn cool ninjas are, for 3 more or players (instructions are written for 3). It's designed to last 5-30 minutes--how long exactly is up to the players. New events and challenges happen rapidly, and which player is doing what shifts quickly. 
 
-Audience: Unlike my [last two games](/archived.html), *Ninjas Ninjas Ninjas!* is not for complete beginners to storytelling games. There is very little guidance from the rules about what story to tell or how.
+Audience: Unlike my [last two games](/mygames.html), *Ninjas Ninjas Ninjas!* is not for complete beginners to storytelling games. There is very little guidance from the rules about what story to tell or how.
 
 Each player controls a young journeyman ninja taking his/her/their final ninja exam. The three ninjas work together as a team to accomplish their goal. At all times one ninja is in **Front**. Front is the "player" who is actively deciding what to do, while the other ninjas throw problems and points at them.
 
