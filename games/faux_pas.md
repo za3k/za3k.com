@@ -1,5 +1,7 @@
 [za3k](/) > [games](/games/) > faux pas
 
+**playtesting: none**
+
 faux pas is a cooperative "hidden role" type game for 3-8 players with a twist: rolls are completely visible. in fact, everyone knows your role... EXCEPT for you.
 
 each player is an important foreigner milling around in the reception room. everyone knows everyone else's title (role). but because you a foreigner and the titles are strange to you, you are a little unsure how you rank against the others. the goal of the game is for everyone to make small talk, and then enter the dining room in descending order of rank, avoiding a social faux pas.
