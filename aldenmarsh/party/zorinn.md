@@ -12,3 +12,4 @@ Private lore:
 - [Xuxuwell](../xuxuwell) (actually public)
 - [The Watch](watch)
 - [Letters](zorinn_letters)
+- [NPCS](zorinn_npcs)

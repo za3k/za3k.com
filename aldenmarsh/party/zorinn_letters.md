@@ -1,5 +1,18 @@
 [za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > [zorinn](zorrinn) > zorrinn's letters
 
+<!--
+sent from kipper to zorinn, on Year 422, day 110
+```
+Zorinn,
+
+I'm glad to hear you're making so many new friends, and it made me very happy to get a letter back so soon. Sorry I've been so slow to answer. I'm not sure there's an easy way to say this, but Eldon has gone missing. No need to worry yet! You know he can take care of himself, and he might have just gotten distracted like he does. But even though I know he's probably just distracted by some eldrich carving somewhere, I am sick with thinking in circles already. I'm sorry to burden you with this, when we don't even know what's happened, but I didn't want to hold off writing any longer--I was hoping to write you back together with him.
+
+The last I saw him, he was headed back to the ruins. We had read your letter, and I'll just bet he going to take more notes and surprise you with them in our letter back. I remember he got so distracted the first time we visited, he'd forget to eat, and I practically had to drag him away. I'm heading there now, to see if anything happened. Hopefully I'm just being a fusspot and I'll drag back a distracted husband for a second time.
+
+- Dad
+```
+-->
+
 sent from zorrinn to eldon/kipper, on Year 422, day ?
 
 ```
