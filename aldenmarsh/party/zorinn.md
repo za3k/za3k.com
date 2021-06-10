@@ -13,3 +13,5 @@ Private lore:
 - [The Watch](watch)
 - [Letters](zorinn_letters)
 - [NPCS](zorinn_npcs)
+- [Dunamancy Book](dunamancy)
+- [Trevor Whiterune's Journal](trevor_whiterune_journal)

@@ -1,7 +1,6 @@
 [za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > [zorinn](zorrinn) > zorrinn's letters
 
-<!--
-sent from kipper to zorinn, on Year 422, day 110
+sent from kipper to zorinn, on Year 422, day 109
 ```
 Zorinn,
 
@@ -11,7 +10,6 @@ The last I saw him, he was headed back to the ruins. We had read your letter, an
 
 - Dad
 ```
--->
 
 sent from zorrinn to eldon/kipper, on Year 422, day ?
 

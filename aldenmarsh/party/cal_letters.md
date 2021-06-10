@@ -2,8 +2,7 @@
 
 Letters betweeen Cal and skarra/jacob
 
-<!--
-Jacob to Cal, Year 422 Day 108
+Jacob to Cal, Year 422 Day 109
 
 ```
 Dear Cal,
@@ -16,7 +15,6 @@ I will pass your message on to Scarra. I'm sure he will be proud.
 
 -Jacob
 ```
--->
 
 Cal to Jacob, Year 422 Day ?
 
