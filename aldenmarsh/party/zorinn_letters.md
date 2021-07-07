@@ -1,8 +1,23 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > [zorinn](zorrinn) > zorrinn's letters
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > [zorrinn](zorrinn) > zorrinn's letters
 
-sent from kipper to zorinn, on Year 422, day 109
+sent from zorrinn to kipper, on Year 422, day 110
 ```
-Zorinn,
+Dear Kipper (and hopefully Master Eldon),
+
+I just got your letter and I’m not gonna lie, I am concern for Eldon. My group is soon traveling up north to Egg Island for a task. Hopefully, we’ll be done by the time this letter gets to you. 
+My group had decided to head to the ruins if Eldon hasn’t reappeared yet to try to look for him. We’re nearby the area and wouldn’t be too far off from Mond. If he reappears by the time you get this letter or before we find him, can you tell him to send a message to me to make sure he’s okay.
+I hope everything is alright. I know he can take care of himself, but I’m still worried. I partially blame myself for reigniting his curiosity. I am also concerned because whoever wrote this book wasn’t exactly the kindest person. He’s most likely dead, but hopefully, the ruins stay ruined. 
+Hopefully, everything turns out fine and he goes back home alive and well. I’ll keep in touch. If everything goes alright, we may pass by and visit if we have the time.
+
+See you soon,
+Zorrinn
+
+P.S. I did move so here’s my new address ------------
+```
+
+sent from kipper to zorrinn, on Year 422, day 109
+```
+Zorrinn,
 
 I'm glad to hear you're making so many new friends, and it made me very happy to get a letter back so soon. Sorry I've been so slow to answer. I'm not sure there's an easy way to say this, but Eldon has gone missing. No need to worry yet! You know he can take care of himself, and he might have just gotten distracted like he does. But even though I know he's probably just distracted by some eldrich carving somewhere, I am sick with thinking in circles already. I'm sorry to burden you with this, when we don't even know what's happened, but I didn't want to hold off writing any longer--I was hoping to write you back together with him.
 

@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > william johnson
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > talus stronghand
 
 Group lore:
 

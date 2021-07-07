@@ -5,7 +5,7 @@ Players get access to special background info.
 
 | Character          | Race       | Class     | Citizenship | Private info          |
 |--------------------|------------|-----------|-------------|-----------------------|
-| William Johnson    | Human      | Fighter   | None        | [Anime only](william) |
+| Talus Stronghand   | Human      | Rogue     | Aldish      | [Anime only](talus)   |
 | Elira Rosefist     | Half-elf   | Warlock   | Aldish      | [Dodge only](elira)   |
 | Erlan Mossfoot     | Halfling   | Rogue     | Aldish      | [Ken only](erlan)     |
 | Calaum Cadell      | Half-elf   | Paladin   | Aldish      | [Liam only](cal)      |

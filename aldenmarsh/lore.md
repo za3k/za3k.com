@@ -5,11 +5,12 @@
 - [Canyonport](canyonport)
 - [Silver coins](coins)
 - [Baneth](baneth)
-- Prohibited [Divination](divination) spells
-- [Spells for sale](spell_sales) by the Church of Baneth
-- [Magic items for sale](magic_items) in Canyonport
-- [Nobility](nobility)
 - [Council](council)
+- Prohibited [Divination](divination) spells
+- [Magic items for sale](magic_items) in Canyonport
+- [Military](military)
+- [Nobility](nobility)
+- [Spells for sale](spell_sales) by the Church of Baneth
 
 ## World
 - [Hundred Wonders](hundred_wonders)
