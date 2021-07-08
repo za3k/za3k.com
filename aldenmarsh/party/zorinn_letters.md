@@ -1,5 +1,27 @@
 [za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > [zorrinn](zorrinn) > zorrinn's letters
 
+sent from zorinn to eldon/kipper, on Year 422, day 139
+```
+Dear Master Eldon and Kipper,
+
+Hey. I’m not sure if you heard about the current war with Aldenmarsh. I was out of town when I heard from my teammate. I’m alright at the time of writing. I decided to stay with my group in Aldenmarsh, which was honestly, a bad idea. Things had been difficult.
+
+I really wanted to pass by and visit you guys. I’ve been missing you and after Eldon’s short disappearance, I’ve been very keen on visiting you guys. Sadly, with the Aldenmarsh’s border closing soon, the group had to return soon. I decided to stay with them as I thought I could do some good for Aldenmarsh. I kinda soon regretted that when I returned.
+
+I knew Aldenmarsh wasn’t the fondest to foreigners, but returning back into the town was hell. My only way to return back into town was sealed off, so I had to enter back directly. During that time, I had to be marked by the town in a very inhumane way for being a foreigner. And after I decided to return to Aldenmarsh to help them out. I just... felt... so upset.
+
+Sadly, shortly afterward, the group lost one of our members. He was one of the newer members, I haven’t written about him yet. It looks like his past caught up to him and was magically killed. I’m not who or what killed him. He mainly kept his past to himself. I wish I could have done more to help, but I couldn’t anything else.
+
+Honestly, I’m not sure what to do. I’m mad at Aldenmarsh. I find the church and government corrupt. I’ve notice people glaring at me more often. They graffitied my house, call me an “Orc”. It’s been hard and part of me wants to make this place better, but another part of me wants to convince the party to move to Xuxuwell.
+ 
+I still like this place. It looks beautiful. I’m glad I found and joined the party. I enjoy my time studying and working with the Mage’s Guild. The magical knowledge here is useful and I’ve learned a few more spells. By the time this letter gets to you guys, I will probably be a member of the guild myself. It looks like I’m gonna be doing some big things soon. I hope they turn out for the best. I‘m probably leaving town soon to do some official Mage’s Guild business alongside the party. Not my idea, but the group really needs the gold. That entrance fee took almost all of my savings.
+
+Still, I really miss you guys. I really want to visit you guys. I want to eat Kipper’s cooking. I want to discuss magical theories with Eldon. I really want to hug you guys. But it looks like it’ll be some time before that happens. I’ll keep a lookout on learning that sending spell soon. It’ll probably be better than sending letters and waiting for a reply. Still, send a message when you get this letter. I hope to see you soon.
+
+Love,
+Zorrinn
+```
+
 sent from zorrinn to kipper, on Year 422, day 110
 ```
 Dear Kipper (and hopefully Master Eldon),
