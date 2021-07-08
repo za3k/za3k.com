@@ -4,7 +4,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [doubledore](doubledore)                                                 | 2021-06-06 | card                 | low        | 2            | no       | maybe         | a tower-defense card game. when you defeat a monster, it attacks your opponent instead.
+| [doubledore](doubledore)                                                 | 2021-06-06 | card                 | low        | 2            | yes      | no            | a tower-defense card game. when you defeat a monster, it attacks your opponent instead.
 | [faux pas](faux_pas)                                                     | 2021-04-28 | cooperative          | mid        | 3-8          | no       | maybe         | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of nobility rank.
 | [doodle adventures](doodle_adventures)                                   | 2021-03-29 | drawing              | low        | 1-6          | no       | yes           | listen as a premade story is revealed, and doodle what happens.
 | [emperical zendo](emperical_zendo)                                       | 2021-03-19 | board                | mid        | 2-8          | no       | no            | a variant on traditional zendo, where you score points for predicting the rule but never guess the rule outright.

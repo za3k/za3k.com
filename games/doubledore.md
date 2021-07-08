@@ -1,6 +1,6 @@
 [za3k](/) > [games](/games/) > doubledore
 
-**playtesting: none**
+**playtesting: it sucked**
 
 you are albus doubledore. you are fighting your evil twin in the mirror over who will get a pair of very comfy socks. or was it the other way around? and can you win?
 
@@ -9,6 +9,8 @@ doubledore is a tower defense card game. whenever you defeat an enemy, it is tra
 to play you will need a friend (or enemy) and a standard deck of cards.
 
 written by zachary "za3k" vance on 2021-06-06.
+
+note: we playtested the game, and it's not good. it's luck-based, and you basically always lose. this would need some major changes to work.
 
 ### Play
 Black cards are spells. Red cards are monsters.
