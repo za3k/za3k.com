@@ -15,3 +15,4 @@ Private lore:
 - [NPCS](zorinn_npcs)
 - [Dunamancy Book](dunamancy)
 - [Trevor Whiterune's Journal](trevor_whiterune_journal)
+- [Mages Guild Charter](mages_guild)
