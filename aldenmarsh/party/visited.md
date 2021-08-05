@@ -24,6 +24,7 @@ Bolded places are ones the party has visited.
     - **Va Popli**, city (capital and only city): Saved the city from thirst. Makian is from here.
     - Howling Wind monastery, building: Makian was trained here.
 - [Nathnan](../nathnan): Mirinda is from here.
+- Silver Hall, city. A Dwarvish Hall in the mountains of South Lorille. Mints the currency used in most of the continent.
 - **[The Wastes](../wastes)**
     - **City of shadows**, ruin: The party learned about coldbliss and lost their shadows
     - **Hidden mushroom village**, city: In a cave at the bottom of a deep canyon

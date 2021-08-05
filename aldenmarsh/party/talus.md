@@ -8,4 +8,4 @@ Group lore:
 
 Private lore:
 
-- None
+- [Wanted Poster](wanted)

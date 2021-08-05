@@ -6,6 +6,7 @@ Group lore:
 - [Recaps](recap)
 - [Laurel Fallenditch's Reforms](laurel_fallenditch)
 - [The Black Oracle](black_oracle)
+- [Magic Items](magic_items)
 
 Private lore:
 
@@ -16,3 +17,4 @@ Private lore:
 - [Dunamancy Book](dunamancy)
 - [Trevor Whiterune's Journal](trevor_whiterune_journal)
 - [Mages Guild Charter](mages_guild)
+- [Citizenship Papers](zorinn_citizenship)

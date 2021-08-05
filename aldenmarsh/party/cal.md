@@ -6,6 +6,7 @@ Group lore:
 - [Recaps](recap)
 - [Laurel Fallenditch's Reforms](laurel_fallenditch)
 - [The Black Oracle](black_oracle)
+- [Magic Items](magic_items)
 
 Private lore:
 

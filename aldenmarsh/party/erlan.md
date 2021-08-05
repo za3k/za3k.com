@@ -7,4 +7,4 @@ Group lore:
 
 Private lore:
 
-- None
+- [Nobile Education](nobility)

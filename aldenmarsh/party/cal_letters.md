@@ -2,6 +2,15 @@
 
 Letters betweeen Cal and skarra/jacob
 
+Skarra to Cal, Year 422 Day 170 (Patience)
+```
+Dear Cal,
+
+I was glad to see you again. You are a man now, growing into a fine man. Never waver from righteous necessity.
+
+-Skarra
+```
+
 Jacob to Cal, Year 422 Day 109
 
 ```
