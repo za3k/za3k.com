@@ -7,4 +7,4 @@ Group lore:
 
 Private lore:
 
-- [Nobile Education](nobility)
+- [Aldish Nobility](nobility)

@@ -4,15 +4,15 @@ Let it be known that on this Year 422 of our King, Day 169, Zorinn Dragonborn is
 
 By unanimous order of the Supreme Council of Aldenmarsh,
 
-Henry Copyist
-Theodore Oak
-Blind Mason
-Edwin Quickstone
-Henry Thatcher
-Regalia Silk
-Loramandaerell
-Duke Alder Ylomont.
-Duke Alan Nettle.
-Duchess Amelia Fallow.
-Marchioness Petunia Lomarsh
-Ser Olivia Godman.
+Henry Copyist  
+Theodore Oak  
+Blind Mason  
+Edwin Quickstone  
+Henry Thatcher 
+Regalia Silk  
+Loramandaerell  
+Duke Alder Ylomont  
+Duke Alan Nettle  
+Duchess Amelia Fallow  
+Marchioness Petunia Lomarsh  
+Ser Olivia Godman  
