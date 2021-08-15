@@ -25,6 +25,7 @@ Computer Games
 - [Powder](http://www.zincland.com/powder/?pagename=about) by Jeff Lait. Free. 2004.
 - Rogue ([online play](https://archive.org/details/msdos_Rogue_1983)) by Michael Toy and Glenn Wichman. Free. 1980.
 - [Seiklus](http://www.autofish.net/clysm/art/video_games/seiklus/) by clysm. Free. 2003.
+- [Slay the Spire](https://www.megacrit.com/) by megacrit. Paid. 2017.
 - [Spelunky](https://spelunkyworld.com/original.html) by Mossmouth, LLC. Free and paid. 2009.
 - [SpyParty](http://www.spyparty.com/) by Chris Hecker. Paid. Early access. 2018.
 - [Starwhal](http://www.starwhal.com/) by Breakfall. Paid. 2014.
