@@ -61,19 +61,22 @@ Computer Games
     - [Zen Bound 2](https://store.steampowered.com/app/61600/Zen_Bound_2/) by Secret Exit LLC. Paid. 2009.
 - [Minecraft](https://minecraft.net/) by Mojang. Paid. 2009.
     - Modpacks (all free)
-        - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547) by various.
-        - [Crash Landing](http://crashlanding.wildwestscifi.net/) by Iskandar.
-        - [Better Than Wolves](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992-better-than-wolves-now-with-blunt-force-trauma) by FlowerChild.
         - [Agrarian Skies](http://ftbwiki.org/Agrarian_Skies) by Jadedcat.
+        - [Better Than Wolves](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1272992-better-than-wolves-now-with-blunt-force-trauma) by FlowerChild. See also the mod [Better With Mods](https://www.curseforge.com/minecraft/mc-mods/bwm-suite).
+        - [Crash Landing](http://crashlanding.wildwestscifi.net/) by Iskandar.
+        - [SevTech Ages](https://www.curseforge.com/minecraft/modpacks/sevtech-ages) by darkosto et al.
+        - [Tekkit](http://www.technicpack.net/modpack/tekkitmain.552547) by various.
     - Mods (all free)
-        - [Computercraft](http://www.computercraft.info/) by dan200.
+        - [Applied Energistics 2 & 3](https://ae-mod.info/) by AlgorithmX2.
         - [Buildcraft](http://www.mod-buildcraft.com/) Pipes by various.
+        - [Chickenchunks](http://chickenbones.net/Pages/links.html) by ChickenBones.
+        - [Chisels and Bits](https://github.com/ChiselsAndBits/Chisels-and-Bits) by AlgorithmX2.
+        - [Computercraft](http://www.computercraft.info/) by dan200.
+        - [Dimensional Doors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287583-dimensional-doors-v2-2-4) by stevenrs11.
         - [Ender Storage](http://chickenbones.net/Pages/links.html) by ChickenBones.
+        - [Hopper Ducts](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod) by FyberOptic.
         - [Inventory Tweaks](https://inventory-tweaks.readthedocs.org/en/latest/) by Jimeo Wan.
         - [Mystcraft](http://binarymage.com/wiki/) by XCompWiz.
-        - [Dimensional Doors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287583-dimensional-doors-v2-2-4) by stevenrs11.
-        - [Hopper Ducts](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod) by FyberOptic.
-        - [Chickenchunks](http://chickenbones.net/Pages/links.html) by ChickenBones.
         - [OpenPeripheral](http://openmods.info/) Terminal Glasses by various.
 
 Online Games

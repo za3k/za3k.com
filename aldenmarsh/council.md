@@ -7,10 +7,10 @@ The Council is the ruling body of Aldenmarsh. They create laws and make all majo
 
 The current members are:
 
-- Church. Chairman. Ser Olivia Godman.
-- Church. Henry Copyist (taxes).
-- Church. Johann Humanson (steel).
-- Church. Blind Mason (scriptoria).
+- Church. Chairman. Ser Olivia Godman, [Lord High Priest](church_branches).
+- Church. Henry Copyist ([taxes](church_branches)).
+- Church. Lance Twospell, deceased ([steel](church_branches)). (Johnann Humanson, deceased)
+- Church. Blind Mason ([scriptoria](church_branches)).
 - Guilds. Edwin Quickstone (artificer's guild).
 - Guilds. Henry Thatcher (port authority).
 - Guilds. Regalia Silk (merchant's association).
