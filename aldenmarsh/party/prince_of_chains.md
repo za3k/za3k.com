@@ -16,6 +16,6 @@ The chains pull Cal constantly, and the pull moves him slightly from the materia
 
 The Prince of Chains sometimes makes **demands** from Cal. Cal is pact-bound to do whatever the Prince demands, or he will be immediately taken to the Court. When the prince makes a demand, he will say "**you must**" in his request.
 
-The Prince of Chains also sometimes **tempts** Cal. He will request a favor--if Cal does the favor, he will loosen the chains, granting Cal more time here in the material realm. When the prince makes we request, we will not use the phrase "**you must**". Cal figured out that he could refuse these requests after being tricked for a while. Temptations will come at the worst moments possible.
+The Prince of Chains also sometimes **tempts** Cal. He will request a favor--if Cal does the favor, he will loosen the chains, granting Cal more time here in the material realm. If Cal refuses, the chains tighten, reducing his time. When the prince makes we request, we will not use the phrase "**you must**". Cal figured out that he could refuse these requests after being tricked for a while. Temptations will come at the worst moments possible.
 
 When the Prince makes demands or requests, he shows up in person, and others can see him. In addition, Cal can feel the Prince's emotions through the chains.
