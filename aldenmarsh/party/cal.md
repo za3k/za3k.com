@@ -12,3 +12,4 @@ Private lore:
 
 - [The Watch](watch)
 - [Letters](cal_letters)
+- [Prince of Chains](prince_of_chains)
