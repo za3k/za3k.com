@@ -33,6 +33,7 @@ New recruits are provided with:
 - (1) Wooden truncheon
 - (1) Pocket size book "Steel Eye Field Regulations Complete Manual, 17th edition" by Johann Humanson
 - (1) Book "The Legal Code of Aldenmarsh"
+- (1) Personalized wooden badge with name and company
 
 ## Steelman's Oath
 
