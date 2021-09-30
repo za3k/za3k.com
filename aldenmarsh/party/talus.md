@@ -9,3 +9,4 @@ Group lore:
 Private lore:
 
 - [Wanted Poster](wanted)
+- [Steel Eye](steel)
