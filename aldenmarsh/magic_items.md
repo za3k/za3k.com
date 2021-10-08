@@ -101,3 +101,5 @@ Other common and uncommon magic items may be for sale or made on demand. Ask the
 - Dagger of Warning (3000 sp)
 - Wind Fan (2000 sp)
 - Winged Boots (unavailable)
+- Bracers of +1 Unarmed Combat (3000 sp)
+- Eldrich Claw Tattoo (6000 sp)
