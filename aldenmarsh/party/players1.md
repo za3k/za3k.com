@@ -15,6 +15,7 @@ Everyone has access to:
 
 - [Places the party has visited](visited)
 - [Recaps](recap)
+- [Magic Item Formulae](magic_items): how to make magic items as a player
 - Magic Items wiki for stuff the party has access to. In roll20.
 
 <!--
