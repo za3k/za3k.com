@@ -6,6 +6,7 @@
 - Level 0 scroll (250sp)
 - Level 1 scroll (500sp)
 - Level 2 scroll (1000sp)
+- Magical Inks (500sp per level to copy a spell, 250sp for a cantrip)
 - Healing potion (500sp) 
 - Climbing potion (500sp)
 - Moontouched longsword (1000sp)
