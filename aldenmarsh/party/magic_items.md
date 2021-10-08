@@ -13,3 +13,16 @@ In this campaign, several things are needed to make a magic item:
     - Labor: 12 days
     - Special conditions: The creator must be a cleric or paladin. The holy symbol is for a particular god, the god of the creator.
     - Creation process. The creator prays day and night to their god, forging the amulet without ever stopping their prayers. The creator only needs to actually strike the amulet once a day--the physical work can be done by the silversmith with guidance from the creator, while the creator does the spiritual work. At the end of the process, a +2 or +3 amulet gradually shinks in size by a factor of ten or more, becoming tiny and exquisitly detailed.
+- +1 Ball Bearings
+    - Effect: +1 Ball Bearings, like other enchanted ammunition, become nonmagical after hitting a target.
+    - Character Level Required: 3
+    - Materials: 40sp of oils, dyes, and lodestones per bearing, which are consumed.
+    - Labor: 3 days to create a batch of up to 20 bearings at once
+    - Special conditions: The creator needs access to the *magic stone* cantrip
+    - Creation process. The creator casts a modified version of magic stone three times a day, carefully, turning the bearings and coating them evenly alternately in oil and dye. The lodestone is used as part of the formula at the end, and crumbles. The oil and dye is wiped off. There is no visible change to the bearings, except that they are a shimmering deep blue afterwards.
+- +0 Ball Bearings
+    - Effect: +0 Ball Bearings, like other enchanted ammunition, become nonmagical after hitting a target. They count as magical weapons but provide no other benefit.
+    - Materials: 20sp of oils and dyes per bearing, which are consumed.
+    - Labor: 3 days to create a batch of up to 20 bearings at once
+    - Special conditions: The creator needs access to the *magic stone* cantrip
+    - Creation process. The creator casts a modified version of magic stone three times a day, carefully, turning the bearings and coating them evenly alternately in oil and dye. A magical formula is pronounced at the end. The oil and dye is wiped off. There is no visible change to the bearings, except that they are are dyed an uneven blue afterwards.
