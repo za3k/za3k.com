@@ -9,7 +9,7 @@ The current members are:
 
 - Church. Chairman. Ser Olivia Godman, [Lord High Priest](church_branches).
 - Church. Henry Copyist ([taxes](church_branches)).
-- Church. Lance Twospell, deceased ([steel](church_branches)). (Johnann Humanson, deceased)
+- Church. Lance Twospell, ([steel](church_branches)). (Johnann Humanson, deceased)
 - Church. Blind Mason ([scriptoria](church_branches)).
 - Guilds. Edwin Quickstone (artificer's guild).
 - Guilds. Henry Thatcher (port authority).
