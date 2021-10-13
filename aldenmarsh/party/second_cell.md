@@ -28,7 +28,7 @@ You have various secret signs and codewords, but they're mostly for fun, and you
 Cell members
 - Heldir Folgar - Recruiter
 - Tommy - Graffiti
-- Storm Tempest - Enchanted Graffiti (Note: recruited by Robert)
+- Storm Tempest - Communication and Magic (Note: recruited by Robert)
 - Penny "Jacks" Nolen - Rumors and gossip
 - Arnold "Bonecrusher" Reedson - Recruiter, does meetings
 
