@@ -2,7 +2,7 @@
 
 # Thieves Network
 
-The Thieves' Network is an informal bunch of people who provide services for each other.
+The Thieves' Network is an informal bunch of people in Canyonport who provide services for each other.
 
 ## Benefits
 

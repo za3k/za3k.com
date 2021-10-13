@@ -7,5 +7,4 @@ Group lore:
 
 Private lore:
 
-- [Aldish Nobility](nobility)
 - [Blinded Eye](second_cell) - publicity cell
