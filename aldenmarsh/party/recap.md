@@ -1,9 +1,146 @@
 [za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > recaps
 
 See the discord for the latest recaps. I'll copy them over here every once in a while.
+______
+Session 39: 2021-10-06
 
+The party searches the monastic rooms, finding a bunch of loot. They then examine a museum to the east, where they see a copy of the Holy Book of Baneth and loot a number of ancient relics.
+
+They go down the "open eye" path to the left, through a series of rooms each with a different magical effect. They pass two monks ringing bells and gongs, one of whom notes them and doesn't stop them.
+
+In the center, they find a huge room with a tight wire between the sides. They ignore some glass plates and instead go for the pile of treasure on the other side, crossing the rope. As they reach for it, a large mangy dog transforms into an angelic knight with silvery skin, who interrogates them on who they are. When they lie, she swears to kill them. They defeat her with difficulty, and start gathering up the loot. Erlan accidentally rings a gong, which summons three coatls. They try lying to the coatls and telling them to go off and defend another part of the vault, but the coatls see through them. At the end, three of the party (Zorrinn, Elira, and Cal) are unconscious in the vault, and two (Erlan and Talus) have barely escaped to the other side of the intact ice boulder, fleeing safely out of the Still manor.
+
+The current date is the afternoon of Year 422, Day 182 (Truth). The active party is outside the still, and three members are unconscious in the vault.
+
+Elira, Zorrinn, and Talus should bring replacement PCs for the next session (Cal can optionally if he wants).
+______
+Session 38: 2021-09-29
+
+The party preps to raid the Still Vault. They buy equipment, including "throwaway" equipment in case of divination or scrying, and prep spells and tactics. Talus acquires a floor plan for the Still from Stumpy for a significant fee. Zorinn organizes a last night of debauchery and partying.
+
+The party openly goes out of the city, then camps out in the wild for a while in Tiny Hut, leaving a misleading paper trail. They enter the Still and get to the second underground floor first try no problems, without seeing or alerting anyone. They go down what they think from the floor plan might be a jail, but turns out to be the monastic living cells, and fight four priests. They are victorious, and a search of the living space does not reveal any alarms. Zorinn blockades the stairs down with a huge ice boulder during this, and destroys a teleportation circle.
+
+There seem to be some magical effects in place. There is an artifical "muting" or "silence" effect quieting everything, making it hard to cast spells with verbal components. Annoyingly, this doesn't seem to affect the priests. Talus's tattoo reacts strongly to some kind of anti-fiend protection. And, there seems to be some minor healing magic present, stabilizing everyone who would make a death saving throw on both sides.
+
+The current date is the monring of Year 422, Day 182 (Truth). The party are in the underground level of the Still.
+______
+Session 37: 2021-09-22
+
+Talus signs up with the Steel. Erlan tries to get answers about the black thumbprint on him. Stumpy won't answer, but he starts tracking backwards when someone re-applies the print. Cal visits the Watch--both he and Grub and not sure what to do about the Blinded Eye, but decide to learn plans for the explosives. Zorinn asks Robert about the Blinded Eye, and they end up hooking up at an inn. Cal and Erlan track down two of the three remember Blinded Eye members by using Locate Object. There's an abandoned Blue cloak in a warehouse with some identifying information, and they they find Grey's cloak in some crowded tenement housing.
+
+At the meeting, everyone shows up. The Blinded Eye seems split on the new members but proceeds. They plan to plant the bomb in the High Sept at night, but they need Red to make it first, and they need to wait for a time they know it's empty. The PCs suggest doing it during the day instead, but clearing out the place of bystanders using magic. The Blinded Eye asks the PCs to raid and sabotage the Still vault before the explosives raise the Church's guard against sabotage. They agree, asking for details.
+
+The current date is the evening of Year 422, Day 177 (Patience). The party just returned back home.
+______
+Session 36: 2021-09-15
+
+Cal turns in a letter from the Flesh Brokers to the clerk at the jail. Talus asks Stumpy about what essence of pure fire looks like, while Zorinn and Erlan check out the same thing in the Mages' Guild archives. They hear Johnann Humanson (the head of the Steel and someone on the Aldenmarsh Council) was assassinated. The party scopes out the Red Alchemist at night--it's abandoned, although they spot Stumpy's friend Dave spying on them.
+
+With a lot of magical assistance and spotters, Erlan steals a 50-gallon drum of essence of pure fire. The party identifies the cask and several other magical items. Zorinn casts sending to contact Laurel Fallenditch, who gives them an address for a letter in Agaria.
+
+Level 6 reached.
+
+The current date is the morning of Year 422, Day 173 (Light)
+______
+Session 35: 2021-09-08
+
+Talus and Elira head back to the house with Robert and have a drunk conversation. Zorinn heads to the Mages' Guild, where he sees that his school rival Zeno is in town. Erlan and Cal persuade white to let them into the Blinded Eye despite the earlier fiasco. They go to a secret meeting room above a coffee shop, where they meet Blue, Taupe (Brown), and Grey. Red is in the hospital after some explosives went off in storage. They are asked to get essence of pure fire to manufacture replacement explosives, probably by robbing an alchemist. They are also requested to recruit Laurel Fallenditch or her friends. Cal memorizes all the cloaks.
+
+Cal and Erlan let the party know everything from the meeting. Robert recuperates in the next room, and Erlan yells at him not to go around mouthing on about the Blinded Eye.
+
+The next morning, the party splits up, casing the different alchemical shops they could target. They decide to target The Red Alchemist.
+
+The current date is Year 422, Day 171 (Silence)
+______
+Session 34: Cancelled
+______
+Session 33: 2021-08-18
+
+Downtime -- Zorinn visits the mages' guild.
+
+Erlan and Elira visit the Watch. Elira adds Grub's name to her book, and will check in with him every few weeks. They persuade Grub to take a break sometime, and offer some advice on moving citizens to the north side of the city if an attack looks likely.
+Talus looks into the Standlin family, finding three properties in the city. Gasela's mother is not on record, but her father is Laron Standlin, a noble who still seems to be alive. He asks a Gardener for moral guidance.
+Zorinn and Cal visit the Tuz manor. They are turned away, but Zorinn uses invisible spider Ludwig to search the house. It looks like the Standlins are a family of four, all out of the house. Belmand has been gone for at least a month or two, and a guest seems to be staying in his sister's room. The Tuz finances recently are unusual, and there is information about troop movements.
+
+The PCs show up to a Rebellion meeting with a bottle of wine. They talk with citizenry. The PCs and citizens are not pleased with recent Church decisions, including tariffs, travel restrictions, grounded ships, and a rumored 10% tithe going into effect. A couple of attending citizens are racist against Zorrinn, telling him to leave. After the meeting the hooded woman invites two of the party to another location to continue talking, along with Robert. Zorinn tries to have Ludwig secretly spy on them, and Talos starts following them. Talos appears, visible, in the middle of the street, after his armor clanking gives him away, and refuses to let his new friends go off into a possible ambush.
+
+Talos casts Charm Person on Robert. Talos and Elira head back to the house to party. Meanwhile, Erlan and Cal follow the hooded woman to an alley where she changes out of her robe, and then back to a private residence. They knock on the door. Zorinn is MIA.
+
+The current date is Year 422, Day 170 (Patience)
+______
+Session 32: 2021-08-04
+
+The party briefly questioned Percy Cornwinkle, who said he was acting under the orders of Commander Edward Harris. The party took Percy Cornwinkle to Castle Hop, where they asked the other Watch members to keep him imprisoned indefinitely. He tried to escape the same night under Elira's watch. The party caught him quickly, and after a short interrogation, Talus killed him so he wouldn't escape again.
+
+Arriving in Canyonport, the party delivered the dead to the military and the Mages Guild. They collected their payment (50,000 sp) and went shopping. Cal picked up the payment for the decanter from the bank, and Elira joined the Mages Guild. There was a loud explosion, which the party investigated, and put out the fire.
+
+The party took a 12-day break, during which Cal made a magic item, and Erlan got a crash study course in noble education, including how to fake what he doesn't know. His instructor put a black thumbprint on his shoulder and disappeared. Elira mostly succeeded at hiding a wanted poster of her younger self, while causing a bit of a scene at a tavern. Erlan took Zorinn on a pub crawl. Zorinn gained Aldenmarsh citizenship, quietly receiving papers in the mail, and removed his brand leaving only a faint mark.
+
+The current date is Year 422, Day 169 (Charity)
+______
+Session 31: 2021-07-21
+
+The party started in silver hall with elira slipping away while invisible, a few attempts we made to find her and were failures, the party argued with some guards over why they were being trapped, elira got lost, cast remove curse on herself and took 5d10 damage, she then proceeded to come back to the party, confessed to being under a geas, and was told by the king that he believed her, the party proceeds to finish the trade deal, where they then got jumped by a dragon, all of the NPCs died, many of the party members almost died, in the end the dragon died. The party was then given some rewards as gratitude from the dwarves, eventually left the dwarves, and delivered the runes. The day after they delivered the ruins the person who would put a elira under a guise approached, assuming she was still under it, the party jumped them and captured them
+
+The current date is Year 422, Day 154 (Truth)
+______
+Session 30: 2021-07-14
+
+The party arrived at Silver Hall, and handed over their gold to the dwarves, who count it very slowly. They amuse themselves as best they can in a tiny empty locked room. Elira is up to something suspicious. She turns invisible, and the guards catch her as she's leaving.
+
+The current date is Year 422, Day 144 (Light)
+______
+Session 29: 2021-07-07
+
+The party mourns the death of William. They meet Talus and a mystery rebellion contact. At the mages' guild, Zorinn joins the guild. The party accepts a mission for the military to trade gold with some dwarves for anti-teleportation wards. They are closely interrogated in separate rooms.
+
+At dawn, they leave for Silver Hall, and arrive safely.
+
+The current date is Year 422, Day 140 (Truth)
+______
+Session 28: 2021-06-30
+
+The party sneaks around customs at the Aldenmarsh border. At the Canyonport city wall they call the Mages' guild in to vouch for them, but get detained until the foreigners in their group show up. Zorinn and William are branded, and William is thrown in prison until he gets a visa.
+
+Entering the city, they check in with the Mages' Guild to get William a visa and pick up their decanter. They check in with the Watch. Finally, they visit William in prison, but hear reluctant tales of the Ji-kon, some kind of shadowy organization that controls time travel. They warn the guards there may be a breakout attempt, but return later the same night to find him dead, aged hundreds of years in mere minutes, with the guards unaware of anyone entering or exiting.
+
+Level 5 reached.
+
+The current date is Year 422, Day 137 (Loyalty)
+______
+Session 27: Cancelled
+______
+Session 26: 2021-06-16
+
+The party meets frog-people. They initially can't communicate, but offer rations to the tribe, which they seem to take as tribute. Cal's physical approach, Zorrinn's mage hand, Elira's sudden understanding of their gloopy language all rile them up, but the party defuses the situtation and backs away. They search the island themselves and by familiar, but don't find a second temple.
+
+During the night, Cal is sent a dream by someone in the Canyonport Watch house: "This is not a dream. Aldenmarsh declared war on Grag'hesh. Return immediately. The Watch needs all members. Borders closing soon."
+
+Zorinn debates whether he wants to be a foreigner returning to Aldenmarsh right now, or whether he'd prefer to see his fathers. The party tries to figure out how to return, given that the borders may be closed by the time they reach them.
+
+The current date is Year 422, Day 125 (Family)
+______
+Session 25: 2021-06-09
+
+The party hires Lane, an ex-student of Zorrinn's, to organize and answer their letters while they are away. Cal gets a letter back from Jacob. Zorrinn gets a letter from Kipper that Eldon has gone missing. They check in with the Watch. The party heads to Egg Island, arriving there a couple weeks later. They talk to the small finishing village, then head out into the forest. They find an abandoned kobold temple. While Elira's raven Corvus is out scouting for a possible second temple, a number of frog-people come up on them.
+
+The current date is Year 422, Day 122 (Silence)
+______
+Session 24: 2021-06-02
+
+Erlan joins the party.
+
+The party arrives back at Canyonport. They deliver a stack of books to Strew Havenore, the master archivist at the Mages' Guild. She thanks them. The party goes to their usual tavern, the Lazy Ass, where they meet Erlan Mossfoot, telling a tall tale and standing round after round. They hit it off and decide to hire him to help with, but not to invite them back to the house. William is extended an invitation to stay at the house, gets a tour, has some allergy problems, and cooks a nice meal.
+
+The party has some new mail, offering them various new jobs: to fetch a trident on Egg Island for the military or the Mages' guild, to find a stolen prayer lily in Canyonport from a noble, to deliver a Chaos Shard to the Dwarven Reach for the Mages' Guild, and to make a rubbing of a wall in Silver Hall from a Mages' Guild member.
+
+The party visits the Kirkle Manor, talking to Evesta Kirkle and investigating the stolen prayer lily. They give it up as a cold case with no leads. Cal picks up his commissioned magic sword. Heading to the Mages' guild, the party buys a decanter of endless water from Elluin and commissions a second. They talk to Segarrellion but the job he offered them has expired. They are led to Siber, who tells them about a trident on Egg Island, which the Mages' guild wants to recover to give to the military.
+
+The current date is Year 422, Day 109 (Loyalty)
 ______
 Session 23: 2021-05-26
+
+Mackian drops out permanently.
 
 Zorinn and the party go to meet the chronurgist Eroan Jian, who finishes the last of Zorinn's book, and offers to take him as an apprentice long-term. The party then visits the Roughshade Monestary, with its world-famous library. They buy several books (including magic books, a map of the wastes, and some smut). and do some research. There, they talk to two scholars: Lo Rodon about the ruins filled with shadows they visited, and Pui Ni about the history of Humlend. They go play at the beach. Cal goes back to visit Eroan again, giving him a warning about hurting innocents. The party book a series of short ship voyages back to Canyonport "off-screen", lugging back some books for Strew Havenore.
 
