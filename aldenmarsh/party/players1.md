@@ -22,6 +22,7 @@ Everyone has access to:
 ## Graveyard
 
 | Character          | Race       | Class     | Citizenship | Private info          | Status  |
+|--------------------|------------|-----------|-------------|-----------------------|---------|
 | Talus Stronghand   | Human      | Rogue     | Aldish      | [Anime only](talus)   | Retired |
 | Elira Rosefist     | Half-elf   | Warlock   | Aldish      | [Dodge only](elira)   | Dead    |
 | Calaum Cadell      | Half-elf   | Paladin   | Aldish      | [Liam only](cal)      | Missing |
