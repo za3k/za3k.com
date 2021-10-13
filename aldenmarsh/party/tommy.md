@@ -7,5 +7,6 @@ Group lore:
 
 Private lore:
 
+- [Drugs](drugs)
 - [Thieves Network](thieves_network)
 - [Blinded Eye](second_cell) - publicity cell
