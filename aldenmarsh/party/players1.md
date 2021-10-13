@@ -24,6 +24,7 @@ Everyone has access to:
 | Character          | Race       | Class     | Citizenship | Private info          | Status  |
 |--------------------|------------|-----------|-------------|-----------------------|---------|
 | Talus Stronghand   | Human      | Rogue     | Aldish      | [Anime only](talus)   | Retired |
+| William Johnson    | Human      | Fighter   | Foreign     | Deleted               | Dead    |
 | Elira Rosefist     | Half-elf   | Warlock   | Aldish      | [Dodge only](elira)   | Dead    |
 | Calaum Cadell      | Half-elf   | Paladin   | Aldish      | [Liam only](cal)      | Missing |
 | Zorinn             | Dragonborn | Wizard    | Visa        | [Space only](zorinn)  | Missing |

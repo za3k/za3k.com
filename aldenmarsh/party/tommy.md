@@ -1,4 +1,4 @@
-[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > erlan mossfoot
+[za3k](/) > [aldenmarsh](/aldenmarsh/) > [party](players1) > tommy
 
 Group lore:
 
@@ -7,5 +7,5 @@ Group lore:
 
 Private lore:
 
-- [Aldish Nobility](nobility)
 - [Thieves Network](thieves_network)
+- [Blinded Eye](second_cell) - publicity cell
