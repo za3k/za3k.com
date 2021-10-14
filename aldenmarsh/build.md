@@ -14,14 +14,14 @@
  - Volo's Guide to Monsters
  - Xanathar's Guide to Everything
  - Tasha's Cauldon of Everything. You can use custom lineage but I write "munchkin" in sharpie on your forehead.
- - NO: Unearthed Arcana, Aarakocra, Artificer
+ - NO: Unearthed Arcana, Matt Mercer classes, Aarakocra, Artificer, Elegance Bard
  - Anything else, ask!
 1. If you want to tweak your **background** or make a custom background, the answer is yes for anything in the standard "custom background" options, ask me if you want to do anything else
 1. **Languages**. Exotic languages like Celestial are allowed.
  - (Aldenmarsh group) All PCs get Aldish (the language of Aldenmarsh) for free, in addition to Common. 
 1. **Skill proficiencies**. 
  - (Aldenmarsh group) "Intelligence (Noble Education)" is a homebrew skill available to characters who are nobility and may have been educated in Aldenmarsh or around the Magic Sea. It's basically like a classical education--good for fiting in with nobility or sounding educated, but not directly useful for anything. To take it, replace any one skill proficiency you have.
-1. Starting **equipment**. You can choose any of the following methods.
+1. Starting **equipment**. At level 5+, ask the DM. Otherwise, choose any of the following methods:
   1. Take the suggested gear for your class and background
   2. Roll for gold as given in the player's handbook.
   3. Take the [average roll](average_gold) for your class as given in the player's handbook.
