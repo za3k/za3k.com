@@ -7,7 +7,7 @@
 - We ARE using the optional feat rule.
 - We ARE allowing multiclassing. (But limit of 2 classes.)
 - We ARE NOT using the optional cleave rule.
-- We ARE NOT using inspiration, healing surges, or hero points. The "Lucky" feat is not allowed. Spells and abilities allowing rerolls will be disallowed.
+- We ARE NOT using inspiration, healing surges, or hero points. The "Lucky" feat is not allowed.
 - Levels
     - Leveling is XP-based, not milestones. The DM will track it for the group. Generally XP is awarded for achieving goals the DM or party thinks are important, and most of it will be awarded for non-combat.
     - Leveling up is in-between sessions, to avoid a long interruption. You can roll your increased HP immediately for level 2 without waiting until the end of the session.
