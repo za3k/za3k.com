@@ -26,9 +26,9 @@ You have various secret signs and codewords, but they're mostly for fun, and you
 
 ## People
 Cell members
-- Heldir Folgar - Recruiter
-- Tommy - Graffiti
-- Storm Tempest - Communication and Magic (Note: recruited by Robert)
+- Heldir "Peacekeeper" Folgar - Recruiter
+- "Big T" Tommy - Graffiti
+- Storm "Storm" Tempest - Communication and Magic (Note: recruited by Robert)
 - Penny "Jacks" Nolen - Rumors and gossip
 - Arnold "Bonecrusher" Reedson - Recruiter, does meetings
 
