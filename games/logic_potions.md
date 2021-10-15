@@ -1,12 +1,12 @@
 [za3k](/) > [games](/games/) > logic potions
 
+**playtesting: ok, but the same every game**
+
 a logic game for 2-4 players about brewing potions. players are gradually eliminated by LOSING. the last player standing wins. how long it takes per turn depends entirely on your group. a game is not many turns. if you like zendo, mao, or nomic, you may like this game.
 
 i recommend checking out the **faster** and/or **simpler** variants immediately before first play.
 
 materials: a deck of cards or a lot of skittles; a piece of paper and a pencil
-
-**this game is unplaytested**
 
 written by zachary "za3k" vance on 2021-03-13.
 
