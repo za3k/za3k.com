@@ -221,3 +221,6 @@ For anyone curious, the rules of Mathematical Go Fish were something like:
 - You lose if you give someone a card and someone proves you don't have it.
 - You win if you show someone lost.
 - You win if you can prove a contradiction.
+
+### playtesting
+- playtested with one friend. intimidatingly long rules but I think not actually that bad. main problem was lack of replayability. the easiest thing to forget was that the new rule had to invalidate the most recent brew. overall my feeling was that it's a good base. the randomized potion ingredients did not make a significant impact on play and added steps. it might be good to change the rules so they are always of the form "If ... THEN it is NOT red".
