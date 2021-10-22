@@ -53,6 +53,7 @@ Computer Games
     - [Overcooked 2](https://store.steampowered.com/app/728880/Overcooked_2/) by Ghost Town Games. Paid. 2018.
     - [Portal](https://store.steampowered.com/app/400/Portal/) by Valve. Paid. 2007.
     - [Psychonauts](https://store.steampowered.com/app/3830/Psychonauts/) by Double Fine Productions. Paid. 2005. 
+    - [Return of the Obra Dinn](https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/) by Lucas Pope. Paid. 2018.
     - [Slay the Spire](https://store.steampowered.com/app/646570/Slay_the_Spire/) by Mega Crit Games. Paid. 2019.
     - [The Stanley Parable](https://store.steampowered.com/app/221910/The_Stanley_Parable/) by Davey Wreden. Paid. 2011 
     - [The Talos Principle](https://store.steampowered.com/app/257510/The_Talos_Principle/) by Croteam. Paid. 2014.
@@ -133,3 +134,8 @@ Atari Games
 Arcade Machine Games
 --------------------
 - Tower of Druaga ([rom](http://www.emuparadise.me/M.A.M.E._-_Multiple_Arcade_Machine_Emulator_ROMs/Tower_of_Druaga_%28New_Ver.%29/17544)). 1984.
+
+Non-video Games
+---------------
+- [Go](https://en.wikipedia.org/wiki/Go_(game))
+- [Skat](https://en.wikipedia.org/wiki/Skat_(card_game))
