@@ -37,3 +37,5 @@
 | faux pas                                          | mid        | 2     | 3-8      | ?     | social
 | ninjas ninjas ninjas!                             | high       | 5     | 3        | ?     | roleplaying
 | logic potions                                     | high       | 7     | 2-4      | ?     | board
+
+(end)
