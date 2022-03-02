@@ -1,6 +1,6 @@
 [za3k](/) > games
 
-# alphabetical
+## alphabetical
 
 | game                                              | good? | description |
 |---------------------------------------------------|-------|-------------|
@@ -19,7 +19,7 @@
 | ultimate archwizards vs the dark Lord             | yes   | one-page storytelling game about the final episode in a fight anime.
 | faux pas                                          | ?     | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of nobility rank.
 
-# complexity
+<h2 style="page-break-before: always">complexity</h2>
 
 | game                                              | complexity | players  | good? |
 |---------------------------------------------------|------------|----------|-------|
