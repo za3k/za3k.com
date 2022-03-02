@@ -1,4 +1,4 @@
-[za3k](/) > games (paper summary)
+[za3k](/) > games (toc)
 
 | game                                              | complexity | players  | good? | description |
 |---------------------------------------------------|------------|------------------|-------------|
@@ -16,3 +16,4 @@
 | stupid russia                                     | mid        | 10+, GM  | no    | spy directors make deals with each other, trying to report more agents than anyone else, without getting their own agents executed.
 | ultimate archwizards vs the dark Lord             | low        | 3-5, GM  | yes   | one-page storytelling game about the final episode in a fight anime.
 | faux pas                                          | mid        | 3-8      | ?     | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of nobility rank.
+
