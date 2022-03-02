@@ -4,7 +4,7 @@
 
 supplies needed: pencil and paper (optional)
 
-**not yet playtested. estimated time, 10 minutes**
+playtime 5-10 minutes
 
 written by zachary "za3k" vance on 2022-02-25
 
@@ -20,3 +20,6 @@ written by zachary "za3k" vance on 2022-02-25
 ## the end
 - **And that's how I became known as the Moon Emerald Kid.**
 - once the story ends, stop.
+
+## playtesting results
+- got boring once you hit the middle again. make the middle a cliffhanger and immediately resolve everything, or stop there. *i worked as a puma trainer. the pay wasn't great, but i just love taunting pumas.*
