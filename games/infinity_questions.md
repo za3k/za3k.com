@@ -15,4 +15,4 @@ written up by zachary "za3k" vance on 2022-02-25
 4. if the second player guesses the secret, they win.
 
 **credits**
-this game was probably designed by carl shulman (best guess) or anna salamon. it's explicitly designed to increase your frustration tolerance.
+this game was probably designed by someone else, but we can't figure out who. it's explicitly designed to increase your frustration tolerance.
