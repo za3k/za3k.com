@@ -22,7 +22,7 @@
 <h2 style="page-break-before: always">complexity</h2>
 
 | game                                              | complexity | pages | players  | good? | type |
-|---------------------------------------------------|------------|-------|----------|-------|
+|---------------------------------------------------|------------|-------|----------|-------|------|
 | loot boxes                                        | low        | 1     | 2-4      | ok    | storytelling
 | infinity questions                                | low        | 1     | 2        | ?     | parlor
 | in media res                                      | low        | 1     | 3+       | ok?   | storytelling
@@ -38,4 +38,4 @@
 | ninjas ninjas ninjas!                             | high       | 5     | 3        | ?     | roleplaying
 | logic potions                                     | high       | 7     | 2-4      | ?     | board
 
-(end)
+.
