@@ -22,7 +22,7 @@
 # complexity
 
 | game                                              | complexity | players  | good? |
-|---------------------------------------------------|------------|------------------|
+|---------------------------------------------------|------------|----------|-------|
 | deadly education rpg                              | mid        | 2-6, GM  | no?   |
 | doodle adventures                                 | low        | 1-6      | yes?  |
 | doubledore                                        | low        | 2        | no    |
@@ -37,3 +37,5 @@
 | stupid russia                                     | mid        | 10+, GM  | no    |
 | ultimate archwizards vs the dark Lord             | low        | 3-5, GM  | yes   |
 | faux pas                                          | mid        | 3-8      | ?     |
+
+.
