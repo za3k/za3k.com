@@ -17,6 +17,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
+| [bazaar](bazaar)                                                         | 2022-03-04 | card                 | mid        | 4-8          | no       | not yet       | trade with other plays and try to make a profit. neither cooperative nor competitive.
 | [faux pas](faux_pas)                                                     | 2021-04-28 | cooperative          | mid        | 3-8          | no       | maybe         | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of nobility rank.
 | [emperical zendo](emperical_zendo)                                       | 2021-03-19 | board                | mid        | 2-8          | no       | no            | a variant on traditional zendo, where you score points for predicting the rule but never guess the rule outright.
 | [infinity questions](infinity_questions)                                 | 2022-02-25 | party                | low        | 2            | no       | maybe         | a frustrating game of 20 questions
