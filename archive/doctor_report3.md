@@ -8,7 +8,6 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 
 ### Ongoing health issues:
 - Unknown health issue, might involve anxiety or blood circulation?
-- Repeated ankle sprains and injuries in both ankles
 - Developing cataract in right eye (from eye trauma)
 - Hemorrhoids (usually internal, external very rare). internal is doctor's guess
 - High cholesterol
@@ -17,6 +16,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 - Pronating ankles
 - Eye trauma
 - (self-diagnosed) general inflammation, was due to ankles
+- (probably fixed) Repeated ankle sprains and injuries in both ankles
 
 ###Common Questions
 - **Current medications**: Atorvastatin 40mg daily
@@ -89,4 +89,4 @@ All tests, labs etc should be attached.
 - **2021-04-16**: Highland Hospital, first COVID-19 vaccine (Pfizer)
 - **2021-05-07**: Highland Hospital, second COVID-19 vaccine (Pfizer)
 - **2021-12-13**: Walgreens, third COVID-19 vaccine (Pfizer)
-- **2021-12-20**: ~1 month priod of lightheadedness and circulation issues. No heart issues or panic attacks.
+- **2021-12-20**: ~1 month priod of lightheadedness and circulation(?) issues. No heart issues or panic attacks.
