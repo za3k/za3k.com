@@ -16,7 +16,7 @@
 - Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
 - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
 - The wild magic sorcerer's surge table is too short, so the DM will use a 10,000 effect web table or make up an effect.
-- Crafting
+- Magic Items
   - Magic items can be bought in friendly lands
   - Found magic items are not automatically identified after a rest. Players will need to cast Identify, or study any found items in-game. Most will be easy to figure out.
   - Store-bought and player-created items with limited charges (wands, etc) don't recharge, but have 50% more charges (round down). Found items will usually recharge.
@@ -26,11 +26,11 @@
   - Players can craft 25gp of items per day. The daily rate doubles at 6th, 9th, 12th, 15th, and 18th level.
   - Players can craft at most one magical, or a few nonmagical items in a day.
   - For magic items, there is a spellcasting level requirement. 
-    - Common (3rd level), max time 4 days
-    - Uncommon (3rd level), max time 20 days
-    - Rare (6th level), max time 100 days
-    - Very Rare (11th level), max time 500 days
-    - Legendary (17th level), max time 1250 days
+      - Common (3rd level), max time 4 days
+      - Uncommon (3rd level), max time 20 days
+      - Rare (6th level), max time 100 days
+      - Very Rare (11th level), max time 500 days
+      - Legendary (17th level), max time 1250 days
   - For magic items, players must be able to cast any spells mentioned in the item description to make it.
   - For magic items, non-spellcasters of the correct character level can also make +1 to +5 weapons, armors, and ammo.
 
