@@ -54,6 +54,7 @@
 1. If you want to tweak your **background** or make a custom background, the answer is yes for anything in the standard "custom background" options, ask me if you want to do anything else
 1. **Languages**: Standard. Exotic languages like Celestial are allowed.
 1. **Skill proficiencies**: Standard
+1. **Feat**: Characters start with a free feat at 1st level.
 1. Starting **equipment**. Start with up to 50lb of nonmagical equipment, no price limits. Add one common magic item.
 1. Write a **character bio**. Include
   - Why your character is adventuring at all, and why they're adventuring with the party in particular. What is their goal for the next week? The next three months?
