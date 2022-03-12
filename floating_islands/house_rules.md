@@ -10,24 +10,25 @@
 - We ARE NOT using inspiration, healing surges, or hero points. The "Lucky" feat is not allowed.
 - We are using MILESTONE levelling.
 - Skills
-    - Take 10 rule: If there is no time pressure (cooking, searching a room), you can choose to "take 10" and act like the die came up 10 instead of rolling.
-    - Take 20 rule (standard rules): If you have unlimited time and there's no penalty for failure (for example, carving a statue out of wood), you can "take 20" and act like the die came up 20. Your character can does the task carefully and takes much longer.
+    - Taking 10: If there is no time pressure (cooking, searching a room), you can choose to "take 10" and act like the die came up 10 instead of rolling.
+    - Taking 20: If you have unlimited time and there's no penalty for failure (for example, carving a statue out of wood), you can "take 20" and act like the die came up 20. Your character can does the task carefully and takes much longer.
     - If the party is using one approach, they make one roll. The entire party won't roll separate perception checks to look for a secret door. If one person is checking the map for secrets, another is searching the bricks, and a third is interrogating goblins about the location of the vault, they'd make three rolls (one per approach).
-- Generally players are expected to track their own HP, rations, torches, encumbrance, etc
+- Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
 - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
 - The wild magic sorcerer's surge table is too short, so the DM will use a 10,000 effect web table or make up an effect.
+- Players can use downtime to craft 25gp of items per day, as long as they possess the relevant skills, supplies, tools, and any needed workshop. The cost of supplies is half the cost of the finished item. The 25gp per day rate doubles at 6th, 9th, 12th, 15th, and 18th level.
 - Magic Items
   - Magic items can be bought in friendly lands
   - Found magic items are not automatically identified after a rest. Players will need to cast Identify, or study any found items in-game. Most will be easy to figure out.
-  - Players can craft magical (or non-magical) items.
-    - Players can craft 25gp of items per day. For magic items, this doubles at 5th level, 10th level, 15th level, and 20th level.
+  - Players can craft magical items just like non-magical items.
     - Supplies cost is half of the finished product cost.
-    - There is a spellcasting level requirement
-        - Common (3rd level)
-        - Uncommon (3rd level)
-        - Rare (6th level)
-        - Very Rare (11th level)
-        - Legendary (17th level)
+    - There is a spellcasting level requirement. 
+        - Common (3rd level), starting time 4 days
+        - Uncommon (3rd level), starting time 20 days
+        - Rare (6th level), starting time 100 days
+        - Very Rare (11th level), starting time 500 days
+        - Legendary (17th level), starting time 1250 days
+    - Non-spellcasters of the correct character level can also make +1 to +5 weapons, armors, and ammo.
     - Players must be able to cast any spells mentioned in the item description to make it.
   - Store-bought and player-created items with limited charges (wands, etc) don't recharge, but have 50% more charges (round down). Found items will usually recharge.
 
