@@ -16,21 +16,23 @@
 - Generally players are expected to track their own HP, rations, torches, encumbrance, etc.
 - Magic effects may sometimes interact unexpectedly, for example drinking two potions at once, or casting levitate while on a flying broom.
 - The wild magic sorcerer's surge table is too short, so the DM will use a 10,000 effect web table or make up an effect.
-- Players can use downtime to craft 25gp of items per day, as long as they possess the relevant skills, supplies, tools, and any needed workshop. The cost of supplies is half the cost of the finished item. The 25gp per day rate doubles at 6th, 9th, 12th, 15th, and 18th level.
-- Magic Items
+- Crafting
   - Magic items can be bought in friendly lands
   - Found magic items are not automatically identified after a rest. Players will need to cast Identify, or study any found items in-game. Most will be easy to figure out.
-  - Players can craft magical items just like non-magical items.
-    - Supplies cost is half of the finished product cost.
-    - There is a spellcasting level requirement. 
-        - Common (3rd level), starting time 4 days
-        - Uncommon (3rd level), starting time 20 days
-        - Rare (6th level), starting time 100 days
-        - Very Rare (11th level), starting time 500 days
-        - Legendary (17th level), starting time 1250 days
-    - Non-spellcasters of the correct character level can also make +1 to +5 weapons, armors, and ammo.
-    - Players must be able to cast any spells mentioned in the item description to make it.
   - Store-bought and player-created items with limited charges (wands, etc) don't recharge, but have 50% more charges (round down). Found items will usually recharge.
+- Crafting items
+  - Players can use downtime to craft equipment or other items, as long as they possess the relevant skills, supplies, tools, and any needed workshop. For example, they may need alchemical reagents, a blacksmith's forge, a consecrated temple, or a loom.
+  - The cost of supplies is half the cost of the finished item.
+  - Players can craft 25gp of items per day. The daily rate doubles at 6th, 9th, 12th, 15th, and 18th level.
+  - Players can craft at most one magical, or a few nonmagical items in a day.
+  - For magic items, there is a spellcasting level requirement. 
+    - Common (3rd level), max time 4 days
+    - Uncommon (3rd level), max time 20 days
+    - Rare (6th level), max time 100 days
+    - Very Rare (11th level), max time 500 days
+    - Legendary (17th level), max time 1250 days
+  - For magic items, players must be able to cast any spells mentioned in the item description to make it.
+  - For magic items, non-spellcasters of the correct character level can also make +1 to +5 weapons, armors, and ammo.
 
 ## Character Creation
 1. **Once you start rolling dice (attributes, HP, or starting GP), no takebacks**. If you don't like your rolls, tough.
@@ -48,7 +50,7 @@
  - Tasha's Cauldon of Everything. You can use custom lineage.
  - YES: Artificer, Warforged
  - YES: Aarakocra
- - NO: Artillerist, Gunslinger (no gunpowder or guns please)
+ - NO: Artillerist (Artificer subclass), Gunslinger (no gunpowder or guns)
  - NO: Unearthed Arcana
  - Anything else, ask!
 1. If you want to tweak your **background** or make a custom background, the answer is yes for anything in the standard "custom background" options, ask me if you want to do anything else
