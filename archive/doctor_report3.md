@@ -90,3 +90,5 @@ All tests, labs etc should be attached.
 - **2021-05-07**: Highland Hospital, second COVID-19 vaccine (Pfizer)
 - **2021-12-13**: Walgreens, third COVID-19 vaccine (Pfizer)
 - **2021-12-20**: ~1 month priod of lightheadedness and circulation(?) issues. No heart issues or panic attacks.
+- **2022-03-08**: Doctor visit. Blood tests scheduled.
+- **2022-03-15**: Electrolytes normal. HIV negative, Hep C negative. Lipids normal but cholesterol high. Doctor recommends lifestyle changes by phone.

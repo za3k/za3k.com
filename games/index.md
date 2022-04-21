@@ -33,3 +33,9 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 | [stupid russia](stupid_russia)                                           | 2017-10-29 | party, competitive   | mid-high   | 10+, plus GM | yes      | no            | spy directors make deals with each other, trying to report more agents than anyone else, without getting their own agents executed.
 | [colony on the moon](colony)                                             | 2016-07-05 | computer (minecraft) | high       | 1+           | alpha    | no            | a minecraft modpack. Based around providing reductionist components and having the player do their own automation.
 | [volcano](https://github.com/za3k/volcano)                               | 2013-02-05 | computer             | low-med    | 1            | beta     | no            | an ASCII roguelike I made in college. Not much fun.
+
+## games by others
+| game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
+|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
+| [lexicon](lexicon)                                                       | 2003-11-20 | storytelling         | low        | 2+           | yes      | yes           | players collaboratively build a world by writing an encyclopedia about it |
+
