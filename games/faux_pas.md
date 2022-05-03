@@ -2,46 +2,60 @@
 
 **playtesting: none**
 
-faux pas is a cooperative "hidden role" type game for 3-8 players with a twist: rolls are completely visible. in fact, everyone knows your role... EXCEPT for you.
+Probably needs at least 4 players.
 
-each player is an important foreigner milling around in the reception room. everyone knows everyone else's title (role). but because you a foreigner and the titles are strange to you, you are a little unsure how you rank against the others. the goal of the game is for everyone to make small talk, and then enter the dining room in descending order of rank, avoiding a social faux pas.
+written by zachary "za3k" vance on 2021-04-28. Version [1](/games/faux_pas1) 2
 
-there are a number of ways to commit a faux pas, not just entering the wrong order. if you commit a faux pas, the other players will let you know, and the game is over in a loss for everyone.
+## Supplies
+Part of a deck of cards.
+ - One each black 2, 3, 4, 5, 6, 7, 8, 9, 10.
+ - One each red A, J, Q, K. The red jack should be replaced with a red joker if available.
 
-at the start of the game, draw a title card from a playing deck. hold it face-out against your forehead. you can look at everyone elses' cards, but don't look at your own.
+## The Teams
+Each card is one person (role). You will be assigned a card in a second.
 
-on your turn, you may do one of the following. 
-1. Make smalltalk with another player. Smalltalk can be anything, but shouldn't include useful factual information. The player you talk to may either smile politely without talking, or respond briefly.
-2. Bow to another player. If the other player is of the same or lower rank, you have commited a faux pas and the game is over.
-3. Make silent eye contact with another player, who can choose to meet your eyes or not.
-4. Ask another player a question. The player must use an action to answer, which they can do immediately or later.
-5. Answer a question asked by another player previously. In general, don't lie, but you are allowed to dodge the question.
-6. (One per game) Volunteer one piece of factual information. This is not addressed to anyone in particular.
-7. Stand up, signaling the heralds to announce your name and title as you enter the dining room. After you enter, look at your card. If you are of lower rank than anyone in the reception area, you committed a faux pas. once you enter the dining room, you are out of play and sit around.
+Black cards represent "our sort of people".
+- Like any good members of high society, they have no interesting qualities whatsoever, and are identical except for rank.
+- Society plays as a team. If any black player loses, the black team loses.
+- The goal of the black team is to file into the ballroom, in order, from highest rank (card) to lowest.
 
-there is no turn order. whoever wishes to can take a turn next, by doing so.
+Red cards represent "not our sort of people".
+- Each red card is unique (see below).
+- The red team wins together, but loses separately. If a red player loses, the rest of the red team plays on.
+- The goal of the red team is simply to make the black team lose.
 
-for a goofier game, everyone can adopt personas. however, try not to give away information by adding extra details in smalltalk or while asking questions.
+## The Setting
+Draw a card at random WITHOUT LOOKING AT IT. Hold it to your head. This is your identity. Everyone knows it except for you.
 
-for an easier game, allow one faux pas (but not two). for yet an easier game, allow two, or three.
+There may be zero red cards, or multiple red cards.
 
-for a harder game, you can't volunteer information. for an even harder game, each action may only be done once, per player, per game. I recommend keeping track with six cards per player. for the hardest game, actions are dealt randomly--you can only perform an action by playing it, and your hand is kept secret from other players.
+You are at a high society ball, and everyone is unsure how they rank. Is the Ambassador of Korea announced before or after the Viscount of Andorra? Your goal is to politely mingle with other guests eating hors d'oeuvre in the anteroom, then enter the ballroom in correct order of rank.
 
-written by zachary "za3k" vance on 2021-04-28.
+## Entering the Ballroom
+At any point, a player can announce, "I enter the ballroom.". They then start counting: 1, 2, 3, 4, 5, 6. If they reach 6, the black team loses.
 
-### Roles
+Instead, another player should quickly announce "I too enter the ballroom", and begin counting, and so on.
 
-| Rank | Name          | Rules |
-|------|---------------|-------|
-| A    | Emperor       | Your rank is so high that no one is permitted to talk to you (even to answer questions), or make eye contact with you.
-| 2    | Pope          | You are infallable. Everyone must agree with whatever you say, even if they are not sure or know you are wrong.
-| 3    | Cardinal      | Everyone else must answer any questions immediately, and respond to your smalltalk.
-| 4    | Duke          | Everyone else must answer any questions immediately, and respond to your smalltalk.
-| 5    | Inquisitor    | If asked a question by the Inquisitor, you must answer, but avoid giving a factual yes or no answer. You do not need to answer immediately.
-| 6    | Korean        | You cannot make eye contact with the Korean ambassador, but anyone can bow to the Korean ambassador and they can bow to anyone.
-| 7    | Baronet       | 
-| 9    | Duke In Exile | Everyone must pretend as though you are a Duke, immediately answering any questions and responding to your smalltalk. They also answer all questions as though you are really a rank 4 Duke, unless you specifically ask about being in exile.
-| 10   | Untouchable   | Your rank is so low that no one is permitted to talk to you, or make eye contact with you.
-| J    | Viscount      | No one is really sure where you rank, you can enter in any order. But, if there are both a Viscount and a Vice-Count (two jacks), you must enter TOGETHER, not one after another. You must rush forward and join the other Viscount before they look at their card.
-| Q    | Queen Dowager | Everyone may bow to you, and you may not bow to anyone. No one is really sure where you rank, so you can enter in any order.
-| K    | False Prophet | No one is allowed to bow to you or make small talk with you. If you enter the room at all, it is a faux pas. You can lie to the False Prophet if they ask you a question. if the False Prophet commits a faux pas (other than entering the dining room), they are removed from the game but play continues, and this is the only way to complete the game.
+After you reach 6, or if a player enters after you, lay down your card and look at it.
+
+Once everyone has entered the room, the game is complete, and the black team wins.
+
+## Faux Pas
+
+If any player commits a faux pas, they lose and are out of the game. They look at their card. If they are a black player, their team has lost. If they are a red player, the game most likely continues.
+
+When a faux pas is committed, announce it to the group. Once everyone agrees, then the player looks at their card.
+
+- Entering the ballroom before a player of higher rank is a faux pas. This includes red players.
+- Mentioning any number or card name is a faux pas (rules questions are fine)
+
+## The Red Cards
+- If the royal (K) commits a faux pas, the black team loses. Also, they rank above a 10, so entering before the royal is a faux pas.
+- If the snubbed lady (Q) enters the ballroom at all, they win and black loses. If they are the very last player remaining outside the ballroom, the black team shuts the door on them, leaving them outside.
+- If the laughingstock (J) declares who they are, they win and black loses. The laughingstock is wild and can enter the ballroom in any position.
+- If the false prophet (A) enters anywhere in the middle, black loses. They must enter either before all black cards, or after all black cards.
+
+## Clarifications
+- If someone enters before the false prophet (A), snubbed lady (Q), or laughingstock (J) this is not a faux pas.
+- If the royal (K) and the false prophet (A) are both in play, the false prophet must enter first or last, or black loses. The royal may enter second after the false prophet.
+- If the snubbed lady (Q) enters before the royal (K), this is a faux pas. The snubbed lady drops out of the round, but the ballroom entrance immediately continues.

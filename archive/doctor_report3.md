@@ -90,5 +90,14 @@ All tests, labs etc should be attached.
 - **2021-05-07**: Highland Hospital, second COVID-19 vaccine (Pfizer)
 - **2021-12-13**: Walgreens, third COVID-19 vaccine (Pfizer)
 - **2021-12-20**: ~1 month priod of lightheadedness and circulation(?) issues. No heart issues or panic attacks.
-- **2022-03-08**: Doctor visit. Blood tests scheduled.
-- **2022-03-15**: Electrolytes normal. HIV negative, Hep C negative. Lipids normal but cholesterol high. Doctor recommends lifestyle changes by phone.
+- **2022-03-08**: Mercy doctor visit with Dr. Hernandez. Blood tests scheduled. Diagnosed anxiety, minor depression.
+    blood pressure 118/80
+    pulse 123
+    respiration 18
+- **2022-03-15**: HIV negative (attached)
+- **2022-03-15**: Hep C negative (attached)
+- **2022-03-15**: Comprehensive metabolic - electrolytes fairly normal (attached)
+- **2022-03-15**: Lipids (attached) - cholesterol high. Doctor recommends lifestyle changes by phone.
+- **2022-04-19**: Mercy doctor visit with Dr. Hernandez, followup. Anxiety and depression improved. Referral to gastro, podiatrist. Doctor re-prescribed atorvastatin 40mg daily based on lipid blood test.
+    blood pressure 128/82
+    pulse 93
