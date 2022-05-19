@@ -51,11 +51,11 @@ When a faux pas is committed, announce it to the group. Once everyone agrees, th
 
 ## The Red Cards
 - If the royal (K) commits a faux pas, the black team loses. Also, they rank above a 10, so entering before the royal is a faux pas.
-- If the snubbed lady (Q) enters the ballroom at all, they win and black loses. If they are the very last player remaining outside the ballroom, the black team shuts the door on them, leaving them outside.
+- If the unwelcome guest (Q) enters the ballroom at all, they win and black loses. If they are the very last player remaining outside the ballroom, the black team shuts the door on them, leaving them outside.
 - If the laughingstock (J) declares who they are, they win and black loses. The laughingstock is wild and can enter the ballroom in any position.
 - If the false prophet (A) enters anywhere in the middle, black loses. They must enter either before all black cards, or after all black cards.
 
 ## Clarifications
-- If someone enters before the false prophet (A), snubbed lady (Q), or laughingstock (J) this is not a faux pas.
+- If someone enters before the false prophet (A), unwelcome guest (Q), or laughingstock (J) this is not a faux pas.
 - If the royal (K) and the false prophet (A) are both in play, the false prophet must enter first or last, or black loses. The royal may enter second after the false prophet.
-- If the snubbed lady (Q) enters before the royal (K), this is a faux pas. The snubbed lady drops out of the round, but the ballroom entrance immediately continues.
+- If the unwelcome guest (Q) enters before the royal (K), this is a faux pas. The unwelcome guest drops out of the round, but the ballroom entrance immediately continues.

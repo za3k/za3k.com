@@ -48,7 +48,7 @@ written by zachary "za3k" vance on 2022-03-04.
 
 ## Trades
 
-- Trades are always "I will give you ... cards for ... cards". For example, "I will give you this jack for any two spades". 
+- Trades are always an offer of cards for cards. For example, "I will give you this jack for any two spades", or "I will give you two queens for a red jack".
 - You can't give or take cards in exchange for nothing. Cards are always traded. The trade doesn't have to be even--trading 2 cards for 3 cards is fine.
 - You can trade face-down cards. Any promises you make about them must be honest. If you offer to trade something you don't have, the trade is refunded.
 - Promises about things other than cards ("I will help you later..." and so on) are allowable, but there's nothing in the rules that says it has to happen. Only card exchanges are covered by the rules.
