@@ -6,8 +6,9 @@
 - We ARE using the optional flanking rule. If two PCs (or enemies) are directly opposite an opponent in melee, they get advantage on melee to-hit rolls.
 - We ARE using the optional feat rule.
 - We ARE allowing multiclassing. (But limit of 2 classes.)
+- We ARE using inspiration (experimentally).
 - We ARE NOT using the optional cleave rule.
-- We ARE NOT using inspiration, healing surges, or hero points. The "Lucky" feat is not allowed.
+- We ARE NOT using healing surges or hero points. The "Lucky" feat is not allowed.
 - We are using MILESTONE levelling.
 - Skills
     - Taking 10: If there is no time pressure (cooking, searching a room), you can choose to "take 10" and act like the die came up 10 instead of rolling.
