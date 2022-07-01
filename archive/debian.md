@@ -1,3 +1,4 @@
+[za3k](/) > [archive](/archive/) > debian releases in plain english
 
 | Debian codeame | Status | Version | Stable release           | LTS support until
 |----------------|--------|---------|--------------------------|
@@ -9,7 +10,6 @@
 | bullseye       | stable | 11      | 2021-08-14 to ???        | 2026-06-30 (planned)
 | bookworm       | testing| 12      | none yet                 | none yet
 | sid            | unstable |
-
 
 Sources: https://wiki.debian.org/DebianReleases
          https://wiki.debian.org/LTS
