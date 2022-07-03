@@ -15,21 +15,20 @@ I'm going to walk you through retirement math in today's first article, because 
 
 Finances innately need math. Financial rules of thumb are bullshit, and only numbers actually work.
 
-*Most* finances, hopefully including the rest of these articles, only need addition, subtraction, and maybe multiplication. This article, and this one alone, we're doing interest calculations (division and multiplication). That means, you invest $100K per year, at 4% interest, you need to know you make $4K every year. You can use a calculator to follow along if you want, you only need the answers, not any deep grasp. But you should check if what I'm saying is true. Never take financial advice on authority or faith. The footnotes have the *really* advanced math for the real skeptics, but you can skip them if you're not a math person.
+*Most* finances, hopefully including the rest of these articles, only need addition, subtraction, and maybe multiplication. This article, and this one alone, we're doing interest calculations (division and multiplication). That means, you invest $100K per year, at 4% interest, you need to know you make $4K every year. You can use a calculator to follow along if you want, you only need the answers, not any deep grasp. But you should check if what I'm saying is true. Never take financial advice on authority or faith. The footnotes have the *really* advanced math for the really advanced skeptics, but you can skip them if you're not a math person.
 
 ### The math
 
 - Suppose you make $70K a year, and you spend $20K a year. That means you're saving $50K per year. (These numbers were my actual plan A, although it didn't work out that way.)
 
 - After 10 years, you will have saved up $500K.
-- Assuming 4%[^1] stock market returns on that $500K, you are now making $20K/year.
+- Assuming 4%[^1] stock market returns on that $500K, you are now making $20K/year from stock market investments.
 - This means that you can now, in theory, stop working forever and live on your investments.
-- Not retire for 10 years, not retire for 20 years--*forever*. If you live to 10,000[^2] you'll be fine. 
-- (As long as the stock market makes 4% each year for 10,000 years.)
+- Not retire for 10 years, not retire for 20 years--*forever*. If you live to 10,000[^2] you'll be fine, as long as the stock market makes about 4%.
 
 That's it, that was the basic math. Now you can retire in 10 years, no matter how old you are. Just make $70K every year, spend $20K, and wait. And don't have the stock market collapse.
 
-Well, there is a caveat, you need an additional safety margin, even if the stock market doesn't collapse. You probably want to retire in 12 or 15 years, at 35. Here's why:
+Well, there is a caveat. You need an additional safety margin, even if the stock market doesn't collapse. You probably want to retire in 12 or 15 years, at 35. Here's why:
 
 - Imagine your balance was "only" 400K, rather than 500K. Now you make 16K investment income each year. You still spend $20K each year. So you're now losing $4K per year! 25 years later your balance hits 300K, and you're losing $8k per year. It "snowballs" down exponentially until your savings hit zero, although fairly slowly at first (40 years to go broke).
 - Imagine your balance was all the way up at $600K. You make $24K investment income each year. You still spend $20K each year. So now you're making $4K per year. 25 years later your balance hits 700K, and you're making $8K per year. It "snowballs" up exponentially instead, and you just make more and more money indefinitely. Also slowly at first.
@@ -42,7 +41,7 @@ To summarize, if you live on $20K/year, and work at $70K/year, you can retire in
 Well, what if you're not making $70K and spending $20K? I'll walk you through the general formula. You need to know three numbers
 
 - Your yearly income (**I**)
-- Your yearly expenses (**E**). *And*, these need to stay the same after you retire!)
+- Your yearly expenses (**E**). *And*, these need to stay the same after you retire!
 - How much you expect to make on the stock market, which I'm just going to set for you, at 4%[^1] yearly. Sometimes you'll see 0.04, sometimes 25[^3].
 
 The rough[^4] estimate is that you can retire in: **25 * expenses / (income - expenses)** = 25 * 20K / (70K per year - 20K per year) = 500K / 50K per year = 10 years. Substitute your own numbers to find out your own situation.[^5]
@@ -62,11 +61,11 @@ In practice of course people do spend a lot of what they make and then retire. T
 If you're retiring at 30, almost **none** of the above apply to you. You need to get by on savings, no external support. You don't get a 55% mortality discount on retirement, you get a measly 15% discount. You probably don't have much in your standard retirement account, and even if you do, you can't access it for another 35 years. You don't get medicare (though you *may* get medicaid). You don't get social security. Expect no social support. If people see a healthy 50-year old go broke from poor retirement planning, they should tell you to get a job. I would.
 
 ## Retiring early
-Returning the the topic of the retirement formula, we can see that there are exactly two numbers that affect you. How much you save (income minus expenses), and how much you spend (expenses). Making a lot of money is good. But not spending money is at least as important. Imagine you made a lot, say six figures ($100K) but spent $50K per year. It would take you 25 years to retire. Not bad! What if you wanted to retire faster? If you spend $25K per year instead, you can retire in 8.3 years. If you make $200K instead, you can retire in 8.3 years. Both are equally good. You can halve your expenses, or double your savings. They have the same effect.[^9]
+Returning the the topic of the retirement formula, we can see that there are exactly two numbers that affect you. How much you make (income), and how much you spend (expenses). Making a lot of money is good. But not spending money is at least as important. Imagine you made a lot, say six figures ($100K) but spent $50K per year. It would take you 25 years to retire. Not bad! What if you wanted to retire faster? If you spend $25K per year instead, you can retire in 8.3 years. If you make $200K instead, you can retire in 8.3 years. Both are equally good. You can halve your expenses, or double your income. They have the same effect.[^9][^10][^11]
 
-To me, that's 25-8.3=16.7 years of my life. If I make twice as much, I can get 16 extra years to do anything I want, instead of working a job I kind of tolerate. If I spend half as much (remember, for my whole life, not just until I retire!) I get 16 extra years. That's a *huge* chunk of time. How much would you pay to live 16 extra years? And I get those years now, when I'm healthy and energetic. Prime years. I would do a lot of things to live 16 extra years however I want. Changing my job or spending is just a no-brainer. And the reality is that for most people, it's more than 16 years--it's going from retiring at 65, to retiring at 40 or 30. 25 or 35 years, that's a massive chunk of your life.
+To me, that's 16 years of my life I get back. If I make twice as much, I can get 16 extra years to do anything I want, instead of working a job I kind of tolerate. If I spend half as much (remember, for my whole life, not just until I retire!) I get 16 extra years. That's a *huge* chunk of time. How much would you pay to live 16 extra years? And I get those years now, when I'm healthy and energetic. Prime years. I would do a lot of things[^12] to live 16 extra years however I want. Changing my job or spending is just a no-brainer. And the reality is that for most people, it's more than 16 years--it's going from retiring at 65, to retiring at 40 or 30. 25 or 35 years, that's a massive chunk of your life.
 
-Of course, this assumes the value of time when you're at work is next to nothing compared to free time. That's actually how I feel[^10]. If you don't, if you think it's only a bit better, then it's not as amazing. But basically, do the math. 15 years is a HUGE chunk. Even if it's just 10% better, having every day be 10% better for 15 years is still a huge impact.
+Of course, this assumes the value of time when you're at work is next to nothing compared to free time. That's actually how I feel[^13]. If you don't, if you think it's only a bit better, then it's not as amazing. But basically, do the math. 15 years is a HUGE chunk. Even if it's just 10% better, having every day be 10% better for 15 years is still a huge impact.
 
 It could be someday I'll change my mind, of course. I could go back to work. I could decide I don't want to live on $20K into my 50s, or have kids and need to change my plans. But there's nothing really irreversible involved. You're just saving up some extra money and not spending as much. No big deal to have some extra cash if you go back to work, right?
 
@@ -98,6 +97,9 @@ How to make more money really depends on your field of work, and to some extent 
   That's surprising! We might expect that with twice the money, you could retire for 30 years, but it's actually not true--you can retire indefinitely. Focusing on this magic cutoff point was, to me, a huge deal.
 [^7]: Not, you know, that people *plan* to die at 80. They don't circle a date in their calendar. But you have to know how long you'll be retired to plan financially. Actually, living to 100 can turn into a financial problem! This is part of how insurance [got started](https://en.wikipedia.org/wiki/Tontine). 
 [^8]: The equation here is 25 * E * (1 - e^(-0.04 * years))
-[^9]: The effect is not anything easy and constant. It doesn't remove the same number of years, or the same fraction of years, each time.
-[^10]: I'm the kind of person who just fundamentally dislikes being told what to work on what someone else cares about, for 8 hours a day, 5 days a week. Why would I want that? I got my own shit I want to do. I've never had a job I liked even close to the weekend afterwards[^11]. I have felt passionately about projects! I've felt like they're my life's purpose. I've been paid to do work. But so far, I've just never found any overlap between my passions and paid work. I wanted to retire early exactly so I can spend my life on what I'm passionate about.
-[^11]: If you're considering whether to retire, take a month off. Then take a year off. If you're going stir-crazy after either, maybe don't retire. If after a year, you think "ugh, I have to go back to work?" both before and after your first month back? Start working out the math. That said, if I had the option to work 6 months out of every year, I might take it.
+[^9]: I would have expected the relevant numbers here to be savings (income minus expenses) and expenses, but I was wrong. 
+[^10]: The effect is not anything easy and constant. It doesn't remove the same number of years, or the same fraction of years, each time. Too bad, huh?
+[^11]: Actually, this is a small lie. We're assuming that you don't make interest before you retire again. I haven't done the math if you do.
+[^12]: Still not exercise, though. Just you know, eating boogers.
+[^13]: I'm the kind of person who just fundamentally dislikes being told what to work on what someone else cares about, for 8 hours a day, 5 days a week. Why would I want that? I got my own shit I want to do. I've never had a job I liked even close to the weekend afterwards[^14]. I have felt passionately about projects! I've felt like they're my life's purpose. I've been paid to do work. But so far, I've just never found any overlap between my passions and paid work. I wanted to retire early exactly so I can spend my life on what I'm passionate about.
+[^14]: If you're considering whether to retire, take a month off. Then take a year off. If you're going stir-crazy after either, maybe don't retire. If after a year, you think "ugh, I have to go back to work?" both before and after your first month back? Start working out the math. That said, if I had the option to work 6 months out of every year, I would consider it.
