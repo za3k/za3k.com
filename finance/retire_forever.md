@@ -17,31 +17,36 @@ Finances innately need math. Most finances only need addition and subtraction. T
 
 ### The math
 - Suppose you make $70K a year, and you spend $20K a year. That means you're saving $50K per year. (These numbers were my actual plan A. In San Francisco it was more like $25K, and my co-workers eyes still bugged out at my low rent.)
+
 - After 10 years, you will have saved up $500K.
 - Assuming 4%[^1] stock market returns on that $500K, you are now making $20K/year.
 - This means that you can now, in theory, stop working and live on your investments.
 - Not retire for 10 years, not retire for 20 years--*forever*. If you live to 10,000[^2] you'll be fine. 
 - (As long as the stock market makes 4% each year for 10,000 years.)
+
 That's it, that was the basic math. Now you can retire in 10 years, no matter how old you are. Just make $70K every year, spend $20K, and wait. And don't have the stock market collapse.
 
 Well, there is a caveat, you need what engineers call a "safety factor", even if the stock market doesn't collapse. You probably want to retire in 12 or 15 years, at 35. Here's why.
+
 - Imagine your balance was "only" 400K. Now you make 16K investment income each year. You still spend $20K each year. So you're now losing $4K per year! 25 years later your balance hits 300K, and you're losing $8k per year. It "snowballs" down exponentially until your savings hit zero, although fairly slowly at first (40 years to go broke).
 - Imagine your balance was all the way up at $600K. You make $24K investment income each year. You still spend $20K each year. So now you're making $4K per year. 25 years later your balance hits 700K, and you're making $8K per year. It "snowballs" up exponentially instead, and you just make more and more money indefinitely. Also slowly at first.
 - So there's this "magic" line at 500K. If you're above $500K, you expect your savings to grow forever with no work. If you're below $500K, you expect it to shrink forever unless you get a job.
 - The 4% per year from the stock market is an average. Stocks don't actually make 4% per year--they make 20%, 1%, lose money, whatever. So in practice, your bank balance is going up and down the whole time. You want to have more like $600K so you don't start "snowballing" down if the stocks are doing a little badly for a year or two.
 - In fact, in the "snowballing up" case, if you start making $25K, you can spend $22K now and still make money. The rich literally get richer with no work. Another reason to aim a little high--you want to enjoy retirement!
+
 To summarize, if you live on $20K/year, and work at $70K/year, you can retire indefinitely in theory, after 10 years (maybe at 32). In practice, add a safety margin against snowballing (maybe 34 or 37).
 
 Well, what if you're not making $70K and spending $20K? I'll walk you through the general formula. You need to know three numbers
-- Your yearly income **I**
-- Your yearly expenses **E** (AND, these need to stay the same after you retire!)
+
+- Your yearly income (**I**)
+- Your yearly expenses (**E**). *And*, these need to stay the same after you retire!)
 - How much you expect to make on the stock market, which I'm just going to set for you, at 4%[^1] yearly. Sometimes you'll see 0.04, sometimes 25[^3].
 
 The rough[^4] estimate is that you can retire in: **25 * expenses / (income - expenses)** = 25 * 20K / (70K per year - 20K per year) = 500K / 50K per year = 10 years. Substitute your own numbers to find out your own situation.[^5]
 
-Now let's say you make $50K/year, and spend $40K/year. The same math says it will take you (40K/4%)/(50K-40K)=1,000K/10K=100 years, or 150 years to be safe. You will never be able to retire indefinitely; you'll die first. That is a huge difference between those two examples! We'll talk about that in a second. But first, what gives? That's a pretty typical person, right? Why is everyone not starving on the street at 80?
+Now let's say you make $50K/year, and spend $40K/year. The same math says it will take you 25 * 40K / (50K-40K) = 1,000K / 10K = 100 years to retire. You will never be able to retire indefinitely; you'll die first. That is a huge difference between those two examples! We'll talk about that in a second, and how to best reduce the number of years. But first, what gives? That's a pretty typical person, right? Why is everyone not starving on the street at 80?
 
-### Wait, what?
+### Normal retirement
 In practice of course people do spend a lot of what they make and then retire. There are many reasons. 
 - The formulas assume you're going to retire indefinitely. Actually, you only need enough money until you die. It's a 2.2X difference[^6], if you retire at 65. That's a 55% discount for being mortal.
 - People just retire. They're going to, frankly whether they can afford it or not. Some people retire at 65 because they're told they can or should, or they feel they deserve it. Even past that point, others can't work starting at a certain age.
@@ -53,7 +58,7 @@ In practice of course people do spend a lot of what they make and then retire. T
 
 If you're retiring at 30, almost **none** of the above apply to you. You need to get by on savings, no external support. You don't get a 55% mortality discount on retirement, you get a 15% discount. You probably don't have much in your standard retirement account, and even if you do, you can't access it for another 35 years. You don't get medicare (though you *may* get medicaid). You don't get social security. Expect no social support. If people see a healthy 50-year old go broke from poor retirement planning, they should tell you to get a job. I would.
 
-## This is important
+## Retiring early
 Returning the the topic of the retirement formula, we can see that there are exactly two numbers that affect you. How much you save (income minus expenses), and how much you spend (expenses). Making a lot of money is good. But not spending money is at least as important. Imagine you made a lot, say six figures ($100K) but spent $50K per year. It would take you 25 years to retire. Not bad! What if you wanted to retire faster? If you spend $25K per year instead, you can retire in 8.3 years. If you make $200K instead, you can retire in 8.3 years. Both are equally good. You can halve your expenses, or double your savings. They have the same effect.[^9]
 
 To me, that's 25-8.3=16.7 years of my life. If I make twice as much, I can get 16 extra years to do anything I want, instead of working a job I kind of tolerate. If I spend half as much (remember, for my whole life, not just until I retire!) I get 16 extra years. That's a HUGE deal. And I get those years now, when I'm healthy and energetic. Prime years. I would do a lot of things to live 16 extra years however I want. Changing my job or spending is just a no-brainer. And the reality is that for most people, it's more than 16 years--it's going from retiring at 65, to retiring at 40 or 30. 25 or 35 years, that's a massive chunk of your life.
