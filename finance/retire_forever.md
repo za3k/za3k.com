@@ -11,12 +11,14 @@ There's a good chance you're imagining you need to make six figures a year, spen
 
 No, not everyone can retire early. But many more people could if they changed their habits than realize it.
 
+Once you read the article, you might think "well, I don't really want to be retired at 30 or 40". At least not with the sacrifices it requires. That's fine, you know what you want. But I'll still recommend the rest of the articles, because mostly they are 80% or 90% just about normal stuff like how to save money. I just go a little farther than most people.
+
 I'm going to walk you through the math in today's first article, because until you see the math, you will think the rest of my advice is insane.
 
 Finances innately need math. Most finances only need addition and subtraction. This article, and this one alone, we're doing math past 4th grade -- interest calculations. That means, you invest $100K per year, at 4% interest, you need to know you make $4K every year. You can use a calculator to follow along if you want, you only need the answers, not any deep grasp. But you should actually follow along. Never take financial advice on faith. The footnotes have the advanced math for the real skeptics, but you can skip them if you're not a math person.
 
 ### The math
-- Suppose you make $70K a year, and you spend $20K a year. That means you're saving $50K per year. (These numbers were my actual plan A. In San Francisco it was more like $25K, and my co-workers eyes still bugged out at my low rent.)
+- Suppose you make $70K a year, and you spend $20K a year. That means you're saving $50K per year. (These numbers were my actual plan A. In San Francisco it was more like $25K.)
 
 - After 10 years, you will have saved up $500K.
 - Assuming 4%[^1] stock market returns on that $500K, you are now making $20K/year.
@@ -61,15 +63,17 @@ If you're retiring at 30, almost **none** of the above apply to you. You need to
 ## Retiring early
 Returning the the topic of the retirement formula, we can see that there are exactly two numbers that affect you. How much you save (income minus expenses), and how much you spend (expenses). Making a lot of money is good. But not spending money is at least as important. Imagine you made a lot, say six figures ($100K) but spent $50K per year. It would take you 25 years to retire. Not bad! What if you wanted to retire faster? If you spend $25K per year instead, you can retire in 8.3 years. If you make $200K instead, you can retire in 8.3 years. Both are equally good. You can halve your expenses, or double your savings. They have the same effect.[^9]
 
-To me, that's 25-8.3=16.7 years of my life. If I make twice as much, I can get 16 extra years to do anything I want, instead of working a job I kind of tolerate. If I spend half as much (remember, for my whole life, not just until I retire!) I get 16 extra years. That's a HUGE deal. And I get those years now, when I'm healthy and energetic. Prime years. I would do a lot of things to live 16 extra years however I want. Changing my job or spending is just a no-brainer. And the reality is that for most people, it's more than 16 years--it's going from retiring at 65, to retiring at 40 or 30. 25 or 35 years, that's a massive chunk of your life.
+To me, that's 25-8.3=16.7 years of my life. If I make twice as much, I can get 16 extra years to do anything I want, instead of working a job I kind of tolerate. If I spend half as much (remember, for my whole life, not just until I retire!) I get 16 extra years. That's a *huge* chunk of time. How much would you pay to live 16 extra years? And I get those years now, when I'm healthy and energetic. Prime years. I would do a lot of things to live 16 extra years however I want. Changing my job or spending is just a no-brainer. And the reality is that for most people, it's more than 16 years--it's going from retiring at 65, to retiring at 40 or 30. 25 or 35 years, that's a massive chunk of your life.
 
-Personally, I have never had a job I liked better than not having a job. And I've had some damn good jobs, frankly! I don't think I'll suddenly find something better. It's me, not the jobs. I am the kind of person who just fundamentally, dislikes being told what to do by someone else, for 8 hours a day, 5 days a week. Why would I want that? I got my own shit I want to do.
+Of course, this assumes the value of time when you're at work is next to nothing compared to free time. That's actually how I feel. I'm the kind of person who just fundamentally, dislikes being told what to do by someone else, for 8 hours a day, 5 days a week. Why would I want that? I got my own shit I want to do. I'ver had a job I liked even close to the weekend afterwards. I've taken a month off, and a year off[^9]. At the end my reaction was always "ugh, I have to work again?". I have felt passionately about projects, and felt like they're my life's goal. I've been paid to do work. But so far, I've just never found any overlap. I wanted to retire early exactly so I can spend my life on what I'm passionate about.
 
 It could be someday I'll change my mind, of course. I could go back to work. I could decide I don't want to live on $20K into my 50s, or have kids and need to change my plans. But there's nothing really irreversible involved. You're just saving up some extra money and not spending as much. No big deal to have some extra cash if you go back to work, right?
 
-Anyway, now you've heard why I think it's really important to spend half as much, or save twice as much. Way more important than you might have thought without the math.
+Now you've heard why I think it's really important to spend half as much, or save twice as much. Because it can get you 15 or 25 or 35 years (or 8 hours a day of them!). Way more important than you might have thought without the math.
 
-For most people, finding a job that pays twice as much is hard. Spending half as much is also hard. Which is easier depends on your situation. For most people, I would bet spending half as much is a little easier. It's certainly more general--what saves one person money, will save another person money. So it's easier to teach. Most of the rest of the articles will focus on money-saving tips and how to keep track of your money.
+For most people, finding a job that pays twice as much is very hard. Spending half as much is also very hard. Which is easier depends on your situation. 
+
+How to make more money really depends on your field of work, and to some extent where you live. On the other hand, people generally save money the same way--everyone has the same basic expenses. So I'm going to focus on teaching you how to save money in later articles. That doesn't mean it's a better plan. It's just the one I can teach.
 
 [^1]: This is very conservative. Since it's founding in 1957, the S&P 500 on average made 7% yearly over inflation.
 [^2]: Which I am 100% in favor of. Get cracking on that science.
@@ -90,6 +94,7 @@ For most people, finding a job that pays twice as much is hard. Spending half as
     -If you plan to retire at 30 and die at 80, you need 50 years of savings. That would be $2000K ignoring interest, but it's actually $864K.
     -If you plan to retire at any age and live forever[^2], you need infinity years of savings. That would be $infinity dollars (!) ignoring interest, but it's actually $1,000K.
   That's surprising! We might expect that with twice the money, you could retire for 30 years, but it's actually not true--you can retire indefinitely. Focusing on this magic cutoff point was, to me, a huge deal.
-[^7]: Not, you know, that people PLAN to die at 80. They don't circle a date in their calendar. But you have to know how long you'll be retired to plan financially. Actually, living to 100 can turn into a financial problem! This is part of how insurance [got started](https://en.wikipedia.org/wiki/Tontine). 
-[^8]: The equation here is $1,000K * (1- e^(-0.04 * years)). $1000K is the number from the "rough" formula.
+[^7]: Not, you know, that people *plan* to die at 80. They don't circle a date in their calendar. But you have to know how long you'll be retired to plan financially. Actually, living to 100 can turn into a financial problem! This is part of how insurance [got started](https://en.wikipedia.org/wiki/Tontine). 
+[^8]: The equation here is 25 * E * (1 - e^(-0.04 * years))
 [^9]: The effect is not anything easy and constant. It doesn't remove the same number of years, or the same fraction of years, each time.
+[^10]: I recommend doing this if you want to check whether you'd enjoy retired life. If you're going stir-crazy after a year, maybe don't retire.
