@@ -6,6 +6,7 @@ I retired at 31, which is pretty unusual. And I get asked about it a fair deal (
  - I made a bunch of money
  - I don't spend much
  - Math
+
 There's a good chance you're imagining you need to make six figures a year, spend about what you are already minus the frills, and basic subtraction means you'll have enough to live on until you're dead. All three are wrong. 
 
 No, not everyone can retire early. But many more people could if they changed their habits than realize it.
@@ -14,7 +15,7 @@ I'm going to walk you through the math in today's first article, because until y
 
 Finances innately need math. Most finances only need addition and subtraction. This article, and this one alone, we're doing math past 4th grade -- interest calculations. That means, you invest $100K per year, at 4% interest, you need to know you make $4K every year. You can use a calculator to follow along if you want, you only need the answers, not any deep grasp. But you should actually follow along. Never take financial advice on faith. The footnotes have the advanced math for the real skeptics, but you can skip them if you're not a math person.
 
-OK, the math!
+### The math
 - Suppose you make $70K a year, and you spend $20K a year. That means you're saving $50K per year. (These numbers were my actual plan A. In San Francisco it was more like $25K, and my co-workers eyes still bugged out at my low rent.)
 - After 10 years, you will have saved up $500K.
 - Assuming 4%[^1] stock market returns on that $500K, you are now making $20K/year.
@@ -40,6 +41,7 @@ The rough[^4] estimate is that you can retire in: **25 * expenses / (income - ex
 
 Now let's say you make $50K/year, and spend $40K/year. The same math says it will take you (40K/4%)/(50K-40K)=1,000K/10K=100 years, or 150 years to be safe. You will never be able to retire indefinitely; you'll die first. That is a huge difference between those two examples! We'll talk about that in a second. But first, what gives? That's a pretty typical person, right? Why is everyone not starving on the street at 80?
 
+### Wait, what?
 In practice of course people do spend a lot of what they make and then retire. There are many reasons. 
 - The formulas assume you're going to retire indefinitely. Actually, you only need enough money until you die. It's a 2.2X difference[^6], if you retire at 65. That's a 55% discount for being mortal.
 - People just retire. They're going to, frankly whether they can afford it or not. Some people retire at 65 because they're told they can or should, or they feel they deserve it. Even past that point, others can't work starting at a certain age.
@@ -49,8 +51,9 @@ In practice of course people do spend a lot of what they make and then retire. T
 - The USA has governement programs to help. Medicare provides free health care for almost every old person. Social Security sends monthly checks to old retired people, although rarely enough to live on comfortably.
 - We have social support programs. Families often support older relatives. Churches and other social groups can offer help too (as well as for broke and poor people).
 
-If you're retiring at 30, almost **none** of the above apply to you. You don't get a 55% mortality discount on retirement, you get a 15% discount. You probably don't have much in your standard retirement account, and even if you do, you can't access it for another 35 years. You don't get medicare (though you MAY get medicaid). You don't get social security. Expect no social support. If people see a healthy 50-year old go broke from poor retirement planning, they should tell you to get a job. I would.
+If you're retiring at 30, almost **none** of the above apply to you. You need to get by on savings, no external support. You don't get a 55% mortality discount on retirement, you get a 15% discount. You probably don't have much in your standard retirement account, and even if you do, you can't access it for another 35 years. You don't get medicare (though you *may* get medicaid). You don't get social security. Expect no social support. If people see a healthy 50-year old go broke from poor retirement planning, they should tell you to get a job. I would.
 
+## This is important
 Returning the the topic of the retirement formula, we can see that there are exactly two numbers that affect you. How much you save (income minus expenses), and how much you spend (expenses). Making a lot of money is good. But not spending money is at least as important. Imagine you made a lot, say six figures ($100K) but spent $50K per year. It would take you 25 years to retire. Not bad! What if you wanted to retire faster? If you spend $25K per year instead, you can retire in 8.3 years. If you make $200K instead, you can retire in 8.3 years. Both are equally good. You can halve your expenses, or double your savings. They have the same effect.[^9]
 
 To me, that's 25-8.3=16.7 years of my life. If I make twice as much, I can get 16 extra years to do anything I want, instead of working a job I kind of tolerate. If I spend half as much (remember, for my whole life, not just until I retire!) I get 16 extra years. That's a HUGE deal. And I get those years now, when I'm healthy and energetic. Prime years. I would do a lot of things to live 16 extra years however I want. Changing my job or spending is just a no-brainer. And the reality is that for most people, it's more than 16 years--it's going from retiring at 65, to retiring at 40 or 30. 25 or 35 years, that's a massive chunk of your life.
