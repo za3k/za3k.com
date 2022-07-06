@@ -1,8 +1,7 @@
-[za3k](/) > [archive](/archive) > old wordpress blog (2014)
+[za3k](/) > [archive](/archive) > old wordpress blog (?-2014)
 
-articles. dates have been lost to time.
+articles from 2014 and back. exact dates have been lost to time. post-2014 stuff [here](/blog)
 - How to set up wordpress [link](https://za3k.com/archive/wordpress/how_to_set_up_wordpress.txt)
-
 - FML [blog](https://za3k.com/archive/wordpress/post123.txt)
 - Java sort [blog](https://za3k.com/archive/wordpress/post123.txt)
 - Scripts files [blog](https://za3k.com/archive/wordpress/post123.txt)
