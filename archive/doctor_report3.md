@@ -101,3 +101,6 @@ All tests, labs etc should be attached.
 - **2022-04-19**: Mercy doctor visit with Dr. Hernandez, followup. Anxiety and depression improved. Referral to gastro, podiatrist. Doctor re-prescribed atorvastatin 40mg daily based on lipid blood test.
     blood pressure 128/82
     pulse 93
+- **2022-??-??**: Appointment with Dr. Vickers, orthopedic surgeon. X-rays show on of my ankle implants has worked its way out.
+- **2022-??-??**: Pre-op appointment with Dr. Jones (new GP).
+- **2022-06-22**: Surgery by Dr. Vickers at Mercy Health Ambulatory Surgery center in Anderson, Ohio. IV anesthetic (unknown). Surgery on right ankle to remove sinus tarsi implant.
