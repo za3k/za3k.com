@@ -12,7 +12,9 @@ articles from 2014 and back. exact dates have been lost to time. post-2014 stuff
 - GPG key [blog](https://za3k.com/archive/wordpress/post92.txt)
 - How to install Python, Qt, and PyQt on MacOS 10.6.4 (64-bit) [blog](https://za3k.com/archive/wordpress/post91.txt)
 - I live [blog](https://za3k.com/archive/wordpress/post89.txt)
+<!--
 - Polyphasic sleep, days 1-3 [blog](https://za3k.com/archive/wordpress/post83.txt)
+-->
 - How to write a compiler generator [blog](https://za3k.com/archive/wordpress/post76.txt)
 - Objects in Scheme [blog](https://za3k.com/archive/wordpress/post70.txt)
 - Portable, Virtual Me (Part 1) [blog](https://za3k.com/archive/wordpress/post67.txt)
@@ -28,6 +30,8 @@ articles from 2014 and back. exact dates have been lost to time. post-2014 stuff
 - Continuing project, programming contest, perl [blog](https://za3k.com/archive/wordpress/post22.txt)
 - Python and a new project [blog](https://za3k.com/archive/wordpress/post21.txt)
 - The Blue Programming Language [blog](https://za3k.com/archive/wordpress/post20.txt)
+<!--
 - (no title) (draft) [blog](https://za3k.com/archive/wordpress/post19.txt)
 - Simuraculum (draft) [blog](https://za3k.com/archive/wordpress/post18.txt)
 - Hello, world (draft) [blog](https://za3k.com/archive/wordpress/post16.html)
+-->
