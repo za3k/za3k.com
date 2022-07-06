@@ -1,6 +1,6 @@
 [za3k](/) > articles
 
-# blog
+blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
 - 2022-07-01: How to Retire for Infinity Years [blog](https://blog.za3k.com/how-to-retire-for-infinity-years/) (website)[https://za3k.com/finance/retire_forever]
 - 2022-03-22: qr-backup [blog](https://blog.za3k.com/qr-backup-2/) [link](https://github.com/za3k/qr-backup)
@@ -104,5 +104,5 @@
 - 2014-07-26: Amazon AWS [blog](https://blog.za3k.com/amazon-aws/)
 - 2014-07-19: New blog [blog](https://blog.za3k.com/hello-world/) [website](https://za3k.com/archive/wordpress/)
 
-## older blog
+old blog.
 - Older can be found [here](/archive/wordpress). It's garbage, don't bother.
