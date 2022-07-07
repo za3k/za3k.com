@@ -2,7 +2,8 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
-- 2022-07-01: How to Retire for Infinity Years [blog](https://blog.za3k.com/how-to-retire-for-infinity-years/) (website)[https://za3k.com/finance/retire_forever]
+- 2022-07-06: Articles section [blog](https://blog.za3k.com/articles-section/) [website](https://za3k.com/blog)
+- 2022-07-01: How to Retire for Infinity Years [blog](https://blog.za3k.com/how-to-retire-for-infinity-years/) [website](https://za3k.com/finance/retire_forever)
 - 2022-03-22: qr-backup [blog](https://blog.za3k.com/qr-backup-2/) [link](https://github.com/za3k/qr-backup)
 - 2022-03-10: USB Flash Longevity Testing - Year 2 [blog](https://blog.za3k.com/usb-flash-longevity-testing-year-2/)
 - 2022-01-31: 2021 books [blog](https://blog.za3k.com/2021-books/)
