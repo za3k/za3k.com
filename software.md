@@ -18,6 +18,7 @@ software i've written. most has extensive documentation if you click through the
 | works | [vlad the remailer](https://github.com/za3k/vlad) | 2013-09-05 | a bot which emails users once a day asking them what they did. based around a similar system in use at google.
 | works | [watch-to-file](https://github.com/za3k/short-programs#watch-to-file) | 2019-03-27 | analagous to the linux command 'watch', but outputs to a file. periodically runs a program and saves the output to a file.
 | works | [xor](https://github.com/za3k/short-programs#xor) | 2020-04-20 | xors two files together. would you believe there's not a standard program for this? see also [add-base-26](https://github.com/za3k/short-programs#add-base26).
+| beta  | [youtube-autodl](https://github.com/za3k/youtube-autodl) | 2022-07-07 | automatically download your favorite youtube channels and playlists, and organize them how you like.
 
 ##less useful software
 | status | project | written | description | 
