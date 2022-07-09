@@ -1,8 +1,8 @@
 [za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > LexiconOne
 
-Lexicon is a collaborative world-building game for 2 or more players, taking place over a month or so on a wiki. [RulesOfLexicon](RulesOfLexicon)
+Lexicon is a collaborative world-building game for 2 or more players, taking place over a month or so on w2wiki. [RulesOfLexicon](RulesOfLexicon)
 
-We played on Discord and wrote a wiki. This is a record of the wiki when we stopped playing. We did roughly letters A-P. Links to Q-Z are dead links--the articles were never written.
+We played on Discord and wrote a wiki ([w2wiki](https://github.com/panicsteve/w2wiki)). This is a record of the wiki when we stopped playing. We did roughly letters A-P. Links to Q-Z are dead links--the articles were never written.
 
 Click here to learn more about the [Markdown Syntax](Markdown Syntax) used to edit the Wiki.
 
@@ -164,7 +164,7 @@ Niramaned maintained a partially complete [Citations List](Citations List)
 
 ## Y-Z
 - *[Yozt Belt Skirmish](Yozt Belt Skirmish)
-- ^[Y'lin River Basin](Y'lin River Basin)
+- *[Y'lin River Basin](Y'lin River Basin)
 - *[Zenith Throneroom](Zenith Throneroom)
 - *[Zan-Taranth](Zan-Taranth)
 - *[ZZ-level](ZZ-level)
