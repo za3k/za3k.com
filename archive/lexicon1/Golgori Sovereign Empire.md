@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Golgori Sovereign Empire
+
 ##Golgori Sovereign Empire
 
 The Golgori Sovereign Empire was the largest, and most recent, civilization present on [Mizar-5](Mizar-5), which came about approximately 1400 cycles after the fracturing of the [Principality of Ionzh](Principality of Ionzh). The Empire's reach stretched over most of the habitable land on Mizar-5, and even began to stretch into the less habitable southern regions and the [Denmortia Rainlands](Denmortia Rainlands). They are noteworthy for, based on the preserved [Cataphract](Cataphract) found in the Rainlands, being the first of Mizar-5's civilization to develop vessels capable of interplanetary travel, though there is no evidence that any ever escaped Mizar-5's upper atmosphere. 

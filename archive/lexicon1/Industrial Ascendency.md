@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Industrial Ascendency
+
 ## D-level technology on Mizar-5
 
 ### Aldebaranian

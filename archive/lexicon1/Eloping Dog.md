@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Eloping Dog
+
 *Not be confused with the ship [The Loping Doge](Loping Doge, The).*
 
 An Eloping Dog is a species of canine-analogous vertebrates, native to [Mizar-5](Mizar-5). They were originally tamed by [Aldebaranians](Aldebaranians, The) as hunting companions, but most of the population died to the [Floramateria](Floramateria) with their masters. A small number survived, and were kept as novelty pets for rich members of society, and their population rose. In Ionzhi year 5333 (RODS 456333) during [Elector-Prince Rzeszutko](Elector-Prince Rzeszutko)’s reign, a mass slaughter of the Eloping Dogs was carried out, allegedly because one vomited on the Elector-Prince. A small number were hidden by Research Station 6, and shipped offworld. Today, their number has risen to pre-massacre numbers, largely due to the efforts of the Mizar-4 Kennel Association.

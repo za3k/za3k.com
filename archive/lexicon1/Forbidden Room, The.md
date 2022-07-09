@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Forbidden Room, The
+
 The Forbidden Room, the location of which is closely guarded by the IntraGalactic Astronomy Review Board, serves as a repository for all artifacts deemed too dangerous for standard access as prescribed via [Artifact Access Control](Artifact Access Control). The following stipulations exist for access should a member wish to study one of these artifacts:
 
 - Form RSA-743 must be filled out in triplicate and submitted to the review board thirty (30) days in advance of any requested access.

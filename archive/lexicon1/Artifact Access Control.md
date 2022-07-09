@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Artifact Access Control
+
 Provision 384.456.12.6 of the [Fengu-Golgari Convention of 2452](Fengu-Golgari Convention of 2452) stipulates that all member nations of the IntraGalactic Astronomy Review Board and Xenology Annex shall have equal access to Golgari artifacts on Mizar-5. At the same time, to preserve artifacts for study for future generations, avoid favoritism, and prevent the collapse of less psychologically advanced civilizations, strict access controls have been implemented. Please observe the following rules. All time limits are given in standard Mizar-5 days or fractions of a day.
 
 - Artifacts may not be removed from Mizar-5 under any circumstance. Artifacts which have been removed must be returned, even if you are not in a member nation or did not sign the convention.

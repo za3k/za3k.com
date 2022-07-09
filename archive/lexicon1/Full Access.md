@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Full Access
+
 This memo has been forwarded to me by a source in the [Galactic Hegemony of Associated Commerce and Trade](Galactic Hegemony of Associated Commerce and Trade). Their identity will remain anonymous.
 
 Addendum to yearly entry criteria to Mizar-5, 2580:

@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Caduceus Expedition, The
+
 ##Caduceus Expedition, The:
 
 The Caduceus Expedition was a failed attempt to explore several widely argued thoughts about the [B-Time](B-Time) parallel time stream. With 164 members total, including [Uriath Xers, XPh.](Uriath Xers, XPh.), famed Xenophysicist and author of the work, "Alternate Time Flow interactions with Stasis," concerning the interesting parallels between the [Atemporal Anomalies](Atemporal Anomaly) in the B-Time stream to those of the Proper Time stream. The expedition was designed to create a proper foothold into the B-Time stream so that the researchers involved in the project, along with their less than moral backers, would have a base from which to launch research or exploitation missions of the parallel time stream.

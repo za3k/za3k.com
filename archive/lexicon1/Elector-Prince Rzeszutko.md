@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Elector-Prince Rzeszutko
+
 Mionzha Rzes (5206-5289, Real Ordinal Date Standard 45541f-45624) was born in uncertain circumstances to a small village outside historical Hondif in the [Principality of Ionzh](Principality of Ionzh).
 
 He was elected the 18th Elector-Prince-For-Life of Ionzh in 5240 (RODS 45576a), adopting the honorific name Ponzuknari (Dawning Sun). His first few years of rule reformed the lax system of laws, raising taxes and imposing far harsher legal penalties. Between his personal charisma and scholarly reputation, significant resulting economic boosts, and the removal of several well-known corrupt politicians, his reforms were if not met with approval at least accepted without major complaint.

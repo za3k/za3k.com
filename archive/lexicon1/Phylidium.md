@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Phylidium
+
 Phylidium
 
 Phylidium is a composite ceramo-metal created by combining 6 parts of ceramic with 1 part of platinum at at least 2.000 degrees celsius. The use of chlorophyll-based cooling liquids to temper the composite material gives it its signature and unique metallic green shine. 

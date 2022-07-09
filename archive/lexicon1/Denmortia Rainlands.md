@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Denmortia Rainlands
+
 Denmortia Rainlands
 
 Wide-stretching biome covering most of the equatorial landmass on [Mizar-5](Mizar-5). The year-around heat, combined with gathering clouds from the nearby oceans on both sides lead to an incredibly heavy and humid air that turns to gushing periods of rainfall numerous times almost every day of the year. The ground is heavily eroded, and the flora and fauna that inhabits this foggy marshland had to adapt heavily to survive a constant shortage of dry land, changing streams and waterlogged soil. Mangrove trees dominate the region, with wading birds, amphibians, insects and fish of all sizes thriving in this near untouched piece of nature. 

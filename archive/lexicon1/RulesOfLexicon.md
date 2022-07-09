@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > RulesOfLexicon
+
 Here's a little roleplaying game that I've been toying with. I call it the Lexicon rpg, in honor of its inspiration, Milorad Pavic's Dictionary of the Khazars.
 
 The basic idea is that each player takes on the role of a scholar, from before scholarly pursuits became professionalized (or possibly after they ceased to be). You are cranky, opinionated, prejudiced and eccentric. You are also collaborating with a number of your peers -- the other players -- on the construction of an encyclopedia describing some historical period (possibly of a fantastic world).

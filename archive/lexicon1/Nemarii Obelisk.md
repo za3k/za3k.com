@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Nemarii Obelisk
+
 Nemarii Obelisk
 
 The Nemarii Obelisk is a 37ft tall basalt monolith on [Mizar-4](Mizar-4) displaying a variety of [Derivative Starchart](Derivative Starchart)s on its front and backside. Its construction date is unclear since all dating methods produce nothing but scrambled data when done with or near material from the obelisk, although it clearly predates the founding of the Golgori Sovereign Empire by at least one millenia, potentially being created or inspired by the spacefaring Kilt'iir civilisation (see[Kilt'iir, The](Kilt'iir, The)). The artifact, which remains in-situ due to its massive weight, bears no coherent written language, but the smaller rimsides show an intricate motive of abstract figures, geometric shapes and looping coils that are still up to debate. 

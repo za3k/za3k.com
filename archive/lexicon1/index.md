@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > LexiconOne
+
 Lexicon is a collaborative world-building game for 2 or more players, taking place over a month or so on a wiki. [RulesOfLexicon](RulesOfLexicon)
 
 We played on Discord and wrote a wiki. This is a record of the wiki when we stopped playing. We did roughly letters A-P. Links to Q-Z are dead links--the articles were never written.

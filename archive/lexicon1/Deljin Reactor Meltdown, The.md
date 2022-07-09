@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Deljin Reactor Meltdown, The
+
 The Deljin Reactor Meltdown was a catastrophic event that occurred on ESDTF October 22, 3647, at 4:27 PM. The incident claimed the lives of many of the plant workers in [Kester City](Kester City), along with several bystanders in the surrounding area. This event is what most believe ultimately caused the remaining citizens to finally abandon the city to the [Orianian Wasteland](Orianian Wasteland). 
 
 According to survivor accounts, the meltdown began shortly before the second shift turnover, just as plant operators were finalizing logs to hand off to the next shift. There had been nominal fluctuations in the pressure and temperature readings that afternoon, but nothing that the technicians believed was any cause for concern. By the start of the second shift, the technicians discovered that temperatures had already risen beyond safe levels, and ordered an immediate evacuation of the plant. Thirteen minutes later, before the plant had been fully evacuated, the coolant system ruptured, and the resulting explosion caused a massive deposition of fissile material.

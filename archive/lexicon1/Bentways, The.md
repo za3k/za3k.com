@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Bentways, The
+
 ##Bentways, The:
 
 The Bentways are a series of channels running throughout the underground of the [Orianian Wasteland](Orianian Wasteland, The) in the Eastern continent of [Mizar-5](Mizar-5). These tunnels stretch on for hundreds of kilometers, their framework based around the ancient [Aldebaranian](Aldebaranians, The) ruins that originally housed the main body of the civilization. The tunnels themselves have grown over time due to their hybrid [Floramateria](Floramateria) composition, believed to have originated from a meteor that was a product of the destruction of a planetoid on the edge of the [Archipelago of the Damned](Archipelago of the Damned).

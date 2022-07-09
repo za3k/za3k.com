@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Kettlebelly Ceramic
+
 Kettlebelly Ceramic
 
 Typus of burned ceramic bowls and vases of the early, pre-emperial Golgori culture ( see [Golgori Sovereign Empire](Golgori Sovereign Empire)). They are easy to identify due to their characteristic features each of the ceramic containers shares with each other:

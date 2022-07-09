@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Delay-Deny-Accept
+
 In daily entry criteria to Mizar-5, 2583-39-4, the following erratums are present:
 
  - Under **GENERAL**

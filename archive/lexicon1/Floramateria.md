@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Floramateria
+
 Floramateria is the name given to an entire phyla of species in the Mizar star system. The species are characteristically brightly colored (blue to ultraviolet) and shift rapidly in color, triggering a hypnotic effect on some species of tourist. Florameteria spread aggressively, and consume or parasitize other species. Exposure is fatal to humans, and life-threatening in most species. Floramateria send out clouds of reproductive spores which tolerate vacuum, cold down to absolute zero, and resist oxidative processes.
 
 Three theories have been advanced as to the origin of Floramateria, all uncompelling:

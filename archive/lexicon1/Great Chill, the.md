@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Great Chill, the
+
 The Great Chill, or the Very Large Weather Shift was a massive climate shift in [Mizar-5](Mizar-5) shortly before the collapse of the Golgori. The entire planet became much colder, making the northern half unlivably cold, the equator below freezing, and the southern third of the planet barely habitable.
 
 Because the [Golgari Soverign Empire](Golgari Soverign Empire) had never settled the previously unhabitably southern third, they turned to artifical heating methods instead, depleting the local ecosphere. Ultimately the empire collapse

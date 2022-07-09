@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Descent of the New Moon, The
+
 The Descent of the New Moon was an event in Golgori year ⅟↋↊↋ↈ (RODS 456abc), subject to much debate over what the event was. As far as it is understood today, a small celestial object, most likely a moon or large meteor, appeared in the night sky over [Oedeon](Oedeon), the capital of the [Golgori Sovereign Empire](Golgori Sovereign Empire). How the object traveled or appeared there is not understood, but it slowly fell towards the surface of [Mizar-5](Mizar-5), impacting near dawn. The urban center and surrounding suburbs were completely obliterated, turned into glass or ash.
 
 Various theories from elements on Mizar-5 have been proposed, none of them conclusive, but I shall list them here for the Order’s sake.

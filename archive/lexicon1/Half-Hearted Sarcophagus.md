@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Half-Hearted Sarcophagus
+
 The H'dell Coffin, popularly known as the Half-Hearted Sarcophagus, is an Extratemporal Anomaly (see [Extratemporal Anomalies](Extratemporal Anomalies)) discovered on Mizar-5. The Coffin is a bronze burial device dating from the early [Web-Weaver](Web-Weaver) period, depicting the internal organs and bone structure of a web weaver. It was flagged as worthy of further study by biologists, who had not yet found intact living Web-Weaver specimens.
 
 On investigation, some organs appeared missing, but scientists disagreed over which ones. Comparing notes,

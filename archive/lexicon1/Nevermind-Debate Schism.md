@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Nevermind-Debate Schism
+
 The Nevermind-Debate Schism is a clockwise-future [B-time](B-time) academic social split resulting from the Nevermind-Debate. Because the Nevermind-Debate has not yet occured in A-Time, we can only guess at the contents of the debate by observing the resulting schism. (For the A-Time disagreement over the likely contents, see Nevermind-Debate Schism Schism). The facts as we know them are:
 
 1. The debate seems to be an actual debate, broadcast by hologram on [Mizar-4](Mizar-4). The debate has been announced decades in advance as the Nevermind-Debate.

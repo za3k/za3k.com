@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Curators Bane
+
 Curator's Bane
 
 Archived Object #335, also called Curators Bane, is a weathered and slightly stained issue of [An Ionzhi Gazetter](An Ionzhi Gazetter) printed in 5197 of the [Ionzhi Calender](Ionzhi Calender). While appearing to be a standard piece of informative literature at discovery, it has proven to be a pain to draw reliable information from its contents or even keep it correctly filed away, due to it's apparently innate ability to shift between realtime, [B-Time](B-Time), as well as other potentially fictional timestreams and realities. These changes are irregular and change the content, Author and even language used within the object, while date and issue number appear to remain the same (or at least approximately, when the measurements of time or numerations work differently in the handbook's current reality. 

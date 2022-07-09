@@ -1,3 +1,5 @@
+[za3k](/) > [archive](/archive) > [lexicon1](/archive/lexicon1) > Manuscript Collection 47b
+
 Manuscript Collection 47b was recovered from rubble at coordinates -34.6755, 0.2346 ([Institute for Psykologikal Masterie](Institute for Psykologikal Masterie)). Condition of the overall collection is *fair*. Rarity of the content is *unremarkable*. Rarity of the historical period is *rare*. Sulphur dating shows all elements of the collection date from RODS 454ab-460ab, consistent with rubble generation in event A-3952.934.5 (see [Descent of the New Moon, The](Descent of the New Moon, The)).
 
 - Local news, condition *very poor*. Medium value. Update: This item was destroyed.
