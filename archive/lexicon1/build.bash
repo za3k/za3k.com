@@ -18,3 +18,4 @@ for x in *.md; do
   fi
   grep -qxF "$HEADER" "$x" || sed -i "1s@^@${HEADER}\n\n@" "$x"
 done
+dos2linux *.md
