@@ -2,7 +2,7 @@ The Descent of the New Moon was an event in Golgori year ⅟↋↊↋ↈ (RODS 4
 
 Various theories from elements on Mizar-5 have been proposed, none of them conclusive, but I shall list them here for the Order’s sake.
 
-1. Divine punishment from [Zan-Taranth](Zan-Taranth), for their impiety. This is unconvincing, as Oedeon was home to the largest population of [Rotorastianites](https://lexicon.za3k.com/index.php/Rotorastrianism) in the Empire
+1. Divine punishment from [Zan-Taranth](Zan-Taranth), for their impiety. This is unconvincing, as Oedeon was home to the largest population of [Rotorastianites](Rotorastrianism) in the Empire
 2. Divine punishment from an entity other than Zan-Taranth, for their impiety. Proposed by some of the banned cults of the [New Golgori Rebellion](New Golgori Rebellion). Unlikely, for the above reasons.
 3. Caused by elements at the [Institute for Psykologikal Masterie](Institute for Psykologikal Masterie), for it was relatively unscathed, the foundations of the building still standing in a landscape of glass. No known psychic has been shown to be able to summon celestial objects.
 4. Research Station 6 claimed to have picked up the radio tags of [Varix Jhothar](Varix Jhothar)’s flagship *The Painted Bird* moments before the object appeared, which has led some to believe that the infamous captain lived and then proceeded to crash his ship into Mizar-5.
