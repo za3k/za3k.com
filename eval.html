@@ -140,6 +140,10 @@ surface_area_of_sphere = function(r) {
 surface_area_of_cylinder = function(r, h) {
     return 2 * Math.PI * r * (r + h);
 }
+coupon_collector = function(coupons) {
+    //
+    return coupons*Math.log(coupons) + 0.577215*coupon + 0.5;
+}
 
 </script>
 
@@ -203,6 +207,7 @@ label {
         <option value="surface_area_of_cylinder">Surface Area of a Cylinder</option>
         <option value="weight_of_cylinder">Weight of a Cylinder</option>
         <option value="weight_of_sphere">Weight of a Sphere</option>
+        <option value="coupon_collector">Coupon Collection (approx)</option>
     </select>
 <div class="definition"><label>Function</label><pre id="formula" contenteditable="true">
 </pre></div>
