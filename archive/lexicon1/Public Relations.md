@@ -1,6 +1,6 @@
 The Public Relations department, headed by Thomas Collins, XPh., is a branch of The Order of the Preservation for Xenological History tasked with handling the perception of the preservation operation by the public. Its mission is threefold:
 
-- To assuage the fears of the public about any of the more fantastical elements, like [Psychic Attunement]] or [B-Time](Psychic Attunement](B-Time](Psychic Attunement) or [[B-Time).
+- To assuage the fears of the public about any of the more fantastical elements, like [Psychic Attunement](Psychic Attunement) or [B-Time](B-Time).
 - To simultaneously discourage any interaction with potentially harmful artifacts, like a [U-U Card](U-U Card), except by members of the preservation operation.
 - To encourage donations of resources, volunteering, or application to join the preservation operation.
 
