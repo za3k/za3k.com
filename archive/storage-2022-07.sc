@@ -302,7 +302,7 @@ let E69 = $D69/$C69*1000
 leftstring G69 = "https://www.amazon.com/Verbatim-M-Disc-BD-R-Branded-Surface/dp/B016X2E8NI"
 leftstring A70 = "M-disc BR-R 100GB"
 let C70 = 100
-let D70 = 256.64/100
+let D70 = 256.64/25
 let E70 = $D70/$C70*1000
 leftstring G70 = "https://www.amazon.com/Verbatim-M-Disc-BD-R-Branded-Surface/dp/B017H13DFS"
 label A72 = "usb stick, single"
@@ -463,4 +463,4 @@ leftstring A110 = "still film, 35mm"
 let C110 = 24*300*300*36*24/1000/1000/1000
 let D110 = 3.29
 let E110 = $D110/$C110*1000
-goto B1 A0
+goto D70 A27
