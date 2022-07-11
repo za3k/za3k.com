@@ -2,6 +2,7 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2022-07-11: One Screenshot Per Minute [blog](https://blog.za3k.com/one-screenshot-per-minute/)
 - 2022-07-08: youtube-autodl [blog](https://blog.za3k.com/youtube-autodl/) [link](https://github.com/za3k/youtube-autodl)
 - 2022-07-06: Articles section [blog](https://blog.za3k.com/articles-section/) [website](https://za3k.com/blog)
 - 2022-07-01: How to Retire for Infinity Years [blog](https://blog.za3k.com/how-to-retire-for-infinity-years/) [website](https://za3k.com/finance/retire_forever)
