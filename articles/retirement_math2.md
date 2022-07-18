@@ -33,11 +33,11 @@ Well, what if you're not making $60K and spending $20K? I'll walk you through th
 
 The rough[^5] estimate is that you can retire in: **25 x expenses / (income - expenses)** years.
 
-Working through our example, that's = 25 * 20K / (60K/y - 20K/y) = 500K / 40K per year = 12.5 years. Imaginary-use is 20, so that works out to 32.5 years old. Checks out.
+Working through our example, that's = 25 * 20K / (60K/y - 20K/y) = 500K / 40K per year = 12.5 years. Imaginary you is 20, so that works out to 32.5 years old. Checks out.
 
 Okay, but what if... the stock market takes a hit?
 
-[>> up and down](/retirement_math3.md)
+[>> up and down](/articles/retirement_math3.md)
 
 [^2]: Which I am 100% in favor of. Get cracking on that science.
 [^3]: This is very conservative. Since it's founding in 1957, the S&P 500 on average made 7% yearly over inflation. You can ajust the numbers if you want.
