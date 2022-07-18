@@ -1,4 +1,4 @@
-[za3k](/) > finances > retirement math, part 2: retiring for infinity years
+[za3k](/) > finances > retirement math, part 1: the basics
 
 I retired at 31, which is pretty unusual. And I get asked about it a fair deal (and even more people want to ask but are too polite). So I wanted to go ahead and answer "how did you retire early?". The basic answer is
  - I made a bunch of money
@@ -32,6 +32,6 @@ So you can increase your income, or decrease your spending, or do some combinati
 
 But all the numbers are *wrong*. The math is *incorrect*. If you retire at 65, it's a *little wrong*, but if you retire at 30 it's *wildly wrong*. A new factor dominates when retiring at 30 or 40.
 
-[>>retire for infinity years](/articles/retirement_math1)
+[>>retire for infinity years](/articles/retirement_math2)
 
 [^1]: Not, you know, that people *plan* to die at 80. They don't circle a date in their calendar. But you have to know how long you'll be retired to plan financially. Actually, living to 100 can turn into a financial problem, because you've run out of savings. This is part of how insurance [got started](https://en.wikipedia.org/wiki/Tontine). 
