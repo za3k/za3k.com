@@ -15,6 +15,8 @@ Well, there is a caveat. You need an additional safety margin, even if the stock
 
 To summarize, if you live on $20K/year, and work at $60K/year, you can retire indefinitely in theory, after 12.5. In practice, add a safety margin. Now you're secure against random stock market problems, and you make *more money* over time.
 
-Okay, but you don't want to retire forever. You're not immortal[^2]. Can you retire even earlier? Yes.
+Okay, but you don't want to retire forever. You're not immortal[^1]. Can you retire even earlier? Yes.
 
 [why we aren't all broke](/articles/retirement_math4.md)
+
+[^1]: Yet

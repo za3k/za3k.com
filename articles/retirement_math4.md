@@ -38,4 +38,4 @@ Some example numbers:
 
 In other words, if you can retire early, you need *way less money* to do it. That's a good reason all on its own.
 
-[>> just give me a calculator](/retirement_math5)
+[>> just give me a calculator](/articles/retirement_math5)
