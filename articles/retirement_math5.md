@@ -21,4 +21,6 @@ Actually, let's take out that rate of 4%, too. Someone could want to adjust that
 
 And we can add variables for the two ages. Maybe we're not 20, or we don't plan to die at 80. We only use the difference (60 years), so we add **L** for life-expectancy: **Y = (1/r) x ln(1 + E/(I-E)) x (1-e^(-r * (L-Y)))**
 
-We'll just solve for... well, uh. That looks kind of like a hot pile of garbage, huh? Five variables. Maybe we just back away slowly.
+We'll just solve for... well, uh. That looks kind of like a hot pile of garbage, huh? Five variables. You know what? Maybe we just back away slowly.
+
+[[TODO: Add a javascript calculator? Volunteers?]]
