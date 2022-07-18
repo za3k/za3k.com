@@ -17,6 +17,4 @@ To summarize, if you live on $20K/year, and work at $60K/year, you can retire in
 
 Okay, but you don't want to retire forever. You're not immortal[^2]. Can you retire even earlier? Yes.
 
-[why we aren't all broke](/retirment_math4.md)
-
-[^2]: Which I am 100% in favor of. Get cracking on that science.
+[why we aren't all broke](/articles/retirement_math4.md)
