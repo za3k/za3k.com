@@ -2,6 +2,9 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2022-08-10: 20 minute interruptions [blog](https://blog.za3k.com/20-minute-interruptions/)
+- 2022-08-10: problem-log.txt [blog](https://blog.za3k.com/problem-log-txt/) [link](https://github.com/za3k/scan-organizer)
+- 2022-08-10: Scan Organizer [blog](https://blog.za3k.com/scan-organizer/)
 - 2022-07-11: Storage Prices 2022-07 [blog](https://blog.za3k.com/storage-prices-2022-07/) [link](https://za3k.com/archive/storage-2022-07.sc.txt)
 - 2022-07-10: One Screenshot Per Minute [blog](https://blog.za3k.com/one-screenshot-per-minute/)
 - 2022-07-08: youtube-autodl [blog](https://blog.za3k.com/youtube-autodl/) [link](https://github.com/za3k/youtube-autodl)
