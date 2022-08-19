@@ -2,6 +2,8 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2022-08-18: tty audit logs [blog](https://blog.za3k.com/tty-audit-logs/) [link](https://github.com/za3k/short-programs#record-shell)
+- 2022-08-11: Is Rick and Morty Out? (Season 6) [blog](https://blog.za3k.com/is-rick-and-morty-out-season-6/) [link](http://isrickandmortyout.com/)
 - 2022-08-10: 20 minute interruptions [blog](https://blog.za3k.com/20-minute-interruptions/)
 - 2022-08-10: problem-log.txt [blog](https://blog.za3k.com/problem-log-txt/) [link](https://github.com/za3k/scan-organizer)
 - 2022-08-10: Scan Organizer [blog](https://blog.za3k.com/scan-organizer/)
@@ -56,7 +58,7 @@ blog.
 - 2015-12-05: Archiving all web traffic [blog](https://blog.za3k.com/archiving-all-web-traffic/)
 - 2015-11-29: Open NNTP server [blog](https://blog.za3k.com/open-nntp-server/)
 - 2015-11-10: Mail filtering with Dovecot [blog](https://blog.za3k.com/mail-filtering-with-dovecot/)
-- 2015-11-07: Installing meail with Postfix and Dovecot (with Postgres) [blog](https://blog.za3k.com/installing-email-with-postfix-and-dovecot/)
+- 2015-11-07: Installing email with Postfix and Dovecot (with Postgres) [blog](https://blog.za3k.com/installing-email-with-postfix-and-dovecot/)
 - 2015-11-02: Dependency Resolution in Javascript [blog](https://blog.za3k.com/dependency-resolution-in-javascript/) [link](https://github.com/vanceza/dependencies-online)
 - 2015-11-02: Time management: Optimizers, Satisficers, Minimizers [blog](https://blog.za3k.com/time-management-optimizers-satisficers-minimizers/)
 - 2015-10-27: Roasted Chickpeas [blog](https://blog.za3k.com/roasted-chickpeas/)
