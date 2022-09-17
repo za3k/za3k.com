@@ -178,16 +178,18 @@ Many more macro features omitted:
 - %pragma
 
 ### Chapter 5: Standard Macros
-struc/endstruc/istruc+at: define a C-style structure
-align: aligns code or data
+- struc/endstruc/istruc+at: define a C-style structure
+- align: aligns code or data
 
 ### Chapter 6: Standard Macro Packages
-%use altreg ; Import a standard macro package
-altreg: alternate register names
-martalign: better align macro
-fp: floating point macros
-ifunc: integer functions
-masm: masm compatiblity
+
+        %use altreg ; Import a standard macro package
+
+- altreg: alternate register names
+- martalign: better align macro
+- fp: floating point macros
+- ifunc: integer functions
+- masm: masm compatiblity
 
 ### Chapter 7: Assembler Directives
 - `BITS 16` / `BITS 32` / `BITS 64`: Explicitly declare a bit mode. Discouraged since it can be done automatically by output format.
