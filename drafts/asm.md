@@ -48,7 +48,7 @@ Common `-f` formats:
 
 - `-w+float`, `-w-float`: disable or enable a class of warning
 - `-i/usr/share/include`: Add a search path for the `%include` directive 
-`
+
 ### Chapter 3: The NASM language
 The basic format of a NASM line is
 
@@ -190,16 +190,16 @@ ifunc: integer functions
 masm: masm compatiblity
 
 ### Chapter 7: Assembler Directives
-`BITS 16` / `BITS 32` / `BITS 64`: Explicitly declare a bit mode. Discouraged since it can be done automatically by output format.
-`DEFAULT REL` / `DEFAULT ABS` / `DEFAULT [NO]BND`: Change assembler defaults
-`SECTION .text`, etc.: Start a section (ignored by some formats, like obj)
-`ABSOLUTE 0x1A`: Place the code at this absolute address
-`EXTERN _printf`: Declare that we will be using a symbol not declared here. (from a library)
-`GLOBAL _main`: Opposite of EXTERN--declares a public symbol for use by other libraries.
-`COMMON intvar 4`: Like GLOBAL, but multiple modules declaring something will be merged
-`CPU`: Restrict instruction set
-`FLOAT`: Set various floating point options
-`WARNING`: Enable or disable warnings
+- `BITS 16` / `BITS 32` / `BITS 64`: Explicitly declare a bit mode. Discouraged since it can be done automatically by output format.
+- `DEFAULT REL` / `DEFAULT ABS` / `DEFAULT [NO]BND`: Change assembler defaults
+- `SECTION .text`, etc.: Start a section (ignored by some formats, like obj)
+- `ABSOLUTE 0x1A`: Place the code at this absolute address
+- `EXTERN _printf`: Declare that we will be using a symbol not declared here. (from a library)
+- `GLOBAL _main`: Opposite of EXTERN--declares a public symbol for use by other libraries.
+- `COMMON intvar 4`: Like GLOBAL, but multiple modules declaring something will be merged
+- `CPU`: Restrict instruction set
+- `FLOAT`: Set various floating point options
+- `WARNING`: Enable or disable warnings
 
 ### Chapter 8: Output Formats
 - `bin`: Generate only machine code. Useful for bootloaders, operating systems, etc.
@@ -213,29 +213,42 @@ masm: masm compatiblity
 
 ### Chapter 9: Writing 16-bit code (DOS, Windows 3/3.1)
 16-bit EXEs can be made by linking `.obj` files, or directly with a DOS .exe macro header
+
 16-bit COMs can be made by adding an extra line or two at the start of `bin`. 
+
 .sys (DOS driver) is similar to .com with a different offset.
+
 Interfacing with external libraries: see docs
 
 ### Chapter 10: Writing 32-bit code (Unix, Win32, DJGPP)
 No memory segmentation--"flat" memory model where you just have a 32-bit, 4GB address space.
 
 C call interface [very helpful, copy from https://www.nasm.us/xdoc/2.15.05/html/nasmdo10.html]
+**C ABI for Unix**
+    - All paramters are pushed on the stack, from right to left
+    - Call is 
+    - EBP must be preserved, so usually EBP is pushed to stack, then ESP (stack pointer) copied to EBP, and then the callee reads values off the stack based on that. `[EBP]` is the old `[EBP]` value. `[EBP+4]` is the return address pushed by `CALL`. Parameters start at `[EBP+8]`, starting from the leftmost.
+    - Return value is in EAX (or AL/AX/ST0).
+    - At the end, callee restores original ESP, pops EBP if that was pushed, and returns.
+    - On return, caller moves stack pointer down with a constant (faster), or uses a series of pops.
+
 See later section for syscall to Linux kernel
 
 ### Chapter 11: Mixing 16- and 32-bit Code [ obsolete ]
 
 ### Chapter 12: Writing 64-bit Code (Unix, Win64)
-C ABI for Unix:
-    The first six arguments are passed in RDI, RSI, RDX, RCX, R8, and R9.
-    All the above, plus RAX, R10, and R11 are "scratch" registers destroyed by function calls and don't need to be saved.
-    Additional arguments are passed on the stack.
-    Integer return values are placed in RAX and RDX (up to two integers can be returned, for structs or 128-bit integers)
-    Memory, structs, strings, floats, etc are all done differently and you can check https://gitlab.com/x86-psABIs/x86-64-ABI
-C ABI for Windows:
-    Integers are passed in RCX, RDX, R8, R9, and then the stack.
-    Return value is in RAX (only)
-    Floating point, memory, etc work differently and you'll have to read a spec.
+**C ABI for Unix**
+    - The first six arguments are passed in RDI, RSI, RDX, RCX, R8, and R9.
+    - All the above, plus RAX, R10, and R11 are "scratch" registers destroyed by function calls and don't need to be saved.
+    - Additional arguments are passed on the stack.
+    - Integer return values are placed in RAX and RDX (up to two integers can be returned, for structs or 128-bit integers)
+    - Memory, structs, strings, floats, etc are all done differently and you can check https://gitlab.com/x86-psABIs/x86-64-ABI
+
+**C ABI for Windows**
+    - Integers are passed in RCX, RDX, R8, R9, and then the stack.
+    - Return value is in RAX (only)
+    - Floating point, memory, etc work differently and you'll have to read a spec.
+
 See later section for syscall to Linux kernel
 
 ### Chapter 13: Troubleshoting [useless]
