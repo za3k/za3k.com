@@ -224,13 +224,14 @@ Interfacing with external libraries: see docs
 No memory segmentation--"flat" memory model where you just have a 32-bit, 4GB address space.
 
 C call interface [very helpful, copy from https://www.nasm.us/xdoc/2.15.05/html/nasmdo10.html]
+
 **C ABI for Unix**
-    - All paramters are pushed on the stack, from right to left
-    - Call is 
-    - EBP must be preserved, so usually EBP is pushed to stack, then ESP (stack pointer) copied to EBP, and then the callee reads values off the stack based on that. `[EBP]` is the old `[EBP]` value. `[EBP+4]` is the return address pushed by `CALL`. Parameters start at `[EBP+8]`, starting from the leftmost.
-    - Return value is in EAX (or AL/AX/ST0).
-    - At the end, callee restores original ESP, pops EBP if that was pushed, and returns.
-    - On return, caller moves stack pointer down with a constant (faster), or uses a series of pops.
+- All paramters are pushed on the stack, from right to left
+- Call is 
+- EBP must be preserved, so usually EBP is pushed to stack, then ESP (stack pointer) copied to EBP, and then the callee reads values off the stack based on that. `[EBP]` is the old `[EBP]` value. `[EBP+4]` is the return address pushed by `CALL`. Parameters start at `[EBP+8]`, starting from the leftmost.
+- Return value is in EAX (or AL/AX/ST0).
+- At the end, callee restores original ESP, pops EBP if that was pushed, and returns.
+- On return, caller moves stack pointer down with a constant (faster), or uses a series of pops.
 
 See later section for syscall to Linux kernel
 
@@ -238,16 +239,16 @@ See later section for syscall to Linux kernel
 
 ### Chapter 12: Writing 64-bit Code (Unix, Win64)
 **C ABI for Unix**
-    - The first six arguments are passed in RDI, RSI, RDX, RCX, R8, and R9.
-    - All the above, plus RAX, R10, and R11 are "scratch" registers destroyed by function calls and don't need to be saved.
-    - Additional arguments are passed on the stack.
-    - Integer return values are placed in RAX and RDX (up to two integers can be returned, for structs or 128-bit integers)
-    - Memory, structs, strings, floats, etc are all done differently and you can check https://gitlab.com/x86-psABIs/x86-64-ABI
+- The first six arguments are passed in RDI, RSI, RDX, RCX, R8, and R9.
+- All the above, plus RAX, R10, and R11 are "scratch" registers destroyed by function calls and don't need to be saved.
+- Additional arguments are passed on the stack.
+- Integer return values are placed in RAX and RDX (up to two integers can be returned, for structs or 128-bit integers)
+- Memory, structs, strings, floats, etc are all done differently and you can check https://gitlab.com/x86-psABIs/x86-64-ABI
 
 **C ABI for Windows**
-    - Integers are passed in RCX, RDX, R8, R9, and then the stack.
-    - Return value is in RAX (only)
-    - Floating point, memory, etc work differently and you'll have to read a spec.
+- Integers are passed in RCX, RDX, R8, R9, and then the stack.
+- Return value is in RAX (only)
+- Floating point, memory, etc work differently and you'll have to read a spec.
 
 See later section for syscall to Linux kernel
 
