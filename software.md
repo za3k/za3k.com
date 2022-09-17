@@ -14,7 +14,6 @@ software i've written. most has extensive documentation if you click through the
 | works | [prng](https://github.com/za3k/short-programs#prng) | 2019-01-04 | generate pseudo-random data. has a large number of features built-in to do things like test usb drives and cloud storage. good for testing chinese sd cards and usb sticks to make sure they're the claimed size.
 | works | [qr-backup](https://github.com/za3k/qr-backup/) | 2021-06-01 | make paper backups of a file. the file can be restored by holding the paper up to a webcam.
 | works | [rip-chrome-history](https://github.com/za3k/rip-chrome-history) | 2017-06-06 | export chrome history, one per line.
-| works | [scan-organizer](https://github.com/za3k/scan-organizer) | 2022-07-22 | my process for sorting scans. useful, but mostly for me
 | works | [transcribe](https://github.com/za3k/transcribe) | 2020-11-17 | a quick-and-dirty interface for transcribing scanned documents.
 | works | [vlad the remailer](https://github.com/za3k/vlad) | 2013-09-05 | a bot which emails users once a day asking them what they did. based around a similar system in use at google.
 | works | [watch-to-file](https://github.com/za3k/short-programs#watch-to-file) | 2019-03-27 | analagous to the linux command 'watch', but outputs to a file. periodically runs a program and saves the output to a file.
@@ -34,6 +33,7 @@ software i've written. most has extensive documentation if you click through the
 | works | [roll](https://github.com/za3k/short-programs#roll) | 2021-02-23 | roll dungeons and dragons dice (ex 4d6+3)
 | works | [rpi-setup](https://github.com/za3k/rpi-setup) | 2020-04-18 | set up a raspberry pi to be bootable. works headless for several pi versions.
 | works | [rtmux](https://github.com/za3k/short-programs#rtmux) | 2016-03-20 | ssh into another computer and run tmux. probably my most frequently run program.
+| works | [scan-organizer](https://github.com/za3k/scan-organizer) | 2022-07-22 | my process for sorting scans. useful, but mostly for me. buggy.
 | works | [sum](https://github.com/za3k/short-programs) | 2021-06-05 | add a list of numbers. there's no standard program to do it.
 | alpha | [vim-leaves](https://github.com/za3k/vim-leaves) | 2017-04-30 | a vim plugin for working with fixed-size, monospace sheets of paper.
 | alpha | [volcano](https://github.com/za3k/volcano) | 2013-02-05 | a simple roguelike written in python. not too fun.
@@ -47,4 +47,5 @@ a complete list is on [github](https://github.com/za3k).
 |--------|---------|---------|-------------|
 | defunct | [forgetio](https://github.com/za3k/forgetio) | 2016-04-26 | a public sms message service useful for psychological studies
 | running | [moreorcs](https://github.com/za3k/moreorcs) | 2019-03-18 | generate orc-themed throwaway email addresses
+| running | [tilde.za3k.com](https://tilde.za3k.com)     | 2021-07-21 | free public shell server
 | running | [za3k.com](https://github.com/za3k/za3k.com) | 2021-06-03 | this site
