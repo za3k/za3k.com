@@ -1,5 +1,7 @@
-a guide to x86 and x86-64 assembly
-by za3k
+[za3k](/) > drafts > a guide to x86 and x86-64 assembly
+
+Author: za3k
+Status: draft in progress
 
 Source list:
 - "Beginning X64 Assembly Programming" (on google books). Mostly the "Hello world" program.
@@ -9,6 +11,8 @@ Source list:
 - [x86_64 NASM Cheat Sheet](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html)
 - [x86 Cheat Sheet](https://www.bencode.net/blob/nasmcheatsheet.pdf (x86))
 - [Interfacing with Linux](https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux)
+
+Thanks to muurkha and #swhack on libera for help.
 
 ## x86 reference
 TODO: Registers, mov
@@ -26,25 +30,27 @@ Based on NASM 2.15.05.
 ### Chapter 1: What is NASM?
 NASM works on x86 and x86-64 only.
 ### Chapter 2: Command line syntax
-`nasm -f elf myfile.asm`
-Basic use. Generates a elf file called `myfile.o`
+
+`nasm -f elf myfile.asm`: Basic use. Generates a elf file called `myfile.o`
 
 Common formats:
-    - `bin` (default)
-    - `elf32` (for x86)
-    - `elf64` (for x86-64)
+  - `bin` (default)
+  - `elf32` (for x86)
+  - `elf64` (for x86-64)
 
 `nasm -f elf myfile.asm -o myfile -l myfile.lst`
-`-o myfile`: Output file is `myfile`, not the default `myfile.o`
-`-l myfile.lst`: Generate a listing.
-    `14 00000000 B801000000                  mov rax, 1      ; 1 = 'write' syscall`
+
+- `-o myfile`: Output file is `myfile`, not the default `myfile.o`
+- `-l myfile.lst`: Generate a listing. Example listing line below
+
+        14 00000000 B801000000                  mov rax, 1      ; 1 = 'write' syscall`
         A  B        C                           D               E
         \  address  machine code                Assembly        Comment in .asm
         ---Line number
-    Example listing line.
-`-w+float`, `-w-float`: disable or enable a class of warning
-`-i/usr/share/include`: Add a search path for the `%include` directive 
-Chapter 3: The NASM language
+
+- `-w+float`, `-w-float`: disable or enable a class of warning
+- `-i/usr/share/include`: Add a search path for the `%include` directive 
+### Chapter 3: The NASM language
 The basic format of a NASM line is
 `label:    instruction operands        ; comment`
 NASM lines are designed to be assembled pretty much independently. For example, the exact type of variables declared elsewhere does not influence the generated code. Obviously, references to labels are filled in, but for example the type of jump (local vs long jump) must be supplied by the programmer.
