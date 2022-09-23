@@ -1,13 +1,14 @@
-food: 5952
-{'Fr': 884, 'Mo': 838, 'Sa': 831, 'Su': 865, 'Th': 838, 'Tu': 847, 'We': 877}
-{2018: 13, 2019: 41, 2020: 1895, 2021: 2748, 2022: 1255}
-[('0/day', 802),
+food: 5981
+average: 3.47
+{'Fr': 888, 'Mo': 844, 'Sa': 834, 'Su': 865, 'Th': 843, 'Tu': 853, 'We': 882}
+{2018: 13, 2019: 41, 2020: 1895, 2021: 2748, 2022: 1284}
+[('0/day', 796),
  ('1/day', 62),
  ('2/day', 45),
- ('3/day', 62),
- ('4/day', 95),
- ('5/day', 82),
- ('6/day', 113),
+ ('3/day', 63),
+ ('4/day', 96),
+ ('5/day', 84),
+ ('6/day', 115),
  ('7/day', 118),
  ('8/day', 90),
  ('9/day', 97),
@@ -19,7 +20,7 @@ food: 5952
  ('15/day', 1),
  ('16/day', 1)]
 [('12am', 0, 179),
- ('01am', 1, 112),
+ ('01am', 1, 113),
  ('02am', 2, 63),
  ('03am', 3, 41),
  ('04am', 4, 10),
@@ -28,20 +29,20 @@ food: 5952
  ('07am', 7, 6),
  ('08am', 8, 15),
  ('09am', 9, 29),
- ('10am', 10, 64),
- ('11am', 11, 175),
+ ('10am', 10, 66),
+ ('11am', 11, 177),
  ('12pm', 12, 287),
- ('01pm', 13, 367),
- ('02pm', 14, 445),
+ ('01pm', 13, 369),
+ ('02pm', 14, 448),
  ('03pm', 15, 532),
- ('04pm', 16, 538),
- ('05pm', 17, 579),
- ('06pm', 18, 548),
- ('07pm', 19, 486),
- ('08pm', 20, 413),
- ('09pm', 21, 418),
- ('10pm', 22, 376),
- ('11pm', 23, 283)]
+ ('04pm', 16, 544),
+ ('05pm', 17, 582),
+ ('06pm', 18, 549),
+ ('07pm', 19, 488),
+ ('08pm', 20, 416),
+ ('09pm', 21, 420),
+ ('10pm', 22, 377),
+ ('11pm', 23, 284)]
 {'2018-01': 'xxx',
  '2018-02': 'xx',
  '2018-03': '',
@@ -98,4 +99,4 @@ food: 5952
  '2022-06': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  '2022-07': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  '2022-08': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
- '2022-09': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}
+ '2022-09': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}

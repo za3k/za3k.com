@@ -1,25 +1,26 @@
-sleep|slept: 1568
-{'Fr': 235, 'Mo': 232, 'Sa': 259, 'Su': 223, 'Th': 255, 'Tu': 223, 'We': 239}
-{2018: 49, 2019: 221, 2020: 460, 2021: 483, 2022: 355}
-[('0/day', 579),
- ('1/day', 833),
- ('2/day', 233),
+sleep|slept: 1576
+average: 0.915
+{'Fr': 236, 'Mo': 233, 'Sa': 260, 'Su': 225, 'Th': 256, 'Tu': 224, 'We': 240}
+{2018: 49, 2019: 221, 2020: 460, 2021: 483, 2022: 363}
+[('0/day', 572),
+ ('1/day', 839),
+ ('2/day', 234),
  ('3/day', 54),
  ('4/day', 17),
  ('5/day', 5),
  ('7/day', 2)]
 [('12am', 0, 137),
- ('01am', 1, 110),
- ('02am', 2, 223),
- ('03am', 3, 223),
- ('04am', 4, 223),
- ('05am', 5, 148),
+ ('01am', 1, 111),
+ ('02am', 2, 224),
+ ('03am', 3, 225),
+ ('04am', 4, 225),
+ ('05am', 5, 149),
  ('06am', 6, 79),
  ('07am', 7, 24),
  ('08am', 8, 21),
  ('09am', 9, 33),
  ('10am', 10, 44),
- ('11am', 11, 69),
+ ('11am', 11, 70),
  ('12pm', 12, 62),
  ('01pm', 13, 46),
  ('02pm', 14, 42),
@@ -88,4 +89,4 @@ sleep|slept: 1568
  '2022-06': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  '2022-07': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  '2022-08': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
- '2022-09': 'xxxxxxxxxxxxxxxxxxxx'}
+ '2022-09': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'}

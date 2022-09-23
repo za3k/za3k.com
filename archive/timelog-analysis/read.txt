@@ -1,19 +1,20 @@
-bk|book|read: 2122
-{'Fr': 415, 'Mo': 311, 'Sa': 281, 'Su': 257, 'Th': 338, 'Tu': 302, 'We': 310}
-{2018: 81, 2019: 485, 2020: 708, 2021: 510, 2022: 338}
-[('0/day', 808),
- ('1/day', 362),
- ('2/day', 259),
- ('3/day', 128),
+read|bk|book: 2140
+average: 1.24
+{'Fr': 420, 'Mo': 312, 'Sa': 281, 'Su': 259, 'Th': 343, 'Tu': 305, 'We': 312}
+{2018: 81, 2019: 485, 2020: 708, 2021: 510, 2022: 356}
+[('0/day', 802),
+ ('1/day', 363),
+ ('2/day', 261),
+ ('3/day', 129),
  ('4/day', 81),
- ('5/day', 45),
+ ('5/day', 47),
  ('6/day', 19),
  ('7/day', 15),
  ('8/day', 6),
  ('9/day', 2),
  ('10/day', 1),
  ('14/day', 1)]
-[('12am', 0, 127),
+[('12am', 0, 129),
  ('01am', 1, 73),
  ('02am', 2, 50),
  ('03am', 3, 40),
@@ -24,19 +25,19 @@ bk|book|read: 2122
  ('08am', 8, 4),
  ('09am', 9, 13),
  ('10am', 10, 23),
- ('11am', 11, 67),
- ('12pm', 12, 133),
- ('01pm', 13, 140),
- ('02pm', 14, 164),
+ ('11am', 11, 69),
+ ('12pm', 12, 134),
+ ('01pm', 13, 143),
+ ('02pm', 14, 165),
  ('03pm', 15, 182),
- ('04pm', 16, 189),
+ ('04pm', 16, 191),
  ('05pm', 17, 165),
- ('06pm', 18, 153),
+ ('06pm', 18, 155),
  ('07pm', 19, 141),
- ('08pm', 20, 134),
+ ('08pm', 20, 137),
  ('09pm', 21, 129),
  ('10pm', 22, 124),
- ('11pm', 23, 131)]
+ ('11pm', 23, 133)]
 {'2018-01': 'xxxxxxxxxx',
  '2018-02': 'xxxxxxxxx',
  '2018-03': 'xxxxxxxxxxxxxxx',
@@ -93,4 +94,4 @@ bk|book|read: 2122
  '2022-06': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  '2022-07': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
  '2022-08': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
- '2022-09': 'xxxxxxxxxxxxxxxxxxxxxxxxx'}
+ '2022-09': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}
