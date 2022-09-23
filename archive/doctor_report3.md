@@ -55,7 +55,7 @@ All tests, labs etc should be attached.
 - **2014**: Adult vaccinations due to Vietnam trip. Typhoid, Japanese Encephalitis, Rabies, Tdap
 - Skip
 - **2018-10-17**: Got in a fight, eye injury. Glasses lens popped out of frame and hit eye.
-- **(2018)**: Treatment for eye injury (trauma). Dignosis of glaucoma, emergency surgery. Recovered fine, still seeing optometrist twice a year. Developing cataract in one eye.
+- **(2018)**: Treatment for eye injury (trauma) with Dr. Leonardo Dacanay, Bellevue Eye Medical. Dignosis of glaucoma, emergency surgery. Recovered fine, still seeing optometrist twice a year. Developing cataract in one eye.
 - **2019-03-29**: Began physical therapy for ankle issues (repeated sprains)
 - **2019-04-15**: End physical therapy for ankle.
 - **2019-05-07**: OneMedical Doctor appt.
@@ -101,6 +101,6 @@ All tests, labs etc should be attached.
 - **2022-04-19**: Mercy doctor visit with Dr. Hernandez, followup. Anxiety and depression improved. Referral to gastro, podiatrist. Doctor re-prescribed atorvastatin 40mg daily based on lipid blood test.
     blood pressure 128/82
     pulse 93
-- **2022-??-??**: Appointment with Dr. Vickers, orthopedic surgeon. X-rays show on of my ankle implants has worked its way out.
-- **2022-??-??**: Pre-op appointment with Dr. Jones (new GP).
+- **2022-05-24**: Appointment with Dr. Vickers, orthopedic surgeon. X-rays show on of my ankle implants has worked its way out.
+- **2022-06-09**: Pre-op appointment with Dr. Jones (new GP).
 - **2022-06-22**: Surgery by Dr. Vickers at Mercy Health Ambulatory Surgery center in Anderson, Ohio. IV anesthetic (unknown). Surgery on right ankle to remove sinus tarsi implant.
