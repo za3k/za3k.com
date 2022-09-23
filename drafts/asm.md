@@ -8,9 +8,9 @@ Source list:
 - On linux, /usr/include/asm/unistd_32.h and /usr/include/asm/unistd_64.h for the Linux ABI call numbers.
 - [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux](https://www.muppetlabs.com/~breadbox/software/tiny/teensy.html): Note, use -sn or -sN with `ld` today to avoid page alignment bloat.
 - [Official docs](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc2.html)
+- [Interfacing with Linux](https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux)
 - [x86_64 NASM Cheat Sheet](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html)
 - [x86 Cheat Sheet](https://www.bencode.net/blob/nasmcheatsheet.pdf (x86))
-- [Interfacing with Linux](https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux)
 
 Thanks to muurkha and #swhack on libera for help.
 
@@ -19,8 +19,90 @@ TODO: Registers, mov
 [x86 Cheat Sheet](https://www.bencode.net/blob/nasmcheatsheet.pdf (x86))
 
 ## x86-64 reference
-TODO: Registers, mov
-[x86_64 NASM Cheat Sheet](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html)
+TODO: mov
+
+|Name | asm notes       | C ABI     | C ABI | Linux ABI | Linux ABI | 32-bit | 16-bit | 8-bit |
+|-----|-----------------|-----------|-------|-----------|-----------|--------|--------|-------|
+|rax  | values returned | scratch   | ret   | scratch   | ret       | eax    | ax     | ah al |
+|rcx  | can be counter  | scratch   | arg 4 | scratch   |           | ecx    | cx     | ch cl |
+|rdx  |                 | scratch   | arg 3 | preserved | arg 3     | edx    | dx     | dh dl |
+|rbx  |                 | preserved |       | preserved |           | ebx    | bx     | bh bl |
+|rsp  | top of stack    | preserved |       | preserved |           | esp    | sp     | spl   |
+|rbp  | (old sp)        | preserved |       | preserved |           | ebp    | bp     | bpl   |
+|rsi  |                 | scratch   | arg 2 | preserved | arg 2     | esi    | si     | sil   |
+|rdi  |					| scratch   | arg 1 | preserved | arg 1     | edi    | di     | dil   |
+|r8   |                 | scratch   | arg 5 | preserved | arg 5     | r8d    | r8w    | r8b   |
+|r9   |                 | scratch   | arg 6 | preserved | arg 6     | r9d    | r9w    | r9b   |
+|r10  |                 | scratch   |       | preserved | arg 4     | r10d   | r10w   | r10b  |
+|r11  |                 | scratch   |       | scratch   |           | r11d   | r11w   | r11b  |
+|r12  |                 | preserved |       | preserved |           | r12d   | r12w   | r12b  |
+|r13  |                 | preserved |       | preserved |           | r13d   | r13w   | r13b  |
+|r14  |                 | preserved |       | preserved |           | r14d   | r14w   | r14b  |
+|r15  |                 | preserved |       | preserved |           | r15d   | r15w   | r15b  |
+
+Parts of a 64-bit register
+
+```
+[76543210 76543210 76543210 76543210 76543210 76543210 76543210 76543210] bits
+[                                  RAX                                  ]
+                                    [                EAX                ]                 
+                                                      [       AX        ]
+                                                      [  AH    ][   AL  ]
+```
+
+Register sizes
+
+| C datatype | Bits | Bytes | Register | NASM allocate |
+|------------|------|-------|----------|---------------|
+| char       | 8    | 1     | al       | db            |
+| short      | 16   | 2     | ax       | dw            |
+| int        | 32   | 4     | eax      | dd            |
+| long       | 64   | 8     | rax      | dq            |
+
+Register moves
+
+| from       | to 64 bit rcx | to 32 bit ecx | to 16 bit cx | to 8 bit cl | Notes
+|------------|---------------|---------------|--------------|-------------|
+| 64 bit rax | mov rax,rcx   | movsxd rax,ecx| movsx rax,cx | movsx rax,cl| Writes to whole register
+| 32 bit eax | mov eax,ecx   | mov eax,ecx   | movsx eax,cx | movsx eax,cl| Top half of destination gets zeroed
+| 16 bit ax  | mov ax,cx     | mov ax,cx     | mov ax,cx    | movsx ax,cl | Only affects low 16 bits, rest unchanged
+| 8 bit al   | mov al,cl     | mov al,cl     | mov al,cl    | mov al,cl   | Only affects low 8 bits, rest unchanged
+
+Linux syscall
+ 
+| system call number | 1st param | 2nd param | 3rd param | 4th param | 5th param | 6th param | result |
+|--------------------|-----------|-----------|-----------|-----------|-----------|-----------|--------|
+| rax                | rdi       | rsi       | rdx       | r10       | r8        | r9        | rax    |
+
+Linux C ABI (integers)
+
+| 1st param | 2nd param | 3rd param | 4th param | 5th param | 6th param | 7+ params | result |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|--------|
+| rdi       | rsi       | rdx       | rcx       | r8        | r9        | stack     | rax    |
+
+| instruction | result |
+|-------------|--------|
+| MOV dest,src| dest = src
+| CALL func   | call a function
+| RET         | return from a function
+| SYSCALL     | call an OS function
+| PUSH src    | push onto stack
+| POP dest    | pop from stack
+| ADD a,b     | a = a + b
+| MUL a,b     | a = a * b
+| AND a,b     | a = a & b
+| OR a,b      | a = a & b
+| DIV src     | Divide rax by src. Put the quotient in rax, and the remainder in rdx. rdx MUST be zero on call or you get SIGFPE
+| SHR val,bits| val = val >> bits; bits can also be rcx (only)
+| CMP a,b     | Compare a and b. Used for conditional jumps
+| JMP label   | Unconditional jump
+| JL label    | Jump if less than (signed)
+| JLE label   | Jump if less than or equal (signed)
+| JG label    | Jump if greater than (signed)
+| JGE label   | Jump if greater than or equal (signed)
+| JNE label   | Jump if not equal
+| JE label    | Jump if equal
+| RDRAND      | random number (16,32,64-bit only)
 
 ## x86 and x86-64 ISA
 instructions - are they that different? combine maybe
@@ -241,6 +323,7 @@ See later section for syscall to Linux kernel
 
 ### Chapter 12: Writing 64-bit Code (Unix, Win64)
 **C ABI for Unix**
+- Stack should be 16-byte aligned
 - The first six arguments are passed in RDI, RSI, RDX, RCX, R8, and R9.
 - All the above, plus RAX, R10, and R11 are "scratch" registers destroyed by function calls and don't need to be saved.
 - Additional arguments are passed on the stack.
