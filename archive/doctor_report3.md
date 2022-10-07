@@ -11,6 +11,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 - Developing cataract in right eye (from eye trauma)
 - Hemorrhoids (usually internal, external very rare). internal is doctor's guess
 - High cholesterol
+- Seasonal depression
 
 ### Past corrected issues:
 - Pronating ankles
@@ -19,7 +20,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 - (probably fixed) Repeated ankle sprains and injuries in both ankles
 
 ###Common Questions
-- **Current medications**: Atorvastatin 40mg daily
+- **Current medications**: Atorvastatin 40mg daily, Lexapro
 - **Current supplicants**: Daily multivitamin, occasional vit D/vit C supplement.
 - **Past supplements**: 0.5tsp piracetam daily, 1tsp choline bitartrate daily, 100-200mg magnesium daily
 - **Medical Allergies**: No known medical allergies. Nitrous oxide has no effect
@@ -34,7 +35,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 - Mother - alive, healthy
     - Mother's mother - alive, some heart arhythmia, unknown add'l problems
     - Mother's father - alive, quadruple bypass
-- Father - alive, pretty healthy. Parkinsons, overweight.
+- Father - alive, pretty healthy. Parkinsons, overweight, some heart issues.
     - Generally father's side of the family are smokers and overweight. Lung cancer, heart problems, diabetes common but I don't know who's related by blood.
     - Father's father - dead at young age (30-40) from medical problem, don't know what
     - Father's mother - dead, lung cancer (smoker)
@@ -98,9 +99,10 @@ All tests, labs etc should be attached.
 - **2022-03-15**: Hep C negative (attached)
 - **2022-03-15**: Comprehensive metabolic - electrolytes fairly normal (attached)
 - **2022-03-15**: Lipids (attached) - cholesterol high. Doctor recommends lifestyle changes by phone.
-- **2022-04-19**: Mercy doctor visit with Dr. Hernandez, followup. Anxiety and depression improved. Referral to gastro, podiatrist. Doctor re-prescribed atorvastatin 40mg daily based on lipid blood test.
+- **2022-04-19**: Mercy doctor visit with Dr. Hernandez, followup. Anxiety and depression improved. Diagnosis of major depressive episode. Referral to gastro, podiatrist. Doctor re-prescribed atorvastatin 40mg daily based on lipid blood test.
     blood pressure 128/82
     pulse 93
 - **2022-05-24**: Appointment with Dr. Vickers, orthopedic surgeon. X-rays show on of my ankle implants has worked its way out.
 - **2022-06-09**: Pre-op appointment with Dr. Jones (new GP).
 - **2022-06-22**: Surgery by Dr. Vickers at Mercy Health Ambulatory Surgery center in Anderson, Ohio. IV anesthetic (unknown). Surgery on right ankle to remove sinus tarsi implant.
+- **2022-10-07**: Appointment with Dr. Rebecca Jones (GP) at Anderson Family Health. Prescribed Lexapro (escitalopram) for seasonal depression. Blood test performed for lipids, chickenpox antibodies.
