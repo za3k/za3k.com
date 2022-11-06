@@ -2,6 +2,14 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2022-11-05: Hack-A-Day: Hack-A-Homepage [blog](https://blog.za3k.com/hack-a-day-hack-a-homepage/) [demo](https://tilde.za3k.com/hackaday/homepage/v/zachary) [source](https://github.com/za3k/day01_homepage)
+- 2022-11-05: Hack-A-Day: Hack-A-Link [blog](https://blog.za3k.com/hack-a-day-hack-a-link/) [demo](https://tilde.za3k.com/hackaday/link) [source](https://github.com/za3k/day02_link)
+- 2022-11-05: Hack-A-Day: Hack-A-Paste [blog](https://blog.za3k.com/hack-a-day-hack-a-paste/) [demo](https://tilde.za3k.com/hackaday/paste) [code](https://github.com/za3k/day05_paste)
+- 2022-11-04: Hack-A-Day: Hack-A-Chat [blog](https://blog.za3k.com/hack-a-day-hack-a-chat/) [demo](https://tilde.za3k.com/hackaday/chat/) [code](https://github.com/za3k/day04_chat)
+- 2022-11-03: Hack-A-Day: Hack-A-Blog [blog](https://blog.za3k.com/hack-a-day-hack-a-blog/) [demo](https://tilde.za3k.com/hackaday/blog/) [code](https://github.com/za3k/day03_blog)
+- 2022-10-12: e-ink "laptop" [blog](https://blog.za3k.com/e-ink-laptop/)
+- 2022-09-23: Timelog Analysis [blog](https://blog.za3k.com/timelog-analysis/)
+- 2022-09-22: qr-backup v1.1 [blog](https://blog.za3k.com/qr-backup-v1-1/) [link](https://github.com/za3k/qr-backup)
 - 2022-08-18: tty audit logs [blog](https://blog.za3k.com/tty-audit-logs/) [link](https://github.com/za3k/short-programs#record-shell)
 - 2022-08-11: Is Rick and Morty Out? (Season 6) [blog](https://blog.za3k.com/is-rick-and-morty-out-season-6/) [link](http://isrickandmortyout.com/)
 - 2022-08-10: 20 minute interruptions [blog](https://blog.za3k.com/20-minute-interruptions/)
