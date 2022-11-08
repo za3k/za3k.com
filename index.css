@@ -84,10 +84,6 @@ section > span {
     margin-left: 20px;
 }
 
-section > h1 {
-    font-style: small-caps;
-}
-
 table {
   border-collapse: separate;
 }
