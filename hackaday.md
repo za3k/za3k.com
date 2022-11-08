@@ -11,4 +11,5 @@ project requests welcome. feature requests will be directed to /dev/null. pull r
 3. **Nov 05**: I made Hack-A-[Paste](https://tilde.za3k.com/hackaday/paste) ([source](https://github.com/za3k/day05_paste))
 4. **Nov 05**: I made Hack-A-[Link](https://tilde.za3k.com/hackaday/link) ([source](https://github.com/za3k/day02_link))
 5. **Nov 05**: I made Hack-A-[Homepage](https://tilde.za3k.com/hackaday/homepage) ([source](https://github.com/za3k/day01_homepage))
-
+5. **Nov 06**: I made Hack-An-[Icecube](https://tilde.za3k.com/hackaday/icecube) ([source](https://github.com/za3k/day07_icecube)) (a failure)
+5. **Nov 07**: I made Hack-An-[Asteroid](https://tilde.za3k.com/hackaday/asteroid) ([source](https://github.com/za3k/day07_asteroid))
