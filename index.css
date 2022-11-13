@@ -1,5 +1,4 @@
-
-@media only screen and (max-width: 600px){
+@media (max-width: 800px){
     body {
         column-count: 1;
     }
@@ -8,7 +7,7 @@
         margin: 10px;
     }
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     body {
         column-width: 400px;
         -webkit-column-width: 400px;
