@@ -2,6 +2,12 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2022-11-11: Hack-A-Day: Hack-A-Tile [blog](https://blog.za3k.com/hack-a-day-hack-a-tile/) [demo](https://tilde.za3k.com/hackaday/tile/)
+- 2022-11-10: Hack-A-Day: Hack-A-Machine [blog](https://blog.za3k.com/hack-a-day-hack-a-machine/) [demo](https://tilde.za3k.com/hackaday/machine/)
+- 2022-11-09: Hack-A-Day: Hack-A-Mandelbrot [blog](https://blog.za3k.com/hack-a-day-hack-a-mandelbrot/) [demo](https://tilde.za3k.com/hackaday/mandelbrot/)
+- 2022-11-08: Hack-A-Day: Hack-A-Dictionary [blog](https://blog.za3k.com/hack-a-day-hack-a-dictionary/) [demo](https://tilde.za3k.com/hackaday/dictionary/)
+- 2022-11-07: Hack-A-Day: Hack-An-Asteroid [blog](https://blog.za3k.com/hack-a-day-hack-an-asteroid/) [demo](https://tilde.za3k.com/hackaday/asteroid/)
+- 2022-11-06: Hack-A-Day: Hack-An-Icecube (failure) [blog](https://blog.za3k.com/hack-a-day-hack-an-icecube-failure/) [demo](https://tilde.za3k.com/hackaday/icecube/)
 - 2022-11-05: Hack-A-Day: Hack-A-Homepage [blog](https://blog.za3k.com/hack-a-day-hack-a-homepage/) [demo](https://tilde.za3k.com/hackaday/homepage/v/zachary) [source](https://github.com/za3k/day01_homepage)
 - 2022-11-05: Hack-A-Day: Hack-A-Link [blog](https://blog.za3k.com/hack-a-day-hack-a-link/) [demo](https://tilde.za3k.com/hackaday/link) [source](https://github.com/za3k/day02_link)
 - 2022-11-05: Hack-A-Day: Hack-A-Paste [blog](https://blog.za3k.com/hack-a-day-hack-a-paste/) [demo](https://tilde.za3k.com/hackaday/paste) [code](https://github.com/za3k/day05_paste)
