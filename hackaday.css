@@ -17,12 +17,12 @@
     display: block;
 }
 .hack.cool {
-    order: -1;
-}
-.hack:last-child {
     order: -2;
 }
-.hack.cool > *:first-child::before, .hack:last-child > *:first-child::before {
+.hack:first-child {
+    order: -1;
+}
+.hack.cool > *:first-child::before, .hack:first-child > *:first-child::before {
     content: '';
     position: absolute;
     background:url("img/star.svg");
@@ -38,7 +38,7 @@
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 100%;
 }
-.hack:last-child > *:first-child::before {
+.hack:first-child > *:first-child::before {
     transform: scale(0.5) translate(-5px, -5px);
     filter: hue-rotate(180deg);
 }
