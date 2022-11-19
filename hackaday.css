@@ -1,0 +1,86 @@
+.hacks {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    max-width:60%;
+    flex: 1 1 auto;
+}
+.hack {
+    display: inline-block;
+    width: 202px;
+    margin: 20px;
+    text-align: center;
+    margin: 15px 30px 15px 30px;
+}
+.hack > * {
+    display: block;
+}
+.hack.cool {
+    order: -1;
+}
+.hack:last-child {
+    order: -2;
+}
+.hack.cool > *:first-child::before, .hack:last-child > *:first-child::before {
+    content: '';
+    position: absolute;
+    background:url("img/star.svg");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin-left: -20px;
+    margin-top: -20px;
+    z-index: 1;
+    display: block;
+    filter: hue-rotate(90deg);
+    border: 1px solid rgba(1, 1, 1, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100%;
+}
+.hack:last-child > *:first-child::before {
+    transform: scale(0.5) translate(-5px, -5px);
+    filter: hue-rotate(180deg);
+}
+
+.thumb > img {
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+.hack .name {
+    font-size: x-large;
+}
+
+.hack .date {
+    /*display: none;*/
+    font-size: x-small;
+    text-align: center;
+    color: grey;
+}
+.hack .date::before {
+    content: "Nov ";
+}
+.hack .date::after {
+    content: ", 2022";
+}
+
+.hack .description {
+    margin-top: 10px;
+    font-style: italic;
+    display: inline-block;
+    /*
+    border: 1px solid rgba(0,0,1,0.5);
+    border-radius: 15px;
+    background: rgba(100, 100, 255, 0.2);
+    box-shadow: 2px 2px 10px rgba(1, 1, 1, 0.3);
+    padding: 5px 10px 5px 10px;
+    max-width: 60%;
+    */
+}
+
+a.blog, a.demo, a.source { /* Display source links only if demos break */
+    display: none;
+}
