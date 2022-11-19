@@ -92,6 +92,23 @@
     */
 }
 
-a.blog, a.demo, a.source { /* Display source links only if demos break */
+.links a {
+    font-size: x-small;
+    text-decoration: none;
+}
+a.demo {
     display: none;
+}
+a.blog, a.demo, a.source { /* Display source, blog links only if demos break */
+    display: none;
+}
+
+a.demo::before {
+    content: "demo";
+}
+a.source::before {
+    content: "code";
+}
+a.blog::before {
+    content: "blog";
 }
