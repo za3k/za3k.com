@@ -44,6 +44,17 @@
     filter: hue-rotate(180deg);
 }
 
+.hack.fail > *:first-child::before {
+    content: "X";
+    color: rgba(255, 70, 70, 0.85);
+    text-decoration: none;
+    font-size: 200px;
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    line-height: 100%;
+}
+
 .thumb > img {
     border: 1px solid lightgrey;
     border-radius: 15px;
