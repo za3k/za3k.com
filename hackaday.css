@@ -1,3 +1,17 @@
+.hack-links {
+    margin: 0 auto;
+    display: block;
+    width: 242px;
+    height: 1.5em;
+    /*border: 1px solid;*/
+    text-align: center;
+}
+.hack-links a {
+    font-size: 14pt;
+    text-decoration: none;
+    margin: 10px;
+}
+
 .hacks {
     width: max(242px, 60%); /* 242px is the fixed-size element including margins */
     margin: 0 auto;
