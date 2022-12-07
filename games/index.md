@@ -6,6 +6,12 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
+| [doodle rpg](https://tilde.za3k.com/doodlerpg/)                          | 2022-12-03 | computer             | low        | unlimited    | beta     | yes           | draw and explore a universe
+| [hack-an-adventure](https://tilde.za3k.com/hackaday/adventure/)          | 2022-11-29 | computer             | low        | 1            | yes      | yes           | listen as a premade story is revealed, and doodle what happens.
+| [hack-a-snake](https://tilde.za3k.com/hackaday/snake/)                   | 2022-11-27 | computer             | low        | 1            | yes      | maybe         | play snake
+| [hack-a-hell](https://tilde.za3k.com/hackaday/hell/)                     | 2022-11-22 | computer             | low        | 1            | yes      | yes           | avoid bullets and shoot the music visualizer
+| [hack-a-minigame](https://tilde.za3k.com/hackaday/mini/)                 | 2022-11-16 | computer             | mid        | 1            | yes      | maybe         | save and load a snake game to win
+| [hack-an-asteroid](https://tilde.za3k.com/hackaday/asteroid/)            | 2022-11-07 | computer             | low        | 1            | yes      | maybe         | asteroids
 | [doodle adventures](doodle_adventures)                                   | 2021-03-29 | drawing              | low        | 1-6          | no       | yes           | listen as a premade story is revealed, and doodle what happens.
 | [in media res](in_media_res)                                             | 2022-02-25 | storytelling         | low        | 3+           | yes      | maybe         | 3+ people tell a story
 | [logic potions](logic_potions)                                           | 2021-03-13 | board                | high       | 2-4          | yes      | maybe         | a potion-brewing game. not about logical deduction, but about logical deduction clues themselves
@@ -29,6 +35,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | complexity | players      | tested?  | recommended?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
+| [hack-a-tile](https://tilde.za3k.com/hackaday/tile/)                     | 2022-11-11 | computer             | low        | 1            | yes      | maybe         | place tiles
 | [doubledore](doubledore)                                                 | 2021-06-06 | card                 | low        | 2            | yes      | no            | a tower-defense card game. when you defeat a monster, it attacks your opponent instead.
 | [stupid russia](stupid_russia)                                           | 2017-10-29 | party, competitive   | mid-high   | 10+, plus GM | yes      | no            | spy directors make deals with each other, trying to report more agents than anyone else, without getting their own agents executed.
 | [colony on the moon](colony)                                             | 2016-07-05 | computer (minecraft) | high       | 1+           | alpha    | no            | a minecraft modpack. Based around providing reductionist components and having the player do their own automation.
