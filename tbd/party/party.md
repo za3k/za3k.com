@@ -4,13 +4,13 @@
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
-    margin: 10px;
+    padding: 10px;
 }
 th {
-    background-color: yellow;
+    background-color: gold;
 }
 tr:nth-child(even) {
-    background-color: lightyellow;
+    background-color: #fffff5;
 }
 img {
     width: 200px;
@@ -18,8 +18,6 @@ img {
 </style>
 
 # Party
-
-Players get access to special background info.
 
 | Picture                           | Character       | Race       | Class     | Subclass         | Public info           |
 |-----------------------------------|-----------------|------------|-----------|------------------|-----------------------|
