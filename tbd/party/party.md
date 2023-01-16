@@ -1,5 +1,15 @@
 [za3k](/) > [tbd](/tbd/) > tbd party
 
+<style>
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+img {
+    width: 200px;
+}
+</style>
+
 # Party
 
 Players get access to special background info.
