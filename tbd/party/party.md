@@ -4,6 +4,13 @@
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
+    margin: 10px;
+}
+th {
+    background-color: yellow;
+}
+tr:nth-child(even) {
+    background-color: lightyellow;
 }
 img {
     width: 200px;
