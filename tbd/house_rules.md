@@ -3,7 +3,7 @@
 # House Rules
 - See [Character Creation](build) rules for allowed classes, races, and gods.
 - Mostly we're using rules as written, nothing too crazy.
-- We ARE using the optional flanking rule. If two PCs (or enemies) are directly opposite an opponent in melee, they get +2 pon melee to-hit rolls.
+- We ARE using the optional flanking rule. If two PCs (or enemies) are directly opposite an opponent in melee, they get +2 on melee to-hit rolls.
 - We ARE using the optional feat rule.
 - We ARE allowing multiclassing. (But limit of 2 classes.)
 - We ARE NOT using the optional cleave rule.
