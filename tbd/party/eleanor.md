@@ -3,6 +3,8 @@
 # Party
 ## Eleanor
 
+![Eleanor](eleanor.png)
+
 - **Character**: Eleanor
 - **Race**: [Aasimar](http://dnd5e.wikidot.com/aasimar) (Volo p104)
 - **Class**: [Paladin](http://dnd5e.wikidot.com/paladin) 2

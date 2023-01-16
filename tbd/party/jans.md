@@ -3,6 +3,8 @@
 # Party
 ## Jans
 
+![Jans](jans.png)
+
 - **Character**: Jans
 - **Race**: [Human](http://dnd5e.wikidot.com/human) (variant)
 - **Class**: [Psion](https://www.gmbinder.com/share/-LZSNMgmChWNGW979hrj) (online-only) 3, Elemental Mind

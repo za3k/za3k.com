@@ -3,6 +3,8 @@
 # Party
 ## Atka
 
+![Atka](atka.png)
+
 - **Character**: Atka
 - **Race**: [Tiefling](http://dnd5e.wikidot.com/tiefling)
 - **Class**: [Druid](http://dnd5e.wikidot.com/druid) 3, [Circle of Spores](http://dnd5e.wikidot.com/druid:spores) (Tasha's p36)

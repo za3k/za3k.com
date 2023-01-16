@@ -3,6 +3,8 @@
 # Party
 ## Zander
 
+![Zander](zander.png)
+
 - **Character**: Zander
 - **Race**: [Elf](http://dnd5e.wikidot.com/elf)
 - **Class**: [Rogue](https://dnd5e.wikidot.com/rogue) 3, [Swashbuckler](http://dnd5e.wikidot.com/rogue:swashbuckler) (Xanathar p47)
