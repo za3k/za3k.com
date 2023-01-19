@@ -7,3 +7,5 @@ Welcome! If you're reading this you're playing in my online campaign. Session re
 - [Making a character](build)
 - [House rules](house_rules)
 - [Players](party/party)
+- [Gods](gods)
+- [Magic Items, Common](magic_items_common)
