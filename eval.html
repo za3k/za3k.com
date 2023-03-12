@@ -79,6 +79,11 @@ function load_function(func_name) {
 }
 
 $(function() {
+    var hash = window.location.hash.substr(1);
+    if (hash) {
+        $("#premade option[selected]").attr("selected","");
+        $("#premade option[value="+hash+"]").attr("selected","selected");
+    }
     $("#formula").on("input", function() {
         redefine($("#formula").text().trim());
         recalc();
@@ -145,6 +150,21 @@ coupon_collector = function(coupons) {
     return coupons*Math.log(coupons) + 0.577215*coupons + 0.5;
 }
 
+puzzle_hunt = function(lat1, long1, bearing_deg, distance_meter) {
+    const R = 6378100;
+    lat1 = lat1 / 180 * Math.PI;
+    long1 = long1 / 180 * Math.PI;
+    b = bearing_deg / 180 * Math.PI;
+    d_m = distance_meter;
+    var lat2 = Math.asin( Math.sin(lat1)*Math.cos(d_m/R) +
+                    Math.cos(lat1)*Math.sin(d_m/R)*Math.cos(b) );
+    var long2 = long1 + Math.atan2(Math.sin(b)*Math.sin(d_m/R)*Math.cos(lat1),
+                           Math.cos(d_m/R)-Math.sin(lat1)*Math.sin(lat2));
+    lat2 = lat2 / Math.PI * 180;
+    long2 = (long2 / Math.PI * 180 + 540)%360-180;
+    return lat2 + ", " + long2;
+}
+
 </script>
 
 
@@ -208,6 +228,7 @@ label {
         <option value="weight_of_cylinder">Weight of a Cylinder</option>
         <option value="weight_of_sphere">Weight of a Sphere</option>
         <option value="coupon_collector">Coupon Collection (approx)</option>
+        <option value="puzzle_hunt">Puzzle Hunt</option>
     </select>
 <div class="definition"><label>Function</label><pre id="formula" contenteditable="true">
 </pre></div>
