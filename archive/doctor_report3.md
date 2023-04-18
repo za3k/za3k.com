@@ -25,7 +25,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 - **Past supplements**: 0.5tsp piracetam daily, 1tsp choline bitartrate daily, 100-200mg magnesium daily
 - **Medical Allergies**: No known medical allergies. Nitrous oxide has no effect
 - **Standard Allergies**: Mold, Dust mites, Sesame
-- **Vaccines**: 3x COVID-19 (Pfizer, 2021-2021), typhoid (2014), japanese encephalitis (x2, 2014), rabies (x3, 2014), tdap (2014), DTaP(x5, 88-94), Hib (90), IPV OVP (x4, 88-90), MMR (x290-00), TD (03), no varicella (had disease), Hep B (x3, 98-99), Hep A (x2, 98-99), PPD (94)
+- **Vaccines**: 3x COVID-19 (Pfizer, 2021-2021), typhoid (2014), japanese encephalitis (x2, 2014), rabies (x3, 2014), DTaP(x5, 1988-94), Hib (1990), IPV OVP (x4, 1988-90), MMR (x290-00), TD (2003), Hep B (x3, 1998-99), Hep A (x2, 1998-99), PPD (1994), Varicella (2023), TDAP (2014,2023)
 - **Past surgeries**:
     - Two ankle surgeries to correct pronation. Titanium screws inserted.
     - Tonsils removed
@@ -106,3 +106,5 @@ All tests, labs etc should be attached.
 - **2022-06-09**: Pre-op appointment with Dr. Jones (new GP).
 - **2022-06-22**: Surgery by Dr. Vickers at Mercy Health Ambulatory Surgery center in Anderson, Ohio. IV anesthetic (unknown). Surgery on right ankle to remove sinus tarsi implant.
 - **2022-10-07**: Appointment with Dr. Rebecca Jones (GP) at Anderson Family Health. Prescribed Lexapro (escitalopram) for seasonal depression. Blood test performed for lipids, chickenpox antibodies.
+- **??**: First varicella vaccine. Increased lexapro dose to 20mg/day.
+- **2023-01-16**: Appointment with Dr. Rebecca Jones (GP) at Anderson Family Health. Second varicella vaccine, TDAP vaccine.
