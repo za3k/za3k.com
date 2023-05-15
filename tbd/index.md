@@ -5,7 +5,9 @@ Welcome! If you're reading this you're playing in my online campaign. Session re
 
 - [Out of game](about)
 - [Making a character](build)
-- [House rules](house_rules)
+- [NPCs](npcs.html)
+- [House rules (v2)](house_rules.html)
+- [House rules (v1)](house_rules)
 - [Players](party/party)
 - [Gods](gods)
 - [Magic Items, Common](magic_items_common)
