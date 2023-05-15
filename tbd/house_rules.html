@@ -1,0 +1,367 @@
+<html>
+<head>
+    <style>
+        .box {
+            border: 2px solid;
+            padding: 8px 8px 2px 8px;
+            border-radius: 20px;
+            font-size: 10.5pt;
+            font-family: scala_sanslf, sans;
+            font-kerning: none;
+            text-align: justify;
+            column-gap: 20px;
+            page-break-inside: avoid;
+        }
+        .box .box-table {
+            width: fit-content;
+            float: right;
+            margin-left: 8px;
+        }
+        .box.box-table {
+            border: 2px solid;
+            padding: 2px 2px 2px 2px;
+            border-radius: 0;
+        }
+        .box-table table {
+            font-size: 10.5pt;
+            border-collapse: collapse;
+        }
+        .box-table.lookup td:first-child {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: scala_sanslf_bold, scala_sanslf, sans;
+            font-size: 9pt;
+            text-align: center;
+
+            margin-right: 0.2em;
+        }
+        .box-table tr:nth-child(odd) {
+            background-color: rgba(0,0,0,0.06);
+        }
+        .box-table td:nth-child(n+1) {
+            padding: 2px 4px 2px 4px;
+        }
+        .columns-2 {
+            column-count: 2;
+        }
+        .column-break {
+            break-after: column;
+        }
+        .point {
+            position: relative;
+            margin-bottom: 6px;
+            break-inside: avoid-column;
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: scala_sanslf_bold, scala_sanslf, sans;
+            font-size: 9pt;
+
+            position: relative;
+            margin-right: 0.2em;
+        }
+        .point > .title {
+            display: inline-block;
+        }
+        .box > .title {
+            display: block;
+            column-span: all;
+            text-align: center;
+            font-size: 11pt;
+        }
+        .box-table .title {
+            margin-top: 2px;
+        }
+
+        .note {
+            text-transform: lowercase;
+            font-variant: small-caps;
+            font-size: 10.5pt;
+
+            display: inline-block;
+        }
+
+        .reference {
+            font-family: scala_sanslf, sans;
+            text-transform: uppercase;
+            font-variant: small-caps;
+            font-variant-caps: all-small-caps;
+            font-weight: normal;
+            opacity: 50%;
+            font-size: 12pt;
+
+            position: absolute;
+            right: 0;
+            left: auto;
+            top: -0.2em;
+        }
+
+        @font-face {
+            font-family: 'scala_sanslf_bold';
+            src: url('fonts/scalasans-boldlf-webfont.woff2') format('woff2'),
+                url('fonts/scalasans-boldlf-webfont.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'scala_sanslf';
+            src: url('fonts/scalasans-regularlf-webfont.woff2') format('woff2'),
+                url('fonts/scalasans-regularlf-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="/">za3k</a> &gt; <a href="/tbd">tbd</a> &gt; house rules
+
+    <div class="box columns-2" style="width: 690px;">
+        <div class="point">
+            <div class="title">Leveling</div>
+            <div class="note">(general)</div>
+            <br/>
+            We will use milestone-based leveling.
+        </div>
+
+        <div class="point">
+            <div class="title">Feats</div>
+            <div class="note">(general)</div>
+            <div class="reference">(PHB 165)</div>
+            <br/>
+            We <b>are</b> using optional feats.
+        </div>
+
+        <div class="point">
+            <div class="title">Multiclassing</div>
+            <div class="note">(general)</div>
+            <div class="reference">(PHB 163)</div>
+            <br/>
+            We <b>are</b> using the optional multiclassing rules. Limit of 2 classes.
+        </div>
+
+        <div class="point">
+            <div class="title">Less Luck</div>
+            <div class="note">(general)</div>
+            <br/>
+            We <b>are not</b> using inspiration, healing surges, or hero points. The Lucky feat is disallowed.
+        </div>
+
+        <hr>
+
+        <div class="point">
+            <div class="title">Slow healing</div>
+            <div class="note">(healing)</div>
+            <div class="reference">(DMG 267)</div><br/>
+            Characters don't regain hit points at the end of a long rest. Instead, a character can spend Hit Dice to heal at the end of a long rest, just as with a short rest.
+            <br/>
+        </div>
+
+        <div class="point">
+            <div class="title">Slow rests</div>
+            <div class="note">(healing)</div>
+            <div class="reference">(DMG 267)</div>
+            <br/>
+            Each night the party gets a short rest. Long rests are available with a week of rest, or a full day of rest in a base camp or inn.
+        </div>
+
+        <div class="point">
+            <div class="title">Healing above 0 hp</div>
+            <div class="note">(combat, healing)</div>
+            <div class="reference">(house)</div><br/>
+            If a hero is reduced to 0 hp, and heals back to positive hp, they gain one level of exhaustion. This is to prevent "bouncing" between 0hp and 1hp. Exception: Healing with a natural 20 death save. 
+        </div>
+
+        <hr/>
+
+        <div class="point">
+            <div class="title">Flanking</div>
+            <div class="note">(combat)</div>
+            <div class="reference">(DMG 251)</div><br/>
+            If two PCs (or enemies) are directly opposite an opponent in melee, they get advantage on melee to-hit rolls.
+        </div>
+
+        <div class="point">
+            <div class="title">Standard combat otherwise</div>
+            <div class="note">(combat)</div>
+            <br/>
+            We <b>are not</b> using the optional Cleave rule. The optional disarm, mark, overrun, shove, and tumble actions <b>are not</b> available.
+        </div>
+
+        <hr style="display: none;">
+
+        <div class="point">
+            <div class="title">One roll per approach</div>
+            <div class="note">(skill)</div>
+            <br/>
+            If the party is trying to do something, only one roll is needed (perhaps with assistance), not one per player.
+        </div>
+
+        <div class="point">
+            <div class="title">Take 10</div>
+            <div class="note">(skill)</div>
+            <div class="reference">(house)</div><br/>
+            If a character is under no time pressure (ex. setting up camp), they can use a dice roll of 10 (passive score) instead of rolling dice for an ability check.
+        </div>
+
+        <div class="point">
+            <div class="title">Take 20</div>
+            <div class="note">(skill)</div>
+            <div class="reference">(PHB)</div><br/>
+            If there is no penalty for failure (ex. picking an untrapped lock), a character use 20x the usual time to treat a die roll as a 20 for an ability check. Usually 2 minutes.
+        </div>
+
+        <div class="point">
+            <div class="title">Epic-Level ACs and DCs</div>
+            <div class="note">(skill)</div>
+            <div class="reference">(house)</div><br/>
+            In rare circumstances, the DM will not treat a 20 as automatic success (or 1 as automatic failure). Instead, you will reroll and add 20 (or subtract 20).
+        </div>
+
+        <hr>
+
+        <div class="point">
+            <div class="title">Tracking equipment</div>
+            <div class="note">(items)</div>
+            <br/>
+            You are expected to track your own food, water, torches, arrows, encumbrance, and so on.
+        </div>
+
+        <div class="point">
+            <div class="title">Item Crafting</div>
+            <div class="note">(items, magic)</div>
+            <br/>
+            PCs will be able to craft their own magical and non-magic items. Ask the DM for specifics.
+        </div>
+
+        <div class="point">
+            <div class="title">Identification</div>
+            <div class="note">(items, magic)</div>
+            <br/>
+            Magic items are not automatically identified after a rest. Studying an item in-game will give hints as to its use. Many will be easy to identify, others will be harder or need an <i>identify</i> spell.
+        </div>
+
+        <div class="point">
+            <div class="title">Magic Item Charges</div>
+            <div class="note">(items, magic)</div>
+            <br/>
+            Store-bought wands (staffs, etc) do not recharge. Found and crafted items may.
+        </div>
+
+        <div class="point">
+            <div class="title">Magic Interactions</div>
+            <div class="note">(magic)</div>
+            <br/>
+            Multiple magic items or spells may interact in unexpected ways. For example, drinking two potions at once, or casting levitate while on a flying broom.
+        </div>
+
+        <div class="title">
+            House Rules
+        </div>
+
+    </div>
+    <div style="position: relative; height: 180px; margin-top: 15px; width: 708px;">
+    <div class="box box-table lookup" style="width: fit-content; height: 167px; position: absolute;">
+        <table>
+            <tr><td>Level</td><td class="title">Effect <div class="note">(Cumulative)</div></td></tr>
+            <tr><td>1</td><td>Disadvantage on ability checks</td></tr>
+            <tr><td>2</td><td>Speed halved</td></tr>
+            <tr><td>3</td><td>Disadvantage on attacks / saves</td></tr>
+            <tr><td>4</td><td>Hit Point maximum halved</td></tr>
+            <tr><td>5</td><td>Speed reduced to 0</td></tr>
+            <tr><td>6</td><td>Death</td></tr>
+        </table>
+        <div class="title">Exhaustion<div class="reference">(PHB 291)</div></div>
+    </div>
+
+    <div class="box box-table lookup" style="width: fit-content; height: 167px; position: absolute; right: 0px;">
+        <table>
+            <tr><td></td><td class="title">Sell</td><td class="title">Buy</td><td class="title">Craft</td></tr>
+            <tr><td>Common</td><td>50gp</td><td>100gp</td><td>50gp, 2 days, 3rd level</tr>
+            <tr><td>Uncommon</td><td>250gp</td><td>500gp</td><td>250gp, 10 days, 3rd level</tr>
+            <tr><td>Rare</td><td>2,500gp</td><td>5,000gp</td><td>2,500gp, 100 days, 6th level</tr>
+            <tr><td>Very Rare</td><td>25,000gp</td><td>--</td><td>25,000gp, 2 years, 11th level</tr>
+            <tr><td>Legendary</td><td>250,000gp</td><td>--</td><td>250,000gp, 20 years, 17th level</tr>
+        </table>
+        <div style="text-align: center; font-size: 10pt;">Halve prices for consumable objects like potions.</div>
+        <div class="title">Magic Item Costs</div>
+    </div>
+    </div>
+
+    <div class="box" style="width: 690px; margin-top: 10px;">
+        <div class="box box-table lookup">
+            <table>
+                <tr><td class="title">Ability Score</td><td class="title">Point Cost</td></tr>
+                <tr><td>8</td><td>0</td></tr>
+                <tr><td>9</td><td>1</td></tr>
+                <tr><td>10</td><td>2</td></tr>
+                <tr><td>11</td><td>3</td></tr>
+                <tr><td>12</td><td>4</td></tr>
+                <tr><td>13</td><td>5</td></tr>
+                <tr><td>14</td><td>7</td></tr>
+                <tr><td>15</td><td>9</td></tr>
+            </table>
+            <div class="title">Point Buy<div class="reference">(PHB 13)</div></div>
+        </div>
+
+        <div class="point">
+            <div class="title">Rolling Dice</div><br/>
+            Once you roll dice, no switching to another method or re-rolling.
+        </div>
+
+        <div class="point">
+            <div class="title">Ability Scores</div><br/>
+            You may: <ul>
+                <li>Take the standard array (16 14 13 12 10 8)
+                <li>Use the standard point buy (27 points)
+                <li>Roll 4d6 six times, each time discarding the lowest die. Re-order however you want</li>
+            </ul>
+        </div>
+
+        <div class="point">
+            <div class="title">Allowed Races, Classes</div><br/>
+            The Player's Handbook (inc. variant human), Volo's Guide to Monsters, Xanathar's Guide to Everything, Tasha's Cauldon of Everything (inc. custom lineage), Mordenkainen's Monsters of the Multiverse, Fizban's Treasury of Dragons<br/><br/>
+            
+            Anything else, ask the group about balance
+        </div>
+
+        <div class="point">
+            <div class="title">Backgrounds</div><br/>
+            Custom backgrounds are fine.
+        </div>
+
+        <div class="point">
+            <div class="title">Languages</div><br/>
+            Exotic languages like Celestial are allowed.
+        </div>
+
+        <div class="point">
+            <div class="title">Starting Equipment</div><br/>
+            You may: <ul>
+            <li>Take starting equipment for your class and background
+            <li>Take average starting gold for your class
+            <li>Roll starting gold for your class
+        </div>
+
+        <div class="point">
+            <div class="title">Feats: 1st level</div><br/>
+            Don't take a feat at first level. (Unless playing a variant human)
+        </div>
+
+        <div class="point">
+            <div class="title">Aesthetic Changes</div><br/>
+            Want to have a fireball that's an explosion of plants? Want to play a half-minotaur, using half-orc stats? As long as it doesn't change the rules significantly, the answer is almost certainly yes.
+        </div>
+
+        <div class="title">
+            Character Creation
+        </div>
+    </div>
+</body>
+</html>
