@@ -2,6 +2,12 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2023-05-08: Good Time Estimation [blog](https://blog.za3k.com/good-time-estimation/)
+- 2023-04-27: First Aid Kit [blog](https://blog.za3k.com/first-aid-kit/)
+- 2023-04-23: 2022 Year in Review [blog](https://blog.za3k.com/2022-year-in-review/)
+- 2023-04-23: April Fools Puzzle Contest Solutions [blog](https://blog.za3k.com/april-fools-puzzle-contest-solutions/) [link](https://blog.ircpuzzles.org/category/solutions/)
+- 2023-04-04: April Fools Puzzle Contest [blog](https://blog.za3k.com/april-fools-puzzle-contest/) [link](https://blog.ircpuzzles.org/2023/04/2023-april-fools-live/)
+- 2023-03-18: D&D Spells: SRD vs 5e Player’s Handbook [blog](https://blog.za3k.com/dd-spells-srd-vs-5e-players-handbook/)
 - 2023-02-03: Old Wikipedia (urdu) [blog](https://blog.za3k.com/old-wikipedia-urdu/) [link](https://ur.oldwikipedia.org/)
 - 2023-02-02: Painting [blog](https://blog.za3k.com/painting/)
 - 2023-02-02: Old Wikipedia [blog](https://blog.za3k.com/old-wikipedia/) [link](https://en.oldwikipedia.org/)
