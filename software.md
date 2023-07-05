@@ -8,6 +8,7 @@ see also [hack-a-day](/hackaday), my challenge to write one piece of software a 
 | status | project | written | description | 
 |--------|---------|---------|-------------|
 | works | [cryptogram](https://github.com/za3k/short-programs#cryptogrampy) | 2021-08-25 | interactive cryptogram solver
+| works | [electrocats](https://za3k.github.io/electrocats/) | 2023-01-08 | cats sing beautifully
 | works | [etherpad](https://github.com/za3k/short-programs#etherpad) | 2020-08-08 | download, upload, or modify individual texts from an etherpad instance.
 | works | [export-chrome-booksmarks](https://github.com/za3k/export-chrome-bookmarks) | 2015-06-04 | export chrome bookmarks, one per line.
 | works | [keystroked](https://github.com/za3k/keystroked) | 2021-03-23 | activity logger. log clock minutes where the keyboard is used or not used. i use this to track when i'm at the computer and when i went to sleep.
