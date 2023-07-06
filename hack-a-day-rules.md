@@ -10,7 +10,7 @@ a.fail::before {
     line-height: 100%;
 }
 
-a::fail {
+a.fail {
     display: block;
     margin-left: auto;
     margin-right: auto;
