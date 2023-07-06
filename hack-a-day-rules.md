@@ -65,17 +65,19 @@ So I set myself a challenge: make a project every single day, from scratch, in N
 
 I'm retired, so I have a lot of time on my hands. I figured I could do a project in an average day! But I also wanted to avoid burnout, so I decided to aim a little smaller, and try to get them done in 3 hours or so, and have plenty of time for other things Now there was a small problem, which was that I started on Nov 3, so I had a little catching up. But I would worry about that later.
 
-The first thing I did was think about how to write projects. I decided I would write them in Flask, a python webserver, so I people could go visit an interactive website. Now, would that actually be fun to write every day? No. So maybe I should spend the first day writing a framework to make the other days easier. But that sounded boring, and abstract, and like I might not know what to do. So instead I just make a very simple app, and decided I would figure out how to make the framework on the second day, based on day 1 (this never happened, btw). My first project was the simplest thing I could think of: an online blog.za3k.com/hackaday/blog/). I would share it with friends, and they could all post on the blog if they wanted. At the last minute, I added some colors on impulse, which made it way nicer.
+The first thing I did was think about how to write projects. I decided I would write them in Flask, a python webserver, so I people could go visit an interactive website. Now, would that actually be fun to write every day? No. So maybe I should spend the first day writing a framework to make the other days easier. But that sounded boring, and abstract, and like I might not know what to do. So instead I just make a very simple app, and decided I would figure out how to make the framework on the second day, based on day 1 (this never happened, btw). My first project was the simplest thing I could think of: an online blog. I would share it with friends, and they could all post on the blog if they wanted. At the last minute, I added some colors on impulse, which made it way nicer.
 
 [![Hack-A-Blog](https://za3k.com/img/hackaday03.png)](https://tilde.za3k.com/hackaday/blog/)
 
 From this, I learned a few things. First, I really love the delighted responses I got from the people I shared it with. People posting on it made me really happy. As the month went on, I started making more and more interactive things. And second, the five minutes of work I did at the end to make it pretty was most of the "cool" factor! So I tried to keep in pretty colors and styling as best I could (though I'm no artist).
 
-The next day I wrote a simple chat program, to try and cover the technical parts (AJAX) I hadn't the first day. I took the first project, tried to separate the "blog" bits from the "just a website" bits, and just copied it. It turns out I kept doing that--I never really wrote a separate framework. It worked fine, and it turned out to have some positives, because I didn't keep tinkering with some library all day instead of my actual project. (Of course there were some downsides too, like 30 slightly different versions of the same code!)
+The next day I wrote a simple chat program, to try and cover the technical parts I hadn't the first day. I took the first project, tried to separate the "blog" bits from the "just a website" bits, and just copied it. It turns out I kept doing that--I never really wrote a separate framework. It worked fine, and it turned out to have some positives, like not tinkering with a framework all day, and some negatives.
 
 [![Hack-A-Chat](https://za3k.com/img/hackaday04.png)](https://tilde.za3k.com/hackaday/chat/)
 
-The third day I played catchup. I wrote three projects in one day, each taking about an hour. They were are really lame, and I kind of regretted it afterwards. I would rather have just written one cool project, and ended up with 30 projects.
+The third day I played catchup. I wrote three projects in one day, each taking about an hour. They were are really lame, and I kind of regretted it afterwards. I would rather have just written one cool project, and ended up with less than 30 projects total.
+
+[![Hack-A-Link](https://za3k.com/img/hackaday02.png)](https://tilde.za3k.com/hackaday/link)
 
 The fourth day was my first failure. I checked out something called the [zero hour game jam](http://0hgame.eu/). In the USA, we move clocks twice a year to keep in sync with the seasons. One of those times, that means it's 2am, and then an hour later it's 2am again! That surely means 0 hours have passed in between. So some clever people decided to do a 0-hour game jam, where they make computer games in 0 hours. I was delighted, and one of the participants posted to youtube a video of them making a game in 1 hour. They used Unity, which I had tried to learn a few times and failed.
 
@@ -89,11 +91,17 @@ On day 5, I thought to myself. Should I finish the project from the day before? 
 
 I directly used a bunch of things I had done the day before! Not only had I installed Unity, but I had found a helpful community who helped me answer Unity questions, and a neat sound generator I used. And watching someone else make a game made me realize that adding background music and sound effects really added a lot to the game.
 
+I got a lot of feedback that things were wrong with the game, which was great. That meant people tried the game! They actually played a thing I made!
+
+---
+
 As the days went by, I started making cooler and cooler projects each day, despite not spending any more time of them. Some of that was learning--I learned nice libraries to use, how to do certain things in Javascript like mouse drag, and I had to look up less. Some of it though, was general project skill. I started learning which features to cut, and which were worth spending time on. Mouse AND keyboard controls? Nope, only need one. Sound effects when you shoot and particle effects? A must-have. Rounded borders and good spacing? Worth the time. Tutorials? Nope, they're great but take too long. Just write instructions at the bottom, we've only got 3 hours!
 
 I also started slowly but surely getting burnt out. I needed a break from hacking every day. I couldn't really schedule time to hang out with my friends. So I took a day off for a holiday, and I felt great after. Then later, I took two days off--and completely lost my momentum! Oops, lesson learned the hard way. No taking two days off in a row. Too much got unloaded from my brain.
 
 The other thing that surprised me was that I started learning what kind of projects I *wanted* to make. I thought I knew, but actually it turned out I learned a lot. I liked making projects I could show off, that made people go "Wow!". My favorite projects were things things where people immediately said "Cool!" and smiled. I like making people happy. 
+
+---
 
 My absolute favorite hack of the month was "Hack-A-Tank". Some little fish followed around your mouse. I don't know why, but it was relaxing as heck, and it made me really happy when other people felt the same way. Mood pieces were very outside my comfort zone, and I felt valid when people appreciated it.
 
