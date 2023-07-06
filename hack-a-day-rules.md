@@ -9,7 +9,7 @@ img {
     height: 200px;
 }
 html {
-    background-color: aliceblue;
+    background-color: lightblue;
 }
 body {
     background-color: white;
@@ -36,7 +36,7 @@ So I set myself a challenge: make a project every single day, from scratch, in N
 
 I'm retired, so I have a lot of time on my hands. I figured I could do a project in an average day! But I also wanted to avoid burnout, so I decided to aim a little smaller, and try to get them done in 3 hours or so, and have plenty of time for other things Now there was a small problem, which was that I started on Nov 3, so I had a little catching up. But I would worry about that later.
 
-The first thing I did was think about how to write projects. I decided I would write them in Flask, a python webserver, so I people could go visit an interactive website. Now, would that actually be fun to write every day? No. So maybe I should spend the first day writing a framework to make the other days easier. But that sounded boring, and abstract, and like I might not know what to do. So instead I just make a very simple app, and decided I would figure out how to make the framework on the second day, based on day 1 (this never happened, btw). My first project was the simplest thing I could think of: an [online blog](https://tilde.za3k.com/hackaday/blog/). I would share it with friends, and they could all post on the blog if they wanted. At the last minute, I added some colors on impulse, which made it way nicer.
+The first thing I did was think about how to write projects. I decided I would write them in Flask, a python webserver, so I people could go visit an interactive website. Now, would that actually be fun to write every day? No. So maybe I should spend the first day writing a framework to make the other days easier. But that sounded boring, and abstract, and like I might not know what to do. So instead I just make a very simple app, and decided I would figure out how to make the framework on the second day, based on day 1 (this never happened, btw). My first project was the simplest thing I could think of: an online blog.za3k.com/hackaday/blog/). I would share it with friends, and they could all post on the blog if they wanted. At the last minute, I added some colors on impulse, which made it way nicer.
 
 [![Hack-A-Blog](https://za3k.com/img/hackaday03.png)](https://tilde.za3k.com/hackaday/blog/)
 
@@ -51,6 +51,10 @@ The third day I played catchup. I wrote three projects in one day, each taking a
 The fourth day was my first failure. I checked out something called the [zero hour game jam](http://0hgame.eu/). In the USA, we move clocks twice a year to keep in sync with the seasons. One of those times, that means it's 2am, and then an hour later it's 2am again! That surely means 0 hours have passed in between. So some clever people decided to do a 0-hour game jam, where they make computer games in 0 hours. I was delighted, and one of the participants posted to youtube a video of them making a game in 1 hour. They used Unity, which I had tried to learn a few times and failed.
 
 *Well!* I thought to myself. *If they can make a game in 1 hour, surely I can just exactly copy what they do in one whole day.* Oh boy, was I wrong. I got nowhere near done. But at the end of the day, I had Unity installed (mostly) and had gotten some ice cubes to appear on screen and fall. I wouldn't call it a game by any means, but it was kilometers ahead of anything I had gotten to work in Unity before, so I called it a huge success (even if I was secretly a little disappointed).
+
+[![Hack-An-Asteroid](https://za3k.com/img/hackaday07.png)](https://tilde.za3k.com/hackaday/asteroid)
+
+[<span style="color:red; font-size:200px; position:absolute; height:200px; width: 200px; line-height:100%">X</span>![Hack-An-Icecube](https://za3k.com/img/hackaday06.png)](https://tilde.za3k.com/hackaday/icecube)
 
 On day 5, I thought to myself. Should I finish the project from the day before? No, I decided. If I kept working on failures, I'd spend all my time on the projects I was worst at. Instead, I'd just fail and learn from it. But I still wanted to make a game in Unity, so I did. I wrote an *Asteroids* clone, where you fly around a spaceship and shoot asteroids.
 
@@ -110,13 +114,15 @@ Here is how the challenge works:
       The most important thing is to keep up the flow and stick to the spirit.
 - *and have fun!*
     - **You should work on projects fun to do, fun to learn, or fun to show off.**
+      
       Don't just pick something you can do, learn, or show off.
     - **You *can* share your projects if you want.**
+      
       Feel free to share on social media of your choice, a blog, just show your friends, or to email me!
 
 You can ignore any of the above rules if you don't like them. I'm not the boss of you! But since I am the only person that's done this challenge, I think I have good advice.
 
-If you finish I will send you a little picture of a "2023 Hack-A-Day Complete" gold medal for being so cool and add your name to a list. I'll probably come up with a participation trophy too.
+If you finish I will send you a little picture of a <span style="color: gold;">2023 Hack-A-Day Complete gold medal</span> for being so cool and add your name to a list. I'll probably come up with a <span style="color: bronze;">participation trophy</span> too.
 
 ## Advice
 
