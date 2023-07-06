@@ -10,20 +10,25 @@ I'm a programmer, so I'm doing a new computer programming project every day. But
 
 Here is how the challenge works:
 
-- **The challenge is in November 2023.** You're allowed to start late.
-- **You make a new project every day.**
-- **You have to make an entire project, start to finish in one day.** You don't have to use the whole day. 1-4 hours a day should be enough time.
-- **You should work on projects fun to do, fun to learn, or fun to show off.** Don't just pick something you can do, learn, or show off.
-- **You should work on projects challenging to do in one day.**
-- **You *can* share your projects if you want.** Feel free to share on social media of your choice, a blog, just show your friends, or to email me!
-- **You do not have to successfully finish each project.** Only take on projects you *could* finish, but it's okay if you don't. It's better to try something fun and get 80% done, than to every day finish something lame you can definitely do in an hour.
-- **You are not allowed to work on existing projects.** (Programmers, that means NO bug fixes for an open-source project, adding features, or finishing up old stuff you have laying around. On the other hand, using libraries or frameworks is allowed and encouraged. You can even use ones you wrote *as long as you don't tinker on the libraries during Hack-A-Day*.)
-- **You are allowed to work on anything you want otherwise.**
-- **You are not allowed to work on or plan your project before the day.**
-- **You are not allowed to spend more than 1 day on a project.**
-- **You are not allowed to improve projects after the day is over.** Even after Hack-A-Day is over.
-- **You are allowed to skip days.** But **you are not allowed to skip two days in a row**, or more than 10 days total.
-- **You can cheat a little!** The most important thing is to keep up the flow and stick to the spirit.
+- *In November 2023,*
+    - **The challenge is in November 2023.** You're allowed to start late.
+- *Do one project a day,*
+    - **You make a new project every day.**
+    - **You have to make an entire project, start to finish in one day.** You don't have to use the whole day. 1-4 hours a day should be enough time.
+    - **You are allowed to work on anything you want.**
+    - **You are not allowed to spend more than 1 day on a project.**
+    - **You are not allowed to improve projects after the day is over.** Even after Hack-A-Day is over.
+- *from scratch.*
+    - **You are not allowed to work on existing projects.** (Programmers, that means NO bug fixes for an open-source project, adding features, or finishing up old stuff you have laying around. On the other hand, using libraries or frameworks is allowed and encouraged. You can even use ones you wrote *as long as you don't tinker on the libraries during Hack-A-Day*.)
+    - **You are not allowed to work on or plan your project before the day.**
+- *Challenge yourself*
+    - **You should work on projects challenging to do in one day.**
+- *but have fun!*
+    - **You should work on projects fun to do, fun to learn, or fun to show off.** Don't just pick something you can do, learn, or show off.
+    - **You do not have to successfully finish each project.** Only take on projects you *could* finish, but it's okay if you don't. It's better to try something fun and get 80% done, than to every day finish something lame you can definitely do in an hour.
+    - **You *can* share your projects if you want.** Feel free to share on social media of your choice, a blog, just show your friends, or to email me!
+    - **You are allowed to skip days.** But **you are not allowed to skip two days in a row**, or more than 10 days total.
+    - **You can cheat a little!** The most important thing is to keep up the flow and stick to the spirit.
 
 You can ignore any of the above rules if you don't like them. I'm not the boss of you! But since I am the only person that's done this challenge, I think I have good advice.
 
