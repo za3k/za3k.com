@@ -1,3 +1,14 @@
+<style>
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+</style>
+
 [za3k](/) > hack-a-day
 
 Hack-A-Day is a "hackathon" or "game jam" style challenge, in the same vein as NaNoWriMo, no-shave November, and many others. The idea is to make one new project each day (and optionally, post them somewhere for people to see).
@@ -17,13 +28,13 @@ I'm retired, so I have a lot of time on my hands. I figured I could do a project
 
 The first thing I did was think about how to write projects. I decided I would write them in Flask, a python webserver, so I people could go visit an interactive website. Now, would that actually be fun to write every day? No. So maybe I should spend the first day writing a framework to make the other days easier. But that sounded boring, and abstract, and like I might not know what to do. So instead I just make a very simple app, and decided I would figure out how to make the framework on the second day, based on day 1 (this never happened, btw). My first project was the simplest thing I could think of: an [online blog](https://tilde.za3k.com/hackaday/blog/). I would share it with friends, and they could all post on the blog if they wanted. At the last minute, I added some colors on impulse, which made it way nicer.
 
-![Hack-A-Blog](https://za3k.com/img/hackaday03.png)](https://tilde.za3k.com/hackaday/blog/)
+[![Hack-A-Blog](https://za3k.com/img/hackaday03.png)](https://tilde.za3k.com/hackaday/blog/)
 
 From this, I learned a few things. First, I really love the delighted responses I got from the people I shared it with. People posting on it made me really happy. As the month went on, I started making more and more interactive things. And second, the five minutes of work I did at the end to make it pretty was most of the "cool" factor! So I tried to keep in pretty colors and styling as best I could (though I'm no artist).
 
 The next day I wrote a simple chat program, to try and cover the technical parts (AJAX) I hadn't the first day. I took the first project, tried to separate the "blog" bits from the "just a website" bits, and just copied it. It turns out I kept doing that--I never really wrote a separate framework. It worked fine, and it turned out to have some positives, because I didn't keep tinkering with some library all day instead of my actual project. (Of course there were some downsides too, like 30 slightly different versions of the same code!)
 
-![Hack-A-Chat](https://za3k.com/img/hackaday04.png)](https://tilde.za3k.com/hackaday/chat/)
+[![Hack-A-Chat](https://za3k.com/img/hackaday04.png)](https://tilde.za3k.com/hackaday/chat/)
 
 The third day I played catchup. I wrote three projects in one day, each taking about an hour. They were are really lame, and I kind of regretted it afterwards. I would rather have just written one cool project, and ended up with 30 projects.
 
@@ -33,7 +44,7 @@ The fourth day was my first failure. I checked out something called the [zero ho
 
 On day 5, I thought to myself. Should I finish the project from the day before? No, I decided. If I kept working on failures, I'd spend all my time on the projects I was worst at. Instead, I'd just fail and learn from it. But I still wanted to make a game in Unity, so I did. I wrote an *Asteroids* clone, where you fly around a spaceship and shoot asteroids.
 
-![Hack-An-Asteroid](https://za3k.com/img/hackaday07.png)](https://tilde.za3k.com/hackaday/asteroid)
+[![Hack-An-Asteroid](https://za3k.com/img/hackaday07.png)](https://tilde.za3k.com/hackaday/asteroid)
 
 I directly used a bunch of things I had done the day before! Not only had I installed Unity, but I had found a helpful community who helped me answer Unity questions, and a neat sound generator I used. And watching someone else make a game made me realize that adding background music and sound effects really added a lot to the game.
 
