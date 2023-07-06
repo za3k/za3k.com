@@ -73,8 +73,6 @@ The fourth day was my first failure. I checked out something called the [zero ho
 
 *Well!* I thought to myself. *If they can make a game in 1 hour, surely I can just exactly copy what they do in one whole day.* Oh boy, was I wrong. I got nowhere near done. But at the end of the day, I had Unity installed (mostly) and had gotten some ice cubes to appear on screen and fall. I wouldn't call it a game by any means, but it was kilometers ahead of anything I had gotten to work in Unity before, so I called it a huge success (even if I was secretly a little disappointed).
 
-[![Hack-An-Asteroid](https://za3k.com/img/hackaday07.png)](https://tilde.za3k.com/hackaday/asteroid)
-
 <a class="fail" href="https://tilde.za3k.com/hackaday/icecube"><img alt="Hack-An-Icecube" src="https://za3k.com/img/hackaday06.png"></a>
 
 On day 5, I thought to myself. Should I finish the project from the day before? No, I decided. If I kept working on failures, I'd spend all my time on the projects I was worst at. Instead, I'd just fail and learn from it. But I still wanted to make a game in Unity, so I did. I wrote an *Asteroids* clone, where you fly around a spaceship and shoot asteroids.
