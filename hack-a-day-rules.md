@@ -7,6 +7,10 @@ img {
     width: 200px;
     height: 200px;
 }
+body {
+    max-width: 30%;
+    margin-left: 20%;
+}
 </style>
 
 [za3k](/) > hack-a-day
