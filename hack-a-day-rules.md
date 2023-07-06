@@ -8,6 +8,9 @@ img {
     width: 200px;
     height: 200px;
 }
+li strong {
+    display: block;
+}
 html {
     background-color: lightblue;
 }
@@ -114,15 +117,13 @@ Here is how the challenge works:
       The most important thing is to keep up the flow and stick to the spirit.
 - *and have fun!*
     - **You should work on projects fun to do, fun to learn, or fun to show off.**
-      
       Don't just pick something you can do, learn, or show off.
     - **You *can* share your projects if you want.**
-      
       Feel free to share on social media of your choice, a blog, just show your friends, or to email me!
 
 You can ignore any of the above rules if you don't like them. I'm not the boss of you! But since I am the only person that's done this challenge, I think I have good advice.
 
-If you finish I will send you a little picture of a <span style="color: gold;">2023 Hack-A-Day Complete gold medal</span> for being so cool and add your name to a list. I'll probably come up with a <span style="color: bronze;">participation trophy</span> too.
+If you finish I will send you a little picture of a <span style="color: goldenrod;">2023 Hack-A-Day Complete gold medal</span> for being so cool and add your name to a list. I'll probably come up with a <span style="color: brown;">participation trophy</span> too.
 
 ## Advice
 
