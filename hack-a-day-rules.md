@@ -8,8 +8,7 @@ img {
     height: 200px;
 }
 body {
-    max-width: 30%;
-    margin-left: 20%;
+    width: calc(max(30%, 400px));
 }
 </style>
 
