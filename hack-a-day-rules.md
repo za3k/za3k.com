@@ -13,7 +13,7 @@ Here is how the challenge works:
 - **The challenge is in November 2023.** You're allowed to start late.
 - **You make a new project every day.**
 - **You have to make an entire project, start to finish in one day.** You don't have to use the whole day. 1-4 hours a day should be enough time.
-- **You should work on projects fun to do, fun to learn, or fun to show off.** Don't just pick something you CAN do, learn, or show off.
+- **You should work on projects fun to do, fun to learn, or fun to show off.** Don't just pick something you can do, learn, or show off.
 - **You should work on projects challenging to do in one day.**
 - **You *can* share your projects if you want.** Feel free to share on social media of your choice, a blog, just show your friends, or to email me!
 - **You do not have to successfully finish each project.** Only take on projects you *could* finish, but it's okay if you don't. It's better to try something fun and get 80% done, than to every day finish something lame you can definitely do in an hour.
@@ -22,7 +22,7 @@ Here is how the challenge works:
 - **You are not allowed to work on or plan your project before the day.**
 - **You are not allowed to spend more than 1 day on a project.**
 - **You are not allowed to improve projects after the day is over.** Even after Hack-A-Day is over.
-- **You are allowed to skip days.** But **you are NOT allowed to skip two days in a row**, or more than 10 days total.
+- **You are allowed to skip days.** But **you are not allowed to skip two days in a row**, or more than 10 days total.
 - **You can cheat a little!** The most important thing is to keep up the flow and stick to the spirit.
 
 You can ignore any of the above rules if you don't like them. I'm not the boss of you! But since I am the only person that's done this challenge, I think I have good advice.
@@ -39,4 +39,4 @@ Here is some additional *advice* from me.
 - Brainstorm future projects every once in a while.
 - Pay attention to which projects you're finding fun or not. I learned a lot about what makes me tick.
 - Be flexible. Don't pick projects ahead of time. Go where your explorations take you.
-- Set aside time for Hack-A-Day. Set aside time for NOT hacking, and hanging with friends or playing videogames :).
+- Set aside time for Hack-A-Day. Set aside time for *not* hacking, and hanging with friends or playing videogames :).
