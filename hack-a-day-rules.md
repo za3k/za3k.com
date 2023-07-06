@@ -110,7 +110,7 @@ Here is how the challenge works:
     - **You should work on projects challenging to do in one day.**
 - *but pace yourself*
     - **You are allowed to skip days.**
-      But **you are not allowed to skip two days in a row**.
+      **But you are not allowed to skip two days in a row.**
     - **You do not have to successfully finish each project.**
       Only take on projects you *could* finish, but it's okay if you don't. It's better to try something fun and get 80% done, than to every day finish something lame you can definitely do in an hour.
     - **You can cheat a little!**
