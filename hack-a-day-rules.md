@@ -2,7 +2,7 @@
 a {
     position: relative;
 }
-img::nth-of-type(4)::before {
+a::nth-of-type(9)::before {
     content: "X";
     color: rgba(255, 70, 70, 0.85);
     text-decoration: none;
