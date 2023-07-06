@@ -15,7 +15,7 @@ Here is how the challenge works:
 - *do one project a day,*
     - **You make at least 20 projects.** Get out a calendar and schedule time!
     - **You have to make an entire project, start to finish in one day.** You don't have to use the whole day. 1-4 hours a day should be enough time.
-    - **You are allowed to work on anything you want.**
+    - **Pick a broad theme. You can work on anything you want.** Make it broad! "Art", not "painting". "Software", not "video games". "Making stuff", not "carpentry".
     - **You are not allowed to spend more than 1 day on a project.**
     - **You are not allowed to improve projects after the day is over.** Even after Hack-A-Day is over.
 - *from scratch.*
