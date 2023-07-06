@@ -8,12 +8,14 @@ a.fail::before {
     width: 200px;
     height: 200px;
     line-height: 100%;
+    text-align: center;
 }
 
 a.fail {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 200px;
 }
 img {
     display: block;
