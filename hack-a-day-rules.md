@@ -1,5 +1,6 @@
 <style>
 img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid lightgrey;
@@ -7,8 +8,13 @@ img {
     width: 200px;
     height: 200px;
 }
+html {
+    background-color: lightblue;
+}
 body {
-    width: calc(max(30%, 400px));
+    background-color: white;
+    margin-left: 20%;
+    width: calc(max(30%, 500px));
 }
 </style>
 
