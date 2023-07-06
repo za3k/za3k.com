@@ -46,7 +46,7 @@ body {
 > 1. a rough cut, blow, or stroke. (the work was accomplished one hack at a time)
 > 2. a quick job that produces what is needed, but not well (this code is a hack, but it works!)
 
-**WHAT IS HACK-A-DAY**
+## What is Hack-a-Day?
 
 Hack-A-Day is challenge to make complete one new project, from scratch, every day in November 2023.
 
@@ -54,8 +54,7 @@ Last year (2022), I set myself the challenge to make a software project every da
 
 I'm a programmer, so I'm doing a new computer programming project every day. But I see no reason you can't do other kinds of projects.
 
-
-**YEAH YEAH LINK ME TO [THE RULES](#rules)**
+**(*YEAH YEAH LINK ME TO [THE RULES](#rules)*)**
 
 ## Last year's journey
 I like doing challenges. I've tried [National Novel Writing Month (NaNoWriMo)](https://nanowrimo.org/) twice (and failed both times). Every november is no-shave november. For whatever reason, November feels to me like *Challenge Month*. So when november rolled around last year, I asked myself what challenge I wanted to do.
