@@ -1,7 +1,4 @@
 <style>
-a {
-    position: relative;
-}
 a.fail::before {
     content: "X";
     color: rgba(255, 70, 70, 0.85);
@@ -13,7 +10,7 @@ a.fail::before {
     line-height: 100%;
 }
 
-img {
+img, a::fail {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,7 +68,7 @@ The fourth day was my first failure. I checked out something called the [zero ho
 
 [![Hack-An-Asteroid](https://za3k.com/img/hackaday07.png)](https://tilde.za3k.com/hackaday/asteroid)
 
-<a class="fail" href="https://tilde.za3k.com/hackaday/icecube"><img alt="Hack-An-Icecube" href="https://za3k.com/img/hackaday06.png"></a>
+<a class="fail" href="https://tilde.za3k.com/hackaday/icecube"><img alt="Hack-An-Icecube" src="https://za3k.com/img/hackaday06.png"></a>
 
 On day 5, I thought to myself. Should I finish the project from the day before? No, I decided. If I kept working on failures, I'd spend all my time on the projects I was worst at. Instead, I'd just fail and learn from it. But I still wanted to make a game in Unity, so I did. I wrote an *Asteroids* clone, where you fly around a spaceship and shoot asteroids.
 
