@@ -13,7 +13,7 @@ Here is how the challenge works:
 - *In November 2023,*
     - **The challenge is in November 2023.** You're allowed to start late.
 - *do one project a day,*
-    - **You make at least 20 projects."** Get out a calendar and schedule time!
+    - **You make at least 20 projects.** Get out a calendar and schedule time!
     - **You have to make an entire project, start to finish in one day.** You don't have to use the whole day. 1-4 hours a day should be enough time.
     - **You are allowed to work on anything you want.**
     - **You are not allowed to spend more than 1 day on a project.**
