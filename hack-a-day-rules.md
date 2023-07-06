@@ -42,11 +42,21 @@ body {
 
 [za3k](/) > hack-a-day
 
-Hack-A-Day is a "hackathon" or "game jam" style challenge, in the same vein as NaNoWriMo, no-shave November, and many others. The idea is to make one new project each day (and optionally, post them somewhere for people to see).
+**WHAT IS HACK-A-DAY**
+
+Hack-A-Day is challenge to make complete one new project, from scratch, every day in November 2023.
 
 Last year (2022), I set myself the challenge to make a software project every day, and met it. I had a ton of fun, and make a lot of [cool video games and projects](https://za3k.com/hackaday) I can show off. This year I'm inviting the rest of the world to join me!
 
 I'm a programmer, so I'm doing a new computer programming project every day. But I see no reason you can't do other kinds of projects.
+
+**WHAT IS A HACK?**
+
+> HACK (noun)
+> 1. a rough cut, blow, or stroke. (the work was accomplished one hack at a time)
+> 2. a quick job that produces what is needed, but not well (this code is a hack, but it works!)
+
+**YEAH YEAH LINK ME TO [THE RULES](#rules)**
 
 ## Last year's journey
 I like doing challenges. I've tried [National Novel Writing Month (NaNoWriMo)](https://nanowrimo.org/) twice (and failed both times). Every november is no-shave november. For whatever reason, November feels to me like *Challenge Month*. So when november rolled around last year, I asked myself what challenge I wanted to do.
@@ -101,7 +111,7 @@ All in all, I had a great month. I tried to keep it going for a while after, but
 
 Since I had a great time, I plan to do it again this year. And I hope you'll all join me! The only thing more fun than a hackathon, is a hackathon with friends.
 
-## Rules
+<h3 id="rules">Rules</h3>
 
 Here is how the challenge works:
 
