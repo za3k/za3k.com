@@ -42,6 +42,10 @@ body {
 
 [za3k](/) > hack-a-day
 
+> HACK (noun)
+> 1. a rough cut, blow, or stroke. (the work was accomplished one hack at a time)
+> 2. a quick job that produces what is needed, but not well (this code is a hack, but it works!)
+
 **WHAT IS HACK-A-DAY**
 
 Hack-A-Day is challenge to make complete one new project, from scratch, every day in November 2023.
@@ -50,11 +54,6 @@ Last year (2022), I set myself the challenge to make a software project every da
 
 I'm a programmer, so I'm doing a new computer programming project every day. But I see no reason you can't do other kinds of projects.
 
-**WHAT IS A HACK?**
-
-> HACK (noun)
-> 1. a rough cut, blow, or stroke. (the work was accomplished one hack at a time)
-> 2. a quick job that produces what is needed, but not well (this code is a hack, but it works!)
 
 **YEAH YEAH LINK ME TO [THE RULES](#rules)**
 
