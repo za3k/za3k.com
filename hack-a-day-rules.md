@@ -52,7 +52,7 @@ Hack-A-Day is challenge to make complete one new project, from scratch, every da
 
 Last year (2022), I set myself the challenge to make a software project every day, and met it. I had a ton of fun, and make a lot of [cool video games and projects](https://za3k.com/hackaday) I can show off. This year I'm inviting the rest of the world to join me!
 
-I'm a programmer, so I'm doing a new computer programming project every day. But I see no reason you can't do other kinds of projects.
+I'm a programmer, so I'm doing a new computer programming project every day. But you can do any kind of project, whatever you pick is great.
 
 **(*YEAH YEAH LINK ME TO [THE RULES](#rules)*)**
 
