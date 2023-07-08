@@ -2,6 +2,11 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2023-07-08: Hack-A-Day 2023 [link](https://za3k.com/hack-a-day-rules) [blog](https://blog.za3k.com/hack-a-day-2023/)
+- 2023-06-24: Scheme Interpreter [link](https://github.com/za3k/sscheme) [blog](https://blog.za3k.com/scheme-interpreter/)
+- 2023-06-09: DIY keyboards (and how keyboards work) [blog](https://blog.za3k.com/diy-keyboards-and-how-keyboards-work/)
+- 2023-06-07: Introducing the Zorchpad (+ display demo) [blog](https://blog.za3k.com/introducing-the-zorchpad-display-demo/)
+- 2023-06-07: Scroll Props [blog](https://blog.za3k.com/scroll-props/)
 - 2023-05-08: Good Time Estimation [blog](https://blog.za3k.com/good-time-estimation/)
 - 2023-04-27: First Aid Kit [blog](https://blog.za3k.com/first-aid-kit/)
 - 2023-04-23: 2022 Year in Review [blog](https://blog.za3k.com/2022-year-in-review/)
