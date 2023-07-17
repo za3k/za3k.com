@@ -7,8 +7,7 @@ body {
     width: calc(max(30%, 500px));
 }
 ul {
-    padding-left: 2em;
-    margin-left: 0;
+    padding-left: 0;
     margin-top: 4em;
     max-width: fit-content;
 }
