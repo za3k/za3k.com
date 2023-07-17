@@ -25,7 +25,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 | [doodle adventures][7]  | listen to a story and doodle                  | 1-6     | drawing      | no      | light | yes    | 2021-03-29
 | [in media res][8]       | 3+ people tell a story                        | 3+      | storytelling | yes     | light | maybe  | 2022-02-25
 | [logic potions][9]      | a potion-brewing game about logical deduction | 2-4     | board        | yes     | heavy | maybe  | 2021-03-13
-| [loot boxes][10]        | "car trip" game. use random items to solve challenges | 2-4     | storytelling | yes     | light | maybe  | 2021-02-08
+| [loot boxes][10]        | use random items to solve challenges | 2-4     | storytelling | yes     | light | maybe  | 2021-02-08
 | [no, this cannot be! I AM INVINCIBLE!][11] v2 | villains send waves of enemies at the Heros | 2-8          | storytelling         | yes      | mid        | yes           | 2021-02-08
 | [ultimate archwizards vs the dark Lord][12]   | the final episode in a fight anime | 3-5, GM | storytelling         | yes      | light       | yes           | 2021-02-03
 
