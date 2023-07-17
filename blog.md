@@ -1,17 +1,36 @@
 [za3k](/) > articles
 
 <style>
+html {
+    background-color: lightblue;
+}
+body {
+    margin-left: 20%;
+    width: calc(max(30%, 500px))
+    padding: 5em;
+    background-color: white;
+}
 ul {
     padding-left: 2em;
+    margin-top: 4em;
 }
+/*
 li:nth-child(even) {
     background-color: lightblue;
 }
+li:nth-child(odd) {
+    background-color:white;
+}
+*/
 li {
-    padding: 8px;
+    background-color: floralwhite;
     min-width: 30em;
     max-width: fit-content;
     list-style: none;
+    border: 2px solid;
+    border-radius: 3px;
+    margin: 8px;
+    filter: drop-shadow(3px 5px 4px rgba(0,0,0,0.1));
 }
 li a {
     float: right;
@@ -19,7 +38,7 @@ li a {
 }
 </style>
 
-blog. **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- newer articles [blog](https://blog.za3k.com/)
 - 2023-07-13: My TODO list [blog](https://blog.za3k.com/my-todo-list/)
 - 2023-07-12: Meeple Initiative Tracker [blog](https://blog.za3k.com/meeple-initiative-tracker/)
 - 2023-07-08: Hack-A-Day 2023 [link](https://za3k.com/hack-a-day-rules) [blog](https://blog.za3k.com/hack-a-day-2023/)
