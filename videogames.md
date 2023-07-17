@@ -1,6 +1,9 @@
 [za3k](/) > video game recommendations
 
 <style>
+body > ul {
+    padding: 0;
+}
 li {
     list-style: none;
 }
@@ -141,7 +144,7 @@ Arcade Machine Games
 --------------------
 - Tower of Druaga ([rom](http://www.emuparadise.me/M.A.M.E._-_Multiple_Arcade_Machine_Emulator_ROMs/Tower_of_Druaga_%28New_Ver.%29/17544)). 1984.
 
-Non-video Games
+Traditional Games
 ---------------
 - [Go](https://en.wikipedia.org/wiki/Go_(game))
 - [Skat](https://en.wikipedia.org/wiki/Skat_(card_game))
