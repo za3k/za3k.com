@@ -37,7 +37,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 | [faux pas][14] v2              | a "visible role" game. enter the room in order of social rank. | 3-8     | cooperative        | no      | mid   | maybe   | 2021-04-28
 | [emperical zendo][15]          | a variant on traditional zendo                                 | 2-8     | board              | no      | mid   | no      | 2021-03-19
 | [infinity questions][16]       | a frustrating game of 20 questions                             | 2       | party              | no      | light | maybe   | 2022-02-25
-| [deadly education rpg][17]     | a traditional pen-and-paper RPG based on "A Deadly Education"  | 2-6, GM | roleplaying        | no      | mid   | no      | 2021-02-12
+| [deadly education rpg][17]     | a traditional pen-and-paper RPG based on *A Deadly Education*  | 2-6, GM | roleplaying        | no      | mid   | no      | 2021-02-12
 | [ninjas ninjas ninjas!][18] v2 | fast, diceless storytelilng game about how cool ninjas are     | 3       | storytelling       | no      | mid+  | no      | 2021-02-07
 | [stupid conspiracies][19]      | conspiracy nutjobs join and promote conspiracies               | 10+     | party, competitive | no      | light | maybe   | 2021-01-17
 
