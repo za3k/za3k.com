@@ -28,6 +28,7 @@ li {
     margin: 8px;
     padding: 8px;
     filter: drop-shadow(3px 5px 4px rgba(0,0,0,0.1));
+    overflow: auto;
 }
 li a {
     float: right;
