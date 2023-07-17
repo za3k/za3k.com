@@ -21,7 +21,7 @@ see also [hack-a-day](/hackaday), my challenge to write one piece of software a 
 | [vlad the remailer](https://github.com/za3k/vlad)                           | email users daily asking them what they did | *2013-09-05* | *works*
 | [watch-to-file](https://github.com/za3k/short-programs#watch-to-file)       | periodically run a command, save the output to a file | *2019-03-27* | *works*
 | [xor](https://github.com/za3k/short-programs#xor)                           | xor two files together. see also [add-base-26](https://github.com/za3k/short-programs#add-base26). | *2020-04-20* | *works*
-| [youtube-autodl](https://github.com/za3k/youtube-autodl)                    | automatically download+organize youtube channels and playlists | *2022-07-07* | *beta *
+| [youtube-autodl](https://github.com/za3k/youtube-autodl)                    | automatically download+organize youtube channels and playlists | *2022-07-07* | *beta*
 
 ##less useful software
 | project                                                        | description | written | status
@@ -36,7 +36,7 @@ see also [hack-a-day](/hackaday), my challenge to write one piece of software a 
 | [roll](https://github.com/za3k/short-programs#roll)            | roll D&D dice (ex 4d6+3) | *2021-02-23* | *works*
 | [rpi-setup](https://github.com/za3k/rpi-setup)                 | set up a raspberry pi to be bootable. | *2020-04-18* | *works*
 | [rtmux](https://github.com/za3k/short-programs#rtmux)          | run tmux on another computer | *2016-03-20* | *works*
-| [scan-organizer](https://github.com/za3k/scan-organizer)       | my process for sorting scans | *2022-07-22* | *works, buggy*
+| [scan-organizer](https://github.com/za3k/scan-organizer)       | my process for sorting scans | *2022-07-22* | *works*
 | [sscheme](https://github.com/za3k/sscheme)                     | a scheme interpreter | *2023-07-17* | *works*
 | [sum](https://github.com/za3k/short-programs)                  | add a list of numbers | *2021-06-05* | *works*
 | [vim-leaves](https://github.com/za3k/vim-leaves)               | vim plugin for working with fixed-size, monospace sheets of paper | *2017-04-30* | *alpha*
