@@ -2,7 +2,7 @@
 
 <style>
 body {
-    margin-top: 2em;
+    margin-top: 4em;
     margin-left: 20%;
     width: calc(max(30%, 500px));
 }
