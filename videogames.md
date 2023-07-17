@@ -1,5 +1,11 @@
 [za3k](/) > video game recommendations
 
+<style>
+li {
+    list-style: none;
+}
+</style>
+
 Computer Games
 --------------
 - [ADOM](http://www.ancardia.com/) by Thomas Biskup. Free. 1994.
