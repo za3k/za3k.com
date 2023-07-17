@@ -12,7 +12,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | date       | type                 | rules | players      | tested?  | good?  | description |
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [doodle rpg](https://tilde.za3k.com/doodlerpg/)                          | 2022-12-03 | computer             | light       | unlimited    | beta     | yes           | draw and explore a universe
+| [doodle rpg](https://tilde.za3k.com/doodlerpg/)                          | 2022-12-03 | computer             | light       | 1-99+        | beta     | yes           | draw and explore a universe
 | [hack-an-adventure](https://tilde.za3k.com/hackaday/adventure/)          | 2022-11-29 | computer             | light       | 1            | yes      | yes           | listen as a premade story is revealed, and doodle what happens.
 | [hack-a-snake](https://tilde.za3k.com/hackaday/snake/)                   | 2022-11-27 | computer             | light       | 1            | yes      | maybe         | play snake
 | [hack-a-hell](https://tilde.za3k.com/hackaday/hell/)                     | 2022-11-22 | computer             | light       | 1            | yes      | yes           | avoid bullets and shoot the music visualizer
@@ -23,7 +23,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 | [logic potions](logic_potions)                                           | 2021-03-13 | board                | heavy      | 2-4          | yes      | maybe         | a potion-brewing game. not about logical deduction, but about logical deduction clues themselves
 | [loot boxes](lootboxes)                                                  | 2021-02-08 | storytelling         | light       | 2-4          | yes      | maybe         | "car trip" game. Players have an inventory of random items. They must use the items to solve a series of challenges.
 | [no, this cannot be! I AM INVINCIBLE!](invincible) v2                    | 2021-02-08 | storytelling         | mid        | 2-8          | yes      | yes           | villains send wave after harder wave of enemies at the Heros, until they kill the Villains.
-| [ultimate archwizards vs the dark Lord](ultimate_archwizard)             | 2021-02-03 | storytelling         | light       | 3-5, plus GM | yes      | yes           | one-page storytelling game about the final episode in a fight anime.
+| [ultimate archwizards vs the dark Lord](ultimate_archwizard)             | 2021-02-03 | storytelling         | light       | 3-5, GM | yes      | yes           | one-page storytelling game about the final episode in a fight anime.
 
 ## untested
 
@@ -33,7 +33,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 | [faux pas](faux_pas) v2                                                  | 2021-04-28 | cooperative          | mid        | 3-8          | no       | maybe         | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of social rank.
 | [emperical zendo](emperical_zendo)                                       | 2021-03-19 | board                | mid        | 2-8          | no       | no            | a variant on traditional zendo, where you score points for predicting the rule but never guess the rule outright.
 | [infinity questions](infinity_questions)                                 | 2022-02-25 | party                | light       | 2            | no       | maybe         | a frustrating game of 20 questions
-| [deadly education rpg](deadly)                                           | 2021-02-12 | roleplaying          | mid        | 2-6, plus GM | no       | no            | a traditional pen-and-paper roleplaying game based on the affinity-based magic system from Naomi Novik's "A Deadly Education"
+| [deadly education rpg](deadly)                                           | 2021-02-12 | roleplaying          | mid        | 2-6, GM | no       | no            | a traditional pen-and-paper roleplaying game based on the affinity-based magic system from Naomi Novik's "A Deadly Education"
 | [ninjas ninjas ninjas!](ninjas) v2                                       | 2021-02-07 | storytelling         | mid-heavy  | 3            | no       | no            | fast, diceless storytelilng game about how cool ninjas are.
 | [stupid conspiracies](conspiracies)                                      | 2021-01-17 | party, competitive   | light       | 10+          | no       | maybe         | conspiracy nutjobs try to join as many conspiracies as possible, and get as many people as possibly to believe their conspiracy.
 
@@ -43,7 +43,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
 | [hack-a-tile](https://tilde.za3k.com/hackaday/tile/)                     | 2022-11-11 | computer             | light        | 1            | yes      | maybe         | place tiles
 | [doubledore](doubledore)                                                 | 2021-06-06 | card                 | light        | 2            | yes      | no            | a tower-defense card game. when you defeat a monster, it attacks your opponent instead.
-| [stupid russia](stupid_russia)                                           | 2017-10-29 | party, competitive   | mid-heavy   | 10+, plus GM | yes      | no            | spy directors make deals with each other, trying to report more agents than anyone else, without getting their own agents executed.
+| [stupid russia](stupid_russia)                                           | 2017-10-29 | party, competitive   | mid-heavy   | 10+, GM | yes      | no            | spy directors make deals with each other, trying to report more agents than anyone else, without getting their own agents executed.
 | [colony on the moon](colony)                                             | 2016-07-05 | computer (minecraft) | heavy       | 1+           | alpha    | no            | a minecraft modpack. Based around providing reductionist components and having the player do their own automation.
 | [volcano](https://github.com/za3k/volcano)                               | 2013-02-05 | computer             | light-med    | 1            | beta     | no            | an ASCII roguelike I made in college. Not much fun.
 
