@@ -1,3 +1,14 @@
+@media (min-width: 800px) {
+    body {
+        margin-left: 20px;
+        width: max(500px, 50%);
+        padding: 5em;
+    }
+    body > *:first-child { /* nav bar */
+        margin-bottom: 4em;
+    }
+}
+
 table, th, td {
   border: 1px solid black;
   padding: 6px 10px 6px 10px;
