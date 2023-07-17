@@ -1,5 +1,11 @@
 [za3k](/) > software
 
+<style>
+td:first-child {
+    width: 40em;
+}
+</style>
+
 software i've written. most has extensive documentation if you click through the link.
 
 see also [hack-a-day](/hackaday), my challenge to write one piece of software a day in Nov 2022
