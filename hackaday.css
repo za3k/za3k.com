@@ -1,5 +1,5 @@
 .nav {
-    margin: 5em 0 2em 5em;
+    margin: 5em 0 2em max(5em, 20%);
 }
 
 .hack-links {
