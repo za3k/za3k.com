@@ -2,6 +2,8 @@
 
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+- 2023-07-13: My TODO list [blog](https://blog.za3k.com/my-todo-list/)
+- 2023-07-12: Meeple Initiative Tracker [blog](https://blog.za3k.com/meeple-initiative-tracker/)
 - 2023-07-08: Hack-A-Day 2023 [link](https://za3k.com/hack-a-day-rules) [blog](https://blog.za3k.com/hack-a-day-2023/)
 - 2023-06-24: Scheme Interpreter [link](https://github.com/za3k/sscheme) [blog](https://blog.za3k.com/scheme-interpreter/)
 - 2023-06-09: DIY keyboards (and how keyboards work) [blog](https://blog.za3k.com/diy-keyboards-and-how-keyboards-work/)
