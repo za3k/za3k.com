@@ -14,46 +14,75 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 ## recommended
 
-| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
-|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [doodle rpg](https://tilde.za3k.com/doodlerpg/)                          | draw and explore a universe | 1-99+        | computer             | beta     | light       | yes           | 2022-12-03
-| [hack-an-adventure](https://tilde.za3k.com/hackaday/adventure/)          | listen as a premade story is revealed, and doodle what happens. | 1            | computer             | yes      | light       | yes           | 2022-11-29
-| [hack-a-snake](https://tilde.za3k.com/hackaday/snake/)                   | play snake | 1            | computer             | yes      | light       | maybe         | 2022-11-27
-| [hack-a-hell](https://tilde.za3k.com/hackaday/hell/)                     | avoid bullets and shoot the music visualizer | 1            | computer             | yes      | light       | yes           | 2022-11-22
-| [hack-a-minigame](https://tilde.za3k.com/hackaday/mini/)                 | save and load a snake game to win | 1            | computer             | yes      | mid        | maybe         | 2022-11-16
-| [hack-an-asteroid](https://tilde.za3k.com/hackaday/asteroid/)            | asteroids | 1            | computer             | yes      | light       | maybe         | 2022-11-07
-| [doodle adventures](doodle_adventures)                                   | listen as a premade story is revealed, and doodle what happens. | 1-6          | drawing              | no       | light       | yes           | 2021-03-29
-| [in media res](in_media_res)                                             | 3+ people tell a story | 3+           | storytelling         | yes      | light       | maybe         | 2022-02-25
-| [logic potions](logic_potions)                                           | a potion-brewing game. not about logical deduction, but about logical deduction clues themselves | 2-4          | board                | yes      | heavy      | maybe         | 2021-03-13
-| [loot boxes](lootboxes)                                                  | "car trip" game. Players have an inventory of random items. They must use the items to solve a series of challenges. | 2-4          | storytelling         | yes      | light       | maybe         | 2021-02-08
-| [no, this cannot be! I AM INVINCIBLE!](invincible) v2                    | villains send wave after harder wave of enemies at the Heros, until they kill the Villains. | 2-8          | storytelling         | yes      | mid        | yes           | 2021-02-08
-| [ultimate archwizards vs the dark Lord](ultimate_archwizard)             | one-page storytelling game about the final episode in a fight anime. | 3-5, GM | storytelling         | yes      | light       | yes           | 2021-02-03
+| game                    | description                                   | players | type         | tested? | rules | good?  | date      
+|-------------------------|-----------------------------------------------|---------|--------------|---------|-------|--------|-------------|
+| [doodle rpg][1]         | draw and explore a universe                   | 1-99+   | computer     | beta    | light | yes    | 2022-12-03
+| [hack-an-adventure][2]  | doodle a premade story                        | 1       | computer     | yes     | light | yes    | 2022-11-29
+| [hack-a-snake][3]       | play snake                                    | 1       | computer     | yes     | light | maybe  | 2022-11-27
+| [hack-a-hell][4]        | avoid bullets and shoot the music visualizer  | 1       | computer     | yes     | light | yes    | 2022-11-22
+| [hack-a-minigame][5]    | save and load a snake game                    | 1       | computer     | yes     | mid   | maybe  | 2022-11-16
+| [hack-an-asteroid][6]   | asteroids                                     | 1       | computer     | yes     | light | maybe  | 2022-11-07
+| [doodle adventures][7]  | listen to a story and doodle                  | 1-6     | drawing      | no      | light | yes    | 2021-03-29
+| [in media res][8]       | 3+ people tell a story                        | 3+      | storytelling | yes     | light | maybe  | 2022-02-25
+| [logic potions][9]      | a potion-brewing game about logical deduction | 2-4     | board        | yes     | heavy | maybe  | 2021-03-13
+| [loot boxes][10]        | "car trip" game. use random items to solve challenges | 2-4     | storytelling | yes     | light | maybe  | 2021-02-08
+| [no, this cannot be! I AM INVINCIBLE!][11] v2 | villains send waves of enemies at the Heros, until they kill the Villains | 2-8          | storytelling         | yes      | mid        | yes           | 2021-02-08
+| [ultimate archwizards vs the dark Lord][12]   | storytelling game about the final episode in a fight anime | 3-5, GM | storytelling         | yes      | light       | yes           | 2021-02-03
 
 ## untested
 
-| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
-|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [bazaar](bazaar)                                                         | trade with other plays and try to make a profit. neither cooperative nor competitive. | 4-8          | card                 | no       | mid        | not yet       | 2022-03-04
-| [faux pas](faux_pas) v2                                                  | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of social rank. | 3-8          | cooperative          | no       | mid        | maybe         | 2021-04-28
-| [emperical zendo](emperical_zendo)                                       | a variant on traditional zendo, where you score points for predicting the rule but never guess the rule outright. | 2-8          | board                | no       | mid        | no            | 2021-03-19
-| [infinity questions](infinity_questions)                                 | a frustrating game of 20 questions | 2            | party                | no       | light       | maybe         | 2022-02-25
-| [deadly education rpg](deadly)                                           | a traditional pen-and-paper roleplaying game based on the affinity-based magic system from Naomi Novik's "A Deadly Education" | 2-6, GM | roleplaying          | no       | mid        | no            | 2021-02-12
-| [ninjas ninjas ninjas!](ninjas) v2                                       | fast, diceless storytelilng game about how cool ninjas are. | 3            | storytelling         | no       | mid-heavy  | no            | 2021-02-07
-| [stupid conspiracies](conspiracies)                                      | conspiracy nutjobs try to join as many conspiracies as possible, and get as many people as possibly to believe their conspiracy. | 10+          | party, competitive   | no       | light       | maybe         | 2021-01-17
+| game                           | description                                                    | players | type               | tested? | rules | good?   | date      
+|--------------------------------|----------------------------------------------------------------|---------|--------------------|---------|-------|---------|-------------|
+| [bazaar][13]                   | trade with other players. not cooperative nor competitive.     | 4-8     | card               | no      | mid   | not yet | 2022-03-04
+| [faux pas][14] v2              | a "visible role" game. enter the room in order of social rank. | 3-8     | cooperative        | no      | mid   | maybe   | 2021-04-28
+| [emperical zendo][15]          | a variant on traditional zendo                                 | 2-8     | board              | no      | mid   | no      | 2021-03-19
+| [infinity questions][16]       | a frustrating game of 20 questions                             | 2       | party              | no      | light | maybe   | 2022-02-25
+| [deadly education rpg][17]     | a traditional pen-and-paper RPG based on "A Deadly Education"  | 2-6, GM | roleplaying        | no      | mid   | no      | 2021-02-12
+| [ninjas ninjas ninjas!][18] v2 | fast, diceless storytelilng game about how cool ninjas are     | 3       | storytelling       | no      | mid+  | no      | 2021-02-07
+| [stupid conspiracies][19]      | conspiracy nutjobs join and promote conspiracies               | 10+     | party, competitive | no      | light | maybe   | 2021-01-17
 
 ## flops
 
-| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
-|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [hack-a-tile](https://tilde.za3k.com/hackaday/tile/)                     | place tiles | 1            | computer             | yes      | light        | maybe         | 2022-11-11
-| [doubledore](doubledore)                                                 | a tower-defense card game. when you defeat a monster, it attacks your opponent instead. | 2            | card                 | yes      | light        | no            | 2021-06-06
-| [stupid russia](stupid_russia)                                           | spy directors make deals with each other, trying to report more agents than anyone else, without getting their own agents executed. | 10+, GM | party, competitive   | yes      | mid-heavy   | no            | 2017-10-29
-| [colony on the moon](colony)                                             | a minecraft modpack. Based around providing reductionist components and having the player do their own automation. | 1+           | computer (minecraft) | alpha    | heavy       | no            | 2016-07-05
-| [volcano](https://github.com/za3k/volcano)                               | an ASCII roguelike I made in college. Not much fun. | 1            | computer             | beta     | light-med    | no            | 2013-02-05
+| game                     | description                                | players | type               | tested? | rules | good?  | date      
+|--------------------------|--------------------------------------------|---------|--------------------|---------|-------|--------|-------------|
+| [hack-a-tile][20]        | place tiles                                | 1       | computer           | yes     | light | maybe  | 2022-11-11
+| [doubledore][21]         | a versus tower-defense card game           | 2       | card               | yes     | light | no     | 2021-06-06
+| [stupid russia][22]      | spy directors make deals with each other   | 10+, GM | party, competitive | yes     | mid   | no     | 2017-10-29
+| [colony on the moon][23] | minecraft modpack. reductionist automation | 1+      | computer           | alpha   | heavy | no     | 2016-07-05
+| [volcano][24]            | an ASCII roguelike                         | 1       | computer           | beta    | light | no     | 2013-02-05
 
 ## games by others
 
-| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
-|--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [lexicon](lexicon)                                                       | players collaboratively build a world by writing an encyclopedia about it | 2+           | storytelling         | yes      | light        | yes           | 2003-11-20
+| game          | description                                                               | players | type         | tested?  | rules | good?  | date      
+|---------------|---------------------------------------------------------------------------|---------|--------------|----------|-------|--------|-------------|
+| [lexicon][25] | players collaboratively build a world by writing an encyclopedia about it | 2+      | storytelling | yes      | light | yes    | 2003-11-20
+
+
+[1]: https://tilde.za3k.com/doodlerpg/
+[2]: https://tilde.za3k.com/hackaday/adventure/
+[3]: https://tilde.za3k.com/hackaday/snake/
+[4]: https://tilde.za3k.com/hackaday/hell/
+[5]: https://tilde.za3k.com/hackaday/mini/
+[6]: https://tilde.za3k.com/hackaday/asteroid/
+[7]: doodle_adventures
+[8]: in_media_res
+[9]: logic_potions
+[10]: lootboxes
+[11]: invincible
+[12]: ultimate_archwizard
+
+[13]: bazaar
+[14]: faux_pas
+[15]: emperical_zendo
+[16]: infinity_questions
+[17]: deadly
+[18]: ninjas
+[19]: conspiracies
+
+[20]: https://tilde.za3k.com/hackaday/tile/
+[21]: doubledore
+[22]: stupid_russia
+[23]: colony
+[24]: https://github.com/za3k/volcano
+[25]: lexicon
 
