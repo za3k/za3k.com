@@ -37,6 +37,7 @@ see also [hack-a-day](/hackaday), my challenge to write one piece of software a 
 | works | [rpi-setup](https://github.com/za3k/rpi-setup) | 2020-04-18 | set up a raspberry pi to be bootable. works headless for several pi versions.
 | works | [rtmux](https://github.com/za3k/short-programs#rtmux) | 2016-03-20 | ssh into another computer and run tmux. probably my most frequently run program.
 | works | [scan-organizer](https://github.com/za3k/scan-organizer) | 2022-07-22 | my process for sorting scans. useful, but mostly for me. buggy.
+| works | [sscheme](https://github.com/za3k/sscheme) | 2023-07-17 | a scheme interpreter
 | works | [sum](https://github.com/za3k/short-programs) | 2021-06-05 | add a list of numbers. there's no standard program to do it.
 | alpha | [vim-leaves](https://github.com/za3k/vim-leaves) | 2017-04-30 | a vim plugin for working with fixed-size, monospace sheets of paper.
 | alpha | [volcano](https://github.com/za3k/volcano) | 2013-02-05 | a simple roguelike written in python. not too fun.
