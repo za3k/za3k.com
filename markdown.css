@@ -1,6 +1,6 @@
 @media (min-width: 800px) {
     body {
-        margin-left: 20px;
+        margin-left: 20%;
         width: max(500px, 50%);
         padding: 5em;
     }
