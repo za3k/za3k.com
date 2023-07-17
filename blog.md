@@ -15,6 +15,10 @@ ul {
     margin-top: 4em;
     max-width: fit-content;
 }
+li:nth-child(1) {
+    background-color: white;
+    border-color: lightgray;
+}
 li {
     background-color: floralwhite;
     min-width: 30em;

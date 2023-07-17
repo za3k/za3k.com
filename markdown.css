@@ -7,6 +7,12 @@ table {
   border-collapse: collapse;
 }
 
+/*
+tr:nth-child(even) {
+  background-color: #f0f0ff;
+}
+*/
+
 table {
   width: 100%;
 }
@@ -26,4 +32,5 @@ img {
 
 li {
   margin: 8px 0 8px 0;
+  overflow: auto;
 }
