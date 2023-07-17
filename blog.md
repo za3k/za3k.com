@@ -4,7 +4,7 @@
 ul {
     padding-left: 2em;
 }
-li:nth-child(odd) {
+li:nth-child(even) {
     background-color: lightblue;
 }
 li {
@@ -18,8 +18,7 @@ li a {
 }
 </style>
 
-blog.
-- **Newest articles can be found [on the blog](https://blog.za3k.com/)**
+blog. **Newest articles can be found [on the blog](https://blog.za3k.com/)**
 - 2023-07-13: My TODO list [blog](https://blog.za3k.com/my-todo-list/)
 - 2023-07-12: Meeple Initiative Tracker [blog](https://blog.za3k.com/meeple-initiative-tracker/)
 - 2023-07-08: Hack-A-Day 2023 [link](https://za3k.com/hack-a-day-rules) [blog](https://blog.za3k.com/hack-a-day-2023/)
@@ -185,5 +184,4 @@ blog.
 - 2014-07-26: Amazon AWS [blog](https://blog.za3k.com/amazon-aws/)
 - 2014-07-19: New blog [blog](https://blog.za3k.com/hello-world/) [website](https://za3k.com/archive/wordpress/)
 
-old blog.
-- Older can be found [here](/archive/wordpress). It's garbage, don't bother.
+old blog. Older can be found [here](/archive/wordpress). It's garbage, don't bother.
