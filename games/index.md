@@ -10,7 +10,7 @@ td:first-child {
 }
 </style>
 
-sometimes I made games. I make board games, card games, storytelling games, and computer games. the rules are collected here.
+sometimes I make games. I make board games, card games, storytelling games, and computer games. the rules are collected here.
 
 ## recommended
 
