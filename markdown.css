@@ -1,15 +1,17 @@
 table, th, td {
   border: 1px solid black;
-  padding: 4px;
+  padding: 6px 10px 6px 10px;
 }
 
 table {
   border-collapse: collapse;
 }
 
+/*
 table {
   width: 100%;
 }
+*/
 
 th {
   background-color: #FFFFDD;
