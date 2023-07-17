@@ -3,6 +3,11 @@
 <style>
 td:first-child {
     width: 12em;
+    text-align: right;
+}
+td:nth-child(n+3) {
+    text-align: center;
+    width: 6em;
 }
 </style>
 
