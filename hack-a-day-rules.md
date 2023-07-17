@@ -29,9 +29,11 @@ img {
 li strong {
     display: block;
 }
+/*
 html {
     background-color: lightblue;
 }
+*/
 body {
     background-color: white;
     padding: 5em;
