@@ -9,7 +9,8 @@ li:nth-child(even) {
 }
 li {
     padding: 8px;
-    width: 30em;
+    min-width: 30em;
+    max-width: fit-content;
     list-style: none;
 }
 li a {
