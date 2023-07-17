@@ -23,3 +23,7 @@ tr.alt td {
 img {
   max-width: 300px;
 }
+
+li {
+  margin-top: 4px 0 4px 0;
+}
