@@ -55,5 +55,5 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 | game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
-| [lexicon](lexicon)                                                       | players collaboratively build a world by writing an encyclopedia about it | | 2+           | storytelling         | yes      | light        | yes           | 2003-11-20
+| [lexicon](lexicon)                                                       | players collaboratively build a world by writing an encyclopedia about it | 2+           | storytelling         | yes      | light        | yes           | 2003-11-20
 
