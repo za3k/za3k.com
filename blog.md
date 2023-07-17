@@ -1,10 +1,14 @@
 [za3k](/) > articles
 
 <style>
+html {
+    background-color: white;
+}
 body {
-    margin-top: 4em;
     margin-left: 20%;
-    width: calc(max(30%, 500px));
+    width: calc(max(30%, 600px));
+    padding: 5em;
+    background-color: white;
 }
 ul {
     padding-left: 0;
