@@ -6,7 +6,7 @@ html {
 }
 body {
     margin-left: 20%;
-    width: calc(max(30%, 500px))
+    width: calc(max(30%, 500px));
     padding: 5em;
     background-color: white;
 }
@@ -30,6 +30,7 @@ li {
     border: 2px solid;
     border-radius: 3px;
     margin: 8px;
+    padding: 8px;
     filter: drop-shadow(3px 5px 4px rgba(0,0,0,0.1));
 }
 li a {
