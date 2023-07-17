@@ -1,28 +1,15 @@
 [za3k](/) > articles
 
 <style>
-html {
-    background-color: lightblue;
-}
-body {
+body > *:nth-child(n+1) {
     margin-left: 20%;
     width: calc(max(30%, 500px));
-    padding: 5em;
-    background-color: white;
 }
 ul {
     padding-left: 2em;
     margin-top: 4em;
     max-width: fit-content;
 }
-/*
-li:nth-child(even) {
-    background-color: lightblue;
-}
-li:nth-child(odd) {
-    background-color:white;
-}
-*/
 li {
     background-color: floralwhite;
     min-width: 30em;
