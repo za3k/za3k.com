@@ -14,7 +14,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 ## recommended
 
-| game                                                                     | description | | players      | type                 | tested?  | rules | good?  | date      
+| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
 | [doodle rpg](https://tilde.za3k.com/doodlerpg/)                          | draw and explore a universe | 1-99+        | computer             | beta     | light       | yes           | 2022-12-03
 | [hack-an-adventure](https://tilde.za3k.com/hackaday/adventure/)          | listen as a premade story is revealed, and doodle what happens. | 1            | computer             | yes      | light       | yes           | 2022-11-29
@@ -31,7 +31,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 ## untested
 
-| game                                                                     | description | | players      | type                 | tested?  | rules | good?  | date      
+| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
 | [bazaar](bazaar)                                                         | trade with other plays and try to make a profit. neither cooperative nor competitive. | 4-8          | card                 | no       | mid        | not yet       | 2022-03-04
 | [faux pas](faux_pas) v2                                                  | a "visible role" game, where everyone knows your secret identity except you. try to enter the dining room in order of social rank. | 3-8          | cooperative          | no       | mid        | maybe         | 2021-04-28
@@ -43,7 +43,7 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 
 ## flops
 
-| game                                                                     | description | | players      | type                 | tested?  | rules | good?  | date      
+| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
 | [hack-a-tile](https://tilde.za3k.com/hackaday/tile/)                     | place tiles | 1            | computer             | yes      | light        | maybe         | 2022-11-11
 | [doubledore](doubledore)                                                 | a tower-defense card game. when you defeat a monster, it attacks your opponent instead. | 2            | card                 | yes      | light        | no            | 2021-06-06
@@ -52,7 +52,8 @@ sometimes I made games. I make board games, card games, storytelling games, and 
 | [volcano](https://github.com/za3k/volcano)                               | an ASCII roguelike I made in college. Not much fun. | 1            | computer             | beta     | light-med    | no            | 2013-02-05
 
 ## games by others
-| game                                                                     | description | | players      | type                 | tested?  | rules | good?  | date      
+
+| game                                                                     | description | players      | type                 | tested?  | rules | good?  | date      
 |--------------------------------------------------------------------------|------------|----------------------|------------|--------------|----------|---------------|-------------|
 | [lexicon](lexicon)                                                       | players collaboratively build a world by writing an encyclopedia about it | | 2+           | storytelling         | yes      | light        | yes           | 2003-11-20
 
