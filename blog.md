@@ -1,12 +1,14 @@
 [za3k](/) > articles
 
 <style>
-body > *:nth-child(n+1) {
+body {
+    margin-top: 2em;
     margin-left: 20%;
     width: calc(max(30%, 500px));
 }
 ul {
     padding-left: 2em;
+    margin-left: 0;
     margin-top: 4em;
     max-width: fit-content;
 }
