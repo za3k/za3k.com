@@ -2,7 +2,7 @@
 
 <style>
 td:first-child {
-    width: 40em;
+    width: 12em;
 }
 </style>
 
