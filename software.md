@@ -1,6 +1,9 @@
 [za3k](/) > software
 
 <style>
+table {
+    width: 60em;
+}
 td:first-child {
     width: 12em;
     text-align: right;

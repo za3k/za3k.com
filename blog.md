@@ -1,5 +1,23 @@
 [za3k](/) > articles
 
+<style>
+ul {
+    padding-left: 2em;
+}
+li:nth-child(odd) {
+    background-color: lightblue;
+}
+li {
+    padding: 8px;
+    width: 30em;
+    list-style: none;
+}
+li a {
+    float: right;
+    margin-left: 1em;
+}
+</style>
+
 blog.
 - **Newest articles can be found [on the blog](https://blog.za3k.com/)**
 - 2023-07-13: My TODO list [blog](https://blog.za3k.com/my-todo-list/)
