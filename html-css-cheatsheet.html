@@ -1,0 +1,366 @@
+<html>
+<head>
+    <title>HTML and CSS cheatsheet</title>
+    <style>
+        div {
+            box-sizing: border-box;
+        }
+        .cheatsheet {
+            columns: auto;
+            column-width: 20em;
+            column-gap: 1em;
+        }
+        .cheatsheet div.demo~pre {
+            margin-top: 0;
+        }
+        .cheatsheet > div {
+            border: 1px solid lightgray;
+            border-radius: 20px;
+            padding: 10px 5px;
+            margin-top: 10px;
+            break-inside: avoid;
+        }
+        .cheatsheet > div > h3 {
+            margin: 0;
+            text-align: center;
+        }
+        ul {
+            margin: 4px 0 2px 0;
+            padding-inline-start: 30px; /* Chrome specific? */
+        }
+        code, tt {
+            font-size: 8pt;
+        }
+        /*
+        code {
+            display: block;
+            width: fit-content;
+            margin: auto;
+        }*/
+
+        /* Container */
+        .cheatsheet > div > div.demo {
+            width: calc( 100% - 10px );
+            /*height: 50px;*/
+            border: 0;
+            margin: 10px 0;
+        }
+        .cheatsheet > div > div.demo.animated {
+            width: calc( 100% - 10px );
+            /*height: 50px;*/
+            aspect-ratio: 5/1;
+            border: 0;
+        }
+        div.inline {
+            display: inline-block;
+        }
+        div.demo {
+            border: 1px solid;
+        }
+        div.demo.resizeh.resizev {
+            animation: resizer-v 2s ease-in-out infinite alternate,
+                       resizer-h 1.5s ease-in-out infinite alternate;
+        }
+        div.demo.resizeh {
+            animation: resizer-h 1.5s ease-in-out infinite alternate;
+            margin-bottom:0;
+            height: 70%;
+            margin-right: 30%;
+        }
+        div.demo.resizev {
+            animation: resizer-v 2s ease-in-out infinite alternate;
+            width: 100%;
+        }
+        pre.demo {
+            margin: 0;
+        }
+        div.demo.small {
+            width: 50px;
+            height: 20px;
+            font-size: 15px;
+            font-variant: small-caps;
+            text-align: center;
+        }
+        .red { background-color: pink; }
+        .blue { background-color: lightblue; }
+        .green { background-color: green; }
+        .yellow { background-color: yellow; }
+        @keyframes resizer-v {
+            0% {
+                height: 50%;
+                margin-bottom: 10%; /* Because margin-bottom is a percentage of WIDTH */
+            }
+            100% {
+                height: 100%;
+                margin-bottom: 0;
+            }
+        }
+        @keyframes resizer-h {
+            0% {
+                width: 50%;
+                margin-right: 50%;
+            }
+            100% {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+
+        .noprint { color: grey; }
+        @media print {
+            .noprint {
+                display: none;
+                color: initial;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h3><span style="color: red;">(Work in progress)</span> Za3k presents: An HTML and CSS cheatsheet!</h3>
+<div class="cheatsheet">
+
+<div>
+    <h3>Including CSS</h3>
+
+    <pre><code>&lt;link rel="stylesheet href="styles.css"&gt;
+&lt;style&gt;p { color: "red"; }&lt;/style&gt;
+&lt;p style="font-size: 200%;"&gt;Hello world&lt;/p&gt;
+</code></pre>
+</div>
+
+<div>
+    <h3>Including JS</h3>
+
+    <pre><code>&lt;head&gt;
+  &lt;script src="jquery.min.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;p&gt;Hello World&lt;/p&gt;
+&lt;script&gt;$("p").css("color", "yellow");&lt;/script&gt;</code></pre>
+
+    JS is executed immediately. If your JS is included at the top of a file, delay it until document load:<ul>
+    <li><tt>window.addEventListener("load",(ev)=&gt;{...});</tt>
+    <li><tt>window.onload((ev) =&gt; {...});</tt>
+    <li><i>or</i> <tt>$(document).ready((ev) =&gt; {...});</tt> (jquery)
+</div>
+
+<div>
+    <h3>Mobile browsing</h3>
+    <pre><code>&lt;head&gt;
+    &lt;meta content="width=device-width, initial-scale=1"
+          name="viewport"/&gt;
+&lt;/head&gt;</code></pre>
+</div>
+
+<div>
+    <h3>Centering Text / Inline-Blocks</h3>
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="text-align: center;";>Centered Text</div>
+    </div>
+
+    <pre><code>div { text-align: center; }</code></pre>
+
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="display: flex; justify-content: center; align-items: center;";>Centered Text</div>
+    </div>
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="display: flex; justify-content: center; align-items: center;";>
+            <div class="demo small inline blue">inline</div>
+            <div class="demo small inline red">inline</div>
+        </div>
+    </div>
+    <pre><code>div { display: flex;
+      justify-content: center;
+      align-items: center; }</code></pre>
+</div>
+
+<div>
+    <h3>Centering Divs / Blocks</h3>
+
+    <div class="demo animated">
+        <div class="demo resizeh resizev">
+            <div class="demo small blue" style="margin: auto;">block</div>
+        </div>
+    </div>
+
+    <pre><code>div.inner { margin: auto; }</code></pre>
+
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div class="demo small blue">block</div>
+            <div class="demo small red">block</div>
+        </div>
+    </div>
+
+    <pre><code>div.outer { display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }</code></pre>
+
+    <pre><code>div.inner { margin: auto; }</code></pre>
+</div>
+
+<!--
+<div class="noprint">
+    <h3>Aligning Blocks (Old methods)</h3>
+
+    <div class="demo noprint">
+        <div class="demo resizeh resizev" style="position: relative;">
+            <div class="demo small blue" style="position: absolute; top: 50%; left: 50%; margin-left: -25px; margin-top: -10px;">block</div>
+        </div>
+    </div>
+
+    <pre class="noprint"><code>div.outer { position: relative; }
+div.inner { position: absolute;
+            top: 50%;
+            left: 50%;
+            /* 50% of fixed size */
+            margin-left: -25px; 
+            margin-top: -10px;}</code></pre>
+
+
+    <div class="demo noprint">
+        <div class="demo resizeh resizev" style="position: relative;">
+            <div class="demo small blue" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">block</div>
+        </div>
+    </div>
+
+    <pre class="noprint"><code>div.outer { position: relative; }
+div.inner { position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }</code></pre>
+
+    Multiple divs to center? Often need to wrap in a container div.
+</div>
+-->
+
+<div>
+    <h3>TODO: Flexbox</h3>
+    <li>Flexbox (and "don't use the wrapping version")
+</div>
+
+<div>
+    <h3>Position</h3>
+    
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="position: relative;">
+            <div class="demo small blue" style="position: absolute; bottom: 5px; right: 5px;">block</div>
+        </div>
+    </div>
+
+    <pre><code>div.outer { position: relative; }
+div.inner { position: absolute;
+            bottom: 5px;
+            right: 5px; }</code></pre>
+
+    <div>
+        <div class="demo small inline blue">inline</div>
+        <div class="demo small inline red">inline</div>
+        <div class="demo small inline blue">inline</div>
+    </div>
+    <div>
+        <div class="demo small inline blue">inline</div>
+        <div class="demo small inline red" style="position: relative; left: 10px;">inline</div>
+        <div class="demo small inline blue">inline</div>
+    </div>
+    <pre><code>div.red { position: relative; 
+          left: 10px; }</code></pre>
+</div>
+<div>
+    <h3>TODO: Float</h3>
+</div>
+
+<div>
+    <h3>Hiding Things</h3>
+    <div>
+        <div class="demo small inline blue">inline</div>
+        <div class="demo small inline red">inline</div>
+        <div class="demo small inline blue">inline</div>
+    </div>
+    <div>
+        <div class="demo small inline blue">inline</div>
+        <div class="demo small inline red" style="visibility: hidden;">inline</div>
+        <div class="demo small inline blue">inline</div>
+    </div>
+    <pre><code>div.red { visibility: hidden; }</code></pre>
+    <div>
+        <div class="demo small inline blue">inline</div>
+        <div class="demo small inline red" style="display: none;">inline</div>
+        <div class="demo small inline blue">inline</div>
+    </div>
+    <pre><code>div.red { display: none; }</code></pre>
+</div>
+
+<div>
+    <h3>TODO: Padding, Border, Margin</h3>
+    <li> Known: The box model (padding, border, margin?)
+    <li>box-sizing
+</div>
+
+<div>
+    <h3>Formatting Text</h3>
+    Only tags can be selected by CSS selectors, not text.<br>
+
+    <div class="demo" style="font-size: 18pt;">Text Size</div>
+    <pre><code>span { font-size: 18pt; }
+span { font-size: 24px; }
+span { font-size: larger; }</code></pre>
+
+    <div class="demo" style="font-family: sans;">Text Font</div>
+    <pre><code>span { font-family: sans; } TODO: name of font</code></pre>
+
+    <div class="demo" style="font-weight: bold;">Bold Text</div>
+    <pre><code>span { font-weight: bold; }</code></pre>
+
+    <div class="demo" style="font-style: italic;">Italic Text</div>
+    <pre><code>span { font-style: italic; }</code></pre>
+
+    <div class="demo" style="color: blue;">Text Color</div>
+    <pre><code>span { color: blue; }</code></pre>
+
+    <div class="demo" style="text-decoration: underline;">Underline</div>
+    <pre><code>span { text-decoration: underline; }</code></pre>
+
+    <div class="demo" style="font-variant: small-caps;">Small Caps</div>
+    <pre><code>span { font-variant: small-caps; }</code></pre>
+
+</div>
+
+<div>
+    <h3>TODO: Forms and Form Elements</h3>
+</div>
+
+<div>
+    <h3>TODO: CSS Animations</h3>
+</div>
+
+<div>
+    <h3>TODO: Columnar Layout</h3>
+</div>
+
+<div>
+    <h3>TODO: Tables and CSS</h3>
+</div>
+
+<div>
+    <h3>TODO: Thin Columns and Readability</h3>
+</div>
+
+<div>
+    <h3>TODO: CSS Selector Reference</h3>
+</div>
+
+<div>
+    <h3>TODO: Grid layout</h3>
+</div>
+
+<div>
+    <h3>TODO: Overflow and Scrolling</h3>
+</div>
+
+<div>
+    <h3>TODO: Adding JS+CSS Dynamically</h3>
+</div>
+</body>
+</html>
