@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- The source code to this page is horrible. Sorry. -->
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -95,8 +96,8 @@
         }
         .red { background-color: pink; }
         .blue { background-color: lightblue; }
-        .green { background-color: green; }
-        .yellow { background-color: yellow; }
+        .green { background-color: lightgreen; }
+        .yellow { background-color: palegoldenrod; }
         div.em {
             width: 1em;
             height: 1em;
@@ -116,7 +117,12 @@
         }
         form > div:not(:first-child) {
             padding-top: 0.5em;
-            border-top: 1px solid;
+            border-top: 1px solid lightgrey;
+            /* Look "connected" */
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-left: -5px;
+            margin-right: -5px;
         }
         @keyframes resizer-v {
             0% {
@@ -134,8 +140,8 @@
                 margin-right: 0;
             }
             100% {
-                width: 50%;
-                margin-right: 50%;
+                width: 60%;
+                margin-right: 40%;
             }
         }
 
@@ -150,7 +156,9 @@
 </head>
 <body>
 
-<h3><span style="color: red;">(Work in progress)</span> Za3k presents: An HTML and CSS cheatsheet!</h3> <h5 class="noprint">(Oh my god <a href="javascript:document.getElementById('cheatsheet').classList.add('noanimate');">stop animating</a>)</h5>
+<h3><span style="color: red;">(Work in progress)</span> Za3k presents: An HTML and CSS cheatsheet!</h3>
+
+<h5 class="noprint">Hover over a section to animate (or click to <a href="javascript:document.getElementById('cheatsheet').classList.add('noanimate');">disable animation</a>)</h5>
 <div class="cheatsheet" id="cheatsheet">
 
 <div>
@@ -470,9 +478,9 @@ $("input[type=checkbox]").attr("checked");</code></pre>
     <pre><code>&lt;input type="password" placeholder="password"/&gt;</code></pre>
     <div><input type="file"/></div>
     <pre><code>&lt;input type="file"/&gt;</code></pre>
-    <div><input type="range" min="0" max="100" value="50"/></div>
+    <div><input type="range" min="0" max="100" value="50"/>
     <pre><code>&lt;input type="range" min="1" max="100" value="50"/&gt;</code></pre>
-    <div><input type="range" min="0" max="100" value="50" list="tickmarks"/>
+    <input type="range" min="0" max="100" value="50" list="tickmarks"/>
     <datalist id="tickmarks">
         <option value="0"></option>
         <option value="10"></option>
@@ -526,11 +534,115 @@ $("textarea").val();</code></pre>
 </div>
 
 <div>
-    <h3>TODO: CSS Animations</h3>
+    <h3>CSS Animations</h3>
+    Not all properties can be animated, but many can.
+
+    <div class="demo">
+        <a href="#" id="fading">fading transition</a>
+    </div>
+
+    <style>
+        #fading { transition-duration: 0.8s;
+                  transition-property: opacity; }
+        .cheatsheet > div:hover #fading { opacity: 10%; }
+    </style>
+
+    <p>Transitions can change a property gradually.</p>
+
+<pre><code>a       { transition-duration: 0.8s;
+          transition-property: opacity; }
+a:hover { opacity: 10%; }</code></pre>
+
+    <style>
+        .cheatsheet > div:hover #shimmer a {
+            animation: glow 5s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            0% { color: red; }
+            20% { color: orange; }
+            40% { color: yellow; }
+            60% { color: green; }
+            80% { color: blue; }
+            100% { color: violet; }
+        }
+    </style>
+
+    <div id="shimmer" class="demo">
+        <a href="#">rainbow animation</a>
+    </div>
+
+    <p>Animations change properties in a defined and continuous way.</p>
+
+    <pre><code>animation: «duration» «name» «iteration-count» «direction»;
+
+a { animation: glow 5s ease-in-out infinite alternate; }
+@keyframes glow {
+    0%   { color: red; } ...
+    100% { color: violet; }
+}</code></pre>
+    
+    <style>
+        #wiggle {
+            width: fit-content;
+        }
+        .cheatsheet > div:hover #wiggle {
+            animation: shift-a-bit 0.5s ease-in-out infinite alternate;
+        }
+        @keyframes shift-a-bit {
+            0%   { transform: rotate(0); }
+            100% { transform: rotate(5deg); }
+        }
+    </style>
+    <div id="wiggle" class="demo">
+        <a href="#">wiggly animated transform</a>
+    </div>
+    <p>Transforms and animations can be combined.</p>
+<pre><code>a:hover {
+  animation: shift-a-bit 0.5s ease-in-out infinite alternate;
+}
+@keyframes shift-a-bit {
+  0%   { transform: rotate(0); }
+  100% { transform: rotate(5deg); }
+}</code></pre>
+
 </div>
 
 <div>
-    <h3>TODO: Columnar Layout</h3>
+    <h3>Columnar Layout</h3>
+
+    <div class="demo" style="column-count: 3; font-size: 8px;">
+        Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,
+        <p>Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people,
+    </div>
+    <pre><code>div { column-count: 3; }</code></pre>
+    <div class="demo" style="column-count: 3; font-size: 8px;">
+        <div style="border: 1px solid; break-inside: avoid-column;">Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world,</div>
+        <div style="border: 1px solid; break-inside: avoid-column;">Whereas disregard and contempt for human rights have resulted in barbarous acts which have outraged the conscience of mankind, and the advent of a world in which human beings shall enjoy freedom of speech and belief and freedom from fear and want has been proclaimed as the highest aspiration of the common people,</div>
+        <div style="border: 1px solid; break-inside: avoid-column;">Whereas it is essential, if man is not to be compelled to have recourse, as a last resort, to rebellion against tyranny and oppression, that human rights should be protected by the rule of law,</div>
+        <div style="border: 1px solid; break-inside: avoid-column;">Whereas it is essential to promote the development of friendly relations between nations,</div>
+    </div>
+    <pre><code>div.outer { column-count: 3; }
+div.inner { break-inside: avoid-column; }</code></pre>
+    <style>
+    .demo-col-el {
+        border: 1px solid;
+        break-inside: avoid-column;
+    }
+    </style>
+    <div class="demo animated" style="height: 4.2em;">
+        <div class="demo resizeh" style="columns: auto; column-gap: 1em; column-width: 6em;">
+            <div class="blue demo-col-el" style="height: 0.6em;"></div>
+            <div class="red demo-col-el" style="height: 1.7em;"></div>
+            <div class="green demo-col-el" style="height: 1em;"></div>
+            <div class="yellow demo-col-el" style="height: 1em;"></div>
+            <div class="blue demo-col-el" style="height: 1.2em;"></div>
+            <div class="red demo-col-el" style="height: 1.3em;"></div>
+        </div>
+    </div>
+    <pre><code>div.outer { columns: auto;
+            column-gap: 1em;
+            column-width: 6em; }
+div.inner { break-inside: avoid-column; }</code></pre>
 </div>
 
 <div>
@@ -606,7 +718,30 @@ tr:nth-child(odd)  { background-color: lightyellow; }</code></pre>
 </div>
 
 <div>
-    <h3>TODO: CSS Selector Reference</h3>
+    <h3>CSS Selector Reference</h3>
+<pre><code>*           All elements
+#id         Element with the given id
+div         All &lt;div&gt;s
+.foo        Elements with class "foo"
+.foo.bar    Elements with class "foo" and "bar"
+div.foo     &lt;div&gt;s with class "foo"
+[attr]      Elements with attribute "attr"
+[attr=val]  Elements with attribute "attr" set to "val"
+
+a b         b, a descendent of a
+a &lt; b       b, a child of a
+a, b        a or b
+a + b       b immediately after a
+a ~ b       b immediately before a
+:not(...)   inverts selector
+:has(...)   cannot use yet
+
+:hover. :visited
+:first-child, :last-child, :only-child
+:nth-child(n+3)   3rd, 4th, 5th child
+:nth-child(even)  2nd, 4th, 6th child
+
+::before, ::after</code></pre>
 </div>
 
 <div>
@@ -617,7 +752,6 @@ tr:nth-child(odd)  { background-color: lightyellow; }</code></pre>
 <pre></code>var script = document.createElement('script');
 script.src = 'https://.../jquery.min.js';
 document.appendChild(script);</pre></code>
-
 
     <p>Or, it's often easier to style elements directly. Jquery is especially good for this:
 
