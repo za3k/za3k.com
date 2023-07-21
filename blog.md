@@ -37,6 +37,9 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2023-07-21: HTML + CSS Cheatsheet [blog](https://blog.za3k.com/html-css-cheatsheet/) [link](https://za3k.com/html-css-cheatsheet)
+- 2023-07-20: D&D Story Time [blog](https://blog.za3k.com/dd-story-time/)
+- 2023-07-17: Dungeon Master II Spell Runes [blog](https://blog.za3k.com/dungeon-master-ii-spell-runes/)
 - 2023-07-13: My TODO list [blog](https://blog.za3k.com/my-todo-list/)
 - 2023-07-12: Meeple Initiative Tracker [blog](https://blog.za3k.com/meeple-initiative-tracker/)
 - 2023-07-08: Hack-A-Day 2023 [link](https://za3k.com/hack-a-day-rules) [blog](https://blog.za3k.com/hack-a-day-2023/)
