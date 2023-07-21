@@ -23,6 +23,7 @@
         .cheatsheet > div > h3 {
             margin: 0;
             text-align: center;
+            font-family: serif;
         }
         ul {
             margin: 4px 0 2px 0;
@@ -57,6 +58,9 @@
         div.demo {
             border: 1px solid;
         }
+        .noanimate * {
+            animation: none !IMPORTANT;
+        }
         div.demo.resizeh.resizev {
             animation: resizer-v 2s ease-in-out infinite alternate,
                        resizer-h 1.5s ease-in-out infinite alternate;
@@ -85,6 +89,20 @@
         .blue { background-color: lightblue; }
         .green { background-color: green; }
         .yellow { background-color: yellow; }
+        div.em {
+            width: 1em;
+            height: 1em;
+            border: 1px dashed grey;
+            background-color: white;
+            display: inline-block;
+            margin-left: 1px;
+            margin-top: 2px;
+        }
+        div.em ~ div.em {
+            width: 1em;
+            margin-left: 0;
+            border-left: 0;
+        }
         @keyframes resizer-v {
             0% {
                 height: 50%;
@@ -117,8 +135,8 @@
 </head>
 <body>
 
-<h3><span style="color: red;">(Work in progress)</span> Za3k presents: An HTML and CSS cheatsheet!</h3>
-<div class="cheatsheet">
+<h3><span style="color: red;">(Work in progress)</span> Za3k presents: An HTML and CSS cheatsheet!</h3> <h5 class="noprint">(Oh my god <a href="javascript:document.getElementById('cheatsheet').classList.add('noanimate');">stop animating</a>)</h5>
+<div class="cheatsheet" id="cheatsheet">
 
 <div>
     <h3>Including CSS</h3>
@@ -147,8 +165,8 @@
 <div>
     <h3>Mobile browsing</h3>
     <pre><code>&lt;head&gt;
-    &lt;meta content="width=device-width, initial-scale=1"
-          name="viewport"/&gt;
+    &lt;meta content="width=device-width,
+          initial-scale=1" name="viewport"/&gt;
 &lt;/head&gt;</code></pre>
 </div>
 
@@ -236,8 +254,69 @@ div.inner { position: absolute;
 -->
 
 <div>
-    <h3>TODO: Flexbox</h3>
-    <li>Flexbox (and "don't use the wrapping version")
+    <h3>Flexbox</h3>
+
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="display: flex; height: 100%;">
+            <div class="demo blue" style="flex-grow: 1;"></div>
+            <div class="demo red" style="flex-grow: 1;"></div>
+            <div class="demo green" style="flex-grow: 1;"></div>
+            <div class="demo yellow" style="flex-grow: 1;"></div>
+        </div>
+    </div>
+
+    <pre><code>div.outer { display: flex; }
+div.inner { flex-grow: 1; }
+
+div.inner { flex: «grow» «shrink» «basis»; }
+div.inner { flex: 1 1 auto; }</code></pre>
+
+    <!--
+    <div class="demo animated">
+        <div class="demo resizeh" style="display: flex; height: 100%;">
+            <div class="demo blue" style="flex-grow: 1;"></div>
+            <div class="demo red" style="flex-grow: 1; min-width: 80px;"></div>
+            <div class="demo green" style="flex-grow: 1;"></div>
+            <div class="demo yellow" style="flex-grow: 1;"></div>
+        </div>
+    </div>
+
+    <pre><code>
+    div.outer { display: flex; }
+    div.inner { flex-grow: 1; }
+    div.red   { min-width: 80px; }
+    </code></pre>
+    -->
+
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="display: flex; flex-direction: column;">
+            <div class="demo blue" style="flex-grow: 1;"></div>
+            <div class="demo red" style="flex-grow: 1; min-width: 80px;"></div>
+            <div class="demo green" style="flex-grow: 1;"></div>
+            <div class="demo yellow" style="flex-grow: 1;"></div>
+        </div>
+    </div>
+
+    <pre><code>div.outer { display: flex; 
+            flex-direction: column; }
+div.inner { flex-grow: 1; }</code></pre>
+
+
+    <div class="demo animated">
+        <div class="demo resizeh resizev" style="display: flex; flex-wrap: wrap; height: 100%;">
+            <div class="demo blue" style="flex-grow: 1; min-width: 80px; "></div>
+            <div class="demo red" style="flex-grow: 1; min-width: 80px; "></div>
+            <div class="demo green" style="flex-grow: 1; min-width: 80px; "></div>
+            <div class="demo yellow" style="flex-grow: 1; min-width: 80px; "></div>
+        </div>
+    </div>
+
+    <pre><code>div.outer { display: flex; 
+            flex-wrap: wrap; }
+div.inner { flex-grow: 1; 
+            min-width: 80px; }</code></pre>
+
+    Wrapping flex creates sizing problems if you have more than two layers. Ex. <tt>fit-contents</tt> or <tt>min-content</tt>.
 </div>
 
 <div>
@@ -268,7 +347,15 @@ div.inner { position: absolute;
           left: 10px; }</code></pre>
 </div>
 <div>
-    <h3>TODO: Float</h3>
+    <h3>Float</h3>
+    <div class="demo animated" style="aspect-ratio: initial;">
+        <div class="demo resizeh" style="position: relative; font-size: 10pt; height: 50px;">
+            <div class="demo small blue" style="float: right;">pic 1</div>
+            <div class="demo small red" style="float: right;">pic 2</div>
+            Text wrapping around a photo in the news.
+        </div>
+    </div>
+    <pre><code>div.inner { float: right; }</code></pre>
 </div>
 
 <div>
@@ -293,9 +380,38 @@ div.inner { position: absolute;
 </div>
 
 <div>
-    <h3>TODO: Padding, Border, Margin</h3>
-    <li> Known: The box model (padding, border, margin?)
-    <li>box-sizing
+    <h3>Padding, Border, Margin</h3>
+    <pre><code>margin: «top» «right» «bottom» «left»;
+margin: «top-and-bottom» «right-and-left»;
+margin: «all-sides»;</code></pre>
+    <pre><code>padding: «top» «right» «bottom» «left»;</code></pre>
+    <pre><code>border: «top» «right» «bottom» «left» «style» [«color»];</code></pre>
+
+    <div class="demo">
+        <div class="demo" style="box-sizing: content-box; background-color: yellow; width: fit-content;">
+            <div class="demo blue" style="box-sizing: content-box; border: 0.5em solid red; width: 2em; margin: 0.5em; height: 2em;"></div>
+        </div>
+        <div class="em"></div><div class="em"></div><div class="em"></div><div class="em"></div>
+    </div>
+
+    <pre><code>div { box-sizing: content-box; /* default */
+      width: 2em;
+      height: 2em;
+      border: 0.5em solid red;
+      margin: 0.5em; }</code></pre>
+
+    <div class="demo">
+        <div class="demo" style="box-sizing: border-box; background-color: yellow; width: fit-content;">
+            <div class="demo blue" style="box-sizing: border-box; border: 0.5em solid red; width: 2em; margin: 0.5em; height: 2em;"></div>
+        </div>
+        <div class="em"></div><div class="em"></div><div class="em"></div>
+    </div>
+
+    <pre><code>div { box-sizing: border-box;
+      width: 2em;
+      height: 2em;
+      border: 0.5em solid red;
+      margin: 0.5em; }</code></pre>
 </div>
 
 <div>
@@ -307,8 +423,8 @@ div.inner { position: absolute;
 span { font-size: 24px; }
 span { font-size: larger; }</code></pre>
 
-    <div class="demo" style="font-family: sans;">Text Font</div>
-    <pre><code>span { font-family: sans; } TODO: name of font</code></pre>
+    <div class="demo" style="font-family: "Lucida Sans", sans;">Text Font</div>
+    <pre><code>span { font-family: "Lucida Sans", sans; }</code></pre>
 
     <div class="demo" style="font-weight: bold;">Bold Text</div>
     <pre><code>span { font-weight: bold; }</code></pre>
@@ -361,6 +477,14 @@ span { font-size: larger; }</code></pre>
 
 <div>
     <h3>TODO: Adding JS+CSS Dynamically</h3>
+</div>
+
+<div>
+    <h3>Additional Resources</h3>
+    <ul>
+    <li><a href="https://caniuse.com/">caniuse.com</a> - see if ??? works on browsers
+    <li><a href="https://jsfiddle.net/">jsfiddle.net</a> - try HTML, CSS, JS immediately
+    </ul>
 </div>
 </body>
 </html>
