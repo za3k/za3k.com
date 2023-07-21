@@ -63,18 +63,24 @@
         .noanimate * {
             animation: none !IMPORTANT;
         }
-        div.demo.resizeh.resizev {
+
+        .cheatsheet > div:hover div.demo.resizeh.resizev {
             animation: resizer-v 2s ease-in-out infinite alternate,
                        resizer-h 1.5s ease-in-out infinite alternate;
         }
-        div.demo.resizeh {
+        .cheatsheet > div:hover div.demo.resizeh {
             animation: resizer-h 1.5s ease-in-out infinite alternate;
+        }
+        .cheatsheet > div:hover div.demo.resizev {
+            animation: resizer-v 2s ease-in-out infinite alternate;
+        }
+
+        div.demo.resizev {
             margin-bottom:0;
-            height: 70%;
+            height: 100%;
             margin-right: 30%;
         }
-        div.demo.resizev {
-            animation: resizer-v 2s ease-in-out infinite alternate;
+        div.demo.resizeh {
             width: 100%;
         }
         pre.demo {
@@ -105,24 +111,31 @@
             margin-left: 0;
             border-left: 0;
         }
+        label {
+            margin-right: 1em;
+        }
+        form > div:not(:first-child) {
+            padding-top: 0.5em;
+            border-top: 1px solid;
+        }
         @keyframes resizer-v {
             0% {
-                height: 50%;
-                margin-bottom: 10%; /* Because margin-bottom is a percentage of WIDTH */
+                height: 100%;
+                margin-bottom: 0%; 
             }
             100% {
-                height: 100%;
-                margin-bottom: 0;
+                height: 50%;
+                margin-bottom: 10%; /* Because margin-bottom is a percentage of WIDTH */
             }
         }
         @keyframes resizer-h {
             0% {
-                width: 50%;
-                margin-right: 50%;
-            }
-            100% {
                 width: 100%;
                 margin-right: 0;
+            }
+            100% {
+                width: 50%;
+                margin-right: 50%;
             }
         }
 
@@ -446,7 +459,70 @@ span { font-size: larger; }</code></pre>
 </div>
 
 <div>
-    <h3>TODO: Forms and Form Elements</h3>
+    <h3>Form Elements</h3>
+    <form>
+    <div><input type="text" placeholder="placeholder"/></div>
+    <pre><code>&lt;input type="text" placeholder="placeholder"/&gt;</code></pre>
+    <div><input type="checkbox" checked="checked"/></div>
+    <pre><code>&lt;input type="checkbox" checked="checked"/&gt;
+$("input[type=checkbox]").attr("checked");</code></pre>
+    <div><input type="password" placeholder="password"/></div>
+    <pre><code>&lt;input type="password" placeholder="password"/&gt;</code></pre>
+    <div><input type="file"/></div>
+    <pre><code>&lt;input type="file"/&gt;</code></pre>
+    <div><input type="range" min="0" max="100" value="50"/></div>
+    <pre><code>&lt;input type="range" min="1" max="100" value="50"/&gt;</code></pre>
+    <div><input type="range" min="0" max="100" value="50" list="tickmarks"/>
+    <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+    </datalist>
+    </div>
+    <pre><code>&lt;input type="range" min="0" max="100" value="50" 
+       list="tickmarks"/&gt;
+&lt;datalist id="tickmarks"&gt;
+    &lt;option value="0"&gt;&lt;/option&gt;
+    &lt;option value="10"&gt;&lt;/option&gt; ...
+&lt;/datalist&gt;</code></pre>
+    <div><select>
+        <option value="a">option a</option>
+        <option value="b" selected>option b</option>
+        <option value="c">option c</option>
+    </select></div>
+    <pre><code>&lt;select&gt;
+    &lt;option value="a"&gt;option a&lt;/option&gt;
+    &lt;option value="b" selected&gt;option b&lt;/option&gt;
+    &lt;option value="c"&gt;option c&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+    <div>
+    <textarea style="width: calc( 100% - 10px );">This is a freeform text area. Write in your multiline comments.</textarea>
+    <pre><code>&lt;textarea&gt;This is a freeform text area&lt;/textarea&gt;</code></pre>
+    </div>
+    <div><button type="button">Button</button></div>
+    <pre><code>&lt;button type="button"&gt;Button&lt;/button&gt;</code></pre>
+</div>
+
+<div>
+    <h3>Forms</h3>
+    <tt>&lt;form&gt;</tt> can be used on its own to submit POST, GET, and <tt>mailto:</tt> emails.
+    <pre style="margin-top: 1em;"><code>&lt;form action="/do_thing.html" method="post"&gt;
+    &lt;input type="hidden" name="key" value="value"&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+    Now form elements are more often used as javascript input, or submitted via AJAX.
+
+    <pre><code>$("button").on("click", ...)
+$("input[type=text]").on("input", ...)
+$("textarea").val();</code></pre>
 </div>
 
 <div>
@@ -458,15 +534,67 @@ span { font-size: larger; }</code></pre>
 </div>
 
 <div>
-    <h3>TODO: Tables and CSS</h3>
+    <h3>Tables and CSS</h3>
+
+    <style>
+        table#exampletable {
+            font-size: 10pt;
+        }
+        table#exampletable {
+            border-collapse: collapse;
+        }
+        #exampletable td, #exampletable th {
+            border: 1px solid grey;
+            padding: 5px 10px;
+        }
+        /* Browser typically bolds &amp; centers th already */
+        #exampletable th, #exampletable td:first-child {
+            font-weight: bold;
+            text-align: center;
+            background-color: #eaecf0;
+        }
+        #exampletable tr:nth-child(odd) {
+            background-color: lightyellow;
+
+        }
+    </style>
+    <table id="exampletable">
+        <tr><th>State</th><th>Abbreviation</th><th>Bird</th></tr>
+        <tr><td>Alabama</td><td>AL</td><td>Yellowhammer</td></tr>
+        <tr><td>Alaska</td><td>AK</td><td>Willow ptarmigan</td></tr>
+        <tr><td>Arizona</td><td>AZ</td><td>Cactus wren</td></tr>
+        <tr><td>Arkansas</td><td>AR</td><td>Northern mockingbird</td></tr>
+    </table>
+    <pre><code>table              { border-collapse: collapse; }
+td, th             { border: 1px solid grey;
+                     padding: 5px 10px; }
+/* Browser typically bolds &amp; centers th already */
+th, td:first-child { font-weight: bold; 
+                     text-align: center;
+                     background-color: #eaecf0; }
+tr:nth-child(odd)  { background-color: lightyellow; }</code></pre>
 </div>
 
 <div>
-    <h3>TODO: Thin Columns and Readability</h3>
-</div>
-
-<div>
-    <h3>TODO: CSS Selector Reference</h3>
+    <h3>Readability: One Thin Column</h3>
+<!--
+    Modern guidelines suggest:
+    <ul>
+    <li>One column
+    <li><b>Desktop:</b> 55-75 characters per line
+    <li><b>Mobile:</b> 35-50 characters per line
+    <li>Font size 18px
+    <li>Line height = 1.6x font height
+    </ul>
+<b>Mobile:</b> 35-50 characters per line<br/>
+<b>Desktop:</b> 55-75 characters per line<br/>
+-->
+<pre><code>div.main-column {
+    font-size: 18px;
+    line-height: 24px; /* 1.6x font height */
+    max-width: 75em;
+}</code></pre>
+    
 </div>
 
 <div>
@@ -478,7 +606,25 @@ span { font-size: larger; }</code></pre>
 </div>
 
 <div>
-    <h3>TODO: Adding JS+CSS Dynamically</h3>
+    <h3>TODO: CSS Selector Reference</h3>
+</div>
+
+<div>
+    <h3>Adding CSS and JS Dynamically</h3>
+
+    <tt>&lt;style&gt;</tt>, <tt>&lt;link&gt;</tt>, or <tt>&lt;script&gt;</tt> tags can be inserted at runtime by javascript.
+
+<pre></code>var script = document.createElement('script');
+script.src = 'https://.../jquery.min.js';
+document.appendChild(script);</pre></code>
+
+
+    <p>Or, it's often easier to style elements directly. Jquery is especially good for this:
+
+    <pre><code>$("button").on("click", () =&gt; {
+    $("div").toggleClass("animated");
+    $("span.error").css("color", "red");
+}</code></pre>
 </div>
 
 <div>
