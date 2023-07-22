@@ -4,14 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title>HTML and CSS cheatsheet</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <style>
         div {
             box-sizing: border-box;
         }
-        .cheatsheet {
-            columns: auto;
-            column-width: 20em;
-            column-gap: 1em;
+        @media (min-width: 800px){
+            .cheatsheet {
+                columns: auto;
+                column-width: 20em;
+                column-gap: 1em;
+            }
         }
         .cheatsheet div.demo~pre {
             margin-top: 0;
