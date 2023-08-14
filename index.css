@@ -25,6 +25,12 @@ body {
     column-gap: 20px;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
+    font-size: 14pt;
+    line-height: 1.7rem;
+}
+
+body h1 {
+    font-size: 18pt;
 }
 
 .quote {
