@@ -37,6 +37,8 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2023-08-28: Easel Toy [blog](https://blog.za3k.com/easel-toy/) [link](https://za3k.com/archive/easel/Cards_on_Slots.html)
+- 2023-08-17: Board Game Travel Kit [blog](https://blog.za3k.com/board-game-travel-kit/)
 - 2023-07-21: HTML + CSS Cheatsheet [blog](https://blog.za3k.com/html-css-cheatsheet/) [link](https://za3k.com/html-css-cheatsheet)
 - 2023-07-20: D&D Story Time [blog](https://blog.za3k.com/dd-story-time/)
 - 2023-07-17: Dungeon Master II Spell Runes [blog](https://blog.za3k.com/dungeon-master-ii-spell-runes/)
