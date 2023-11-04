@@ -131,16 +131,13 @@ Here is how the challenge works:
       Get out a calendar and schedule time!
     - **You have to make an entire project, start to finish in one day.**
       You don't have to use the whole day. 1-4 hours a day should be enough time.
-    - **Pick a broad theme. For Hack-A-Day, your projects can be anything inside that theme.**
-      Make it broad! "Art", not "painting". "Software", not "video games". "Making stuff", not "carpentry".
     - **You are not allowed to spend more than 1 day on a project.**
     - **You are not allowed to improve projects after the day is over.**
       Even after Hack-A-Day is over.
 - *from scratch.*
     - **You are not allowed to work on existing projects.**
       <small>(Programmers, that means NO bug fixes for an open-source project, adding features, or finishing up old stuff you have laying around. On the other hand, using libraries or frameworks is allowed and encouraged. You can even use ones you wrote *as long as you don't tinker on the libraries during Hack-A-Day*.)</small>
-    - **You are not allowed to work on or plan your project before the day.**
-- *Challenge yourself*
+- *Challenge yourself,*
     - **You should work on projects challenging to do in one day.**
 - *but pace yourself*
     - **You are allowed to skip days.**
