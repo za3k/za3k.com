@@ -40,6 +40,7 @@ sometimes I make games. I make board games, card games, storytelling games, and 
 | [deadly education rpg][17]     | a traditional pen-and-paper RPG based on *A Deadly Education*  | 2-6, GM | roleplaying        | no      | mid   | no      | 2021-02-12
 | [ninjas ninjas ninjas!][18] v2 | fast, diceless storytelilng game about how cool ninjas are     | 3       | storytelling       | no      | mid+  | no      | 2021-02-07
 | [stupid conspiracies][19]      | conspiracy nutjobs join and promote conspiracies               | 10+     | party, competitive | no      | light | maybe   | 2021-01-17
+| [tower of choices][26]         | a traditional RPG based on drawing cards                       | 2       | roleplaying        | no      | mid   | maybe   | 2023-11-17
 
 ## flops
 
@@ -85,4 +86,4 @@ sometimes I make games. I make board games, card games, storytelling games, and 
 [23]: colony
 [24]: https://github.com/za3k/volcano
 [25]: lexicon
-
+[26]: tower_of_choices
