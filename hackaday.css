@@ -2,7 +2,7 @@
     margin: 5em 0 2em max(5em, 20%);
 }
 
-.latest {
+.latest, h3 {
     width: max(242px, 60%); /* 242px is the fixed-size element including margins */
     margin: 0 auto;
 }
@@ -19,6 +19,10 @@
     font-size: 14pt;
     text-decoration: none;
     margin: 10px;
+}
+
+h3 {
+    margin-top: 5em;
 }
 
 .hacks {
@@ -94,11 +98,14 @@
     text-align: center;
     color: grey;
 }
-.hack .date::before {
+.hacks .date::before {
     content: "Nov ";
 }
-.hack .date::after {
+.hacks.2022 .date::after {
     content: ", 2022";
+}
+.hacks.2023 .date::after {
+    content: ", 2023";
 }
 
 .hack .description {
