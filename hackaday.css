@@ -2,7 +2,7 @@
     margin: 5em 0 2em max(5em, 20%);
 }
 
-.latest, h3 {
+.latest, h2 {
     width: max(242px, 60%); /* 242px is the fixed-size element including margins */
     margin: 0 auto;
 }
@@ -21,8 +21,8 @@
     margin: 10px;
 }
 
-h3 {
-    margin-top: 5em;
+h2 {
+    margin-top: 2em;
 }
 
 .hacks {
