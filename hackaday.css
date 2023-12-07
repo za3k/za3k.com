@@ -14,6 +14,7 @@
     height: 1.5em;
     /*border: 1px solid;*/
     text-align: center;
+    margin-bottom: 20px;
 }
 .hack-links a {
     font-size: 14pt;
@@ -26,7 +27,7 @@ h2 {
     font-size: 20pt;
 }
 
-.hacks {
+.tabs {
     width: max(242px, 60%); /* 242px is the fixed-size element including margins */
     margin: 0 auto;
     display: flex;
@@ -34,6 +35,63 @@ h2 {
     flex-wrap: wrap;
     flex: 1 1 auto;
 }
+.tabs > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+
+}
+.tabs > label {
+    position: relative;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+    min-width: 4em;
+    font-size: 24pt;
+    text-align: center;
+}
+.tabs > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+.tabs > label:hover,
+.tabs > input:focus + label,
+.tabs > input:checked + label {
+    /*color: #06c;*/
+}
+input:focus-visible + label { /* Keyboard nav */
+  outline: 2px solid rgba(0,102,204,1);
+  border-radius: 3px;
+}
+
+.tabs > label:hover::after,
+.tabs > input:focus + label::after,
+.tabs > input:checked + label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 10px;
+    height: 4px;
+    background: #8d8d8d;
+}
+.tabs > input:not(:checked) + label:hover::after,
+.tabs > input:not(:checked):focus + label::after {
+    opacity: 0.2;
+}
+
+.tabs .tab-panels > * {
+    display: none;
+    border-top: 1px solid #ccc;
+}
+
+.tabs > input[value="2023"]:checked ~ .tab-panels > section.year-2023 ,
+.tabs > input[value="2022"]:checked ~ .tab-panels > section.year-2022 {
+    display: block;
+}
+
 .hack {
     display: inline-block;
     width: 202px;
