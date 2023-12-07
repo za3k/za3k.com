@@ -2,7 +2,7 @@
     margin: 5em 0 2em max(5em, 20%);
 }
 
-.latest, h2 {
+.latest {
     width: max(242px, 60%); /* 242px is the fixed-size element including margins */
     margin: 0 auto;
 }
@@ -20,11 +20,6 @@
     font-size: 14pt;
     text-decoration: none;
     margin: 10px;
-}
-
-h2 {
-    margin-top: 2em;
-    font-size: 20pt;
 }
 
 .tabs {
@@ -160,10 +155,10 @@ input:focus-visible + label { /* Keyboard nav */
 .hacks .date::before {
     content: "Nov ";
 }
-.hacks.2022 .date::after {
+.hacks.year-2022 .date::after {
     content: ", 2022";
 }
-.hacks.2023 .date::after {
+.hacks.year-2023 .date::after {
     content: ", 2023";
 }
 
