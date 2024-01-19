@@ -2,7 +2,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 
 ## Zachary Vance - Patient Information
 ### Stats
-- Aged 33, born 1988
+- Aged 35, born 1988
 - Height 71? inches
 - Weight 166 pounds (73.6kg)
 
@@ -20,7 +20,7 @@ See https://za3k.com/archive/doctor_report3 for a digital copy of this document
 - (probably fixed) Repeated ankle sprains and injuries in both ankles
 
 ###Common Questions
-- **Current medications**: Atorvastatin 40mg daily, Lexapro
+- **Current medications**: Atorvastatin 40mg daily, Lexapro 20mg daily, Flonase daily
 - **Current supplicants**: Daily multivitamin, occasional vit D/vit C supplement.
 - **Past supplements**: 0.5tsp piracetam daily, 1tsp choline bitartrate daily, 100-200mg magnesium daily
 - **Medical Allergies**: No known medical allergies. Nitrous oxide has no effect
@@ -108,3 +108,7 @@ All tests, labs etc should be attached.
 - **2022-10-07**: Appointment with Dr. Rebecca Jones (GP) at Anderson Family Health. Prescribed Lexapro (escitalopram) for seasonal depression. Blood test performed for lipids, chickenpox antibodies.
 - **??**: First varicella vaccine. Increased lexapro dose to 20mg/day.
 - **2023-01-16**: Appointment with Dr. Rebecca Jones (GP) at Anderson Family Health. Second varicella vaccine, TDAP vaccine.
+- **2023-12-15**: Appointment with Dr. Rebecca Jones (GP) at Anderson Family Health. Routine followup, no issues. Blood work done.
+    bp 126/78
+    weight 201
+    pulse 85, oxy 97%
