@@ -37,6 +37,12 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-01-19: Printable TODO List [blog](https://blog.za3k.com/printable-todo-list/) [link](https://za3k.com/archive/todo.pdf)
+- 2024-01-04: Getting rid of mold [blog](https://blog.za3k.com/getting-rid-of-mold/)
+- 2024-01-01: Flash media longevity testing – 4 years later [blog](https://blog.za3k.com/flash-media-longevity-testing-4-years-later/) [reddit](https://www.reddit.com/r/DataHoarder/comments/18w3bxw/flash_media_longevity_testing_4_years_later/)
+- 2023-12-31: Hillsfar Lockpicking (20) Complete [blog](https://blog.za3k.com/hillsfar-lockpicking-20-complete/) [demo](https://za3k.github.io/ha3k-20-lockpick/)
+- 2023-12-18: Blueprint Maker (13) Complete [blog](https://blog.za3k.com/blueprint-maker-13-complete/) [demo](https://za3k.github.io/ha3k-13-blueprint/)
+- 2023-12-06: Hack-A-Day 2023 is done [blog](https://blog.za3k.com/hack-a-day-2023-is-done/)
 - 2023-11-30: Hack-A-Day, Day 30: Music of the (Celestial) Spheres [blog](https://blog.za3k.com/hack-a-day-day-30-music-of-the-celestial-spheres/) [demo](https://za3k.github.io/ha3k-30-musicofspheres/)
 - 2023-11-29: Hack-A-Day, Day 29: Speed Reading [blog](https://blog.za3k.com/hack-a-day-day-29-speed-reading/) [demo](https://za3k.github.io/ha3k-29-speedread/)
 - 2023-11-28: Hack-A-Day, Day 28: 90s Sitcom [blog](https://blog.za3k.com/hack-a-day-day-28-90s-sitcom/) [video](https://www.youtube.com/watch?v=6sW5rQTj1cE)
