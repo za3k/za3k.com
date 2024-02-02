@@ -2,6 +2,11 @@
     margin: 5em 0 2em max(5em, 20%);
 }
 
+.top {
+    width: max(242px, 60%); /* 242px is the fixed-size element including margins */
+    margin: 0 auto;
+}
+
 .latest {
     width: max(242px, 60%); /* 242px is the fixed-size element including margins */
     margin: 0 auto;
