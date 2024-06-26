@@ -112,3 +112,4 @@ All tests, labs etc should be attached.
     bp 126/78
     weight 201
     pulse 85, oxy 97%
+- **2024-04-??**: Appintment with Dr. Rebecca Jones (GP) at Anderson Family Health. Scheduled CT Calcium to see if I can go off atorvastatin. Worked out a schedule to get off Lexapro (escatalopram) with the plan to maybe try Wellbutrin.
