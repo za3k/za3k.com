@@ -61,3 +61,26 @@ Issues present:
 1. printed letters on the stern not visible--this is a printer limitation. minor bump instead
 1. small gap with slanted stern pipe
 1. first-layer squashing--letters not distinct
+
+### Print 002, 003
+
+Print Time: N/A
+
+Print Quality: Failed
+
+Material: "ELEGOO" PLA+ Neon Green
+
+Moved the print, changed to 0.2mm layer height.
+
+Print failed--seemed to be moved off the bed. Extrusion stopped out of the nozzle, cause unknown.
+
+![](002/002_1.jpg)
+
+### Print 003:
+(Cancelled)
+
+### Print 004:
+
+Print 004 is a test with 0.2mm layer height to speed up printing.
+
+Print 005 is identical to 005, except shifted on the print bed. It's a test of multiple prints on one bed, queued in Octopi
