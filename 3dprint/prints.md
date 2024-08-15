@@ -93,6 +93,9 @@ Material: "ELEGOO" PLA+ Neon Green
 ![](002/002_3.jpg)
 ![](002/002_4.jpg)
 ![](002/002_5.jpg)
+![](002/002_6.jpg)
+![](002/002_7.jpg)
+![](002/002_8.jpg)
 
 Settings (from [gcode](002/3dbenchy-topright_1h49m_0.20mm_210C_PLA_ENDER3.gcode)):
 
@@ -141,6 +144,8 @@ Print Quality: **TODO**
 Material: "ELEGOO" PLA+ Neon Green
 
 ![](001/003_1.jpg)
+![](001/003_2.jpg)
+![](001/003_3.jpg)
 
 Settings ([gcode](003/3dbenchy-topright_1h49m_0.20mm_210C_PLA_ENDER3-2.gcode)): See [print 002](#print-002)
 
