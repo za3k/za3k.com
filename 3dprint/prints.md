@@ -84,7 +84,7 @@ Print 002 is a test with 0.2mm layer height to speed up printing.
 
 Print Time: 1h51m
 
-Print Quality: **TODO**
+Print Quality: High
 
 Material: "ELEGOO" PLA+ Neon Green
 
@@ -131,7 +131,8 @@ Settings (from [gcode](002/3dbenchy-topright_1h49m_0.20mm_210C_PLA_ENDER3.gcode)
 
 Issues I noticed:
 1. Skirt is incomplete, and clung to the print
-2. **TODO**
+2. Some obvious stair-stepping on gradual curves
+3. Some kind of dirt embedded in the bottom
 
 ### Print 003
 
@@ -139,7 +140,7 @@ Print 003 is identical to 002, except shifted on the print bed. It's a test of m
 
 Print Time: 1h51m
 
-Print Quality: **TODO**
+Print Quality: Mid-High
 
 Material: "ELEGOO" PLA+ Neon Green
 
@@ -151,4 +152,39 @@ Settings ([gcode](003/3dbenchy-topright_1h49m_0.20mm_210C_PLA_ENDER3-2.gcode)): 
 
 Issues:
 1. Knocked over print 002 almost immediately. Seems likely this was during homing. (No camera to monitor what happened yet.)
-3. **TODO**
+2. Bottom looking quite bad.
+3. Otherwise same as 002
+
+### Print 004
+
+I'm printing with ELEGOO PLA+, not PLA. It's recommended operating temperature starts is 205-230. This is a test print with the first player at 220.
+
+    ( initial nozzle warmup + wipe enabled )
+
+    ( prusa-slicer, octopi )
+
+    ; nozzle_diameter = 0.4
+
+    ; filament_settings_id = "Prusament PLA @CREALITY"
+    ; bed_temperature = 60
+    ; temperature = 210
+
+    ; skirt_height = 2
+    ; support_material = 0
+    ; brim_width = 0
+
+    ; layer_height = 0.2
+    ; bridge_speed = 25
+    ; external_perimeter_speed = 25
+    ; deretract_speed = 40
+    ; first_layer_speed = 20
+    ; first_layer_speed_over_raft = 30
+    ; infill_speed = 50
+    ; max_print_speed = 100
+    ; perimeter_speed = 40
+    ; retract_speed = 60
+    ; retract_length = 5
+    ; support_material_speed = 40
+    ; travel_speed = 150
+    ; top_solid_infill_speed = 30
+    ; infill_every_layers = 1
