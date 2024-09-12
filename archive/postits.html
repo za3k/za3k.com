@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>Random Scratch-off</title>
+    <style>
+        body {
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        #titleOut {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 10mm;
+        }
+        #grid {
+            display: grid;
+            gap: 2mm;
+            grid-template-columns: repeat(5, 1fr);
+            width: fit-content;
+        }
+        #grid > div {
+            border: 2px solid;
+            border-radius 10px;
+            width: 50mm;
+            height: 50mm;
+            padding: 3mm;
+            box-sizing: border-box;
+
+            /* center text */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            overflow: clip;
+            text-wrap: wrap;
+
+            font-size: 20pt;
+
+            page-break-inside: avoid;
+        }
+        #list {
+            overflow: hidden;
+            resize: none;
+        }
+
+        #inputs {
+            margin-top: 3rem;
+        }
+
+        @media print {
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+            @page {
+                size: landscape;
+                page-orientation: rotate-left;
+            }
+            #inputs {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titleOut"></h1>
+    <div id="grid">
+    </div>
+
+
+    <div id="inputs">
+    <div>
+        Title: 
+        <input type="text" id="titleIn" value="Physical Chores">
+    </div>
+    <textarea id="list" rows="15" cols="50">
+Wash Dishes
+Replace a window screen
+Clean car
+Caulk bathtub spigot
+Water and weed garden
+Clean bathroom
+Remove ivy
+Mop basement floor
+Seal HVAC leaks
+Fix bathroom sink stops
+Identify backyard plants
+Clean stove
+Clean shelves
+Prep 3 servings
+Go on a walk
+    </textarea>
+</div>
+</body>
+
+<script>
+const grid = document.getElementById("grid")
+const list = document.getElementById("list")
+const titleIn = document.getElementById("titleIn")
+const titleOut = document.getElementById("titleOut")
+const size = 15
+list.setAttribute("rows", size)
+var order = []
+
+
+function shuffle(array) {
+    for (var i = array.length - 1; i >= 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1))
+        console.log([i, j]);
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+function getItems() {
+    const text = list.value
+    const lines = text.split("\n") 
+    return lines
+}
+
+function setItem(index, text) {
+    const e = grid.children[index]
+    e.innerHTML = text || ""
+}
+
+function updateGrid() {
+    var items = getItems()
+    for (var i=0; i<order.length; i++)
+        setItem(i, items[order[i]]);
+}
+
+function updateTitle() {
+    const title = titleIn.value
+    titleOut.innerHTML = title
+}
+
+for (var i = 0; i<size; i++) {
+    order.push(i)
+    const newDiv = document.createElement("div")
+    grid.append(newDiv)
+}
+shuffle(order)
+
+list.oninput = updateGrid
+titleIn.oninput = updateTitle
+updateGrid()
+updateTitle()
+
+</script>
+</html>
