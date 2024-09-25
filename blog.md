@@ -37,6 +37,11 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-09-20: Making a decorative scroll [blog](https://blog.za3k.com/making-a-decorative-scroll/)
+- 2024-09-15: Making my own scratch-off cards [blog](https://blog.za3k.com/making-my-own-scratch-off-cards/)
+- 2024-09-03: Word Sequences [blog](https://blog.za3k.com/word-sequences/)
+- 2024-08-09: Printable 30-Day Checklists [blog](https://blog.za3k.com/printable-30-day-checklists/)
+- 2024-08-02: Goodbye Wordpress [blog](https://blog.za3k.com/goodbye-wordpress/)
 - 2024-06-25: Repulsive Dots [blog](https://blog.za3k.com/repulsive-dots/) [video](https://www.youtube.com/watch?v=kDoWaa-xilA)
 - 2024-06-18: Even more URI handlers in Linux [blog](https://blog.za3k.com/even-more-uri-handlers-in-linux/) [source](https://github.com/za3k/short-programs?tab=readme-ov-file#open-directorytext-file)
 - 2024-06-08: URI handlers in Linux [blog](https://blog.za3k.com/url-handlers-in-linux/) [link](https://github.com/za3k/short-programs?tab=readme-ov-file#mailto-opener)
