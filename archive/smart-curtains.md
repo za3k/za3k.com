@@ -1,4 +1,6 @@
-How to set up IKEA Fyrtur curtains (with or without zigbee).
+[za3k](/) > [archive](/archive/) > how to set up ikea fyrtur curtains
+
+These instructions work with or without zigbee.
 
 First, plug in the repeater, and put a battery in the remote.
 
@@ -33,6 +35,7 @@ Sets the curtains to 28% of the way from the bottom (almost fully extended).
 These blinds came with 6 manuals. That's too many. Most of it is warnings and install instructions. Here's the stuff you'll need later:
 
 TRÅDFRI (remote)
+
     - The remote takes a CR2032, which may not be included.
     - IKEA's operation mode for the remote requires the repeater to be present and plugged in.
     - Tap up/down to raise/lower the curtains all the way.
@@ -40,9 +43,13 @@ TRÅDFRI (remote)
     - Opening the back, there is a pairing button.
         - Tap 4 times to perform a factory reset and enter zigbee pairing mode.
         - Hold for 10 seconds to pair with the repeater. Then repeat, holding for 10 seconds to pair with blinds.
+
 TRÅDFRI (repeater)
+
     - Insert a paperclip and hold 5 seconds to do a factory reset and enter zigbee pairing mode.
+
 FYRTUR (blinds)
+
     - Tap up/down to raise/lower the curtains all the way.
     - Tap up and down at the same time to enter IKEA pairing mode
     - Double-tap up to set the highest the curtain will go (minimum extension). Double-tap down to set the lowest the curtain will go (maximum extension).
