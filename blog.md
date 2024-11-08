@@ -37,6 +37,14 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-11-07: Hack-a-Day, Day 07: When Does the Sun Come Back? [blog](https://blog.za3k.com/hack-a-day-day-07-when-does-the-sun-come-back/) [demo](https://za3k.github.io/sunchart/)
+- 2024-11-07: Home automation [blog](https://blog.za3k.com/home-automation/)
+- 2024-11-05: Hack-a-Day, Day 05: Milling an Aluminium Soma Cube (FAILED) [blog](https://blog.za3k.com/hack-a-day-day-05-milling-an-aluminium-soma-cube-failed/)
+- 2024-11-04: Hack-a-Day, Day 04: Project L.E.M.B.A.S. (FAILED) [blog](https://blog.za3k.com/hack-a-day-04-project-lembas/)
+- 2024-11-04: Meal Squares 1.0 Recipe [blog](https://blog.za3k.com/meal-squares-1-0-recipe/)
+- 2024-11-02: Hack-a-Day, Day 02: Acrylic Soma Cube (FAILED) [blog](https://blog.za3k.com/hack-a-day-day-02-acrylic-soma-cube-failed/)
+- 2024-11-01: Hack-a-Day, Day 01: #ircpuzzles player [blog](https://blog.za3k.com/hack-a-day-day-01-ircpuzzles-player/) [demo](https://za3k.github.io/ircpuzzles-solver/)
+- 2024-10-22: Question #1: We All Lose Track of Time [blog](https://blog.za3k.com/question-1-we-all-lose-track-of-time/)
 - 2024-09-20: Making a decorative scroll [blog](https://blog.za3k.com/making-a-decorative-scroll/)
 - 2024-09-15: Making my own scratch-off cards [blog](https://blog.za3k.com/making-my-own-scratch-off-cards/)
 - 2024-09-03: Word Sequences [blog](https://blog.za3k.com/word-sequences/)
