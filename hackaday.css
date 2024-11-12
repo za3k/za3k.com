@@ -87,6 +87,7 @@ input:focus-visible + label { /* Keyboard nav */
     border-top: 1px solid #ccc;
 }
 
+.tabs > input[value="2024"]:checked ~ .tab-panels > section.year-2024 ,
 .tabs > input[value="2023"]:checked ~ .tab-panels > section.year-2023 ,
 .tabs > input[value="2022"]:checked ~ .tab-panels > section.year-2022 {
     display: block;
