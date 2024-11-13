@@ -37,6 +37,9 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-11-12: Hack-a-Day, Day 12: Whiteboard to-do list [blog](https://blog.za3k.com/hack-a-day-day-12-whiteboard-to-do-list/)
+- 2024-11-11: Hack-a-Day, Day 11: upload.za3k.com [blog](https://blog.za3k.com/hack-a-day-day-11-upload-za3k-com/) [link](https://upload.za3k.com/)
+- 2024-11-08: Hack-a-Day, Day 08: Color Sort [blog](https://blog.za3k.com/hack-a-day-day-08-color-sort/) [demo](https://za3k.github.io/color-sort)
 - 2024-11-07: Hack-a-Day, Day 07: When Does the Sun Come Back? [blog](https://blog.za3k.com/hack-a-day-day-07-when-does-the-sun-come-back/) [demo](https://za3k.github.io/sunchart/)
 - 2024-11-07: Home automation [blog](https://blog.za3k.com/home-automation/)
 - 2024-11-05: Hack-a-Day, Day 05: Milling an Aluminium Soma Cube (FAILED) [blog](https://blog.za3k.com/hack-a-day-day-05-milling-an-aluminium-soma-cube-failed/)
