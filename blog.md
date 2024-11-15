@@ -37,6 +37,7 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-11-14: Hack-a-Day, Day 14: Can't Stop [blog](https://blog.za3k.com/hack-a-day-day-14-cant-stop/) [demo](https://za3k.github.io/cant-stop/)
 - 2024-11-13: Hack-a-Day, Day 13: Pixel Kitchen [blog](https://blog.za3k.com/hack-a-day-day-13-pixel-kitchen/) [demo](https://za3k.github.io/pixel-kitchen/)
 - 2024-11-12: Hack-a-Day, Day 12: Whiteboard to-do list [blog](https://blog.za3k.com/hack-a-day-day-12-whiteboard-to-do-list/)
 - 2024-11-11: Hack-a-Day, Day 11: upload.za3k.com [blog](https://blog.za3k.com/hack-a-day-day-11-upload-za3k-com/) [link](https://upload.za3k.com/)
