@@ -37,6 +37,9 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-11-20: Hack-a-Day, Day 20: 2p library [blog](https://blog.za3k.com/hack-a-day-day-20-2p-library/) [source](https://gist.github.com/za3k/028bbd83e6b74f305db04b2a5fe7500e)
+- 2024-11-19: Hack-a-Day, Day 19: D&D Campaign [blog](https://blog.za3k.com/hack-a-day-day-19-dd-campaign/)
+- 2024-11-17: Hack-a-Day, Day 17: Android App [blog](https://blog.za3k.com/hack-a-day-day-17-android-app/) [download](https://za3k.com/archive/how-to-tie)
 - 2024-11-16: Hack-a-Day, Day 16: Go [blog](https://blog.za3k.com/hack-a-day-day-16-go/) [demo](https://za3k.github.io/go/)
 - 2024-11-14: Hack-a-Day, Day 14: Can't Stop [blog](https://blog.za3k.com/hack-a-day-day-14-cant-stop/) [demo](https://za3k.github.io/cant-stop/)
 - 2024-11-13: Hack-a-Day, Day 13: Pixel Kitchen [blog](https://blog.za3k.com/hack-a-day-day-13-pixel-kitchen/) [demo](https://za3k.github.io/pixel-kitchen/)
