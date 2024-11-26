@@ -37,6 +37,10 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-11-25: Hack-a-Day, Day 25: Go Screensaver [blog](https://blog.za3k.com/hack-a-day-day-25-go-screensaver/) [demo](https://za3k.github.io/go/screensaver.html)
+- 2024-11-25: Power Beeps [blog](https://blog.za3k.com/power-beeps/) [source](https://github.com/za3k/short-programs#power-beeps)
+- 2024-11-23: Hack-a-Day, Day 23: Unfinished Game [blog](https://blog.za3k.com/hack-a-day-day-23-unfinished-game/) [demo](https://za3k.github.io/little-herbalist/)
+- 2024-11-22: Hack-a-Day, Day 22: AI Friend [blog](https://blog.za3k.com/hack-a-day-day-22-ai-friend/)
 - 2024-11-20: Hack-a-Day, Day 20: 2p library [blog](https://blog.za3k.com/hack-a-day-day-20-2p-library/) [source](https://gist.github.com/za3k/028bbd83e6b74f305db04b2a5fe7500e)
 - 2024-11-19: Hack-a-Day, Day 19: D&D Campaign [blog](https://blog.za3k.com/hack-a-day-day-19-dd-campaign/)
 - 2024-11-17: Hack-a-Day, Day 17: Android App [blog](https://blog.za3k.com/hack-a-day-day-17-android-app/) [download](https://za3k.com/archive/how-to-tie)
