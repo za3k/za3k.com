@@ -37,6 +37,8 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2024-11-27: Hack-a-Day, Day 27: Minecraft Mod [blog](https://blog.za3k.com/hack-a-day-day-27-minecraft-mod/) [demo](https://github.com/za3k/dirt-slab-fabric-mod)
+- 2024-11-26: Hack-A-Day, Day 26: No Room for Error [blog](https://blog.za3k.com/hack-a-day-day-26-no-room-for-error/) [demo](https://za3k.github.io/no-room-for-error)
 - 2024-11-25: Hack-a-Day, Day 25: Go Screensaver [blog](https://blog.za3k.com/hack-a-day-day-25-go-screensaver/) [demo](https://za3k.github.io/go/screensaver.html)
 - 2024-11-25: Power Beeps [blog](https://blog.za3k.com/power-beeps/) [source](https://github.com/za3k/short-programs#power-beeps)
 - 2024-11-23: Hack-a-Day, Day 23: Unfinished Game [blog](https://blog.za3k.com/hack-a-day-day-23-unfinished-game/) [demo](https://za3k.github.io/little-herbalist/)
