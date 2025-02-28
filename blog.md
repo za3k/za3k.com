@@ -37,6 +37,14 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2025-02-27: The Go Programming Language [blog](https://blog.za3k.com/the-go-programming-language/)
+- 2025-02-23: Multi-user Text Editor [blog](https://blog.za3k.com/multi-user-text-editor/)
+- 2025-02-23: OCaml Manual [blog](https://blog.za3k.com/ocaml-manual/) [vol2](https://www.lulu.com/shop/inria-and-zachary-vance/the-ocaml-manual-53-vol-2/hardcover/product-849pyq5.html) [vol1](https://www.lulu.com/shop/inria-and-zachary-vance/ocaml-manual-53-vol-1/hardcover/product-zm9gr4w.html)
+- 2025-01-09: 2024 Books [blog](https://blog.za3k.com/2024-books/)
+- 2025-01-09: 2023 Books [blog](https://blog.za3k.com/2023-books/)
+- 2025-01-02: Flash media longevity testing -- 5 years later [blog](https://blog.za3k.com/flash-media-longevity-testing----5-years-later/)
+- 2024-12-16: Question #2: Verifiably Random Numbers [blog](https://blog.za3k.com/question-2-verifiably-random-numbers/)
+- 2024-12-15: Whiteboard Calendar [blog](https://blog.za3k.com/whiteboard-calendar/)
 - 2024-12-04: Hack-a-Day 2024 [blog](https://blog.za3k.com/hack-a-day-2024/)
 - 2024-11-30: Hack-a-Day, Day 30: LED Fireplace [blog](https://blog.za3k.com/hack-a-day-day-30-led-fireplace/)
 - 2024-11-29: Hack-a-Day, Day 29: ESP32 Microcontroller Documentation [blog](https://blog.za3k.com/hack-a-day-day-29-esp32-microcontroller-documentation/)
