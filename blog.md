@@ -37,6 +37,13 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2025-04-09: qr-backup bounties [blog](https://blog.za3k.com/qr-backup-bounties/)
+- 2025-04-08: Zorchpad: Keyboard schematic [blog](Zorchpad: Keyboard schematic)
+- 2025-04-08: qr-backup v1.1.4 [blog](https://blog.za3k.com/qr-backup-v1-1-4/) [link](https://github.com/za3k/qr-backup/releases/tag/v1.1.4)
+- 2025-04-05: hitlist [blog](https://blog.za3k.com/hitlist/) [link](https://github.com/za3k/short-programs#hitlist)
+- 2025-04-05: April Fools Puzzle Contest 2025 [blog](https://blog.za3k.com/april-fools-puzzle-contest-2025/)
+- 2025-03-13: Rear Lights [blog](https://blog.za3k.com/rear-lights/)
+- 2025-03-12: Zorchpad Prototype Roadmap [blog](https://blog.za3k.com/zorchpad-prototype-roadmap/)
 - 2025-02-27: The Go Programming Language [blog](https://blog.za3k.com/the-go-programming-language/)
 - 2025-02-23: Multi-user Text Editor [blog](https://blog.za3k.com/multi-user-text-editor/)
 - 2025-02-23: OCaml Manual [blog](https://blog.za3k.com/ocaml-manual/) [vol2](https://www.lulu.com/shop/inria-and-zachary-vance/the-ocaml-manual-53-vol-2/hardcover/product-849pyq5.html) [vol1](https://www.lulu.com/shop/inria-and-zachary-vance/ocaml-manual-53-vol-1/hardcover/product-zm9gr4w.html)
