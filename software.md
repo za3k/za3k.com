@@ -16,7 +16,7 @@ td:nth-child(n+3) {
 
 software i've written. most has extensive documentation if you click through the link.
 
-see also [hack-a-day](/hackaday), my challenge to write one piece of software a day in Nov 2022
+see also [hack-a-day](/hackaday), my challenge to write one piece of software a day in Nov 2022, 2023, and 2024.
 
 ##software
 | project                                                                     | description | written | status
