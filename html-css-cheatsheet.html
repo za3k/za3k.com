@@ -3,7 +3,6 @@
 
 <!-- TODOs:
  - Localstorage
- - Include jquery (specifically)
 -->
 <html lang="en">
 <head>
@@ -185,9 +184,13 @@
   &lt;script src="jquery.min.js"&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;p&gt;Hello World&lt;/p&gt;
-&lt;script&gt;$("p").css("color", "yellow");&lt;/script&gt;</code></pre>
+&lt;script&gt;$("p").css("color", "yellow");&lt;/script&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs
+  /jquery/3.7.1/jquery.min.js"&gt;&lt;/script&gt;
+</code></pre>
 
     JS is executed immediately. If your JS is included at the top of a file, delay it until document load:<ul>
+    <li><tt>&lt;script src="jquery.min.js" <b>defer</b>&gt;&lt;/script&gt;</tt>
     <li><tt>window.addEventListener("load",(ev)=&gt;{...});</tt>
     <li><tt>window.onload((ev) =&gt; {...});</tt>
     <li><i>or</i> <tt>$(document).ready((ev) =&gt; {...});</tt> (jquery)
