@@ -23,6 +23,10 @@
         .cheatsheet div.demo~pre {
             margin-top: 0;
         }
+        .cheatsheet pre {
+            white-space: pre-wrap;
+            overflow-wrap: break-word;
+        }
         .cheatsheet > div {
             border: 1px solid lightgray;
             border-radius: 20px;
@@ -185,8 +189,7 @@
 &lt;/head&gt;
 &lt;p&gt;Hello World&lt;/p&gt;
 &lt;script&gt;$("p").css("color", "yellow");&lt;/script&gt;
-&lt;script src="https://ajax.googleapis.com/ajax/libs
-  /jquery/3.7.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
     JS is executed immediately. If your JS is included at the top of a file, delay it until document load:<ul>
