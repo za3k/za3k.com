@@ -39,6 +39,7 @@ Computer Games
 - [SpyParty](http://www.spyparty.com/) by Chris Hecker. Paid. Early access. 2018.
 - [Starwhal](http://www.starwhal.com/) by Breakfall. Paid. 2014.
 - [Undertale](https://undertale.com) by tobyfox. Paid. 2015.
+- [UFO 50](https://50games.fun/) by six people. Paid. 2024.
 - [Well of Souls](http://www.synthetic-reality.com/wosHome.htm) by Synthetic Reality. Mostly free. 1999.
 - [Zombiepox](http://www.acid-play.com/download/zombiepox) by Free Lunch Design. Free. 2004.
 - ZZT ([download link](http://www.dosgamesarchive.com/download/zzt/)) by Epic Megagames. Abandonware. 1991.
