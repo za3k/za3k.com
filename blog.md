@@ -37,6 +37,10 @@ li a {
 </style>
 
 - for newer articles, check blog [blog](https://blog.za3k.com/)
+- 2025-04-16: Telescoping [blog](https://blog.za3k.com/telescoping/)
+- 2025-04-13: Goodbye Wordpress, Part 2 [blog](https://blog.za3k.com/goodbye-wordpress-part-2/)
+- 2025-04-12: 3-ring binder spacing [blog](https://blog.za3k.com/3-ring-binder-spacing/)
+- 2025-04-11: Debugging a cronjob [blog](https://blog.za3k.com/debugging-a-cronjob/)
 - 2025-04-09: qr-backup bounties [blog](https://blog.za3k.com/qr-backup-bounties/)
 - 2025-04-08: Zorchpad: Keyboard schematic [blog](Zorchpad: Keyboard schematic)
 - 2025-04-08: qr-backup v1.1.4 [blog](https://blog.za3k.com/qr-backup-v1-1-4/) [link](https://github.com/za3k/qr-backup/releases/tag/v1.1.4)
