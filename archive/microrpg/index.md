@@ -2,8 +2,8 @@
 
 <style>
 @media print {
-    .page-break { display: block; page-break-after: always; }
-    .page-break:last-child { visibility: hidden; }
+    .page-break { display: block; visibility: none; page-break-after: always; }
+    .page-break:last-child { display: none; }
     .dont-print { display: none; }
 }
 </style>
