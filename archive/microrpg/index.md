@@ -10,7 +10,7 @@
 
 [za3k](/) &gt; [games](/games) &gt; micro-rpg book
 
-<div class="dont-print">Press Ctrl-P to print on most web browsers, or [download PDF](microrpg.pdf). Printed version has one table per page.</div>
+<div class="dont-print">Press Ctrl-P to print on most web browsers, or <a href="microrpg.pdf">get a PDF</a> version. Printed version has one table per page.</div>
 
 ## Ultimate Micro-RPG Book: Games for 1 players
 | Game                    | Players | Time   | Genre   | Tone        | Format | Players | Complexity |
