@@ -18,7 +18,7 @@ if __name__ == '__main__':
     table = []
 
     for n in range(1, max_players+1):
-        query = "SELECT Game,Players,Time,Genre,Tone,Format,Players,Complexity from MicroRPGs.csv WHERE PlayersAll LIKE \"{n},%\" OR PlayersAll LIKE \"%,{n},%\" OR PlayersAll LIKE \"%,{n}\"".format(n=n)
+        query = "SELECT Game,Players,Time,Genre,Tone,Format,Complexity from MicroRPGs.csv WHERE PlayersAll LIKE \"{n},%\" OR PlayersAll LIKE \"%,{n},%\" OR PlayersAll LIKE \"%,{n}\"".format(n=n)
 
         filtered_csv = run_csv_query(query, csv)
         table.append({
