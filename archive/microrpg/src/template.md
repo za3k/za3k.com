@@ -2,20 +2,17 @@
 
 <style>
 @media print {
-    .page-break:not(:last-child) { display: block; visibility: hidden; page-break-after: always; }
+    .page-break { display: block; page-break-after: always; }
+    .page-break:last-child { visibility: hidden; }
     .dont-print { display: none; }
 }
 </style>
 
-<div class="dont-print">Press Ctrl-P to print on most web browsers.</div>
+<div class="dont-print">Press Ctrl-P to print on most web browsers. Printed version has one table per page.</div>
 
 {{#table}}
-
 ## Ultimate Micro-RPG Book: Games for {{players}} players
-
 {{markdown}}
-
 <hr class="page-break">
-
 {{/table}}
 
