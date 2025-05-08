@@ -29,5 +29,5 @@ if __name__ == '__main__':
 
     out = pystache.render(template, {"table": table})
 
-    with open("microrpgs.md", "w") as f:
+    with open("index.md", "w") as f:
         f.write(out)
