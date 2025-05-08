@@ -1,7 +1,8 @@
 <style>
 @media print {
+    p:nth-child(2) { display: none; }
     .page-break { display: block; visibility: hidden; page-break-after: always; }
-    .page-break:last-child { display: none; page-break-after: inherit; }
+    .page-break:nth-last-child(2) { display: none; page-break-after: inherit; }
     .dont-print { display: none; }
     td { white-space: nowrap; }
 }
