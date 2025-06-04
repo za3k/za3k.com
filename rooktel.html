@@ -58,6 +58,12 @@ section > .number:nth-of-type(2n+1) {
     font-size: 8px;
 
 }
+
+@media only print {
+    .unprinted { display: none; }
+    html, body { margin: 0; }
+    .ascii-art { font-size: 7px; }
+}
 </style>
 </head>
 <body>
@@ -133,6 +139,7 @@ section > .number:nth-of-type(2n+1) {
 <div class="number"><div>226</div><div>Ringback test</div></div>
 <div class="number"><div>227</div><div>Leave a message</div></div>
 <div class="number"><div>228</div><div>Guessing game</div></div>
+<div class="number"><div>*44</div><div>Record call</div></div>
 </section>
 
 <section>
@@ -143,7 +150,7 @@ section > .number:nth-of-type(2n+1) {
 <div class="number"><div>NXXNXXXXXX</div><div>calls the number</div></div>
 </section>
 
-<section>
+<section class="unprinted">
 <div class="header">Collectors Network C*NET</div>
 <span class="info"><a href="https://ckts.info/directory/">https://ckts.info/directory/</a></span>
 <div class="number"><div>200       </div><div>C*NET dialtone</div></div>
@@ -151,14 +158,14 @@ section > .number:nth-of-type(2n+1) {
 <div class="number"><div>200011XXX*</div><div>calls C*NET intnl</div></div>
 </section>
 
-<section>
+<section class="unprinted">
 <div class="header">TandmX (another hobbyist net)</div>
 <span class="info"><a href="https://tandmx.net/directory/">https://tandmx.net/directory/</a></span>
 <div class="number"><div>300        </div><div>tandmx dialtone</div></div>
 <div class="number"><div>300NXXXXXX </div><div>calls tandmx</div></div>
 </section>
 
-<section>
+<section class="unprinted">
 <div class="header">Phreaknet (simulated '70s net)</div>
 <span class="info"><a href="https://docs.phreaknet.org/#nnx">https://docs.phreaknet.org/#nnx</a><br>
 <a href="https://phreaknet.org/dir">https://phreaknet.org/dir</a></span>
@@ -171,7 +178,7 @@ section > .number:nth-of-type(2n+1) {
 <div class="number"><div>4002241425 </div><div>music</div></div>
 </section>
 
-<section>
+<section class="unprinted">
 <div class="header">OCTOI (TDMoIP hobbyist net)</div>
 <span class="info" style="font-size: smaller"><a href="https://osmocom.org/projects/octoi/wiki/Phonebook">https://osmocom.org/projects/octoi/wiki/Phonebook</a></span>
 <div class="number"><div>500XXXXXXXX</div><div>calls via icE1usb</div></div>
