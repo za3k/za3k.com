@@ -111,6 +111,24 @@
     filter: hue-rotate(180deg);
 }
 
+.hack.ai > *:first-child::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    background:url("img/ai.png");
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: 188px;
+    margin-top: -220px;
+    z-index: 1;
+    display: block;
+    filter: hue-rotate(90deg);
+    border: 1px solid rgba(1, 1, 1, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100%;
+}
+
 .hack.fail > *:first-child::before, .hack.skipped > *:first-child::before {
     content: "X";
     color: rgba(255, 70, 70, 0.85);
