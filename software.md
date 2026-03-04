@@ -38,6 +38,8 @@ see also [hack-a-day](/hackaday), my challenge to write one piece of software a 
 | [youtube-autodl](https://github.com/za3k/youtube-autodl)                    | automatically download+organize youtube channels and playlists | *2022-07-07* | *beta*
 
 ##ai-written
+| project                                                                     | description | written | status
+|--------|---------|---------|-------------|
 | [distortion-chess](https://za3k.com/distortion-chess)                       | play Distortion Chess, a game by [ZaneGames](https://www.youtube.com/@ZaneGamesss) | *2026-03-03* | *beta*
 
 ##less useful software
