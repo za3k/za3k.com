@@ -37,6 +37,9 @@ see also [hack-a-day](/hackaday), my challenge to write one piece of software a 
 | [xor](https://github.com/za3k/short-programs#xor)                           | xor two files together. see also [add-base-26](https://github.com/za3k/short-programs#add-base26). | *2020-04-20* | *works*
 | [youtube-autodl](https://github.com/za3k/youtube-autodl)                    | automatically download+organize youtube channels and playlists | *2022-07-07* | *beta*
 
+##ai-written
+| [distortion-chess](https://za3k.com/distortion-chess)                       | play Distortion Chess, a game by [ZaneGames](https://www.youtube.com/@ZaneGamesss) | *2026-03-03* | *beta*
+
 ##less useful software
 | project                                                        | description | written | status
 |--------|---------|---------|-------------|

@@ -1,0 +1,2355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distortion Chess</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  min-height: 100vh;
+  color: #e0e0e0;
+}
+
+#app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#game-info {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1em;
+}
+
+#turn-indicator {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+#turn-indicator.white {
+  background: #f0f0f0;
+  color: #333;
+}
+
+#turn-indicator.black {
+  background: #333;
+  color: #f0f0f0;
+}
+
+#turn-indicator.my-turn {
+  animation: my-turn-pulse 0.8s ease-in-out infinite alternate;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#turn-indicator.white.my-turn {
+  background: linear-gradient(135deg, #f0f0f0, #e2e8f0);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+#turn-indicator.black.my-turn {
+  background: linear-gradient(135deg, #333, #1e293b);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes my-turn-pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+#distortion-counter {
+  padding: 8px 16px;
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 20px;
+  border: 1px solid #8b5cf6;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+#board-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.captured-pieces {
+  min-height: 36px;
+  padding: 4px 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: center;
+}
+
+.captured-pieces .piece {
+  font-size: 24px;
+}
+
+.captured-pieces .piece.white {
+  color: #f8fafc;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.captured-pieces .piece.black {
+  color: #1e293b;
+  filter: drop-shadow(0 0 3px rgba(255,255,255,0.7)) drop-shadow(0 0 1px rgba(255,255,255,0.7));
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(11, 50px);
+  grid-template-rows: repeat(11, 50px);
+  gap: 1px;
+  background: #0a0a1a;
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.square.void {
+  background: #0a0a1a;
+  cursor: default;
+}
+
+.square.tile {
+  background: #2d3748;
+}
+
+.square.tile.light {
+  background: #4a5568;
+}
+
+.square.tile.dark {
+  background: #2d3748;
+}
+
+.square.tile-border-top {
+  border-top: 3px solid #8b5cf6;
+}
+
+.square.tile-border-bottom {
+  border-bottom: 3px solid #8b5cf6;
+}
+
+.square.tile-border-left {
+  border-left: 3px solid #8b5cf6;
+}
+
+.square.tile-border-right {
+  border-right: 3px solid #8b5cf6;
+}
+
+.square.voided-tile {
+  background: repeating-linear-gradient(
+    45deg,
+    #1a1a2e,
+    #1a1a2e 10px,
+    #0a0a1a 10px,
+    #0a0a1a 20px
+  );
+}
+
+.square.selected {
+  background: rgba(236, 72, 153, 0.5) !important;
+  box-shadow: inset 0 0 10px rgba(236, 72, 153, 0.8);
+}
+
+.square.valid-move {
+  background: rgba(34, 197, 94, 0.3) !important;
+}
+
+.square.valid-move::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: rgba(34, 197, 94, 0.6);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.square.valid-capture {
+  background: rgba(239, 68, 68, 0.3) !important;
+  box-shadow: inset 0 0 0 3px rgba(239, 68, 68, 0.6);
+}
+
+.square.last-move {
+  box-shadow: inset 0 0 0 3px rgba(250, 204, 21, 0.5);
+}
+
+.square.boulder {
+  background: #6b7280 !important;
+}
+
+.square.boulder::before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(145deg, #9ca3af, #4b5563);
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 4px rgba(255,255,255,0.2),
+              inset -2px -2px 4px rgba(0,0,0,0.3);
+}
+
+.square.check {
+  animation: check-pulse 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes check-pulse {
+  from { box-shadow: inset 0 0 10px rgba(239, 68, 68, 0.5); }
+  to { box-shadow: inset 0 0 20px rgba(239, 68, 68, 0.9); }
+}
+
+.piece {
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  z-index: 1;
+}
+
+.piece.white {
+  color: #f8fafc;
+  filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.8));
+}
+
+.piece.black {
+  color: #1e293b;
+  filter: drop-shadow(1px 1px 2px rgba(255,255,255,0.3));
+}
+
+.square.tile-selected {
+  background: rgba(139, 92, 246, 0.5) !important;
+  box-shadow: inset 0 0 15px rgba(139, 92, 246, 0.8);
+}
+
+#sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#sidebar > div {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#sidebar h2 {
+  margin-bottom: 15px;
+  color: #8b5cf6;
+  font-size: 1.2em;
+}
+
+#sidebar h3 {
+  margin-bottom: 10px;
+  color: #a78bfa;
+  font-size: 1em;
+}
+
+#player-color {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#game-status {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#check-indicator {
+  color: #ef4444;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#distortion-panel {
+  border: 2px solid #8b5cf6;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px rgba(139, 92, 246, 0.3); }
+  to { box-shadow: 0 0 20px rgba(139, 92, 246, 0.6); }
+}
+
+#distortion-card {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(135deg, #4c1d95, #7c3aed);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#distortion-instructions {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+#distortion-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#distortion-controls button {
+  padding: 8px 16px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: all 0.2s;
+}
+
+#distortion-controls button:hover {
+  background: #8b5cf6;
+  transform: translateY(-2px);
+}
+
+#distortion-controls button:disabled {
+  background: #4a5568;
+  cursor: not-allowed;
+  transform: none;
+}
+
+#promotion-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1a1a2e;
+  padding: 30px;
+  border-radius: 15px;
+  border: 2px solid #8b5cf6;
+  z-index: 100;
+}
+
+#promotion-options {
+  display: flex;
+  gap: 15px;
+}
+
+#promotion-options button {
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  background: #2d3748;
+  border: 2px solid #4a5568;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#promotion-options button:hover {
+  background: #4a5568;
+  border-color: #8b5cf6;
+  transform: scale(1.1);
+}
+
+#invite-url {
+  width: 100%;
+  padding: 10px;
+  background: #1a1a2e;
+  border: 1px solid #4a5568;
+  border-radius: 5px;
+  color: #e0e0e0;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+#copy-url {
+  width: 100%;
+  padding: 10px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+#copy-url:hover {
+  background: #16a34a;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.boulder-icon {
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(145deg, #9ca3af, #4b5563);
+  border-radius: 50%;
+}
+
+.void-icon {
+  width: 24px;
+  height: 24px;
+  background: repeating-linear-gradient(
+    45deg,
+    #1a1a2e,
+    #1a1a2e 4px,
+    #0a0a1a 4px,
+    #0a0a1a 8px
+  );
+  border: 1px solid #4a5568;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.game-over-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.game-over-content {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  padding: 40px 60px;
+  border-radius: 20px;
+  text-align: center;
+  border: 3px solid #8b5cf6;
+  box-shadow: 0 0 50px rgba(139, 92, 246, 0.5);
+}
+
+.game-over-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.game-over-content p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.game-over-content button {
+  padding: 15px 40px;
+  font-size: 1.1em;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.game-over-content button:hover {
+  background: #8b5cf6;
+  transform: translateY(-3px);
+}
+
+.piece.ghost {
+  opacity: 0.6;
+  filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.8));
+}
+
+.square.ghost-tile {
+  background: rgba(139, 92, 246, 0.3) !important;
+  box-shadow: inset 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+.square.ghost-boulder::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background: linear-gradient(145deg, rgba(156, 163, 175, 0.5), rgba(75, 85, 99, 0.5));
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.square.will-void {
+  background: rgba(220, 38, 38, 0.3) !important;
+  box-shadow: inset 0 0 15px rgba(220, 38, 38, 0.6);
+}
+
+.direction-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.direction-group span {
+  width: 60px;
+  font-weight: bold;
+}
+
+.dist-btn {
+  width: 40px !important;
+  padding: 6px 8px !important;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+  background: #22c55e !important;
+}
+
+.submit-btn:hover {
+  background: #16a34a !important;
+}
+
+#distortion-controls button.disabled {
+  opacity: 0.4;
+}
+
+#chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: rgba(26, 26, 46, 0.95);
+  border: 1px solid #4a5568;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+#chat-header span {
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+#chat-toggle {
+  background: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 1.2em;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chat-body {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+#chat-container.minimized #chat-body {
+  display: none;
+}
+
+#chat-container.minimized #chat-header {
+  border-radius: 10px;
+}
+
+#chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chat-message {
+  padding: 6px 10px;
+  border-radius: 8px;
+  max-width: 85%;
+  word-wrap: break-word;
+}
+
+.chat-message.mine {
+  background: rgba(139, 92, 246, 0.4);
+  align-self: flex-end;
+}
+
+.chat-message.theirs {
+  background: rgba(74, 85, 104, 0.6);
+  align-self: flex-start;
+}
+
+.chat-message .sender {
+  font-size: 0.75em;
+  color: #a0aec0;
+  margin-bottom: 2px;
+}
+
+.chat-message .text {
+  color: #e0e0e0;
+}
+
+#chat-input-area {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid #4a5568;
+}
+
+#chat-input {
+  flex: 1;
+  padding: 8px 12px;
+  background: #1a1a2e;
+  border: 1px solid #4a5568;
+  border-radius: 5px;
+  color: #e0e0e0;
+  font-size: 0.9em;
+}
+
+#chat-input:focus {
+  outline: none;
+  border-color: #8b5cf6;
+}
+
+#chat-send {
+  padding: 8px 16px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+#chat-send:hover {
+  background: #8b5cf6;
+}
+
+#chat-container.new-message #chat-header {
+  animation: chat-flash 0.5s ease-in-out 4;
+}
+
+@keyframes chat-flash {
+  0%, 100% { background: rgba(139, 92, 246, 0.3); }
+  50% { background: rgba(236, 72, 153, 0.6); }
+}
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="nav"><a href="/">za3k</a> &gt; <a href="/software">software</a> &gt; distortion chess</div>
+      <h1>Distortion Chess</h1>
+      <div id="game-info">
+        <span id="turn-indicator"></span>
+        <span id="distortion-counter"></span>
+      </div>
+    </header>
+    
+    <main>
+      <div id="board-container">
+        <div id="captured-black" class="captured-pieces"></div>
+        <div id="board"></div>
+        <div id="captured-white" class="captured-pieces"></div>
+      </div>
+      
+      <aside id="sidebar">
+        <div id="status-panel">
+          <h2>Game Status</h2>
+          <div id="player-color"></div>
+          <div id="game-status"></div>
+          <div id="check-indicator"></div>
+        </div>
+        
+        <div id="distortion-panel" class="hidden">
+          <h2>Distortion Event</h2>
+          <div id="distortion-card"></div>
+          <div id="distortion-instructions"></div>
+          <div id="distortion-controls"></div>
+        </div>
+        
+        <div id="promotion-dialog" class="hidden">
+          <h2>Promote Pawn</h2>
+          <div id="promotion-options"></div>
+        </div>
+        
+        <div id="invite-panel">
+          <h2>Invite Opponent</h2>
+          <input type="text" id="invite-url" readonly>
+          <button id="copy-url">Copy Link</button>
+        </div>
+        
+        <div id="legend">
+          <h3>Legend</h3>
+          <div class="legend-item"><span class="boulder-icon"></span> Boulder</div>
+          <div class="legend-item"><span class="void-icon"></span> Void</div>
+        </div>
+      </aside>
+    </main>
+  </div>
+  
+  <div id="chat-container" class="minimized">
+    <div id="chat-header">
+      <span>Chat</span>
+      <button id="chat-toggle">+</button>
+    </div>
+    <div id="chat-body">
+      <div id="chat-messages"></div>
+      <div id="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button id="chat-send">Send</button>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+// Piece unicode symbols (U/u = unmoved pawn, displays same as P/p)
+const PIECE_SYMBOLS = {
+  'K': '\u2654', 'Q': '\u2655', 'R': '\u2656', 'B': '\u2657', 'N': '\u2658', 'P': '\u2659', 'U': '\u2659',
+  'k': '\u265A', 'q': '\u265B', 'r': '\u265C', 'b': '\u265D', 'n': '\u265E', 'p': '\u265F', 'u': '\u265F'
+};
+
+const DISTORTION_NAMES = {
+  'slide': 'Slide (Azelf)',
+  'spin': 'Spin (Mesprit)',
+  'swap': 'Swap (Uxie)',
+  'void': 'Void (Giratina)'
+};
+
+const DISTORTION_INSTRUCTIONS = {
+  'slide': 'Select a tile to slide, then choose a direction. May push up to 2 additional tiles.',
+  'spin': 'Select a tile to rotate 90 degrees clockwise or counterclockwise.',
+  'swap': 'Select two adjacent tiles to swap their positions.',
+  'void': 'Select a tile to temporarily remove from play until the next distortion event.'
+};
+
+// ============= Game Logic (client-side) =============
+
+function createDeck() {
+  const deck = [];
+  for (let i = 0; i < 5; i++) deck.push('slide');
+  for (let i = 0; i < 3; i++) deck.push('spin');
+  for (let i = 0; i < 3; i++) deck.push('swap');
+  deck.push('void');
+  return shuffleDeck(deck);
+}
+
+function shuffleDeck(deck) {
+  const shuffled = [...deck];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function createInitialTiles() {
+  const tiles = [];
+  for (let ty = 0; ty < 3; ty++) {
+    for (let tx = 0; tx < 3; tx++) {
+      tiles.push({
+        id: ty * 3 + tx,
+        x: 1 + tx * 3,
+        y: 1 + ty * 3,
+        rotation: 0,
+        voided: false
+      });
+    }
+  }
+  return tiles;
+}
+
+function createInitialBoard() {
+  const board = {};
+  const whiteBackRow = ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'];
+  for (let x = 1; x <= 8; x++) {
+    board[`${x},1`] = whiteBackRow[x - 1];
+    board[`${x},2`] = 'U';
+  }
+  const blackBackRow = ['r', 'n', 'b', 'k', 'q', 'b', 'n', 'r'];
+  for (let x = 2; x <= 9; x++) {
+    board[`${x},9`] = blackBackRow[x - 2];
+    board[`${x},8`] = 'u';
+  }
+  return board;
+}
+
+function createBoulders() {
+  return [
+    { x: 1, y: 9 }, { x: 9, y: 1 },
+    { x: 1, y: 5 }, { x: 9, y: 5 },
+    { x: 5, y: 4 }, { x: 5, y: 6 }
+  ];
+}
+
+function createNewGame() {
+  return {
+    board: createInitialBoard(),
+    tiles: createInitialTiles(),
+    boulders: createBoulders(),
+    deck: createDeck(),
+    discard: [],
+    turn: 'white',
+    turnCount: 0,
+    phase: 'move',
+    pendingDistortion: null,
+    voidedTile: null,
+    captured: { white: [], black: [] },
+    gameOver: false,
+    winner: null,
+    lastMove: null
+  };
+}
+
+function getSquareTile(tiles, x, y) {
+  for (const tile of tiles) {
+    if (tile.voided) continue;
+    if (x >= tile.x && x < tile.x + 3 && y >= tile.y && y < tile.y + 3) {
+      return tile;
+    }
+  }
+  return null;
+}
+
+function isValidSquare(tiles, x, y) {
+  if (x < 0 || x > 10 || y < 0 || y > 10) return false;
+  return getSquareTile(tiles, x, y) !== null;
+}
+
+function isBoulderAt(boulders, x, y) {
+  return boulders.some(b => b.x === x && b.y === y);
+}
+
+function getPieceColor(piece) {
+  if (!piece) return null;
+  return piece === piece.toUpperCase() ? 'white' : 'black';
+}
+
+function getPieceType(piece) {
+  const upper = piece.toUpperCase();
+  if (upper === 'U') return 'P';
+  return upper;
+}
+
+function hasGap(tiles, x1, y1, x2, y2) {
+  const dx = Math.sign(x2 - x1);
+  const dy = Math.sign(y2 - y1);
+  let x = x1 + dx;
+  let y = y1 + dy;
+  while (x !== x2 || y !== y2) {
+    if (!getSquareTile(tiles, x, y)) return true;
+    x += dx;
+    y += dy;
+  }
+  if (!getSquareTile(tiles, x2, y2)) return true;
+  return false;
+}
+
+function findKing(game, color) {
+  const kingChar = color === 'white' ? 'K' : 'k';
+  for (const [key, piece] of Object.entries(game.board)) {
+    if (piece === kingChar) {
+      const [x, y] = key.split(',').map(Number);
+      return { x, y };
+    }
+  }
+  return null;
+}
+
+function getValidMoves(game, x, y, checkKingSafety = true) {
+  const piece = game.board[`${x},${y}`];
+  if (!piece) return [];
+  
+  const color = getPieceColor(piece);
+  const type = getPieceType(piece);
+  const moves = [];
+  
+  const tryAddMove = (tx, ty) => {
+    if (tx < 0 || tx > 10 || ty < 0 || ty > 10) return false;
+    if (!isValidSquare(game.tiles, tx, ty)) return false;
+    if (isBoulderAt(game.boulders, tx, ty)) return false;
+    
+    const targetPiece = game.board[`${tx},${ty}`];
+    if (targetPiece && getPieceColor(targetPiece) === color) return false;
+    
+    if (checkKingSafety) {
+      const testGame = JSON.parse(JSON.stringify(game));
+      testGame.board[`${tx},${ty}`] = piece;
+      delete testGame.board[`${x},${y}`];
+      if (isInCheck(testGame, color)) return false;
+    }
+    
+    moves.push({ x: tx, y: ty });
+    return !targetPiece;
+  };
+  
+  switch (type) {
+    case 'P': {
+      const dir = color === 'white' ? 1 : -1;
+      const isUnmoved = piece === 'U' || piece === 'u';
+      
+      const fy = y + dir;
+      if (isValidSquare(game.tiles, x, fy) && !game.board[`${x},${fy}`] && !isBoulderAt(game.boulders, x, fy)) {
+        if (!hasGap(game.tiles, x, y, x, fy)) {
+          let canMove = true;
+          if (checkKingSafety) {
+            const testGame = JSON.parse(JSON.stringify(game));
+            testGame.board[`${x},${fy}`] = piece;
+            delete testGame.board[`${x},${y}`];
+            if (isInCheck(testGame, color)) canMove = false;
+          }
+          if (canMove) {
+            moves.push({ x, y: fy });
+            if (isUnmoved) {
+              const fy2 = y + dir * 2;
+              if (isValidSquare(game.tiles, x, fy2) && !game.board[`${x},${fy2}`] && !isBoulderAt(game.boulders, x, fy2)) {
+                if (!hasGap(game.tiles, x, fy, x, fy2)) {
+                  let canMove2 = true;
+                  if (checkKingSafety) {
+                    const testGame = JSON.parse(JSON.stringify(game));
+                    testGame.board[`${x},${fy2}`] = piece;
+                    delete testGame.board[`${x},${y}`];
+                    if (isInCheck(testGame, color)) canMove2 = false;
+                  }
+                  if (canMove2) moves.push({ x, y: fy2 });
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      for (const cx of [x - 1, x + 1]) {
+        const cy = y + dir;
+        if (cx >= 0 && cx <= 10 && cy >= 0 && cy <= 10) {
+          if (isValidSquare(game.tiles, cx, cy) && !hasGap(game.tiles, x, y, cx, cy)) {
+            const target = game.board[`${cx},${cy}`];
+            if (target && getPieceColor(target) !== color) {
+              let canCapture = true;
+              if (checkKingSafety) {
+                const testGame = JSON.parse(JSON.stringify(game));
+                testGame.board[`${cx},${cy}`] = piece;
+                delete testGame.board[`${x},${y}`];
+                if (isInCheck(testGame, color)) canCapture = false;
+              }
+              if (canCapture) moves.push({ x: cx, y: cy });
+            }
+          }
+        }
+      }
+      break;
+    }
+    
+    case 'N': {
+      const knightMoves = [[-2,-1],[-2,1],[-1,-2],[-1,2],[1,-2],[1,2],[2,-1],[2,1]];
+      for (const [dx, dy] of knightMoves) tryAddMove(x + dx, y + dy);
+      break;
+    }
+    
+    case 'B': {
+      for (const [dx, dy] of [[-1,-1],[-1,1],[1,-1],[1,1]]) {
+        let prevX = x, prevY = y;
+        for (let i = 1; i <= 10; i++) {
+          const tx = x + dx * i, ty = y + dy * i;
+          if (tx < 0 || tx > 10 || ty < 0 || ty > 10) break;
+          if (!isValidSquare(game.tiles, tx, ty)) break;
+          if (hasGap(game.tiles, prevX, prevY, tx, ty)) break;
+          if (isBoulderAt(game.boulders, tx, ty)) break;
+          if (!tryAddMove(tx, ty)) break;
+          prevX = tx; prevY = ty;
+        }
+      }
+      break;
+    }
+    
+    case 'R': {
+      for (const [dx, dy] of [[0,-1],[0,1],[-1,0],[1,0]]) {
+        let prevX = x, prevY = y;
+        for (let i = 1; i <= 10; i++) {
+          const tx = x + dx * i, ty = y + dy * i;
+          if (tx < 0 || tx > 10 || ty < 0 || ty > 10) break;
+          if (!isValidSquare(game.tiles, tx, ty)) break;
+          if (hasGap(game.tiles, prevX, prevY, tx, ty)) break;
+          if (isBoulderAt(game.boulders, tx, ty)) break;
+          if (!tryAddMove(tx, ty)) break;
+          prevX = tx; prevY = ty;
+        }
+      }
+      break;
+    }
+    
+    case 'Q': {
+      for (const [dx, dy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[-1,1],[1,-1],[1,1]]) {
+        let blocked = false;
+        for (let i = 1; i <= 10; i++) {
+          const tx = x + dx * i, ty = y + dy * i;
+          if (tx < 0 || tx > 10 || ty < 0 || ty > 10) break;
+          if (!isValidSquare(game.tiles, tx, ty)) continue;
+          if (blocked) break;
+          if (isBoulderAt(game.boulders, tx, ty)) break;
+          if (!tryAddMove(tx, ty)) blocked = true;
+        }
+      }
+      break;
+    }
+    
+    case 'K': {
+      for (const [dx, dy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[-1,1],[1,-1],[1,1]]) {
+        const tx = x + dx, ty = y + dy;
+        if (tx >= 0 && tx <= 10 && ty >= 0 && ty <= 10) {
+          if (isValidSquare(game.tiles, tx, ty) && !hasGap(game.tiles, x, y, tx, ty)) {
+            tryAddMove(tx, ty);
+          }
+        }
+      }
+      break;
+    }
+  }
+  
+  return moves;
+}
+
+function isInCheck(game, color) {
+  const kingPos = findKing(game, color);
+  if (!kingPos) return false;
+  
+  const opponentColor = color === 'white' ? 'black' : 'white';
+  for (const [key, piece] of Object.entries(game.board)) {
+    if (getPieceColor(piece) !== opponentColor) continue;
+    const [x, y] = key.split(',').map(Number);
+    const moves = getValidMoves(game, x, y, false);
+    if (moves.some(m => m.x === kingPos.x && m.y === kingPos.y)) return true;
+  }
+  return false;
+}
+
+function hasLegalMoves(game, color) {
+  for (const [key, piece] of Object.entries(game.board)) {
+    if (getPieceColor(piece) !== color) continue;
+    const [x, y] = key.split(',').map(Number);
+    if (getValidMoves(game, x, y, true).length > 0) return true;
+  }
+  return false;
+}
+
+function checkGameEnd(game) {
+  const color = game.turn;
+  if (!hasLegalMoves(game, color)) {
+    game.gameOver = true;
+    game.winner = isInCheck(game, color) ? (color === 'white' ? 'black' : 'white') : 'draw';
+  }
+}
+
+function makeMove(game, fromX, fromY, toX, toY, promotion = null) {
+  const piece = game.board[`${fromX},${fromY}`];
+  if (!piece) return { success: false, error: 'No piece at source' };
+  
+  const color = getPieceColor(piece);
+  if (color !== game.turn) return { success: false, error: 'Not your turn' };
+  if (game.phase !== 'move') return { success: false, error: 'Waiting for distortion' };
+  
+  const validMoves = getValidMoves(game, fromX, fromY, true);
+  if (!validMoves.some(m => m.x === toX && m.y === toY)) {
+    return { success: false, error: 'Invalid move' };
+  }
+  
+  const captured = game.board[`${toX},${toY}`];
+  if (captured) {
+    if (!game.captured) game.captured = { white: [], black: [] };
+    game.captured[color].push(captured);
+  }
+  
+  let newPiece = piece;
+  if (getPieceType(piece) === 'P') {
+    if (piece === 'U') newPiece = 'P';
+    if (piece === 'u') newPiece = 'p';
+    
+    const dir = color === 'white' ? 1 : -1;
+    const aheadY = toY + dir;
+    if (!isValidSquare(game.tiles, toX, aheadY)) {
+      const promoType = promotion || 'Q';
+      newPiece = color === 'white' ? promoType : promoType.toLowerCase();
+    }
+  }
+  
+  game.board[`${toX},${toY}`] = newPiece;
+  delete game.board[`${fromX},${fromY}`];
+  
+  game.lastMove = { fromX, fromY, toX, toY, piece, captured };
+  game.turnCount++;
+  
+  if (game.turnCount % 3 === 0) {
+    if (game.voidedTile !== null) {
+      const tile = game.tiles.find(t => t.id === game.voidedTile);
+      if (tile) tile.voided = false;
+      game.voidedTile = null;
+    }
+    
+    if (game.deck.length === 0) {
+      game.deck = shuffleDeck([...game.discard]);
+      game.discard = [];
+    }
+    
+    const card = game.deck.pop();
+    game.discard.push(card);
+    game.pendingDistortion = card;
+    game.phase = 'distortion';
+  } else {
+    game.turn = game.turn === 'white' ? 'black' : 'white';
+    checkGameEnd(game);
+  }
+  
+  return { success: true };
+}
+
+function applyDistortion(game, type, params) {
+  if (game.phase !== 'distortion') return { success: false, error: 'Not in distortion phase' };
+  if (type !== game.pendingDistortion) return { success: false, error: 'Wrong distortion type' };
+  
+  switch (type) {
+    case 'slide': {
+      const { tileId, direction, distance = 3 } = params;
+      const tile = game.tiles.find(t => t.id === tileId);
+      if (!tile || tile.voided) return { success: false, error: 'Invalid tile' };
+      if (distance < 1 || distance > 3) return { success: false, error: 'Invalid distance' };
+      
+      const unitDx = direction === 'left' ? -1 : direction === 'right' ? 1 : 0;
+      const unitDy = direction === 'down' ? -1 : direction === 'up' ? 1 : 0;
+      const dx = unitDx * distance, dy = unitDy * distance;
+      
+      const tilesOverlap = (t1x, t1y, t2x, t2y) => Math.abs(t1x - t2x) < 3 && Math.abs(t1y - t2y) < 3;
+      
+      const tilesToMove = [tile];
+      const tileIdsToMove = new Set([tile.id]);
+      
+      let changed = true;
+      while (changed) {
+        changed = false;
+        for (const movingTile of [...tilesToMove]) {
+          const newX = movingTile.x + dx, newY = movingTile.y + dy;
+          if (newX < 0 || newX > 8 || newY < 0 || newY > 8) return { success: false, error: 'Off board' };
+          
+          for (const otherTile of game.tiles) {
+            if (tileIdsToMove.has(otherTile.id) || otherTile.voided) continue;
+            if (tilesOverlap(newX, newY, otherTile.x, otherTile.y)) {
+              if (tilesToMove.length >= 3) return { success: false, error: 'Too many tiles' };
+              tilesToMove.push(otherTile);
+              tileIdsToMove.add(otherTile.id);
+              changed = true;
+            }
+          }
+        }
+      }
+      
+      for (const t of tilesToMove) {
+        if (t.x + dx < 0 || t.x + dx > 8 || t.y + dy < 0 || t.y + dy > 8) {
+          return { success: false, error: 'Off board' };
+        }
+      }
+      
+      for (let i = tilesToMove.length - 1; i >= 0; i--) {
+        const t = tilesToMove[i];
+        const newPositions = {};
+        const toDelete = [];
+        
+        for (const [key, p] of Object.entries(game.board)) {
+          const [px, py] = key.split(',').map(Number);
+          if (px >= t.x && px < t.x + 3 && py >= t.y && py < t.y + 3) {
+            newPositions[`${px + dx},${py + dy}`] = p;
+            toDelete.push(key);
+          }
+        }
+        for (const key of toDelete) delete game.board[key];
+        Object.assign(game.board, newPositions);
+        
+        for (const boulder of game.boulders) {
+          if (boulder.x >= t.x && boulder.x < t.x + 3 && boulder.y >= t.y && boulder.y < t.y + 3) {
+            boulder.x += dx;
+            boulder.y += dy;
+          }
+        }
+        t.x += dx;
+        t.y += dy;
+      }
+      break;
+    }
+    
+    case 'spin': {
+      const { tileId, clockwise } = params;
+      const tile = game.tiles.find(t => t.id === tileId);
+      if (!tile || tile.voided) return { success: false, error: 'Invalid tile' };
+      
+      const centerX = tile.x + 1, centerY = tile.y + 1;
+      const rotate = (ox, oy) => {
+        const relX = ox - centerX, relY = oy - centerY;
+        return clockwise 
+          ? { x: centerX + relY, y: centerY - relX }
+          : { x: centerX - relY, y: centerY + relX };
+      };
+      
+      const newPositions = {};
+      const toDelete = [];
+      for (const [key, p] of Object.entries(game.board)) {
+        const [px, py] = key.split(',').map(Number);
+        if (px >= tile.x && px < tile.x + 3 && py >= tile.y && py < tile.y + 3) {
+          const newPos = rotate(px, py);
+          newPositions[`${newPos.x},${newPos.y}`] = p;
+          toDelete.push(key);
+        }
+      }
+      for (const key of toDelete) delete game.board[key];
+      Object.assign(game.board, newPositions);
+      
+      for (const boulder of game.boulders) {
+        if (boulder.x >= tile.x && boulder.x < tile.x + 3 && boulder.y >= tile.y && boulder.y < tile.y + 3) {
+          const newPos = rotate(boulder.x, boulder.y);
+          boulder.x = newPos.x;
+          boulder.y = newPos.y;
+        }
+      }
+      tile.rotation = (tile.rotation + (clockwise ? 90 : -90) + 360) % 360;
+      break;
+    }
+    
+    case 'swap': {
+      const { tileId1, tileId2 } = params;
+      const tile1 = game.tiles.find(t => t.id === tileId1);
+      const tile2 = game.tiles.find(t => t.id === tileId2);
+      if (!tile1 || !tile2 || tile1.voided || tile2.voided) return { success: false, error: 'Invalid tiles' };
+      
+      const dx = tile2.x - tile1.x, dy = tile2.y - tile1.y;
+      
+      const pieces1 = [], pieces2 = [];
+      for (const [key, p] of Object.entries(game.board)) {
+        const [px, py] = key.split(',').map(Number);
+        if (px >= tile1.x && px < tile1.x + 3 && py >= tile1.y && py < tile1.y + 3) {
+          pieces1.push({ x: px, y: py, piece: p });
+        } else if (px >= tile2.x && px < tile2.x + 3 && py >= tile2.y && py < tile2.y + 3) {
+          pieces2.push({ x: px, y: py, piece: p });
+        }
+      }
+      
+      for (const { x, y } of pieces1) delete game.board[`${x},${y}`];
+      for (const { x, y } of pieces2) delete game.board[`${x},${y}`];
+      for (const { x, y, piece } of pieces1) game.board[`${x + dx},${y + dy}`] = piece;
+      for (const { x, y, piece } of pieces2) game.board[`${x - dx},${y - dy}`] = piece;
+      
+      const bouldersOnTile1 = game.boulders.filter(b => b.x >= tile1.x && b.x < tile1.x + 3 && b.y >= tile1.y && b.y < tile1.y + 3);
+      const bouldersOnTile2 = game.boulders.filter(b => b.x >= tile2.x && b.x < tile2.x + 3 && b.y >= tile2.y && b.y < tile2.y + 3);
+      for (const b of bouldersOnTile1) { b.x += dx; b.y += dy; }
+      for (const b of bouldersOnTile2) { b.x -= dx; b.y -= dy; }
+      
+      [tile1.x, tile2.x] = [tile2.x, tile1.x];
+      [tile1.y, tile2.y] = [tile2.y, tile1.y];
+      break;
+    }
+    
+    case 'void': {
+      const { tileId } = params;
+      const tile = game.tiles.find(t => t.id === tileId);
+      if (!tile || tile.voided) return { success: false, error: 'Invalid tile' };
+      
+      tile.voided = true;
+      game.voidedTile = tileId;
+      game.boulders = game.boulders.filter(b => !(b.x >= tile.x && b.x < tile.x + 3 && b.y >= tile.y && b.y < tile.y + 3));
+      break;
+    }
+    
+    default:
+      return { success: false, error: 'Unknown distortion' };
+  }
+  
+  game.phase = 'move';
+  game.pendingDistortion = null;
+  game.turn = game.turn === 'white' ? 'black' : 'white';
+  checkGameEnd(game);
+  
+  return { success: true };
+}
+
+class DistortionChess {
+  constructor() {
+    this.ws = null;
+    this.game = null;
+    this.gameState = null;
+    this.selectedSquare = null;
+    this.validMoves = [];
+    this.distortionStep = 0;
+    this.distortionSelection = {};
+    this.pendingPromotion = null;
+    this.previewDistortion = null;
+    this.isCreator = false;
+    this.playerColor = null;
+    this.gameId = null;
+    this.hasOpponent = false;
+    
+    this.init();
+  }
+  
+  init() {
+    this.connectWebSocket();
+    this.setupEventListeners();
+    this.setupChatListeners();
+  }
+  
+  connectWebSocket() {
+    const urlParams = new URLSearchParams(window.location.search);
+    let gameId = urlParams.get('game');
+    const color = urlParams.get('color');
+    
+    if (!gameId) {
+      gameId = Math.random().toString(36).substring(2, 10);
+      this.isCreator = true;
+    }
+    
+    this.gameId = gameId;
+    this.playerColor = color || (this.isCreator ? 'white' : null);
+    
+    const wsUrl = `wss://ws.za3k.com/distortionchess-${gameId}`;
+    
+    this.ws = new WebSocket(wsUrl);
+    
+    this.ws.onopen = () => {
+      console.log('Connected to relay:', wsUrl);
+      
+      if (this.isCreator) {
+        this.updateUrlWithGame(gameId, 'white');
+        this.initializeNewGame();
+        this.updateInviteUrl();
+      } else if (color === 'white') {
+        this.initializeNewGame();
+        this.updateInviteUrl();
+      } else if (color === 'black') {
+        this.ws.send(JSON.stringify({ type: 'requestSync', color, sender: color }));
+        setTimeout(() => {
+          if (!this.game) {
+            console.log('No sync received, white may not be online');
+          }
+        }, 3000);
+      }
+    };
+    
+    this.ws.onmessage = (event) => {
+      const msg = JSON.parse(event.data);
+      this.handleMessage(msg);
+    };
+    
+    this.ws.onclose = () => {
+      console.log('Disconnected from relay');
+      setTimeout(() => this.connectWebSocket(), 3000);
+    };
+    
+    this.ws.onerror = (e) => {
+      console.error('WebSocket error:', e);
+    };
+  }
+  
+  initializeNewGame() {
+    this.game = createNewGame();
+    this.playerColor = 'white';
+    this.updateGameState();
+  }
+  
+  updateGameState() {
+    if (!this.game) return;
+    
+    this.gameState = {
+      board: this.game.board,
+      tiles: this.game.tiles,
+      boulders: this.game.boulders,
+      turn: this.game.turn,
+      turnCount: this.game.turnCount,
+      turnsUntilDistortion: 3 - (this.game.turnCount % 3),
+      phase: this.game.phase,
+      pendingDistortion: this.game.pendingDistortion,
+      voidedTile: this.game.voidedTile,
+      playerColor: this.playerColor,
+      captured: this.game.captured || { white: [], black: [] },
+      gameOver: this.game.gameOver,
+      winner: this.game.winner,
+      lastMove: this.game.lastMove,
+      inCheck: isInCheck(this.game, this.game.turn),
+      hasBlackPlayer: this.hasOpponent
+    };
+    
+    this.renderBoard();
+    this.renderCaptured();
+    this.updateUI();
+  }
+  
+  handleMessage(msg) {
+    if (msg.sender === this.playerColor) return;
+    
+    switch (msg.type) {
+      case 'requestSync':
+        if (this.game && this.playerColor === 'white') {
+          this.hasOpponent = true;
+          this.ws.send(JSON.stringify({
+            type: 'sync',
+            game: this.game,
+            sender: this.playerColor
+          }));
+          this.updateGameState();
+        }
+        break;
+        
+      case 'sync':
+        this.game = msg.game;
+        this.hasOpponent = true;
+        this.updateGameState();
+        break;
+        
+      case 'move':
+        if (this.game) {
+          const result = makeMove(this.game, msg.fromX, msg.fromY, msg.toX, msg.toY, msg.promotion);
+          if (result.success) {
+            this.updateGameState();
+          }
+        }
+        break;
+        
+      case 'distortion':
+        if (this.game) {
+          const result = applyDistortion(this.game, msg.distortionType, msg.params);
+          if (result.success) {
+            this.updateGameState();
+          }
+        }
+        break;
+        
+      case 'chat':
+        const senderName = msg.sender === 'white' ? 'White' : 'Black';
+        this.addChatMessage(senderName, msg.message, false);
+        break;
+    }
+  }
+  
+  renderCaptured() {
+    if (!this.gameState || !this.gameState.captured) return;
+    
+    const topCaptured = document.getElementById('captured-black');
+    topCaptured.innerHTML = '';
+    for (const piece of this.gameState.captured.black) {
+      const span = document.createElement('span');
+      span.className = 'piece white';
+      span.textContent = PIECE_SYMBOLS[piece] || piece;
+      topCaptured.appendChild(span);
+    }
+    
+    const bottomCaptured = document.getElementById('captured-white');
+    bottomCaptured.innerHTML = '';
+    for (const piece of this.gameState.captured.white) {
+      const span = document.createElement('span');
+      span.className = 'piece black';
+      span.textContent = PIECE_SYMBOLS[piece] || piece;
+      bottomCaptured.appendChild(span);
+    }
+  }
+  
+  getBaseUrl() {
+    // Keep the full pathname including the HTML file
+    return `${window.location.origin}${window.location.pathname}`;
+  }
+  
+  updateUrlWithGame(gameId, color) {
+    const fullPath = window.location.pathname;
+    window.history.replaceState({}, '', `${fullPath}?game=${gameId}&color=${color}`);
+  }
+  
+  updateInviteUrl() {
+    const baseUrl = this.getBaseUrl();
+    const url = `${baseUrl}?game=${this.gameId}&color=black`;
+    document.getElementById('invite-url').value = url;
+  }
+  
+  setupEventListeners() {
+    document.getElementById('copy-url').addEventListener('click', () => {
+      const input = document.getElementById('invite-url');
+      input.select();
+      input.setSelectionRange(0, 99999);
+      
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(input.value);
+        } else {
+          document.execCommand('copy');
+        }
+      } catch (e) {}
+    });
+  }
+  
+  setupChatListeners() {
+    const chatToggle = document.getElementById('chat-toggle');
+    const chatContainer = document.getElementById('chat-container');
+    const chatInput = document.getElementById('chat-input');
+    const chatSend = document.getElementById('chat-send');
+    
+    chatToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      chatContainer.classList.toggle('minimized');
+      chatToggle.textContent = chatContainer.classList.contains('minimized') ? '+' : '-';
+    });
+    
+    document.getElementById('chat-header').addEventListener('click', () => {
+      chatContainer.classList.toggle('minimized');
+      chatToggle.textContent = chatContainer.classList.contains('minimized') ? '+' : '-';
+    });
+    
+    const sendMessage = () => {
+      const text = chatInput.value.trim();
+      if (!text || !this.ws || this.ws.readyState !== WebSocket.OPEN) return;
+      
+      this.ws.send(JSON.stringify({
+        type: 'chat',
+        message: text,
+        sender: this.playerColor
+      }));
+      const senderName = this.playerColor === 'white' ? 'White' : 'Black';
+      this.addChatMessage(senderName, text, true);
+      chatInput.value = '';
+    };
+    
+    chatSend.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') sendMessage();
+    });
+  }
+  
+  addChatMessage(sender, text, isMine) {
+    const messagesEl = document.getElementById('chat-messages');
+    const msgEl = document.createElement('div');
+    msgEl.className = 'chat-message ' + (isMine ? 'mine' : 'theirs');
+    
+    const senderEl = document.createElement('div');
+    senderEl.className = 'sender';
+    senderEl.textContent = sender;
+    
+    const textEl = document.createElement('div');
+    textEl.className = 'text';
+    textEl.textContent = text;
+    
+    msgEl.appendChild(senderEl);
+    msgEl.appendChild(textEl);
+    messagesEl.appendChild(msgEl);
+    
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    
+    const chatContainer = document.getElementById('chat-container');
+    if (chatContainer.classList.contains('minimized') && !isMine) {
+      chatContainer.classList.add('new-message');
+      setTimeout(() => chatContainer.classList.remove('new-message'), 2000);
+    }
+  }
+  
+  getTileAt(x, y) {
+    if (!this.gameState) return null;
+    for (const tile of this.gameState.tiles) {
+      if (tile.voided) continue;
+      if (x >= tile.x && x < tile.x + 3 && y >= tile.y && y < tile.y + 3) {
+        return tile;
+      }
+    }
+    return null;
+  }
+  
+  isBoulder(x, y) {
+    if (!this.gameState) return false;
+    return this.gameState.boulders.some(b => b.x === x && b.y === y);
+  }
+  
+  isVoidedTileSquare(x, y) {
+    if (!this.gameState) return false;
+    for (const tile of this.gameState.tiles) {
+      if (tile.voided && x >= tile.x && x < tile.x + 3 && y >= tile.y && y < tile.y + 3) {
+        return true;
+      }
+    }
+    return false;
+  }
+  
+  renderBoard() {
+    const board = document.getElementById('board');
+    board.innerHTML = '';
+    
+    if (!this.gameState) return;
+    
+    for (let visualY = 10; visualY >= 0; visualY--) {
+      for (let x = 0; x <= 10; x++) {
+        const square = document.createElement('div');
+        square.className = 'square';
+        
+        const gameX = x;
+        const gameY = visualY;
+        
+        const preview = this.previewDistortion ? this.getPreviewPosition(gameX, gameY) : null;
+        const hideOriginal = preview && preview.hideOriginal;
+        
+        const tile = this.getTileAt(gameX, gameY);
+        const isVoidedSquare = this.isVoidedTileSquare(gameX, gameY);
+        
+        if (isVoidedSquare) {
+          square.classList.add('voided-tile');
+        } else if (tile && !hideOriginal) {
+          square.classList.add('tile');
+          
+          if ((gameX + gameY) % 2 === 0) {
+            square.classList.add('light');
+          } else {
+            square.classList.add('dark');
+          }
+          
+          if (gameY === tile.y + 2) square.classList.add('tile-border-top');
+          if (gameY === tile.y) square.classList.add('tile-border-bottom');
+          if (gameX === tile.x) square.classList.add('tile-border-left');
+          if (gameX === tile.x + 2) square.classList.add('tile-border-right');
+        } else if (hideOriginal) {
+          square.classList.add('void');
+        } else if (preview && preview.ghostTile) {
+          square.classList.add('ghost-tile');
+          if ((gameX + gameY) % 2 === 0) {
+            square.classList.add('light');
+          } else {
+            square.classList.add('dark');
+          }
+        } else {
+          square.classList.add('void');
+        }
+        
+        if (this.isBoulder(gameX, gameY) && !hideOriginal) {
+          square.classList.add('boulder');
+        }
+        
+        const piece = this.gameState.board[`${gameX},${gameY}`];
+        if (piece && !isVoidedSquare && !hideOriginal) {
+          const pieceEl = document.createElement('span');
+          pieceEl.className = 'piece ' + (piece === piece.toUpperCase() ? 'white' : 'black');
+          pieceEl.textContent = PIECE_SYMBOLS[piece];
+          square.appendChild(pieceEl);
+          
+          if (piece.toUpperCase() === 'K' && this.gameState.inCheck) {
+            const kingColor = piece === 'K' ? 'white' : 'black';
+            if (kingColor === this.gameState.turn) {
+              square.classList.add('check');
+            }
+          }
+        }
+        
+        if (preview) {
+          if (preview.ghostTile) {
+            if (!square.classList.contains('ghost-tile')) {
+              square.classList.add('ghost-tile');
+            }
+            
+            if (preview.boulder) {
+              square.classList.add('ghost-boulder');
+            }
+            
+            if (preview.piece) {
+              const ghostEl = document.createElement('span');
+              ghostEl.className = 'piece ghost ' + (preview.piece === preview.piece.toUpperCase() ? 'white' : 'black');
+              ghostEl.textContent = PIECE_SYMBOLS[preview.piece];
+              square.appendChild(ghostEl);
+            }
+          }
+          if (preview.willVoid) {
+            square.classList.add('will-void');
+          }
+        }
+        
+        if (this.selectedSquare && this.selectedSquare.x === gameX && this.selectedSquare.y === gameY) {
+          square.classList.add('selected');
+        }
+        
+        const isValidMove = this.validMoves.some(m => m.x === gameX && m.y === gameY);
+        if (isValidMove) {
+          if (this.gameState.board[`${gameX},${gameY}`]) {
+            square.classList.add('valid-capture');
+          } else {
+            square.classList.add('valid-move');
+          }
+        }
+        
+        if (this.gameState.lastMove) {
+          const lm = this.gameState.lastMove;
+          if ((gameX === lm.fromX && gameY === lm.fromY) || (gameX === lm.toX && gameY === lm.toY)) {
+            square.classList.add('last-move');
+          }
+        }
+        
+        if (this.gameState.phase === 'distortion' && tile && !isVoidedSquare && !hideOriginal) {
+          if (this.distortionSelection.tile1 === tile.id || this.distortionSelection.tile2 === tile.id) {
+            square.classList.add('tile-selected');
+          }
+        }
+        
+        square.dataset.x = gameX;
+        square.dataset.y = gameY;
+        square.addEventListener('click', (e) => this.handleSquareClick(gameX, gameY));
+        
+        board.appendChild(square);
+      }
+    }
+  }
+  
+  handleSquareClick(x, y) {
+    if (!this.gameState || this.gameState.gameOver) return;
+    
+    if (this.gameState.phase === 'distortion') {
+      this.handleDistortionClick(x, y);
+      return;
+    }
+    
+    if (this.gameState.playerColor !== this.gameState.turn) return;
+    
+    const tile = this.getTileAt(x, y);
+    if (!tile) return;
+    
+    const piece = this.gameState.board[`${x},${y}`];
+    const pieceColor = piece ? (piece === piece.toUpperCase() ? 'white' : 'black') : null;
+    
+    if (piece && pieceColor === this.gameState.playerColor) {
+      if (this.selectedSquare && this.selectedSquare.x === x && this.selectedSquare.y === y) {
+        this.selectedSquare = null;
+        this.validMoves = [];
+        this.renderBoard();
+      } else {
+        this.selectedSquare = { x, y };
+        this.validMoves = getValidMoves(this.game, x, y, true);
+        this.renderBoard();
+      }
+      return;
+    }
+    
+    if (this.selectedSquare && this.validMoves.some(m => m.x === x && m.y === y)) {
+      const movingPiece = this.gameState.board[`${this.selectedSquare.x},${this.selectedSquare.y}`];
+      const isPawn = movingPiece && (movingPiece.toUpperCase() === 'P' || movingPiece.toUpperCase() === 'U');
+      
+      if (isPawn) {
+        const dir = this.gameState.playerColor === 'white' ? 1 : -1;
+        const aheadY = y + dir;
+        const canAdvanceFurther = this.getTileAt(x, aheadY) !== null;
+        
+        if (!canAdvanceFurther) {
+          this.pendingPromotion = { fromX: this.selectedSquare.x, fromY: this.selectedSquare.y, toX: x, toY: y };
+          this.showPromotionDialog();
+          return;
+        }
+      }
+      
+      this.sendMove(this.selectedSquare.x, this.selectedSquare.y, x, y);
+      return;
+    }
+    
+    this.selectedSquare = null;
+    this.validMoves = [];
+    this.renderBoard();
+  }
+  
+  handleDistortionClick(x, y) {
+    if (this.gameState.playerColor !== this.gameState.turn) return;
+    
+    const tile = this.getTileAt(x, y);
+    if (!tile) return;
+    
+    const distType = this.gameState.pendingDistortion;
+    
+    switch (distType) {
+      case 'slide':
+      case 'spin':
+      case 'void':
+        if (this.distortionSelection.tile1 === tile.id) {
+          this.distortionSelection = {};
+          this.previewDistortion = null;
+        } else {
+          this.distortionSelection.tile1 = tile.id;
+        }
+        this.renderBoard();
+        this.updateDistortionControls();
+        break;
+        
+      case 'swap':
+        if (this.distortionSelection.tile1 === undefined) {
+          this.distortionSelection.tile1 = tile.id;
+        } else if (this.distortionSelection.tile1 === tile.id) {
+          this.distortionSelection = {};
+          this.previewDistortion = null;
+        } else if (this.distortionSelection.tile2 === tile.id) {
+          this.distortionSelection.tile2 = undefined;
+          this.previewDistortion = null;
+        } else {
+          const tile1 = this.gameState.tiles.find(t => t.id === this.distortionSelection.tile1);
+          if (this.isSwapValid(tile1, tile)) {
+            this.distortionSelection.tile2 = tile.id;
+            this.previewDistortion = { type: 'swap', tileId1: tile1.id, tileId2: tile.id };
+          }
+        }
+        this.renderBoard();
+        this.updateDistortionControls();
+        break;
+    }
+  }
+  
+  sendMove(fromX, fromY, toX, toY, promotion = null) {
+    this.selectedSquare = null;
+    this.validMoves = [];
+    
+    const result = makeMove(this.game, fromX, fromY, toX, toY, promotion);
+    if (result.success) {
+      this.ws.send(JSON.stringify({
+        type: 'move',
+        fromX, fromY, toX, toY,
+        promotion,
+        sender: this.playerColor
+      }));
+      this.updateGameState();
+    } else {
+      console.error('Move failed:', result.error);
+    }
+  }
+  
+  showPromotionDialog() {
+    const dialog = document.getElementById('promotion-dialog');
+    const options = document.getElementById('promotion-options');
+    options.innerHTML = '';
+    
+    const pieces = ['Q', 'R', 'B', 'N'];
+    const color = this.gameState.playerColor;
+    
+    pieces.forEach(p => {
+      const btn = document.createElement('button');
+      const symbol = color === 'white' ? PIECE_SYMBOLS[p] : PIECE_SYMBOLS[p.toLowerCase()];
+      btn.textContent = symbol;
+      btn.addEventListener('click', () => {
+        const promo = this.pendingPromotion;
+        this.sendMove(promo.fromX, promo.fromY, promo.toX, promo.toY, p);
+        this.pendingPromotion = null;
+        dialog.classList.add('hidden');
+      });
+      options.appendChild(btn);
+    });
+    
+    dialog.classList.remove('hidden');
+  }
+  
+  sendDistortion(params) {
+    const distType = this.gameState.pendingDistortion;
+    const result = applyDistortion(this.game, distType, params);
+    if (result.success) {
+      this.ws.send(JSON.stringify({
+        type: 'distortion',
+        distortionType: distType,
+        params,
+        sender: this.playerColor
+      }));
+      this.updateGameState();
+    } else {
+      console.error('Distortion failed:', result.error);
+    }
+    this.distortionStep = 0;
+    this.distortionSelection = {};
+    this.previewDistortion = null;
+  }
+  
+  updateUI() {
+    if (!this.gameState) return;
+    
+    const isMyTurn = this.gameState.playerColor === this.gameState.turn;
+    
+    const turnEl = document.getElementById('turn-indicator');
+    if (isMyTurn) {
+      turnEl.textContent = 'YOUR TURN';
+      turnEl.className = this.gameState.turn + ' my-turn';
+    } else {
+      turnEl.textContent = `${this.gameState.turn.charAt(0).toUpperCase() + this.gameState.turn.slice(1)}'s Turn`;
+      turnEl.className = this.gameState.turn;
+    }
+    
+    const counterEl = document.getElementById('distortion-counter');
+    counterEl.textContent = `Distortion in ${this.gameState.turnsUntilDistortion} turn${this.gameState.turnsUntilDistortion !== 1 ? 's' : ''}`;
+    
+    const colorEl = document.getElementById('player-color');
+    if (this.gameState.playerColor) {
+      colorEl.textContent = `Playing as ${this.gameState.playerColor.charAt(0).toUpperCase() + this.gameState.playerColor.slice(1)}`;
+    } else {
+      colorEl.textContent = 'Spectating';
+    }
+    
+    const statusEl = document.getElementById('game-status');
+    if (this.gameState.phase === 'distortion') {
+      if (isMyTurn) {
+        statusEl.textContent = `Distortion Event: ${DISTORTION_NAMES[this.gameState.pendingDistortion]}`;
+      } else {
+        statusEl.textContent = `Distortion Event (waiting for opponent)`;
+      }
+    } else if (isMyTurn) {
+      statusEl.textContent = 'Your turn to move';
+    } else {
+      statusEl.textContent = 'Waiting for opponent...';
+    }
+    
+    const invitePanel = document.getElementById('invite-panel');
+    if (this.gameState.playerColor === 'black' || this.gameState.hasBlackPlayer) {
+      invitePanel.classList.add('hidden');
+    } else {
+      invitePanel.classList.remove('hidden');
+    }
+    
+    const checkEl = document.getElementById('check-indicator');
+    if (this.gameState.inCheck) {
+      checkEl.textContent = 'CHECK!';
+    } else {
+      checkEl.textContent = '';
+    }
+    
+    const distPanel = document.getElementById('distortion-panel');
+    if (this.gameState.phase === 'distortion') {
+      distPanel.classList.remove('hidden');
+      if (isMyTurn) {
+        document.getElementById('distortion-card').textContent = DISTORTION_NAMES[this.gameState.pendingDistortion];
+        document.getElementById('distortion-instructions').textContent = DISTORTION_INSTRUCTIONS[this.gameState.pendingDistortion];
+        if (!this._updatingControls) {
+          this._updatingControls = true;
+          this.updateDistortionControls();
+          this._updatingControls = false;
+        }
+      } else {
+        document.getElementById('distortion-card').textContent = DISTORTION_NAMES[this.gameState.pendingDistortion];
+        document.getElementById('distortion-instructions').textContent = 'Waiting for opponent to choose...';
+        document.getElementById('distortion-controls').innerHTML = '';
+      }
+    } else {
+      distPanel.classList.add('hidden');
+      this.distortionSelection = {};
+    }
+    
+    if (this.gameState.gameOver) {
+      this.showGameOver();
+    }
+  }
+  
+  isSlideValid(tile, direction, distance) {
+    const unitDx = direction === 'left' ? -1 : direction === 'right' ? 1 : 0;
+    const unitDy = direction === 'down' ? -1 : direction === 'up' ? 1 : 0;
+    const dx = unitDx * distance;
+    const dy = unitDy * distance;
+    
+    const newX = tile.x + dx;
+    const newY = tile.y + dy;
+    if (newX < 0 || newX > 8 || newY < 0 || newY > 8) return false;
+    
+    const tilesToMove = [tile];
+    const tileIdsToMove = new Set([tile.id]);
+    
+    let changed = true;
+    while (changed) {
+      changed = false;
+      for (const movingTile of [...tilesToMove]) {
+        const mtNewX = movingTile.x + dx;
+        const mtNewY = movingTile.y + dy;
+        
+        if (mtNewX < 0 || mtNewX > 8 || mtNewY < 0 || mtNewY > 8) return false;
+        
+        for (const t of this.gameState.tiles) {
+          if (tileIdsToMove.has(t.id) || t.voided) continue;
+          if (Math.abs(mtNewX - t.x) < 3 && Math.abs(mtNewY - t.y) < 3) {
+            if (tilesToMove.length >= 3) return false;
+            tilesToMove.push(t);
+            tileIdsToMove.add(t.id);
+            changed = true;
+          }
+        }
+      }
+    }
+    
+    for (const t of tilesToMove) {
+      const finalX = t.x + dx;
+      const finalY = t.y + dy;
+      if (finalX < 0 || finalX > 8 || finalY < 0 || finalY > 8) return false;
+    }
+    
+    return true;
+  }
+  
+  isSwapValid(tile1, tile2) {
+    const t1Right = tile1.x + 3, t2Right = tile2.x + 3;
+    const t1Top = tile1.y + 3, t2Top = tile2.y + 3;
+    
+    const sharesVerticalEdge = (t1Right === tile2.x || t2Right === tile1.x) &&
+                                (tile1.y < t2Top && tile2.y < t1Top);
+    const sharesHorizontalEdge = (t1Top === tile2.y || t2Top === tile1.y) &&
+                                  (tile1.x < t2Right && tile2.x < t1Right);
+    
+    return sharesVerticalEdge || sharesHorizontalEdge;
+  }
+  
+  getSlideTiles(tile, direction, distance) {
+    const unitDx = direction === 'left' ? -1 : direction === 'right' ? 1 : 0;
+    const unitDy = direction === 'down' ? -1 : direction === 'up' ? 1 : 0;
+    const dx = unitDx * distance;
+    const dy = unitDy * distance;
+    
+    const tilesToMove = [tile];
+    const tileIdsToMove = new Set([tile.id]);
+    
+    let changed = true;
+    while (changed) {
+      changed = false;
+      for (const movingTile of [...tilesToMove]) {
+        const mtNewX = movingTile.x + dx;
+        const mtNewY = movingTile.y + dy;
+        
+        for (const t of this.gameState.tiles) {
+          if (tileIdsToMove.has(t.id) || t.voided) continue;
+          if (Math.abs(mtNewX - t.x) < 3 && Math.abs(mtNewY - t.y) < 3) {
+            tilesToMove.push(t);
+            tileIdsToMove.add(t.id);
+            changed = true;
+          }
+        }
+      }
+    }
+    return { tiles: tilesToMove, dx, dy };
+  }
+  
+  getPreviewPosition(x, y) {
+    if (!this.previewDistortion) return null;
+    
+    const preview = this.previewDistortion;
+    
+    if (preview.type === 'slide') {
+      const tile = this.gameState.tiles.find(t => t.id === preview.tileId);
+      if (!tile) return null;
+      
+      const { tiles: tilesToMove, dx, dy } = this.getSlideTiles(tile, preview.direction, preview.distance);
+      
+      let inOriginal = false;
+      for (const t of tilesToMove) {
+        if (x >= t.x && x < t.x + 3 && y >= t.y && y < t.y + 3) {
+          inOriginal = true;
+          break;
+        }
+      }
+      
+      for (const t of tilesToMove) {
+        const newTileX = t.x + dx;
+        const newTileY = t.y + dy;
+        if (x >= newTileX && x < newTileX + 3 && y >= newTileY && y < newTileY + 3) {
+          const origX = x - dx;
+          const origY = y - dy;
+          const piece = this.gameState.board[`${origX},${origY}`];
+          const boulder = this.gameState.boulders.find(b => b.x === origX && b.y === origY);
+          return { ghostTile: true, piece, boulder, hideOriginal: true };
+        }
+      }
+      
+      if (inOriginal) {
+        return { hideOriginal: true };
+      }
+    }
+    
+    if (preview.type === 'spin') {
+      const tile = this.gameState.tiles.find(t => t.id === preview.tileId);
+      if (!tile) return null;
+      
+      if (x >= tile.x && x < tile.x + 3 && y >= tile.y && y < tile.y + 3) {
+        const centerX = tile.x + 1;
+        const centerY = tile.y + 1;
+        const relX = x - centerX;
+        const relY = y - centerY;
+        
+        let origX, origY;
+        if (preview.clockwise) {
+          origX = centerX - relY;
+          origY = centerY + relX;
+        } else {
+          origX = centerX + relY;
+          origY = centerY - relX;
+        }
+        
+        const piece = this.gameState.board[`${origX},${origY}`];
+        const boulder = this.gameState.boulders.find(b => b.x === origX && b.y === origY);
+        return { ghostTile: true, piece, boulder, hideOriginal: true };
+      }
+    }
+    
+    if (preview.type === 'swap') {
+      const tile1 = this.gameState.tiles.find(t => t.id === preview.tileId1);
+      const tile2 = this.gameState.tiles.find(t => t.id === preview.tileId2);
+      if (!tile1 || !tile2) return null;
+      
+      const dx = tile2.x - tile1.x;
+      const dy = tile2.y - tile1.y;
+      
+      if (x >= tile1.x && x < tile1.x + 3 && y >= tile1.y && y < tile1.y + 3) {
+        const origX = x + dx;
+        const origY = y + dy;
+        const piece = this.gameState.board[`${origX},${origY}`];
+        const boulder = this.gameState.boulders.find(b => b.x === origX && b.y === origY);
+        return { ghostTile: true, piece, boulder, hideOriginal: true };
+      }
+      
+      if (x >= tile2.x && x < tile2.x + 3 && y >= tile2.y && y < tile2.y + 3) {
+        const origX = x - dx;
+        const origY = y - dy;
+        const piece = this.gameState.board[`${origX},${origY}`];
+        const boulder = this.gameState.boulders.find(b => b.x === origX && b.y === origY);
+        return { ghostTile: true, piece, boulder, hideOriginal: true };
+      }
+    }
+    
+    if (preview.type === 'void') {
+      const tile = this.gameState.tiles.find(t => t.id === preview.tileId);
+      if (tile && x >= tile.x && x < tile.x + 3 && y >= tile.y && y < tile.y + 3) {
+        return { willVoid: true };
+      }
+    }
+    
+    return null;
+  }
+
+  updateDistortionControls() {
+    const controls = document.getElementById('distortion-controls');
+    controls.innerHTML = '';
+    
+    const distType = this.gameState.pendingDistortion;
+    const hasTile1 = this.distortionSelection.tile1 !== undefined;
+    const hasTile2 = this.distortionSelection.tile2 !== undefined;
+    
+    switch (distType) {
+      case 'slide':
+        if (hasTile1) {
+          const tile = this.gameState.tiles.find(t => t.id === this.distortionSelection.tile1);
+          ['up', 'down', 'left', 'right'].forEach(dir => {
+            const dirDiv = document.createElement('div');
+            dirDiv.className = 'direction-group';
+            dirDiv.innerHTML = `<span>${dir.charAt(0).toUpperCase() + dir.slice(1)}:</span>`;
+            [1, 2, 3].forEach(dist => {
+              const btn = document.createElement('button');
+              btn.textContent = dist;
+              btn.className = 'dist-btn';
+              
+              const valid = this.isSlideValid(tile, dir, dist);
+              if (!valid) {
+                btn.disabled = true;
+                btn.classList.add('disabled');
+              } else {
+                btn.addEventListener('mouseenter', () => {
+                  this.previewDistortion = { type: 'slide', tileId: tile.id, direction: dir, distance: dist };
+                  this.renderBoard();
+                });
+                btn.addEventListener('mouseleave', () => {
+                  this.previewDistortion = null;
+                  this.renderBoard();
+                });
+                btn.addEventListener('click', () => {
+                  this.sendDistortion({ tileId: tile.id, direction: dir, distance: dist });
+                });
+              }
+              dirDiv.appendChild(btn);
+            });
+            controls.appendChild(dirDiv);
+          });
+        } else {
+          controls.innerHTML = '<p>Click a tile to select it</p>';
+        }
+        break;
+        
+      case 'spin':
+        if (hasTile1) {
+          const tile = this.gameState.tiles.find(t => t.id === this.distortionSelection.tile1);
+          
+          const cwBtn = document.createElement('button');
+          cwBtn.textContent = 'Clockwise';
+          cwBtn.addEventListener('mouseenter', () => {
+            this.previewDistortion = { type: 'spin', tileId: tile.id, clockwise: true };
+            this.renderBoard();
+          });
+          cwBtn.addEventListener('mouseleave', () => {
+            this.previewDistortion = null;
+            this.renderBoard();
+          });
+          cwBtn.addEventListener('click', () => {
+            this.sendDistortion({ tileId: tile.id, clockwise: true });
+          });
+          controls.appendChild(cwBtn);
+          
+          const ccwBtn = document.createElement('button');
+          ccwBtn.textContent = 'Counter-CW';
+          ccwBtn.addEventListener('mouseenter', () => {
+            this.previewDistortion = { type: 'spin', tileId: tile.id, clockwise: false };
+            this.renderBoard();
+          });
+          ccwBtn.addEventListener('mouseleave', () => {
+            this.previewDistortion = null;
+            this.renderBoard();
+          });
+          ccwBtn.addEventListener('click', () => {
+            this.sendDistortion({ tileId: tile.id, clockwise: false });
+          });
+          controls.appendChild(ccwBtn);
+        } else {
+          controls.innerHTML = '<p>Click a tile to select it</p>';
+        }
+        break;
+        
+      case 'swap':
+        if (hasTile1 && hasTile2) {
+          const tile1 = this.gameState.tiles.find(t => t.id === this.distortionSelection.tile1);
+          const tile2 = this.gameState.tiles.find(t => t.id === this.distortionSelection.tile2);
+          if (this.isSwapValid(tile1, tile2)) {
+            this.previewDistortion = { type: 'swap', tileId1: tile1.id, tileId2: tile2.id };
+            this.renderBoard();
+            
+            controls.innerHTML = '<p>Swapping tiles ' + (tile1.id + 1) + ' and ' + (tile2.id + 1) + '</p>';
+            const submitBtn = document.createElement('button');
+            submitBtn.textContent = 'Confirm Swap';
+            submitBtn.className = 'submit-btn';
+            submitBtn.addEventListener('click', () => {
+              const t1 = tile1.id, t2 = tile2.id;
+              this.distortionSelection = {};
+              this.previewDistortion = null;
+              this.sendDistortion({ tileId1: t1, tileId2: t2 });
+            });
+            controls.appendChild(submitBtn);
+          } else {
+            controls.innerHTML = '<p>Tiles not adjacent. Click a different tile.</p>';
+            this.distortionSelection.tile2 = undefined;
+          }
+        } else if (hasTile1) {
+          controls.innerHTML = '<p>Click another tile to swap with</p>';
+        } else {
+          controls.innerHTML = '<p>Click a tile to select it</p>';
+        }
+        break;
+        
+      case 'void':
+        if (hasTile1) {
+          this.sendDistortion({ tileId: this.distortionSelection.tile1 });
+        } else {
+          controls.innerHTML = '<p>Click a tile to void it</p>';
+        }
+        break;
+    }
+  }
+  
+  showGameOver() {
+    const existing = document.querySelector('.game-over-overlay');
+    if (existing) existing.remove();
+    
+    const overlay = document.createElement('div');
+    overlay.className = 'game-over-overlay';
+    
+    const content = document.createElement('div');
+    content.className = 'game-over-content';
+    
+    const title = document.createElement('h2');
+    if (this.gameState.winner === 'draw') {
+      title.textContent = 'Stalemate!';
+    } else {
+      title.textContent = 'Checkmate!';
+    }
+    
+    const message = document.createElement('p');
+    if (this.gameState.winner === 'draw') {
+      message.textContent = 'The game is a draw.';
+    } else {
+      const winner = this.gameState.winner.charAt(0).toUpperCase() + this.gameState.winner.slice(1);
+      message.textContent = `${winner} wins!`;
+    }
+    
+    const btn = document.createElement('button');
+    btn.textContent = 'New Game';
+    btn.addEventListener('click', () => {
+      window.location.href = this.getBaseUrl();
+    });
+    
+    content.appendChild(title);
+    content.appendChild(message);
+    content.appendChild(btn);
+    overlay.appendChild(content);
+    document.body.appendChild(overlay);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  new DistortionChess();
+});
+  </script>
+  <footer style="text-align: center; padding: 20px; margin-top: 20px; opacity: 0.6; font-size: 0.9em;">
+    Created by Claude (Anthropic) with human collaboration, March 2026. Original by <a href="https://www.youtube.com/@ZaneGamesss">ZaneGames</a>.
+  </footer>
+</body>
+</html>
