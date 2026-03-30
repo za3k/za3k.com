@@ -1,3 +1,5 @@
+// This is just UI logic -- no hints here
+
 // Canvas setup
 const canvas = document.getElementById('hive');
 const ctx = canvas.getContext('2d');

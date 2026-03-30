@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Reading this will not help you -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🐝</title>
@@ -42,15 +43,12 @@
 
     <script src="bee-renderer.js"></script>
     <script>
-        // Entry and exit points
         const P0 = {x: -50, y: -50};
         const P1 = {x: 700, y: -50};
         
-        // Create 11 bees
         const bees = [];
         for (let i = 0; i < 11; i++) bees.push(new Bee());
         
-        // Bee 0
         bees[0].teleportTo(P0);
         bees[0].flyTo({x: 215, y: 225});
         bees[0].waggleTo({x: 215, y: 425}); bees[0].rotateTo({x: 215, y: 225}, true);
@@ -59,7 +57,6 @@
         bees[0].waggleTo({x: 215, y: 425});
         bees[0].flyTo(P1);
         
-        // Bee 1
         bees[1].teleportTo(P0);
         bees[1].flyTo({x: 530, y: 294});
         bees[1].waggleTo({x: 340, y: 356}); bees[1].rotateTo({x: 530, y: 294}, true);
@@ -68,7 +65,6 @@
         bees[1].waggleTo({x: 340, y: 356});
         bees[1].flyTo(P1);
         
-        // Bee 2
         bees[2].teleportTo(P0);
         bees[2].flyTo({x: 274, y: 406});
         bees[2].waggleTo({x: 156, y: 244}); bees[2].rotateTo({x: 274, y: 406}, true);
@@ -77,7 +73,6 @@
         bees[2].waggleTo({x: 156, y: 244});
         bees[2].flyTo(P1);
         
-        // Bee 3
         bees[3].teleportTo(P0);
         bees[3].flyTo({x: 376, y: 406});
         bees[3].waggleTo({x: 494, y: 244}); bees[3].rotateTo({x: 376, y: 406}, true);
@@ -86,7 +81,6 @@
         bees[3].waggleTo({x: 494, y: 244});
         bees[3].flyTo(P1);
         
-        // Bee 4
         bees[4].teleportTo(P0);
         bees[4].flyTo({x: 120, y: 294});
         bees[4].waggleTo({x: 310, y: 356}); bees[4].rotateTo({x: 120, y: 294}, true);
@@ -95,7 +89,6 @@
         bees[4].waggleTo({x: 310, y: 356});
         bees[4].flyTo(P1);
         
-        // Bee 5
         bees[5].teleportTo(P0);
         bees[5].flyTo({x: 435, y: 225});
         bees[5].waggleTo({x: 435, y: 425}); bees[5].rotateTo({x: 435, y: 225}, true);
@@ -104,7 +97,6 @@
         bees[5].waggleTo({x: 435, y: 425});
         bees[5].flyTo(P1);
         
-        // Bee 6
         bees[6].teleportTo(P0);
         bees[6].flyTo({x: 274, y: 406});
         bees[6].waggleTo({x: 156, y: 244}); bees[6].rotateTo({x: 274, y: 406}, true);
@@ -113,7 +105,6 @@
         bees[6].waggleTo({x: 156, y: 244});
         bees[6].flyTo(P1);
         
-        // Bee 7
         bees[7].teleportTo(P0);
         bees[7].flyTo({x: 340, y: 294});
         bees[7].waggleTo({x: 530, y: 356}); bees[7].rotateTo({x: 340, y: 294}, true);
@@ -122,7 +113,6 @@
         bees[7].waggleTo({x: 530, y: 356});
         bees[7].flyTo(P1);
         
-        // Bee 8
         bees[8].teleportTo(P0);
         bees[8].flyTo({x: 310, y: 294});
         bees[8].waggleTo({x: 120, y: 356}); bees[8].rotateTo({x: 310, y: 294}, true);
@@ -131,7 +121,6 @@
         bees[8].waggleTo({x: 120, y: 356});
         bees[8].flyTo(P1);
         
-        // Bee 9
         bees[9].teleportTo(P0);
         bees[9].flyTo({x: 376, y: 406});
         bees[9].waggleTo({x: 494, y: 244}); bees[9].rotateTo({x: 376, y: 406}, true);
@@ -140,7 +129,6 @@
         bees[9].waggleTo({x: 494, y: 244});
         bees[9].flyTo(P1);
         
-        // Bee 10
         bees[10].teleportTo(P0);
         bees[10].flyTo({x: 215, y: 225});
         bees[10].waggleTo({x: 215, y: 425}); bees[10].rotateTo({x: 215, y: 225}, true);
@@ -149,7 +137,6 @@
         bees[10].waggleTo({x: 215, y: 425});
         bees[10].flyTo(P1);
         
-        // Timing
         bees[0].setStartDelay(0);
         bees[1].setStartDelay(1538);
         bees[2].setStartDelay(3075);
